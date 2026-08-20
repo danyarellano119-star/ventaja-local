@@ -33,6 +33,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import europa
 import simular
 import aciertos as mod_aciertos
+import escudos as mod_escudos
 
 RAIZ = Path(__file__).resolve().parent.parent
 WEB = RAIZ / "web"
@@ -784,6 +785,14 @@ def main() -> None:
         print("    sin datos europeos disponibles")
         if previo_europa:
             salida["europa"] = previo_europa
+
+    # Escudos: los que el repositorio no tenga se quedan sin entrada y la web
+    # les pinta su distintivo de colores.
+    print("")
+    print("Escudos")
+    salida["escudos"] = mod_escudos.mapear(salida["ligas"])
+    total_eq = sum(len(lg["equipos"]) for lg in salida["ligas"].values())
+    print(f"    {len(salida['escudos'])} de {total_eq} equipos con escudo")
 
     JSON_SALIDA.write_text(json.dumps(salida, ensure_ascii=False, separators=(",", ":")),
                            encoding="utf-8")

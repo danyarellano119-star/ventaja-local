@@ -529,6 +529,21 @@ table.matriz td.top { outline: 2px solid var(--visita); outline-offset: -2px; fo
 }
 .escudo.grande { width: 38px; height: 38px; font-size: 14px; border-radius: 9px; }
 
+/* El escudo se superpone al distintivo de colores: si la imagen no carga,
+   queda a la vista el de debajo en lugar de un hueco. */
+.escudo-caja {
+  position: relative; width: 26px; height: 26px; flex-shrink: 0;
+  display: inline-block; vertical-align: middle;
+}
+.escudo-caja.grande { width: 38px; height: 38px; }
+.escudo-caja .escudo { position: absolute; inset: 0; width: 100%; height: 100%; }
+.escudo-caja img {
+  position: absolute; inset: 0; width: 100%; height: 100%;
+  object-fit: contain; background: var(--surface); border-radius: 7px;
+  padding: 1px;
+}
+.escudo-caja.grande img { border-radius: 9px; padding: 2px; }
+
 /* ── Favoritos ────────────────────────────────────────────────────────── */
 .estrella {
   background: none; border: none; cursor: pointer; padding: 4px;
@@ -1878,8 +1893,18 @@ function escudo(nombre, grande = false) {
     texto = "#fff";
   }
 
-  return `<span class="escudo${grande ? " grande" : ""}" aria-hidden="true"
+  // Si hay escudo del club se muestra; si la imagen falla, queda el distintivo
+  // de colores debajo, así que nunca se ve un hueco.
+  const url = (D.escudos || {})[nombre];
+  const insignia = `<span class="escudo${grande ? " grande" : ""}" aria-hidden="true"
     style="background:${fondo};color:${texto}">${iniciales}</span>`;
+
+  if (!url) return insignia;
+  return `<span class="escudo-caja${grande ? " grande" : ""}">
+      ${insignia}
+      <img src="${url}" alt="" loading="lazy" decoding="async"
+        onerror="this.remove()">
+    </span>`;
 }
 
 /* ── Direcciones: cada vista tiene la suya ────────────────────────────── */
