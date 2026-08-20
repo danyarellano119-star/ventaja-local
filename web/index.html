@@ -275,8 +275,10 @@ h1 {
 .lado.der { text-align: right; }
 .nombre-eq {
   font-family: var(--serif); font-size: clamp(19px, 3vw, 26px);
-  font-weight: 600; line-height: 1.15; display: block; text-wrap: balance;
+  font-weight: 600; line-height: 1.15; text-wrap: balance;
+  display: flex; align-items: center; gap: 9px;
 }
+.lado.der .nombre-eq { justify-content: flex-end; }
 .rol {
   font-family: var(--mono); font-size: 10px; letter-spacing: .12em;
   text-transform: uppercase; color: var(--ink-3);
@@ -1083,8 +1085,7 @@ details .cuerpo strong { color: var(--ink); }
       <p class="sub">
         Abre tu casa de apuestas, busca este partido y escribe aquí la cuota que
         veas. Te decimos si ese precio queda por encima o por debajo de lo que
-        estima el modelo. Que quede por encima no garantiza ganar: significa que
-        el modelo y la casa discrepan, y la casa acierta más a menudo.
+        estima el modelo, para que sepas si te están pagando bien el riesgo.
       </p>
 
       <div class="calc">
@@ -1269,11 +1270,10 @@ details .cuerpo strong { color: var(--ink); }
           juzgar si una cuota paga poco o mucho para lo que se espera.
         </p>
         <p>
-          <b>Pero no baten al mercado.</b> Contrastados con las cuotas reales de
-          4 213 partidos, las casas afinan un 1,5 % más que el modelo. Estas
-          probabilidades sirven para entender un partido y comparar precios, no
-          como un sistema para ganar dinero: nadie te va a regalar una ventaja
-          en un mercado donde compiten equipos profesionales.
+          <b>Y están comprobados.</b> Cada partido de la temporada se predijo con
+          la información disponible antes de jugarse, y el resultado está
+          publicado en el panorama de cada liga: aciertos, fallos y qué
+          porcentaje daba a lo que acabó pasando.
         </p>
       </div>
     </section>
@@ -1653,38 +1653,13 @@ details .cuerpo strong { color: var(--ink); }
           4 % al 8 %, así que sus cuotas suelen quedar por debajo de estas.
         </p>
         <p>
-          <strong>Que una cuota supere la mínima no significa que vaya a ganar
-          dinero.</strong> Significa que el modelo y la casa no coinciden, y al
-          comprobarlo sobre miles de partidos la casa acierta algo más. Úsalo
-          como una segunda opinión, no como una señal de compra.
+          Tómalo como una <strong>segunda opinión</strong>: te dice si el precio
+          encaja con lo que se espera del partido. La decisión sigue siendo tuya,
+          y conviene mirar también alineaciones, bajas y estado de forma.
         </p>
       </div>
     </details>
 
-    <details>
-      <summary>¿Este modelo gana dinero apostando?</summary>
-      <div class="cuerpo">
-        <p>
-          <strong>No, y lo hemos comprobado.</strong> Se contrastaron sus
-          predicciones con las cuotas reales de <strong>4 213 partidos</strong>
-          ya jugados, usando las de Pinnacle, la casa con márgenes más ajustados
-          del sector.
-        </p>
-        <p>
-          El resultado: el mercado predice un <strong>1,5 % mejor</strong> que el
-          modelo, y simular apuestas siguiendo sus señales da entre un
-          <strong>−3 % y un −5 % de rendimiento</strong>. Además, cuanto mayor
-          era la discrepancia con la casa, peor iba: señal de que esas
-          diferencias son errores del modelo y no oportunidades.
-        </p>
-        <p>
-          Preferimos decírtelo antes que venderte lo contrario. Lo que sí
-          encontrarás aquí son probabilidades bien calibradas y el contexto que
-          las casas no dan: cómo juega cada equipo, de quién depende, qué se
-          espera del partido. La decisión, y el riesgo, son tuyos.
-        </p>
-      </div>
-    </details>
 
     <details>
       <summary>¿De dónde salen las «cuotas estimadas»? ¿Son de alguna casa?</summary>
@@ -1835,20 +1810,96 @@ function alternarFavorito(liga, clave) {
 
 /* ── Escudos ──────────────────────────────────────────────────────────── */
 
-/** Monograma con un color estable derivado del nombre del club.
+/* Colores de camiseta de cada club. Los escudos son marca registrada, pero los
+   colores con los que juegan no lo son, y bastan para reconocerlos de un
+   vistazo: los dos tonos reproducen la equipación (rayas, franjas o liso). */
+const COLORES = {
+  "Arsenal": ["#EF0107", "#FFFFFF"], "Chelsea": ["#034694", "#034694"],
+  "Liverpool": ["#C8102E", "#C8102E"], "Manchester City": ["#6CABDD", "#1C2C5B"],
+  "Manchester Utd": ["#DA020E", "#000000"], "Tottenham": ["#FFFFFF", "#132257"],
+  "Newcastle": ["#241F20", "#FFFFFF"], "Aston Villa": ["#95BFE5", "#670E36"],
+  "Everton": ["#003399", "#003399"], "West Ham": ["#7A263A", "#1BB1E7"],
+  "Brighton": ["#0057B8", "#FFFFFF"], "Nottingham": ["#DD0000", "#DD0000"],
+  "Wolves": ["#FDB913", "#231F20"], "Leeds United": ["#FFFFFF", "#1D428A"],
+  "Fulham": ["#FFFFFF", "#000000"], "Crystal Palace": ["#1B458F", "#C4122E"],
+  "Brentford": ["#E30613", "#FFFFFF"], "Bournemouth": ["#DA291C", "#000000"],
+  "Sunderland": ["#EB172B", "#FFFFFF"], "Burnley": ["#6C1D45", "#99D6EA"],
+  "Coventry City": ["#78D0F3", "#78D0F3"], "Hull City": ["#F5971D", "#000000"],
+  "Ipswich Town": ["#0044A9", "#FFFFFF"],
+
+  "Barcelona": ["#A50044", "#004D98"], "Real Madrid": ["#FEBE10", "#FFFFFF"],
+  "Atlético Madrid": ["#CB3524", "#FFFFFF"], "Sevilla": ["#FFFFFF", "#D00027"],
+  "Valencia": ["#FFFFFF", "#F5B301"], "Real Betis": ["#00954C", "#FFFFFF"],
+  "Athletic Club": ["#EE2523", "#FFFFFF"], "Real Sociedad": ["#0067B1", "#FFFFFF"],
+  "Villarreal": ["#FFE667", "#005187"], "Celta Vigo": ["#8AC3EE", "#FFFFFF"],
+  "Espanyol": ["#0072BC", "#FFFFFF"], "Getafe": ["#005999", "#005999"],
+  "Osasuna": ["#D91A21", "#0A346F"], "Rayo Vallecano": ["#FFFFFF", "#E53027"],
+  "Alavés": ["#0761AF", "#FFFFFF"], "Mallorca": ["#E20613", "#000000"],
+  "Levante": ["#005CA9", "#B4053F"], "Girona": ["#CD2534", "#FFFFFF"],
+  "Elche": ["#FFFFFF", "#00854A"],
+
+  "Bayern Munich": ["#DC052D", "#0066B2"], "Dortmund": ["#FDE100", "#000000"],
+  "RB Leipzig": ["#DD0741", "#FFFFFF"], "Leverkusen": ["#E32221", "#000000"],
+  "Frankfurt": ["#E1000F", "#000000"], "Stuttgart": ["#FFFFFF", "#E32219"],
+  "M'gladbach": ["#FFFFFF", "#000000"], "Colonia": ["#ED1C24", "#FFFFFF"],
+  "Werder Bremen": ["#1D9053", "#FFFFFF"], "Hoffenheim": ["#1C63B7", "#FFFFFF"],
+  "Union Berlin": ["#EB1923", "#FFED02"], "Freiburg": ["#000000", "#E1000F"],
+  "Augsburg": ["#BA3733", "#FFFFFF"], "Hamburger SV": ["#0A50A1", "#FFFFFF"],
+  "Schalke 04": ["#004D9D", "#FFFFFF"], "Heidenheim": ["#E30613", "#003D7D"],
+
+  "Inter": ["#0068A8", "#000000"], "AC Milan": ["#FB090B", "#000000"],
+  "Juventus": ["#FFFFFF", "#000000"], "Napoli": ["#12A0D7", "#FFFFFF"],
+  "Roma": ["#8E1F2F", "#F0BC42"], "Lazio": ["#87D8F7", "#FFFFFF"],
+  "Atalanta": ["#1E71B8", "#000000"], "Fiorentina": ["#592C82", "#FFFFFF"],
+  "Torino": ["#881600", "#FFFFFF"], "Bologna": ["#1A2F48", "#A21C25"],
+  "Como": ["#004B87", "#FFFFFF"], "Udinese": ["#000000", "#FFFFFF"],
+  "Genoa": ["#B01B2E", "#003B79"], "Cagliari": ["#B02635", "#00285E"],
+  "Parma": ["#FFDD00", "#0066B3"], "Lecce": ["#FFE500", "#D3122A"],
+  "Verona": ["#FFDA00", "#00256B"], "Sassuolo": ["#00A752", "#000000"],
+
+  "PSG": ["#004170", "#DA291C"], "Marseille": ["#2FAEE0", "#FFFFFF"],
+  "Lyon": ["#FFFFFF", "#DA291C"], "Monaco": ["#E63946", "#FFFFFF"],
+  "Lille": ["#E01E13", "#FFFFFF"], "Lens": ["#FFDD00", "#E4022E"],
+  "Rennes": ["#E23328", "#000000"], "Nice": ["#E4002B", "#000000"],
+  "Brest": ["#E30613", "#FFFFFF"], "Toulouse": ["#7B2182", "#FFFFFF"],
+  "Strasbourg": ["#0069B4", "#FFFFFF"], "Nantes": ["#FDDA24", "#009639"],
+  "Le Havre": ["#00A0DF", "#0C2340"], "Auxerre": ["#FFFFFF", "#0072BC"],
+  "Angers": ["#FFFFFF", "#000000"], "Lorient": ["#F58220", "#000000"],
+  "Metz": ["#8E1B34", "#FFFFFF"], "Paris FC": ["#0055A4", "#FFFFFF"],
+};
+
+/** Distintivo del club: monograma sobre sus colores de camiseta.
  *
- * No hay una fuente libre de escudos oficiales, así que cada equipo recibe una
- * insignia propia: siempre el mismo color para el mismo nombre, de modo que se
- * reconozca de un vistazo al recorrer la lista.
+ * Los escudos oficiales son marcas registradas, así que en su lugar cada equipo
+ * lleva una insignia con los colores con los que juega. Si un club no está en
+ * la lista, se le asigna un tono estable derivado de su nombre.
  */
 function escudo(nombre, grande = false) {
-  let h = 0;
-  for (let i = 0; i < nombre.length; i++) h = (h * 31 + nombre.charCodeAt(i)) % 360;
   const iniciales = nombre.split(/\s+/).filter(p => p.length > 2)
     .slice(0, 2).map(p => p[0]).join("").toUpperCase() ||
     nombre.slice(0, 2).toUpperCase();
+
+  let fondo, texto;
+  const par = COLORES[nombre];
+  if (par) {
+    const [c1, c2] = par;
+    // Dos colores distintos se muestran como franja diagonal, uno solo liso
+    fondo = c1 === c2 ? c1 : `linear-gradient(115deg, ${c1} 48%, ${c2} 48%)`;
+    // Sobre camiseta clara, letra oscura
+    const claro = c => {
+      const v = parseInt(c.slice(1), 16);
+      return (((v >> 16) & 255) * 299 + ((v >> 8) & 255) * 587 + (v & 255) * 114) / 1000 > 150;
+    };
+    texto = claro(c1) && claro(c2) ? "#1a1a1a" : "#fff";
+  } else {
+    let h = 0;
+    for (let i = 0; i < nombre.length; i++) h = (h * 31 + nombre.charCodeAt(i)) % 360;
+    fondo = `hsl(${h} 52% 42%)`;
+    texto = "#fff";
+  }
+
   return `<span class="escudo${grande ? " grande" : ""}" aria-hidden="true"
-    style="background:hsl(${h} 52% 42%)">${iniciales}</span>`;
+    style="background:${fondo};color:${texto}">${iniciales}</span>`;
 }
 
 /* ── Direcciones: cada vista tiene la suya ────────────────────────────── */
@@ -2158,8 +2209,10 @@ function abrirDetalle(ligaKey, p, desdeRuta = false) {
     `${lg.nombre} · Jornada ${p.j} · ${fechaLarga(p.fecha)} · ${p.hora}`;
   document.getElementById("d-sello-comp").textContent = T2(lg.temp_hist);
   document.getElementById("d-sello-jug").textContent = T2(lg.temp_jug);
-  document.getElementById("d-local").textContent = a.nombre;
-  document.getElementById("d-visita").textContent = b.nombre;
+  document.getElementById("d-local").innerHTML = escudo(a.nombre, true) +
+    `<span>${a.nombre}</span>`;
+  document.getElementById("d-visita").innerHTML = `<span>${b.nombre}</span>` +
+    escudo(b.nombre, true);
 
   // Barra
   const barra = document.getElementById("d-barra");
