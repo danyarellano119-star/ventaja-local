@@ -14,3 +14,21 @@ datos/understat_historico.csv
 
 # Historial de RStudio
 .Rhistory
+
+# ── Trabajo de investigación, fuera del repositorio público ──────────────
+# Todo esto sigue en el computador; simplemente no se publica, para que quien
+# entre al repositorio vea sólo lo que hace funcionar la página.
+datos/
+manutd-2526.*
+web/datos_modelo.json
+scripts/descargar_fbref.py
+scripts/dixon_coles.py
+scripts/dixon_coles_xg.py
+scripts/evaluar_*.py
+scripts/experimento_*.py
+scripts/explicar_prediccion.py
+scripts/exportar_web.py
+scripts/generar_ligas.py
+
+# Herramienta local para subir con doble clic
+subir.bat

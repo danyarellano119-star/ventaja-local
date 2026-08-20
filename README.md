@@ -1,7 +1,8 @@
 # Ventaja Local
 
-Probabilidades, cuotas y estadísticas de las cinco grandes ligas europeas, con
-un modelo Dixon-Coles ajustado sobre ocasiones de gol (xG).
+Probabilidades, cuotas y estadísticas de las cinco grandes ligas europeas y de
+las competiciones continentales, con un modelo Dixon-Coles ajustado sobre
+ocasiones de gol (xG).
 
 La web es **estática**: lleva los datos dentro y calcula todo en el navegador,
 así que no necesita servidor ni cuesta nada mantenerla en marcha.
@@ -116,12 +117,18 @@ ejecutar el script nunca borra el calendario que ya hubiera.
 ## Estructura
 
 ```
-scripts/actualizar.py     descarga, modelo y generación de la web
-scripts/dixon_coles.py    modelo base y herramientas de validación
-web/plantilla.html        la página, con /*__DATOS__*/ como marcador
-web/index.html            la página ya generada (no editar a mano)
-web/datos_ligas.json      datos de las cinco ligas
+scripts/actualizar.py   descarga los datos, ajusta el modelo y genera la web
+scripts/europa.py       competiciones europeas y desnivel entre ligas
+web/plantilla.html      la página, con /*__DATOS__*/ como marcador
+web/index.html          la página ya generada (no editar a mano)
+web/datos_ligas.json    los datos que lleva embebidos
+.github/workflows/      la automatización que la mantiene al día
 ```
+
+Son nueve archivos. El repositorio contiene sólo lo que hace funcionar la
+página; el trabajo de investigación previo —experimentos de validación del
+modelo, análisis exploratorios, descargas de otras fuentes— se quedó fuera a
+propósito para que quien entre aquí encuentre el proyecto y no el andamiaje.
 
 Para cambiar el diseño o los textos edita **`web/plantilla.html`** y vuelve a
 ejecutar el script; `index.html` se sobrescribe en cada actualización.

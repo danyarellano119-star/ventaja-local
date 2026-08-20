@@ -474,6 +474,27 @@ table.matriz td.top { outline: 2px solid var(--visita); outline-offset: -2px; fo
 .gana { color: var(--ink); }
 .pierde { color: var(--ink-3); }
 
+/* ── Selector de competición ──────────────────────────────────────────── */
+.selector-comp {
+  display: flex; flex-direction: column; gap: 6px;
+  padding-bottom: 14px; border-bottom: 1px solid var(--line);
+}
+.selector-comp label {
+  font-family: var(--mono); font-size: 10.5px; letter-spacing: .1em;
+  text-transform: uppercase; color: var(--ink-3);
+}
+.selector-comp select {
+  font-family: var(--serif); font-size: 20px; font-weight: 600; color: var(--ink);
+  background: var(--surface); border: 1px solid var(--line);
+  border-radius: 8px; padding: 11px 14px; cursor: pointer;
+  appearance: none; padding-right: 38px; width: 100%;
+  background-image: linear-gradient(45deg, transparent 50%, currentColor 50%),
+                    linear-gradient(135deg, currentColor 50%, transparent 50%);
+  background-position: calc(100% - 21px) 52%, calc(100% - 15px) 52%;
+  background-size: 6px 6px, 6px 6px; background-repeat: no-repeat;
+}
+.selector-comp select:focus-visible { outline: 2px solid var(--acento); outline-offset: 2px; }
+
 /* ── Acceso al panorama de liga ───────────────────────────────────────── */
 .fila-liga {
   display: flex; justify-content: space-between; align-items: center;
@@ -826,15 +847,25 @@ details .cuerpo strong { color: var(--ink); }
     </div>
 
     <div>
-      <div class="ligas" id="ligas" role="tablist"></div>
+      <div class="selector-comp">
+        <label for="sel-competicion">Competición</label>
+        <select id="sel-competicion"></select>
+      </div>
       <div class="fila-liga">
         <span class="fila-liga-txt" id="txt-liga"></span>
         <span class="botones-liga">
           <button class="btn-liga" id="btn-ver-liga" type="button">Panorama de la liga →</button>
-          <button class="btn-liga" id="btn-ver-europa" type="button">Competiciones europeas →</button>
+          <button class="btn-liga" id="btn-ver-europa" type="button">Historia europea →</button>
         </span>
       </div>
       <div id="lista-partidos"></div>
+
+      <!-- Competiciones europeas: aviso mientras no haya sorteo -->
+      <div id="bloque-euro" class="oculto">
+        <div class="nota-caja" style="margin-top:18px">
+          <p id="euro-estado"></p>
+        </div>
+      </div>
     </div>
 
     <div class="nota-caja">
@@ -1585,33 +1616,97 @@ function fechaLarga(iso) {
 }
 
 /* ── Vista lista ──────────────────────────────────────────────────────── */
-function pintarLigas() {
-  const cont = document.getElementById("ligas");
-  cont.innerHTML = "";
-  Object.entries(D.ligas).forEach(([k, lg]) => {
-    const b = document.createElement("button");
-    b.className = "liga-btn";
-    b.type = "button";
-    b.setAttribute("role", "tab");
-    b.setAttribute("aria-selected", k === ligaActual ? "true" : "false");
-    b.innerHTML = `<span>${lg.nombre}</span><span class="pais">${lg.pais}</span>`;
-    b.addEventListener("click", () => { ligaActual = k; pintarLigas(); pintarLista(); });
-    cont.appendChild(b);
-  });
+/* Competiciones continentales. Todavía no tienen calendario porque el sorteo se
+   celebra a finales de agosto; en cuanto los datos lo traigan, sus partidos se
+   listarán igual que los de liga. */
+const EUROPEAS = {
+  cl:   { nombre: "Champions League", pais: "Europa" },
+  el:   { nombre: "Europa League",    pais: "Europa" },
+  conf: { nombre: "Conference League", pais: "Europa" },
+};
 
-  const lg = D.ligas[ligaActual];
-  const n = Object.values(lg.equipos).filter(e => !e.nuevo).length;
-  document.getElementById("txt-liga").textContent =
-    `${n} equipos · ${lg.partidos.length} partidos próximos`;
+function esEuropea(clave) {
+  return clave in EUROPEAS;
+}
+
+/** Partidos de una competición europea, si los datos ya los traen. */
+function partidosEuropeos(clave) {
+  return (D.europa && D.europa.calendario && D.europa.calendario[clave]) || [];
+}
+
+function pintarLigas() {
+  const sel = document.getElementById("sel-competicion");
+  if (!sel.options.length) {
+    const gLigas = document.createElement("optgroup");
+    gLigas.label = "Ligas nacionales";
+    Object.entries(D.ligas).forEach(([k, lg]) =>
+      gLigas.appendChild(new Option(`${lg.nombre} · ${lg.pais}`, k)));
+    sel.appendChild(gLigas);
+
+    const gEuro = document.createElement("optgroup");
+    gEuro.label = "Competiciones europeas";
+    Object.entries(EUROPEAS).forEach(([k, c]) =>
+      gEuro.appendChild(new Option(c.nombre, k)));
+    sel.appendChild(gEuro);
+
+    sel.addEventListener("change", () => {
+      ligaActual = sel.value;
+      pintarLigas();
+      pintarLista();
+    });
+  }
+  sel.value = ligaActual;
+
+  const euro = esEuropea(ligaActual);
+  // El panorama de liga sólo tiene sentido en una liga nacional
+  document.getElementById("btn-ver-liga").classList.toggle("oculto", euro);
+
+  if (euro) {
+    const n = partidosEuropeos(ligaActual).length;
+    document.getElementById("txt-liga").textContent = n
+      ? `${n} partidos próximos`
+      : "Sorteo pendiente";
+  } else {
+    const lg = D.ligas[ligaActual];
+    const n = Object.values(lg.equipos).filter(e => !e.nuevo).length;
+    document.getElementById("txt-liga").textContent =
+      `${n} equipos · ${lg.partidos.length} partidos próximos`;
+  }
 }
 
 function pintarLista() {
-  const lg = D.ligas[ligaActual];
   const cont = document.getElementById("lista-partidos");
+  const bloqueEuro = document.getElementById("bloque-euro");
   cont.innerHTML = "";
 
+  if (esEuropea(ligaActual)) {
+    const partidos = partidosEuropeos(ligaActual);
+    bloqueEuro.classList.toggle("oculto", partidos.length > 0);
+    if (!partidos.length) {
+      const nombre = EUROPEAS[ligaActual].nombre;
+      document.getElementById("euro-estado").innerHTML =
+        `<b>La ${nombre} todavía no tiene emparejamientos.</b> El sorteo de la
+         fase de liga se celebra a finales de agosto; hasta entonces no hay
+         partidos que calcular. En cuanto se publiquen aparecerán aquí
+         automáticamente, con las mismas probabilidades y cuotas que el resto.
+         Mientras tanto puedes consultar la <b>historia europea</b> en el botón
+         de arriba: campeones, rendimiento de cada país y qué liga es realmente
+         la más fuerte.`;
+      return;
+    }
+    // Con calendario disponible se listan igual que los de liga
+    pintarGrupos(partidos, cont, true);
+    return;
+  }
+
+  bloqueEuro.classList.add("oculto");
+  const lg = D.ligas[ligaActual];
+  pintarGrupos(lg.partidos, cont, false);
+}
+
+function pintarGrupos(partidosTodos, cont, europea) {
   const porFecha = {};
-  lg.partidos.forEach((p, i) => (porFecha[p.fecha] ||= []).push({ ...p, i }));
+  partidosTodos.forEach((p, i) => (porFecha[p.fecha] ||= []).push({ ...p, i }));
 
   Object.entries(porFecha).forEach(([fecha, partidos]) => {
     const grupo = document.createElement("div");
