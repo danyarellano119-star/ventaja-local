@@ -32,6 +32,7 @@ import requests
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import europa
 import simular
+import aciertos as mod_aciertos
 
 RAIZ = Path(__file__).resolve().parent.parent
 WEB = RAIZ / "web"
@@ -721,10 +722,20 @@ def main() -> None:
             print(f"    favorito al título: {campeon['nombre']} "
                   f"({campeon['titulo']:.0f} %)")
 
+        # Historial verificable: qué habría dicho el modelo antes de cada
+        # partido ya jugado de la temporada de referencia.
+        previos = [m for m in partidos if m not in referencia]
+        hist_aciertos = mod_aciertos.historial_aciertos(
+            previos, referencia, XI, RHO, BONITO)
+        if hist_aciertos:
+            print(f"    acierto histórico: {hist_aciertos['pct']:.1f} % "
+                  f"en {hist_aciertos['n']} partidos")
+
         salida["ligas"][clave] = {
             "nombre": nombre, "pais": pais,
             "pca": pca, "historico": historico,
             "pronostico": pron,
+            "aciertos": hist_aciertos,
             "temp_fuerzas": temp_fuerzas,
             "temp_hist": temp_hist,
             "temp_jug": etiqueta(actual) if fichas is f_act else etiqueta(anterior),

@@ -474,6 +474,116 @@ table.matriz td.top { outline: 2px solid var(--visita); outline-offset: -2px; fo
 .gana { color: var(--ink); }
 .pierde { color: var(--ink-3); }
 
+/* ── Barra superior: buscador, tema y compartir ───────────────────────── */
+.barra-sup {
+  display: flex; gap: 10px; align-items: center;
+  margin-bottom: 18px; flex-wrap: wrap;
+}
+.buscador-global { position: relative; flex: 1 1 260px; min-width: 0; }
+.buscador-global input {
+  width: 100%; font-family: var(--sans); font-size: 15px; color: var(--ink);
+  background: var(--surface); border: 1px solid var(--line);
+  border-radius: 9px; padding: 12px 14px 12px 38px;
+}
+.buscador-global input::placeholder { color: var(--ink-3); }
+.buscador-global input:focus-visible { outline: 2px solid var(--acento); outline-offset: 1px; }
+.buscador-global::before {
+  content: "⌕"; position: absolute; left: 14px; top: 50%;
+  transform: translateY(-52%); color: var(--ink-3); font-size: 18px;
+  pointer-events: none;
+}
+.resultados-busqueda {
+  position: absolute; top: calc(100% + 6px); left: 0; right: 0; z-index: 20;
+  background: var(--surface); border: 1px solid var(--line);
+  border-radius: 9px; box-shadow: var(--sombra-alta);
+  max-height: 320px; overflow-y: auto; padding: 5px;
+}
+.res-item {
+  display: flex; align-items: center; gap: 10px; width: 100%;
+  padding: 9px 10px; border: none; background: none; cursor: pointer;
+  border-radius: 7px; text-align: left; font-family: inherit; color: var(--ink);
+}
+.res-item:hover, .res-item.activo { background: var(--surface-2); }
+.res-item .res-sub { font-size: 12px; color: var(--ink-3); }
+.res-nombre { flex: 1; min-width: 0; font-size: 14.5px; }
+
+.btn-icono {
+  min-height: 44px; min-width: 44px; padding: 0 14px;
+  font-family: var(--sans); font-size: 14px;
+  background: var(--surface); color: var(--ink-2);
+  border: 1px solid var(--line); border-radius: 9px; cursor: pointer;
+  display: inline-flex; align-items: center; justify-content: center; gap: 7px;
+  transition: border-color .15s, color .15s;
+}
+.btn-icono:hover { border-color: var(--acento); color: var(--acento); }
+.btn-icono:focus-visible { outline: 2px solid var(--acento); outline-offset: 2px; }
+
+/* ── Escudo: monograma con color propio de cada equipo ────────────────── */
+.escudo {
+  width: 26px; height: 26px; border-radius: 7px; flex-shrink: 0;
+  display: inline-flex; align-items: center; justify-content: center;
+  font-family: var(--mono); font-size: 10.5px; font-weight: 700;
+  color: #fff; letter-spacing: -.3px;
+}
+.escudo.grande { width: 38px; height: 38px; font-size: 14px; border-radius: 9px; }
+
+/* ── Favoritos ────────────────────────────────────────────────────────── */
+.estrella {
+  background: none; border: none; cursor: pointer; padding: 4px;
+  font-size: 15px; line-height: 1; color: var(--ink-3);
+  transition: color .15s, transform .15s;
+}
+.estrella:hover { transform: scale(1.2); }
+.estrella.activa { color: var(--visita); }
+.estrella:focus-visible { outline: 2px solid var(--acento); outline-offset: 2px; }
+
+/* ── Filtros de la lista ──────────────────────────────────────────────── */
+.filtros { display: flex; gap: 7px; flex-wrap: wrap; margin: 14px 0 4px; }
+.filtro {
+  font-family: var(--sans); font-size: 13px;
+  background: var(--surface-2); border: 1px solid var(--line);
+  border-radius: 999px; padding: 7px 14px; cursor: pointer; color: var(--ink-2);
+  transition: background .15s, color .15s, border-color .15s;
+}
+.filtro:hover { border-color: var(--acento); }
+.filtro[aria-pressed="true"] {
+  background: var(--acento); border-color: var(--acento); color: #fff; font-weight: 500;
+}
+.filtro:focus-visible { outline: 2px solid var(--acento); outline-offset: 2px; }
+.sin-resultados {
+  text-align: center; color: var(--ink-3); font-size: 14px; padding: 30px 10px;
+}
+
+/* ── Historial de aciertos ────────────────────────────────────────────── */
+.acierto-fila {
+  display: grid; grid-template-columns: 74px 1fr 58px 46px;
+  gap: 10px; align-items: center; padding: 8px 0;
+  border-bottom: 1px solid var(--line-soft); font-size: 13.5px;
+}
+.acierto-fila:last-child { border-bottom: none; }
+.ac-fecha { font-family: var(--mono); font-size: 11.5px; color: var(--ink-3); }
+.ac-marcador {
+  font-family: var(--mono); font-size: 13px; font-variant-numeric: tabular-nums;
+  text-align: center;
+}
+.ac-señal {
+  width: 26px; height: 26px; border-radius: 50%; margin-left: auto;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 13px; font-weight: 700;
+}
+.ac-señal.bien { background: var(--verde-soft); color: var(--ok); }
+.ac-señal.mal { background: var(--surface-2); color: var(--ink-3); }
+
+/* ── Transiciones entre vistas ────────────────────────────────────────── */
+.pila { animation: aparece .22s ease-out; }
+@keyframes aparece {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .pila { animation: none; }
+}
+
 /* ── Selector de competición ──────────────────────────────────────────── */
 .selector-comp {
   display: flex; flex-direction: column; gap: 6px;
@@ -838,6 +948,18 @@ details .cuerpo strong { color: var(--ink); }
       </p>
     </header>
 
+    <div class="barra-sup">
+      <div class="buscador-global">
+        <input id="buscar" type="search" autocomplete="off"
+               placeholder="Busca un equipo o un partido..."
+               aria-label="Buscar equipo o partido">
+        <div id="resultados" class="resultados-busqueda oculto" role="listbox"></div>
+      </div>
+      <button class="btn-icono" id="btn-tema" type="button"
+              aria-label="Cambiar entre modo claro y oscuro">🌗</button>
+      <button class="btn-icono" id="btn-compartir" type="button">Compartir</button>
+    </div>
+
     <div class="buscador">
       <label for="buscar-equipo">Ver la ficha completa de un equipo</label>
       <div class="buscador-fila">
@@ -858,7 +980,15 @@ details .cuerpo strong { color: var(--ink); }
           <button class="btn-liga" id="btn-ver-europa" type="button">Historia europea →</button>
         </span>
       </div>
-      <div id="lista-partidos"></div>
+
+      <div class="filtros" id="filtros">
+        <button class="filtro" type="button" data-f="todos" aria-pressed="true">Todos</button>
+        <button class="filtro" type="button" data-f="semana" aria-pressed="false">Esta semana</button>
+        <button class="filtro" type="button" data-f="favoritos" aria-pressed="false">★ Mis equipos</button>
+        <button class="filtro" type="button" data-f="igualados" aria-pressed="false">Partidos igualados</button>
+      </div>
+
+      <div id="lista-partidos" aria-live="polite"></div>
 
       <!-- Competiciones europeas: aviso mientras no haya sorteo -->
       <div id="bloque-euro" class="oculto">
@@ -1271,6 +1401,27 @@ details .cuerpo strong { color: var(--ink); }
       </p>
     </section>
 
+    <section class="tarjeta" id="lg-bloque-aciertos">
+      <span class="paso">Comprueba si acierta</span>
+      <h2>Qué dijo el modelo y qué pasó de verdad</h2>
+      <p class="sub">
+        Cada partido de la temporada se predijo con la información que había
+        <b>antes</b> de jugarse, igual que se hace con los que están por venir.
+        Aquí está el resultado, sin filtrar.
+      </p>
+      <div class="metricas-modelo" id="ac-cabecera"></div>
+      <div class="lienzo"><div id="ac-g-calibracion"></div></div>
+      <p class="gr-conclusion" id="ac-txt"></p>
+
+      <h3 style="font-family:var(--serif);font-size:17px;margin:24px 0 4px">
+        Los últimos partidos, uno a uno</h3>
+      <p class="gr-explica">
+        El porcentaje es la probabilidad que el modelo daba al resultado que
+        acabó ocurriendo. Un ✓ significa que su favorito fue el que ganó.
+      </p>
+      <div id="ac-lista"></div>
+    </section>
+
     <section class="tarjeta">
       <span class="paso">Clasificación</span>
       <h2>Cómo quedó la liga</h2>
@@ -1637,6 +1788,116 @@ const MARGENES = [
   [0.11, "Márgenes altos: la casa se queda con una tajada grande."],
 ];
 
+/* ── Preferencias guardadas en el navegador ───────────────────────────── */
+
+const GUARDADO = {
+  leer(clave, porDefecto) {
+    try {
+      const v = localStorage.getItem("vl_" + clave);
+      return v === null ? porDefecto : JSON.parse(v);
+    } catch { return porDefecto; }
+  },
+  escribir(clave, valor) {
+    try { localStorage.setItem("vl_" + clave, JSON.stringify(valor)); } catch {}
+  },
+};
+
+let favoritos = new Set(GUARDADO.leer("favoritos", []));
+let filtroActivo = "todos";
+
+function esFavorito(liga, clave) { return favoritos.has(liga + "|" + clave); }
+
+function alternarFavorito(liga, clave) {
+  const id = liga + "|" + clave;
+  favoritos.has(id) ? favoritos.delete(id) : favoritos.add(id);
+  GUARDADO.escribir("favoritos", [...favoritos]);
+}
+
+/* ── Escudos ──────────────────────────────────────────────────────────── */
+
+/** Monograma con un color estable derivado del nombre del club.
+ *
+ * No hay una fuente libre de escudos oficiales, así que cada equipo recibe una
+ * insignia propia: siempre el mismo color para el mismo nombre, de modo que se
+ * reconozca de un vistazo al recorrer la lista.
+ */
+function escudo(nombre, grande = false) {
+  let h = 0;
+  for (let i = 0; i < nombre.length; i++) h = (h * 31 + nombre.charCodeAt(i)) % 360;
+  const iniciales = nombre.split(/\s+/).filter(p => p.length > 2)
+    .slice(0, 2).map(p => p[0]).join("").toUpperCase() ||
+    nombre.slice(0, 2).toUpperCase();
+  return `<span class="escudo${grande ? " grande" : ""}" aria-hidden="true"
+    style="background:hsl(${h} 52% 42%)">${iniciales}</span>`;
+}
+
+/* ── Direcciones: cada vista tiene la suya ────────────────────────────── */
+
+function irA(ruta, reemplazar = false) {
+  if (location.hash === "#" + ruta) return;
+  if (reemplazar) history.replaceState(null, "", "#" + ruta);
+  else location.hash = ruta;
+}
+
+function idPartido(p) {
+  const limpia = t => t.toLowerCase().normalize("NFD")
+    .replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+  return `${limpia(p.l)}-vs-${limpia(p.v)}`;
+}
+
+/** Interpreta la dirección actual y muestra lo que corresponda. */
+function enrutar() {
+  const ruta = decodeURIComponent(location.hash.replace(/^#\/?/, ""));
+  const partes = ruta.split("/").filter(Boolean);
+
+  if (!partes.length) { mostrarVista("vista-lista"); return; }
+
+  const [tipo, a, b] = partes;
+  try {
+    if (tipo === "liga" && D.ligas[a]) { ligaActual = a; pintarLigas(); pintarLista(); abrirLiga(a); return; }
+    if (tipo === "europa") { abrirEuropa(); return; }
+    if (tipo === "equipo" && D.ligas[a] && D.ligas[a].equipos[b]) { abrirEquipo(a, b); return; }
+    if (tipo === "partido" && D.ligas[a]) {
+      const p = (D.ligas[a].partidos || []).find(x => idPartido(x) === b);
+      if (p) { ligaActual = a; pintarLigas(); abrirDetalle(a, p, true); return; }
+    }
+    if (tipo === "competicion") { ligaActual = a; pintarLigas(); pintarLista(); mostrarVista("vista-lista"); return; }
+  } catch {}
+  mostrarVista("vista-lista");
+}
+
+/* ── Compartir ────────────────────────────────────────────────────────── */
+
+async function compartir(titulo, texto) {
+  const url = location.href;
+  if (navigator.share) {
+    try { await navigator.share({ title: titulo, text: texto, url }); return; } catch {}
+  }
+  try {
+    await navigator.clipboard.writeText(`${texto}\n${url}`);
+    avisar("Enlace copiado");
+  } catch {
+    avisar("Copia la dirección de la barra del navegador");
+  }
+}
+
+function avisar(mensaje) {
+  let caja = document.getElementById("aviso-flotante");
+  if (!caja) {
+    caja = document.createElement("div");
+    caja.id = "aviso-flotante";
+    caja.setAttribute("role", "status");
+    caja.style.cssText = `position:fixed;bottom:24px;left:50%;transform:translateX(-50%);
+      background:var(--ink);color:var(--ground);padding:11px 20px;border-radius:999px;
+      font-size:14px;z-index:100;box-shadow:var(--sombra-alta);transition:opacity .3s`;
+    document.body.appendChild(caja);
+  }
+  caja.textContent = mensaje;
+  caja.style.opacity = "1";
+  clearTimeout(caja._t);
+  caja._t = setTimeout(() => { caja.style.opacity = "0"; }, 2200);
+}
+
 /* ── Modelo ───────────────────────────────────────────────────────────── */
 function poisson(k, lambda) {
   let logf = 0;
@@ -1725,6 +1986,8 @@ function pintarLigas() {
 
     sel.addEventListener("change", () => {
       ligaActual = sel.value;
+      GUARDADO.escribir("liga", ligaActual);
+      irA(`/competicion/${ligaActual}`, true);
       pintarLigas();
       pintarLista();
     });
@@ -1778,9 +2041,42 @@ function pintarLista() {
   pintarGrupos(lg.partidos, cont, false);
 }
 
+/** Aplica el filtro activo a la lista de partidos. */
+function filtrarPartidos(partidos) {
+  if (filtroActivo === "todos") return partidos;
+
+  if (filtroActivo === "semana") {
+    const hoy = new Date();
+    const limite = new Date(hoy.getTime() + 8 * 864e5).toISOString().slice(0, 10);
+    return partidos.filter(p => p.fecha <= limite);
+  }
+  if (filtroActivo === "favoritos") {
+    return partidos.filter(p => esFavorito(ligaActual, p.l) || esFavorito(ligaActual, p.v));
+  }
+  if (filtroActivo === "igualados") {
+    // Ninguno de los tres resultados domina: son los partidos más abiertos
+    return partidos.filter(p => {
+      const c = calcular(ligaActual, p.l, p.v);
+      return Math.max(c.pl, c.pe, c.pv) < 0.45;
+    });
+  }
+  return partidos;
+}
+
 function pintarGrupos(partidosTodos, cont, europea) {
+  const visibles = filtrarPartidos(partidosTodos);
+  if (!visibles.length) {
+    const vacio = {
+      favoritos: "Todavía no has marcado ningún equipo. Pulsa la estrella junto a un equipo para seguirlo.",
+      semana: "No hay partidos programados en los próximos ocho días.",
+      igualados: "Ningún partido de esta jornada está tan igualado.",
+    }[filtroActivo] || "No hay partidos que mostrar.";
+    cont.innerHTML = `<p class="sin-resultados">${vacio}</p>`;
+    return;
+  }
+
   const porFecha = {};
-  partidosTodos.forEach((p, i) => (porFecha[p.fecha] ||= []).push({ ...p, i }));
+  visibles.forEach((p, i) => (porFecha[p.fecha] ||= []).push({ ...p, i }));
 
   Object.entries(porFecha).forEach(([fecha, partidos]) => {
     const grupo = document.createElement("div");
@@ -1800,14 +2096,17 @@ function pintarGrupos(partidosTodos, cont, europea) {
       const b = document.createElement("button");
       b.className = "partido";
       b.type = "button";
+      const marcado = esFavorito(ligaActual, p.l) || esFavorito(ligaActual, p.v);
       b.innerHTML = `
         <span class="hora">${p.hora}</span>
         <span class="equipos">
           <span class="eq-linea ${favL ? "favorito" : ""}">
+            ${escudo(c.a.nombre)}
             <span class="eq-nombre">${c.a.nombre}${nuevo(p.l)}</span>
             <span class="eq-prob">${Math.round(c.pl * 100)}%</span>
           </span>
           <span class="eq-linea ${favV ? "favorito" : ""}">
+            ${escudo(c.b.nombre)}
             <span class="eq-nombre">${c.b.nombre}${nuevo(p.v)}</span>
             <span class="eq-prob">${Math.round(c.pv * 100)}%</span>
           </span>
@@ -1817,7 +2116,7 @@ function pintarGrupos(partidosTodos, cont, europea) {
           <i class="e" style="width:${c.pe * 100}%"></i>
           <i class="v" style="width:${c.pv * 100}%"></i>
         </span>
-        <span class="flecha">›</span>`;
+        <span class="flecha">${marcado ? "★" : "›"}</span>`;
       b.addEventListener("click", () => abrirDetalle(ligaActual, p));
       lista.appendChild(b);
     });
@@ -1828,7 +2127,8 @@ function pintarGrupos(partidosTodos, cont, europea) {
 }
 
 /* ── Vista detalle ────────────────────────────────────────────────────── */
-function abrirDetalle(ligaKey, p) {
+function abrirDetalle(ligaKey, p, desdeRuta = false) {
+  if (!desdeRuta) irA(`/partido/${ligaKey}/${idPartido(p)}`);
   const c = calcular(ligaKey, p.l, p.v);
   const { a, b, lg } = c;
   descartados = new Set();   // los descartes manuales son de cada partido
@@ -2766,6 +3066,40 @@ function graficoBarrasHist(hist, campo, color, formato = v => v) {
     </svg>`;
 }
 
+/** Lo que dijo el modelo frente a lo que pasó, por tramos de probabilidad.
+ *
+ * La diagonal sería la perfección: en los partidos donde dio un 60 %, ocurrió
+ * el 60 % de las veces. Cuanto más pegadas estén las dos barras de cada tramo,
+ * más fiables son sus porcentajes.
+ */
+function graficoCalibracion(tramos) {
+  if (!tramos || !tramos.length) return "";
+  const W = 640, filaH = 46, etqW = 104, H = 32 + tramos.length * filaH;
+  const ancho = W - etqW - 92;
+  const max = Math.max(...tramos.flatMap(t => [t.dicho, t.real])) * 1.12 || 100;
+
+  return `<svg viewBox="0 0 ${W} ${H}" role="img"
+      aria-label="Probabilidad anunciada frente a la real">
+      ${tramos.map((t, i) => {
+        const y = 18 + i * filaH;
+        const wD = (t.dicho / max) * ancho;
+        const wR = (t.real / max) * ancho;
+        return `<text x="${etqW - 10}" y="${y + 12}" text-anchor="end" font-size="12"
+            font-family="var(--sans)" fill="var(--ink)">${t.desde}–${t.hasta} %</text>
+          <text x="${etqW - 10}" y="${y + 26}" text-anchor="end" font-size="10"
+            font-family="var(--mono)" fill="var(--ink-3)">${t.n} casos</text>
+          <rect x="${etqW}" y="${y}" width="${wD.toFixed(1)}" height="15" rx="3"
+            fill="var(--ink-3)" opacity=".5"></rect>
+          <text x="${(etqW + wD + 7).toFixed(1)}" y="${y + 12}" font-size="10.5"
+            font-family="var(--mono)" fill="var(--ink-3)">dijo ${dec(t.dicho, 0)} %</text>
+          <rect x="${etqW}" y="${y + 17}" width="${wR.toFixed(1)}" height="15" rx="3"
+            fill="var(--ok)" opacity=".8"></rect>
+          <text x="${(etqW + wR + 7).toFixed(1)}" y="${y + 29}" font-size="10.5"
+            font-family="var(--mono)" fill="var(--ink-2)">pasó ${dec(t.real, 0)} %</text>`;
+      }).join("")}
+    </svg>`;
+}
+
 /** Barras apiladas: opciones de título, de Champions y de descenso. */
 function graficoPronostico(pron, tope = 10) {
   const d = pron.slice(0, tope);
@@ -2841,6 +3175,7 @@ function graficoFavoritos(favs, tope = 12) {
 }
 
 function abrirLiga(ligaKey) {
+  irA(`/liga/${ligaKey}`, true);
   const lg = D.ligas[ligaKey];
   const T = t => (t || "").replace("-", "/");
   const clubes = Object.values(lg.equipos).filter(e => !e.nuevo && e.pj);
@@ -2871,6 +3206,46 @@ function abrirLiga(ligaKey) {
     [dec(Math.exp(lg.gamma), 2) + "×", "ventaja de jugar en casa"],
   ].map(([v, l]) => `<div class="metrica-caja"><span class="metrica-val">${v}</span>
       <span class="metrica-lbl">${l}</span></div>`).join("");
+
+  // Historial de aciertos
+  const ac = lg.aciertos || {};
+  document.getElementById("lg-bloque-aciertos").classList.toggle("oculto", !ac.n);
+  if (ac.n) {
+    document.getElementById("ac-cabecera").innerHTML = [
+      [`${dec(ac.pct, 1)} %`, "acertó el favorito"],
+      [`${ac.aciertos}`, "aciertos"],
+      [`${ac.n}`, "partidos comprobados"],
+      [`${dec(ac.n - ac.aciertos, 0)}`, "fallos"],
+    ].map(([v, l]) => `<div class="metrica-caja"><span class="metrica-val">${v}</span>
+        <span class="metrica-lbl">${l}</span></div>`).join("");
+
+    document.getElementById("ac-g-calibracion").innerHTML = graficoCalibracion(ac.tramos);
+
+    const desviaciones = (ac.tramos || []).map(t => Math.abs(t.real - t.dicho));
+    const media = desviaciones.length
+      ? desviaciones.reduce((a, b) => a + b, 0) / desviaciones.length : 0;
+    document.getElementById("ac-txt").innerHTML =
+      `De ${ac.n} partidos, el modelo señaló bien al favorito en <b>${ac.aciertos}</b>
+       (${dec(ac.pct, 1)} %). En fútbol eso es un resultado normal: uno de cada
+       cuatro partidos acaba en empate, que casi nunca es lo más probable.` +
+      (media
+        ? ` Lo importante es la segunda gráfica: cuando dice un porcentaje, la
+            realidad se le acerca con una desviación media de
+            <b>${dec(media, 1)} puntos</b>. Eso es lo que hace que sus números
+            sirvan para comparar con una cuota.`
+        : "");
+
+    document.getElementById("ac-lista").innerHTML = (ac.ultimos || []).map(f => {
+      const p = Math.round(f.p_dada * 100);
+      return `<div class="acierto-fila">
+          <span class="ac-fecha">${f.f.slice(8)}/${f.f.slice(5, 7)}</span>
+          <span>${f.l} <span style="color:var(--ink-3)">vs</span> ${f.v}</span>
+          <span class="ac-marcador">${f.gl}-${f.gv}</span>
+          <span class="ac-señal ${f.ok ? "bien" : "mal"}"
+            title="El modelo daba un ${p} % a lo que pasó">${f.ok ? "✓" : p + "%"}</span>
+        </div>`;
+    }).join("");
+  }
 
   // Predicción de temporada
   const pron = lg.pronostico || [];
@@ -3224,6 +3599,7 @@ function graficoEmbudo(embudo, tope = 6) {
 }
 
 function abrirEuropa() {
+  irA("/europa", true);
   const E = D.europa;
   if (!E) return;
   const T = t => (t || "").replace("-", "/");
@@ -3422,11 +3798,11 @@ function abrirEuropa() {
 }
 
 document.getElementById("btn-ver-europa").addEventListener("click", abrirEuropa);
-document.getElementById("btn-volver-europa").addEventListener("click", () => mostrarVista("vista-lista"));
+document.getElementById("btn-volver-europa").addEventListener("click", volverALista);
 document.getElementById("btn-pdf-europa").addEventListener("click", () => window.print());
 
 document.getElementById("btn-ver-liga").addEventListener("click", () => abrirLiga(ligaActual));
-document.getElementById("btn-volver-liga").addEventListener("click", () => mostrarVista("vista-lista"));
+document.getElementById("btn-volver-liga").addEventListener("click", volverALista);
 document.getElementById("btn-pdf-liga").addEventListener("click", () => window.print());
 
 function poblarBuscador() {
@@ -3450,6 +3826,7 @@ function percentil(valor, valores, mayorMejor) {
 }
 
 function abrirEquipo(ligaKey, clave) {
+  irA(`/equipo/${ligaKey}/${clave}`, true);
   const lg = D.ligas[ligaKey];
   const eq = lg.equipos[clave];
   if (!eq) return;
@@ -3459,7 +3836,22 @@ function abrirEquipo(ligaKey, clave) {
   const T = t => t.replace("-", "/");
   document.getElementById("eq-liga").textContent =
     `${lg.nombre} · datos de la temporada ${T(lg.temp_hist)}`;
-  document.getElementById("eq-nombre").textContent = eq.nombre;
+  const marcado = esFavorito(ligaKey, clave);
+  document.getElementById("eq-nombre").innerHTML =
+    `${escudo(eq.nombre, true)} ${eq.nombre}` +
+    `<button class="estrella ${marcado ? "activa" : ""}" type="button" id="eq-estrella"
+       aria-pressed="${marcado}"
+       title="${marcado ? "Dejar de seguir" : "Seguir a este equipo"}">${marcado ? "★" : "☆"}</button>`;
+  document.getElementById("eq-nombre").style.display = "flex";
+  document.getElementById("eq-nombre").style.alignItems = "center";
+  document.getElementById("eq-nombre").style.gap = "10px";
+  document.getElementById("eq-estrella").addEventListener("click", () => {
+    alternarFavorito(ligaKey, clave);
+    abrirEquipo(ligaKey, clave);
+    avisar(esFavorito(ligaKey, clave)
+      ? `${eq.nombre} añadido a tus equipos`
+      : `${eq.nombre} quitado de tus equipos`);
+  });
 
   const dif = eq.gf - eq.gc;
   const rend = eq.gf - eq.xg;
@@ -3617,15 +4009,135 @@ document.getElementById("btn-ver-equipo").addEventListener("click", () => {
   const [liga, clave] = document.getElementById("buscar-equipo").value.split("|");
   abrirEquipo(liga, clave);
 });
-document.getElementById("btn-volver-eq").addEventListener("click", () => mostrarVista("vista-lista"));
+document.getElementById("btn-volver-eq").addEventListener("click", volverALista);
 
 /* El navegador ya sabe generar PDF desde el diálogo de impresión; la hoja de
    estilos @media print deja sólo la ficha y la adapta a papel. */
 document.getElementById("btn-pdf").addEventListener("click", () => window.print());
 
-document.getElementById("btn-volver").addEventListener("click", () => mostrarVista("vista-lista"));
+function volverALista() { history.replaceState(null, "", location.pathname); mostrarVista("vista-lista"); }
+document.getElementById("btn-volver").addEventListener("click", volverALista);
+
+/* ── Buscador global ──────────────────────────────────────────────────── */
+
+const INDICE = [];
+Object.entries(D.ligas).forEach(([k, lg]) => {
+  Object.values(lg.equipos).forEach(e => {
+    if (!e.nuevo || e.atq !== undefined) {
+      INDICE.push({ tipo: "equipo", liga: k, clave: e.clave,
+                    nombre: e.nombre, sub: lg.nombre });
+    }
+  });
+  (lg.partidos || []).forEach(p => {
+    const a = lg.equipos[p.l], b = lg.equipos[p.v];
+    if (a && b) {
+      INDICE.push({ tipo: "partido", liga: k, p,
+                    nombre: `${a.nombre} — ${b.nombre}`,
+                    sub: `${lg.nombre} · ${fechaLarga(p.fecha)}` });
+    }
+  });
+});
+
+const sinTildes = t => t.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
+
+function buscar(texto) {
+  const q = sinTildes(texto.trim());
+  if (q.length < 2) return [];
+  return INDICE
+    .map(x => {
+      const n = sinTildes(x.nombre);
+      // Empezar por lo escrito vale más que contenerlo en medio
+      const pos = n.indexOf(q);
+      if (pos < 0) return null;
+      return { ...x, orden: (pos === 0 ? 0 : 100) + pos + (x.tipo === "equipo" ? 0 : 10) };
+    })
+    .filter(Boolean)
+    .sort((a, b) => a.orden - b.orden)
+    .slice(0, 8);
+}
+
+const campoBusca = document.getElementById("buscar");
+const cajaRes = document.getElementById("resultados");
+
+function pintarResultados(items) {
+  if (!items.length) { cajaRes.classList.add("oculto"); return; }
+  cajaRes.innerHTML = items.map((x, i) => `
+    <button class="res-item" type="button" role="option" data-i="${i}">
+      ${escudo(x.tipo === "equipo" ? x.nombre : x.nombre.split(" — ")[0])}
+      <span class="res-nombre">${x.nombre}
+        <span class="res-sub">${x.sub}</span></span>
+    </button>`).join("");
+  cajaRes.classList.remove("oculto");
+
+  cajaRes.querySelectorAll(".res-item").forEach((btn, i) => {
+    btn.addEventListener("click", () => {
+      const x = items[i];
+      campoBusca.value = "";
+      cajaRes.classList.add("oculto");
+      if (x.tipo === "equipo") irA(`/equipo/${x.liga}/${x.clave}`);
+      else irA(`/partido/${x.liga}/${idPartido(x.p)}`);
+    });
+  });
+}
+
+campoBusca.addEventListener("input", () => pintarResultados(buscar(campoBusca.value)));
+campoBusca.addEventListener("keydown", e => {
+  if (e.key === "Escape") { campoBusca.value = ""; cajaRes.classList.add("oculto"); }
+  if (e.key === "Enter") {
+    const primero = cajaRes.querySelector(".res-item");
+    if (primero) primero.click();
+  }
+});
+document.addEventListener("click", e => {
+  if (!e.target.closest(".buscador-global")) cajaRes.classList.add("oculto");
+});
+
+/* ── Tema claro / oscuro ──────────────────────────────────────────────── */
+
+const temaGuardado = GUARDADO.leer("tema", null);
+if (temaGuardado) document.documentElement.setAttribute("data-theme", temaGuardado);
+
+document.getElementById("btn-tema").addEventListener("click", () => {
+  const actual = document.documentElement.getAttribute("data-theme");
+  const oscuroPorSistema = matchMedia("(prefers-color-scheme: dark)").matches;
+  const nuevo = actual ? (actual === "dark" ? "light" : "dark")
+                       : (oscuroPorSistema ? "light" : "dark");
+  document.documentElement.setAttribute("data-theme", nuevo);
+  GUARDADO.escribir("tema", nuevo);
+});
+
+/* ── Filtros ──────────────────────────────────────────────────────────── */
+
+document.querySelectorAll("#filtros .filtro").forEach(btn => {
+  btn.addEventListener("click", () => {
+    filtroActivo = btn.dataset.f;
+    document.querySelectorAll("#filtros .filtro").forEach(b =>
+      b.setAttribute("aria-pressed", b === btn ? "true" : "false"));
+    pintarLista();
+  });
+});
+
+/* ── Compartir ────────────────────────────────────────────────────────── */
+
+document.getElementById("btn-compartir").addEventListener("click", () => {
+  const visible = ["vista-detalle", "vista-equipo", "vista-liga", "vista-europa"]
+    .find(v => !document.getElementById(v).classList.contains("oculto"));
+  let texto = "Ventaja Local · probabilidades y estadísticas de fútbol";
+  if (visible === "vista-detalle") {
+    texto = `${document.getElementById("d-local").textContent} vs ` +
+            `${document.getElementById("d-visita").textContent} — mira el análisis`;
+  } else if (visible === "vista-equipo") {
+    texto = `${document.getElementById("eq-nombre").textContent} — ficha completa`;
+  }
+  compartir("Ventaja Local", texto);
+});
+
+/* ── Arranque ─────────────────────────────────────────────────────────── */
 
 pintarLigas();
 pintarLista();
 poblarBuscador();
+
+window.addEventListener("hashchange", enrutar);
+if (location.hash) enrutar();
 </script>
