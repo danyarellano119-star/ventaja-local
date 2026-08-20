@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://danyarellano119-star.github.io/ventaja-local/sitemap.xml

@@ -1,11 +1,26 @@
 # Ventaja Local
 
-Probabilidades, cuotas y estadísticas de las cinco grandes ligas europeas y de
-las competiciones continentales, con un modelo Dixon-Coles ajustado sobre
-ocasiones de gol (xG).
+### 👉 **[Abrir la página](https://danyarellano119-star.github.io/ventaja-local/)**
 
-La web es **estática**: lleva los datos dentro y calcula todo en el navegador,
-así que no necesita servidor ni cuesta nada mantenerla en marcha.
+**https://danyarellano119-star.github.io/ventaja-local/**
+
+---
+
+Probabilidades, cuotas y estadísticas de cada partido de las cinco grandes ligas
+europeas, con un modelo Dixon-Coles ajustado sobre ocasiones de gol (xG).
+
+- **Cada partido** con su probabilidad de victoria, empate y derrota, la cuota
+  mínima a la que sale a cuenta y una calculadora para comprobar si la cuota que
+  te ofrecen tiene valor.
+- **Ficha de cada equipo**: cómo llegó hasta aquí, en qué mejora y en qué falla,
+  y quién carga con los goles.
+- **Jugador por jugador**: quién puede marcar y quién ver amarilla, con la
+  probabilidad ajustada a ese partido concreto.
+- **Panorama de cada liga** y de las competiciones europeas, con doce
+  temporadas de historia.
+
+La web se actualiza sola cada tres horas. No necesita servidor: lleva los datos
+dentro y calcula todo en el navegador.
 
 ## Actualizarla a mano
 

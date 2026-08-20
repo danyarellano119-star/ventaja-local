@@ -56,6 +56,7 @@ XI = 0.0030      # decaimiento diario; vida media ~231 días
 ANIOS_HISTORIA = 4    # temporadas que alimentan el modelo (medido: más no mejora)
 ANIOS_GRAFICOS = 12   # temporadas que se muestran en los panoramas
 PRIMER_ANIO = 2014    # Understat no publica xG anterior a esta temporada
+SITIO = "https://danyarellano119-star.github.io/ventaja-local/"
 RHO = -0.109     # corrección Dixon-Coles de marcadores bajos
 
 # Nombres de Understat que conviene acortar o acentuar al mostrarlos
@@ -477,6 +478,78 @@ def perfil_ascendido(equipos: dict) -> dict:
 
 
 # --------------------------------------------------------------------------- #
+# Publicación
+# --------------------------------------------------------------------------- #
+
+DESCRIPCION = ("Probabilidades, cuotas y estadísticas de cada partido de la "
+               "Premier League, LaLiga, Serie A, Bundesliga y Ligue 1. "
+               "Análisis por equipo y por jugador, con datos actualizados.")
+
+FAVICON = ("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' "
+           "viewBox='0 0 32 32'><rect width='32' height='32' rx='7' "
+           "fill='%231F6FB2'/><path d='M16 6l7 5-2.7 8.2h-8.6L9 11z' "
+           "fill='white'/></svg>")
+
+
+def envolver_html(cuerpo: str, titulo: str) -> str:
+    """Añade la cabecera que necesitan navegadores y buscadores.
+
+    La plantilla sólo contiene el contenido; aquí se le pone alrededor el
+    documento completo, con idioma, descripción y las etiquetas que usan
+    WhatsApp o las redes para generar la vista previa de un enlace.
+    """
+    return f"""<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{titulo}</title>
+<meta name="description" content="{DESCRIPCION}">
+<link rel="canonical" href="{SITIO}">
+<link rel="icon" href="{FAVICON}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Ventaja Local">
+<meta property="og:locale" content="es_ES">
+<meta property="og:title" content="{titulo}">
+<meta property="og:description" content="{DESCRIPCION}">
+<meta property="og:url" content="{SITIO}">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{titulo}">
+<meta name="twitter:description" content="{DESCRIPCION}">
+</head>
+<body>
+{cuerpo}
+</body>
+</html>
+"""
+
+
+def escribir_seo(hoy: date) -> None:
+    """robots.txt y sitemap.xml, los dos archivos que buscan los rastreadores."""
+    robots = [
+        "User-agent: *",
+        "Allow: /",
+        f"Sitemap: {SITIO}sitemap.xml",
+        "",
+    ]
+    (WEB / "robots.txt").write_text("\n".join(robots), encoding="utf-8")
+
+    sitemap = [
+        '<?xml version="1.0" encoding="UTF-8"?>',
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
+        "  <url>",
+        f"    <loc>{SITIO}</loc>",
+        f"    <lastmod>{hoy.isoformat()}</lastmod>",
+        "    <changefreq>daily</changefreq>",
+        "    <priority>1.0</priority>",
+        "  </url>",
+        "</urlset>",
+        "",
+    ]
+    (WEB / "sitemap.xml").write_text("\n".join(sitemap), encoding="utf-8")
+
+
+# --------------------------------------------------------------------------- #
 # Principal
 # --------------------------------------------------------------------------- #
 
@@ -664,8 +737,14 @@ def main() -> None:
     datos = JSON_SALIDA.read_text(encoding="utf-8")
     if "/*__DATOS__*/" not in plantilla:
         raise SystemExit("La plantilla no contiene el marcador /*__DATOS__*/")
-    (WEB / "index.html").write_text(plantilla.replace("/*__DATOS__*/", datos),
-                                    encoding="utf-8")
+    import re as _re
+    cuerpo = plantilla.replace("/*__DATOS__*/", datos)
+    m = _re.search(r"<title>(.*?)</title>", cuerpo)
+    titulo = "Ventaja Local · Probabilidades y estadísticas de fútbol"
+    if m:
+        cuerpo = cuerpo.replace(m.group(0), "", 1)   # el título va en la cabecera
+    (WEB / "index.html").write_text(envolver_html(cuerpo, titulo), encoding="utf-8")
+    escribir_seo(hoy)
     print(f"index.html        {(WEB / 'index.html').stat().st_size:,} bytes")
     print("\nListo. Vuelve a publicar web/index.html para actualizar la página.")
 
