@@ -910,9 +910,9 @@ details .cuerpo strong { color: var(--ink); }
       <h2>Qué puedes jugar y a cuánto sale a cuenta</h2>
       <p class="sub">
         Ordenado de más a menos probable. La <b>cuota mínima</b> es el punto de
-        equilibrio: si tu casa paga por encima, la jugada tiene valor según el
-        modelo. La <b>cuota estimada</b> aproxima lo que sueles encontrar en el
-        mercado colombiano, aplicando el margen que elijas abajo.
+        equilibrio del modelo: por debajo de ella, la apuesta pierde a la larga
+        incluso si el modelo tuviera razón. La <b>cuota estimada</b> aproxima lo
+        que sueles encontrar en el mercado colombiano, con el margen que elijas.
       </p>
 
       <div class="margen-control">
@@ -932,8 +932,9 @@ details .cuerpo strong { color: var(--ink); }
       <h2>¿La cuota que te ofrecen vale la pena?</h2>
       <p class="sub">
         Abre tu casa de apuestas, busca este partido y escribe aquí la cuota que
-        veas. Te decimos si ese precio está por encima o por debajo de lo que el
-        modelo considera justo.
+        veas. Te decimos si ese precio queda por encima o por debajo de lo que
+        estima el modelo. Que quede por encima no garantiza ganar: significa que
+        el modelo y la casa discrepan, y la casa acierta más a menudo.
       </p>
 
       <div class="calc">
@@ -1114,8 +1115,15 @@ details .cuerpo strong { color: var(--ink); }
       <div class="nota-caja">
         <p>
           <b>Los porcentajes son fiables.</b> Cuando aquí pone 40 %, la jugada
-          ocurre entre el 39 % y el 41 % de las veces. Por eso puedes compararlos
-          con la cuota de tu casa y saber si el precio te conviene.
+          ocurre entre el 39 % y el 41 % de las veces. Eso los hace útiles para
+          juzgar si una cuota paga poco o mucho para lo que se espera.
+        </p>
+        <p>
+          <b>Pero no baten al mercado.</b> Contrastados con las cuotas reales de
+          4 213 partidos, las casas afinan un 1,5 % más que el modelo. Estas
+          probabilidades sirven para entender un partido y comparar precios, no
+          como un sistema para ganar dinero: nadie te va a regalar una ventaja
+          en un mercado donde compiten equipos profesionales.
         </p>
       </div>
     </section>
@@ -1195,6 +1203,19 @@ details .cuerpo strong { color: var(--ink); }
       </div>
     </section>
 
+    <section class="tarjeta" id="eu-bloque-fav">
+      <span class="paso">De cara a esta temporada</span>
+      <h2>Quién llega más fuerte a Europa</h2>
+      <p class="sub">
+        Los clubes de las cinco grandes ligas ordenados por nivel actual. Como
+        cada liga tiene su propio listón, aquí las fuerzas están corregidas por
+        el desnivel entre competiciones: así un tercero de la Premier y un
+        tercero de la Serie A se pueden comparar de verdad.
+      </p>
+      <div class="lienzo"><div id="eu-g-favoritos"></div></div>
+      <p class="gr-conclusion" id="eu-txt-favoritos"></p>
+    </section>
+
     <section class="tarjeta">
       <span class="paso">Los clubes</span>
       <h2>Quién rinde mejor cuando sale a Europa</h2>
@@ -1226,6 +1247,28 @@ details .cuerpo strong { color: var(--ink); }
       <h2 style="font-size:27px" id="lg-nombre"></h2>
       <p class="sub" id="lg-resumen"></p>
       <div class="metricas-modelo" id="lg-cabecera"></div>
+    </section>
+
+    <section class="tarjeta" id="lg-bloque-pron">
+      <span class="paso">Cómo puede acabar</span>
+      <h2>Quién gana la liga, según el modelo</h2>
+      <p class="sub">
+        La temporada entera se juega <b>diez mil veces</b> con las fuerzas de
+        cada equipo, y se cuenta en cuántas de ellas termina campeón, entre los
+        cuatro primeros o descendido. Son las probabilidades que hay detrás de
+        los mercados de «ganador de liga» o «clasificación a Champions».
+      </p>
+      <div class="lienzo"><div id="lg-g-titulo"></div></div>
+      <p class="gr-conclusion" id="lg-txt-pron"></p>
+
+      <div class="tabla-envoltorio" style="margin-top:18px">
+        <table class="tabla-liga" id="lg-tabla-pron"></table>
+      </div>
+      <p class="aviso-bajas">
+        Se simula sobre el calendario completo de la temporada. Cuanto más
+        avance el campeonato, más se ajustarán estas cifras a lo que vaya
+        pasando.
+      </p>
     </section>
 
     <section class="tarjeta">
@@ -1434,9 +1477,40 @@ details .cuerpo strong { color: var(--ink); }
         </p>
         <p>
           Compárala con la que te ofrecen: si la casa paga <strong>2,80</strong>
-          y la mínima es 2,50, hay valor. Si paga 2,20, no lo hay. Las casas
-          incorporan un margen del 4 % al 8 %, así que encontrar cuotas por
-          encima requiere buscar y comparar entre varias.
+          y la mínima es 2,50, esa cuota está por encima de lo que el modelo
+          estima; si paga 2,20, por debajo. Las casas incorporan un margen del
+          4 % al 8 %, así que sus cuotas suelen quedar por debajo de estas.
+        </p>
+        <p>
+          <strong>Que una cuota supere la mínima no significa que vaya a ganar
+          dinero.</strong> Significa que el modelo y la casa no coinciden, y al
+          comprobarlo sobre miles de partidos la casa acierta algo más. Úsalo
+          como una segunda opinión, no como una señal de compra.
+        </p>
+      </div>
+    </details>
+
+    <details>
+      <summary>¿Este modelo gana dinero apostando?</summary>
+      <div class="cuerpo">
+        <p>
+          <strong>No, y lo hemos comprobado.</strong> Se contrastaron sus
+          predicciones con las cuotas reales de <strong>4 213 partidos</strong>
+          ya jugados, usando las de Pinnacle, la casa con márgenes más ajustados
+          del sector.
+        </p>
+        <p>
+          El resultado: el mercado predice un <strong>1,5 % mejor</strong> que el
+          modelo, y simular apuestas siguiendo sus señales da entre un
+          <strong>−3 % y un −5 % de rendimiento</strong>. Además, cuanto mayor
+          era la discrepancia con la casa, peor iba: señal de que esas
+          diferencias son errores del modelo y no oportunidades.
+        </p>
+        <p>
+          Preferimos decírtelo antes que venderte lo contrario. Lo que sí
+          encontrarás aquí son probabilidades bien calibradas y el contexto que
+          las casas no dan: cómo juega cada equipo, de quién depende, qué se
+          espera del partido. La decisión, y el riesgo, son tuyos.
         </p>
       </div>
     </details>
@@ -2692,6 +2766,80 @@ function graficoBarrasHist(hist, campo, color, formato = v => v) {
     </svg>`;
 }
 
+/** Barras apiladas: opciones de título, de Champions y de descenso. */
+function graficoPronostico(pron, tope = 10) {
+  const d = pron.slice(0, tope);
+  if (!d.length) return "";
+  const W = 640, filaH = 30, etqW = 128, H = 34 + d.length * filaH;
+  const ancho = W - etqW - 96;
+
+  const barras = d.map((p, i) => {
+    const y = 14 + i * filaH;
+    const wT = (p.titulo / 100) * ancho;
+    const wE = (Math.max(p.europa - p.titulo, 0) / 100) * ancho;
+    const wD = (p.descenso / 100) * ancho;
+    const partes = [];
+    if (wT > 0.4) partes.push(`<rect x="${etqW}" y="${y}" width="${wT.toFixed(1)}"
+        height="17" rx="3" fill="var(--ok)" opacity=".9"></rect>`);
+    if (wE > 0.4) partes.push(`<rect x="${(etqW + wT).toFixed(1)}" y="${y}"
+        width="${wE.toFixed(1)}" height="17" rx="3" fill="var(--local)" opacity=".65"></rect>`);
+    if (wD > 0.4) partes.push(`<rect x="${etqW}" y="${y}" width="${wD.toFixed(1)}"
+        height="17" rx="3" fill="var(--visita)" opacity=".75"></rect>`);
+
+    const texto = p.titulo >= 1 ? `${dec(p.titulo, 0)} % título`
+                : p.descenso >= 1 ? `${dec(p.descenso, 0)} % descenso`
+                : p.europa >= 1 ? `${dec(p.europa, 0)} % Champions` : "";
+    return `<text x="${etqW - 10}" y="${y + 13}" text-anchor="end" font-size="12.5"
+        font-family="var(--sans)" fill="var(--ink)">${p.nombre}</text>
+      ${partes.join("")}
+      <text x="${(etqW + Math.max(wT + wE, wD) + 8).toFixed(1)}" y="${y + 13}"
+        font-size="11" font-family="var(--mono)" fill="var(--ink-2)">${texto}</text>`;
+  }).join("");
+
+  const leyenda = [["var(--ok)", "campeón"], ["var(--local)", "top 4"],
+                   ["var(--visita)", "desciende"]].map(([c, t], i) =>
+    `<rect x="${etqW + i * 96}" y="${H - 14}" width="10" height="10" rx="2" fill="${c}"></rect>
+     <text x="${etqW + 14 + i * 96}" y="${H - 5}" font-size="10.5"
+       font-family="var(--sans)" fill="var(--ink-3)">${t}</text>`).join("");
+
+  return `<svg viewBox="0 0 ${W} ${H}" role="img"
+      aria-label="Probabilidades de final de temporada">${barras}${leyenda}</svg>`;
+}
+
+/** Ranking europeo: fuerza de ataque y defensa ya comparables entre ligas. */
+function graficoFavoritos(favs, tope = 12) {
+  const d = favs.slice(0, tope);
+  if (!d.length) return "";
+  const W = 640, filaH = 30, etqW = 150, H = 30 + d.length * filaH;
+  const max = Math.max(...d.map(f => f.atq)) * 1.05;
+  const ancho = (W - etqW - 130) / 2;
+
+  return `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Favoritos europeos">
+      <text x="${etqW + ancho / 2}" y="11" text-anchor="middle" font-size="10"
+        font-family="var(--mono)" fill="var(--ink-3)">ATAQUE</text>
+      <text x="${etqW + ancho + 14 + ancho / 2}" y="11" text-anchor="middle" font-size="10"
+        font-family="var(--mono)" fill="var(--ink-3)">SOLIDEZ</text>
+      ${d.map((f, i) => {
+        const y = 20 + i * filaH;
+        const wA = (f.atq / max) * ancho;
+        // Menos concedido es mejor: se invierte para que barra larga sea buena
+        const wD = ((1.6 - Math.min(f.def, 1.6)) / 1.6) * ancho;
+        return `<text x="${etqW - 10}" y="${y + 13}" text-anchor="end" font-size="12.5"
+            font-family="var(--sans)" fill="var(--ink)">${f.nombre}</text>
+          <text x="${etqW - 10}" y="${y + 24}" text-anchor="end" font-size="9.5"
+            font-family="var(--mono)" fill="var(--ink-3)">${f.liga}</text>
+          <rect x="${etqW}" y="${y + 2}" width="${wA.toFixed(1)}" height="14" rx="3"
+            fill="var(--local)" opacity=".8"></rect>
+          <text x="${(etqW + wA + 6).toFixed(1)}" y="${y + 13}" font-size="10.5"
+            font-family="var(--mono)" fill="var(--ink-2)">${dec(f.atq, 2)}</text>
+          <rect x="${etqW + ancho + 44}" y="${y + 2}" width="${wD.toFixed(1)}" height="14"
+            rx="3" fill="var(--ok)" opacity=".7"></rect>
+          <text x="${(etqW + ancho + 50 + wD).toFixed(1)}" y="${y + 13}" font-size="10.5"
+            font-family="var(--mono)" fill="var(--ink-2)">${dec(f.def, 2)}</text>`;
+      }).join("")}
+    </svg>`;
+}
+
 function abrirLiga(ligaKey) {
   const lg = D.ligas[ligaKey];
   const T = t => (t || "").replace("-", "/");
@@ -2723,6 +2871,46 @@ function abrirLiga(ligaKey) {
     [dec(Math.exp(lg.gamma), 2) + "×", "ventaja de jugar en casa"],
   ].map(([v, l]) => `<div class="metrica-caja"><span class="metrica-val">${v}</span>
       <span class="metrica-lbl">${l}</span></div>`).join("");
+
+  // Predicción de temporada
+  const pron = lg.pronostico || [];
+  document.getElementById("lg-bloque-pron").classList.toggle("oculto", !pron.length);
+  if (pron.length) {
+    document.getElementById("lg-g-titulo").innerHTML = graficoPronostico(pron);
+
+    const fav = pron[0];
+    const segundo = pron[1];
+    const enPeligro = pron.filter(p => p.descenso >= 25);
+    const abierta = fav.titulo < 45;
+
+    document.getElementById("lg-txt-pron").innerHTML =
+      `<b>${fav.nombre}</b> es el favorito: gana la liga en el
+       <b>${dec(fav.titulo, 0)} %</b> de las simulaciones, con
+       ${dec(fav.pts_esperados, 0)} puntos de media.` +
+      (segundo
+        ? ` Su rival más serio es <b>${segundo.nombre}</b> (${dec(segundo.titulo, 0)} %).`
+        : "") +
+      (abierta
+        ? " Es una liga <b>abierta</b>: ningún equipo llega a la mitad de las simulaciones."
+        : " Parte con una ventaja considerable sobre el resto.") +
+      (enPeligro.length
+        ? ` Abajo, ${enPeligro.map(p => `<b>${p.nombre}</b>`).join(", ")}
+            ${enPeligro.length === 1 ? "es el que más" : "son los que más"} sufre
+            para mantener la categoría.`
+        : "");
+
+    document.getElementById("lg-tabla-pron").innerHTML =
+      `<thead><tr><th>#</th><th>Equipo</th><th>Puntos esperados</th>
+         <th>Puesto medio</th><th>Campeón</th><th>Top 4</th>
+         <th>Desciende</th></tr></thead><tbody>` +
+      pron.map((p, i) => `<tr>
+          <td class="pos-num">${i + 1}</td><td>${p.nombre}</td>
+          <td>${dec(p.pts_esperados, 1)}</td><td>${dec(p.pos_media, 1)}</td>
+          <td class="${p.titulo >= 10 ? "mejor" : ""}">${dec(p.titulo, 1)}</td>
+          <td>${dec(p.europa, 1)}</td>
+          <td class="${p.descenso >= 25 ? "peor" : ""}">${dec(p.descenso, 1)}</td>
+        </tr>`).join("") + "</tbody>";
+  }
 
   // Clasificación, con selector de temporada
   const temporadas = [
@@ -3106,6 +3294,25 @@ function abrirEuropa() {
           <td style="text-align:left">${t.finalista || "—"}</td>
           <td>${dec(t.goles_partido, 2)}</td>
         </tr>`)).join("") + "</tbody>";
+
+  // Favoritos de cara a la temporada europea
+  const favs = E.favoritos || [];
+  document.getElementById("eu-bloque-fav").classList.toggle("oculto", !favs.length);
+  if (favs.length) {
+    document.getElementById("eu-g-favoritos").innerHTML = graficoFavoritos(favs);
+    const top = favs[0];
+    const porLiga = {};
+    favs.slice(0, 12).forEach(f => (porLiga[f.liga] = (porLiga[f.liga] || 0) + 1));
+    const dominante = Object.entries(porLiga).sort((a, b) => b[1] - a[1])[0];
+
+    document.getElementById("eu-txt-favoritos").innerHTML =
+      `<b>${top.nombre}</b> llega como el equipo más fuerte de Europa: genera
+       ${dec(top.atq, 2)} veces las ocasiones de un equipo medio y concede
+       ${dec(top.def, 2)}. De los doce primeros, <b>${dominante[1]}</b> son de la
+       <b>${dominante[0]}</b>, lo que encaja con que sea la liga con más nivel
+       medio. Ojo: llegar fuerte no garantiza el título — como se ve más abajo,
+       Inglaterra lleva años dominando la fase larga sin arrasar en finales.`;
+  }
 
   document.getElementById("eu-g-paises").innerHTML = graficoPaises(E.paises);
   document.getElementById("eu-tabla-paises").innerHTML =

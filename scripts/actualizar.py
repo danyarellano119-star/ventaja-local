@@ -31,6 +31,7 @@ import requests
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import europa
+import simular
 
 RAIZ = Path(__file__).resolve().parent.parent
 WEB = RAIZ / "web"
@@ -56,6 +57,7 @@ XI = 0.0030      # decaimiento diario; vida media ~231 días
 ANIOS_HISTORIA = 4    # temporadas que alimentan el modelo (medido: más no mejora)
 ANIOS_GRAFICOS = 12   # temporadas que se muestran en los panoramas
 PRIMER_ANIO = 2014    # Understat no publica xG anterior a esta temporada
+MIN_PARTIDOS = 10     # con menos, las fuerzas de un equipo son puro ruido
 SITIO = "https://danyarellano119-star.github.io/ventaja-local/"
 RHO = -0.109     # corrección Dixon-Coles de marcadores bajos
 
@@ -450,13 +452,28 @@ def normalizar(nombre: str) -> str:
 
 
 def emparejar(nombre: str, candidatos: dict[str, str]) -> str | None:
-    """Busca el equipo de Understat que corresponde a un nombre del calendario."""
+    """Busca el equipo de Understat que corresponde a un nombre del calendario.
+
+    Los calendarios recortan los nombres largos («Racing Sant» por «Racing
+    Santander»), así que además de la coincidencia exacta se acepta que uno sea
+    prefijo del otro o que compartan la primera palabra distintiva.
+    """
     n = normalizar(nombre)
     if n in candidatos:
         return candidatos[n]
+
     for clave, original in candidatos.items():
         if clave.startswith(n) or n.startswith(clave) or (len(n) > 4 and n in clave):
             return original
+
+    # Última pasada: misma palabra inicial y longitud parecida
+    palabras = n.split()
+    if palabras:
+        primera = palabras[0]
+        iguales = [o for c, o in candidatos.items()
+                   if c.split() and c.split()[0] == primera and len(primera) > 3]
+        if len(iguales) == 1:
+            return iguales[0]
     return None
 
 
@@ -605,12 +622,19 @@ def main() -> None:
 
         atq, dfn, gamma = ajustar_fuerzas(partidos, hoy)
         # Las fuerzas usan las cuatro temporadas ponderadas, pero las cifras que
-        # se muestran (puntos, goles, xG) son sólo de la temporada de referencia:
-        # sumar cuatro años daría un «114 partidos, 173 puntos» sin sentido.
-        ag = agregar(p_act or p_ant)
+        # se muestran (puntos, goles, xG) son de una sola: sumar cuatro años
+        # daría un «114 partidos, 173 puntos» sin sentido. Y hasta que la nueva
+        # temporada tenga recorrido, describe mejor al equipo la anterior.
+        referencia = p_act if len(p_act) >= 50 else (p_ant or p_act)
+        ag = agregar(referencia)
 
         # El historial se toma de la temporada más reciente con partidos
-        hist = historial(p_act or p_ant, set(atq))
+        hist = historial(referencia, set(atq))
+
+        pj_ventana: dict[str, int] = {}
+        for m in partidos:
+            for eq in (m["h"]["title"], m["a"]["title"]):
+                pj_ventana[eq] = pj_ventana.get(eq, 0) + 1
 
         equipos = {}
         for e in atq:
@@ -618,6 +642,12 @@ def main() -> None:
             # no están en la categoría; sus fuerzas ayudan al modelo, pero no
             # tienen cifras que mostrar, así que no llegan a la web.
             if e not in ag:
+                continue
+            # Un equipo con dos o tres partidos en toda la ventana tiene
+            # fuerzas sin sentido: se trata igual que a un ascendido. Se cuentan
+            # los de las cuatro temporadas, no los de la actual, porque en
+            # agosto todos llevarían uno o dos.
+            if pj_ventana.get(e, 0) < MIN_PARTIDOS:
                 continue
             equipos[e] = {"nombre": BONITO.get(e, e), "clave": e, "nuevo": False,
                           "atq": round(atq[e], 5), "def": round(dfn[e], 5), **ag[e],
@@ -664,7 +694,7 @@ def main() -> None:
 
         # Etiquetas de procedencia, para que la web pueda decir de qué temporada
         # sale cada cifra en lugar de un vago «temporada anterior».
-        if p_act:
+        if referencia is p_act and p_act:
             temp_fuerzas = f"{etiqueta(anterior)} y {etiqueta(actual)}"
             temp_hist = etiqueta(actual)
             jornadas = f" · {len(p_act)} partidos jugados"
@@ -679,9 +709,22 @@ def main() -> None:
             print(f"    {len(historico)} temporadas de histórico · "
                   f"último campeón: {historico[-1]['campeon']}")
 
+        # Predicción de temporada: se juega el año entero muchas veces con los
+        # equipos que aparecen en el calendario, no con los del año pasado.
+        del_calendario = {p["l"] for p in partidos_web} | {p["v"] for p in partidos_web}
+        plantel = {k: v for k, v in equipos.items()
+                   if not del_calendario or k in del_calendario}
+        descensos = 3 if len(plantel) >= 18 else 2
+        pron = simular.simular_liga(plantel, gamma, RHO, descensos=descensos)
+        if pron:
+            campeon = pron[0]
+            print(f"    favorito al título: {campeon['nombre']} "
+                  f"({campeon['titulo']:.0f} %)")
+
         salida["ligas"][clave] = {
             "nombre": nombre, "pais": pais,
             "pca": pca, "historico": historico,
+            "pronostico": pron,
             "temp_fuerzas": temp_fuerzas,
             "temp_hist": temp_hist,
             "temp_jug": etiqueta(actual) if fichas is f_act else etiqueta(anterior),
@@ -714,6 +757,8 @@ def main() -> None:
             "embudo": europa.embudo_por_pais(partidos_euro),
             "ediciones": len(partidos_euro),
             "equipos": europa.equipos_destacados(partidos_euro),
+            "favoritos": simular.favoritos_europeos(
+                salida["ligas"], nivel.get("log_niveles", {})),
         }
         # El desnivel se guarda también en cada liga, para poder comparar
         # equipos de competiciones distintas cuando haya calendario europeo.
