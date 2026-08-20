@@ -772,7 +772,8 @@ table.tabla-liga tbody tr:hover td { background: var(--surface-2); }
 .jug-toggle {
   background: none; border: none; padding: 0; cursor: pointer;
   font: inherit; color: inherit; text-align: left; width: 100%;
-  display: grid; grid-template-columns: 1fr 46px 46px; gap: 8px; align-items: center;
+  display: grid; grid-template-columns: 26px 1fr 46px 46px; gap: 8px;
+  align-items: center;
 }
 .jug-toggle:focus-visible { outline: 2px solid var(--acento); outline-offset: 2px; }
 .jug-descartado { opacity: .38; text-decoration: line-through; }
@@ -872,6 +873,27 @@ table.tabla-liga tbody tr:hover td { background: var(--surface-2); }
   border-bottom: 1px solid var(--line-soft);
 }
 .jug-fila:last-child { border-bottom: none; }
+/* Foto del jugador: redonda, pequeña y siempre del mismo tamaño para que las
+   filas queden alineadas tenga foto o no. */
+.jug-foto {
+  width: 26px; height: 26px; border-radius: 50%; flex-shrink: 0;
+  object-fit: cover; object-position: center 20%;
+  background: var(--fondo-2, var(--surface)); border: 1px solid var(--line);
+}
+.jug-foto-vacia { display: inline-block; position: relative; overflow: hidden; }
+/* Silueta dibujada con dos círculos: cabeza y hombros */
+.jug-foto-vacia::before, .jug-foto-vacia::after {
+  content: ""; position: absolute; background: var(--line);
+}
+.jug-foto-vacia::before {
+  width: 9px; height: 9px; border-radius: 50%; top: 5px; left: 50%;
+  transform: translateX(-50%);
+}
+.jug-foto-vacia::after {
+  width: 17px; height: 11px; border-radius: 9px 9px 0 0; bottom: 0; left: 50%;
+  transform: translateX(-50%);
+}
+
 .jug-nombre { font-size: 13.5px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .jug-nombre small {
   display: block; color: var(--ink-3); font-size: 11px;
@@ -2065,6 +2087,15 @@ const EUROPEAS = {
   conf: { nombre: "Conference League", pais: "Europa" },
 };
 
+/** Foto de un jugador. Si no la hay, una silueta neutra del mismo tamaño,
+    para que las filas no se descuadren entre sí. */
+function fotoJug(nombre) {
+  const url = (D.fotos || {})[nombre];
+  if (!url) return `<span class="jug-foto jug-foto-vacia" aria-hidden="true"></span>`;
+  return `<img class="jug-foto" src="${url}" alt="" loading="lazy" decoding="async"
+     onerror="this.className='jug-foto jug-foto-vacia';this.removeAttribute('src')">`;
+}
+
 /** Logo de una competición, por su clave interna. Vacío si no hay. */
 function logoComp(clave) {
   const L = D.logos || {};
@@ -2888,6 +2919,7 @@ function pintarJugadores(lg, a, b, golesA, golesB) {
         <button class="jug-toggle ${descartados.has(j.n) ? "jug-descartado" : ""}"
                 type="button" data-jug="${j.n}"
                 title="${fuera ? "Púlsalo para volver a contarlo" : "Púlsalo si sabes que no juega"}">
+          ${fotoJug(j.n)}
           <span class="jug-nombre">${j.n}${etq}
             <small>${j.p} · ${j.g}G ${j.a}A · ${j.ta}TA${j.tr ? ` ${j.tr}TR` : ""}</small>
           </span>
@@ -4124,10 +4156,11 @@ function abrirEquipo(ligaKey, clave) {
   // Plantilla
   const jug = (eq.jug || []).slice().sort((a, b) => (b.g + b.a) - (a.g + a.a));
   document.getElementById("eq-plantilla").innerHTML = jug.length
-    ? `<div class="jug-cab" style="grid-template-columns:1fr 52px 52px 52px">
-         <span>Jugador</span><span>G+A</span><span>Min/PJ</span><span>Tarj.</span></div>` +
+    ? `<div class="jug-cab" style="grid-template-columns:26px 1fr 52px 52px 52px">
+         <span></span><span>Jugador</span><span>G+A</span><span>Min/PJ</span><span>Tarj.</span></div>` +
       jug.map(j => `
-        <div class="jug-fila" style="grid-template-columns:1fr 52px 52px 52px">
+        <div class="jug-fila" style="grid-template-columns:26px 1fr 52px 52px 52px">
+          ${fotoJug(j.n)}
           <span class="jug-nombre">${j.n}${j.baja
             ? `<span class="etq-baja ${j.baja}">${ETQ_BAJA[j.baja][0]}</span>` : ""}
             <small>${j.p} · ${j.pj} partidos · ${j.t} tiros</small></span>

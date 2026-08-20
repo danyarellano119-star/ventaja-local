@@ -34,6 +34,7 @@ import europa
 import simular
 import aciertos as mod_aciertos
 import escudos as mod_escudos
+import fotos as mod_fotos
 
 RAIZ = Path(__file__).resolve().parent.parent
 WEB = RAIZ / "web"
@@ -796,6 +797,10 @@ def main() -> None:
 
     salida["logos"] = mod_escudos.logos_competiciones()
     print(f"    {len(salida['logos'])} competiciones con logo")
+
+    # Las fotos van en caché: aquí sólo se consultan los jugadores nuevos.
+    salida["fotos"] = mod_fotos.mapear(salida["ligas"])
+    print(f"    {len(salida['fotos'])} jugadores con foto")
 
     JSON_SALIDA.write_text(json.dumps(salida, ensure_ascii=False, separators=(",", ":")),
                            encoding="utf-8")

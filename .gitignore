@@ -18,7 +18,7 @@ datos/understat_historico.csv
 # ── Trabajo de investigación, fuera del repositorio público ──────────────
 # Todo esto sigue en el computador; simplemente no se publica, para que quien
 # entre al repositorio vea sólo lo que hace funcionar la página.
-datos/
+datos/*
 manutd-2526.*
 web/datos_modelo.json
 scripts/descargar_fbref.py
@@ -32,3 +32,7 @@ scripts/generar_ligas.py
 
 # Herramienta local para subir con doble clic
 subir.bat
+
+# La caché de fotos sí se publica: sin ella, cada actualización automática
+# tendría que volver a consultar los 768 jugadores desde cero.
+!datos/fotos_jugadores.json
