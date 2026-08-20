@@ -1,0 +1,21 @@
+rank,team,games,wins,ties,losses,goals_for,goals_against,goal_diff,points,points_avg,attendance_per_g,top_team_scorers,top_keeper,notes
+1,Arsenal,38,26,7,5,71,27,44,85,2.24,"60,217",Viktor Gyökeres - 14,David Raya,→ Champions League via league finish
+2,Manchester City,38,23,9,6,77,35,42,78,2.05,"52,634",Erling Haaland - 27,Gianluigi Donnarumma,→ Champions League via league finish
+3,Manchester Utd,38,20,11,7,69,50,19,71,1.87,"73,960","Bryan Mbeumo, Benjamin Šeško - 11",Senne Lammens,→ Champions League via league finish
+4,Aston Villa,38,19,8,11,56,49,7,65,1.71,"41,992",Ollie Watkins - 16,Emiliano Martínez,→ Champions League via league finish
+5,Liverpool,38,17,9,12,63,53,10,60,1.58,"60,368",Hugo Ekitike - 11,Alisson,→ Champions League via league finish
+6,Bournemouth,38,13,18,7,58,54,4,57,1.50,"11,175",Eli Junior Kroupi - 13,Đorđe Petrović,→ Europa League via league finish
+7,Sunderland,38,14,12,12,42,48,-6,54,1.42,"46,493",Brian Brobbey - 7,Robin Roefs,→ Europa League via league finish
+8,Brighton,38,14,11,13,52,46,6,53,1.39,"31,388",Danny Welbeck - 13,Bart Verbruggen,→ Conference League via league finish
+9,Brentford,38,14,11,13,55,52,3,53,1.39,"17,126",Igor Thiago - 22,Caoimhín Kelleher,
+10,Chelsea,38,14,10,14,58,52,6,52,1.37,"39,594",João Pedro - 15,Robert Sánchez,
+11,Fulham,38,15,7,16,47,51,-4,52,1.37,"27,203",Harry Wilson - 10,Bernd Leno,
+12,Newcastle,38,14,7,17,53,55,-2,49,1.29,"52,108",Bruno Guimarães - 9,Nick Pope,
+13,Everton,38,13,10,15,47,50,-3,49,1.29,"52,191",Beto - 9,Jordan Pickford,
+14,Leeds United,38,11,14,13,49,56,-7,47,1.24,"36,695",Dominic Calvert-Lewin - 14,Karl Darlow,
+15,Crystal Palace,38,11,12,15,41,51,-10,45,1.18,"24,997",Jean-Philippe Mateta - 12,Dean Henderson,→ Europa League
+16,Nottingham,38,11,11,16,48,51,-3,44,1.16,"30,425",Morgan Gibbs-White - 15,Matz Sels,
+17,Tottenham,38,10,11,17,48,57,-9,41,1.08,"61,006",Richarlison - 11,Guglielmo Vicario,
+18,West Ham,38,10,9,19,46,65,-19,39,1.03,"62,349",Jarrod Bowen - 9,Alphonse Areola,Relegated
+19,Burnley,38,4,10,24,38,75,-37,22,0.58,"21,005",Zian Flemming - 11,Martin Dúbravka,Relegated
+20,Wolves,38,3,11,24,27,68,-41,20,0.53,"29,853","Santiago Bueno, Tolu Arokodare... - 3",José Sá,Relegated

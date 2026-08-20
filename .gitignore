@@ -1,0 +1,16 @@
+# Cachés y temporales
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Caché de descargas para los experimentos: se regenera solo y pesa 1,4 MB
+datos/understat_historico.csv
+
+# Salidas de los renderizados de Quarto
+*_files/
+*.quarto_ipynb
+.quarto/
+
+# Historial de RStudio
+.Rhistory

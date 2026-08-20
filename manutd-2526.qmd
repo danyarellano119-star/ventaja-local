@@ -1,0 +1,741 @@
+---
+title: "Manchester United — Premier League 2025/26"
+subtitle: "Análisis estadístico y comparación con la liga"
+author: "Daniel Arellano"
+date: today
+lang: es
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    toc-title: "Contenido"
+    number-sections: true
+    embed-resources: true
+    theme: cosmo
+    fig-width: 8
+    fig-height: 4.5
+  pdf:
+    toc: true
+    toc-depth: 3
+    toc-title: "Contenido"
+    number-sections: true
+    documentclass: scrartcl
+    papersize: letter
+    geometry:
+      - margin=2.2cm
+    fig-width: 7
+    fig-height: 4
+    fig-pos: "H"
+jupyter: python3
+execute:
+  echo: true
+  warning: false
+---
+
+```{python}
+#| label: setup
+#| echo: false
+
+from pathlib import Path
+
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib.ticker import PercentFormatter
+
+DATOS = Path("datos")
+PJ = 38
+UTD = "Manchester Utd"
+
+ROJO  = "#C1121F"   # Manchester United
+GRIS  = "#B7B7B7"   # resto de la liga
+AZUL  = "#264653"
+VERDE = "#2A9D8F"
+AMBAR = "#E9C46A"
+
+plt.rcParams.update({
+    "figure.dpi": 130, "savefig.dpi": 130, "font.size": 8.5,
+    "axes.titlesize": 10, "axes.titleweight": "bold",
+    "axes.spines.top": False, "axes.spines.right": False,
+    "axes.grid": True, "grid.alpha": 0.25, "axes.axisbelow": True,
+})
+
+def tabla(df, caption=None, floatfmt=",.2f"):
+    """Imprime un DataFrame como markdown. Usar con `#| output: asis`."""
+    print(df.to_markdown(index=False, floatfmt=floatfmt))
+    if caption:
+        print(f"\n: {caption}\n")
+
+def resaltar(serie_equipos, destacado=UTD, color=ROJO, base=GRIS):
+    """Colorea de rojo la barra del United y de gris el resto."""
+    return [color if e == destacado else base for e in serie_equipos]
+
+# Nombres abreviados para que quepan como etiquetas en los gráficos de dispersión.
+CORTO = {
+    "Manchester Utd": "Man Utd", "Manchester City": "Man City",
+    "Crystal Palace": "C. Palace", "Nottingham": "Nott'm Forest",
+    "Leeds United": "Leeds", "Aston Villa": "A. Villa",
+    "Bournemouth": "Bournemouth", "Tottenham": "Tottenham",
+    "West Ham": "West Ham", "Newcastle": "Newcastle",
+}
+
+def etiquetar(ax, xs, ys, textos, colores=None, negritas=None,
+              fontsize=7.2, dist=7):
+    """Coloca etiquetas junto a cada punto evitando que se solapen.
+
+    Prueba ocho posiciones alrededor del punto y se queda con la primera que no
+    choque ni con otra etiqueta ya colocada ni con ningún punto de la nube. Los
+    elementos se dibujan en el orden recibido, así que conviene pasar primero los
+    más importantes: si algo queda sin sitio, será lo último de la lista.
+    """
+    colores = colores or ["black"] * len(textos)
+    negritas = negritas or [False] * len(textos)
+
+    fig = ax.figure
+    fig.canvas.draw()
+    renderer = fig.canvas.get_renderer()
+
+    # Los propios puntos son zonas prohibidas para las etiquetas.
+    puntos = ax.transData.transform(np.column_stack([xs, ys]))
+    from matplotlib.transforms import Bbox
+    ocupado = [Bbox.from_bounds(px - 5, py - 5, 10, 10) for px, py in puntos]
+
+    # Ocho orientaciones a dos distancias: si la vecindad inmediata está ocupada,
+    # se intenta un poco más lejos antes de renunciar a la etiqueta.
+    candidatos = []
+    for factor in (1.0, 1.9, 2.9):
+        d = dist * factor
+        candidatos += [(d, 0, "left", "center"),   (-d, 0, "right", "center"),
+                       (0, d, "center", "bottom"), (0, -d, "center", "top"),
+                       (d, d, "left", "bottom"),   (-d, d, "right", "bottom"),
+                       (d, -d, "left", "top"),     (-d, -d, "right", "top")]
+
+    for x, y, texto, color, bold in zip(xs, ys, textos, colores, negritas):
+        for i, (dx, dy, ha, va) in enumerate(candidatos):
+            ann = ax.annotate(texto, (x, y), xytext=(dx, dy),
+                              textcoords="offset points", ha=ha, va=va,
+                              fontsize=fontsize, color=color,
+                              fontweight="bold" if bold else "normal", zorder=4)
+            caja = ann.get_window_extent(renderer=renderer).expanded(1.06, 1.25)
+            if not any(caja.overlaps(o) for o in ocupado):
+                ocupado.append(caja)
+                break
+            ann.remove()
+            if i == len(candidatos) - 1:   # sin hueco libre: se omite la etiqueta
+                pass
+```
+
+# Fuentes de datos {#sec-fuentes}
+
+Este análisis usa **[FBref](https://fbref.com/en/comps/9/2025-2026/2025-2026-Premier-League-Stats)**
+(Sports Reference) como fuente principal, consultada el 16 de agosto de 2026. Una
+versión anterior del documento partía de la ficha de Marca.com; se cambió de
+fuente por dos motivos, y el contraste entre ambas está documentado en
+@sec-contraste porque explica varias conclusiones que hubo que revisar.
+
+Lo que aporta FBref y Marca no tenía:
+
+-   **Los 20 equipos de la liga**, con las mismas definiciones para todos, que es
+    la condición para que cualquier comparación signifique algo.
+-   **La plantilla completa** (27 jugadores con minutos), en lugar de un top 3
+    por categoría.
+-   **Los 38 partidos uno a uno**, con rival, resultado, posesión, formación y
+    asistencia.
+-   Métricas que Marca no publica: paradas, porterías a cero, minutos, centros,
+    intercepciones, edad y titularidades.
+
+```{python}
+#| label: carga
+
+clasificacion = pd.read_csv(DATOS / "clasificacion.csv")
+std_favor     = pd.read_csv(DATOS / "standard_favor.csv")
+std_contra    = pd.read_csv(DATOS / "standard_contra.csv")
+tiros_favor   = pd.read_csv(DATOS / "tiros_favor.csv")
+tiros_contra  = pd.read_csv(DATOS / "tiros_contra.csv")
+portero       = pd.read_csv(DATOS / "portero_favor.csv")
+misc_favor    = pd.read_csv(DATOS / "misc_favor.csv")
+misc_contra   = pd.read_csv(DATOS / "misc_contra.csv")
+
+united_plantilla = pd.read_csv(DATOS / "united_plantilla.csv")
+united_misc      = pd.read_csv(DATOS / "united_misc.csv")
+united_minutos   = pd.read_csv(DATOS / "united_minutos.csv")
+united_partidos  = pd.read_csv(DATOS / "united_partidos.csv", parse_dates=["date"])
+contraste_marca  = pd.read_csv(DATOS / "marca_united.csv")
+
+# Las tablas "contra" traen el equipo como "vs Arsenal"; se normaliza para poder cruzar.
+for df in (std_contra, tiros_contra, misc_contra):
+    df["team"] = df["team"].str.removeprefix("vs ")
+
+print(f"{clasificacion.shape[0]} equipos · "
+      f"{united_plantilla.shape[0]} jugadores del United con minutos · "
+      f"{(united_partidos['comp'] == 'Premier League').sum()} partidos de liga")
+```
+
+## Tabla maestra por equipo
+
+Se construye un único DataFrame por equipo cruzando las seis tablas. Todo el
+análisis comparado sale de aquí.
+
+```{python}
+#| label: df-liga
+
+liga = (clasificacion[["rank", "team", "wins", "ties", "losses",
+                       "goals_for", "goals_against", "goal_diff", "points"]]
+        .merge(std_favor[["team", "possession", "avg_age", "players_used",
+                          "assists", "pens_made", "pens_att"]], on="team")
+        .merge(tiros_favor[["team", "shots", "shots_on_target", "shots_on_target_pct",
+                            "goals_per_shot", "goals_per_shot_on_target"]], on="team")
+        .merge(tiros_contra[["team", "shots", "shots_on_target", "shots_on_target_pct"]],
+               on="team", suffixes=("", "_contra"))
+        .merge(portero[["team", "gk_saves", "gk_save_pct", "gk_clean_sheets",
+                        "gk_clean_sheets_pct"]], on="team")
+        .merge(misc_favor[["team", "cards_yellow", "cards_red", "fouls", "fouled",
+                           "offsides", "crosses", "interceptions", "tackles_won"]],
+               on="team")
+       )
+
+# Métricas derivadas
+liga["tiros_pp"]        = liga["shots"] / PJ
+liga["tiros_puerta_pp"] = liga["shots_on_target"] / PJ
+liga["conversion"]      = liga["goals_for"] / liga["shots"] * 100
+liga["conv_puerta"]     = liga["goals_for"] / liga["shots_on_target"] * 100
+liga["gol_concedido_por_tiro_puerta"] = liga["goals_against"] / liga["shots_on_target_contra"] * 100
+liga["puntos_pp"]       = liga["points"] / PJ
+
+liga = liga.sort_values("rank").reset_index(drop=True)
+
+def rk(col, ascendente=False):
+    """Puesto del United en la liga para una métrica (1 = mejor)."""
+    orden = liga.sort_values(col, ascending=ascendente).reset_index(drop=True)
+    return int(orden.index[orden["team"] == UTD][0]) + 1
+
+utd = liga.loc[liga["team"] == UTD].iloc[0]
+liga.shape
+```
+
+```{python}
+#| label: tbl-liga
+#| output: asis
+#| echo: false
+
+vista = liga[["rank", "team", "points", "goals_for", "goals_against", "goal_diff",
+              "possession", "shots", "shots_on_target", "gk_save_pct", "gk_clean_sheets"]].copy()
+vista.columns = ["Pos", "Equipo", "Pts", "GF", "GC", "Dif", "Pos.%",
+                 "Tiros", "A puerta", "Paradas %", "Vallas 0"]
+tabla(vista, "Premier League 2025/26 — tabla maestra por equipo.", floatfmt=",.1f")
+```
+
+
+# El United en el contexto de la liga {#sec-contexto}
+
+```{python}
+#| label: tbl-ranking
+#| output: asis
+#| echo: false
+
+rankings = pd.DataFrame([
+    ("Puntos",                       utd["points"],            rk("points")),
+    ("Goles a favor",                utd["goals_for"],         rk("goals_for")),
+    ("Goles en contra",              utd["goals_against"],     rk("goals_against", True)),
+    ("Diferencia de goles",          utd["goal_diff"],         rk("goal_diff")),
+    ("Tiros totales",                utd["shots"],             rk("shots")),
+    ("Tiros a puerta",               utd["shots_on_target"],   rk("shots_on_target")),
+    ("Precisión de tiro (%)",        utd["shots_on_target_pct"], rk("shots_on_target_pct")),
+    ("Goles por tiro a puerta",      utd["goals_per_shot_on_target"], rk("goals_per_shot_on_target")),
+    ("Posesión (%)",                 utd["possession"],        rk("possession")),
+    ("Tiros a puerta concedidos",    utd["shots_on_target_contra"], rk("shots_on_target_contra", True)),
+    ("Porcentaje de paradas",        utd["gk_save_pct"],       rk("gk_save_pct")),
+    ("Porterías a cero",             utd["gk_clean_sheets"],   rk("gk_clean_sheets")),
+    ("Entradas ganadas",             utd["tackles_won"],       rk("tackles_won")),
+    ("Faltas cometidas",             utd["fouls"],             rk("fouls", True)),
+], columns=["Métrica", "United", "Puesto en la liga"])
+tabla(rankings, "Posición del United en la liga (1 = mejor de los 20).")
+```
+
+Dos cosas saltan de esa tabla y tiran en direcciones opuestas.
+
+**El United fue el equipo que más veces tiró a puerta de toda la Premier
+League**: 215, por delante del City (205) y del Arsenal (186). Empató con el City
+en tiros totales (595) y tuvo la mejor precisión de disparo de la liga (36,1 %).
+En generación de peligro no fue el tercero: fue el primero.
+
+**Y a la vez tuvo el quinto peor porcentaje de paradas de la liga** (64,8 %,
+puesto 16 de 20), por delante sólo de Wolves, Tottenham, Leeds y Burnley —tres
+descendidos o en zona baja—. Con 8 porterías a cero, decimoséptimo de veinte,
+pese a conceder muy pocos tiros a puerta.
+
+```{python}
+#| label: fig-tiros-puerta
+#| fig-cap: "Tiros a puerta por equipo. El United lidera la liga en generación de remate franco."
+
+d = liga.sort_values("shots_on_target")
+fig, ax = plt.subplots(figsize=(7, 5))
+ax.barh(d["team"], d["shots_on_target"], color=resaltar(d["team"]))
+ax.set_xlabel("Tiros a puerta en la temporada")
+ax.set_title("Tiros a puerta — Premier League 2025/26")
+ax.grid(axis="y", visible=False)
+for i, (_, r) in enumerate(d.iterrows()):
+    ax.annotate(f"{int(r['shots_on_target'])}", (r["shots_on_target"], i),
+                xytext=(3, 0), textcoords="offset points", va="center", fontsize=7.5)
+fig.tight_layout()
+plt.show()
+```
+
+# Eficiencia: dónde se ganó y dónde se perdió la temporada {#sec-eficiencia}
+
+## El coste de rematar mucho y mal
+
+Si el United lideró la liga en tiros a puerta pero terminó tercero en goles, la
+diferencia está en la conversión. Y ahí el dato es incómodo.
+
+```{python}
+#| label: fig-eficiencia
+#| fig-cap: "Tiros a puerta contra goles marcados. La línea es el rendimiento medio de la liga; por debajo de ella se convierte peor de lo esperado."
+
+fig, ax = plt.subplots(figsize=(8, 5.4))
+ax.scatter(liga["shots_on_target"], liga["goals_for"],
+           s=55, color=[ROJO if t == UTD else AZUL for t in liga["team"]],
+           zorder=3, edgecolor="white", linewidth=0.8)
+
+# Recta de conversión media de la liga
+tasa_media = liga["goals_for"].sum() / liga["shots_on_target"].sum()
+xs = np.array([liga["shots_on_target"].min(), liga["shots_on_target"].max()])
+ax.plot(xs, xs * tasa_media, "--", color=GRIS, linewidth=1.2, zorder=1,
+        label=f"Conversión media de la liga ({tasa_media*100:.1f} %)")
+
+# Se etiquetan los 20 equipos; el United primero para asegurarle sitio, y el
+# resto de mayor a menor distancia respecto a la recta media, que es lo que
+# hace interesante a un punto en este gráfico.
+d = liga.assign(desvio=(liga["goals_for"] - liga["shots_on_target"] * tasa_media).abs())
+d = pd.concat([d[d["team"] == UTD], d[d["team"] != UTD].sort_values("desvio", ascending=False)])
+
+etiquetar(ax, d["shots_on_target"].values, d["goals_for"].values,
+          [CORTO.get(t, t) for t in d["team"]],
+          colores=[ROJO if t == UTD else "#333333" for t in d["team"]],
+          negritas=[t == UTD for t in d["team"]])
+
+ax.set_xlabel("Tiros a puerta")
+ax.set_ylabel("Goles marcados")
+ax.set_title("Volumen de remate frente a goles")
+ax.margins(x=0.10, y=0.10)
+ax.legend(frameon=False, loc="upper left")
+fig.tight_layout()
+plt.show()
+```
+
+```{python}
+#| label: tbl-eficiencia
+#| output: asis
+#| echo: false
+
+d = liga.sort_values("conv_puerta", ascending=False).copy()
+d["puesto"] = range(1, len(d) + 1)
+d = d[["puesto", "team", "shots_on_target", "goals_for", "conv_puerta",
+       "goals_per_shot_on_target"]]
+d.columns = ["#", "Equipo", "Tiros a puerta", "Goles", "Conversión %",
+             "G sin penalti / tiro a puerta"]
+tabla(d, "Conversión de tiros a puerta, los 20 equipos. La última columna es la "
+         "métrica que publica FBref, que excluye penaltis; la penúltima incluye "
+         "todos los goles.")
+```
+
+::: {.callout-warning}
+## Dos definiciones de gol conviven en estos datos
+
+FBref publica **66 goles** del United y la clasificación, **69**. No es un error:
+la tabla de plantilla suma sólo los goles anotados por jugadores del equipo,
+mientras que la clasificación incluye los **3 goles en propia puerta a favor**.
+Además, `goals_per_shot_on_target` **excluye los penaltis**: los 0,29 del United
+salen de (66 − 4) ÷ 215.
+
+En este documento se usa el criterio de la clasificación —69 goles, todo
+incluido— para cualquier cálculo propio, y la columna de FBref se conserva
+etiquetada como lo que es. Mezclar ambas en una misma comparación es el error
+fácil aquí.
+:::
+
+```{python}
+#| label: brecha
+#| output: asis
+
+goles_esperados = utd["shots_on_target"] * tasa_media
+brecha = utd["goals_for"] - goles_esperados
+print(f"Con {int(utd['shots_on_target'])} tiros a puerta y la conversión media de "
+      f"la liga ({tasa_media*100:.1f} %), al United le habrían correspondido "
+      f"**{goles_esperados:.0f} goles**. Marcó **{int(utd['goals_for'])}**: "
+      f"**{brecha:+.0f}** respecto a lo esperado por volumen.\n\n"
+      f"El City marcó {int(liga.loc[liga['team']=='Manchester City','goals_for'].iloc[0])} "
+      f"con {int(liga.loc[liga['team']=='Manchester City','shots_on_target'].iloc[0])} "
+      f"tiros a puerta; el Arsenal, "
+      f"{int(liga.loc[liga['team']=='Arsenal','goals_for'].iloc[0])} con "
+      f"{int(liga.loc[liga['team']=='Arsenal','shots_on_target'].iloc[0])}.")
+```
+
+```{python}
+#| label: comparativa-conversion
+#| output: asis
+#| echo: false
+
+def conv(equipo):
+    r = liga.loc[liga["team"] == equipo].iloc[0]
+    return r["goals_for"] / r["shots_on_target"]
+
+print(f"Con la conversión del Arsenal ({conv('Arsenal')*100:.1f} % en vez del "
+      f"{conv(UTD)*100:.1f} % del United) esos {int(utd['shots_on_target'])} tiros "
+      f"a puerta habrían dado **{utd['shots_on_target'] * conv('Arsenal'):.0f} goles** "
+      f"en lugar de {int(utd['goals_for'])}. Con la del City, "
+      f"**{utd['shots_on_target'] * conv('Manchester City'):.0f}**.")
+```
+
+Ésta es la lectura central de la temporada: **el United generó más remate franco
+que nadie y lo aprovechó por debajo de la media de la liga**. No es un problema
+de creación, es de definición: el margen está en quién remata y desde dónde, no
+en llegar más veces.
+
+## La portería como agujero
+
+```{python}
+#| label: fig-porteria
+#| fig-cap: "Tiros a puerta concedidos frente a goles encajados. Los equipos por encima de la línea encajan más de lo que su volumen concedido haría esperar."
+
+fig, ax = plt.subplots(figsize=(8, 5.4))
+ax.scatter(liga["shots_on_target_contra"], liga["goals_against"],
+           s=55, color=[ROJO if t == UTD else AZUL for t in liga["team"]],
+           zorder=3, edgecolor="white", linewidth=0.8)
+
+tasa_def = liga["goals_against"].sum() / liga["shots_on_target_contra"].sum()
+xs = np.array([liga["shots_on_target_contra"].min(), liga["shots_on_target_contra"].max()])
+ax.plot(xs, xs * tasa_def, "--", color=GRIS, linewidth=1.2, zorder=1,
+        label=f"Media de la liga ({tasa_def*100:.1f} % de los tiros a puerta acaban en gol)")
+
+d = liga.assign(desvio=(liga["goals_against"] - liga["shots_on_target_contra"] * tasa_def).abs())
+d = pd.concat([d[d["team"] == UTD], d[d["team"] != UTD].sort_values("desvio", ascending=False)])
+
+etiquetar(ax, d["shots_on_target_contra"].values, d["goals_against"].values,
+          [CORTO.get(t, t) for t in d["team"]],
+          colores=[ROJO if t == UTD else "#333333" for t in d["team"]],
+          negritas=[t == UTD for t in d["team"]])
+
+ax.set_xlabel("Tiros a puerta concedidos")
+ax.set_ylabel("Goles encajados")
+ax.set_title("Volumen concedido frente a goles encajados")
+ax.margins(x=0.10, y=0.10)
+ax.legend(frameon=False, loc="upper left")
+fig.tight_layout()
+plt.show()
+```
+
+```{python}
+#| label: def-brecha
+#| output: asis
+
+gc_esperados = utd["shots_on_target_contra"] * tasa_def
+print(f"El United concedió sólo **{int(utd['shots_on_target_contra'])} tiros a "
+      f"puerta**, el tercer registro más bajo de la liga tras Arsenal (89) y City "
+      f"(126). Por ese volumen le habrían correspondido **{gc_esperados:.0f} goles "
+      f"en contra**; encajó **{int(utd['goals_against'])}**, "
+      f"**{utd['goals_against'] - gc_esperados:+.0f}** de más.\n\n"
+      f"Con el porcentaje de paradas del City (72,2 %) en lugar del suyo "
+      f"({utd['gk_save_pct']:.1f} %), el United habría encajado unos "
+      f"{utd['shots_on_target_contra'] * (1 - 0.722):.0f} goles en vez de 50.")
+```
+
+El bloque defensivo funcionó —muy pocos tiros a puerta concedidos—, pero la
+portería no sostuvo ese trabajo. **Es el desajuste más grande del equipo**: tercera
+mejor defensa por volumen concedido y sólo sexta por goles encajados, con el
+puesto 16 de 20 en porcentaje de paradas.
+
+```{python}
+#| label: fig-paradas
+#| fig-cap: "Porcentaje de paradas por equipo. El United queda en el puesto 16 de 20 pese a ser tercero en la clasificación."
+
+d = liga.sort_values("gk_save_pct")
+fig, ax = plt.subplots(figsize=(7, 5))
+ax.barh(d["team"], d["gk_save_pct"], color=resaltar(d["team"]))
+ax.set_xlabel("Porcentaje de paradas")
+ax.set_xlim(55, 75)
+ax.xaxis.set_major_formatter(PercentFormatter())
+ax.set_title("Porcentaje de paradas — Premier League 2025/26")
+ax.grid(axis="y", visible=False)
+for i, (_, r) in enumerate(d.iterrows()):
+    ax.annotate(f"{r['gk_save_pct']:.1f}", (r["gk_save_pct"], i),
+                xytext=(3, 0), textcoords="offset points", va="center", fontsize=7.5)
+fig.tight_layout()
+plt.show()
+```
+
+# La temporada partido a partido {#sec-serie}
+
+```{python}
+#| label: df-serie
+
+pl = (united_partidos.query("comp == 'Premier League'")
+                     .sort_values("date")
+                     .reset_index(drop=True))
+pl["jornada"] = pl.index + 1
+pl["puntos"] = pl["result"].map({"W": 3, "D": 1, "L": 0})
+pl["puntos_acum"] = pl["puntos"].cumsum()
+pl["dif_acum"] = (pl["goals_for"] - pl["goals_against"]).cumsum()
+pl["forma_5"] = pl["puntos"].rolling(5).mean()
+
+# El cambio de sistema: 3-4-3 hasta la jornada 18, 4-2-3-1 a partir de ahí
+pl["sistema"] = np.where(pl["jornada"] <= 17, "3-4-3", "4-2-3-1 (mayoritario)")
+```
+
+```{python}
+#| label: fig-serie
+#| fig-cap: "Puntos acumulados y forma en ventana de cinco partidos. La línea vertical marca el cambio de sistema tras la jornada 17."
+
+fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(8, 5.4), sharex=True,
+                               gridspec_kw={"height_ratios": [2, 1]})
+
+colores = {"W": VERDE, "D": AMBAR, "L": ROJO}
+ax1.plot(pl["jornada"], pl["puntos_acum"], color=AZUL, linewidth=1.6, zorder=2)
+ax1.scatter(pl["jornada"], pl["puntos_acum"],
+            c=[colores[r] for r in pl["result"]], s=32, zorder=3,
+            edgecolor="white", linewidth=0.6)
+ax1.set_ylabel("Puntos acumulados")
+ax1.set_title("Manchester United — trayectoria en la Premier League 2025/26")
+ax1.axvline(17.5, color=GRIS, linestyle="--", linewidth=1)
+ax1.annotate("cambio a 4-2-3-1", (17.5, 8), xytext=(4, 0),
+             textcoords="offset points", fontsize=7.5, color="#555")
+for res, col in colores.items():
+    ax1.scatter([], [], c=col, label={"W": "Victoria", "D": "Empate", "L": "Derrota"}[res], s=32)
+ax1.legend(frameon=False, loc="upper left", ncol=3, fontsize=7.5)
+
+ax2.plot(pl["jornada"], pl["forma_5"], color=ROJO, linewidth=1.6)
+ax2.axhline(pl["puntos"].mean(), color=GRIS, linestyle=":", linewidth=1)
+ax2.axvline(17.5, color=GRIS, linestyle="--", linewidth=1)
+ax2.set_ylabel("Puntos/partido\n(media móvil 5)")
+ax2.set_xlabel("Jornada")
+ax2.set_ylim(0, 3)
+
+fig.tight_layout()
+plt.show()
+```
+
+```{python}
+#| label: tbl-sistema
+#| output: asis
+#| echo: false
+
+tramos = (pl.groupby("sistema")
+            .agg(PJ=("puntos", "size"), Pts=("puntos", "sum"),
+                 GF=("goals_for", "sum"), GC=("goals_against", "sum"),
+                 Posesion=("possession", "mean"))
+            .reset_index())
+tramos["Pts/partido"] = tramos["Pts"] / tramos["PJ"]
+tramos = tramos[["sistema", "PJ", "Pts", "Pts/partido", "GF", "GC", "Posesion"]]
+tramos.columns = ["Sistema", "PJ", "Pts", "Pts/partido", "GF", "GC", "Posesión media"]
+tabla(tramos, "Rendimiento antes y después del cambio de dibujo tras la jornada 17.")
+```
+
+El equipo cambió de 3-4-3 a 4-2-3-1 en la jornada 18 (26 de diciembre, 1-0 al
+Newcastle) y el rendimiento cambió con él. **Merece comprobarse si el cambio es
+causa o coincidencia**: el calendario de la segunda vuelta y la recuperación de
+efectivos son explicaciones alternativas que estos datos no descartan.
+
+```{python}
+#| label: tbl-localia
+#| output: asis
+#| echo: false
+
+loc = (pl.groupby("venue")
+         .agg(PJ=("puntos", "size"), Pts=("puntos", "sum"),
+              GF=("goals_for", "sum"), GC=("goals_against", "sum"),
+              Posesion=("possession", "mean"))
+         .reset_index())
+loc["Pts/partido"] = loc["Pts"] / loc["PJ"]
+loc["venue"] = loc["venue"].map({"Home": "Local", "Away": "Visitante"})
+loc = loc[["venue", "PJ", "Pts", "Pts/partido", "GF", "GC", "Posesion"]]
+loc.columns = ["Condición", "PJ", "Pts", "Pts/partido", "GF", "GC", "Posesión media"]
+tabla(loc, "Rendimiento como local y como visitante.")
+```
+
+# Plantilla completa {#sec-plantilla}
+
+Ahora sí, los 27 jugadores con minutos, en lugar del top 3 por categoría.
+
+```{python}
+#| label: tbl-plantilla
+#| output: asis
+#| echo: false
+
+d = (united_plantilla
+     .query("minutes_90s >= 1")
+     .sort_values("minutes", ascending=False)
+     [["player", "position", "age", "games", "games_starts", "minutes",
+       "goals", "assists", "cards_yellow", "cards_red", "goals_per90", "assists_per90"]])
+d.columns = ["Jugador", "Pos", "Edad", "PJ", "Tit", "Min", "G", "A",
+             "TA", "TR", "G/90", "A/90"]
+tabla(d, "Plantilla del United en Premier League 2025/26 (jugadores con al menos 90 minutos).", floatfmt=",.2f")
+```
+
+## Reparto de minutos {#sec-minutos}
+
+```{python}
+#| label: tbl-minutos
+#| output: asis
+#| echo: false
+
+d = (united_minutos
+     .query("minutes >= 500")
+     .sort_values("minutes", ascending=False)
+     [["player", "position", "games", "games_starts", "games_complete",
+       "games_subs", "minutes", "minutes_pct", "points_per_game", "plus_minus"]])
+d.columns = ["Jugador", "Pos", "PJ", "Titular", "Completos", "Desde banquillo",
+             "Min", "% de minutos", "Pts/partido", "+/−"]
+tabla(d, "Uso de la plantilla. «Completos» son partidos jugados de principio a fin.", floatfmt=",.2f")
+```
+
+::: {.callout-tip}
+## Sí: Luke Shaw jugó los 38 partidos
+
+El dato llama la atención por su historial de lesiones, pero FBref es
+internamente consistente y admite comprobación: **38 partidos, 38 titularidades,
+3 219 minutos**, que son el **94,1 %** de los 3 420 posibles. La cifra encaja
+porque no jugó los 38 completos, sólo **23**: fue sustituido en los otros 15,
+promediando 85 minutos por partido. No entró ni una vez desde el banquillo y no
+figura como suplente sin utilizar en ninguna jornada.
+
+Fue el único jugador de la plantilla presente en los 38 partidos de liga. El
+segundo en minutos es Bruno Fernandes (3 063 en 35 partidos), que sí se perdió
+tres.
+:::
+
+## Producción ajustada por minutos
+
+```{python}
+#| label: fig-plantilla
+#| fig-cap: "Goles y asistencias por 90 minutos. El tamaño del punto es proporcional a los minutos jugados."
+
+d = united_plantilla.query("minutes_90s >= 5 and position != 'GK'").copy()
+# Etiqueta corta: apellido, con las excepciones donde el apellido solo no basta.
+EXCEPCIONES = {"Matthijs de Ligt": "De Ligt", "Bruno Fernandes": "B. Fernandes",
+               "Lisandro Martínez": "L. Martínez", "Amad Diallo": "Amad"}
+d["etiqueta"] = [EXCEPCIONES.get(p, p.split()[-1]) for p in d["player"]]
+
+fig, ax = plt.subplots(figsize=(8, 5.4))
+ax.scatter(d["goals_per90"], d["assists_per90"],
+           s=d["minutes_90s"] * 7, alpha=0.55, color=AZUL,
+           edgecolor="white", linewidth=0.8, zorder=3)
+
+# Se etiqueta a todos, empezando por los de mayor producción total para que sean
+# ellos quienes se queden con el hueco si hay disputa.
+d = d.sort_values("goals_assists_per90", ascending=False)
+etiquetar(ax, d["goals_per90"].values, d["assists_per90"].values,
+          d["etiqueta"].tolist(), fontsize=7.5, dist=9)
+
+ax.set_xlabel("Goles por 90 minutos")
+ax.set_ylabel("Asistencias por 90 minutos")
+ax.set_title("Producción ofensiva ajustada por minutos (mínimo 5 partidos completos)")
+ax.margins(x=0.14, y=0.16)
+fig.tight_layout()
+plt.show()
+```
+
+```{python}
+#| label: sesko
+#| output: asis
+
+s = united_plantilla.set_index("player")
+sesko, mbeumo = s.loc["Benjamin Šeško"], s.loc["Bryan Mbeumo"]
+print(f"**Šeško y Mbeumo empataron a 11 goles con cargas muy distintas.** "
+      f"Šeško los marcó en {sesko['minutes']:,.0f} minutos "
+      f"({sesko['games_starts']:.0f} titularidades) y Mbeumo en "
+      f"{mbeumo['minutes']:,.0f} ({mbeumo['games_starts']:.0f}). "
+      f"Por 90 minutos: **{sesko['goals_per90']:.2f} contra "
+      f"{mbeumo['goals_per90']:.2f}**, una diferencia del "
+      f"{(sesko['goals_per90']/mbeumo['goals_per90']-1)*100:.0f} % a favor de Šeško, "
+      f"que fue además el jugador más eficiente de la plantilla.")
+```
+
+Con los datos de Marca esta diferencia era invisible: la ficha daba medias de 0,37
+y 0,33, sugiriendo que Šeško había jugado apenas tres partidos menos. En realidad
+jugó **casi mil minutos menos** y fue, con diferencia, el delantero más rentable
+por minuto del equipo.
+
+## Bruno Fernandes, otra vez el eje
+
+```{python}
+#| label: tbl-bruno
+#| output: asis
+#| echo: false
+
+bf_std  = united_plantilla.set_index("player").loc["Bruno Fernandes"]
+bf_misc = united_misc.set_index("player").loc["Bruno Fernandes"]
+
+eq_asis    = int(std_favor.loc[std_favor["team"] == UTD, "assists"].iloc[0])
+eq_centros = int(misc_favor.loc[misc_favor["team"] == UTD, "crosses"].iloc[0])
+
+d = pd.DataFrame([
+    ("Asistencias",     bf_std["assists"],  eq_asis),
+    ("Centros",         bf_misc["crosses"], eq_centros),
+    ("Goles",           bf_std["goals"],    int(std_favor.loc[std_favor["team"] == UTD, "goals"].iloc[0])),
+    ("Penaltis lanzados", bf_std["pens_att"], int(std_favor.loc[std_favor["team"] == UTD, "pens_att"].iloc[0])),
+], columns=["Métrica", "Bruno", "Equipo"])
+d["% del equipo"] = d["Bruno"] / d["Equipo"] * 100
+tabla(d, "Peso de Bruno Fernandes en la producción del equipo.")
+```
+
+Jugó 3 063 minutos —el segundo del equipo tras Luke Shaw, que disputó los 38
+partidos completos— y firmó **21 de las 46 asistencias** y **181 de los 639
+centros**. La dependencia es real y cuantificable.
+
+# Síntesis
+
+```{python}
+#| label: tbl-sintesis
+#| output: asis
+#| echo: false
+
+d = pd.DataFrame([
+    ("Posición final",            "3.º de 20"),
+    ("Puntos",                    f"{int(utd['points'])}"),
+    ("Diferencia de goles",       f"{int(utd['goal_diff']):+d}"),
+    ("Tiros a puerta",            f"{int(utd['shots_on_target'])} — 1.º de la liga"),
+    ("Precisión de tiro",         f"{utd['shots_on_target_pct']:.1f} % — 1.º de la liga"),
+    ("Goles por tiro a puerta",   f"{utd['goals_per_shot_on_target']:.2f} — {rk('goals_per_shot_on_target')}.º de la liga"),
+    ("Tiros a puerta concedidos", f"{int(utd['shots_on_target_contra'])} — 3.º mejor"),
+    ("Porcentaje de paradas",     f"{utd['gk_save_pct']:.1f} % — {rk('gk_save_pct')}.º de 20"),
+    ("Porterías a cero",          f"{int(utd['gk_clean_sheets'])} — {rk('gk_clean_sheets')}.º de 20"),
+    ("Posesión",                  f"{utd['possession']:.1f} % — {rk('possession')}.º de la liga"),
+], columns=["Indicador", "Valor"])
+tabla(d, "El United en una tabla.")
+```
+
+La temporada se sostiene sobre una asimetría clara: **el United fue el mejor
+equipo de la liga generando remate franco y uno de los peores aprovechándolo,
+tanto en ataque como bajo palos**. Terminó tercero en la clasificación con el
+mayor volumen de tiros a puerta de la Premier y el puesto 16 de 20 en porcentaje
+de paradas.
+
+Es un perfil poco común y con una implicación directa: el margen de mejora no
+está en crear más ocasiones —ya lidera— sino en definirlas y en la portería.
+
+# Líneas de análisis abiertas {#sec-agenda}
+
+Todos los datos necesarios para las siete primeras ya están cargados.
+
+| # | Análisis | Datos | Qué respondería |
+|---|----------|-------|-----------------|
+| 1 | Perfil del United contra la media de la liga (z-scores por métrica) | Listos | En qué es realmente atípico |
+| 2 | Ranking de eficiencia ofensiva y defensiva de los 20 equipos | Listos | Si el desajuste del United es único |
+| 3 | Rendimiento contra rivales del *top 6* frente al resto | Listos | Si compitió contra los grandes |
+| 4 | Efecto del cambio de sistema, controlando por dificultad de rival | Listos | Si el 4-2-3-1 explica la segunda vuelta |
+| 5 | Comparación directa con City y Arsenal, métrica a métrica | Listos | Qué le faltó para pelear el título |
+| 6 | Reparto de minutos y dependencia de titulares | Listos | Fondo de armario y rotación |
+| 7 | Relación entre posesión y resultado, partido a partido | Listos | Si le convino tener el balón |
+| 8 | xG contra goles reales | Requiere Understat o FBref avanzado | Si la mala definición fue mala suerte |
+| 9 | Comparación con temporadas anteriores del United | Requiere descargar 2019/20–2024/25 | Magnitud real de la mejora |
+
+: Candidatos para las siguientes secciones. {#tbl-agenda}
+
+::: {.callout-note}
+## Reproducibilidad
+
+Los CSV de `datos/` se generaron desde FBref el 16 de agosto de 2026. El script
+`scripts/descargar_fbref.py` automatiza la descarga, aunque FBref responde 403 a
+peticiones directas desde este entorno: los datos actuales se extrajeron del DOM
+con el navegador. Todas las cifras derivadas se calculan en este documento.
+:::

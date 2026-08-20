@@ -1,0 +1,3329 @@
+<title>Ventaja Local</title>
+<style>
+:root {
+  --ground:      #EDEFF2;
+  --surface:     #FBFCFD;
+  --surface-2:   #F1F4F7;
+  --surface-3:   #E7ECF1;
+  --line:        #D4DAE1;
+  --line-soft:   #E3E8ED;
+  --ink:         #16202B;
+  --ink-2:       #46586A;
+  --ink-3:       #7B8B9A;
+
+  --local:       #1F6FB2;
+  --local-soft:  #DCEAF6;
+  --empate:      #77838F;
+  --empate-soft: #E7EAED;
+  --visita:      #C07C12;
+  --visita-soft: #F8EDD6;
+
+  --acento:      #1F6FB2;
+  --ok:          #2E7A5B;
+  --verde-soft:  #E4F1EB;
+  --alerta:      #A63A26;
+
+  --heat-0:      #F1F4F7;
+  --heat-1:      #1F6FB2;
+
+  --sombra:      0 1px 2px rgba(22,32,43,.06), 0 8px 24px -12px rgba(22,32,43,.18);
+  --sombra-alta: 0 2px 6px rgba(22,32,43,.10), 0 16px 40px -18px rgba(22,32,43,.32);
+
+  --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+  --sans:  system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --mono:  ui-monospace, "SF Mono", "Cascadia Mono", Menlo, Consolas, monospace;
+
+  /* El menú desplegado de un <select> lo pinta el sistema, no la hoja de
+     estilos: sin esto el navegador usa fondo claro y las opciones heredan el
+     texto claro de la página, quedando invisibles. */
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --ground:      #10161D;
+    --surface:     #18212B;
+    --surface-2:   #1F2A36;
+    --surface-3:   #26323F;
+    --line:        #2C3945;
+    --line-soft:   #232F3A;
+    --ink:         #E6EDF3;
+    --ink-2:       #A3B3C2;
+    --ink-3:       #758798;
+    --local:       #59A5E0;
+    --local-soft:  #17324B;
+    --empate:      #8A98A6;
+    --empate-soft: #262F38;
+    --visita:      #E5A93C;
+    --visita-soft: #3B2E14;
+    --acento:      #59A5E0;
+    --ok:          #5FBF97;
+    --verde-soft:  #17302A;
+    --heat-0:      #1F2A36;
+    --heat-1:      #59A5E0;
+    --sombra:      0 1px 2px rgba(0,0,0,.3), 0 8px 24px -12px rgba(0,0,0,.6);
+    --sombra-alta: 0 2px 6px rgba(0,0,0,.4), 0 16px 40px -18px rgba(0,0,0,.75);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --ground:      #10161D;
+  --surface:     #18212B;
+  --surface-2:   #1F2A36;
+  --surface-3:   #26323F;
+  --line:        #2C3945;
+  --line-soft:   #232F3A;
+  --ink:         #E6EDF3;
+  --ink-2:       #A3B3C2;
+  --ink-3:       #758798;
+  --local:       #59A5E0;
+  --local-soft:  #17324B;
+  --empate:      #8A98A6;
+  --empate-soft: #262F38;
+  --visita:      #E5A93C;
+  --visita-soft: #3B2E14;
+  --acento:      #59A5E0;
+  --ok:          #5FBF97;
+  --verde-soft:  #17302A;
+  --alerta:      #E08A76;
+  --heat-0:      #1F2A36;
+  --heat-1:      #59A5E0;
+  --sombra:      0 1px 2px rgba(0,0,0,.3), 0 8px 24px -12px rgba(0,0,0,.6);
+  --sombra-alta: 0 2px 6px rgba(0,0,0,.4), 0 16px 40px -18px rgba(0,0,0,.75);
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+
+/* Refuerzo por si el sistema ignora color-scheme en el menú desplegado */
+option, optgroup { background: var(--surface); color: var(--ink); }
+optgroup { font-weight: 600; }
+
+body {
+  margin: 0;
+  background: var(--ground);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+.envoltorio { max-width: 1020px; margin: 0 auto; padding: 30px 18px 70px; }
+.pila { display: flex; flex-direction: column; gap: 22px; }
+
+.eyebrow {
+  font-family: var(--mono); font-size: 11px; letter-spacing: .14em;
+  text-transform: uppercase; color: var(--ink-3);
+}
+
+h1 {
+  font-family: var(--serif);
+  font-size: clamp(28px, 4.6vw, 40px);
+  line-height: 1.12; font-weight: 600; margin: 6px 0 8px;
+  text-wrap: balance; letter-spacing: -.01em;
+}
+
+.entradilla { color: var(--ink-2); max-width: 60ch; margin: 0; font-size: 16.5px; }
+
+/* ── Pestañas de liga ─────────────────────────────────────────────────── */
+.ligas {
+  display: flex; gap: 6px; overflow-x: auto; padding-bottom: 4px;
+  border-bottom: 1px solid var(--line); margin-bottom: 4px;
+}
+.liga-btn {
+  font-family: var(--sans); font-size: 14.5px;
+  background: none; border: none; border-bottom: 2px solid transparent;
+  color: var(--ink-3); padding: 9px 13px; cursor: pointer;
+  white-space: nowrap; display: flex; flex-direction: column; gap: 1px;
+  transition: color .15s, border-color .15s;
+}
+.liga-btn .pais {
+  font-family: var(--mono); font-size: 9.5px; letter-spacing: .1em;
+  text-transform: uppercase; opacity: .8;
+}
+.liga-btn:hover { color: var(--ink-2); }
+.liga-btn[aria-selected="true"] {
+  color: var(--ink); border-bottom-color: var(--acento); font-weight: 500;
+}
+
+/* ── Lista de partidos ────────────────────────────────────────────────── */
+.grupo-fecha { margin-top: 24px; }
+
+.cabecera-fecha {
+  font-family: var(--mono); font-size: 11px; letter-spacing: .11em;
+  text-transform: uppercase; color: var(--ink-3);
+  padding-bottom: 8px; margin-bottom: 10px;
+  border-bottom: 1px solid var(--line-soft);
+  display: flex; justify-content: space-between; align-items: baseline; gap: 12px;
+}
+.cabecera-fecha .jornada { opacity: .75; }
+
+.lista { display: flex; flex-direction: column; gap: 8px; }
+
+.partido {
+  display: grid;
+  grid-template-columns: 52px 1fr 132px 22px;
+  gap: 14px; align-items: center;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  padding: 13px 15px;
+  cursor: pointer;
+  text-align: left; width: 100%;
+  font-family: inherit; font-size: inherit; color: inherit;
+  transition: border-color .15s, box-shadow .15s, transform .15s;
+}
+.partido:hover {
+  border-color: var(--acento);
+  box-shadow: var(--sombra-alta);
+  transform: translateY(-1px);
+}
+.partido:focus-visible { outline: 2px solid var(--acento); outline-offset: 2px; }
+
+.hora {
+  font-family: var(--mono); font-size: 13px; color: var(--ink-2);
+  font-variant-numeric: tabular-nums;
+}
+
+.equipos { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.eq-linea {
+  display: flex; justify-content: space-between; gap: 10px;
+  font-size: 15px; align-items: baseline;
+}
+.eq-nombre { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.eq-prob {
+  font-family: var(--mono); font-size: 13px; font-variant-numeric: tabular-nums;
+  color: var(--ink-3); flex-shrink: 0;
+}
+.eq-linea.favorito .eq-nombre { font-weight: 600; }
+.eq-linea.favorito .eq-prob { color: var(--ink); font-weight: 600; }
+
+.mini-barra {
+  display: flex; height: 26px; border-radius: 5px; overflow: hidden;
+  border: 1px solid var(--line-soft);
+}
+.mini-barra i {
+  display: block; height: 100%;
+  font-family: var(--mono); font-size: 10px; color: #fff;
+  display: flex; align-items: center; justify-content: center;
+}
+.mini-barra i.l { background: var(--local); }
+.mini-barra i.e { background: var(--empate); }
+.mini-barra i.v { background: var(--visita); }
+
+.flecha { color: var(--ink-3); font-size: 17px; text-align: center; }
+
+.etq-nuevo {
+  font-family: var(--mono); font-size: 9px; letter-spacing: .06em;
+  text-transform: uppercase; color: var(--visita);
+  border: 1px solid var(--visita); border-radius: 3px;
+  padding: 0 3px; margin-left: 5px; vertical-align: 1px;
+}
+
+/* ── Detalle ──────────────────────────────────────────────────────────── */
+.oculto { display: none !important; }
+
+.volver {
+  font-family: var(--mono); font-size: 12.5px; color: var(--ink-2);
+  background: none; border: none; cursor: pointer; padding: 6px 0;
+  display: inline-flex; align-items: center; gap: 7px;
+}
+.volver:hover { color: var(--acento); }
+.volver:focus-visible { outline: 2px solid var(--acento); outline-offset: 3px; }
+
+.tarjeta {
+  background: var(--surface); border: 1px solid var(--line);
+  border-radius: 10px; padding: 22px; box-shadow: var(--sombra);
+}
+.tarjeta > h2 {
+  font-family: var(--serif); font-size: 20px; font-weight: 600;
+  margin: 0 0 6px; letter-spacing: -.005em;
+}
+.tarjeta > .sub {
+  color: var(--ink-2); margin: 0 0 18px; font-size: 14.5px; max-width: 66ch;
+}
+.paso {
+  font-family: var(--mono); font-size: 10.5px; letter-spacing: .12em;
+  text-transform: uppercase; color: var(--ink-3);
+  display: block; margin-bottom: 7px;
+}
+
+.duelo {
+  display: grid; grid-template-columns: 1fr auto 1fr;
+  align-items: center; gap: 14px; margin-bottom: 18px;
+}
+.lado.der { text-align: right; }
+.nombre-eq {
+  font-family: var(--serif); font-size: clamp(19px, 3vw, 26px);
+  font-weight: 600; line-height: 1.15; display: block; text-wrap: balance;
+}
+.rol {
+  font-family: var(--mono); font-size: 10px; letter-spacing: .12em;
+  text-transform: uppercase; color: var(--ink-3);
+}
+.versus { font-family: var(--serif); font-style: italic; color: var(--ink-3); font-size: 16px; }
+
+.cuando {
+  font-family: var(--mono); font-size: 12px; color: var(--ink-3);
+  text-align: center; margin-bottom: 16px;
+}
+
+.barra-prob {
+  display: flex; height: 58px; border-radius: 8px; overflow: hidden;
+  border: 1px solid var(--line); margin-bottom: 12px;
+}
+.seg {
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  color: #fff; min-width: 0; overflow: hidden; gap: 1px;
+  transition: flex-grow .4s cubic-bezier(.4,0,.2,1);
+}
+.seg.l { background: var(--local); }
+.seg.e { background: var(--empate); }
+.seg.v { background: var(--visita); }
+.seg-pct {
+  font-family: var(--mono); font-size: 16px; font-weight: 600;
+  font-variant-numeric: tabular-nums; line-height: 1;
+}
+.seg-etq { font-size: 10px; letter-spacing: .06em; text-transform: uppercase; opacity: .92; white-space: nowrap; }
+
+/* ── Opciones sobre la mesa ───────────────────────────────────────────── */
+.opciones { display: flex; flex-direction: column; gap: 7px; }
+
+.opcion {
+  display: grid; grid-template-columns: 1fr 72px 78px 78px;
+  gap: 12px; align-items: center;
+  background: var(--surface-2); border: 1px solid var(--line-soft);
+  border-radius: 8px; padding: 11px 14px;
+  border-left: 3px solid var(--barra, var(--empate));
+}
+.opcion.destacada { background: var(--surface-3); }
+.opcion-nombre { font-size: 14.5px; }
+.opcion-nombre small { display: block; color: var(--ink-3); font-size: 12.5px; }
+.opcion-prob, .opcion-cuota, .opcion-mercado {
+  font-family: var(--mono); font-size: 15px; font-variant-numeric: tabular-nums;
+  text-align: right; font-weight: 600;
+}
+.opcion-cuota { color: var(--ink-2); font-weight: 500; }
+.opcion-mercado { color: var(--visita); }
+.cab-opciones {
+  display: grid; grid-template-columns: 1fr 72px 78px 78px; gap: 12px;
+  padding: 0 14px 4px; font-family: var(--mono); font-size: 10px;
+  letter-spacing: .1em; text-transform: uppercase; color: var(--ink-3);
+}
+.cab-opciones span:not(:first-child) { text-align: right; }
+
+/* ── Control de margen ────────────────────────────────────────────────── */
+.margen-control {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 10px;
+  background: var(--surface-2); border: 1px solid var(--line-soft);
+  border-radius: 8px; padding: 11px 14px; margin-bottom: 14px;
+}
+.margen-etq {
+  font-family: var(--mono); font-size: 10.5px; letter-spacing: .1em;
+  text-transform: uppercase; color: var(--ink-3);
+}
+.margen-btns { display: flex; gap: 5px; }
+.margen-btn {
+  font-family: var(--mono); font-size: 13px; font-variant-numeric: tabular-nums;
+  background: var(--surface); border: 1px solid var(--line);
+  border-radius: 6px; padding: 5px 11px; cursor: pointer; color: var(--ink-2);
+  transition: background .15s, color .15s, border-color .15s;
+}
+.margen-btn:hover { border-color: var(--acento); }
+.margen-btn[aria-pressed="true"] {
+  background: var(--acento); border-color: var(--acento); color: #fff; font-weight: 600;
+}
+.margen-btn:focus-visible { outline: 2px solid var(--acento); outline-offset: 2px; }
+.margen-nota { font-size: 12.5px; color: var(--ink-3); flex: 1 1 190px; }
+
+/* ── Calculadora de valor ─────────────────────────────────────────────── */
+.calc {
+  display: grid; grid-template-columns: 1fr 140px 140px;
+  gap: 12px; align-items: end; margin-bottom: 16px;
+}
+.campo { display: flex; flex-direction: column; gap: 5px; min-width: 0; }
+.campo label {
+  font-family: var(--mono); font-size: 10.5px; letter-spacing: .1em;
+  text-transform: uppercase; color: var(--ink-3);
+}
+.calc select, .calc input {
+  font-family: var(--sans); font-size: 15px; color: var(--ink);
+  background: var(--surface-2); border: 1px solid var(--line);
+  border-radius: 7px; padding: 10px 12px; width: 100%;
+}
+.calc input { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+.calc select { cursor: pointer; appearance: none; padding-right: 32px;
+  background-image: linear-gradient(45deg, transparent 50%, currentColor 50%),
+                    linear-gradient(135deg, currentColor 50%, transparent 50%);
+  background-position: calc(100% - 17px) 50%, calc(100% - 12px) 50%;
+  background-size: 5px 5px, 5px 5px; background-repeat: no-repeat;
+}
+.calc select:focus-visible, .calc input:focus-visible {
+  outline: 2px solid var(--acento); outline-offset: 2px;
+}
+
+.veredicto {
+  border-radius: 8px; padding: 16px 18px; border: 1px solid;
+  display: flex; flex-direction: column; gap: 8px;
+}
+.veredicto.bueno { background: var(--verde-soft); border-color: var(--ok); }
+.veredicto.malo  { background: var(--surface-2); border-color: var(--line); }
+.veredicto-titulo {
+  font-family: var(--serif); font-size: 19px; font-weight: 600; line-height: 1.25;
+}
+.veredicto.bueno .veredicto-titulo { color: var(--ok); }
+.veredicto-detalle { font-size: 14px; color: var(--ink-2); line-height: 1.55; }
+.veredicto-detalle b { color: var(--ink); }
+.veredicto-cifras {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(122px, 1fr));
+  gap: 10px; margin-top: 4px;
+}
+.vc-caja {
+  background: var(--surface); border: 1px solid var(--line-soft);
+  border-radius: 7px; padding: 9px 11px;
+}
+.vc-val {
+  font-family: var(--mono); font-size: 17px; font-weight: 600;
+  font-variant-numeric: tabular-nums; display: block; line-height: 1.25;
+}
+.vc-lbl { font-size: 11.5px; color: var(--ink-3); }
+
+/* ── Fuerzas ──────────────────────────────────────────────────────────── */
+.fuerzas { display: flex; flex-direction: column; gap: 16px; }
+.fila-fuerza {
+  display: grid; grid-template-columns: 152px 1fr 152px;
+  gap: 14px; align-items: center;
+}
+.metrica-nombre {
+  font-family: var(--mono); font-size: 10.5px; letter-spacing: .09em;
+  text-transform: uppercase; color: var(--ink-3); text-align: center;
+  margin-bottom: 5px;
+}
+.valor-f {
+  font-family: var(--mono); font-size: 15px;
+  font-variant-numeric: tabular-nums; font-weight: 600;
+}
+.valor-f .nota {
+  font-family: var(--sans); font-weight: 400; font-size: 12px;
+  color: var(--ink-2); display: block; letter-spacing: 0; line-height: 1.35;
+}
+.der-txt { text-align: right; }
+
+.riel { height: 9px; background: var(--surface-2); border-radius: 5px; position: relative; border: 1px solid var(--line-soft); }
+.riel .medio { position: absolute; left: 50%; top: -4px; bottom: -4px; width: 1px; background: var(--line); }
+.riel .marca {
+  position: absolute; top: 50%; width: 11px; height: 11px; border-radius: 50%;
+  transform: translate(-50%, -50%); border: 2px solid var(--surface);
+  transition: left .4s cubic-bezier(.4,0,.2,1);
+}
+.riel .marca.l { background: var(--local); }
+.riel .marca.v { background: var(--visita); }
+
+.xg-caja {
+  display: grid; grid-template-columns: 1fr auto 1fr; gap: 14px; align-items: center;
+  background: var(--surface-2); border: 1px solid var(--line-soft);
+  border-radius: 8px; padding: 15px 17px; margin-top: 6px;
+}
+.xg-num {
+  font-family: var(--serif); font-size: 32px; font-weight: 600;
+  font-variant-numeric: tabular-nums; line-height: 1.1; display: block;
+}
+.xg-num.l { color: var(--local); }
+.xg-num.v { color: var(--visita); }
+.xg-etq { font-size: 12px; color: var(--ink-2); display: block; }
+
+/* ── Matriz ───────────────────────────────────────────────────────────── */
+.matriz-envoltorio { overflow-x: auto; }
+table.matriz {
+  border-collapse: collapse; font-family: var(--mono); font-size: 12px;
+  font-variant-numeric: tabular-nums; margin: 0 auto;
+}
+table.matriz th { font-weight: 500; color: var(--ink-3); font-size: 10.5px; padding: 4px 6px; }
+table.matriz th.esquina { font-size: 9px; line-height: 1.3; text-align: left; }
+table.matriz td {
+  width: 44px; height: 32px; text-align: center;
+  border: 1px solid var(--surface); border-radius: 3px; color: var(--ink);
+}
+table.matriz td.top { outline: 2px solid var(--visita); outline-offset: -2px; font-weight: 700; }
+
+.top-marcadores { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 14px; }
+.chip {
+  font-family: var(--mono); font-size: 12px; background: var(--surface-2);
+  border: 1px solid var(--line-soft); border-radius: 999px; padding: 4px 11px;
+  font-variant-numeric: tabular-nums;
+}
+.chip b { font-weight: 600; }
+.chip span { color: var(--ink-2); }
+
+/* ── Comparación ──────────────────────────────────────────────────────── */
+.comparacion { display: flex; flex-direction: column; }
+.fila-comp {
+  display: grid; grid-template-columns: 80px 1fr 168px 1fr 80px;
+  gap: 9px; align-items: center; padding: 7px 0;
+  border-bottom: 1px solid var(--line-soft);
+}
+.fila-comp:last-child { border-bottom: none; }
+.comp-val { font-family: var(--mono); font-size: 14px; font-variant-numeric: tabular-nums; font-weight: 600; }
+.comp-val.der { text-align: right; }
+.comp-etq { font-size: 12.5px; color: var(--ink-2); text-align: center; line-height: 1.3; }
+.mini-riel { height: 7px; background: var(--surface-2); border-radius: 4px; overflow: hidden; display: flex; }
+.mini-riel.izq { justify-content: flex-end; }
+.mini-riel i { display: block; height: 100%; transition: width .35s ease; }
+.mini-riel i.l { background: var(--local); border-radius: 4px 0 0 4px; }
+.mini-riel i.v { background: var(--visita); border-radius: 0 4px 4px 0; }
+.gana { color: var(--ink); }
+.pierde { color: var(--ink-3); }
+
+/* ── Acceso al panorama de liga ───────────────────────────────────────── */
+.fila-liga {
+  display: flex; justify-content: space-between; align-items: center;
+  gap: 12px; flex-wrap: wrap; margin-top: 12px;
+}
+.fila-liga-txt { font-size: 13px; color: var(--ink-3); }
+.botones-liga { display: flex; gap: 8px; flex-wrap: wrap; }
+.btn-liga {
+  font-family: var(--sans); font-size: 13.5px;
+  background: var(--surface); color: var(--acento);
+  border: 1px solid var(--line); border-radius: 7px;
+  padding: 7px 14px; cursor: pointer; white-space: nowrap;
+}
+.btn-liga:hover { border-color: var(--acento); }
+.btn-liga:focus-visible { outline: 2px solid var(--acento); outline-offset: 2px; }
+
+/* ── Tablas de liga ───────────────────────────────────────────────────── */
+.tabla-envoltorio { overflow-x: auto; }
+table.tabla-liga {
+  width: 100%; border-collapse: collapse; font-size: 13.5px;
+  font-variant-numeric: tabular-nums;
+}
+table.tabla-liga th {
+  font-family: var(--mono); font-size: 9.5px; letter-spacing: .08em;
+  text-transform: uppercase; color: var(--ink-3); font-weight: 500;
+  text-align: right; padding: 6px 8px; border-bottom: 1px solid var(--line);
+  white-space: nowrap;
+}
+table.tabla-liga th:nth-child(2) { text-align: left; }
+table.tabla-liga td {
+  padding: 7px 8px; text-align: right; border-bottom: 1px solid var(--line-soft);
+  font-family: var(--mono); white-space: nowrap;
+}
+table.tabla-liga td:nth-child(2) {
+  text-align: left; font-family: var(--sans); font-size: 14px;
+}
+table.tabla-liga tr:last-child td { border-bottom: none; }
+table.tabla-liga tbody tr { cursor: pointer; }
+table.tabla-liga tbody tr:hover td { background: var(--surface-2); }
+.pos-num { color: var(--ink-3); font-size: 12px; }
+.mejor { color: var(--ok); }
+.peor { color: var(--visita); }
+
+/* ── Ejes del mapa ────────────────────────────────────────────────────── */
+.ejes { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 14px; }
+.eje-caja {
+  background: var(--surface-2); border: 1px solid var(--line-soft);
+  border-radius: 8px; padding: 14px 16px;
+}
+.eje-titulo { font-size: 14.5px; font-weight: 600; display: block; margin-bottom: 3px; }
+.eje-peso {
+  font-family: var(--mono); font-size: 10.5px; color: var(--ink-3);
+  display: block; margin-bottom: 10px;
+}
+.eje-fila {
+  display: grid; grid-template-columns: 1fr 46px; gap: 8px;
+  align-items: center; font-size: 13px; padding: 3px 0;
+}
+.eje-fila span:last-child {
+  font-family: var(--mono); font-size: 12px; text-align: right; color: var(--ink-2);
+}
+
+/* ── Acciones de la ficha ─────────────────────────────────────────────── */
+.barra-acciones { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+.btn-pdf {
+  font-family: var(--sans); font-size: 13px;
+  background: var(--surface); color: var(--ink-2);
+  border: 1px solid var(--line); border-radius: 7px;
+  padding: 8px 14px; cursor: pointer; white-space: nowrap;
+}
+.btn-pdf:hover { border-color: var(--acento); color: var(--acento); }
+.btn-pdf:focus-visible { outline: 2px solid var(--acento); outline-offset: 2px; }
+
+.sello-temporada {
+  font-family: var(--mono); font-size: 9.5px; letter-spacing: .07em;
+  text-transform: uppercase; color: var(--ink-3);
+  border: 1px solid var(--line); border-radius: 4px;
+  padding: 1px 6px; margin-left: 8px; vertical-align: 2px; white-space: nowrap;
+}
+
+/* ── Buscador de equipo ───────────────────────────────────────────────── */
+.buscador {
+  background: var(--surface); border: 1px solid var(--line);
+  border-radius: 10px; padding: 16px 18px; box-shadow: var(--sombra);
+  display: flex; flex-direction: column; gap: 8px;
+}
+.buscador label {
+  font-family: var(--mono); font-size: 10.5px; letter-spacing: .1em;
+  text-transform: uppercase; color: var(--ink-3);
+}
+.buscador-fila { display: flex; gap: 9px; }
+.buscador select {
+  flex: 1; font-family: var(--sans); font-size: 15px; color: var(--ink);
+  background: var(--surface-2); border: 1px solid var(--line);
+  border-radius: 7px; padding: 10px 12px; cursor: pointer;
+  appearance: none; padding-right: 32px; min-width: 0;
+  background-image: linear-gradient(45deg, transparent 50%, currentColor 50%),
+                    linear-gradient(135deg, currentColor 50%, transparent 50%);
+  background-position: calc(100% - 17px) 50%, calc(100% - 12px) 50%;
+  background-size: 5px 5px, 5px 5px; background-repeat: no-repeat;
+}
+.btn-ver {
+  font-family: var(--sans); font-size: 14.5px; font-weight: 500;
+  background: var(--acento); color: #fff; border: none;
+  border-radius: 7px; padding: 10px 18px; cursor: pointer; white-space: nowrap;
+}
+.btn-ver:hover { filter: brightness(1.08); }
+.buscador select:focus-visible, .btn-ver:focus-visible {
+  outline: 2px solid var(--acento); outline-offset: 2px;
+}
+
+/* ── Percentiles de equipo ────────────────────────────────────────────── */
+.pct-fila {
+  display: grid; grid-template-columns: 178px 1fr 62px;
+  gap: 12px; align-items: center; padding: 6px 0;
+}
+.pct-etq { font-size: 13.5px; color: var(--ink-2); }
+.pct-riel { height: 11px; background: var(--surface-2); border-radius: 6px; overflow: hidden; }
+.pct-riel i { display: block; height: 100%; border-radius: 6px; transition: width .4s ease; }
+.pct-val {
+  font-family: var(--mono); font-size: 12.5px; font-variant-numeric: tabular-nums;
+  color: var(--ink-2); text-align: right;
+}
+
+/* ── Bajas ────────────────────────────────────────────────────────────── */
+.jug-fila.baja { opacity: .5; }
+.etq-baja {
+  font-family: var(--mono); font-size: 8.5px; letter-spacing: .05em;
+  text-transform: uppercase; border-radius: 3px; padding: 0 4px;
+  margin-left: 5px; vertical-align: 1px; border: 1px solid currentColor;
+}
+.etq-baja.sancionado { color: var(--alerta); }
+.etq-baja.sin_minutos { color: var(--ink-3); }
+
+.jug-toggle {
+  background: none; border: none; padding: 0; cursor: pointer;
+  font: inherit; color: inherit; text-align: left; width: 100%;
+  display: grid; grid-template-columns: 1fr 46px 46px; gap: 8px; align-items: center;
+}
+.jug-toggle:focus-visible { outline: 2px solid var(--acento); outline-offset: 2px; }
+.jug-descartado { opacity: .38; text-decoration: line-through; }
+
+.aviso-bajas {
+  font-size: 12.5px; color: var(--ink-3); margin: 10px 0 0; line-height: 1.5;
+}
+
+/* ── Gráfico a página completa, con su explicación ────────────────────── */
+.grafico-solo {
+  border-top: 1px solid var(--line-soft);
+  padding-top: 22px; margin-top: 22px;
+}
+.grafico-solo:first-of-type { border-top: none; padding-top: 4px; margin-top: 8px; }
+.grafico-solo > h3 {
+  font-family: var(--serif); font-size: 18px; font-weight: 600;
+  margin: 0 0 8px; text-wrap: balance;
+}
+.gr-explica {
+  font-size: 14px; color: var(--ink-2); line-height: 1.6;
+  margin: 0 0 16px; max-width: 68ch;
+}
+.gr-explica b { color: var(--ink); font-weight: 600; }
+.lienzo {
+  background: var(--surface-2); border: 1px solid var(--line-soft);
+  border-radius: 8px; padding: 16px 14px;
+}
+.lienzo svg { display: block; width: 100%; height: auto; overflow: visible; }
+.gr-conclusion {
+  font-size: 14.5px; color: var(--ink); line-height: 1.6;
+  margin: 14px 0 0; padding-left: 13px; border-left: 3px solid var(--acento);
+}
+.gr-conclusion b { font-weight: 600; }
+
+/* ── Selector de temporada ────────────────────────────────────────────── */
+.temporadas {
+  display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 14px;
+}
+.temp-btn {
+  font-family: var(--mono); font-size: 12.5px; font-variant-numeric: tabular-nums;
+  background: var(--surface-2); border: 1px solid var(--line);
+  border-radius: 6px; padding: 6px 12px; cursor: pointer; color: var(--ink-2);
+  transition: background .15s, color .15s, border-color .15s;
+}
+.temp-btn:hover { border-color: var(--acento); }
+.temp-btn[aria-pressed="true"] {
+  background: var(--acento); border-color: var(--acento); color: #fff; font-weight: 600;
+}
+.temp-btn:focus-visible { outline: 2px solid var(--acento); outline-offset: 2px; }
+
+/* ── Gráficos ─────────────────────────────────────────────────────────── */
+.graficos {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  gap: 14px; margin-top: 20px;
+}
+.gr-caja {
+  background: var(--surface-2); border: 1px solid var(--line-soft);
+  border-radius: 8px; padding: 15px 16px;
+}
+.gr-titulo {
+  font-family: var(--mono); font-size: 10.5px; letter-spacing: .1em;
+  text-transform: uppercase; color: var(--ink-3); display: block; margin-bottom: 4px;
+}
+.gr-sub { font-size: 12.5px; color: var(--ink-2); display: block; margin-bottom: 12px; line-height: 1.45; }
+.gr-caja svg { display: block; width: 100%; height: auto; overflow: visible; }
+
+/* ── Jugadores ────────────────────────────────────────────────────────── */
+.jugadores { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+
+.jug-col > h3 {
+  font-family: var(--serif); font-size: 16px; font-weight: 600;
+  margin: 0 0 4px; padding-bottom: 7px; border-bottom: 2px solid var(--jcolor, var(--line));
+}
+.jug-col.l { --jcolor: var(--local); }
+.jug-col.v { --jcolor: var(--visita); }
+
+.jug-cab {
+  display: grid; grid-template-columns: 1fr 46px 46px; gap: 8px;
+  padding: 6px 0 4px; font-family: var(--mono); font-size: 9.5px;
+  letter-spacing: .08em; text-transform: uppercase; color: var(--ink-3);
+}
+.jug-cab span:not(:first-child) { text-align: right; }
+
+.jug-fila {
+  display: grid; grid-template-columns: 1fr 46px 46px; gap: 8px;
+  align-items: center; padding: 7px 0;
+  border-bottom: 1px solid var(--line-soft);
+}
+.jug-fila:last-child { border-bottom: none; }
+.jug-nombre { font-size: 13.5px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.jug-nombre small {
+  display: block; color: var(--ink-3); font-size: 11px;
+  font-family: var(--mono); letter-spacing: .02em;
+}
+.jug-gol, .jug-ta {
+  font-family: var(--mono); font-size: 13px; font-variant-numeric: tabular-nums;
+  text-align: right; font-weight: 600;
+}
+.jug-gol { color: var(--ok); }
+.jug-ta { color: var(--ink-2); }
+.jug-vacio { font-size: 13px; color: var(--ink-3); padding: 12px 0; }
+
+/* ── Avisos y notas ───────────────────────────────────────────────────── */
+.nota-caja {
+  background: var(--surface-2); border: 1px solid var(--line);
+  border-radius: 8px; padding: 14px 16px; font-size: 14px;
+  line-height: 1.55; color: var(--ink-2);
+}
+.nota-caja b { color: var(--ink); }
+.nota-caja p { margin: 0 0 8px; }
+.nota-caja p:last-child { margin-bottom: 0; }
+
+.metricas-modelo {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(145px, 1fr));
+  gap: 11px; margin-bottom: 16px;
+}
+.metrica-caja {
+  background: var(--surface-2); border: 1px solid var(--line-soft);
+  border-radius: 8px; padding: 12px 14px;
+}
+.metrica-val {
+  font-family: var(--mono); font-size: 21px; font-weight: 600;
+  font-variant-numeric: tabular-nums; display: block; line-height: 1.2;
+}
+.metrica-lbl { font-size: 12px; color: var(--ink-2); }
+
+/* ── Glosario ─────────────────────────────────────────────────────────── */
+details {
+  border: 1px solid var(--line); border-radius: 8px;
+  background: var(--surface-2); margin-bottom: 7px;
+}
+details[open] { background: var(--surface); }
+summary {
+  cursor: pointer; padding: 12px 15px; font-weight: 500; font-size: 14.5px;
+  list-style: none; display: flex; justify-content: space-between;
+  align-items: center; gap: 12px;
+}
+summary::-webkit-details-marker { display: none; }
+summary::after { content: "+"; font-family: var(--mono); color: var(--ink-3); font-size: 17px; flex-shrink: 0; }
+details[open] summary::after { content: "−"; }
+summary:focus-visible { outline: 2px solid var(--acento); outline-offset: -2px; }
+details .cuerpo { padding: 0 15px 14px; color: var(--ink-2); font-size: 14px; line-height: 1.6; }
+details .cuerpo p { margin: 0 0 9px; }
+details .cuerpo p:last-child { margin-bottom: 0; }
+details .cuerpo strong { color: var(--ink); }
+
+.pie {
+  border-top: 1px solid var(--line); padding-top: 18px;
+  font-size: 12.5px; color: var(--ink-3); line-height: 1.6;
+}
+.pie b { color: var(--ink-2); }
+
+@media (max-width: 760px) {
+  .partido { grid-template-columns: 46px 1fr 20px; }
+  .partido .mini-barra { display: none; }
+  .fila-fuerza { grid-template-columns: 1fr; gap: 5px; text-align: center; }
+  .der-txt { text-align: center; }
+  .fila-comp { grid-template-columns: 54px 1fr 116px 1fr 54px; gap: 6px; }
+  .comp-etq { font-size: 11.5px; }
+  .opcion, .cab-opciones { grid-template-columns: 1fr 58px 62px 62px; gap: 7px; }
+  .opcion-prob, .opcion-cuota, .opcion-mercado { font-size: 13.5px; }
+  .calc { grid-template-columns: 1fr 1fr; }
+  .calc .campo:first-child { grid-column: 1 / -1; }
+  .jugadores { grid-template-columns: 1fr; gap: 22px; }
+}
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+
+/* ── Impresión / exportar a PDF ───────────────────────────────────────── */
+@media print {
+  :root { color-scheme: light; }
+  body { background: #fff; color: #111; font-size: 11pt; }
+  .envoltorio { max-width: none; padding: 0; }
+
+  /* Fuera todo lo que no sea la ficha que se está imprimiendo */
+  .barra-acciones, .buscador, .ligas, #lista-partidos,
+  #vista-lista, #vista-detalle, .pie { display: none !important; }
+  #vista-equipo.oculto { display: none !important; }
+
+  .tarjeta {
+    border: 1px solid #ccc; box-shadow: none; break-inside: avoid;
+    padding: 14px 16px; margin-bottom: 12px; background: #fff;
+  }
+  .gr-caja, .metrica-caja, .jug-fila, .pct-fila { break-inside: avoid; }
+  .graficos { grid-template-columns: 1fr 1fr; }
+  h2, h3 { color: #111; }
+  .paso, .gr-titulo, .pct-val, .jug-nombre small { color: #666; }
+  .sub, .gr-sub, .metrica-lbl, .pct-etq { color: #444; }
+  .jug-fila, .pct-fila { border-color: #ddd; }
+}
+</style>
+
+<div class="envoltorio">
+
+  <!-- ══ VISTA LISTA ══ -->
+  <div id="vista-lista" class="pila">
+    <header>
+      <span class="eyebrow">Temporada 2026/27 · las cinco grandes ligas</span>
+      <h1>Ventaja Local</h1>
+      <p class="entradilla">
+        Probabilidades, cuotas y estadísticas de cada partido, calculadas a
+        partir de las ocasiones de gol que genera y concede cada equipo. Toca
+        cualquier partido para ver el análisis completo, jugador por jugador.
+      </p>
+    </header>
+
+    <div class="buscador">
+      <label for="buscar-equipo">Ver la ficha completa de un equipo</label>
+      <div class="buscador-fila">
+        <select id="buscar-equipo"></select>
+        <button class="btn-ver" id="btn-ver-equipo" type="button">Ver ficha</button>
+      </div>
+    </div>
+
+    <div>
+      <div class="ligas" id="ligas" role="tablist"></div>
+      <div class="fila-liga">
+        <span class="fila-liga-txt" id="txt-liga"></span>
+        <span class="botones-liga">
+          <button class="btn-liga" id="btn-ver-liga" type="button">Panorama de la liga →</button>
+          <button class="btn-liga" id="btn-ver-europa" type="button">Competiciones europeas →</button>
+        </span>
+      </div>
+      <div id="lista-partidos"></div>
+    </div>
+
+    <div class="nota-caja">
+      <p>
+        <b>Cómo leer la lista.</b> El porcentaje junto a cada equipo es su
+        probabilidad de ganar; la barra de color reparte el 100 % entre victoria
+        local (azul), empate (gris) y victoria visitante (ámbar). El equipo en
+        negrita es el favorito.
+      </p>
+      <p>
+        Los equipos marcados como <span class="etq-nuevo">nuevo</span> acaban de
+        ascender y todavía no tienen partidos en esta categoría. Se les estima el
+        nivel de los últimos clasificados del año pasado, así que sus partidos
+        son los más impredecibles de la jornada.
+      </p>
+    </div>
+  </div>
+
+  <!-- ══ VISTA DETALLE ══ -->
+  <div id="vista-detalle" class="pila oculto">
+    <button class="volver" id="btn-volver" type="button">← Todos los partidos</button>
+
+    <section class="tarjeta">
+      <p class="cuando" id="d-cuando"></p>
+      <div class="duelo">
+        <div class="lado">
+          <span class="rol">Local</span>
+          <span class="nombre-eq" id="d-local"></span>
+        </div>
+        <span class="versus">contra</span>
+        <div class="lado der">
+          <span class="rol">Visitante</span>
+          <span class="nombre-eq" id="d-visita"></span>
+        </div>
+      </div>
+      <div class="barra-prob" id="d-barra"></div>
+      <p class="sub" style="margin:14px 0 0" id="d-resumen"></p>
+    </section>
+
+    <section class="tarjeta">
+      <span class="paso">Opciones sobre la mesa</span>
+      <h2>Qué puedes jugar y a cuánto sale a cuenta</h2>
+      <p class="sub">
+        Ordenado de más a menos probable. La <b>cuota mínima</b> es el punto de
+        equilibrio: si tu casa paga por encima, la jugada tiene valor según el
+        modelo. La <b>cuota estimada</b> aproxima lo que sueles encontrar en el
+        mercado colombiano, aplicando el margen que elijas abajo.
+      </p>
+
+      <div class="margen-control">
+        <span class="margen-etq">Margen de la casa</span>
+        <div class="margen-btns" id="d-margenes"></div>
+        <span class="margen-nota" id="d-margen-nota"></span>
+      </div>
+
+      <div class="cab-opciones">
+        <span>Opción</span><span>Probab.</span><span>Cuota mín.</span><span>Estimada</span>
+      </div>
+      <div class="opciones" id="d-opciones"></div>
+    </section>
+
+    <section class="tarjeta">
+      <span class="paso">Comprueba tu cuota</span>
+      <h2>¿La cuota que te ofrecen vale la pena?</h2>
+      <p class="sub">
+        Abre tu casa de apuestas, busca este partido y escribe aquí la cuota que
+        veas. Te decimos si ese precio está por encima o por debajo de lo que el
+        modelo considera justo.
+      </p>
+
+      <div class="calc">
+        <div class="campo">
+          <label for="calc-opcion">Mercado</label>
+          <select id="calc-opcion"></select>
+        </div>
+        <div class="campo campo-corto">
+          <label for="calc-cuota">Cuota ofrecida</label>
+          <input id="calc-cuota" type="number" step="0.01" min="1.01" value="2.00"
+                 inputmode="decimal">
+        </div>
+        <div class="campo campo-corto">
+          <label for="calc-monto">Si apuestas</label>
+          <input id="calc-monto" type="number" step="1000" min="0" value="50000"
+                 inputmode="numeric">
+        </div>
+      </div>
+
+      <div class="veredicto" id="calc-veredicto"></div>
+
+      <div class="nota-caja" style="margin-top:14px">
+        <p>
+          <b>Compara antes de jugar.</b> Entre una casa y otra la misma apuesta
+          puede variar un 5 % o más, y esa diferencia es justo lo que separa una
+          jugada con valor de una sin él. En Colombia operan con licencia de
+          Coljuegos casas como BetPlay, Wplay, Rushbet, Zamba, Codere o Betsson,
+          y el listado oficial de operadores autorizados está en
+          <b>coljuegos.gov.co</b>.
+        </p>
+        <p>
+          Las cuotas estimadas de la tabla son una orientación del precio que
+          sueles encontrar, no la oferta de ninguna casa en particular. La cifra
+          buena es siempre la que veas en tu cuenta.
+        </p>
+      </div>
+    </section>
+
+    <section class="tarjeta">
+      <span class="paso">De dónde sale</span>
+      <h2>Las dos fuerzas de cada equipo</h2>
+      <p class="sub">
+        Toda la temporada pasada resumida en dos cifras: cuánto genera atacando y
+        cuánto concede defendiendo, medido en ocasiones de gol. 1,00 es la media
+        de la liga.
+      </p>
+      <div class="fuerzas">
+        <div class="fila-fuerza">
+          <div class="valor-f" id="d-atq-l"></div>
+          <div>
+            <div class="metrica-nombre">Ataque</div>
+            <div class="riel"><div class="medio"></div>
+              <div class="marca l" id="d-m-atq-l"></div><div class="marca v" id="d-m-atq-v"></div></div>
+          </div>
+          <div class="valor-f der-txt" id="d-atq-v"></div>
+        </div>
+        <div class="fila-fuerza">
+          <div class="valor-f" id="d-def-l"></div>
+          <div>
+            <div class="metrica-nombre">Defensa</div>
+            <div class="riel"><div class="medio"></div>
+              <div class="marca l" id="d-m-def-l"></div><div class="marca v" id="d-m-def-v"></div></div>
+          </div>
+          <div class="valor-f der-txt" id="d-def-v"></div>
+        </div>
+      </div>
+      <div class="xg-caja">
+        <div>
+          <span class="xg-num l" id="d-xg-l"></span>
+          <span class="xg-etq">goles esperados del local</span>
+        </div>
+        <span class="versus">—</span>
+        <div class="der-txt">
+          <span class="xg-num v" id="d-xg-v"></span>
+          <span class="xg-etq">goles esperados del visitante</span>
+        </div>
+      </div>
+      <p class="sub" style="margin:15px 0 0" id="d-ventaja"></p>
+    </section>
+
+    <section class="tarjeta">
+      <span class="paso">El reparto completo</span>
+      <h2>Probabilidad de cada marcador</h2>
+      <p class="sub">
+        Cuanto más intenso el azul, más probable. Fíjate en que ni el marcador
+        más probable suele pasar del 15 %: por eso conviene mirar el reparto
+        entero y no un resultado exacto.
+      </p>
+      <div class="matriz-envoltorio"><table class="matriz" id="d-matriz"></table></div>
+      <div class="top-marcadores" id="d-top"></div>
+    </section>
+
+    <section class="tarjeta">
+      <span class="paso">Contexto</span>
+      <h2>Los dos equipos, métrica a métrica<span class="sello-temporada" id="d-sello-comp"></span></h2>
+      <p class="sub">
+        Una barra más larga siempre significa «mejor»: en las métricas donde
+        conviene tener menos (goles encajados, ocasiones concedidas) la barra ya
+        viene invertida.
+      </p>
+      <div class="comparacion" id="d-comparacion"></div>
+
+      <div class="graficos">
+        <div class="gr-caja">
+          <span class="gr-titulo">Cuántos goles se esperan en total</span>
+          <span class="gr-sub">Probabilidad de que el partido acabe con cada
+            número de goles sumando los dos equipos.</span>
+          <div id="g-goles"></div>
+        </div>
+
+        <div class="gr-caja">
+          <span class="gr-titulo">Dónde están en la liga</span>
+          <span class="gr-sub">Cada punto es un equipo. A la derecha, los que
+            generan más ocasiones; arriba, los que conceden menos.</span>
+          <div id="g-mapa"></div>
+        </div>
+      </div>
+
+      <div class="nota-caja" style="margin-top:16px" id="d-nota-nuevo"></div>
+    </section>
+
+    <section class="tarjeta">
+      <span class="paso">Apuestas de jugador</span>
+      <h2>Quién puede marcar y quién ver amarilla<span class="sello-temporada" id="d-sello-jug"></span></h2>
+      <p class="sub">
+        Las probabilidades salen del ritmo de cada jugador en la temporada que
+        indica la etiqueta, ajustado a los goles que se esperan de su equipo en
+        <em>este</em> partido y a los minutos que suele jugar. Ordenados por
+        opciones de marcar.
+      </p>
+      <div class="jugadores" id="d-jugadores"></div>
+      <p class="aviso-bajas">
+        ¿Sabes que alguien no juega? Púlsalo en la lista y quedará descartado.
+      </p>
+      <div class="nota-caja" style="margin-top:14px">
+        <p>
+          <b>Quién no estará.</b> Un jugador marcado como
+          <span class="etq-baja sancionado">sancionado</span> vio roja en el
+          último partido y tiene la sanción pendiente, así que queda fuera. La
+          etiqueta <span class="etq-baja sin_minutos">sin minutos</span> avisa de
+          que no jugó los últimos encuentros: puede estar lesionado, pero también
+          rotando o volviendo de una baja, así que sigue apareciendo con su
+          probabilidad. Confirma la alineación antes de decidir.
+        </p>
+        <p>
+          <b>Las tarjetas son más impredecibles que los goles.</b> Dependen del
+          árbitro, del ritmo del partido y de lo que haya en juego. Son una
+          referencia de quién acostumbra a verlas, no un pronóstico.
+        </p>
+      </div>
+    </section>
+
+    <section class="tarjeta">
+      <span class="paso">Fiabilidad</span>
+      <h2>Qué tan fiables son estos números</h2>
+      <p class="sub">
+        Comprobado sobre partidos ya disputados, prediciéndolos con la
+        información que había antes de jugarse.
+      </p>
+      <div class="metricas-modelo">
+        <div class="metrica-caja">
+          <span class="metrica-val">52,6 %</span>
+          <span class="metrica-lbl">acierta el resultado más probable</span>
+        </div>
+        <div class="metrica-caja">
+          <span class="metrica-val">0,7 pts</span>
+          <span class="metrica-lbl">desvío medio de sus probabilidades</span>
+        </div>
+        <div class="metrica-caja">
+          <span class="metrica-val">+8,4 %</span>
+          <span class="metrica-lbl">mejor que predecir el promedio</span>
+        </div>
+        <div class="metrica-caja">
+          <span class="metrica-val">3 496</span>
+          <span class="metrica-lbl">partidos usados para comprobarlo</span>
+        </div>
+      </div>
+      <div class="nota-caja">
+        <p>
+          <b>Los porcentajes son fiables.</b> Cuando aquí pone 40 %, la jugada
+          ocurre entre el 39 % y el 41 % de las veces. Por eso puedes compararlos
+          con la cuota de tu casa y saber si el precio te conviene.
+        </p>
+      </div>
+    </section>
+  </div>
+
+  <!-- ══ VISTA EUROPA ══ -->
+  <div id="vista-europa" class="pila oculto">
+    <div class="barra-acciones">
+      <button class="volver" id="btn-volver-europa" type="button">← Todos los partidos</button>
+      <button class="btn-pdf" id="btn-pdf-europa" type="button">Guardar en PDF</button>
+    </div>
+
+    <section class="tarjeta">
+      <span class="paso" id="eu-periodo"></span>
+      <h2 style="font-size:27px">Champions, Europa League y Conference</h2>
+      <p class="sub" id="eu-resumen"></p>
+      <div class="metricas-modelo" id="eu-cabecera"></div>
+    </section>
+
+    <section class="tarjeta">
+      <span class="paso">Lo que dicen los enfrentamientos</span>
+      <h2>¿Qué liga es realmente la más fuerte?</h2>
+      <p class="sub" id="eu-nivel-intro"></p>
+      <div class="lienzo"><div id="eu-g-nivel"></div></div>
+      <p class="gr-conclusion" id="eu-nivel-txt"></p>
+    </section>
+
+    <section class="tarjeta">
+      <span class="paso">Los títulos</span>
+      <h2>Quién ha ganado cada torneo</h2>
+      <p class="sub">
+        Campeón y finalista de las tres competiciones en cada una de las últimas
+        temporadas.
+      </p>
+      <div class="tabla-envoltorio">
+        <table class="tabla-liga" id="eu-tabla-titulos"></table>
+      </div>
+    </section>
+
+    <section class="tarjeta">
+      <span class="paso">Por países</span>
+      <h2>Cómo le va a cada país en Europa</h2>
+      <p class="sub">
+        Balance de todos los clubes de cada país sumando las tres competiciones.
+        Los puntos por partido son la forma más justa de comparar, porque cada
+        país mete un número distinto de equipos.
+      </p>
+      <div class="lienzo"><div id="eu-g-paises"></div></div>
+      <div class="tabla-envoltorio" style="margin-top:16px">
+        <table class="tabla-liga" id="eu-tabla-paises"></table>
+      </div>
+    </section>
+
+    <section class="tarjeta">
+      <span class="paso">Rendir y ganar no es lo mismo</span>
+      <h2>Los que mejor juegan no siempre levantan la copa</h2>
+      <p class="sub">
+        A la izquierda, cómo va cada país en la fase larga del torneo, donde se
+        juegan la mayoría de los partidos. A la derecha, los títulos que ha
+        ganado de verdad. <b>Cada línea une las dos posiciones del mismo país</b>:
+        si baja, gana menos de lo que su juego merece; si sube, se lleva más
+        copas de las que le corresponderían.
+      </p>
+      <div class="lienzo"><div id="eu-g-pendiente"></div></div>
+      <p class="gr-conclusion" id="eu-pendiente-txt"></p>
+
+      <h3 style="font-family:var(--serif);font-size:17px;margin:26px 0 6px">
+        Dónde se cae cada país</h3>
+      <p class="gr-explica">
+        Un título exige superar cuatro filtros. Aquí se ve cuántas veces ha
+        pasado cada país por cada uno en las últimas ediciones: se puede llegar
+        muchas veces a semifinales y aun así no ganar casi nunca.
+      </p>
+      <div class="lienzo"><div id="eu-g-embudo"></div></div>
+      <div class="tabla-envoltorio" style="margin-top:16px">
+        <table class="tabla-liga" id="eu-tabla-embudo"></table>
+      </div>
+    </section>
+
+    <section class="tarjeta">
+      <span class="paso">Los clubes</span>
+      <h2>Quién rinde mejor cuando sale a Europa</h2>
+      <p class="sub">
+        Clubes con al menos 20 partidos europeos en el periodo, ordenados por
+        puntos conseguidos por partido.
+      </p>
+      <div class="tabla-envoltorio">
+        <table class="tabla-liga" id="eu-tabla-clubes"></table>
+      </div>
+    </section>
+
+    <section class="tarjeta">
+      <span class="paso">Los próximos partidos</span>
+      <h2>Todavía no hay calendario</h2>
+      <div class="nota-caja" id="eu-nota-calendario"></div>
+    </section>
+  </div>
+
+  <!-- ══ VISTA LIGA ══ -->
+  <div id="vista-liga" class="pila oculto">
+    <div class="barra-acciones">
+      <button class="volver" id="btn-volver-liga" type="button">← Todos los partidos</button>
+      <button class="btn-pdf" id="btn-pdf-liga" type="button">Guardar en PDF</button>
+    </div>
+
+    <section class="tarjeta">
+      <span class="paso" id="lg-pais"></span>
+      <h2 style="font-size:27px" id="lg-nombre"></h2>
+      <p class="sub" id="lg-resumen"></p>
+      <div class="metricas-modelo" id="lg-cabecera"></div>
+    </section>
+
+    <section class="tarjeta">
+      <span class="paso">Clasificación</span>
+      <h2>Cómo quedó la liga</h2>
+      <p class="sub">
+        Junto a los puntos, las ocasiones que generó y concedió cada equipo. La
+        última columna compara los goles que marcó con los que sus ocasiones
+        anticipaban: en verde, los que definieron mejor de lo esperado. Cambia de
+        temporada para ver cualquiera de los últimos años.
+      </p>
+      <div class="temporadas" id="lg-temporadas"></div>
+      <div class="tabla-envoltorio">
+        <table class="tabla-liga" id="lg-tabla"></table>
+      </div>
+      <p class="aviso-bajas" id="lg-nota-tabla"></p>
+    </section>
+
+    <section class="tarjeta">
+      <span class="paso">El mapa de la liga</span>
+      <h2>Qué separa de verdad a los equipos</h2>
+      <p class="sub" id="lg-pca-intro"></p>
+      <div class="gr-caja" style="margin-bottom:14px">
+        <div id="lg-g-pca"></div>
+      </div>
+      <div class="ejes" id="lg-ejes"></div>
+    </section>
+
+    <section class="tarjeta">
+      <span class="paso">Las últimas temporadas</span>
+      <h2>Qué ha pasado en los últimos años</h2>
+      <p class="sub" id="lg-hist-intro"></p>
+      <div class="grafico-solo" style="border-top:none;padding-top:0;margin-top:10px">
+        <h3>Cuántos puntos hace falta para ganarla</h3>
+        <p class="gr-explica">
+          El total del campeón de cada temporada. <b>Cuando la barra es muy
+          alta</b>, alguien arrasó; cuando baja, la liga estuvo peleada hasta el
+          final. Debajo de cada barra, quién la ganó.
+        </p>
+        <div class="lienzo"><div id="lg-g-campeones"></div></div>
+      </div>
+
+      <div class="grafico-solo">
+        <h3>¿Se marca más o menos que antes?</h3>
+        <p class="gr-explica">
+          Goles por partido en cada temporada, sumando los dos equipos. Es la
+          referencia para los mercados de más o menos goles: si la liga lleva
+          años subiendo, los partidos tienden a ser más abiertos.
+        </p>
+        <div class="lienzo"><div id="lg-g-goles"></div></div>
+        <p class="gr-conclusion" id="lg-txt-goles"></p>
+      </div>
+      <div class="tabla-envoltorio" style="margin-top:16px">
+        <table class="tabla-liga" id="lg-tabla-hist"></table>
+      </div>
+    </section>
+  </div>
+
+  <!-- ══ VISTA EQUIPO ══ -->
+  <div id="vista-equipo" class="pila oculto">
+    <div class="barra-acciones">
+      <button class="volver" id="btn-volver-eq" type="button">← Todos los partidos</button>
+      <button class="btn-pdf" id="btn-pdf" type="button">Guardar en PDF</button>
+    </div>
+
+    <section class="tarjeta">
+      <span class="paso" id="eq-liga"></span>
+      <h2 style="font-size:27px" id="eq-nombre"></h2>
+      <p class="sub" id="eq-resumen"></p>
+      <div class="metricas-modelo" id="eq-cabecera"></div>
+    </section>
+
+    <section class="tarjeta">
+      <span class="paso">Perfil</span>
+      <h2>Cómo juega y dónde está en la liga<span class="sello-temporada" id="eq-sello-perfil"></span></h2>
+      <p class="sub">
+        Cada barra sitúa al equipo entre los de su liga. Cuanto más a la
+        derecha, mejor en esa faceta.
+      </p>
+      <div id="eq-percentiles"></div>
+    </section>
+
+    <section class="tarjeta">
+      <span class="paso">Rendimiento</span>
+      <h2>Lo que genera y lo que convierte</h2>
+      <div class="graficos">
+        <div class="gr-caja">
+          <span class="gr-titulo">Goles frente a ocasiones</span>
+          <span class="gr-sub">Si la barra de goles supera a la de ocasiones, el
+            equipo está rindiendo por encima de lo que genera.</span>
+          <div id="eq-g-rendimiento"></div>
+        </div>
+        <div class="gr-caja">
+          <span class="gr-titulo">Su sitio en la liga</span>
+          <span class="gr-sub">Cada punto es un equipo. A la derecha generan más;
+            arriba conceden menos.</span>
+          <div id="eq-g-mapa"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="tarjeta" id="bloque-graficos">
+      <span class="paso">Cómo llegó hasta aquí</span>
+      <h2>La temporada, en cuatro imágenes<span class="sello-temporada" id="eq-sello-serie"></span></h2>
+      <p class="sub">
+        Cada gráfico responde a una pregunta distinta sobre el equipo. Debajo de
+        cada uno tienes lo que conviene mirar.
+      </p>
+
+      <div class="grafico-solo" id="caja-trayectoria">
+        <h3>¿Fue de menos a más o al revés?</h3>
+        <p class="gr-explica">
+          La línea sube con cada punto que suma. <b>Un tramo plano</b> significa
+          que estuvo varias jornadas sin ganar; <b>una subida sostenida</b>, una
+          buena racha. Cada bolita es un partido: verde si ganó, gris si empató y
+          ámbar si perdió. Pasa el ratón por encima para ver el marcador.
+        </p>
+        <div class="lienzo" id="eq-g-trayectoria"></div>
+        <p class="gr-conclusion" id="eq-txt-trayectoria"></p>
+      </div>
+
+      <div class="grafico-solo" id="caja-forma">
+        <h3>¿Mejoró o empeoró con el paso de las jornadas?</h3>
+        <p class="gr-explica">
+          La línea azul son las ocasiones de gol que <b>crea</b>; la ámbar, las
+          que <b>concede</b>. Lo bueno es que la azul vaya por encima y lo más
+          separada posible. <b>Si se cruzan</b> a mitad de temporada, el equipo
+          cambió de cara: mejoró o se hundió a partir de ahí.
+        </p>
+        <div class="lienzo" id="eq-g-forma"></div>
+        <p class="gr-conclusion" id="eq-txt-forma"></p>
+      </div>
+
+      <div class="grafico-solo" id="caja-localia">
+        <h3>¿Es un equipo de casa o se le da igual jugar fuera?</h3>
+        <p class="gr-explica">
+          Las barras azules son sus números jugando en su estadio y las ámbar,
+          fuera. <b>Cuanta más diferencia entre las dos</b>, más depende de jugar
+          en casa. Es un dato clave: casi todos los equipos rinden peor de
+          visitantes, pero unos mucho más que otros.
+        </p>
+        <div class="lienzo" id="eq-g-localia"></div>
+        <p class="gr-conclusion" id="eq-txt-localia"></p>
+      </div>
+
+      <div class="grafico-solo" id="caja-produccion">
+        <h3>¿De quién depende para marcar?</h3>
+        <p class="gr-explica">
+          Cada burbuja es un jugador, y su tamaño indica cuánto ha jugado. Hacia
+          la <b>derecha</b> están los que más goles hacen por cada 90 minutos;
+          hacia <b>arriba</b>, los que más asisten. Si una sola burbuja está
+          lejos del resto, el equipo depende mucho de ese jugador.
+        </p>
+        <div class="lienzo" id="eq-g-produccion"></div>
+        <p class="gr-conclusion" id="eq-txt-produccion"></p>
+      </div>
+    </section>
+
+    <section class="tarjeta">
+      <span class="paso">Plantilla</span>
+      <h2>Quién produce y quién se juega las tarjetas<span class="sello-temporada" id="eq-sello-plantilla"></span></h2>
+      <p class="sub">
+        Ordenados por goles más asistencias. Los minutos por partido indican si
+        es titular fijo o rotación.
+      </p>
+      <div id="eq-plantilla"></div>
+    </section>
+
+    <section class="tarjeta">
+      <span class="paso">Calendario</span>
+      <h2>Sus próximos partidos</h2>
+      <div class="lista" id="eq-proximos"></div>
+    </section>
+  </div>
+
+  <!-- ══ GLOSARIO (compartido) ══ -->
+  <section class="tarjeta" style="margin-top:22px">
+    <span class="paso">Si algo no te cuadra</span>
+    <h2>Preguntas frecuentes</h2>
+
+    <details>
+      <summary>¿Qué es el xG y por qué se usa en vez de los goles?</summary>
+      <div class="cuerpo">
+        <p>
+          El <strong>xG (goles esperados)</strong> mide la calidad de cada
+          ocasión: un remate a bocajarro vale unos 0,7 xG; un disparo lejano,
+          0,03. Sumando todas las ocasiones sabes cuántos goles «merecía» cada
+          equipo.
+        </p>
+        <p>
+          Los goles son pocos y muy caprichosos: un rebote afortunado cuenta
+          igual que media hora de dominio. El xG describe mejor cómo juega un
+          equipo y <strong>predice mejor lo que hará después</strong>. Al
+          probarlo, cambiar goles por xG mejoró tanto el acierto como la
+          fiabilidad de las probabilidades.
+        </p>
+      </div>
+    </details>
+
+    <details>
+      <summary>¿Qué es la «cuota mínima» y cómo la uso?</summary>
+      <div class="cuerpo">
+        <p>
+          Es <strong>1 dividido entre la probabilidad</strong>. Si algo tiene un
+          40 % de probabilidad, la cuota mínima es 2,50.
+        </p>
+        <p>
+          Compárala con la que te ofrecen: si la casa paga <strong>2,80</strong>
+          y la mínima es 2,50, hay valor. Si paga 2,20, no lo hay. Las casas
+          incorporan un margen del 4 % al 8 %, así que encontrar cuotas por
+          encima requiere buscar y comparar entre varias.
+        </p>
+      </div>
+    </details>
+
+    <details>
+      <summary>¿De dónde salen las «cuotas estimadas»? ¿Son de alguna casa?</summary>
+      <div class="cuerpo">
+        <p>
+          <strong>No son de ninguna casa concreta, y no deberías tomarlas como
+          tales.</strong> Se calculan aplicando un margen a nuestra propia
+          probabilidad, para darte una idea del orden de magnitud que sueles
+          encontrar. La cifra real la tienes que mirar en tu casa de apuestas.
+        </p>
+        <p>
+          El <strong>margen</strong> es la comisión que la casa se queda: hace
+          que la suma de todas las probabilidades pase del 100 %. Por eso sus
+          cuotas siempre están algo por debajo de la cuota justa. Puedes probar
+          con distintos márgenes para ver cuánto cambia el precio.
+        </p>
+        <p>
+          Para saber si una cuota concreta te conviene, usa la calculadora:
+          escribes la que te ofrecen de verdad y te decimos si está por encima o
+          por debajo del punto de equilibrio.
+        </p>
+      </div>
+    </details>
+
+    <details>
+      <summary>¿Por qué el marcador más probable tiene un porcentaje tan bajo?</summary>
+      <div class="cuerpo">
+        <p>
+          Porque hay muchísimos marcadores posibles. Que el 1-1 sea «el más
+          probable» con un 12 % sólo significa que ningún otro llega más alto:
+          <strong>el 88 % de las veces acabará en otra cosa</strong>.
+        </p>
+        <p>
+          Por eso mostramos la tabla entera. Los resultados exactos pagan mucho
+          precisamente porque casi nunca entran.
+        </p>
+      </div>
+    </details>
+
+    <details>
+      <summary>¿Qué pasa con los equipos recién ascendidos?</summary>
+      <div class="cuerpo">
+        <p>
+          No tienen partidos en la categoría, así que no hay nada que medir. Se
+          les asigna el <strong>nivel medio de los tres últimos clasificados</strong>
+          de la temporada anterior, que es lo que suele acercarse más a la
+          realidad.
+        </p>
+        <p>
+          Es una estimación prudente: cada temporada algún ascendido rinde muy
+          por encima de eso. Sus partidos son los más inciertos de la lista y van
+          marcados para que lo tengas presente.
+        </p>
+      </div>
+    </details>
+
+    <details>
+      <summary>¿Cada cuánto se actualizan los datos?</summary>
+      <div class="cuerpo">
+        <p>
+          Cada pocas horas. Al terminar una jornada, los resultados entran
+          automáticamente y los porcentajes se recalculan con ellos.
+        </p>
+        <p>
+          El cálculo mira las <strong>cuatro últimas temporadas</strong>
+          —5 261 partidos entre las cinco ligas—, pero no todas pesan igual: lo
+          de hace un mes cuenta el doble que lo de hace un año. Se comprobó qué
+          profundidad daba mejores predicciones y a partir de cuatro temporadas
+          no se gana nada.
+        </p>
+        <p>
+          No hay datos en directo. Un partido en curso no modifica nada hasta que
+          acaba. Cada sección indica de qué temporada son sus cifras con una
+          etiqueta junto al título.
+        </p>
+      </div>
+    </details>
+
+    <details>
+      <summary>¿Qué es el mapa de la liga y cómo se lee?</summary>
+      <div class="cuerpo">
+        <p>
+          Comparar equipos con quince estadísticas a la vez no lleva a ninguna
+          parte. El mapa hace lo contrario: busca <strong>las dos cosas que de
+          verdad los separan</strong> y coloca a cada uno según ellas.
+        </p>
+        <p>
+          El eje horizontal es el <strong>nivel general</strong> —generar mucho y
+          conceder poco—, y ordena la clasificación casi por completo. El
+          vertical es el <strong>acierto</strong>: quién convierte sus ocasiones
+          y quién las para. Un equipo arriba a la izquierda saca mucho más de lo
+          que su juego sugiere; abajo a la derecha, justo lo contrario.
+        </p>
+      </div>
+    </details>
+  </section>
+
+  <footer class="pie" style="margin-top:22px">
+    <p>
+      Ventaja Local · probabilidades calculadas sobre las ocasiones de gol de las
+      cinco grandes ligas europeas.
+    </p>
+    <p>
+      <b>Herramienta de análisis estadístico.</b> Apostar implica riesgo de
+      pérdida económica. Sólo para mayores de edad.
+    </p>
+  </footer>
+</div>
+
+<script>
+const D = /*__DATOS__*/;
+const MAXG = 8;
+let ligaActual = "premier";
+let margen = 0.06;          // margen de la casa aplicado a las cuotas estimadas
+let opcionesActuales = [];  // mercados del partido abierto, para la calculadora
+
+const MARGENES = [
+  [0.04, "Muy competitivo. Lo encuentras comparando entre varias casas."],
+  [0.06, "Lo habitual en el mercado colombiano para el resultado 1X2."],
+  [0.08, "Frecuente en mercados secundarios y en partidos de menos volumen."],
+  [0.11, "Márgenes altos: la casa se queda con una tajada grande."],
+];
+
+/* ── Modelo ───────────────────────────────────────────────────────────── */
+function poisson(k, lambda) {
+  let logf = 0;
+  for (let i = 2; i <= k; i++) logf += Math.log(i);
+  return Math.exp(-lambda + k * Math.log(lambda) - logf);
+}
+
+function calcular(ligaKey, claveLocal, claveVisita) {
+  const lg = D.ligas[ligaKey];
+  const a = lg.equipos[claveLocal], b = lg.equipos[claveVisita];
+  const lam = Math.exp(a.atq - b.def + lg.gamma);
+  const mu = Math.exp(b.atq - a.def);
+
+  const m = [];
+  for (let i = 0; i <= MAXG; i++) {
+    m[i] = [];
+    for (let j = 0; j <= MAXG; j++) m[i][j] = poisson(i, lam) * poisson(j, mu);
+  }
+  const r = lg.rho;
+  m[0][0] *= 1 - lam * mu * r;
+  m[0][1] *= 1 + lam * r;
+  m[1][0] *= 1 + mu * r;
+  m[1][1] *= 1 - r;
+
+  let s = 0;
+  for (let i = 0; i <= MAXG; i++) for (let j = 0; j <= MAXG; j++) s += m[i][j];
+  for (let i = 0; i <= MAXG; i++) for (let j = 0; j <= MAXG; j++) m[i][j] /= s;
+
+  let pl = 0, pe = 0, pv = 0, over15 = 0, over25 = 0, over35 = 0, btts = 0;
+  for (let i = 0; i <= MAXG; i++) for (let j = 0; j <= MAXG; j++) {
+    const p = m[i][j];
+    if (i > j) pl += p; else if (i === j) pe += p; else pv += p;
+    if (i + j > 1.5) over15 += p;
+    if (i + j > 2.5) over25 += p;
+    if (i + j > 3.5) over35 += p;
+    if (i > 0 && j > 0) btts += p;
+  }
+  return { m, lam, mu, pl, pe, pv, over15, over25, over35, btts, a, b, lg };
+}
+
+/* ── Formato ──────────────────────────────────────────────────────────── */
+const pct = x => (x * 100).toFixed(1).replace(".", ",") + " %";
+const dec = (x, n = 2) => x.toFixed(n).replace(".", ",");
+const MESES = ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"];
+const DIAS = ["domingo", "lunes", "martes", "miércoles", "jueves", "viernes", "sábado"];
+
+function fechaLarga(iso) {
+  const [y, mo, d] = iso.split("-").map(Number);
+  const f = new Date(Date.UTC(y, mo - 1, d));
+  return `${DIAS[f.getUTCDay()]} ${d} de ${MESES[mo - 1]}`;
+}
+
+/* ── Vista lista ──────────────────────────────────────────────────────── */
+function pintarLigas() {
+  const cont = document.getElementById("ligas");
+  cont.innerHTML = "";
+  Object.entries(D.ligas).forEach(([k, lg]) => {
+    const b = document.createElement("button");
+    b.className = "liga-btn";
+    b.type = "button";
+    b.setAttribute("role", "tab");
+    b.setAttribute("aria-selected", k === ligaActual ? "true" : "false");
+    b.innerHTML = `<span>${lg.nombre}</span><span class="pais">${lg.pais}</span>`;
+    b.addEventListener("click", () => { ligaActual = k; pintarLigas(); pintarLista(); });
+    cont.appendChild(b);
+  });
+
+  const lg = D.ligas[ligaActual];
+  const n = Object.values(lg.equipos).filter(e => !e.nuevo).length;
+  document.getElementById("txt-liga").textContent =
+    `${n} equipos · ${lg.partidos.length} partidos próximos`;
+}
+
+function pintarLista() {
+  const lg = D.ligas[ligaActual];
+  const cont = document.getElementById("lista-partidos");
+  cont.innerHTML = "";
+
+  const porFecha = {};
+  lg.partidos.forEach((p, i) => (porFecha[p.fecha] ||= []).push({ ...p, i }));
+
+  Object.entries(porFecha).forEach(([fecha, partidos]) => {
+    const grupo = document.createElement("div");
+    grupo.className = "grupo-fecha";
+    const jornadas = [...new Set(partidos.map(p => p.j))].join(" y ");
+    grupo.innerHTML = `<div class="cabecera-fecha"><span>${fechaLarga(fecha)}</span>` +
+                      `<span class="jornada">Jornada ${jornadas}</span></div>`;
+    const lista = document.createElement("div");
+    lista.className = "lista";
+
+    partidos.forEach(p => {
+      const c = calcular(ligaActual, p.l, p.v);
+      const favL = c.pl > c.pv && c.pl > c.pe;
+      const favV = c.pv > c.pl && c.pv > c.pe;
+      const nuevo = eq => c.lg.equipos[eq].nuevo ? '<span class="etq-nuevo">nuevo</span>' : "";
+
+      const b = document.createElement("button");
+      b.className = "partido";
+      b.type = "button";
+      b.innerHTML = `
+        <span class="hora">${p.hora}</span>
+        <span class="equipos">
+          <span class="eq-linea ${favL ? "favorito" : ""}">
+            <span class="eq-nombre">${c.a.nombre}${nuevo(p.l)}</span>
+            <span class="eq-prob">${Math.round(c.pl * 100)}%</span>
+          </span>
+          <span class="eq-linea ${favV ? "favorito" : ""}">
+            <span class="eq-nombre">${c.b.nombre}${nuevo(p.v)}</span>
+            <span class="eq-prob">${Math.round(c.pv * 100)}%</span>
+          </span>
+        </span>
+        <span class="mini-barra">
+          <i class="l" style="width:${c.pl * 100}%"></i>
+          <i class="e" style="width:${c.pe * 100}%"></i>
+          <i class="v" style="width:${c.pv * 100}%"></i>
+        </span>
+        <span class="flecha">›</span>`;
+      b.addEventListener("click", () => abrirDetalle(ligaActual, p));
+      lista.appendChild(b);
+    });
+
+    grupo.appendChild(lista);
+    cont.appendChild(grupo);
+  });
+}
+
+/* ── Vista detalle ────────────────────────────────────────────────────── */
+function abrirDetalle(ligaKey, p) {
+  const c = calcular(ligaKey, p.l, p.v);
+  const { a, b, lg } = c;
+  descartados = new Set();   // los descartes manuales son de cada partido
+
+  const T2 = t => (t || "").replace("-", "/");
+  document.getElementById("d-cuando").textContent =
+    `${lg.nombre} · Jornada ${p.j} · ${fechaLarga(p.fecha)} · ${p.hora}`;
+  document.getElementById("d-sello-comp").textContent = T2(lg.temp_hist);
+  document.getElementById("d-sello-jug").textContent = T2(lg.temp_jug);
+  document.getElementById("d-local").textContent = a.nombre;
+  document.getElementById("d-visita").textContent = b.nombre;
+
+  // Barra
+  const barra = document.getElementById("d-barra");
+  barra.innerHTML = "";
+  [["l", c.pl, "Local"], ["e", c.pe, "Empate"], ["v", c.pv, "Visitante"]].forEach(([cl, pr, et]) => {
+    const d = document.createElement("div");
+    d.className = "seg " + cl;
+    d.style.flexGrow = pr;
+    d.innerHTML = `<span class="seg-pct">${Math.round(pr * 100)}%</span>` +
+                  (pr > .13 ? `<span class="seg-etq">${et}</span>` : "");
+    barra.appendChild(d);
+  });
+
+  // Resumen en palabras
+  const mx = Math.max(c.pl, c.pe, c.pv);
+  const quien = mx === c.pl ? a.nombre : mx === c.pv ? b.nombre : "el empate";
+  const fuerza = mx > .55 ? "un favorito claro" : mx > .42 ? "un ligero favorito" : "un partido muy abierto";
+  document.getElementById("d-resumen").innerHTML =
+    `Es <b>${fuerza}</b>: ${mx === c.pe ? "ningún equipo domina y " : ""}` +
+    `${mx === c.pe ? "el empate" : quien} es lo más probable con un ${pct(mx)}. ` +
+    `El modelo espera un partido de <b>${dec(c.lam + c.mu, 1)} goles</b> en total.`;
+
+  // Opciones
+  const opciones = [
+    ["Gana " + a.nombre, "el local se lleva los tres puntos", c.pl, "l"],
+    ["Empate", "reparto de puntos", c.pe, "e"],
+    ["Gana " + b.nombre, "el visitante se lleva los tres puntos", c.pv, "v"],
+    ["Más de 1,5 goles", "el partido acaba con 2 goles o más", c.over15, "e"],
+    ["Más de 2,5 goles", "el partido acaba con 3 goles o más", c.over25, "e"],
+    ["Menos de 2,5 goles", "el partido acaba con 2 goles o menos", 1 - c.over25, "e"],
+    ["Más de 3,5 goles", "el partido acaba con 4 goles o más", c.over35, "e"],
+    ["Ambos equipos marcan", "los dos ven puerta", c.btts, "e"],
+    ["No marcan ambos", "al menos uno se queda a cero", 1 - c.btts, "e"],
+    [a.nombre + " o empate", "el local no pierde", c.pl + c.pe, "l"],
+    [b.nombre + " o empate", "el visitante no pierde", c.pv + c.pe, "v"],
+  ].sort((x, y) => y[2] - x[2]);
+
+  opcionesActuales = opciones;
+  pintarOpciones();
+  pintarSelectorMargen();
+
+  const selector = document.getElementById("calc-opcion");
+  selector.innerHTML = "";
+  opciones.forEach(([nom, , pr], i) => selector.add(new Option(`${nom} — ${pct(pr)}`, i)));
+  selector.value = "0";
+  calcularValor();
+
+  // Fuerzas
+  const eqs = Object.values(lg.equipos).filter(e => !e.nuevo);
+  const atqs = eqs.map(e => Math.exp(e.atq));
+  const defs = eqs.map(e => Math.exp(-e.def));
+  const minA = Math.min(...atqs), maxA = Math.max(...atqs);
+  const minD = Math.min(...defs), maxD = Math.max(...defs);
+  const aA = Math.exp(a.atq), bA = Math.exp(b.atq);
+  const aD = Math.exp(-a.def), bD = Math.exp(-b.def);
+  const n = eqs.length;
+
+  const rankA = x => atqs.filter(v => v > x).length + 1;
+  const rankD = x => defs.filter(v => v < x).length + 1;
+  const fmt = (v, pos, txt, nuevo) => nuevo
+    ? `${dec(v)}×<span class="nota">estimado (recién ascendido)</span>`
+    : `${dec(v)}×<span class="nota">${pos}.º de ${n} · ${txt}</span>`;
+
+  document.getElementById("d-atq-l").innerHTML =
+    fmt(aA, rankA(aA), `genera ${aA >= 1 ? "+" : ""}${Math.round((aA - 1) * 100)} % que la media`, a.nuevo);
+  document.getElementById("d-atq-v").innerHTML =
+    fmt(bA, rankA(bA), `genera ${bA >= 1 ? "+" : ""}${Math.round((bA - 1) * 100)} % que la media`, b.nuevo);
+  document.getElementById("d-def-l").innerHTML =
+    fmt(aD, rankD(aD), `concede ${aD >= 1 ? "+" : ""}${Math.round((aD - 1) * 100)} % que la media`, a.nuevo);
+  document.getElementById("d-def-v").innerHTML =
+    fmt(bD, rankD(bD), `concede ${bD >= 1 ? "+" : ""}${Math.round((bD - 1) * 100)} % que la media`, b.nuevo);
+
+  const pos = (v, mn, mx) => Math.max(3, Math.min(97, (v - mn) / (mx - mn) * 100));
+  document.getElementById("d-m-atq-l").style.left = pos(aA, minA, maxA) + "%";
+  document.getElementById("d-m-atq-v").style.left = pos(bA, minA, maxA) + "%";
+  document.getElementById("d-m-def-l").style.left = (100 - pos(aD, minD, maxD)) + "%";
+  document.getElementById("d-m-def-v").style.left = (100 - pos(bD, minD, maxD)) + "%";
+
+  document.getElementById("d-xg-l").textContent = dec(c.lam);
+  document.getElementById("d-xg-v").textContent = dec(c.mu);
+
+  const vent = Math.round((Math.exp(lg.gamma) - 1) * 100);
+  document.getElementById("d-ventaja").innerHTML =
+    `Jugar en casa vale un <b>${vent} %</b> más de ocasiones en ${lg.nombre}, y ya ` +
+    `está sumado a la cifra de ${a.nombre}. Es la ventaja media de la liga: ` +
+    `el modelo no distingue entre estadios.`;
+
+  // Matriz
+  const N = 5;
+  let maxC = 0;
+  for (let i = 0; i <= N; i++) for (let j = 0; j <= N; j++) maxC = Math.max(maxC, c.m[i][j]);
+  let html = `<tr><th class="esquina">${a.nombre.slice(0, 11)} ↓<br>${b.nombre.slice(0, 11)} →</th>`;
+  for (let j = 0; j <= N; j++) html += `<th>${j}</th>`;
+  html += "</tr>";
+  for (let i = 0; i <= N; i++) {
+    html += `<tr><th>${i}</th>`;
+    for (let j = 0; j <= N; j++) {
+      const int = c.m[i][j] / maxC;
+      html += `<td class="${c.m[i][j] === maxC ? "top" : ""}" ` +
+              `style="background:color-mix(in srgb, var(--heat-1) ${(int * 78).toFixed(0)}%, var(--heat-0))">` +
+              `${(c.m[i][j] * 100).toFixed(1)}</td>`;
+    }
+    html += "</tr>";
+  }
+  document.getElementById("d-matriz").innerHTML = html;
+
+  const planos = [];
+  for (let i = 0; i <= N; i++) for (let j = 0; j <= N; j++) planos.push([`${i}-${j}`, c.m[i][j]]);
+  planos.sort((x, y) => y[1] - x[1]);
+  const acum = planos.slice(0, 5).reduce((s, x) => s + x[1], 0);
+  document.getElementById("d-top").innerHTML =
+    planos.slice(0, 5).map(([mm, pp]) => `<span class="chip"><b>${mm}</b> <span>${pct(pp)}</span></span>`).join("") +
+    `<span class="chip"><span>los cinco juntos, ${pct(acum)}</span></span>`;
+
+  // Comparación
+  const pj = a.pj || 38;
+  const filas = [
+    ["Puntos la temporada pasada", a.pts, b.pts, true, v => v],
+    ["Goles marcados", a.gf, b.gf, true, v => v],
+    ["Goles encajados", a.gc, b.gc, false, v => v],
+    ["Ocasiones generadas (xG)", a.xg, b.xg, true, v => dec(v, 1)],
+    ["Ocasiones concedidas (xG)", a.xga, b.xga, false, v => dec(v, 1)],
+    ["Ocasiones por partido", a.xg / pj, b.xg / pj, true, v => dec(v, 2)],
+    ["Ocasiones concedidas por partido", a.xga / pj, b.xga / pj, false, v => dec(v, 2)],
+    ["Diferencia de ocasiones", a.xg - a.xga, b.xg - b.xga, true, v => (v > 0 ? "+" : "") + dec(v, 1)],
+    ["Goles de más sobre lo esperado", a.gf - a.xg, b.gf - b.xg, true, v => (v > 0 ? "+" : "") + dec(v, 1)],
+  ];
+
+  document.getElementById("d-comparacion").innerHTML = filas.map(([etq, va, vb, may, f]) => {
+    const min = Math.min(va, vb, 0);
+    const va2 = va - min, vb2 = vb - min;
+    const tot = va2 + vb2 || 1;
+    const pa = (may ? va2 : vb2) / tot * 100;
+    const pb = (may ? vb2 : va2) / tot * 100;
+    const gA = may ? va > vb : va < vb;
+    const gB = may ? vb > va : vb < va;
+    return `<div class="fila-comp">
+      <span class="comp-val ${gA ? "gana" : "pierde"}">${f(va)}</span>
+      <span class="mini-riel izq"><i class="l" style="width:${pa}%"></i></span>
+      <span class="comp-etq">${etq}</span>
+      <span class="mini-riel"><i class="v" style="width:${pb}%"></i></span>
+      <span class="comp-val der ${gB ? "gana" : "pierde"}">${f(vb)}</span>
+    </div>`;
+  }).join("");
+
+  document.getElementById("g-goles").innerHTML = graficoGoles(c.m);
+  document.getElementById("g-mapa").innerHTML = graficoMapa(lg, a, b);
+  pintarJugadores(lg, a, b, c.lam, c.mu);
+
+  const nuevos = [a, b].filter(e => e.nuevo).map(e => e.nombre);
+  const cajaNuevo = document.getElementById("d-nota-nuevo");
+  if (nuevos.length) {
+    cajaNuevo.classList.remove("oculto");
+    cajaNuevo.innerHTML = `<p><b>${nuevos.join(" y ")} ` +
+      `${nuevos.length > 1 ? "vienen" : "viene"} de ascender.</b> Las cifras que ` +
+      `aparecen arriba no son suyas: son el promedio de los tres últimos ` +
+      `clasificados del año pasado, usado como estimación provisional. Este ` +
+      `partido es de los más inciertos de la jornada.</p>`;
+  } else {
+    cajaNuevo.classList.add("oculto");
+  }
+
+  mostrarVista("vista-detalle");
+}
+
+/* ── Gráficos ─────────────────────────────────────────────────────────── */
+
+/** Barras: probabilidad de que el partido acabe con 0, 1, 2… goles en total. */
+function graficoGoles(m) {
+  const tot = [0, 0, 0, 0, 0, 0, 0];   // 0..5 y "6 o más"
+  for (let i = 0; i <= MAXG; i++)
+    for (let j = 0; j <= MAXG; j++)
+      tot[Math.min(i + j, 6)] += m[i][j];
+
+  const W = 300, H = 150, base = H - 26, tope = Math.max(...tot);
+  const ancho = W / tot.length;
+
+  const barras = tot.map((p, i) => {
+    const alto = (p / tope) * (base - 20);
+    const x = i * ancho + ancho * .16, w = ancho * .68, y = base - alto;
+    return `<rect x="${x}" y="${y}" width="${w}" height="${alto}" rx="3"
+              fill="var(--local)" opacity="${0.45 + 0.55 * (p / tope)}"></rect>
+            <text x="${x + w / 2}" y="${y - 5}" text-anchor="middle"
+              font-size="10" font-family="var(--mono)" fill="var(--ink-2)"
+            >${Math.round(p * 100)}</text>
+            <text x="${x + w / 2}" y="${base + 15}" text-anchor="middle"
+              font-size="11" font-family="var(--mono)" fill="var(--ink-3)"
+            >${i === 6 ? "6+" : i}</text>`;
+  }).join("");
+
+  return `<svg viewBox="0 0 ${W} ${H}" role="img"
+            aria-label="Probabilidad de cada total de goles">
+      <line x1="0" y1="${base}" x2="${W}" y2="${base}"
+        stroke="var(--line)" stroke-width="1"></line>
+      ${barras}
+      <text x="${W / 2}" y="${H - 1}" text-anchor="middle" font-size="10"
+        font-family="var(--sans)" fill="var(--ink-3)">goles en el partido (%)</text>
+    </svg>`;
+}
+
+/** Dispersión: ocasiones generadas frente a concedidas, por partido. */
+function graficoMapa(lg, a, b) {
+  const eqs = Object.values(lg.equipos).filter(e => !e.nuevo && e.pj > 0);
+  const px = e => e.xg / e.pj;
+  const py = e => e.xga / e.pj;
+
+  const xs = eqs.map(px), ys = eqs.map(py);
+  const x0 = Math.min(...xs) - .12, x1 = Math.max(...xs) + .12;
+  const y0 = Math.min(...ys) - .12, y1 = Math.max(...ys) + .12;
+
+  const W = 300, H = 190, mI = 34, mD = 8, mS = 10, mB = 30;
+  const cx = v => mI + (v - x0) / (x1 - x0) * (W - mI - mD);
+  // El eje Y va invertido: conceder menos es mejor, así que arriba
+  const cy = v => mS + (v - y0) / (y1 - y0) * (H - mS - mB);
+
+  const medX = xs.reduce((s, v) => s + v, 0) / xs.length;
+  const medY = ys.reduce((s, v) => s + v, 0) / ys.length;
+
+  const puntos = eqs.map(e => {
+    if (e.clave === a.clave || (b && e.clave === b.clave)) return "";
+    return `<circle cx="${cx(px(e)).toFixed(1)}" cy="${cy(py(e)).toFixed(1)}" r="3"
+              fill="var(--ink-3)" opacity=".35"></circle>`;
+  }).join("");
+
+  const destacado = (e, color, etq) => {
+    const X = cx(px(e)), Y = cy(py(e));
+    const der = X > W * .62;
+    return `<circle cx="${X.toFixed(1)}" cy="${Y.toFixed(1)}" r="5.5" fill="${color}"
+              stroke="var(--surface-2)" stroke-width="2"></circle>
+            <text x="${(der ? X - 8 : X + 8).toFixed(1)}" y="${(Y + 3.5).toFixed(1)}"
+              text-anchor="${der ? "end" : "start"}" font-size="10.5"
+              font-family="var(--sans)" font-weight="600" fill="${color}"
+            >${etq}</text>`;
+  };
+
+  return `<svg viewBox="0 0 ${W} ${H}" role="img"
+            aria-label="Ocasiones generadas frente a concedidas">
+      <line x1="${cx(medX).toFixed(1)}" y1="${mS}" x2="${cx(medX).toFixed(1)}" y2="${H - mB}"
+        stroke="var(--line)" stroke-dasharray="3 3"></line>
+      <line x1="${mI}" y1="${cy(medY).toFixed(1)}" x2="${W - mD}" y2="${cy(medY).toFixed(1)}"
+        stroke="var(--line)" stroke-dasharray="3 3"></line>
+      ${puntos}
+      ${destacado(a, "var(--local)", a.nombre)}
+      ${b ? destacado(b, "var(--visita)", b.nombre) : ""}
+      <text x="${(W + mI) / 2}" y="${H - 14}" text-anchor="middle" font-size="10"
+        font-family="var(--sans)" fill="var(--ink-3)">ocasiones generadas por partido →</text>
+      <text x="10" y="${(H - mB + mS) / 2}" text-anchor="middle" font-size="10"
+        font-family="var(--sans)" fill="var(--ink-3)"
+        transform="rotate(-90 10 ${((H - mB + mS) / 2).toFixed(1)})"
+      >← concede menos</text>
+    </svg>`;
+}
+
+/* ── Gráficos de la ficha de equipo ───────────────────────────────────── */
+
+const COL_RES = { V: "var(--ok)", E: "var(--empate)", D: "var(--visita)" };
+const resultado = p => p.gf > p.gc ? "V" : p.gf === p.gc ? "E" : "D";
+
+/** Puntos acumulados jornada a jornada, con cada partido coloreado. */
+function graficoTrayectoria(hist) {
+  if (hist.length < 3) return "";
+  const W = 640, H = 250, mI = 38, mD = 14, mS = 16, mB = 34;
+  let acum = 0;
+  const pts = hist.map((p, i) => {
+    acum += p.gf > p.gc ? 3 : p.gf === p.gc ? 1 : 0;
+    return { x: i, y: acum, r: resultado(p), p };
+  });
+  const maxY = Math.max(acum, 1);
+  const cx = i => mI + i / Math.max(hist.length - 1, 1) * (W - mI - mD);
+  const cy = v => H - mB - (v / maxY) * (H - mS - mB);
+
+  const linea = pts.map((q, i) => `${i ? "L" : "M"}${cx(q.x).toFixed(1)},${cy(q.y).toFixed(1)}`).join("");
+  const circulos = pts.map(q =>
+    `<circle cx="${cx(q.x).toFixed(1)}" cy="${cy(q.y).toFixed(1)}" r="4.2"
+       fill="${COL_RES[q.r]}" stroke="var(--surface-2)" stroke-width="1.2"
+       ><title>${q.p.f} · ${q.p.c === "L" ? "vs" : "en"} ${q.p.r}: ${q.p.gf}-${q.p.gc}</title></circle>`).join("");
+
+  const ticks = [0, .25, .5, .75, 1].map(f => {
+    const v = Math.round(maxY * f), y = cy(v);
+    return `<line x1="${mI}" y1="${y.toFixed(1)}" x2="${W - mD}" y2="${y.toFixed(1)}"
+        stroke="var(--line-soft)" stroke-width=".8"></line>
+      <text x="${mI - 7}" y="${(y + 3.5).toFixed(1)}" text-anchor="end" font-size="10"
+        font-family="var(--mono)" fill="var(--ink-3)">${v}</text>`;
+  }).join("");
+
+  const jornadas = pts.filter((_, i) => i % 5 === 0 || i === pts.length - 1)
+    .map(q => `<text x="${cx(q.x).toFixed(1)}" y="${H - mB + 16}" text-anchor="middle"
+        font-size="10" font-family="var(--mono)" fill="var(--ink-3)">${q.x + 1}</text>`).join("");
+
+  const leyenda = [["V", "ganó"], ["E", "empató"], ["D", "perdió"]].map(([r, t], i) =>
+    `<circle cx="${W - mD - 128 + i * 46}" cy="${mS - 4}" r="4" fill="${COL_RES[r]}"></circle>
+     <text x="${W - mD - 120 + i * 46}" y="${mS}" font-size="10"
+       font-family="var(--sans)" fill="var(--ink-3)">${t}</text>`).join("");
+
+  return `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Puntos acumulados jornada a jornada">
+      ${ticks}${leyenda}
+      <path d="${linea}" fill="none" stroke="var(--ink-3)" stroke-width="1.6" opacity=".7"></path>
+      ${circulos}${jornadas}
+      <text x="${mI - 7}" y="${H - mB + 22}" text-anchor="end" font-size="10"
+        font-family="var(--sans)" fill="var(--ink-3)">pts</text>
+      <text x="${((W + mI) / 2).toFixed(1)}" y="${H - 4}" text-anchor="middle" font-size="10.5"
+        font-family="var(--sans)" fill="var(--ink-3)">jornada</text>
+    </svg>`;
+}
+
+/** Ocasiones generadas y concedidas partido a partido, suavizadas. */
+function graficoForma(hist, ventana = 5) {
+  if (hist.length < ventana + 1) return "";
+  const W = 640, H = 250, mI = 38, mD = 62, mS = 18, mB = 34;
+  const media = (arr, i, campo) => {
+    const trozo = arr.slice(Math.max(0, i - ventana + 1), i + 1);
+    return trozo.reduce((s, p) => s + p[campo], 0) / trozo.length;
+  };
+  const favor = hist.map((_, i) => media(hist, i, "xf"));
+  const contra = hist.map((_, i) => media(hist, i, "xc"));
+  const maxY = Math.max(...favor, ...contra) * 1.15;
+
+  const cx = i => mI + i / Math.max(hist.length - 1, 1) * (W - mI - mD);
+  const cy = v => H - mB - (v / maxY) * (H - mS - mB);
+  const traza = serie => serie.map((v, i) =>
+    `${i ? "L" : "M"}${cx(i).toFixed(1)},${cy(v).toFixed(1)}`).join("");
+
+  const ticks = [0, .5, 1].map(f => {
+    const v = maxY * f, y = cy(v);
+    return `<line x1="${mI}" y1="${y.toFixed(1)}" x2="${W - mD}" y2="${y.toFixed(1)}"
+        stroke="var(--line-soft)" stroke-width=".8"></line>
+      <text x="${mI - 7}" y="${(y + 3.5).toFixed(1)}" text-anchor="end" font-size="10"
+        font-family="var(--mono)" fill="var(--ink-3)">${dec(v, 1)}</text>`;
+  }).join("");
+
+  const jornadas = hist.map((_, i) => i)
+    .filter(i => i % 5 === 0 || i === hist.length - 1)
+    .map(i => `<text x="${cx(i).toFixed(1)}" y="${H - mB + 16}" text-anchor="middle"
+        font-size="10" font-family="var(--mono)" fill="var(--ink-3)">${i + 1}</text>`).join("");
+
+  return `<svg viewBox="0 0 ${W} ${H}" role="img"
+      aria-label="Ocasiones generadas y concedidas por partido">
+      ${ticks}
+      <path d="${traza(contra)}" fill="none" stroke="var(--visita)" stroke-width="2.4"></path>
+      <path d="${traza(favor)}" fill="none" stroke="var(--local)" stroke-width="2.4"></path>
+      <circle cx="${cx(hist.length - 1).toFixed(1)}" cy="${cy(favor.at(-1)).toFixed(1)}"
+        r="4" fill="var(--local)"></circle>
+      <circle cx="${cx(hist.length - 1).toFixed(1)}" cy="${cy(contra.at(-1)).toFixed(1)}"
+        r="4" fill="var(--visita)"></circle>
+      <text x="${W - mD + 8}" y="${(cy(favor.at(-1)) + 4).toFixed(1)}" font-size="11"
+        font-family="var(--sans)" fill="var(--local)" font-weight="600">crea</text>
+      <text x="${W - mD + 8}" y="${(cy(contra.at(-1)) + 4).toFixed(1)}" font-size="11"
+        font-family="var(--sans)" fill="var(--visita)" font-weight="600">concede</text>
+      ${jornadas}
+      <text x="${mI - 7}" y="${H - mB + 22}" text-anchor="end" font-size="10"
+        font-family="var(--sans)" fill="var(--ink-3)">ocas.</text>
+      <text x="${((W - mD + mI) / 2).toFixed(1)}" y="${H - 4}" text-anchor="middle"
+        font-size="10.5" font-family="var(--sans)" fill="var(--ink-3)"
+        >jornada · promedio de los ${ventana} partidos anteriores</text>
+    </svg>`;
+}
+
+/** Comparación de rendimiento en casa y fuera. */
+function graficoLocalVisitante(hist) {
+  if (!hist.length) return "";
+  const grupo = cond => {
+    const d = hist.filter(p => p.c === cond);
+    if (!d.length) return null;
+    const pts = d.reduce((s, p) => s + (p.gf > p.gc ? 3 : p.gf === p.gc ? 1 : 0), 0);
+    return {
+      n: d.length, ppp: pts / d.length,
+      gf: d.reduce((s, p) => s + p.gf, 0) / d.length,
+      gc: d.reduce((s, p) => s + p.gc, 0) / d.length,
+    };
+  };
+  const L = grupo("L"), V = grupo("V");
+  if (!L || !V) return "";
+
+  const W = 640, H = 230, etqW = 132;
+  const filas = [
+    ["Puntos por partido", L.ppp, V.ppp, 3],
+    ["Goles que marca", L.gf, V.gf, Math.max(L.gf, V.gf) * 1.3],
+    ["Goles que encaja", L.gc, V.gc, Math.max(L.gc, V.gc) * 1.3],
+  ];
+  const barras = filas.map(([etq, vl, vv, tope], i) => {
+    const y = 30 + i * 66;
+    const anchoMax = W - etqW - 60;
+    const w1 = (vl / tope) * anchoMax, w2 = (vv / tope) * anchoMax;
+    return `<text x="0" y="${y - 9}" font-size="12" font-family="var(--sans)"
+        fill="var(--ink)" font-weight="600">${etq}</text>
+      <text x="${etqW - 8}" y="${y + 13}" text-anchor="end" font-size="10.5"
+        font-family="var(--sans)" fill="var(--ink-3)">en casa</text>
+      <rect x="${etqW}" y="${y}" width="${w1.toFixed(1)}" height="18" rx="4"
+        fill="var(--local)"></rect>
+      <text x="${(etqW + w1 + 7).toFixed(1)}" y="${y + 13.5}" font-size="12"
+        font-family="var(--mono)" fill="var(--ink)" font-weight="600">${dec(vl, 2)}</text>
+      <text x="${etqW - 8}" y="${y + 37}" text-anchor="end" font-size="10.5"
+        font-family="var(--sans)" fill="var(--ink-3)">fuera</text>
+      <rect x="${etqW}" y="${y + 24}" width="${w2.toFixed(1)}" height="18" rx="4"
+        fill="var(--visita)"></rect>
+      <text x="${(etqW + w2 + 7).toFixed(1)}" y="${y + 37.5}" font-size="12"
+        font-family="var(--mono)" fill="var(--ink)" font-weight="600">${dec(vv, 2)}</text>`;
+  }).join("");
+
+  return `<svg viewBox="0 0 ${W} ${H}" role="img"
+      aria-label="Rendimiento en casa y fuera">${barras}</svg>`;
+}
+
+/** Dispersión de la plantilla: goles frente a asistencias, por 90 minutos. */
+function graficoProduccion(jug) {
+  const d = jug.filter(j => j.min >= 450 && j.p !== "POR");
+  if (d.length < 3) return "";
+  const W = 640, H = 300, mI = 52, mD = 70, mS = 20, mB = 44;
+
+  const g90 = j => j.g / (j.min / 90), a90 = j => j.a / (j.min / 90);
+  const maxX = Math.max(...d.map(g90), 0.2) * 1.15;
+  const maxY = Math.max(...d.map(a90), 0.2) * 1.2;
+  const cx = v => mI + (v / maxX) * (W - mI - mD);
+  const cy = v => H - mB - (v / maxY) * (H - mS - mB);
+  const maxMin = Math.max(...d.map(j => j.min));
+
+  // Se etiqueta a todos, apartando las etiquetas que choquen entre sí
+  const colocadas = [];
+  const puntos = d.slice()
+    .sort((a, b) => (g90(b) + a90(b)) - (g90(a) + a90(a)))
+    .map(j => {
+      const r = 4 + (j.min / maxMin) * 7;
+      const X = cx(g90(j)), Y = cy(a90(j));
+      const der = X > W * .68;
+      const etq = j.n.split(" ").at(-1);
+      const ancho = etq.length * 5.6;
+      let ty = Y + 3.5;
+      const tx = der ? X - r - 4 : X + r + 4;
+      let intentos = 0;
+      while (intentos++ < 12 && colocadas.some(c =>
+             Math.abs(c.y - ty) < 11 && tx < c.x + c.w + 5 && tx + ancho + 5 > c.x)) {
+        ty += 11;
+      }
+      colocadas.push({ x: der ? tx - ancho : tx, y: ty, w: ancho });
+
+      return `<circle cx="${X.toFixed(1)}" cy="${Y.toFixed(1)}" r="${r.toFixed(1)}"
+          fill="var(--local)" opacity=".5" stroke="var(--local)" stroke-width="1"
+          ><title>${j.n}: ${j.g} goles y ${j.a} asistencias en ${j.min} minutos</title></circle>
+        <text x="${tx.toFixed(1)}" y="${ty.toFixed(1)}"
+          text-anchor="${der ? "end" : "start"}" font-size="10.5"
+          font-family="var(--sans)" fill="var(--ink-2)">${etq}</text>`;
+    }).join("");
+
+  const ejeX = [0, .5, 1].map(f => {
+    const v = maxX * f, x = cx(v);
+    return `<text x="${x.toFixed(1)}" y="${H - mB + 16}" text-anchor="middle" font-size="10"
+        font-family="var(--mono)" fill="var(--ink-3)">${dec(v, 2)}</text>`;
+  }).join("");
+  const ejeY = [0, .5, 1].map(f => {
+    const v = maxY * f, y = cy(v);
+    return `<line x1="${mI}" y1="${y.toFixed(1)}" x2="${W - mD}" y2="${y.toFixed(1)}"
+        stroke="var(--line-soft)" stroke-width=".8"></line>
+      <text x="${mI - 7}" y="${(y + 3.5).toFixed(1)}" text-anchor="end" font-size="10"
+        font-family="var(--mono)" fill="var(--ink-3)">${dec(v, 2)}</text>`;
+  }).join("");
+
+  return `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Producción de la plantilla">
+      ${ejeY}
+      <line x1="${mI}" y1="${H - mB}" x2="${W - mD}" y2="${H - mB}" stroke="var(--line)"></line>
+      <line x1="${mI}" y1="${mS}" x2="${mI}" y2="${H - mB}" stroke="var(--line)"></line>
+      ${puntos}${ejeX}
+      <text x="${((W - mD + mI) / 2).toFixed(1)}" y="${H - 10}" text-anchor="middle"
+        font-size="11" font-family="var(--sans)" fill="var(--ink-3)"
+        >goles por cada 90 minutos jugados →</text>
+      <text x="14" y="${((H - mB + mS) / 2).toFixed(1)}" text-anchor="middle" font-size="11"
+        font-family="var(--sans)" fill="var(--ink-3)"
+        transform="rotate(-90 14 ${((H - mB + mS) / 2).toFixed(1)})"
+        >asistencias por 90 min →</text>
+    </svg>`;
+}
+
+/* ── Lecturas automáticas: qué se ve en cada gráfico ──────────────────── */
+
+const pts3 = p => p.gf > p.gc ? 3 : p.gf === p.gc ? 1 : 0;
+
+function leerTrayectoria(hist) {
+  const mitad = Math.floor(hist.length / 2);
+  const pri = hist.slice(0, mitad), seg = hist.slice(mitad);
+  const ppp = d => d.reduce((s, p) => s + pts3(p), 0) / d.length;
+  const a = ppp(pri), b = ppp(seg);
+
+  // Mejor racha sin perder
+  let mejor = 0, actual = 0;
+  hist.forEach(p => { actual = p.gf >= p.gc ? actual + 1 : 0; mejor = Math.max(mejor, actual); });
+
+  const cambio = b - a;
+  const veredicto = Math.abs(cambio) < .25
+    ? `mantuvo <b>el mismo nivel</b> de principio a fin`
+    : cambio > 0
+      ? `fue <b>de menos a más</b>: pasó de ${dec(a, 2)} a ${dec(b, 2)} puntos por partido`
+      : `se <b>fue apagando</b>: cayó de ${dec(a, 2)} a ${dec(b, 2)} puntos por partido`;
+
+  return `En ${hist.length} partidos ${veredicto}. Su mejor momento fue una racha
+    de <b>${mejor} partidos seguidos sin perder</b>.`;
+}
+
+function leerForma(hist, ventana = 5) {
+  const media = (d, campo) => d.reduce((s, p) => s + p[campo], 0) / d.length;
+  const mitad = Math.floor(hist.length / 2);
+  const pri = hist.slice(0, mitad), seg = hist.slice(mitad);
+  const dif1 = media(pri, "xf") - media(pri, "xc");
+  const dif2 = media(seg, "xf") - media(seg, "xc");
+
+  const estado = dif2 > .35 ? "domina con claridad"
+    : dif2 > .05 ? "lleva ligeramente la iniciativa"
+    : dif2 > -.35 ? "está bastante igualado con sus rivales"
+    : "sufre más de lo que ataca";
+
+  const tendencia = Math.abs(dif2 - dif1) < .2
+    ? "Se mantuvo estable durante todo el año"
+    : dif2 > dif1
+      ? "<b>Fue mejorando</b> con el paso de las jornadas"
+      : "<b>Empeoró</b> en la segunda mitad de la temporada";
+
+  return `${tendencia}. Ahora mismo ${estado}: crea
+    <b>${dec(media(seg, "xf"), 2)} ocasiones por partido</b> y concede
+    ${dec(media(seg, "xc"), 2)}.`;
+}
+
+function leerLocalia(hist) {
+  const g = c => {
+    const d = hist.filter(p => p.c === c);
+    return { n: d.length, ppp: d.reduce((s, p) => s + pts3(p), 0) / d.length };
+  };
+  const L = g("L"), V = g("V");
+  const brecha = L.ppp - V.ppp;
+
+  const lectura = brecha > .9
+    ? `es <b>muy de casa</b>: su estadio le vale casi un punto más por partido`
+    : brecha > .4
+      ? `rinde <b>bastante mejor en casa</b>, como la mayoría`
+      : brecha > -.1
+        ? `apenas nota la diferencia: <b>juega casi igual dentro y fuera</b>`
+        : `es un caso raro: <b>saca más puntos fuera</b> que en su estadio`;
+
+  return `Este equipo ${lectura}. En casa suma <b>${dec(L.ppp, 2)} puntos por
+    partido</b> y de visitante, ${dec(V.ppp, 2)}.`;
+}
+
+function leerProduccion(jug) {
+  const d = jug.filter(j => j.min >= 450 && j.p !== "POR");
+  if (!d.length) return "";
+  const total = d.reduce((s, j) => s + j.g, 0);
+  const top = d.slice().sort((a, b) => b.g - a.g)[0];
+  const asist = d.slice().sort((a, b) => b.a - a.a)[0];
+  const g90 = j => j.g / (j.min / 90);
+  const eficiente = d.filter(j => j.min >= 700).sort((a, b) => g90(b) - g90(a))[0];
+
+  const peso = total ? top.g / total * 100 : 0;
+  const dependencia = peso > 33
+    ? `<b>Depende mucho de ${top.n}</b>: él solo hace el ${Math.round(peso)} % de los goles`
+    : `<b>El gol está repartido</b>: su máximo goleador, ${top.n}, aporta el ${Math.round(peso)} %`;
+
+  const extra = eficiente && eficiente.n !== top.n
+    ? ` Quien mejor aprovecha sus minutos es <b>${eficiente.n}</b>, con ${dec(g90(eficiente), 2)} goles cada 90.`
+    : "";
+
+  return `${dependencia} con ${top.g} tantos, y ${asist.n} es el que más asiste
+    (${asist.a}).${extra}`;
+}
+
+/* ── Probabilidades por jugador ───────────────────────────────────────── */
+
+/** Probabilidad de que un jugador marque al menos un gol en este partido.
+ *
+ * Se parte de su ritmo goleador por 90 minutos, se escala por los minutos que
+ * suele jugar y se ajusta según lo que se espera de su equipo en este partido
+ * concreto frente a su media habitual. El paso final asume que sus goles siguen
+ * una Poisson, igual que los del equipo.
+ */
+function probMarcar(j, golesEsperados, mediaEquipo) {
+  const noventas = j.min / 90;
+  if (noventas < 1 || mediaEquipo <= 0) return 0;
+  const por90 = j.g / noventas;
+  const minTipicos = Math.min(90, j.min / Math.max(j.pj, 1));
+  const ajuste = golesEsperados / mediaEquipo;
+  return 1 - Math.exp(-(por90 * (minTipicos / 90) * ajuste));
+}
+
+function probAmarilla(j) {
+  const noventas = j.min / 90;
+  if (noventas < 1) return 0;
+  const minTipicos = Math.min(90, j.min / Math.max(j.pj, 1));
+  return 1 - Math.exp(-((j.ta / noventas) * (minTipicos / 90)));
+}
+
+/* Jugadores que el usuario ha descartado a mano, por si sabe de una baja que
+   los datos todavía no reflejan. Se guarda por partido abierto. */
+let descartados = new Set();
+
+/* Sólo la sanción por roja descarta al jugador: es una regla del reglamento.
+   No haber jugado los últimos partidos es un aviso, no una conclusión —puede
+   ser rotación, suplencia o vuelta de una lesión—, así que se señala pero su
+   probabilidad se sigue calculando igual. */
+const ETQ_BAJA = {
+  sancionado: ["sancionado", "Vio roja en el último partido: no puede jugar", true],
+  sin_minutos: ["sin minutos", "No jugó los últimos partidos; puede ser rotación o lesión", false],
+};
+
+function pintarJugadores(lg, a, b, golesA, golesB) {
+  const columna = (eq, goles, clase) => {
+    const media = eq.pj ? eq.xg / eq.pj : 0;
+    const lista = (eq.jug || [])
+      .map(j => ({ ...j, pg: probMarcar(j, goles, media), pa: probAmarilla(j) }));
+
+    // Sólo los descartados de verdad caen al final; el resto, por opciones de marcar
+    const descarta = j => (j.baja && ETQ_BAJA[j.baja]?.[2]) || descartados.has(j.n);
+    lista.sort((x, y) => (descarta(x) - descarta(y)) || y.pg - x.pg);
+
+    const filas = lista.length ? lista.map(j => {
+      const fuera = descarta(j);
+      const etq = j.baja && ETQ_BAJA[j.baja]
+        ? `<span class="etq-baja ${j.baja}" title="${ETQ_BAJA[j.baja][1]}">${ETQ_BAJA[j.baja][0]}</span>`
+        : "";
+      return `
+      <div class="jug-fila ${fuera ? "baja" : ""}">
+        <button class="jug-toggle ${descartados.has(j.n) ? "jug-descartado" : ""}"
+                type="button" data-jug="${j.n}"
+                title="${fuera ? "Púlsalo para volver a contarlo" : "Púlsalo si sabes que no juega"}">
+          <span class="jug-nombre">${j.n}${etq}
+            <small>${j.p} · ${j.g}G ${j.a}A · ${j.ta}TA${j.tr ? ` ${j.tr}TR` : ""}</small>
+          </span>
+          <span class="jug-gol">${fuera ? "—" : Math.round(j.pg * 100) + "%"}</span>
+          <span class="jug-ta">${fuera ? "—" : Math.round(j.pa * 100) + "%"}</span>
+        </button>
+      </div>`;
+    }).join("")
+      : `<p class="jug-vacio">Sin datos: el equipo acaba de ascender y no tiene
+         partidos en esta categoría.</p>`;
+
+    return `<div class="jug-col ${clase}">
+        <h3>${eq.nombre}</h3>
+        <div class="jug-cab"><span>Jugador</span><span>Marca</span><span>Amar.</span></div>
+        ${filas}
+      </div>`;
+  };
+
+  const cont = document.getElementById("d-jugadores");
+  cont.innerHTML = columna(a, golesA, "l") + columna(b, golesB, "v");
+
+  cont.querySelectorAll(".jug-toggle").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const n = btn.dataset.jug;
+      descartados.has(n) ? descartados.delete(n) : descartados.add(n);
+      pintarJugadores(lg, a, b, golesA, golesB);
+    });
+  });
+}
+
+/* ── Cuotas de mercado y valor ────────────────────────────────────────── */
+
+/** Cuota estimada: la justa reducida por el margen que se queda la casa.
+ *
+ * Con probabilidades muy altas la fórmula daría cuotas por debajo de 1,00, que
+ * no existen: ninguna casa paga menos de lo apostado. En la práctica esos
+ * mercados o no se ofrecen o se topan alrededor de 1,01, así que se devuelve
+ * null y la tabla lo muestra como un guion.
+ */
+function cuotaMercado(p) {
+  const c = 1 / (p * (1 + margen));
+  return c < 1.02 ? null : c;
+}
+
+function pintarOpciones() {
+  const colores = { l: "var(--local)", e: "var(--empate)", v: "var(--visita)" };
+  document.getElementById("d-opciones").innerHTML =
+    opcionesActuales.map(([nom, desc, pr, cl], i) => {
+      const cm = cuotaMercado(pr);
+      return `
+      <div class="opcion ${i === 0 ? "destacada" : ""}" style="--barra:${colores[cl]}">
+        <span class="opcion-nombre">${nom}<small>${desc}</small></span>
+        <span class="opcion-prob">${pct(pr)}</span>
+        <span class="opcion-cuota">${dec(1 / pr)}</span>
+        <span class="opcion-mercado" ${cm ? "" : 'title="Casi seguro: rara vez se ofrece este mercado"'}>${
+          cm ? dec(cm) : "—"}</span>
+      </div>`;
+    }).join("");
+}
+
+function pintarSelectorMargen() {
+  const cont = document.getElementById("d-margenes");
+  cont.innerHTML = "";
+  MARGENES.forEach(([m]) => {
+    const b = document.createElement("button");
+    b.className = "margen-btn";
+    b.type = "button";
+    b.textContent = Math.round(m * 100) + " %";
+    b.setAttribute("aria-pressed", m === margen ? "true" : "false");
+    b.addEventListener("click", () => {
+      margen = m;
+      pintarSelectorMargen();
+      pintarOpciones();
+      calcularValor();
+    });
+    cont.appendChild(b);
+  });
+  const nota = MARGENES.find(([m]) => m === margen)[1];
+  document.getElementById("d-margen-nota").textContent = nota;
+}
+
+function calcularValor() {
+  const i = parseInt(document.getElementById("calc-opcion").value || "0");
+  const opcion = opcionesActuales[i];
+  if (!opcion) return;
+
+  const [nombre, , p] = opcion;
+  const cuota = parseFloat(document.getElementById("calc-cuota").value);
+  const monto = parseFloat(document.getElementById("calc-monto").value) || 0;
+  const caja = document.getElementById("calc-veredicto");
+
+  if (!cuota || cuota <= 1) {
+    caja.className = "veredicto malo";
+    caja.innerHTML = `<span class="veredicto-titulo">Escribe una cuota</span>
+      <span class="veredicto-detalle">Una cuota siempre es mayor que 1,00.</span>`;
+    return;
+  }
+
+  const justa = 1 / p;
+  const ev = p * cuota - 1;                 // valor esperado por cada peso jugado
+  const implicita = 1 / cuota;              // probabilidad que la casa asigna
+  const ganancia = monto * (cuota - 1);
+  const evPesos = monto * ev;
+  const bueno = ev > 0;
+
+  const fmtCOP = x => "$" + Math.round(x).toLocaleString("es-CO");
+
+  caja.className = "veredicto " + (bueno ? "bueno" : "malo");
+  caja.innerHTML = `
+    <span class="veredicto-titulo">${bueno
+      ? `Esa cuota tiene valor`
+      : `Esa cuota se queda corta`}</span>
+    <span class="veredicto-detalle">
+      Para <b>${nombre}</b> el modelo da un <b>${pct(p)}</b> de probabilidad, así que
+      la cuota justa es <b>${dec(justa)}</b>. Te ofrecen <b>${dec(cuota)}</b>,
+      ${bueno
+        ? `por encima de ese punto: a la larga, apuestas así ganan dinero
+           <em>si el modelo acierta</em>.`
+        : `por debajo de ese punto: aunque ganes esta vez, repetir esta jugada
+           muchas veces sale perdiendo.`}
+      Con esa cuota la casa asume que la jugada ocurre un <b>${pct(implicita)}</b>
+      de las veces.
+    </span>
+    <span class="veredicto-cifras">
+      <span class="vc-caja">
+        <span class="vc-val" style="color:${bueno ? "var(--ok)" : "var(--ink-2)"}">${(ev >= 0 ? "+" : "") + dec(ev * 100, 1)} %</span>
+        <span class="vc-lbl">valor esperado</span>
+      </span>
+      <span class="vc-caja">
+        <span class="vc-val">${fmtCOP(ganancia)}</span>
+        <span class="vc-lbl">ganancia si aciertas</span>
+      </span>
+      <span class="vc-caja">
+        <span class="vc-val" style="color:${bueno ? "var(--ok)" : "var(--ink-2)"}">${(evPesos >= 0 ? "+" : "−") + fmtCOP(Math.abs(evPesos))}</span>
+        <span class="vc-lbl">rendimiento a la larga</span>
+      </span>
+      <span class="vc-caja">
+        <span class="vc-val">${dec(justa)}</span>
+        <span class="vc-lbl">cuota justa</span>
+      </span>
+    </span>`;
+}
+
+["calc-opcion", "calc-cuota", "calc-monto"].forEach(id =>
+  document.getElementById(id).addEventListener("input", calcularValor));
+
+/* ── Ficha de equipo ──────────────────────────────────────────────────── */
+
+function mostrarVista(id) {
+  ["vista-lista", "vista-detalle", "vista-equipo", "vista-liga", "vista-europa"].forEach(v =>
+    document.getElementById(v).classList.toggle("oculto", v !== id));
+  window.scrollTo({ top: 0, behavior: "instant" });
+}
+
+/* ── Panorama de liga ─────────────────────────────────────────────────── */
+
+/** Mapa de equipos según los dos factores que más los diferencian. */
+function graficoPCA(lg) {
+  const pca = lg.pca;
+  if (!pca || !pca.equipos) return "";
+  const filas = Object.entries(pca.equipos)
+    .map(([clave, xy]) => ({ eq: lg.equipos[clave], x: xy[0], y: xy[1] }))
+    .filter(f => f.eq);
+
+  const W = 680, H = 470, mX = 74, mY = 58;
+  const xs = filas.map(f => f.x), ys = filas.map(f => f.y);
+  const x0 = Math.min(...xs), x1 = Math.max(...xs);
+  const y0 = Math.min(...ys), y1 = Math.max(...ys);
+  const cx = v => mX + (v - x0) / (x1 - x0 || 1) * (W - mX * 2);
+  const cy = v => H - mY - (v - y0) / (y1 - y0 || 1) * (H - mY * 2);
+
+  const X0 = cx(0), Y0 = cy(0);
+  const izq = mX - 30, der = W - mX + 30, arr = mY - 34, aba = H - mY + 34;
+
+  // Cada cuadrante se nombra por lo que significa estar en él, para que el
+  // gráfico se pueda leer sin haber entendido antes qué mide cada eje.
+  const zona = (x, y, ancla, l1, l2) => `
+    <text x="${x}" y="${y}" text-anchor="${ancla}" font-size="10.5"
+      font-family="var(--sans)" font-weight="600" fill="var(--ink-3)"
+      opacity=".75">${l1}</text>
+    <text x="${x}" y="${y + 12}" text-anchor="${ancla}" font-size="9.5"
+      font-family="var(--sans)" fill="var(--ink-3)" opacity=".6">${l2}</text>`;
+
+  const cuadrantes = `
+    <rect x="${X0}" y="${arr}" width="${der - X0}" height="${Y0 - arr}"
+      fill="var(--ok)" opacity=".05"></rect>
+    <rect x="${izq}" y="${Y0}" width="${X0 - izq}" height="${aba - Y0}"
+      fill="var(--visita)" opacity=".05"></rect>
+    <line x1="${X0.toFixed(1)}" y1="${arr}" x2="${X0.toFixed(1)}" y2="${aba}"
+      stroke="var(--line)" stroke-dasharray="4 4"></line>
+    <line x1="${izq}" y1="${Y0.toFixed(1)}" x2="${der}" y2="${Y0.toFixed(1)}"
+      stroke="var(--line)" stroke-dasharray="4 4"></line>
+    ${zona(der - 4, arr + 12, "end", "Buenos y certeros", "juegan bien y lo aprovechan")}
+    ${zona(izq + 4, arr + 12, "start", "Sacan más de lo que merecen", "poco juego, mucho acierto")}
+    ${zona(der - 4, aba - 14, "end", "Desperdician su juego", "generan mucho y marcan poco")}
+    ${zona(izq + 4, aba - 14, "start", "Les cuesta todo", "ni juegan ni aciertan")}`;
+
+  // Con veinte equipos las etiquetas chocan entre sí. Se recorren de arriba
+  // abajo y, si una cae demasiado cerca de otra ya colocada, se desplaza
+  // verticalmente lo justo para que ambas se lean.
+  const colocadas = [];
+  const puntos = filas
+    .map(f => ({ ...f, X: cx(f.x), Y: cy(f.y) }))
+    .sort((a, b) => a.Y - b.Y)
+    .map(f => {
+      const der = f.X > W * .72;
+      let ty = f.Y + 3.5;
+      const tx = der ? f.X - 7 : f.X + 7;
+      const ancho = f.eq.nombre.length * 5.4;
+      let intentos = 0;
+      while (intentos++ < 14 && colocadas.some(c =>
+             Math.abs(c.y - ty) < 11 &&
+             tx < c.x + c.w + 6 && tx + ancho + 6 > c.x)) {
+        ty += 11;
+      }
+      colocadas.push({ x: der ? tx - ancho : tx, y: ty, w: ancho });
+
+      const guia = Math.abs(ty - (f.Y + 3.5)) > 6
+        ? `<line x1="${f.X.toFixed(1)}" y1="${f.Y.toFixed(1)}"
+             x2="${(der ? tx - 2 : tx + 2).toFixed(1)}" y2="${(ty - 3).toFixed(1)}"
+             stroke="var(--line)" stroke-width=".8"></line>` : "";
+
+      return `${guia}<circle cx="${f.X.toFixed(1)}" cy="${f.Y.toFixed(1)}" r="4.5"
+          fill="var(--local)" opacity=".85"></circle>
+        <text x="${tx.toFixed(1)}" y="${ty.toFixed(1)}"
+          text-anchor="${der ? "end" : "start"}" font-size="10"
+          font-family="var(--sans)" fill="var(--ink-2)">${f.eq.nombre}</text>`;
+    }).join("");
+
+  const flecha = (x1, y1, x2, y2) => `<line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}"
+      stroke="var(--ink-3)" stroke-width="1.2" opacity=".55"
+      marker-end="url(#punta)"></line>`;
+
+  return `<svg viewBox="0 0 ${W} ${H}" role="img"
+      aria-label="Mapa de equipos según nivel de juego y acierto">
+      <defs><marker id="punta" viewBox="0 0 8 8" refX="7" refY="4"
+        markerWidth="5" markerHeight="5" orient="auto">
+        <path d="M0,0 L8,4 L0,8 z" fill="var(--ink-3)" opacity=".55"></path>
+      </marker></defs>
+
+      ${cuadrantes}
+
+      ${flecha(izq, aba + 20, der, aba + 20)}
+      <text x="${izq}" y="${aba + 36}" font-size="10.5" font-family="var(--sans)"
+        fill="var(--ink-3)">juegan peor</text>
+      <text x="${der}" y="${aba + 36}" text-anchor="end" font-size="10.5"
+        font-family="var(--sans)" fill="var(--ink)" font-weight="600">juegan mejor</text>
+      <text x="${((izq + der) / 2).toFixed(1)}" y="${aba + 36}" text-anchor="middle"
+        font-size="10" font-family="var(--sans)" fill="var(--ink-3)"
+        >nivel de juego: ocasiones que crea y que concede</text>
+
+      ${flecha(izq - 22, aba, izq - 22, arr)}
+      <text x="${izq - 30}" y="${aba}" text-anchor="middle" font-size="10.5"
+        font-family="var(--sans)" fill="var(--ink-3)"
+        transform="rotate(-90 ${izq - 30} ${aba})">falla más</text>
+      <text x="${izq - 30}" y="${arr}" text-anchor="middle" font-size="10.5"
+        font-family="var(--sans)" fill="var(--ink)" font-weight="600"
+        transform="rotate(-90 ${izq - 30} ${arr})">acierta más</text>
+      <text x="${izq - 30}" y="${((arr + aba) / 2).toFixed(1)}" text-anchor="middle"
+        font-size="10" font-family="var(--sans)" fill="var(--ink-3)"
+        transform="rotate(-90 ${izq - 30} ${((arr + aba) / 2).toFixed(1)})"
+        >acierto: goles que mete y que para</text>
+
+      ${puntos}
+    </svg>`;
+}
+
+function graficoBarrasHist(hist, campo, color, formato = v => v) {
+  if (!hist.length) return "";
+  // Con doce temporadas las etiquetas no caben rectas: se giran y el gráfico
+  // ocupa el ancho completo del bloque.
+  const muchas = hist.length > 6;
+  const W = 640, H = muchas ? 210 : 170, base = H - (muchas ? 62 : 34);
+  const vals = hist.map(h => h[campo]);
+  const min = Math.min(...vals) * 0.9, max = Math.max(...vals) * 1.03;
+  const ancho = W / hist.length;
+
+  return `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Evolución por temporada">
+      <line x1="0" y1="${base}" x2="${W}" y2="${base}" stroke="var(--line)"></line>
+      ${hist.map((h, i) => {
+        const alto = ((h[campo] - min) / (max - min)) * (base - 30) + 8;
+        const x = i * ancho + ancho * .18, w = ancho * .64, y = base - alto;
+        const cx = (x + w / 2).toFixed(1);
+        const etqTemp = muchas
+          ? `<text x="${cx}" y="${base + 14}" text-anchor="end" font-size="9.5"
+               font-family="var(--mono)" fill="var(--ink-3)"
+               transform="rotate(-45 ${cx} ${base + 14})">${h.temp.replace("-", "/")}</text>`
+          : `<text x="${cx}" y="${base + 14}" text-anchor="middle" font-size="10"
+               font-family="var(--mono)" fill="var(--ink-3)">${h.temp.replace("-", "/")}</text>`;
+        const etqCamp = h.campeon
+          ? (muchas
+              ? `<text x="${cx}" y="${base + 40}" text-anchor="end" font-size="9"
+                   font-family="var(--sans)" fill="var(--ink-3)"
+                   transform="rotate(-45 ${cx} ${base + 40})">${h.campeon.slice(0, 13)}</text>`
+              : `<text x="${cx}" y="${base + 27}" text-anchor="middle" font-size="9"
+                   font-family="var(--sans)" fill="var(--ink-3)">${h.campeon.slice(0, 12)}</text>`)
+          : "";
+        return `<rect x="${x.toFixed(1)}" y="${y.toFixed(1)}" width="${w.toFixed(1)}"
+            height="${alto.toFixed(1)}" rx="3" fill="${color}" opacity=".8"
+            ><title>${h.temp.replace("-", "/")}${h.campeon ? ": " + h.campeon : ""}</title></rect>
+          <text x="${cx}" y="${(y - 5).toFixed(1)}" text-anchor="middle"
+            font-size="10" font-family="var(--mono)" fill="var(--ink-2)">${formato(h[campo])}</text>
+          ${etqTemp}${etqCamp}`;
+      }).join("")}
+    </svg>`;
+}
+
+function abrirLiga(ligaKey) {
+  const lg = D.ligas[ligaKey];
+  const T = t => (t || "").replace("-", "/");
+  const clubes = Object.values(lg.equipos).filter(e => !e.nuevo && e.pj);
+  const tabla = clubes.slice().sort((a, b) =>
+    b.pts - a.pts || (b.gf - b.gc) - (a.gf - a.gc));
+
+  document.getElementById("lg-pais").textContent =
+    `${lg.pais} · datos de la temporada ${T(lg.temp_hist)}`;
+  document.getElementById("lg-nombre").textContent = lg.nombre;
+
+  const golesTot = clubes.reduce((s, e) => s + e.gf, 0);
+  const pjTot = clubes.reduce((s, e) => s + e.pj, 0) / 2;
+  const masGoles = clubes.slice().sort((a, b) => b.gf - a.gf)[0];
+  const mejorDef = clubes.slice().sort((a, b) => a.gc - b.gc)[0];
+
+  document.getElementById("lg-resumen").innerHTML =
+    `${clubes.length} equipos y ${Math.round(pjTot)} partidos. ` +
+    `<b>${tabla[0].nombre}</b> lidera con ${tabla[0].pts} puntos, ` +
+    `<b>${masGoles.nombre}</b> es el que más marca (${masGoles.gf} goles) y ` +
+    `<b>${mejorDef.nombre}</b> el que menos encaja (${mejorDef.gc}). ` +
+    `Jugar en casa vale aquí un <b>${Math.round((Math.exp(lg.gamma) - 1) * 100)} %</b> ` +
+    `más de ocasiones, ${Math.exp(lg.gamma) > 1.35 ? "de las ventajas más altas de Europa" : "una cifra normal en Europa"}.`;
+
+  document.getElementById("lg-cabecera").innerHTML = [
+    [clubes.length, "equipos"],
+    [golesTot, "goles en la temporada"],
+    [dec(golesTot / pjTot, 2), "goles por partido"],
+    [dec(Math.exp(lg.gamma), 2) + "×", "ventaja de jugar en casa"],
+  ].map(([v, l]) => `<div class="metrica-caja"><span class="metrica-val">${v}</span>
+      <span class="metrica-lbl">${l}</span></div>`).join("");
+
+  // Clasificación, con selector de temporada
+  const temporadas = [
+    { temp: lg.temp_hist, actual: true,
+      filas: tabla.map(e => ({ e: e.nombre, clave: e.clave, pj: e.pj, pts: e.pts,
+                               gf: e.gf, gc: e.gc, xg: e.xg, xga: e.xga })) },
+    ...(lg.historico || []).slice().reverse()
+        .filter(h => h.temp !== lg.temp_hist && h.tabla)
+        .map(h => ({ temp: h.temp, actual: false, filas: h.tabla })),
+  ];
+
+  const pintarTabla = idx => {
+    const t = temporadas[idx];
+    const cab = ["#", "Equipo", "PJ", "Pts", "GF", "GC", "Ocasiones", "Concedidas", "Puntería"];
+    document.getElementById("lg-tabla").innerHTML =
+      `<thead><tr>${cab.map(c => `<th>${c}</th>`).join("")}</tr></thead><tbody>` +
+      t.filas.map((f, i) => {
+        const punt = f.gf - f.xg;
+        return `<tr ${f.clave ? `data-eq="${f.clave}"` : ""}>
+          <td class="pos-num">${i + 1}</td>
+          <td>${f.e}</td>
+          <td>${f.pj}</td>
+          <td><b>${f.pts}</b></td>
+          <td>${f.gf}</td>
+          <td>${f.gc}</td>
+          <td>${dec(f.xg, 1)}</td>
+          <td>${dec(f.xga, 1)}</td>
+          <td class="${punt > 2 ? "mejor" : punt < -2 ? "peor" : ""}">${punt > 0 ? "+" : ""}${dec(punt, 1)}</td>
+        </tr>`;
+      }).join("") + "</tbody>";
+
+    document.querySelectorAll("#lg-tabla tbody tr[data-eq]").forEach(tr =>
+      tr.addEventListener("click", () => abrirEquipo(ligaKey, tr.dataset.eq)));
+
+    document.getElementById("lg-nota-tabla").textContent = t.actual
+      ? "Toca cualquier equipo para abrir su ficha."
+      : `Clasificación de ${T(t.temp)}. Sólo los equipos de la temporada actual tienen ficha.`;
+
+    document.querySelectorAll("#lg-temporadas .temp-btn").forEach((b, i) =>
+      b.setAttribute("aria-pressed", i === idx ? "true" : "false"));
+  };
+
+  document.getElementById("lg-temporadas").innerHTML = temporadas.map((t, i) =>
+    `<button class="temp-btn" type="button" data-i="${i}"
+       aria-pressed="${i === 0}">${T(t.temp)}</button>`).join("");
+  document.querySelectorAll("#lg-temporadas .temp-btn").forEach(b =>
+    b.addEventListener("click", () => pintarTabla(+b.dataset.i)));
+  pintarTabla(0);
+
+  // Mapa de factores
+  const pca = lg.pca || {};
+  document.getElementById("lg-g-pca").innerHTML = graficoPCA(lg);
+  if (pca.varianza) {
+    document.getElementById("lg-pca-intro").innerHTML =
+      `De todo lo que distingue a un equipo de otro, casi todo se resume en dos
+       cosas. Este mapa las cruza: juntas explican el
+       <b>${dec(pca.varianza[0] + pca.varianza[1], 0)} %</b> de las diferencias
+       entre los ${clubes.length} equipos. Cuanto más a la derecha, mejor equipo;
+       cuanto más arriba, más rendimiento le saca a lo que genera.
+       Toca cualquiera de la tabla anterior para ver su ficha.`;
+
+    const NOMBRES_EJE = [
+      ["Lo que más pesa: el nivel general", "Generar mucho y conceder poco. Es el eje que ordena la clasificación."],
+      ["Lo segundo: el acierto", "Convertir las ocasiones y pararlas. Explica quién saca más de lo que merece."],
+    ];
+    document.getElementById("lg-ejes").innerHTML = pca.cargas.map((cargas, j) => `
+      <div class="eje-caja">
+        <span class="eje-titulo">${NOMBRES_EJE[j][0]}</span>
+        <span class="eje-peso">explica el ${dec(pca.varianza[j], 1)} % de las diferencias</span>
+        ${cargas.slice().sort((a, b) => Math.abs(b.p) - Math.abs(a.p)).map(c => `
+          <div class="eje-fila"><span>${c.v}</span>
+            <span>${c.p > 0 ? "+" : ""}${dec(c.p, 2)}</span></div>`).join("")}
+      </div>`).join("");
+  }
+
+  // Histórico
+  const hist = lg.historico || [];
+  if (hist.length) {
+    const primero = hist[0], ultimo = hist.at(-1);
+    const campeones = [...new Set(hist.map(h => h.campeon))];
+    const dg = ultimo.goles_partido - primero.goles_partido;
+    document.getElementById("lg-hist-intro").innerHTML =
+      `En las últimas ${hist.length} temporadas ha habido
+       <b>${campeones.length === 1 ? "un solo campeón" : campeones.length + " campeones distintos"}</b>:
+       ${campeones.join(", ")}. Se marca
+       ${Math.abs(dg) < 0.1 ? "prácticamente lo mismo que hace cuatro años" :
+         dg > 0 ? `<b>más que antes</b> (${dec(primero.goles_partido, 2)} goles por partido en
+                   ${T(primero.temp)} frente a ${dec(ultimo.goles_partido, 2)} ahora)` :
+                  `<b>menos que antes</b> (${dec(primero.goles_partido, 2)} goles por partido en
+                   ${T(primero.temp)} frente a ${dec(ultimo.goles_partido, 2)} ahora)`}.`;
+
+    document.getElementById("lg-g-campeones").innerHTML =
+      graficoBarrasHist(hist, "pts_campeon", "var(--local)");
+    document.getElementById("lg-g-goles").innerHTML =
+      graficoBarrasHist(hist.map(h => ({ ...h, campeon: "" })), "goles_partido",
+                        "var(--visita)", v => dec(v, 2));
+
+    // Lectura del gráfico de goles: media de los primeros años contra la actual
+    const mitad = Math.max(Math.floor(hist.length / 3), 1);
+    const prom = d => d.reduce((s, h) => s + h.goles_partido, 0) / d.length;
+    const antes = prom(hist.slice(0, mitad)), ahora = prom(hist.slice(-mitad));
+    const maxT = hist.slice().sort((a, b) => b.goles_partido - a.goles_partido)[0];
+    const minT = hist.slice().sort((a, b) => a.goles_partido - b.goles_partido)[0];
+    const cambio = ahora - antes;
+
+    document.getElementById("lg-txt-goles").innerHTML =
+      (Math.abs(cambio) < 0.08
+        ? `La liga <b>se mantiene estable</b>: ${dec(ahora, 2)} goles por partido
+           en los últimos años, prácticamente lo mismo que hace una década.`
+        : cambio > 0
+          ? `<b>Se marca más que antes</b>: se ha pasado de ${dec(antes, 2)} goles
+             por partido a ${dec(ahora, 2)}.`
+          : `<b>Se marca menos que antes</b>: de ${dec(antes, 2)} goles por partido
+             se ha bajado a ${dec(ahora, 2)}.`) +
+      ` La temporada más goleadora fue ${T(maxT.temp)} (${dec(maxT.goles_partido, 2)})
+        y la más cerrada, ${T(minT.temp)} (${dec(minT.goles_partido, 2)}).`;
+
+    document.getElementById("lg-tabla-hist").innerHTML =
+      `<thead><tr><th>Temp.</th><th>Los cinco primeros</th><th>Goles/partido</th></tr></thead><tbody>` +
+      hist.slice().reverse().map(h => `<tr>
+          <td style="text-align:left">${T(h.temp)}</td>
+          <td>${(h.tabla || []).slice(0, 5).map((t, i) => `${i + 1}. ${t.e}`).join(" · ")}</td>
+          <td>${dec(h.goles_partido, 2)}</td>
+        </tr>`).join("") + "</tbody>";
+  }
+
+  mostrarVista("vista-liga");
+}
+
+/* ── Competiciones europeas ───────────────────────────────────────────── */
+
+const PAIS_ES = {
+  ENG: "Inglaterra", ESP: "España", GER: "Alemania", ITA: "Italia",
+  FRA: "Francia", POR: "Portugal", NED: "Países Bajos", BEL: "Bélgica",
+  SCO: "Escocia", TUR: "Turquía", AUT: "Austria", CZE: "Chequia",
+  GRE: "Grecia", UKR: "Ucrania", NOR: "Noruega", SUI: "Suiza",
+  DEN: "Dinamarca", CRO: "Croacia", SRB: "Serbia", POL: "Polonia",
+};
+
+/** Barras del nivel de cada liga respecto a la media de las cinco grandes. */
+function graficoNivelLigas(niveles) {
+  const filas = Object.entries(niveles)
+    .filter(([k]) => D.ligas[k])
+    .map(([k, v]) => ({ nombre: D.ligas[k].nombre, v }))
+    .sort((a, b) => b.v - a.v);
+  if (!filas.length) return "";
+
+  const W = 640, H = 42 + filas.length * 42, etqW = 150;
+  // El eje se sitúa dejando sitio a ambos lados: las barras por debajo de 1,00
+  // crecen hacia la izquierda y no deben invadir los nombres de las ligas.
+  const centro = etqW + 170;
+  const margen = Math.max(...filas.map(f => Math.abs(f.v - 1))) * 1.2 || 0.1;
+  const escala = Math.min(centro - etqW - 58, W - centro - 76) / margen;
+
+  const barras = filas.map((f, i) => {
+    const y = 22 + i * 42;
+    const d = f.v - 1;
+    const w = Math.max(Math.abs(d) * escala, 2);
+    const x = d >= 0 ? centro : centro - w;
+    const color = d >= 0 ? "var(--ok)" : "var(--visita)";
+    return `<text x="${etqW - 12}" y="${y + 14}" text-anchor="end" font-size="13"
+        font-family="var(--sans)" fill="var(--ink)" font-weight="600">${f.nombre}</text>
+      <rect x="${x.toFixed(1)}" y="${y}" width="${w.toFixed(1)}" height="20"
+        rx="4" fill="${color}" opacity=".85"></rect>
+      <text x="${(d >= 0 ? centro + w + 8 : centro - w - 8).toFixed(1)}" y="${y + 14.5}"
+        text-anchor="${d >= 0 ? "start" : "end"}" font-size="13"
+        font-family="var(--mono)" fill="var(--ink)" font-weight="600">${dec(f.v, 2)}x</text>`;
+  }).join("");
+
+  return `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Nivel relativo de cada liga">
+      <line x1="${centro}" y1="10" x2="${centro}" y2="${H - 24}"
+        stroke="var(--line)" stroke-dasharray="4 4"></line>
+      <text x="${centro}" y="${H - 7}" text-anchor="middle" font-size="10.5"
+        font-family="var(--sans)" fill="var(--ink-3)">media de las cinco grandes</text>
+      ${barras}
+    </svg>`;
+}
+
+/** Puntos por partido de cada país en competición europea. */
+function graficoPaises(paises, tope = 10) {
+  const d = paises.slice(0, tope);
+  if (!d.length) return "";
+  const W = 640, H = 36 + d.length * 30, etqW = 128;
+  const max = Math.max(...d.map(p => p.pts_partido)) * 1.14;
+  const GRANDES = ["ENG", "ESP", "GER", "ITA", "FRA"];
+
+  return `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Rendimiento europeo por país">
+      ${d.map((p, i) => {
+        const y = 14 + i * 30;
+        const w = (p.pts_partido / max) * (W - etqW - 112);
+        const g = GRANDES.includes(p.pais);
+        return `<text x="${etqW - 10}" y="${y + 13}" text-anchor="end" font-size="12"
+            font-family="var(--sans)" fill="${g ? "var(--ink)" : "var(--ink-3)"}"
+            ${g ? 'font-weight="600"' : ""}>${p.nombre}</text>
+          <rect x="${etqW}" y="${y}" width="${w.toFixed(1)}" height="18" rx="4"
+            fill="${g ? "var(--local)" : "var(--ink-3)"}" opacity="${g ? ".85" : ".4"}"></rect>
+          <text x="${(etqW + w + 8).toFixed(1)}" y="${y + 13.5}" font-size="11.5"
+            font-family="var(--mono)" fill="var(--ink-2)"
+            >${dec(p.pts_partido, 2)} · ${p.pj} pj</text>`;
+      }).join("")}
+      <text x="${((W + etqW) / 2).toFixed(1)}" y="${H - 3}" text-anchor="middle"
+        font-size="10.5" font-family="var(--sans)" fill="var(--ink-3)"
+        >puntos conseguidos por partido</text>
+    </svg>`;
+}
+
+/** Slopegraph: posición por rendimiento frente a posición por títulos.
+ *
+ * Dos columnas de países ordenados por criterios distintos, unidas por líneas.
+ * Es la forma más directa de ver que dominar la fase larga y ganar el torneo son
+ * cosas distintas: las líneas que cruzan hacia abajo señalan a quien juega mejor
+ * de lo que gana.
+ */
+function graficoPendiente(embudo, tope = 8) {
+  const d = embudo.slice(0, tope);
+  if (d.length < 3) return "";
+
+  const porRend = d.slice().sort((a, b) => b.pts_regular - a.pts_regular);
+  const porTitulos = d.slice().sort((a, b) =>
+    b.titulos - a.titulos || b.finales - a.finales || b.pts_regular - a.pts_regular);
+
+  const W = 640, H = 60 + d.length * 38, xI = 210, xD = W - 210, arriba = 46;
+  const paso = (H - arriba - 22) / Math.max(d.length - 1, 1);
+  const posI = Object.fromEntries(porRend.map((p, i) => [p.pais, arriba + i * paso]));
+  const posD = Object.fromEntries(porTitulos.map((p, i) => [p.pais, arriba + i * paso]));
+
+  const lineas = d.map(p => {
+    const y1 = posI[p.pais], y2 = posD[p.pais];
+    const salto = porRend.findIndex(x => x.pais === p.pais) -
+                  porTitulos.findIndex(x => x.pais === p.pais);
+    // Baja de puesto = gana menos de lo que juega
+    const color = salto < 0 ? "var(--visita)" : salto > 0 ? "var(--ok)" : "var(--ink-3)";
+    const grosor = Math.abs(salto) >= 2 ? 2.6 : 1.5;
+    return `<line x1="${xI}" y1="${y1.toFixed(1)}" x2="${xD}" y2="${y2.toFixed(1)}"
+        stroke="${color}" stroke-width="${grosor}" opacity="${Math.abs(salto) >= 2 ? ".95" : ".45"}"></line>
+      <circle cx="${xI}" cy="${y1.toFixed(1)}" r="4" fill="${color}"></circle>
+      <circle cx="${xD}" cy="${y2.toFixed(1)}" r="4" fill="${color}"></circle>`;
+  }).join("");
+
+  const etqI = porRend.map((p, i) => {
+    const y = arriba + i * paso;
+    return `<text x="${xI - 12}" y="${(y + 4).toFixed(1)}" text-anchor="end" font-size="12.5"
+        font-family="var(--sans)" fill="var(--ink)">${p.nombre}</text>
+      <text x="${xI - 12}" y="${(y + 16).toFixed(1)}" text-anchor="end" font-size="10.5"
+        font-family="var(--mono)" fill="var(--ink-3)">${dec(p.pts_regular, 2)} pts/partido</text>`;
+  }).join("");
+
+  const etqD = porTitulos.map((p, i) => {
+    const y = arriba + i * paso;
+    const t = p.titulos;
+    return `<text x="${xD + 12}" y="${(y + 4).toFixed(1)}" font-size="12.5"
+        font-family="var(--sans)" fill="var(--ink)">${p.nombre}</text>
+      <text x="${xD + 12}" y="${(y + 16).toFixed(1)}" font-size="10.5"
+        font-family="var(--mono)" fill="var(--ink-3)"
+        >${t} ${t === 1 ? "título" : "títulos"}</text>`;
+  }).join("");
+
+  return `<svg viewBox="0 0 ${W} ${H}" role="img"
+      aria-label="Rendimiento frente a títulos por país">
+      <text x="${xI}" y="20" text-anchor="end" font-size="11"
+        font-family="var(--mono)" fill="var(--ink-3)"
+        letter-spacing="1">COMO JUEGAN</text>
+      <text x="${xD}" y="20" font-size="11" font-family="var(--mono)"
+        fill="var(--ink-3)" letter-spacing="1">LO QUE GANAN</text>
+      ${lineas}${etqI}${etqD}
+    </svg>`;
+}
+
+/** Embudo de etapas: cuántas veces llega cada país a cada ronda. */
+function graficoEmbudo(embudo, tope = 6) {
+  const d = embudo.slice(0, tope);
+  if (!d.length) return "";
+  const ETAPAS = [
+    ["eliminatorias", "Eliminatorias"],
+    ["semifinales", "Semifinales"],
+    ["finales", "Finales"],
+    ["titulos", "Títulos"],
+  ];
+  const max = Math.max(...d.map(p => p.eliminatorias)) || 1;
+  const W = 640, filaH = 56, etqW = 116;
+  const H = 34 + d.length * filaH;
+  const anchoCol = (W - etqW - 24) / ETAPAS.length;
+
+  const cabecera = ETAPAS.map(([, t], j) =>
+    `<text x="${(etqW + anchoCol * j + anchoCol / 2).toFixed(1)}" y="16"
+       text-anchor="middle" font-size="10.5" font-family="var(--mono)"
+       fill="var(--ink-3)" letter-spacing=".5">${t.toUpperCase()}</text>`).join("");
+
+  const filas = d.map((p, i) => {
+    const y = 32 + i * filaH;
+    const barras = ETAPAS.map(([clave], j) => {
+      const v = p[clave];
+      const alto = Math.max((v / max) * 28, v > 0 ? 4 : 1.5);
+      const x = etqW + anchoCol * j + anchoCol / 2;
+      const color = clave === "titulos" ? "var(--ok)"
+                  : clave === "finales" ? "var(--local)" : "var(--ink-3)";
+      return `<rect x="${(x - 17).toFixed(1)}" y="${(y + 30 - alto).toFixed(1)}"
+          width="34" height="${alto.toFixed(1)}" rx="3" fill="${color}"
+          opacity="${v > 0 ? ".8" : ".25"}"></rect>
+        <text x="${x.toFixed(1)}" y="${(y + 44).toFixed(1)}" text-anchor="middle"
+          font-size="12" font-family="var(--mono)" fill="var(--ink)"
+          font-weight="${clave === "titulos" ? "700" : "500"}">${v}</text>`;
+    }).join("");
+    return `<text x="${etqW - 12}" y="${(y + 24).toFixed(1)}" text-anchor="end"
+        font-size="12.5" font-family="var(--sans)" fill="var(--ink)"
+        font-weight="600">${p.nombre}</text>${barras}`;
+  }).join("");
+
+  return `<svg viewBox="0 0 ${W} ${H}" role="img"
+      aria-label="Veces que cada país alcanza cada ronda">${cabecera}${filas}</svg>`;
+}
+
+function abrirEuropa() {
+  const E = D.europa;
+  if (!E) return;
+  const T = t => (t || "").replace("-", "/");
+  const temps = [...new Set(E.torneos.map(t => t.temp))].sort();
+  const desde = T(temps[0] || ""), hasta = T(temps.at(-1) || "");
+
+  document.getElementById("eu-periodo").textContent = `Desde ${desde} hasta ${hasta}`;
+
+  const ultimos = E.torneos.filter(t => t.temp === temps.at(-1) && t.campeon);
+  const golesTot = E.torneos.reduce((s, t) => s + t.goles, 0);
+
+  document.getElementById("eu-resumen").innerHTML =
+    `<b>${E.partidos} partidos</b> de las tres competiciones entre ${desde} y ${hasta}. ` +
+    (ultimos.length
+      ? "Los últimos campeones: " + ultimos.map(t =>
+          `<b>${t.campeon}</b> en la ${t.torneo}`).join(", ") + ". "
+      : "") +
+    "Es aquí donde las ligas se miden entre sí, así que es lo único que permite " +
+    "saber cuál está de verdad por encima.";
+
+  document.getElementById("eu-cabecera").innerHTML = [
+    [E.partidos, "partidos analizados"],
+    [golesTot, "goles"],
+    [dec(golesTot / E.partidos, 2), "goles por partido"],
+    [E.nivel_ligas.n, "cruces entre ligas"],
+  ].map(([v, l]) => `<div class="metrica-caja"><span class="metrica-val">${v}</span>
+      <span class="metrica-lbl">${l}</span></div>`).join("");
+
+  const niv = E.nivel_ligas;
+  document.getElementById("eu-g-nivel").innerHTML = graficoNivelLigas(niv.niveles);
+
+  const orden = Object.entries(niv.niveles)
+    .filter(([k]) => D.ligas[k]).sort((a, b) => b[1] - a[1]);
+  const mejor = orden[0], peor = orden.at(-1);
+  const brecha = Math.round((mejor[1] / peor[1] - 1) * 100);
+
+  document.getElementById("eu-nivel-intro").innerHTML =
+    `Dentro de su liga, cada equipo se compara con sus rivales de siempre, y eso
+     no dice nada sobre si esa liga es mejor o peor que otra. Los
+     <b>${niv.n} partidos europeos</b> entre equipos de ligas distintas sí lo
+     dicen: son la única vez que se enfrentan. Cada barra mide cuánto está una
+     liga por encima o por debajo de la media de las cinco.`;
+
+  document.getElementById("eu-nivel-txt").innerHTML =
+    `La <b>${D.ligas[mejor[0]].nombre}</b> es la más fuerte con diferencia
+     (${dec(mejor[1], 2)}x) y la <b>${D.ligas[peor[0]].nombre}</b> la que menos
+     (${dec(peor[1], 2)}x): una brecha del <b>${brecha} %</b> entre equipos
+     equivalentes. Por eso terminar tercero no vale lo mismo en unas ligas que
+     en otras, y conviene tenerlo en cuenta al comparar clubes de países
+     distintos.`;
+
+  const porTemp = {};
+  E.torneos.forEach(t => (porTemp[t.temp] ||= []).push(t));
+  const ORDEN_T = ["Champions League", "Europa League", "Conference League"];
+
+  document.getElementById("eu-tabla-titulos").innerHTML =
+    `<thead><tr><th>Temp.</th><th>Competición</th><th>Campeón</th><th>Finalista</th>
+       <th>Goles/partido</th></tr></thead><tbody>` +
+    Object.keys(porTemp).sort().reverse().flatMap(temp =>
+      porTemp[temp].slice()
+        .sort((a, b) => ORDEN_T.indexOf(a.torneo) - ORDEN_T.indexOf(b.torneo))
+        .map(t => `<tr>
+          <td style="text-align:left">${T(t.temp)}</td>
+          <td style="text-align:left">${t.torneo}</td>
+          <td style="text-align:left">${t.campeon
+            ? `<b>${t.campeon}</b> <span class="pos-num">${PAIS_ES[t.campeon_pais] || t.campeon_pais}</span>`
+            : `<span class="pos-num">sin disputar</span>`}</td>
+          <td style="text-align:left">${t.finalista || "—"}</td>
+          <td>${dec(t.goles_partido, 2)}</td>
+        </tr>`)).join("") + "</tbody>";
+
+  document.getElementById("eu-g-paises").innerHTML = graficoPaises(E.paises);
+  document.getElementById("eu-tabla-paises").innerHTML =
+    `<thead><tr><th>#</th><th>País</th><th>PJ</th><th>G</th><th>E</th><th>P</th>
+       <th>GF</th><th>GC</th><th>% victorias</th><th>Pts/partido</th></tr></thead><tbody>` +
+    E.paises.map((p, i) => `<tr>
+        <td class="pos-num">${i + 1}</td><td>${p.nombre}</td><td>${p.pj}</td>
+        <td>${p.v}</td><td>${p.e}</td><td>${p.d}</td><td>${p.gf}</td><td>${p.gc}</td>
+        <td>${dec(p.pct_v, 1)}</td><td><b>${dec(p.pts_partido, 2)}</b></td>
+      </tr>`).join("") + "</tbody>";
+
+  // Rendimiento frente a títulos
+  const emb = E.embudo || [];
+  if (emb.length) {
+    document.getElementById("eu-g-pendiente").innerHTML = graficoPendiente(emb);
+    document.getElementById("eu-g-embudo").innerHTML = graficoEmbudo(emb);
+
+    const top = emb.slice(0, 8);
+    const porRend = top.slice().sort((a, b) => b.pts_regular - a.pts_regular);
+    const porTit = top.slice().sort((a, b) => b.titulos - a.titulos || b.finales - a.finales);
+    const lider = porRend[0];
+
+    // Quien más pierde y quien más gana al pasar de una lista a la otra
+    const salto = p => porRend.findIndex(x => x.pais === p.pais) -
+                       porTit.findIndex(x => x.pais === p.pais);
+    // El líder ya protagoniza el primer párrafo: no se repite como ejemplo.
+    const otros = top.filter(p => p.pais !== lider.pais);
+    const baja = otros.slice().sort((a, b) => salto(a) - salto(b))[0];
+    // Sólo tiene sentido destacar a quien sube si de verdad ha ganado algo.
+    const sube = otros.filter(p => p.titulos > 0)
+                      .sort((a, b) => salto(b) - salto(a))[0];
+    const masSemis = top.slice().sort((a, b) => b.semifinales - a.semifinales)[0];
+
+    // Quien mejor y peor convierte las finales que juega
+    const conFinales = top.filter(p => p.finales >= 3);
+    const mejorConv = conFinales.slice().sort((a, b) => b.pct_finales - a.pct_finales)[0];
+    const peorConv = conFinales.slice().sort((a, b) => a.pct_finales - b.pct_finales)[0];
+
+    let txt =
+      `<b>${lider.nombre}</b> gana el ${dec(lider.pct_v_regular, 0)} % de sus partidos
+       en la fase larga y llega más veces que nadie a semifinales
+       (${lider.semifinales}) y a finales (${lider.finales}). Aun así sólo ha
+       levantado <b>${lider.titulos}</b> de los ${E.ediciones} títulos repartidos.`;
+
+    if (mejorConv && peorConv && mejorConv.pais !== peorConv.pais) {
+      txt += ` La clave está en la última noche: <b>${peorConv.nombre}</b> ha jugado
+        ${peorConv.finales} finales y ha ganado ${peorConv.titulos}
+        (<b>${dec(peorConv.pct_finales, 0)} %</b>), mientras que
+        <b>${mejorConv.nombre}</b> ha jugado ${mejorConv.finales} y se ha llevado
+        ${mejorConv.titulos} (<b>${dec(mejorConv.pct_finales, 0)} %</b>).`;
+    }
+
+    txt += ` Es la diferencia entre una competición larga, donde el mejor acaba
+      imponiéndose, y una final que se decide en noventa minutos.`;
+
+    if (baja && salto(baja) < 0) {
+      txt += ` <b>${baja.nombre}</b> es otro caso claro: ${baja.semifinales}
+        semifinales y ` + (baja.titulos === 0
+          ? "<b>ningún título</b>."
+          : `sólo ${baja.titulos === 1 ? "un título" : baja.titulos + " títulos"}.`);
+    }
+    if (sube && salto(sube) > 0) {
+      txt += ` En el otro extremo, <b>${sube.nombre}</b> saca
+        ${sube.titulos === 1 ? "una copa" : sube.titulos + " copas"} pese a rendir
+        por debajo de los de arriba.`;
+    }
+
+    document.getElementById("eu-pendiente-txt").innerHTML = txt;
+
+    document.getElementById("eu-tabla-embudo").innerHTML =
+      `<thead><tr><th>#</th><th>País</th><th>PJ fase larga</th><th>% victorias</th>
+         <th>Pts/partido</th><th>Eliminatorias</th><th>Semifinales</th>
+         <th>Finales</th><th>Títulos</th><th>% finales ganadas</th></tr></thead><tbody>` +
+      emb.slice(0, 12).map((p, i) => `<tr>
+          <td class="pos-num">${i + 1}</td><td>${p.nombre}</td>
+          <td>${p.pj_regular}</td><td>${dec(p.pct_v_regular, 1)}</td>
+          <td>${dec(p.pts_regular, 2)}</td><td>${p.eliminatorias}</td>
+          <td>${p.semifinales}</td><td>${p.finales}</td>
+          <td class="${p.titulos > 0 ? "mejor" : ""}"><b>${p.titulos}</b></td>
+          <td class="${p.pct_finales === null ? "" : p.pct_finales >= 60 ? "mejor"
+                       : p.pct_finales <= 40 ? "peor" : ""}"
+            >${p.pct_finales === null ? "—" : dec(p.pct_finales, 0)}</td>
+        </tr>`).join("") + "</tbody>";
+  }
+
+  document.getElementById("eu-tabla-clubes").innerHTML =
+    `<thead><tr><th>#</th><th>Club</th><th>País</th><th>PJ</th><th>Ganados</th>
+       <th>GF</th><th>GC</th><th>Pts/partido</th></tr></thead><tbody>` +
+    E.equipos.map((e, i) => `<tr>
+        <td class="pos-num">${i + 1}</td><td>${e.equipo}</td>
+        <td style="text-align:left" class="pos-num">${e.nombre_pais}</td>
+        <td>${e.pj}</td><td>${e.v}</td><td>${e.gf}</td><td>${e.gc}</td>
+        <td><b>${dec(e.pts_partido, 2)}</b></td>
+      </tr>`).join("") + "</tbody>";
+
+  document.getElementById("eu-nota-calendario").innerHTML =
+    `<p><b>El sorteo aún no se ha celebrado.</b> La fase de liga de las tres
+     competiciones se sortea a finales de agosto, así que todavía no existen los
+     emparejamientos. En cuanto se publiquen aparecerán aquí con sus
+     probabilidades, igual que los partidos de liga.</p>
+     <p>Con una diferencia: sólo se podrán calcular los partidos en los que
+     ambos equipos sean de las cinco grandes ligas, alrededor de uno de cada
+     cinco. Del resto de clubes europeos no hay datos de ocasiones de gol
+     disponibles de forma gratuita.</p>`;
+
+  mostrarVista("vista-europa");
+}
+
+document.getElementById("btn-ver-europa").addEventListener("click", abrirEuropa);
+document.getElementById("btn-volver-europa").addEventListener("click", () => mostrarVista("vista-lista"));
+document.getElementById("btn-pdf-europa").addEventListener("click", () => window.print());
+
+document.getElementById("btn-ver-liga").addEventListener("click", () => abrirLiga(ligaActual));
+document.getElementById("btn-volver-liga").addEventListener("click", () => mostrarVista("vista-lista"));
+document.getElementById("btn-pdf-liga").addEventListener("click", () => window.print());
+
+function poblarBuscador() {
+  const sel = document.getElementById("buscar-equipo");
+  sel.innerHTML = "";
+  Object.entries(D.ligas).forEach(([k, lg]) => {
+    const grupo = document.createElement("optgroup");
+    grupo.label = lg.nombre;
+    Object.values(lg.equipos)
+      .filter(e => !e.nuevo)
+      .sort((a, b) => a.nombre.localeCompare(b.nombre, "es"))
+      .forEach(e => grupo.appendChild(new Option(e.nombre, `${k}|${e.clave}`)));
+    sel.appendChild(grupo);
+  });
+}
+
+/** Percentil del equipo en una métrica dentro de su liga (100 = el mejor). */
+function percentil(valor, valores, mayorMejor) {
+  const peores = valores.filter(v => mayorMejor ? v < valor : v > valor).length;
+  return Math.round(peores / (valores.length - 1) * 100);
+}
+
+function abrirEquipo(ligaKey, clave) {
+  const lg = D.ligas[ligaKey];
+  const eq = lg.equipos[clave];
+  if (!eq) return;
+  const rivales = Object.values(lg.equipos).filter(e => !e.nuevo && e.pj > 0);
+  const pj = eq.pj || 1;
+
+  const T = t => t.replace("-", "/");
+  document.getElementById("eq-liga").textContent =
+    `${lg.nombre} · datos de la temporada ${T(lg.temp_hist)}`;
+  document.getElementById("eq-nombre").textContent = eq.nombre;
+
+  const dif = eq.gf - eq.gc;
+  const rend = eq.gf - eq.xg;
+  const puesto = rivales.slice().sort((a, b) => b.pts - a.pts)
+    .findIndex(e => e.clave === clave) + 1;
+  const enCurso = lg.temp_hist === (D.temporada || "");
+  const verbo = enCurso ? "Va" : "Terminó";
+
+  document.getElementById("eq-resumen").innerHTML =
+    `<b>${verbo} ${puesto}.º de ${rivales.length}</b> en ${T(lg.temp_hist)} ` +
+    `con ${eq.pts} puntos en ${eq.pj} partidos y una ` +
+    `diferencia de ${dif >= 0 ? "+" : ""}${dif} goles. ` +
+    (Math.abs(rend) < 3
+      ? `Marcó prácticamente lo que sus ocasiones sugerían.`
+      : rend > 0
+        ? `Marcó <b>${dec(rend, 1)} goles más</b> de los que sus ocasiones
+           esperaban: definió por encima de lo normal.`
+        : `Marcó <b>${dec(-rend, 1)} goles menos</b> de los que sus ocasiones
+           esperaban: le faltó puntería.`);
+
+  document.getElementById("eq-sello-perfil").textContent = T(lg.temp_hist);
+  document.getElementById("eq-sello-serie").textContent = T(lg.temp_hist);
+  document.getElementById("eq-sello-plantilla").textContent = T(lg.temp_jug);
+
+  const cabecera = [
+    [eq.pts, "puntos"], [eq.gf, "goles a favor"], [eq.gc, "goles en contra"],
+    [dec(eq.xg / pj, 2), "ocasiones por partido"],
+    [dec(eq.xga / pj, 2), "concedidas por partido"],
+    [dec(Math.exp(eq.atq), 2) + "×", "fuerza de ataque"],
+  ];
+  document.getElementById("eq-cabecera").innerHTML = cabecera.map(([v, l]) =>
+    `<div class="metrica-caja"><span class="metrica-val">${v}</span>
+       <span class="metrica-lbl">${l}</span></div>`).join("");
+
+  // Percentiles
+  const metricas = [
+    ["Puntos", e => e.pts, true],
+    ["Goles marcados", e => e.gf, true],
+    ["Pocos goles encajados", e => e.gc, false],
+    ["Ocasiones generadas", e => e.xg, true],
+    ["Pocas ocasiones concedidas", e => e.xga, false],
+    ["Fuerza de ataque", e => Math.exp(e.atq), true],
+    ["Solidez defensiva", e => Math.exp(-e.def), false],
+    ["Definición (goles sobre lo esperado)", e => e.gf - e.xg, true],
+  ];
+  document.getElementById("eq-percentiles").innerHTML = metricas.map(([etq, f, may]) => {
+    const vals = rivales.map(f);
+    const p = percentil(f(eq), vals, may);
+    const color = p >= 70 ? "var(--ok)" : p >= 40 ? "var(--local)" : "var(--visita)";
+    return `<div class="pct-fila">
+        <span class="pct-etq">${etq}</span>
+        <span class="pct-riel"><i style="width:${Math.max(p, 3)}%;background:${color}"></i></span>
+        <span class="pct-val">${p} / 100</span>
+      </div>`;
+  }).join("");
+
+  // Gráfico goles vs ocasiones
+  const W = 300, H = 120;
+  const maxV = Math.max(eq.gf, eq.xg, eq.gc, eq.xga) * 1.15;
+  const barra = (y, v, color, etq) => {
+    const w = (v / maxV) * (W - 108);
+    return `<rect x="104" y="${y}" width="${w.toFixed(1)}" height="17" rx="3" fill="${color}"></rect>
+            <text x="98" y="${y + 13}" text-anchor="end" font-size="10.5"
+              font-family="var(--sans)" fill="var(--ink-2)">${etq}</text>
+            <text x="${(108 + w).toFixed(1)}" y="${y + 13}" font-size="10.5"
+              font-family="var(--mono)" fill="var(--ink-3)">${dec(v, 1)}</text>`;
+  };
+  document.getElementById("eq-g-rendimiento").innerHTML =
+    `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Goles frente a ocasiones">
+       ${barra(6, eq.gf, "var(--local)", "Goles")}
+       ${barra(29, eq.xg, "var(--local)", "Ocasiones")}
+       ${barra(64, eq.gc, "var(--visita)", "Encajados")}
+       ${barra(87, eq.xga, "var(--visita)", "Concedidas")}
+     </svg>`;
+
+  document.getElementById("eq-g-mapa").innerHTML = graficoMapa(lg, eq, null);
+
+  // Gráficos de la temporada, cada uno con la conclusión que se lee en él
+  const hist = eq.hist || [];
+  const bloques = [
+    ["caja-trayectoria", "eq-g-trayectoria", "eq-txt-trayectoria",
+     graficoTrayectoria(hist), () => leerTrayectoria(hist)],
+    ["caja-forma", "eq-g-forma", "eq-txt-forma",
+     graficoForma(hist), () => leerForma(hist)],
+    ["caja-localia", "eq-g-localia", "eq-txt-localia",
+     graficoLocalVisitante(hist), () => leerLocalia(hist)],
+    ["caja-produccion", "eq-g-produccion", "eq-txt-produccion",
+     graficoProduccion(eq.jug || []), () => leerProduccion(eq.jug || [])],
+  ];
+  let dibujados = 0;
+  bloques.forEach(([caja, idSvg, idTxt, svg, leer]) => {
+    document.getElementById(caja).classList.toggle("oculto", !svg);
+    if (!svg) return;
+    dibujados++;
+    document.getElementById(idSvg).innerHTML = svg;
+    document.getElementById(idTxt).innerHTML = leer();
+  });
+  document.getElementById("bloque-graficos").classList.toggle("oculto", dibujados === 0);
+
+  // Plantilla
+  const jug = (eq.jug || []).slice().sort((a, b) => (b.g + b.a) - (a.g + a.a));
+  document.getElementById("eq-plantilla").innerHTML = jug.length
+    ? `<div class="jug-cab" style="grid-template-columns:1fr 52px 52px 52px">
+         <span>Jugador</span><span>G+A</span><span>Min/PJ</span><span>Tarj.</span></div>` +
+      jug.map(j => `
+        <div class="jug-fila" style="grid-template-columns:1fr 52px 52px 52px">
+          <span class="jug-nombre">${j.n}${j.baja
+            ? `<span class="etq-baja ${j.baja}">${ETQ_BAJA[j.baja][0]}</span>` : ""}
+            <small>${j.p} · ${j.pj} partidos · ${j.t} tiros</small></span>
+          <span class="jug-gol">${j.g}+${j.a}</span>
+          <span class="jug-ta">${Math.round(j.min / Math.max(j.pj, 1))}</span>
+          <span class="jug-ta">${j.ta}${j.tr ? "/" + j.tr : ""}</span>
+        </div>`).join("")
+    : `<p class="jug-vacio">Sin fichas de jugadores para este equipo.</p>`;
+
+  // Próximos partidos
+  const suyos = lg.partidos.filter(p => p.l === clave || p.v === clave);
+  document.getElementById("eq-proximos").innerHTML = suyos.length
+    ? suyos.map(p => {
+        const c = calcular(ligaKey, p.l, p.v);
+        const local = p.l === clave;
+        const rival = local ? c.b : c.a;
+        const pSuya = local ? c.pl : c.pv;
+        return `<button class="partido" type="button" data-l="${p.l}" data-v="${p.v}"
+                  data-j="${p.j}" data-f="${p.fecha}" data-h="${p.hora}">
+            <span class="hora">${p.hora}</span>
+            <span class="equipos">
+              <span class="eq-linea"><span class="eq-nombre">
+                ${local ? "vs" : "en"} ${rival.nombre}</span>
+                <span class="eq-prob">${Math.round(pSuya * 100)}%</span></span>
+              <span class="eq-linea"><span class="eq-nombre"
+                style="color:var(--ink-3);font-size:12.5px">
+                ${fechaLarga(p.fecha)} · ${local ? "en casa" : "fuera"}</span></span>
+            </span>
+            <span class="mini-barra">
+              <i class="l" style="width:${c.pl * 100}%"></i>
+              <i class="e" style="width:${c.pe * 100}%"></i>
+              <i class="v" style="width:${c.pv * 100}%"></i></span>
+            <span class="flecha">›</span>
+          </button>`;
+      }).join("")
+    : `<p class="jug-vacio">No hay partidos próximos en el calendario cargado.</p>`;
+
+  document.querySelectorAll("#eq-proximos .partido").forEach(btn => {
+    btn.addEventListener("click", () => abrirDetalle(ligaKey, {
+      j: +btn.dataset.j, fecha: btn.dataset.f, hora: btn.dataset.h,
+      l: btn.dataset.l, v: btn.dataset.v,
+    }));
+  });
+
+  mostrarVista("vista-equipo");
+}
+
+document.getElementById("btn-ver-equipo").addEventListener("click", () => {
+  const [liga, clave] = document.getElementById("buscar-equipo").value.split("|");
+  abrirEquipo(liga, clave);
+});
+document.getElementById("btn-volver-eq").addEventListener("click", () => mostrarVista("vista-lista"));
+
+/* El navegador ya sabe generar PDF desde el diálogo de impresión; la hoja de
+   estilos @media print deja sólo la ficha y la adapta a papel. */
+document.getElementById("btn-pdf").addEventListener("click", () => window.print());
+
+document.getElementById("btn-volver").addEventListener("click", () => mostrarVista("vista-lista"));
+
+pintarLigas();
+pintarLista();
+poblarBuscador();
+</script>
