@@ -788,6 +788,15 @@ table.tabla-liga tbody tr:hover td { background: var(--surface-2); }
   border-radius: 8px; padding: 16px 14px;
 }
 .lienzo svg { display: block; width: 100%; height: auto; overflow: visible; }
+/* Cada competición europea, en su propio bloque */
+.torneo-bloque { margin-top: 30px; }
+.torneo-bloque:first-child { margin-top: 12px; }
+.torneo-titulo {
+  font-family: var(--serif); font-size: 18px; margin: 0 0 3px;
+  padding-left: 11px; border-left: 3px solid var(--local);
+}
+.torneo-sub { margin: 0 0 10px; font-size: 13.5px; color: var(--ink-2); }
+
 .gr-conclusion {
   font-size: 14.5px; color: var(--ink); line-height: 1.6;
   margin: 14px 0 0; padding-left: 13px; border-left: 3px solid var(--acento);
@@ -1300,12 +1309,10 @@ details .cuerpo strong { color: var(--ink); }
       <span class="paso">Los títulos</span>
       <h2>Quién ha ganado cada torneo</h2>
       <p class="sub">
-        Campeón y finalista de las tres competiciones en cada una de las últimas
-        temporadas.
+        Campeón y finalista de cada una de las últimas temporadas, con una tabla
+        por competición para que se vea el palmarés de cada torneo por separado.
       </p>
-      <div class="tabla-envoltorio">
-        <table class="tabla-liga" id="eu-tabla-titulos"></table>
-      </div>
+      <div id="eu-titulos-bloques"></div>
     </section>
 
     <section class="tarjeta">
@@ -3729,25 +3736,62 @@ function abrirEuropa() {
      en otras, y conviene tenerlo en cuenta al comparar clubes de países
      distintos.`;
 
-  const porTemp = {};
-  E.torneos.forEach(t => (porTemp[t.temp] ||= []).push(t));
   const ORDEN_T = ["Champions League", "Europa League", "Conference League"];
 
-  document.getElementById("eu-tabla-titulos").innerHTML =
-    `<thead><tr><th>Temp.</th><th>Competición</th><th>Campeón</th><th>Finalista</th>
-       <th>Goles/partido</th></tr></thead><tbody>` +
-    Object.keys(porTemp).sort().reverse().flatMap(temp =>
-      porTemp[temp].slice()
-        .sort((a, b) => ORDEN_T.indexOf(a.torneo) - ORDEN_T.indexOf(b.torneo))
-        .map(t => `<tr>
-          <td style="text-align:left">${T(t.temp)}</td>
-          <td style="text-align:left">${t.torneo}</td>
-          <td style="text-align:left">${t.campeon
-            ? `<b>${t.campeon}</b> <span class="pos-num">${PAIS_ES[t.campeon_pais] || t.campeon_pais}</span>`
-            : `<span class="pos-num">sin disputar</span>`}</td>
-          <td style="text-align:left">${t.finalista || "—"}</td>
-          <td>${dec(t.goles_partido, 2)}</td>
-        </tr>`)).join("") + "</tbody>";
+  // Qué es cada torneo, para quien no siga el fútbol europeo de cerca
+  const QUE_ES = {
+    "Champions League": "El torneo mayor: los mejores clasificados de cada liga.",
+    "Europa League": "El segundo escalón, con los que quedan justo por debajo.",
+    "Conference League": "El tercero, creado en 2021 para las ligas más modestas.",
+  };
+
+  const porTorneo = {};
+  E.torneos.forEach(t => (porTorneo[t.torneo] ||= []).push(t));
+
+  document.getElementById("eu-titulos-bloques").innerHTML =
+    ORDEN_T.filter(nom => porTorneo[nom]).map(nom => {
+      const filas = porTorneo[nom].slice().sort((a, b) => b.temp.localeCompare(a.temp));
+      const jugadas = filas.filter(t => t.campeon);
+
+      // Quién manda en el palmarés de este torneo concreto
+      const veces = {};
+      jugadas.forEach(t => (veces[t.campeon] = (veces[t.campeon] || 0) + 1));
+      const rey = Object.entries(veces).sort((a, b) => b[1] - a[1])[0];
+      const repiten = Object.values(veces).filter(n => n > 1).length;
+
+      let resumen = "";
+      if (jugadas.length) {
+        const distintos = Object.keys(veces).length;
+        resumen = rey[1] > 1
+          ? `<b>${rey[0]}</b> es quien más veces la ha ganado en este periodo:
+             ${rey[1]} de ${jugadas.length}. En total la han levantado
+             <b>${distintos} clubes distintos</b>, y
+             ${repiten === 1 ? "sólo él ha repetido" : `${repiten} de ellos han repetido`}.`
+          : `Ningún club ha repetido: las <b>${jugadas.length} ediciones</b> se las
+             han repartido <b>${distintos} clubes distintos</b>.`;
+      }
+
+      return `<div class="torneo-bloque">
+        <h3 class="torneo-titulo">${nom}</h3>
+        <p class="torneo-sub">${QUE_ES[nom] || ""}
+           <span class="pos-num">${jugadas.length} ediciones</span></p>
+        <div class="tabla-envoltorio">
+          <table class="tabla-liga">
+            <thead><tr><th>Temp.</th><th>Campeón</th><th>Finalista</th>
+              <th>Goles/partido</th></tr></thead>
+            <tbody>${filas.map(t => `<tr>
+              <td style="text-align:left">${T(t.temp)}</td>
+              <td style="text-align:left">${t.campeon
+                ? `<b>${t.campeon}</b> <span class="pos-num">${PAIS_ES[t.campeon_pais] || t.campeon_pais}</span>`
+                : `<span class="pos-num">sin disputar</span>`}</td>
+              <td style="text-align:left">${t.finalista || "—"}</td>
+              <td>${t.campeon ? dec(t.goles_partido, 2) : "—"}</td>
+            </tr>`).join("")}</tbody>
+          </table>
+        </div>
+        ${resumen ? `<p class="gr-conclusion">${resumen}</p>` : ""}
+      </div>`;
+    }).join("");
 
   // Favoritos de cara a la temporada europea
   const favs = E.favoritos || [];
