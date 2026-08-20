@@ -531,13 +531,21 @@ def main() -> None:
               + (f" · {n_bajas} con baja detectada" if n_bajas else ""))
 
         atq, dfn, gamma = ajustar_fuerzas(partidos, hoy)
-        ag = agregar(partidos)
+        # Las fuerzas usan las cuatro temporadas ponderadas, pero las cifras que
+        # se muestran (puntos, goles, xG) son sólo de la temporada de referencia:
+        # sumar cuatro años daría un «114 partidos, 173 puntos» sin sentido.
+        ag = agregar(p_act or p_ant)
 
         # El historial se toma de la temporada más reciente con partidos
         hist = historial(p_act or p_ant, set(atq))
 
         equipos = {}
         for e in atq:
+            # El ajuste incluye equipos de temporadas anteriores que este año ya
+            # no están en la categoría; sus fuerzas ayudan al modelo, pero no
+            # tienen cifras que mostrar, así que no llegan a la web.
+            if e not in ag:
+                continue
             equipos[e] = {"nombre": BONITO.get(e, e), "clave": e, "nuevo": False,
                           "atq": round(atq[e], 5), "def": round(dfn[e], 5), **ag[e],
                           "jug": plantillas.get(e, []), "hist": hist.get(e, [])}
