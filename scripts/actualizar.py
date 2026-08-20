@@ -794,6 +794,9 @@ def main() -> None:
     total_eq = sum(len(lg["equipos"]) for lg in salida["ligas"].values())
     print(f"    {len(salida['escudos'])} de {total_eq} equipos con escudo")
 
+    salida["logos"] = mod_escudos.logos_competiciones()
+    print(f"    {len(salida['logos'])} competiciones con logo")
+
     JSON_SALIDA.write_text(json.dumps(salida, ensure_ascii=False, separators=(",", ":")),
                            encoding="utf-8")
     print(f"\ndatos_ligas.json  {JSON_SALIDA.stat().st_size:,} bytes")

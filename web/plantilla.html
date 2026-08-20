@@ -622,6 +622,19 @@ table.matriz td.top { outline: 2px solid var(--visita); outline-offset: -2px; fo
 }
 .selector-comp select:focus-visible { outline: 2px solid var(--acento); outline-offset: 2px; }
 
+/* ── Logos de competición ─────────────────────────────────────────────── */
+.comp-caja { position: relative; display: flex; align-items: center; }
+.comp-caja .logo-comp {
+  position: absolute; left: 12px; width: 26px; height: 26px;
+  object-fit: contain; pointer-events: none;
+}
+/* Cuando hay logo, el texto del desplegable se aparta para dejarle sitio */
+.comp-caja.con-logo select { padding-left: 48px; }
+
+.titulo-con-logo { display: flex; align-items: center; gap: 12px; }
+.logo-liga { width: 40px; height: 40px; object-fit: contain; flex-shrink: 0; }
+.logo-torneo { width: 30px; height: 30px; object-fit: contain; flex-shrink: 0; }
+
 /* ── Acceso al panorama de liga ───────────────────────────────────────── */
 .fila-liga {
   display: flex; justify-content: space-between; align-items: center;
@@ -794,6 +807,7 @@ table.tabla-liga tbody tr:hover td { background: var(--surface-2); }
 .torneo-titulo {
   font-family: var(--serif); font-size: 18px; margin: 0 0 3px;
   padding-left: 11px; border-left: 3px solid var(--local);
+  display: flex; align-items: center; gap: 9px;
 }
 .torneo-sub { margin: 0 0 10px; font-size: 13.5px; color: var(--ink-2); }
 
@@ -997,7 +1011,11 @@ details .cuerpo strong { color: var(--ink); }
     <div>
       <div class="selector-comp">
         <label for="sel-competicion">Competición</label>
-        <select id="sel-competicion"></select>
+        <div class="comp-caja">
+          <img class="logo-comp oculto" id="logo-comp" alt="" loading="lazy"
+               decoding="async">
+          <select id="sel-competicion"></select>
+        </div>
       </div>
       <div class="fila-liga">
         <span class="fila-liga-txt" id="txt-liga"></span>
@@ -1396,7 +1414,11 @@ details .cuerpo strong { color: var(--ink); }
 
     <section class="tarjeta">
       <span class="paso" id="lg-pais"></span>
-      <h2 style="font-size:27px" id="lg-nombre"></h2>
+      <div class="titulo-con-logo">
+        <img class="logo-liga oculto" id="lg-logo" alt="" loading="lazy"
+             decoding="async">
+        <h2 style="font-size:27px;margin:0" id="lg-nombre"></h2>
+      </div>
       <p class="sub" id="lg-resumen"></p>
       <div class="metricas-modelo" id="lg-cabecera"></div>
     </section>
@@ -2043,6 +2065,27 @@ const EUROPEAS = {
   conf: { nombre: "Conference League", pais: "Europa" },
 };
 
+/** Logo de una competición, por su clave interna. Vacío si no hay. */
+function logoComp(clave) {
+  const L = D.logos || {};
+  return L[clave] || L[(EUROPEAS[clave] || {}).nombre] || "";
+}
+
+/** Coloca un logo en un <img>, o lo esconde si esa competición no tiene. */
+function ponerLogo(id, url) {
+  const im = document.getElementById(id);
+  if (!im) return;
+  im.classList.toggle("oculto", !url);
+  im.parentElement.classList.toggle("con-logo", !!url);
+  if (url) {
+    im.src = url;
+    im.onerror = () => {
+      im.classList.add("oculto");
+      im.parentElement.classList.remove("con-logo");
+    };
+  }
+}
+
 function esEuropea(clave) {
   return clave in EUROPEAS;
 }
@@ -2080,6 +2123,7 @@ function pintarLigas() {
   const euro = esEuropea(ligaActual);
   // El panorama de liga sólo tiene sentido en una liga nacional
   document.getElementById("btn-ver-liga").classList.toggle("oculto", euro);
+  ponerLogo("logo-comp", logoComp(ligaActual));
 
   if (euro) {
     const n = partidosEuropeos(ligaActual).length;
@@ -3270,6 +3314,7 @@ function abrirLiga(ligaKey) {
   document.getElementById("lg-pais").textContent =
     `${lg.pais} · datos de la temporada ${T(lg.temp_hist)}`;
   document.getElementById("lg-nombre").textContent = lg.nombre;
+  ponerLogo("lg-logo", logoComp(ligaKey));
 
   const golesTot = clubes.reduce((s, e) => s + e.gf, 0);
   const pjTot = clubes.reduce((s, e) => s + e.pj, 0) / 2;
@@ -3771,8 +3816,11 @@ function abrirEuropa() {
              han repartido <b>${distintos} clubes distintos</b>.`;
       }
 
+      const logo = (D.logos || {})[nom];
       return `<div class="torneo-bloque">
-        <h3 class="torneo-titulo">${nom}</h3>
+        <h3 class="torneo-titulo">${logo
+          ? `<img class="logo-torneo" src="${logo}" alt="" loading="lazy"
+               decoding="async" onerror="this.remove()">` : ""}${nom}</h3>
         <p class="torneo-sub">${QUE_ES[nom] || ""}
            <span class="pos-num">${jugadas.length} ediciones</span></p>
         <div class="tabla-envoltorio">

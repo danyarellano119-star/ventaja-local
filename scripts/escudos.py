@@ -116,3 +116,51 @@ def mapear(ligas: dict) -> dict[str, str]:
                 salida[nombre] = f"{CDN}/{ruta}"
 
     return salida
+
+
+# --------------------------------------------------------------------------- #
+# Logos de las competiciones
+# --------------------------------------------------------------------------- #
+
+# Identificadores de TheSportsDB, que publica los escudos de cada competición
+_ID_COMPETICION = {
+    "premier": 4328, "laliga": 4335, "bundesliga": 4331,
+    "seriea": 4332, "ligue1": 4334,
+    "Champions League": 4480, "Europa League": 4481,
+    "Conference League": 5071,
+}
+
+# Último enlace conocido de cada uno. Sirve de red por si la consulta falla:
+# la web nunca se queda sin logos, aunque la fuente esté caída.
+_RESPALDO = {
+    "premier": "gasy9d1737743125", "laliga": "ja4it51687628717",
+    "bundesliga": "teqh1b1679952008", "seriea": "67q3q21679951383",
+    "ligue1": "9f7z9d1742983155", "Champions League": "facv1u1742998896",
+    "Europa League": "mlsr7d1718774547", "Conference League": "ymfo5j1718775759",
+}
+_BASE = "https://r2.thesportsdb.com/images/media/league/badge/"
+
+
+def logos_competiciones() -> dict[str, str]:
+    """Devuelve {clave de competición: dirección de su logo}.
+
+    Los enlaces llevan una marca de tiempo y cambian si la fuente vuelve a subir
+    la imagen, así que se resuelven en cada actualización en lugar de fijarlos.
+    """
+    salida: dict[str, str] = {}
+    for clave, ident in _ID_COMPETICION.items():
+        url = ""
+        try:
+            r = requests.get(
+                f"https://www.thesportsdb.com/api/v1/json/3/lookupleague.php?id={ident}",
+                timeout=30)
+            if r.status_code == 200:
+                ficha = (r.json().get("leagues") or [{}])[0] or {}
+                url = ficha.get("strBadge") or ficha.get("strLogo") or ""
+        except Exception:
+            pass
+        if not url and clave in _RESPALDO:
+            url = _BASE + _RESPALDO[clave] + ".png"
+        if url:
+            salida[clave] = url
+    return salida
