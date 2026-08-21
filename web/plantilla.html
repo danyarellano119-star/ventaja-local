@@ -873,6 +873,22 @@ table.tabla-liga tbody tr:hover td { background: var(--surface-2); }
   border-bottom: 1px solid var(--line-soft);
 }
 .jug-fila:last-child { border-bottom: none; }
+/* La fila del partido hace dos cosas: el botón descarta al jugador del
+   cálculo y el enlace de al lado abre su ficha completa. */
+.jug-fila-doble { display: flex; align-items: center; gap: 2px; }
+.jug-fila-doble > .jug-toggle { flex: 1; min-width: 0; }
+.jug-ficha, .jug-ficha-hueco {
+  flex-shrink: 0; width: 20px; text-align: center;
+}
+.jug-ficha {
+  color: var(--ink-3); text-decoration: none; font-size: 17px; line-height: 1;
+  border-radius: 5px; padding: 4px 0;
+}
+.jug-ficha:hover { color: var(--acento); background: var(--surface); }
+.jug-ficha:focus-visible { outline: 2px solid var(--acento); outline-offset: 1px; }
+/* La cabecera deja el mismo hueco a la derecha para no descuadrar columnas */
+.jug-cab.con-ficha { padding-right: 22px; }
+
 /* ── Ficha de jugador ─────────────────────────────────────────────────── */
 /* Cada fila de la plantilla lleva a la ficha completa del jugador */
 .jug-enlace {
@@ -3085,6 +3101,10 @@ const ETQ_BAJA = {
 };
 
 function pintarJugadores(lg, a, b, golesA, golesB) {
+  // La ficha de jugador vive dentro de una liga nacional. En los partidos de
+  // competición europea no hay a dónde enlazar, así que ahí no se ofrece.
+  const claveLiga = Object.keys(D.ligas).find(k => D.ligas[k] === lg);
+
   const columna = (eq, goles, clase) => {
     const media = eq.pj ? eq.xg / eq.pj : 0;
     const lista = (eq.jug || [])
@@ -3100,7 +3120,7 @@ function pintarJugadores(lg, a, b, golesA, golesB) {
         ? `<span class="etq-baja ${j.baja}" title="${ETQ_BAJA[j.baja][1]}">${ETQ_BAJA[j.baja][0]}</span>`
         : "";
       return `
-      <div class="jug-fila ${fuera ? "baja" : ""}">
+      <div class="jug-fila jug-fila-doble ${fuera ? "baja" : ""}">
         <button class="jug-toggle ${descartados.has(j.n) ? "jug-descartado" : ""}"
                 type="button" data-jug="${j.n}"
                 title="${fuera ? "Púlsalo para volver a contarlo" : "Púlsalo si sabes que no juega"}">
@@ -3111,6 +3131,12 @@ function pintarJugadores(lg, a, b, golesA, golesB) {
           <span class="jug-gol">${fuera ? "—" : Math.round(j.pg * 100) + "%"}</span>
           <span class="jug-ta">${fuera ? "—" : Math.round(j.pa * 100) + "%"}</span>
         </button>
+        ${claveLiga
+          ? `<a class="jug-ficha"
+               href="#/jugador/${claveLiga}/${eq.clave}/${encodeURIComponent(j.n)}"
+               title="Ver la ficha completa de ${j.n}"
+               aria-label="Ficha de ${j.n}">›</a>`
+          : `<span class="jug-ficha-hueco" aria-hidden="true"></span>`}
       </div>`;
     }).join("")
       : `<p class="jug-vacio">Sin datos: el equipo acaba de ascender y no tiene
@@ -3118,7 +3144,7 @@ function pintarJugadores(lg, a, b, golesA, golesB) {
 
     return `<div class="jug-col ${clase}">
         <h3>${eq.nombre}</h3>
-        <div class="jug-cab"><span>Jugador</span><span>Marca</span><span>Amar.</span></div>
+        <div class="jug-cab con-ficha"><span>Jugador</span><span>Marca</span><span>Amar.</span></div>
         ${filas}
       </div>`;
   };
