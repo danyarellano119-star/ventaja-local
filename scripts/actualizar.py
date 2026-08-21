@@ -24,7 +24,7 @@ from __future__ import annotations
 import json
 import math
 import sys
-from datetime import date, datetime
+from datetime import date, datetime, timezone
 from pathlib import Path
 
 import requests
@@ -672,7 +672,11 @@ def main() -> None:
             print(f"    [aviso] {JSON_SALIDA.name} ilegible ({type(e).__name__}); "
                   f"se regenera desde cero", file=sys.stderr)
 
-    salida = {"generado": hoy.isoformat(), "temporada": etiqueta(actual), "ligas": {}}
+    # Con hora, no sólo la fecha: el robot corre cada tres horas y así se
+    # distingue una copia recién servida de una que lleve rato en el navegador.
+    salida = {"generado": hoy.isoformat(),
+              "generado_utc": datetime.now(timezone.utc).isoformat(timespec="minutes"),
+              "temporada": etiqueta(actual), "ligas": {}}
 
     for clave, (nombre, pais, cod_us, cod_of) in LIGAS.items():
         print(f"{nombre}")

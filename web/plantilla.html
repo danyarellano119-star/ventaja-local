@@ -935,6 +935,10 @@ table.tabla-liga tbody tr:hover td { background: var(--surface-2); }
   font-variant-numeric: tabular-nums; font-weight: 600;
 }
 .tr-panel { padding: 4px 4px 14px; }
+.pie-sello {
+  font-family: var(--mono); font-size: 11px; color: var(--ink-3);
+  letter-spacing: .04em;
+}
 .nota-fuente {
   margin: 14px 0 0; font-size: 12.5px; color: var(--ink-3); line-height: 1.5;
 }
@@ -1997,6 +2001,7 @@ details .cuerpo strong { color: var(--ink); }
       <b>Herramienta de análisis estadístico.</b> Apostar implica riesgo de
       pérdida económica. Sólo para mayores de edad.
     </p>
+    <p class="pie-sello" id="pie-actualizado"></p>
   </footer>
 </div>
 
@@ -4948,6 +4953,18 @@ pintarLista();
 poblarBuscador();
 
 window.addEventListener("hashchange", enrutar);
+// Cuándo se generaron estos datos. Sirve para saber si lo que se está viendo
+// es la copia recién publicada o una que el navegador guardó hace un rato.
+(() => {
+  const sello = document.getElementById("pie-actualizado");
+  const marca = D.generado_utc || D.generado;
+  if (!sello || !marca) return;
+  const f = new Date(marca);
+  sello.textContent = isNaN(f) ? `Datos del ${marca}` :
+    "Datos actualizados el " + f.toLocaleString("es", {
+      day: "numeric", month: "long", hour: "2-digit", minute: "2-digit" });
+})();
+
 activarOrdenacion(document);
 
 // Las cabeceras deben poder recibir el foco para ordenar con el teclado.
