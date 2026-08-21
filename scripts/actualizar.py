@@ -122,12 +122,12 @@ def bajar_understat(codigo: str, anio: int) -> tuple[list[dict], list[dict]]:
         return [], []
 
 
-def seleccionar_jugadores(fichas: list[dict], por_equipo: int = 8) -> dict[str, list]:
+def seleccionar_jugadores(fichas: list[dict], por_equipo: int = 16) -> dict[str, list]:
     """Se queda con los jugadores que interesan para apostar, equipo por equipo.
 
-    Entran los seis más productivos (goles más asistencias) y, además, los dos
-    más amonestados que no estuvieran ya, que son los relevantes para los
-    mercados de tarjetas.
+    Entran los más productivos (goles más asistencias), los más amonestados
+    —relevantes para los mercados de tarjetas— y, si queda sitio, los que más
+    han jugado, que son los que casi seguro estarán en el campo.
     """
     POS = {"F": "DEL", "S": "DEL", "A": "MED", "M": "MED", "D": "DEF",
            "GK": "POR", "Sub": "SUP"}
@@ -138,6 +138,7 @@ def seleccionar_jugadores(fichas: list[dict], por_equipo: int = 8) -> dict[str, 
             minutos = int(p["time"])
             if minutos < 200:
                 continue
+            noventas = minutos / 90
             por_club.setdefault(p["team_title"], []).append({
                 "n": p["player_name"],
                 "p": POS.get((p.get("position") or "M").split()[0], "MED"),
@@ -146,17 +147,39 @@ def seleccionar_jugadores(fichas: list[dict], por_equipo: int = 8) -> dict[str, 
                 "t": int(p["shots"]),
                 "xg": round(float(p["xG"]), 1),
                 "ta": int(p["yellow_cards"]), "tr": int(p["red_cards"]),
+                # Sin penaltis: distingue al goleador de quien vive del punto
+                "npg": int(p["npg"]), "npxg": round(float(p["npxG"]), 1),
+                # Creación de juego
+                "xa": round(float(p["xA"]), 1), "kp": int(p["key_passes"]),
+                # Participación en el ataque, con y sin su remate o su pase final
+                "xgc": round(float(p["xGChain"]), 1),
+                "xgb": round(float(p["xGBuildup"]), 1),
+                # Tasas por 90 minutos: lo único que permite comparar a un
+                # titular con alguien que sale media hora por partido.
+                "g90": round(int(p["goals"]) / noventas, 2),
+                "a90": round(int(p["assists"]) / noventas, 2),
+                "xg90": round(float(p["xG"]) / noventas, 2),
+                "xa90": round(float(p["xA"]) / noventas, 2),
+                "t90": round(int(p["shots"]) / noventas, 2),
+                "kp90": round(int(p["key_passes"]) / noventas, 2),
             })
         except (KeyError, ValueError):
             continue
 
     salida = {}
     for club, jugadores in por_club.items():
-        productivos = sorted(jugadores, key=lambda j: -(j["g"] + j["a"]))[:6]
-        nombres = {j["n"] for j in productivos}
-        amonestados = [j for j in sorted(jugadores, key=lambda j: -(j["ta"] + j["tr"] * 3))
-                       if j["n"] not in nombres][:por_equipo - len(productivos)]
-        salida[club] = productivos + amonestados
+        elegidos = sorted(jugadores, key=lambda j: -(j["g"] + j["a"]))[:8]
+        nombres = {j["n"] for j in elegidos}
+
+        for orden in (lambda j: -(j["ta"] + j["tr"] * 3),   # tarjetas
+                      lambda j: -j["min"]):                 # minutos jugados
+            for j in sorted(jugadores, key=orden):
+                if len(elegidos) >= por_equipo:
+                    break
+                if j["n"] not in nombres:
+                    elegidos.append(j)
+                    nombres.add(j["n"])
+        salida[club] = elegidos
     return salida
 
 

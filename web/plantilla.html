@@ -873,6 +873,48 @@ table.tabla-liga tbody tr:hover td { background: var(--surface-2); }
   border-bottom: 1px solid var(--line-soft);
 }
 .jug-fila:last-child { border-bottom: none; }
+/* ── Ficha ampliada de jugador ────────────────────────────────────────── */
+.jug-det > summary {
+  list-style: none; cursor: pointer;
+}
+.jug-det > summary::-webkit-details-marker { display: none; }
+.jug-det > summary:hover { background: var(--surface); }
+.jug-det > summary:focus-visible { outline: 2px solid var(--acento); outline-offset: -2px; }
+/* Flecha que gira al abrir, para que se vea que la fila es desplegable */
+.jug-det > summary .jug-nombre::after {
+  content: "›"; margin-left: 7px; color: var(--ink-3);
+  display: inline-block; transition: transform .15s;
+}
+.jug-det[open] > summary .jug-nombre::after { transform: rotate(90deg); }
+
+.jug-panel {
+  padding: 12px 0 16px 34px; border-bottom: 1px solid var(--line-soft);
+}
+.jd-titulo {
+  font-family: var(--mono); font-size: 10.5px; letter-spacing: .1em;
+  text-transform: uppercase; color: var(--ink-3); margin: 0 0 8px;
+}
+.jd-titulo:not(:first-child) { margin-top: 16px; }
+.jd-rejilla {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(88px, 1fr));
+  gap: 8px;
+}
+.jd-dato {
+  background: var(--surface); border: 1px solid var(--line);
+  border-radius: 7px; padding: 8px 9px; cursor: help;
+}
+.jd-val {
+  display: block; font-family: var(--mono); font-size: 16px; font-weight: 600;
+  font-variant-numeric: tabular-nums; color: var(--ink);
+}
+.jd-etq { display: block; font-size: 11px; color: var(--ink-3); margin-top: 2px; }
+.jd-notas {
+  margin: 14px 0 0; padding-left: 18px; font-size: 13px;
+  color: var(--ink-2); line-height: 1.55;
+}
+.jd-notas li { margin-bottom: 6px; }
+.jd-notas li:last-child { margin-bottom: 0; }
+
 /* Foto del jugador: redonda, pequeña y siempre del mismo tamaño para que las
    filas queden alineadas tenga foto o no. */
 .jug-foto {
@@ -2086,6 +2128,80 @@ const EUROPEAS = {
   el:   { nombre: "Europa League",    pais: "Europa" },
   conf: { nombre: "Conference League", pais: "Europa" },
 };
+
+/** Ficha ampliada de un jugador: lo que la fuente da, más lo que se deduce.
+
+    Todo va con su explicación en una línea, porque un número suelto como
+    «xGBuildup 5,2» no le dice nada a quien no sigue estadística de fútbol.
+ */
+function panelJugador(j) {
+  const n90 = j.min / 90;
+  const dato = (v, etq, ayuda) => `
+    <div class="jd-dato" title="${ayuda}">
+      <span class="jd-val">${v}</span>
+      <span class="jd-etq">${etq}</span>
+    </div>`;
+
+  // Lectura en castellano: lo que de verdad se puede concluir de estos números
+  const notas = [];
+  const dif = j.g - j.xg;
+  if (j.pj >= 5 && Math.abs(dif) >= 2) {
+    notas.push(dif > 0
+      ? `Lleva <b>${dec(dif, 1)} goles más</b> de los que sus ocasiones hacían
+         esperar. O define muy bien, o ha tenido suerte: con el tiempo esto
+         suele acercarse al xG.`
+      : `Lleva <b>${dec(-dif, 1)} goles menos</b> de los que sus ocasiones hacían
+         esperar. Si sigue generando lo mismo, lo normal es que empiece a marcar.`);
+  }
+  if (j.g > 0 && j.npg < j.g) {
+    notas.push(`De sus ${j.g} goles, <b>${j.g - j.npg} fueron de penalti</b>;
+      en juego lleva ${j.npg}.`);
+  }
+  if (j.kp >= 15 && j.a <= 2) {
+    notas.push(`Genera mucho sin que se le note en el marcador:
+      <b>${j.kp} pases que acabaron en tiro</b> y sólo
+      ${j.a === 1 ? "1 asistencia" : `${j.a} asistencias`}.
+      Depende de que sus compañeros acierten.`);
+  }
+  if (j.xgb >= 4 && j.xgb / Math.max(j.xgc, 0.1) > 0.6) {
+    notas.push(`Su aportación es de <b>construcción</b>: participa en jugadas de
+      gol sin ser quien remata ni quien da el último pase.`);
+  }
+  if (j.min < 600) {
+    notas.push(`Ojo: sólo <b>${j.min} minutos</b>. Con tan poca muestra, las
+      tasas por 90 minutos se disparan con facilidad.`);
+  }
+
+  return `<div class="jug-panel">
+    <p class="jd-titulo">Por cada 90 minutos jugados
+      <span class="pos-num">${dec(n90, 1)} partidos completos</span></p>
+    <div class="jd-rejilla">
+      ${dato(dec(j.g90, 2), "goles", "Goles marcados por cada 90 minutos en el campo")}
+      ${dato(dec(j.a90, 2), "asist.", "Asistencias por cada 90 minutos")}
+      ${dato(dec(j.t90, 2), "tiros", "Tiros por cada 90 minutos")}
+      ${dato(dec(j.kp90, 2), "pases clave", "Pases que acabaron en tiro de un compañero")}
+      ${dato(dec(j.xg90, 2), "xG", "Goles esperados: la calidad de las ocasiones que se fabrica")}
+      ${dato(dec(j.xa90, 2), "xA", "Asistencias esperadas: la calidad de las que da")}
+    </div>
+
+    <p class="jd-titulo">En toda la temporada</p>
+    <div class="jd-rejilla">
+      ${dato(j.g, "goles", "Goles totales, penaltis incluidos")}
+      ${dato(j.npg, "sin penalti", "Goles en juego, descontando los de penalti")}
+      ${dato(dec(j.xg, 1), "xG", "Goles esperados acumulados")}
+      ${dato(dec(j.npxg, 1), "xG sin penalti", "Goles esperados descontando los penaltis")}
+      ${dato(j.kp, "pases clave", "Pases que acabaron en tiro")}
+      ${dato(dec(j.xa, 1), "xA", "Asistencias esperadas acumuladas")}
+      ${dato(dec(j.xgc, 1), "xG de sus jugadas",
+             "Suma del xG de todas las jugadas en las que participó")}
+      ${dato(dec(j.xgb, 1), "sin su remate",
+             "Lo mismo, pero sin contar su tiro ni su último pase: mide construcción")}
+    </div>
+
+    ${notas.length ? `<ul class="jd-notas">${
+       notas.map(t => `<li>${t}</li>`).join("")}</ul>` : ""}
+  </div>`;
+}
 
 /** Foto de un jugador. Si no la hay, una silueta neutra del mismo tamaño,
     para que las filas no se descuadren entre sí. */
@@ -4159,15 +4275,18 @@ function abrirEquipo(ligaKey, clave) {
     ? `<div class="jug-cab" style="grid-template-columns:26px 1fr 52px 52px 52px">
          <span></span><span>Jugador</span><span>G+A</span><span>Min/PJ</span><span>Tarj.</span></div>` +
       jug.map(j => `
-        <div class="jug-fila" style="grid-template-columns:26px 1fr 52px 52px 52px">
-          ${fotoJug(j.n)}
-          <span class="jug-nombre">${j.n}${j.baja
-            ? `<span class="etq-baja ${j.baja}">${ETQ_BAJA[j.baja][0]}</span>` : ""}
-            <small>${j.p} · ${j.pj} partidos · ${j.t} tiros</small></span>
-          <span class="jug-gol">${j.g}+${j.a}</span>
-          <span class="jug-ta">${Math.round(j.min / Math.max(j.pj, 1))}</span>
-          <span class="jug-ta">${j.ta}${j.tr ? "/" + j.tr : ""}</span>
-        </div>`).join("")
+        <details class="jug-det">
+          <summary class="jug-fila" style="grid-template-columns:26px 1fr 52px 52px 52px">
+            ${fotoJug(j.n)}
+            <span class="jug-nombre">${j.n}${j.baja
+              ? `<span class="etq-baja ${j.baja}">${ETQ_BAJA[j.baja][0]}</span>` : ""}
+              <small>${j.p} · ${j.pj} partidos · ${j.t} tiros</small></span>
+            <span class="jug-gol">${j.g}+${j.a}</span>
+            <span class="jug-ta">${Math.round(j.min / Math.max(j.pj, 1))}</span>
+            <span class="jug-ta">${j.ta}${j.tr ? "/" + j.tr : ""}</span>
+          </summary>
+          ${panelJugador(j)}
+        </details>`).join("")
     : `<p class="jug-vacio">Sin fichas de jugadores para este equipo.</p>`;
 
   // Próximos partidos
