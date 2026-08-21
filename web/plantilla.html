@@ -664,6 +664,27 @@ table.tabla-liga th {
   white-space: nowrap;
 }
 table.tabla-liga th:nth-child(2) { text-align: left; }
+
+/* ── Cabeceras que ordenan ────────────────────────────────────────────── */
+table.tabla-liga th, #eq-plantilla .jug-cab > span {
+  cursor: pointer; user-select: none; position: relative;
+}
+/* La primera columna de la plantilla es la foto: no hay nada que ordenar */
+#eq-plantilla .jug-cab > span:empty { cursor: default; }
+table.tabla-liga th:hover, #eq-plantilla .jug-cab > span:hover { color: var(--ink); }
+table.tabla-liga th:focus-visible, #eq-plantilla .jug-cab > span:focus-visible {
+  outline: 2px solid var(--acento); outline-offset: -2px;
+}
+/* Flecha que aparece sólo en la columna por la que se está ordenando */
+table.tabla-liga th.orden-activo, #eq-plantilla .jug-cab > span.orden-activo {
+  color: var(--acento);
+}
+table.tabla-liga th.orden-activo::after,
+#eq-plantilla .jug-cab > span.orden-activo::after {
+  content: " ▲"; font-size: 8px;
+}
+table.tabla-liga th.orden-desc::after,
+#eq-plantilla .jug-cab > span.orden-desc::after { content: " ▼"; }
 table.tabla-liga td {
   padding: 7px 8px; text-align: right; border-bottom: 1px solid var(--line-soft);
   font-family: var(--mono); white-space: nowrap;
@@ -888,6 +909,40 @@ table.tabla-liga tbody tr:hover td { background: var(--surface-2); }
 .jug-ficha:focus-visible { outline: 2px solid var(--acento); outline-offset: 1px; }
 /* La cabecera deja el mismo hueco a la derecha para no descuadrar columnas */
 .jug-cab.con-ficha { padding-right: 22px; }
+
+/* ── Trayectoria por temporadas ───────────────────────────────────────── */
+.tr-temp { border-bottom: 1px solid var(--line-soft); }
+.tr-temp:last-child { border-bottom: none; }
+.tr-fila {
+  display: grid; grid-template-columns: 62px 1fr 56px 52px; gap: 10px;
+  align-items: center; padding: 9px 4px; cursor: pointer;
+  list-style: none; border-radius: 6px;
+}
+.tr-fila::-webkit-details-marker { display: none; }
+.tr-fila:hover { background: var(--surface); }
+.tr-fila:focus-visible { outline: 2px solid var(--acento); outline-offset: -2px; }
+.tr-temp-etq {
+  font-family: var(--mono); font-size: 12px; color: var(--ink-2);
+  font-variant-numeric: tabular-nums;
+}
+.tr-club { display: flex; align-items: center; gap: 8px; font-size: 14px; min-width: 0; }
+.tr-club small {
+  color: var(--ink-3); font-size: 11px; font-family: var(--mono);
+  white-space: nowrap;
+}
+.tr-num {
+  font-family: var(--mono); font-size: 13px; text-align: right;
+  font-variant-numeric: tabular-nums; font-weight: 600;
+}
+.tr-panel { padding: 4px 4px 14px; }
+.nota-fuente {
+  margin: 14px 0 0; font-size: 12.5px; color: var(--ink-3); line-height: 1.5;
+}
+@media (max-width: 560px) {
+  .tr-fila { grid-template-columns: 54px 1fr 46px; }
+  .tr-fila .tr-num:last-child { display: none; }
+  .tr-club small { display: none; }
+}
 
 /* ── Ficha de jugador ─────────────────────────────────────────────────── */
 /* Cada fila de la plantilla lleva a la ficha completa del jugador */
@@ -1656,6 +1711,18 @@ details .cuerpo strong { color: var(--ink); }
       <div id="jf-detalle"></div>
     </section>
 
+    <section class="tarjeta" id="jf-bloque-trayectoria">
+      <span class="paso">Trayectoria</span>
+      <h2>Temporada por temporada</h2>
+      <p class="sub">
+        Su recorrido por las cinco grandes ligas. Si ha cambiado de país,
+        aparecen todas sus etapas. Despliega cualquier temporada para ver el
+        detalle completo.
+      </p>
+      <div id="jf-trayectoria"></div>
+      <p class="nota-fuente" id="jf-trayectoria-nota"></p>
+    </section>
+
     <section class="tarjeta" id="jf-bloque-notas">
       <span class="paso">Cómo leerlo</span>
       <h2>Qué dicen estos números</h2>
@@ -2189,6 +2256,114 @@ function calcular(ligaKey, claveLocal, claveVisita) {
 /* ── Formato ──────────────────────────────────────────────────────────── */
 const pct = x => (x * 100).toFixed(1).replace(".", ",") + " %";
 const dec = (x, n = 2) => x.toFixed(n).replace(".", ",");
+
+/* ── Ordenar las tablas ───────────────────────────────────────────────── */
+
+/** Convierte el texto de una celda en algo comparable.
+
+    Devuelve un número siempre que pueda, porque ordenar «10» antes que «9»
+    —que es lo que pasa al comparar como texto— sería un error evidente. Los
+    formatos que aparecen en la web tienen su propia lectura:
+
+      «1,25»    → 1.25   (coma decimal, como se escribe en castellano)
+      «45 %»    → 45
+      «14+1»    → 15     (goles más asistencias: interesa el total)
+      «5/0»     → 5.00   (tarjetas: manda la primera, la segunda desempata)
+      «2025/26» → 2025.26 (y así las temporadas quedan en orden)
+      «—»       → nulo   (los huecos van siempre al final)
+ */
+function claveOrden(texto) {
+  const t = (texto || "").trim();
+  if (!t || t === "—" || t === "-") return null;
+
+  const limpio = t.replace(/\s|%/g, "").replace(",", ".");
+
+  const suma = limpio.match(/^(-?\d+(?:\.\d+)?)\+(\d+(?:\.\d+)?)$/);
+  if (suma) return parseFloat(suma[1]) + parseFloat(suma[2]);
+
+  const partido = limpio.match(/^(-?\d+(?:\.\d+)?)\/(\d+(?:\.\d+)?)$/);
+  if (partido) return parseFloat(partido[1]) + parseFloat(partido[2]) / 100;
+
+  const n = parseFloat(limpio);
+  if (!isNaN(n) && /^-?[\d.]+$/.test(limpio)) return n;
+
+  return t.toLocaleLowerCase("es");
+}
+
+/** Ordena una lista de filas por el contenido de una de sus columnas. */
+function ordenarFilas(filas, indice, desc, celdasDe) {
+  const clave = f => claveOrden((celdasDe(f)[indice] || {}).textContent);
+  filas.sort((a, b) => {
+    const x = clave(a), y = clave(b);
+    // Lo que no tiene valor se queda abajo, se ordene como se ordene
+    if (x === null && y === null) return 0;
+    if (x === null) return 1;
+    if (y === null) return -1;
+    const cmp = typeof x === "number" && typeof y === "number"
+      ? x - y
+      : String(x).localeCompare(String(y), "es");
+    return desc ? -cmp : cmp;
+  });
+  filas.forEach(f => f.parentNode.appendChild(f));
+}
+
+/** Marca en la cabecera por qué columna se está ordenando. */
+function marcarCabecera(cabeceras, elegida, desc) {
+  cabeceras.forEach(c => {
+    const activa = c === elegida;
+    c.classList.toggle("orden-activo", activa);
+    c.classList.toggle("orden-desc", activa && desc);
+    c.setAttribute("aria-sort", activa ? (desc ? "descending" : "ascending") : "none");
+  });
+}
+
+/** Deja lista para ordenar cualquier tabla o lista de la página. */
+function activarOrdenacion(raiz) {
+  raiz.addEventListener("click", e => {
+    const cab = e.target.closest("th, .jug-cab > span");
+    if (!cab) return;
+
+    let cabeceras, filas, celdasDe;
+    if (cab.tagName === "TH") {
+      const tabla = cab.closest("table.tabla-liga");
+      const cuerpo = tabla && tabla.querySelector("tbody");
+      if (!cuerpo || cuerpo.rows.length < 2) return;
+      cabeceras = [...cab.parentNode.cells];
+      filas = [...cuerpo.rows];
+      celdasDe = f => f.cells;
+    } else {
+      // La plantilla del equipo: parece una tabla aunque no lo sea
+      const lista = cab.closest("#eq-plantilla");
+      if (!lista) return;
+      cabeceras = [...cab.parentNode.children];
+      filas = [...lista.querySelectorAll("a.jug-fila")];
+      if (filas.length < 2) return;
+      celdasDe = f => f.children;
+    }
+
+    const indice = cabeceras.indexOf(cab);
+    // Sin título no hay nada que ordenar: es la columna de la foto
+    if (indice < 0 || !cab.textContent.trim()) return;
+
+    // Primer clic: de mayor a menor si son números, alfabético si es texto.
+    // Es lo que casi siempre se busca —el que más marca, no el que menos—.
+    const primera = !cab.classList.contains("orden-activo");
+    const muestra = claveOrden((celdasDe(filas[0])[indice] || {}).textContent);
+    const desc = primera ? typeof muestra === "number"
+                         : !cab.classList.contains("orden-desc");
+
+    ordenarFilas(filas, indice, desc, celdasDe);
+    marcarCabecera(cabeceras, cab, desc);
+  });
+
+  // Lo mismo con el teclado, para quien no use ratón
+  raiz.addEventListener("keydown", e => {
+    if (e.key !== "Enter" && e.key !== " ") return;
+    const cab = e.target.closest("th, .jug-cab > span");
+    if (cab && cab.textContent.trim()) { e.preventDefault(); cab.click(); }
+  });
+}
+
 const MESES = ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"];
 const DIAS = ["domingo", "lunes", "martes", "miércoles", "jueves", "viernes", "sábado"];
 
@@ -4353,6 +4528,8 @@ function abrirJugador(ligaKey, claveEq, nombre) {
   // ── Todos los números, reutilizando el panel ya escrito ────────────────
   document.getElementById("jf-detalle").innerHTML = panelJugador(j, false);
 
+  pintarTrayectoria(j.n, lg.nombre);
+
   const notas = notasJugador(j);
   document.getElementById("jf-bloque-notas").classList.toggle("oculto", !notas.length);
   document.getElementById("jf-notas").innerHTML =
@@ -4360,6 +4537,67 @@ function abrirJugador(ligaKey, claveEq, nombre) {
 
   mostrarVista("vista-jugador");
   return true;
+}
+
+/** Historial del jugador, una temporada por línea desplegable. */
+function pintarTrayectoria(nombre, ligaActualNombre) {
+  // Las filas llegan como listas para que el archivo no se dispare; aquí
+  // se les vuelve a poner nombre a cada campo.
+  const campos = D.campos_trayectoria || [];
+  const filas = ((D.trayectoria || {})[nombre] || []).map(v => {
+    const o = {};
+    campos.forEach((c, i) => (o[c] = v[i]));
+    o.temp = `${o.anio}-${String(o.anio + 1).slice(2)}`;
+    o.liga = (D.ligas[o.liga] || {}).nombre || o.liga;
+    return o;
+  });
+  const bloque = document.getElementById("jf-bloque-trayectoria");
+  bloque.classList.toggle("oculto", filas.length < 1);
+  if (!filas.length) return;
+
+  const n90 = f => f.min / 90;
+  const dato = (v, etq, ayuda) => `
+    <div class="jd-dato" title="${ayuda}">
+      <span class="jd-val">${v}</span><span class="jd-etq">${etq}</span>
+    </div>`;
+
+  document.getElementById("jf-trayectoria").innerHTML = filas.map((f, i) => `
+    <details class="tr-temp"${i === 0 ? " open" : ""}>
+      <summary class="tr-fila">
+        <span class="tr-temp-etq">${T(f.temp)}</span>
+        <span class="tr-club">${escudo(f.eq)} ${f.eq}
+          <small>${f.liga}</small></span>
+        <span class="tr-num">${f.pj} PJ</span>
+        <span class="tr-num">${f.g}+${f.a}</span>
+      </summary>
+      <div class="tr-panel">
+        <div class="jd-rejilla">
+          ${dato(f.pj, "partidos", "Partidos en los que participó")}
+          ${dato(f.min, "minutos", "Minutos totales jugados")}
+          ${dato(f.g, "goles", "Goles marcados en esa temporada")}
+          ${dato(f.a, "asistencias", "Asistencias dadas")}
+          ${dato(dec(f.xg, 1), "xG", "Goles esperados: la calidad de sus ocasiones")}
+          ${dato(dec(f.xa, 1), "xA", "Asistencias esperadas")}
+          ${dato(f.t, "tiros", "Tiros intentados")}
+          ${dato(f.kp, "pases clave", "Pases que acabaron en tiro")}
+          ${dato(dec(f.g / n90(f), 2), "goles/90", "Goles por cada 90 minutos")}
+          ${dato(dec(f.a / n90(f), 2), "asist./90", "Asistencias por cada 90 minutos")}
+          ${dato(`${f.ta}/${f.tr}`, "TA / TR", "Tarjetas amarillas y rojas")}
+        </div>
+      </div>
+    </details>`).join("");
+
+  // Si ha jugado en más de una liga, conviene decirlo: cambia la lectura
+  const ligas = [...new Set(filas.map(f => f.liga))];
+  const nota = document.getElementById("jf-trayectoria-nota");
+  nota.innerHTML = (ligas.length > 1
+      ? `Ha jugado en <b>${ligas.length} ligas distintas</b>
+         (${ligas.join(", ")}), así que sus cifras no son del todo comparables
+         entre temporadas: no cuesta lo mismo marcar en unas que en otras. `
+      : "") +
+    `Sólo aparecen las cinco grandes ligas: Champions, Europa League y las copas
+     no se publican en ninguna fuente abierta, así que esos partidos no están
+     contados aquí.`;
 }
 
 /** Nube de jugadores del mismo puesto, con el elegido resaltado. */
@@ -4710,5 +4948,22 @@ pintarLista();
 poblarBuscador();
 
 window.addEventListener("hashchange", enrutar);
+activarOrdenacion(document);
+
+// Las cabeceras deben poder recibir el foco para ordenar con el teclado.
+// Se crean con innerHTML en muchos sitios, así que se vigilan desde aquí.
+function hacerEnfocables(raiz) {
+  raiz.querySelectorAll("table.tabla-liga th, #eq-plantilla .jug-cab > span")
+    .forEach(c => {
+      if (c.hasAttribute("tabindex") || !c.textContent.trim()) return;
+      c.tabIndex = 0;
+      c.setAttribute("role", "button");
+      c.setAttribute("aria-sort", "none");
+      c.title = "Pulsa para ordenar por esta columna";
+    });
+}
+new MutationObserver(() => hacerEnfocables(document)).observe(
+  document.body, { childList: true, subtree: true });
+hacerEnfocables(document);
 if (location.hash) enrutar();
 </script>

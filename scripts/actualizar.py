@@ -183,6 +183,62 @@ def seleccionar_jugadores(fichas: list[dict], por_equipo: int = 16) -> dict[str,
     return salida
 
 
+ANIOS_TRAYECTORIA = 5   # temporadas de historial por jugador
+
+
+def trayectoria_jugadores(nombres: set[str], actual: int) -> dict[str, list]:
+    """Historial temporada a temporada de cada jugador, en las cinco ligas.
+
+    Se recorren todas las competiciones y no sólo la del equipo actual, de modo
+    que quien cambia de país aparece con las dos etapas. Las descargas ya están
+    en memoria de cuando se calcularon las fuerzas y los panoramas, así que esto
+    no añade ni una petición.
+
+    Ojo con lo que **no** cubre: Understat sólo publica las ligas nacionales.
+    Champions, Europa League y las copas no están en ninguna fuente que se pueda
+    consultar de forma automática, así que no aparecen aquí.
+    """
+    historial: dict[str, list] = {}
+
+    for anio in range(actual - ANIOS_TRAYECTORIA + 1, actual + 1):
+        if anio < PRIMER_ANIO:
+            continue
+        for clave, (nombre_liga, _pais, cod_us, _of) in LIGAS.items():
+            _, fichas = bajar_understat(cod_us, anio)
+            for f in fichas:
+                n = f.get("player_name")
+                if n not in nombres:
+                    continue
+                try:
+                    minutos = int(f["time"])
+                    if minutos < 90:      # un rato suelto no es una temporada
+                        continue
+                    # Como listas y no como diccionarios: con más de cinco mil
+                    # filas, repetir los nombres de campo costaba 400 KB de más.
+                    # El orden lo reconstruye la web y está anotado abajo.
+                    historial.setdefault(n, []).append([
+                        anio, clave,
+                        BONITO.get(f["team_title"], f["team_title"]),
+                        int(f["games"]), minutos,
+                        int(f["goals"]), int(f["assists"]),
+                        round(float(f["xG"]), 1), round(float(f["xA"]), 1),
+                        int(f["shots"]), int(f["key_passes"]),
+                        int(f["yellow_cards"]), int(f["red_cards"]),
+                    ])
+                except (KeyError, ValueError):
+                    continue
+
+    # De la más reciente a la más antigua, que es como se quiere leer
+    for filas in historial.values():
+        filas.sort(key=lambda x: x[0], reverse=True)
+    return historial
+
+
+# Orden de los campos de cada fila de trayectoria, tal y como los lee la web
+CAMPOS_TRAYECTORIA = ["anio", "liga", "eq", "pj", "min", "g", "a",
+                      "xg", "xa", "t", "kp", "ta", "tr"]
+
+
 def bajar_roster(id_partido: str) -> dict | None:
     """Alineación de un partido: minutos y tarjetas de cada jugador."""
     try:
@@ -831,6 +887,16 @@ def main() -> None:
     # Las fotos van en caché: aquí sólo se consultan los jugadores nuevos.
     salida["fotos"] = mod_fotos.mapear(salida["ligas"])
     print(f"    {len(salida['fotos'])} jugadores con foto")
+
+    print("")
+    print("Trayectoria de los jugadores")
+    nombres_jug = {j["n"] for lg in salida["ligas"].values()
+                   for e in lg["equipos"].values() for j in (e.get("jug") or [])}
+    salida["trayectoria"] = trayectoria_jugadores(nombres_jug, actual)
+    salida["campos_trayectoria"] = CAMPOS_TRAYECTORIA
+    con_varias = sum(1 for v in salida["trayectoria"].values() if len(v) > 1)
+    print(f"    {len(salida['trayectoria'])} jugadores con historial "
+          f"({con_varias} con más de una temporada)")
 
     JSON_SALIDA.write_text(json.dumps(salida, ensure_ascii=False, separators=(",", ":")),
                            encoding="utf-8")
