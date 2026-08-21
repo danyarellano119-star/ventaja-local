@@ -873,23 +873,23 @@ table.tabla-liga tbody tr:hover td { background: var(--surface-2); }
   border-bottom: 1px solid var(--line-soft);
 }
 .jug-fila:last-child { border-bottom: none; }
-/* ── Ficha ampliada de jugador ────────────────────────────────────────── */
-.jug-det > summary {
-  list-style: none; cursor: pointer;
+/* ── Ficha de jugador ─────────────────────────────────────────────────── */
+/* Cada fila de la plantilla lleva a la ficha completa del jugador */
+.jug-enlace {
+  text-decoration: none; color: inherit; cursor: pointer;
+  border-radius: 6px; padding-left: 4px; padding-right: 4px;
 }
-.jug-det > summary::-webkit-details-marker { display: none; }
-.jug-det > summary:hover { background: var(--surface); }
-.jug-det > summary:focus-visible { outline: 2px solid var(--acento); outline-offset: -2px; }
-/* Flecha que gira al abrir, para que se vea que la fila es desplegable */
-.jug-det > summary .jug-nombre::after {
+.jug-enlace:hover { background: var(--surface); }
+.jug-enlace:focus-visible { outline: 2px solid var(--acento); outline-offset: -2px; }
+.jug-enlace .jug-nombre::after {
   content: "›"; margin-left: 7px; color: var(--ink-3);
-  display: inline-block; transition: transform .15s;
 }
-.jug-det[open] > summary .jug-nombre::after { transform: rotate(90deg); }
 
-.jug-panel {
-  padding: 12px 0 16px 34px; border-bottom: 1px solid var(--line-soft);
-}
+.jf-cabecera { display: flex; align-items: center; gap: 16px; margin-bottom: 16px; }
+.jug-foto.grande { width: 76px; height: 76px; border-width: 2px; }
+.jf-cabecera .paso { display: block; }
+
+.jug-panel { padding: 2px 0 0; }
 .jd-titulo {
   font-family: var(--mono); font-size: 10.5px; letter-spacing: .1em;
   text-transform: uppercase; color: var(--ink-3); margin: 0 0 8px;
@@ -1023,7 +1023,7 @@ details .cuerpo strong { color: var(--ink); }
   /* Fuera todo lo que no sea la ficha que se está imprimiendo */
   .barra-acciones, .buscador, .ligas, #lista-partidos,
   #vista-lista, #vista-detalle, .pie { display: none !important; }
-  #vista-equipo.oculto { display: none !important; }
+  #vista-equipo.oculto, #vista-jugador.oculto { display: none !important; }
 
   .tarjeta {
     border: 1px solid #ccc; box-shadow: none; break-inside: avoid;
@@ -1587,6 +1587,66 @@ details .cuerpo strong { color: var(--ink); }
   </div>
 
   <!-- ══ VISTA EQUIPO ══ -->
+  <!-- ══ VISTA JUGADOR ══ -->
+  <div id="vista-jugador" class="pila oculto">
+    <div class="barra-acciones">
+      <button class="volver" id="btn-volver-jug" type="button">← Volver</button>
+      <button class="btn-pdf" id="btn-pdf-jug" type="button">Guardar en PDF</button>
+    </div>
+
+    <section class="tarjeta">
+      <div class="jf-cabecera">
+        <div id="jf-foto"></div>
+        <div>
+          <span class="paso" id="jf-equipo"></span>
+          <h2 style="font-size:27px;margin:2px 0 0" id="jf-nombre"></h2>
+          <p class="sub" id="jf-resumen" style="margin-top:6px"></p>
+        </div>
+      </div>
+      <div class="metricas-modelo" id="jf-cabecera"></div>
+    </section>
+
+    <section class="tarjeta">
+      <span class="paso">Comparación</span>
+      <h2>Dónde está entre los de su puesto<span class="sello-temporada" id="jf-sello"></span></h2>
+      <p class="sub" id="jf-pct-sub"></p>
+      <div id="jf-percentiles"></div>
+    </section>
+
+    <section class="tarjeta">
+      <span class="paso">Rendimiento</span>
+      <h2>Lo que genera y lo que convierte</h2>
+      <div class="graficos">
+        <div class="gr-caja">
+          <span class="gr-titulo">Producido frente a esperado</span>
+          <span class="gr-sub">Si la barra de goles supera a la de xG, está
+            marcando más de lo que sus ocasiones sugieren. Lo normal es que con
+            el tiempo se acerquen.</span>
+          <div id="jf-g-rendimiento"></div>
+        </div>
+        <div class="gr-caja">
+          <span class="gr-titulo">Su sitio entre los de su puesto</span>
+          <span class="gr-sub">Cada punto es un jugador de la liga. A la derecha
+            fabrican más ocasiones para sí mismos; arriba, para los demás.</span>
+          <div id="jf-g-mapa"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="tarjeta">
+      <span class="paso">Todos los números</span>
+      <h2>Su temporada al detalle</h2>
+      <p class="sub">Pasa el ratón por cada dato para ver qué significa.</p>
+      <div id="jf-detalle"></div>
+    </section>
+
+    <section class="tarjeta" id="jf-bloque-notas">
+      <span class="paso">Cómo leerlo</span>
+      <h2>Qué dicen estos números</h2>
+      <div id="jf-notas"></div>
+    </section>
+  </div>
+
   <div id="vista-equipo" class="pila oculto">
     <div class="barra-acciones">
       <button class="volver" id="btn-volver-eq" type="button">← Todos los partidos</button>
@@ -2026,6 +2086,9 @@ function enrutar() {
     if (tipo === "liga" && D.ligas[a]) { ligaActual = a; pintarLigas(); pintarLista(); abrirLiga(a); return; }
     if (tipo === "europa") { abrirEuropa(); return; }
     if (tipo === "equipo" && D.ligas[a] && D.ligas[a].equipos[b]) { abrirEquipo(a, b); return; }
+    if (tipo === "jugador" && D.ligas[a] && D.ligas[a].equipos[b] && partes[3]) {
+      if (abrirJugador(a, b, partes[3])) return;
+    }
     if (tipo === "partido" && D.ligas[a]) {
       const p = (D.ligas[a].partidos || []).find(x => idPartido(x) === b);
       if (p) { ligaActual = a; pintarLigas(); abrirDetalle(a, p, true); return; }
@@ -2134,7 +2197,7 @@ const EUROPEAS = {
     Todo va con su explicación en una línea, porque un número suelto como
     «xGBuildup 5,2» no le dice nada a quien no sigue estadística de fútbol.
  */
-function panelJugador(j) {
+function panelJugador(j, conNotas = true) {
   const n90 = j.min / 90;
   const dato = (v, etq, ayuda) => `
     <div class="jd-dato" title="${ayuda}">
@@ -2142,7 +2205,40 @@ function panelJugador(j) {
       <span class="jd-etq">${etq}</span>
     </div>`;
 
-  // Lectura en castellano: lo que de verdad se puede concluir de estos números
+  return `<div class="jug-panel">
+    <p class="jd-titulo">Por cada 90 minutos jugados
+      <span class="pos-num">${dec(n90, 1)} partidos completos</span></p>
+    <div class="jd-rejilla">
+      ${dato(dec(j.g90, 2), "goles", "Goles marcados por cada 90 minutos en el campo")}
+      ${dato(dec(j.a90, 2), "asist.", "Asistencias por cada 90 minutos")}
+      ${dato(dec(j.t90, 2), "tiros", "Tiros por cada 90 minutos")}
+      ${dato(dec(j.kp90, 2), "pases clave", "Pases que acabaron en tiro de un compañero")}
+      ${dato(dec(j.xg90, 2), "xG", "Goles esperados: la calidad de las ocasiones que se fabrica")}
+      ${dato(dec(j.xa90, 2), "xA", "Asistencias esperadas: la calidad de las que da")}
+    </div>
+
+    <p class="jd-titulo">En toda la temporada</p>
+    <div class="jd-rejilla">
+      ${dato(j.g, "goles", "Goles totales, penaltis incluidos")}
+      ${dato(j.npg, "sin penalti", "Goles en juego, descontando los de penalti")}
+      ${dato(dec(j.xg, 1), "xG", "Goles esperados acumulados")}
+      ${dato(dec(j.npxg, 1), "xG sin penalti", "Goles esperados descontando los penaltis")}
+      ${dato(j.kp, "pases clave", "Pases que acabaron en tiro")}
+      ${dato(dec(j.xa, 1), "xA", "Asistencias esperadas acumuladas")}
+      ${dato(dec(j.xgc, 1), "xG de sus jugadas",
+             "Suma del xG de todas las jugadas en las que participó")}
+      ${dato(dec(j.xgb, 1), "sin su remate",
+             "Lo mismo, pero sin contar su tiro ni su último pase: mide construcción")}
+    </div>
+
+    ${conNotas ? (() => { const n = notasJugador(j);
+       return n.length ? `<ul class="jd-notas">${
+         n.map(t => `<li>${t}</li>`).join("")}</ul>` : ""; })() : ""}
+  </div>`;
+}
+
+/** Lectura en castellano: lo que de verdad se puede concluir de estos números. */
+function notasJugador(j) {
   const notas = [];
   const dif = j.g - j.xg;
   if (j.pj >= 5 && Math.abs(dif) >= 2) {
@@ -2172,44 +2268,17 @@ function panelJugador(j) {
       tasas por 90 minutos se disparan con facilidad.`);
   }
 
-  return `<div class="jug-panel">
-    <p class="jd-titulo">Por cada 90 minutos jugados
-      <span class="pos-num">${dec(n90, 1)} partidos completos</span></p>
-    <div class="jd-rejilla">
-      ${dato(dec(j.g90, 2), "goles", "Goles marcados por cada 90 minutos en el campo")}
-      ${dato(dec(j.a90, 2), "asist.", "Asistencias por cada 90 minutos")}
-      ${dato(dec(j.t90, 2), "tiros", "Tiros por cada 90 minutos")}
-      ${dato(dec(j.kp90, 2), "pases clave", "Pases que acabaron en tiro de un compañero")}
-      ${dato(dec(j.xg90, 2), "xG", "Goles esperados: la calidad de las ocasiones que se fabrica")}
-      ${dato(dec(j.xa90, 2), "xA", "Asistencias esperadas: la calidad de las que da")}
-    </div>
-
-    <p class="jd-titulo">En toda la temporada</p>
-    <div class="jd-rejilla">
-      ${dato(j.g, "goles", "Goles totales, penaltis incluidos")}
-      ${dato(j.npg, "sin penalti", "Goles en juego, descontando los de penalti")}
-      ${dato(dec(j.xg, 1), "xG", "Goles esperados acumulados")}
-      ${dato(dec(j.npxg, 1), "xG sin penalti", "Goles esperados descontando los penaltis")}
-      ${dato(j.kp, "pases clave", "Pases que acabaron en tiro")}
-      ${dato(dec(j.xa, 1), "xA", "Asistencias esperadas acumuladas")}
-      ${dato(dec(j.xgc, 1), "xG de sus jugadas",
-             "Suma del xG de todas las jugadas en las que participó")}
-      ${dato(dec(j.xgb, 1), "sin su remate",
-             "Lo mismo, pero sin contar su tiro ni su último pase: mide construcción")}
-    </div>
-
-    ${notas.length ? `<ul class="jd-notas">${
-       notas.map(t => `<li>${t}</li>`).join("")}</ul>` : ""}
-  </div>`;
+  return notas;
 }
 
 /** Foto de un jugador. Si no la hay, una silueta neutra del mismo tamaño,
     para que las filas no se descuadren entre sí. */
-function fotoJug(nombre) {
+function fotoJug(nombre, grande = false) {
+  const cls = "jug-foto" + (grande ? " grande" : "");
   const url = (D.fotos || {})[nombre];
-  if (!url) return `<span class="jug-foto jug-foto-vacia" aria-hidden="true"></span>`;
-  return `<img class="jug-foto" src="${url}" alt="" loading="lazy" decoding="async"
-     onerror="this.className='jug-foto jug-foto-vacia';this.removeAttribute('src')">`;
+  if (!url) return `<span class="${cls} jug-foto-vacia" aria-hidden="true"></span>`;
+  return `<img class="${cls}" src="${url}" alt="" loading="lazy" decoding="async"
+     onerror="this.className='${cls} jug-foto-vacia';this.removeAttribute('src')">`;
 }
 
 /** Logo de una competición, por su clave interna. Vacío si no hay. */
@@ -3185,7 +3254,8 @@ function calcularValor() {
 /* ── Ficha de equipo ──────────────────────────────────────────────────── */
 
 function mostrarVista(id) {
-  ["vista-lista", "vista-detalle", "vista-equipo", "vista-liga", "vista-europa"].forEach(v =>
+  ["vista-lista", "vista-detalle", "vista-equipo", "vista-liga", "vista-europa",
+   "vista-jugador"].forEach(v =>
     document.getElementById(v).classList.toggle("oculto", v !== id));
   window.scrollTo({ top: 0, behavior: "instant" });
 }
@@ -4122,6 +4192,8 @@ document.getElementById("btn-pdf-europa").addEventListener("click", () => window
 document.getElementById("btn-ver-liga").addEventListener("click", () => abrirLiga(ligaActual));
 document.getElementById("btn-volver-liga").addEventListener("click", volverALista);
 document.getElementById("btn-pdf-liga").addEventListener("click", () => window.print());
+document.getElementById("btn-pdf-jug").addEventListener("click", () => window.print());
+document.getElementById("btn-volver-jug").addEventListener("click", () => history.back());
 
 function poblarBuscador() {
   const sel = document.getElementById("buscar-equipo");
@@ -4138,9 +4210,161 @@ function poblarBuscador() {
 }
 
 /** Percentil del equipo en una métrica dentro de su liga (100 = el mejor). */
+/** «2025-26» → «2025/26», que es como se escribe una temporada. */
+function T(t) { return (t || "").replace("-", "/"); }
+
 function percentil(valor, valores, mayorMejor) {
   const peores = valores.filter(v => mayorMejor ? v < valor : v > valor).length;
   return Math.round(peores / (valores.length - 1) * 100);
+}
+
+/* ── Ficha de jugador ─────────────────────────────────────────────────── */
+
+/** Todos los jugadores de una liga que juegan en el mismo puesto.
+
+    La comparación sólo tiene sentido dentro del puesto: un central nunca va a
+    marcar como un delantero, y medirlos con la misma vara no dice nada.
+ */
+function companerosDePuesto(lg, puesto, minimo = 450) {
+  const fuera = [];
+  Object.values(lg.equipos).forEach(e =>
+    (e.jug || []).forEach(j => {
+      if (j.p === puesto && j.min >= minimo) fuera.push(j);
+    }));
+  return fuera;
+}
+
+function abrirJugador(ligaKey, claveEq, nombre) {
+  const lg = D.ligas[ligaKey];
+  const eq = lg && lg.equipos[claveEq];
+  const j = eq && (eq.jug || []).find(x => x.n === nombre);
+  if (!j) return false;
+
+  irA(`/jugador/${ligaKey}/${claveEq}/${encodeURIComponent(nombre)}`, true);
+
+  const PUESTO = { POR: "portero", DEF: "defensa", MED: "centrocampista",
+                   DEL: "delantero", SUP: "suplente" };
+  const n90 = j.min / 90;
+
+  // Cabecera
+  document.getElementById("jf-foto").innerHTML = fotoJug(j.n, true);
+  document.getElementById("jf-equipo").innerHTML =
+    `${escudo(eq.nombre)} ${eq.nombre} · ${lg.nombre}`;
+  document.getElementById("jf-nombre").textContent = j.n;
+  document.getElementById("jf-sello").textContent = T(lg.temp_jug || lg.temp_hist);
+  document.getElementById("jf-resumen").innerHTML =
+    `${PUESTO[j.p] || "jugador"} · <b>${j.pj} partidos</b> y ${j.min} minutos,
+     el equivalente a ${dec(n90, 1)} partidos completos.`;
+
+  document.getElementById("jf-cabecera").innerHTML = [
+    [j.g, j.g === 1 ? "gol" : "goles"],
+    [j.a, j.a === 1 ? "asistencia" : "asistencias"],
+    [dec(j.g90 + j.a90, 2), "G+A por 90"],
+    [dec(j.xg, 1), "xG"], [dec(j.xa, 1), "xA"], [`${j.ta}/${j.tr}`, "TA / TR"],
+  ].map(([v, l]) => `<div class="metrica"><span class="metrica-val">${v}</span>
+       <span class="metrica-lbl">${l}</span></div>`).join("");
+
+  // ── Percentiles contra los de su mismo puesto ──────────────────────────
+  const pares = companerosDePuesto(lg, j.p);
+  const suficientes = pares.length >= 8;
+
+  document.getElementById("jf-pct-sub").innerHTML = suficientes
+    ? `Cada barra lo sitúa entre los <b>${pares.length} ${
+         PUESTO[j.p] ? PUESTO[j.p] + "s" : "jugadores"}</b>
+       de la ${lg.nombre} con al menos 450 minutos. Cuanto más a la derecha, mejor
+       en esa faceta. Se compara por 90 minutos, no en totales, para que quien
+       juega menos no salga perjudicado.`
+    : `No hay suficientes jugadores de su puesto en esta liga para comparar.`;
+
+  const metricas = [
+    ["Goles por 90", x => x.g90, true],
+    ["Ocasiones que se fabrica (xG por 90)", x => x.xg90, true],
+    ["Asistencias por 90", x => x.a90, true],
+    ["Ocasiones que crea (xA por 90)", x => x.xa90, true],
+    ["Pases clave por 90", x => x.kp90, true],
+    ["Tiros por 90", x => x.t90, true],
+    ["Peso en el ataque (xG de sus jugadas)", x => x.xgc / (x.min / 90), true],
+    ["Construcción (sin su remate ni su pase)", x => x.xgb / (x.min / 90), true],
+    ["Pocas tarjetas por 90", x => (x.ta + x.tr * 3) / (x.min / 90), false],
+  ];
+  document.getElementById("jf-percentiles").innerHTML = !suficientes ? "" :
+    metricas.map(([etq, f, may]) => {
+      const vals = pares.map(f);
+      const pc = percentil(f(j), vals, may);
+      const color = pc >= 70 ? "var(--ok)" : pc >= 40 ? "var(--local)" : "var(--visita)";
+      return `<div class="pct-fila">
+          <span class="pct-etq">${etq}</span>
+          <span class="pct-riel"><i style="width:${Math.max(pc, 3)}%;background:${color}"></i></span>
+          <span class="pct-val">${pc} / 100</span>
+        </div>`;
+    }).join("");
+
+  // ── Producido frente a esperado ────────────────────────────────────────
+  const W = 300, H = 132;
+  const maxV = Math.max(j.g, j.xg, j.a, j.xa, 1) * 1.15;
+  const barra = (y, v, color, etq) => {
+    const w = Math.max((v / maxV) * (W - 118), 1);
+    return `<rect x="112" y="${y}" width="${w.toFixed(1)}" height="17" rx="3" fill="${color}"></rect>
+            <text x="106" y="${y + 13}" text-anchor="end" font-size="10.5"
+              font-family="var(--sans)" fill="var(--ink-2)">${etq}</text>
+            <text x="${(116 + w).toFixed(1)}" y="${y + 13}" font-size="10.5"
+              font-family="var(--mono)" fill="var(--ink-3)">${dec(v, 1)}</text>`;
+  };
+  document.getElementById("jf-g-rendimiento").innerHTML = `
+    <svg viewBox="0 0 ${W} ${H}" width="100%" role="img"
+      aria-label="Goles y asistencias frente a lo esperado">
+      ${barra(10, j.g, "var(--ok)", "Goles")}
+      ${barra(33, j.xg, "var(--local)", "xG")}
+      ${barra(66, j.a, "var(--ok)", "Asistencias")}
+      ${barra(89, j.xa, "var(--local)", "xA")}
+    </svg>`;
+
+  // ── Mapa: xG por 90 frente a xA por 90 ─────────────────────────────────
+  document.getElementById("jf-g-mapa").innerHTML = suficientes
+    ? mapaJugadores(pares, j)
+    : `<p class="jug-vacio">Sin comparables suficientes.</p>`;
+
+  // ── Todos los números, reutilizando el panel ya escrito ────────────────
+  document.getElementById("jf-detalle").innerHTML = panelJugador(j, false);
+
+  const notas = notasJugador(j);
+  document.getElementById("jf-bloque-notas").classList.toggle("oculto", !notas.length);
+  document.getElementById("jf-notas").innerHTML =
+    `<ul class="jd-notas">${notas.map(t => `<li>${t}</li>`).join("")}</ul>`;
+
+  mostrarVista("vista-jugador");
+  return true;
+}
+
+/** Nube de jugadores del mismo puesto, con el elegido resaltado. */
+function mapaJugadores(pares, elegido) {
+  const W = 300, H = 210, M = 34;
+  const xs = pares.map(x => x.xg90), ys = pares.map(x => x.xa90);
+  const maxX = Math.max(...xs, elegido.xg90) * 1.12 || 1;
+  const maxY = Math.max(...ys, elegido.xa90) * 1.12 || 1;
+  const px = v => M + (v / maxX) * (W - M - 12);
+  const py = v => H - M - (v / maxY) * (H - M - 14);
+
+  const puntos = pares.filter(x => x.n !== elegido.n).map(x =>
+    `<circle cx="${px(x.xg90).toFixed(1)}" cy="${py(x.xa90).toFixed(1)}" r="2.6"
+       fill="var(--ink-3)" opacity=".38"><title>${x.n}</title></circle>`).join("");
+
+  const cx = px(elegido.xg90), cy = py(elegido.xa90);
+  return `<svg viewBox="0 0 ${W} ${H}" width="100%" role="img"
+      aria-label="Mapa de ocasiones creadas para sí mismo y para los demás">
+    <line x1="${M}" y1="${H - M}" x2="${W - 8}" y2="${H - M}" stroke="var(--line)"></line>
+    <line x1="${M}" y1="12" x2="${M}" y2="${H - M}" stroke="var(--line)"></line>
+    ${puntos}
+    <circle cx="${cx.toFixed(1)}" cy="${cy.toFixed(1)}" r="5.5" fill="var(--acento)"></circle>
+    <text x="${cx.toFixed(1)}" y="${(cy - 10).toFixed(1)}" text-anchor="middle"
+      font-size="10.5" font-family="var(--sans)" font-weight="600"
+      fill="var(--ink)">${elegido.n.split(" ").at(-1)}</text>
+    <text x="${W - 8}" y="${H - M + 16}" text-anchor="end" font-size="10"
+      font-family="var(--mono)" fill="var(--ink-3)">xG por 90 →</text>
+    <text x="${M - 6}" y="18" text-anchor="end" font-size="10"
+      font-family="var(--mono)" fill="var(--ink-3)" transform="rotate(-90 ${M - 6} 18)"
+      >xA por 90 →</text>
+  </svg>`;
 }
 
 function abrirEquipo(ligaKey, clave) {
@@ -4275,18 +4499,17 @@ function abrirEquipo(ligaKey, clave) {
     ? `<div class="jug-cab" style="grid-template-columns:26px 1fr 52px 52px 52px">
          <span></span><span>Jugador</span><span>G+A</span><span>Min/PJ</span><span>Tarj.</span></div>` +
       jug.map(j => `
-        <details class="jug-det">
-          <summary class="jug-fila" style="grid-template-columns:26px 1fr 52px 52px 52px">
-            ${fotoJug(j.n)}
-            <span class="jug-nombre">${j.n}${j.baja
-              ? `<span class="etq-baja ${j.baja}">${ETQ_BAJA[j.baja][0]}</span>` : ""}
-              <small>${j.p} · ${j.pj} partidos · ${j.t} tiros</small></span>
-            <span class="jug-gol">${j.g}+${j.a}</span>
-            <span class="jug-ta">${Math.round(j.min / Math.max(j.pj, 1))}</span>
-            <span class="jug-ta">${j.ta}${j.tr ? "/" + j.tr : ""}</span>
-          </summary>
-          ${panelJugador(j)}
-        </details>`).join("")
+        <a class="jug-fila jug-enlace"
+           style="grid-template-columns:26px 1fr 52px 52px 52px"
+           href="#/jugador/${ligaKey}/${clave}/${encodeURIComponent(j.n)}">
+          ${fotoJug(j.n)}
+          <span class="jug-nombre">${j.n}${j.baja
+            ? `<span class="etq-baja ${j.baja}">${ETQ_BAJA[j.baja][0]}</span>` : ""}
+            <small>${j.p} · ${j.pj} partidos · ${j.t} tiros</small></span>
+          <span class="jug-gol">${j.g}+${j.a}</span>
+          <span class="jug-ta">${Math.round(j.min / Math.max(j.pj, 1))}</span>
+          <span class="jug-ta">${j.ta}${j.tr ? "/" + j.tr : ""}</span>
+        </a>`).join("")
     : `<p class="jug-vacio">Sin fichas de jugadores para este equipo.</p>`;
 
   // Próximos partidos
