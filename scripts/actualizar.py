@@ -605,9 +605,16 @@ def main() -> None:
     previo = {}
     previo_europa = None
     if JSON_SALIDA.exists():
-        _guardado = json.loads(JSON_SALIDA.read_text(encoding="utf-8"))
-        previo = _guardado.get("ligas", {})
-        previo_europa = _guardado.get("europa")
+        # Sólo sirve de respaldo para el calendario. Si estuviera ilegible —por
+        # ejemplo con marcas de conflicto de un git a medias— no es motivo para
+        # abortar: se regenera entero de todas formas.
+        try:
+            _guardado = json.loads(JSON_SALIDA.read_text(encoding="utf-8"))
+            previo = _guardado.get("ligas", {})
+            previo_europa = _guardado.get("europa")
+        except (json.JSONDecodeError, OSError) as e:
+            print(f"    [aviso] {JSON_SALIDA.name} ilegible ({type(e).__name__}); "
+                  f"se regenera desde cero", file=sys.stderr)
 
     salida = {"generado": hoy.isoformat(), "temporada": etiqueta(actual), "ligas": {}}
 
