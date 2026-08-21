@@ -35,6 +35,7 @@ import simular
 import aciertos as mod_aciertos
 import escudos as mod_escudos
 import fotos as mod_fotos
+import ligas_goles as mod_goles
 
 RAIZ = Path(__file__).resolve().parent.parent
 WEB = RAIZ / "web"
@@ -838,6 +839,97 @@ def main() -> None:
             "ascendidos": ascendidos,
         }
         print(f"    {len(equipos)} equipos · ventaja local {math.exp(gamma):.3f}x")
+
+    # ── Ligas sin xG ───────────────────────────────────────────────────── #
+    # Portugal, Países Bajos, Brasil y demás no tienen ocasiones de gol en
+    # ninguna fuente abierta, así que el modelo se ajusta sobre los goles. El
+    # resto del cálculo es idéntico porque los partidos llegan con la misma
+    # forma; lo único que cambia es que se marcan con «sin_xg» para que la web
+    # lo diga y no ofrezca lo que no puede.
+    print("")
+    print("Ligas sin xG")
+    for clave, (nombre, pais, *_resto) in mod_goles.LIGAS.items():
+        partidos, anio = mod_goles.historial(clave, ANIOS_HISTORIA)
+        if len(partidos) < 150:
+            print(f"    {nombre}: sin datos suficientes ({len(partidos)} partidos)")
+            continue
+
+        temp_act = mod_goles.etiqueta_temporada(clave, anio)
+        p_act = mod_goles.descargar(clave, anio)
+        p_ant = mod_goles.descargar(clave, anio - 1)
+
+        # El calendario puede estar en el archivo del año en curso —si la
+        # temporada va por la mitad— o en el siguiente, si ya se publicó.
+        futuros = mod_goles.calendario(clave, anio, hoy)
+        anio_cal = anio
+        if not futuros:
+            siguiente = anio + 1
+            futuros = mod_goles.calendario(clave, siguiente, hoy)
+            if futuros:
+                anio_cal = siguiente
+        if not futuros:
+            print(f"    {nombre}: sin partidos por jugar; la fuente aún no "
+                  f"publica la temporada nueva")
+            continue
+
+        atq, dfn, gamma = ajustar_fuerzas(partidos, hoy)
+        referencia = p_act if len(p_act) >= 50 else (p_ant or p_act)
+        ag = agregar(referencia)
+        hist = historial(referencia, set(atq))
+
+        pj_ventana: dict[str, int] = {}
+        for m in partidos:
+            for eq in (m["h"]["title"], m["a"]["title"]):
+                pj_ventana[eq] = pj_ventana.get(eq, 0) + 1
+
+        equipos = {}
+        for e in atq:
+            if e not in ag or pj_ventana.get(e, 0) < MIN_PARTIDOS:
+                continue
+            equipos[e] = {"nombre": BONITO.get(e, e), "clave": e, "nuevo": False,
+                          "atq": round(atq[e], 5), "def": round(dfn[e], 5), **ag[e],
+                          "jug": [], "hist": hist.get(e, [])}
+
+        indice = {normalizar(e): e for e in equipos}
+        base = perfil_ascendido(equipos)
+        partidos_web, sin_casar = [], set()
+        for m in futuros:
+            ids = []
+            for bruto in (m["local"], m["visita"]):
+                eq = emparejar(bruto, indice)
+                if eq is None:
+                    eq = bruto
+                    if eq not in equipos:
+                        equipos[eq] = {"nombre": bruto, "clave": eq,
+                                       "nuevo": True, "jug": [], **base}
+                        sin_casar.add(bruto)
+                ids.append(eq)
+            partidos_web.append({"j": "", "fecha": m["fecha"], "hora": m["hora"],
+                                 "l": ids[0], "v": ids[1]})
+        partidos_web = partidos_web[:60]
+
+        del_calendario = {p["l"] for p in partidos_web} | {p["v"] for p in partidos_web}
+        plantel = {k: v for k, v in equipos.items() if k in del_calendario}
+        pron = simular.simular_liga(plantel, gamma, RHO,
+                                    descensos=3 if len(plantel) >= 18 else 2)
+        previos = [m for m in partidos if m not in referencia]
+        hist_aciertos = mod_aciertos.historial_aciertos(
+            previos, referencia, XI, RHO, BONITO)
+
+        salida["ligas"][clave] = {
+            "nombre": nombre, "pais": pais, "sin_xg": True,
+            "pca": componentes_principales(equipos), "historico": [],
+            "pronostico": pron, "aciertos": hist_aciertos,
+            "temp_fuerzas": temp_act, "temp_hist": temp_act, "temp_jug": "",
+            "nota_temp": f"{len(p_act)} partidos jugados",
+            "gamma": round(gamma, 5), "rho": RHO,
+            "equipos": equipos, "partidos": partidos_web,
+            "ascendidos": sorted(sin_casar), "nivel_europeo": None,
+        }
+        print(f"    {nombre} ({pais}): {len(partidos)} partidos, "
+              f"{len(equipos)} equipos, {len(partidos_web)} por jugar"
+              + (f" · favorito {pron[0]['nombre']} ({pron[0]['titulo']:.0f} %)"
+                 if pron else ""))
 
     # ── Competiciones europeas ─────────────────────────────────────────── #
     # Se calculan al final porque el desnivel entre ligas necesita las fuerzas

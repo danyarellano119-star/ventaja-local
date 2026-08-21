@@ -1164,6 +1164,8 @@ details .cuerpo strong { color: var(--ink); }
         </span>
       </div>
 
+      <div class="nota-caja oculto" id="aviso-sin-xg"></div>
+
       <div class="filtros" id="filtros">
         <button class="filtro" type="button" data-f="todos" aria-pressed="true">Todos</button>
         <button class="filtro" type="button" data-f="semana" aria-pressed="false">Esta semana</button>
@@ -2510,11 +2512,22 @@ function partidosEuropeos(clave) {
 function pintarLigas() {
   const sel = document.getElementById("sel-competicion");
   if (!sel.options.length) {
+    // Las ligas con xG y las que sólo tienen goles van en grupos distintos:
+    // sus probabilidades no se calculan igual y conviene que se note.
     const gLigas = document.createElement("optgroup");
-    gLigas.label = "Ligas nacionales";
-    Object.entries(D.ligas).forEach(([k, lg]) =>
+    gLigas.label = "Ligas con datos de ocasiones";
+    Object.entries(D.ligas).filter(([, lg]) => !lg.sin_xg).forEach(([k, lg]) =>
       gLigas.appendChild(new Option(`${lg.nombre} · ${lg.pais}`, k)));
     sel.appendChild(gLigas);
+
+    const otras = Object.entries(D.ligas).filter(([, lg]) => lg.sin_xg);
+    if (otras.length) {
+      const gOtras = document.createElement("optgroup");
+      gOtras.label = "Otras ligas (sólo goles)";
+      otras.forEach(([k, lg]) =>
+        gOtras.appendChild(new Option(`${lg.nombre} · ${lg.pais}`, k)));
+      sel.appendChild(gOtras);
+    }
 
     const gEuro = document.createElement("optgroup");
     gEuro.label = "Competiciones europeas";
@@ -2536,6 +2549,19 @@ function pintarLigas() {
   // El panorama de liga sólo tiene sentido en una liga nacional
   document.getElementById("btn-ver-liga").classList.toggle("oculto", euro);
   ponerLogo("logo-comp", logoComp(ligaActual));
+
+  // Si la liga no tiene ocasiones de gol, hay que decirlo antes de que nadie
+  // apueste creyendo que el cálculo es el mismo.
+  const avisoXg = document.getElementById("aviso-sin-xg");
+  const sinXg = !euro && (D.ligas[ligaActual] || {}).sin_xg;
+  avisoXg.classList.toggle("oculto", !sinXg);
+  if (sinXg) {
+    avisoXg.innerHTML = `<b>Esta liga se calcula con goles, no con ocasiones.</b>
+      No existe una fuente abierta de ocasiones de gol fuera de las cinco
+      grandes ligas europeas. El modelo es el mismo y las probabilidades son
+      válidas, pero afinan algo menos que en la Premier o LaLiga. Tampoco hay
+      estadísticas de jugadores para esta competición.`;
+  }
 
   if (euro) {
     const n = partidosEuropeos(ligaActual).length;
@@ -2807,7 +2833,14 @@ function abrirDetalle(ligaKey, p, desdeRuta = false) {
     ["Ocasiones concedidas por partido", a.xga / pj, b.xga / pj, false, v => dec(v, 2)],
     ["Diferencia de ocasiones", a.xg - a.xga, b.xg - b.xga, true, v => (v > 0 ? "+" : "") + dec(v, 1)],
     ["Goles de más sobre lo esperado", a.gf - a.xg, b.gf - b.xg, true, v => (v > 0 ? "+" : "") + dec(v, 1)],
-  ];
+  ].filter(f => !sinXg(ligaActual) || !/ocasion|esperado/i.test(f[0]));
+
+  if (sinXg(ligaActual)) {
+    filas.push(["Goles por partido", a.gf / pj, b.gf / pj, true, v => dec(v, 2)]);
+    filas.push(["Goles encajados por partido", a.gc / pj, b.gc / pj, false, v => dec(v, 2)]);
+    filas.push(["Diferencia de goles", a.gf - a.gc, b.gf - b.gc, true,
+                v => (v > 0 ? "+" : "") + v]);
+  }
 
   document.getElementById("d-comparacion").innerHTML = filas.map(([etq, va, vb, may, f]) => {
     const min = Math.min(va, vb, 0);
@@ -4419,6 +4452,10 @@ function poblarBuscador() {
 /** «2025-26» → «2025/26», que es como se escribe una temporada. */
 function T(t) { return (t || "").replace("-", "/"); }
 
+/** ¿La liga carece de datos de ocasiones? Entonces su xG son los goles, y
+    enseñar ambas cosas sería repetir la misma cifra con dos nombres. */
+function sinXg(ligaKey) { return !!(D.ligas[ligaKey] || {}).sin_xg; }
+
 function percentil(valor, valores, mayorMejor) {
   const peores = valores.filter(v => mayorMejor ? v < valor : v > valor).length;
   return Math.round(peores / (valores.length - 1) * 100);
@@ -4707,7 +4744,7 @@ function abrirEquipo(ligaKey, clave) {
     ["Fuerza de ataque", e => Math.exp(e.atq), true],
     ["Solidez defensiva", e => Math.exp(-e.def), false],
     ["Definición (goles sobre lo esperado)", e => e.gf - e.xg, true],
-  ];
+  ].filter(m => !sinXg(ligaKey) || !/ocasion|esperado/i.test(m[0]));
   document.getElementById("eq-percentiles").innerHTML = metricas.map(([etq, f, may]) => {
     const vals = rivales.map(f);
     const p = percentil(f(eq), vals, may);
@@ -4718,6 +4755,10 @@ function abrirEquipo(ligaKey, clave) {
         <span class="pct-val">${p} / 100</span>
       </div>`;
   }).join("");
+
+  // Sin ocasiones, la tarjeta compararía los goles consigo mismos
+  const cajaRend = document.getElementById("eq-g-rendimiento").closest(".gr-caja");
+  if (cajaRend) cajaRend.classList.toggle("oculto", sinXg(ligaKey));
 
   // Gráfico goles vs ocasiones
   const W = 300, H = 120;
@@ -4779,7 +4820,10 @@ function abrirEquipo(ligaKey, clave) {
           <span class="jug-ta">${Math.round(j.min / Math.max(j.pj, 1))}</span>
           <span class="jug-ta">${j.ta}${j.tr ? "/" + j.tr : ""}</span>
         </a>`).join("")
-    : `<p class="jug-vacio">Sin fichas de jugadores para este equipo.</p>`;
+    : `<p class="jug-vacio">${sinXg(ligaKey)
+        ? `No hay estadísticas de jugadores en esta liga: la fuente de la que
+           salen los datos sólo publica resultados de partidos.`
+        : "Sin fichas de jugadores para este equipo."}</p>`;
 
   // Próximos partidos
   const suyos = lg.partidos.filter(p => p.l === clave || p.v === clave);

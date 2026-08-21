@@ -36,3 +36,4 @@ subir.bat
 # La caché de fotos sí se publica: sin ella, cada actualización automática
 # tendría que volver a consultar los 768 jugadores desde cero.
 !datos/fotos_jugadores.json
+!datos/escudos.json

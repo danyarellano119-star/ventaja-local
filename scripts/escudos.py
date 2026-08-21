@@ -9,10 +9,18 @@ Saint-Germain».
 
 from __future__ import annotations
 
+import json
+import os
 import re
 import unicodedata
+from pathlib import Path
 
 import requests
+
+# Si la última consulta salió bien, queda aquí. Sirve de red: la API de GitHub
+# sin credenciales admite 60 peticiones por hora, y quedarse sin ellas dejaría
+# la web entera sin escudos hasta la siguiente ejecución.
+CACHE = Path(__file__).resolve().parent.parent / "datos" / "escudos.json"
 
 REPO = "luukhopman/football-logos"
 CDN = f"https://cdn.jsdelivr.net/gh/{REPO}@master/logos"
@@ -23,6 +31,12 @@ CARPETAS = {
     "bundesliga": "Germany - Bundesliga",
     "seriea": "Italy - Serie A",
     "ligue1": "France - Ligue 1",
+    # Ligas sin xG que sí tienen escudos en el repositorio. Brasil, Argentina,
+    # Colombia y Turquía no están, y sus equipos usan el distintivo de colores.
+    "eredivisie": "Netherlands - Eredivisie",
+    "primeira": "Portugal - Liga Portugal",
+    "superleague": "Greece - Super League 1",
+    "premiership": "Scotland - Scottish Premiership",
 }
 
 # Palabras que sobran al comparar nombres de clubes
@@ -61,17 +75,60 @@ def _clave(nombre: str) -> str:
     return " ".join(p for p in s.split() if p not in _RUIDO and len(p) > 1)
 
 
+_ARBOL: dict[str, dict[str, str]] | None = None
+
+
+def _arbol() -> dict[str, dict[str, str]]:
+    """Todos los archivos del repositorio, agrupados por carpeta.
+
+    Se pide el árbol entero de una vez en lugar de listar carpeta por carpeta:
+    la API de GitHub sin credenciales admite 60 peticiones por hora, y con una
+    llamada por liga se agotaba a mitad de ejecución dejando equipos sin escudo.
+    """
+    global _ARBOL
+    if _ARBOL is not None:
+        return _ARBOL
+
+    _ARBOL = {}
+    try:
+        # En GitHub Actions hay credenciales disponibles y el límite sube de 60
+        # peticiones por hora a 5.000.
+        cab = {}
+        ficha = os.environ.get("GITHUB_TOKEN")
+        if ficha:
+            cab["Authorization"] = f"Bearer {ficha}"
+        r = requests.get(
+            f"https://api.github.com/repos/{REPO}/git/trees/master?recursive=1",
+            headers=cab, timeout=60)
+        if r.status_code == 200:
+            for hoja in r.json().get("tree", []):
+                ruta = hoja.get("path", "")
+                if not ruta.startswith("logos/") or not ruta.lower().endswith(".png"):
+                    continue
+                partes = ruta.split("/")
+                if len(partes) != 3:
+                    continue
+                _, carpeta, archivo = partes
+                _ARBOL.setdefault(carpeta, {})[_clave(archivo.rsplit(".", 1)[0])] = archivo
+    except Exception as e:
+        print(f"    [aviso] no se pudo leer el repositorio de escudos: {type(e).__name__}")
+
+    if _ARBOL:
+        CACHE.parent.mkdir(parents=True, exist_ok=True)
+        CACHE.write_text(json.dumps(_ARBOL, ensure_ascii=False), encoding="utf-8")
+    elif CACHE.exists():
+        # Sin respuesta: se tira de lo guardado antes que dejarlo todo vacío
+        try:
+            _ARBOL = json.loads(CACHE.read_text(encoding="utf-8"))
+            print("    [aviso] usando la lista de escudos guardada")
+        except Exception:
+            pass
+    return _ARBOL
+
+
 def _listar(carpeta: str) -> dict[str, str]:
     """Archivos de escudos de una liga, indexados por nombre normalizado."""
-    url = f"https://api.github.com/repos/{REPO}/contents/logos/{carpeta}"
-    try:
-        r = requests.get(url, timeout=45)
-        if r.status_code != 200:
-            return {}
-        return {_clave(x["name"].rsplit(".", 1)[0]): x["name"]
-                for x in r.json() if x["name"].lower().endswith(".png")}
-    except Exception:
-        return {}
+    return _arbol().get(carpeta, {})
 
 
 def mapear(ligas: dict) -> dict[str, str]:
@@ -128,6 +185,9 @@ _ID_COMPETICION = {
     "seriea": 4332, "ligue1": 4334,
     "Champions League": 4480, "Europa League": 4481,
     "Conference League": 5071,
+    "eredivisie": 4337, "primeira": 4344, "brasileirao": 4351,
+    "superlig": 4339, "superleague": 4336, "premiership": 4330,
+    "argentina": 4406, "colombia": 4497,
 }
 
 # Último enlace conocido de cada uno. Sirve de red por si la consulta falla:
