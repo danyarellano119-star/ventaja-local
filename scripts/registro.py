@@ -35,8 +35,16 @@ def _clave(texto: str) -> str:
     return " ".join(s.replace("-", " ").replace(".", " ").split())
 
 
-def _id(liga: str, fecha: str, local: str, visita: str) -> str:
-    return f"{liga}|{fecha}|{_clave(local)}|{_clave(visita)}"
+def _id(liga: str, fecha: str, local: str, visita: str, norm=None) -> str:
+    """Identificador estable de un partido.
+
+    Las dos fuentes escriben los clubes distinto —«Hull» frente a «Hull City
+    AFC»—, así que el nombre se reduce con el mismo normalizador que usa el
+    resto del programa. Sin eso, el pronóstico y el resultado del mismo partido
+    acababan en dos fichas separadas y ninguna se resolvía nunca.
+    """
+    f = norm or _clave
+    return f"{liga}|{fecha}|{f(local)}|{f(visita)}"
 
 
 def cargar() -> dict:
@@ -55,7 +63,7 @@ def guardar(registro: dict) -> None:
 
 
 def anotar_pronosticos(registro: dict, clave_liga: str, nombre_liga: str,
-                       partidos: list[dict], equipos: dict) -> int:
+                       partidos: list[dict], equipos: dict, norm=None) -> int:
     """Apunta los pronósticos de los partidos que aún no estuvieran.
 
     Devuelve cuántos se han añadido. Los que ya existían se dejan intactos:
@@ -90,14 +98,16 @@ def anotar_pronosticos(registro: dict, clave_liga: str, nombre_liga: str,
                     continue
         elif p["fecha"] <= hoy:
             continue
+        # Para mostrar se guarda el nombre bonito; para identificar, la clave.
         local = equipos.get(p["l"], {}).get("nombre", p["l"])
         visita = equipos.get(p["v"], {}).get("nombre", p["v"])
-        ident = _id(clave_liga, p["fecha"], local, visita)
+        ident = _id(clave_liga, p["fecha"], p["l"], p["v"], norm)
         if ident in registro:
             continue
         registro[ident] = {
             "liga": nombre_liga, "clave_liga": clave_liga,
             "fecha": p["fecha"], "l": local, "v": visita,
+            "clave_l": p["l"], "clave_v": p["v"],
             "pl": round(pr[0], 4), "pe": round(pr[1], 4), "pv": round(pr[2], 4),
             "publicado": ahora,
         }
@@ -106,17 +116,33 @@ def anotar_pronosticos(registro: dict, clave_liga: str, nombre_liga: str,
 
 
 def resolver(registro: dict, clave_liga: str, jugados: list[dict],
-             bonito: dict) -> int:
+             norm=None, mismo=None) -> int:
     """Anota el resultado de los partidos que ya se jugaron.
 
     Sólo toca los que aún no tuvieran resultado; lo demás queda como estaba.
+
+    Si el identificador exacto no aparece se busca por fecha con el comparador
+    tolerante, porque el pronóstico pudo guardarse con el nombre del calendario
+    («Hull City AFC») y el resultado llega con el de las estadísticas («Hull»).
     """
+    pendientes_por_dia: dict[str, list] = {}
+    if mismo:
+        for k, f in registro.items():
+            if f.get("clave_liga") == clave_liga and "real" not in f:
+                pendientes_por_dia.setdefault(f["fecha"], []).append(k)
+
     resueltos = 0
     for m in jugados:
-        local = bonito.get(m["h"]["title"], m["h"]["title"])
-        visita = bonito.get(m["a"]["title"], m["a"]["title"])
-        ident = _id(clave_liga, m["datetime"][:10], local, visita)
+        ident = _id(clave_liga, m["datetime"][:10],
+                    m["h"]["title"], m["a"]["title"], norm)
         ficha = registro.get(ident)
+        if ficha is None and mismo:
+            for k in pendientes_por_dia.get(m["datetime"][:10], []):
+                cand = registro[k]
+                if (mismo(cand["clave_l"], m["h"]["title"])
+                        and mismo(cand["clave_v"], m["a"]["title"])):
+                    ficha = cand
+                    break
         if not ficha or "real" in ficha:
             continue
         gl, gv = int(m["goals"]["h"]), int(m["goals"]["a"])

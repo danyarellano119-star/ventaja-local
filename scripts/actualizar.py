@@ -349,6 +349,24 @@ def detectar_bajas(partidos: list[dict], hoy: date, ventana: int = 3) -> dict[st
     return estado
 
 
+def mismo_equipo(a: str, b: str) -> bool:
+    """¿Estos dos nombres son del mismo club?
+
+    Understat y openfootball recortan distinto: «Ipswich» frente a «Ipswich Town
+    FC», «Hull» frente a «Hull City AFC». Normalizar no basta porque sobreviven
+    palabras como «town» o «city», así que se acepta también que uno empiece por
+    el otro. El mínimo de cuatro letras evita que «Leeds» y «Le Havre» se
+    confundan por compartir principio.
+    """
+    x, y = normalizar(a), normalizar(b)
+    if not x or not y:
+        return False
+    if x == y:
+        return True
+    corto, largo = (x, y) if len(x) <= len(y) else (y, x)
+    return len(corto) >= 4 and largo.startswith(corto)
+
+
 def bajar_calendario(codigo_of: str, anio: int) -> list[dict]:
     """Partidos sin jugar de openfootball. Lista vacía si la temporada no está."""
     url = (f"https://cdn.jsdelivr.net/gh/openfootball/football.json@master/"
@@ -820,14 +838,22 @@ def main() -> None:
             # para saber qué se ha jugado ya. Understat sí va al día: se cruzan
             # sus partidos con el calendario y se descartan los repetidos, más
             # todo lo que tenga fecha pasada.
-            jugados = {(m["datetime"][:10],
-                        normalizar(m["h"]["title"]), normalizar(m["a"]["title"]))
-                       for m in p_act}
+            jugados_por_dia: dict[str, list] = {}
+            for m in p_act:
+                jugados_por_dia.setdefault(m["datetime"][:10], []).append(
+                    (m["h"]["title"], m["a"]["title"]))
             antes = len(futuros)
+            # Se compara con la clave del equipo, no con su nombre para mostrar.
+            # «Nottingham Forest» se muestra como «Nottingham» y «Hull» llega del
+            # calendario como «Hull City AFC»: normalizando las claves ambas se
+            # reducen a lo mismo, mientras que mezclar nombre y clave no casaba
+            # jamás y dejaba en la lista partidos ya jugados.
+            def ya_jugado(f):
+                return any(mismo_equipo(f["l"], l) and mismo_equipo(f["v"], v)
+                           for l, v in jugados_por_dia.get(f["fecha"], []))
+
             futuros = [f for f in futuros
-                       if f["fecha"] >= hoy.isoformat()
-                       and (f["fecha"], normalizar(equipos.get(f["l"], {}).get("nombre", f["l"])),
-                            normalizar(equipos.get(f["v"], {}).get("nombre", f["v"]))) not in jugados]
+                       if f["fecha"] >= hoy.isoformat() and not ya_jugado(f)]
             if antes != len(futuros):
                 print(f"    {antes - len(futuros)} partidos ya jugados fuera de la lista")
 
@@ -903,8 +929,8 @@ def main() -> None:
             mu = math.exp(ev["atq"] - el["def"])
             pw["prob"] = mod_aciertos._prob_1x2(lam, mu, RHO)
         reg_nuevos += mod_registro.anotar_pronosticos(
-            reg, clave, nombre, partidos_web, equipos)
-        reg_resueltos += mod_registro.resolver(reg, clave, p_act, BONITO)
+            reg, clave, nombre, partidos_web, equipos, normalizar)
+        reg_resueltos += mod_registro.resolver(reg, clave, p_act, normalizar, mismo_equipo)
         for pw in partidos_web:
             pw.pop("prob", None)      # sólo hacía falta para el registro
 
@@ -1015,8 +1041,8 @@ def main() -> None:
             mu = math.exp(ev["atq"] - el["def"])
             pw["prob"] = mod_aciertos._prob_1x2(lam, mu, RHO)
         reg_nuevos += mod_registro.anotar_pronosticos(
-            reg, clave, nombre, partidos_web, equipos)
-        reg_resueltos += mod_registro.resolver(reg, clave, p_act, BONITO)
+            reg, clave, nombre, partidos_web, equipos, normalizar)
+        reg_resueltos += mod_registro.resolver(reg, clave, p_act, normalizar, mismo_equipo)
         for pw in partidos_web:
             pw.pop("prob", None)
 
