@@ -24,7 +24,8 @@ from __future__ import annotations
 import json
 import math
 import sys
-from datetime import date, datetime, timezone
+from datetime import date, datetime, time as _hora, timezone
+from zoneinfo import ZoneInfo
 from pathlib import Path
 
 import requests
@@ -63,6 +64,43 @@ ANIOS_GRAFICOS = 12   # temporadas que se muestran en los panoramas
 PRIMER_ANIO = 2014    # Understat no publica xG anterior a esta temporada
 MIN_PARTIDOS = 10     # con menos, las fuerzas de un equipo son puro ruido
 SITIO = "https://danyarellano119-star.github.io/ventaja-local/"
+
+# Las fuentes dan la hora local del estadio, sin decir de qué zona es. Sin esto
+# no hay forma de convertirla: «20:30» no significa nada hasta saber dónde.
+ZONAS = {
+    "premier": "Europe/London", "laliga": "Europe/Madrid",
+    "bundesliga": "Europe/Berlin", "seriea": "Europe/Rome",
+    "ligue1": "Europe/Paris", "eredivisie": "Europe/Amsterdam",
+    "primeira": "Europe/Lisbon", "superlig": "Europe/Istanbul",
+    "superleague": "Europe/Athens", "premiership": "Europe/London",
+    "eliteserien": "Europe/Oslo", "allsvenskan": "Europe/Stockholm",
+    "veikkausliiga": "Europe/Helsinki", "irlanda": "Europe/Dublin",
+    "islandia": "Atlantic/Reykjavik", "estonia": "Europe/Tallinn",
+    "letonia": "Europe/Riga", "lituania": "Europe/Vilnius",
+    "georgia": "Asia/Tbilisi", "brasileirao": "America/Sao_Paulo",
+    "argentina": "America/Argentina/Buenos_Aires", "colombia": "America/Bogota",
+    "ecuador": "America/Guayaquil", "paraguay": "America/Asuncion",
+    "japon": "Asia/Tokyo", "china": "Asia/Shanghai", "nigeria": "Africa/Lagos",
+}
+
+
+def a_utc(fecha: str, hora: str, clave_liga: str) -> str:
+    """Pasa la hora local del estadio a UTC, para que la web la traduzca sola.
+
+    Se hace aquí y no en el navegador porque el cálculo necesita saber la zona
+    del país y si ese día había horario de verano, y eso lo resuelve Python con
+    la base de datos del sistema sin traerse nada al cliente.
+    """
+    zona = ZONAS.get(clave_liga)
+    if not zona or not fecha:
+        return ""
+    try:
+        h, m = (hora or "00:00").split(":")[:2]
+        local = datetime.combine(date.fromisoformat(fecha),
+                                 _hora(int(h), int(m)), ZoneInfo(zona))
+        return local.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%MZ")
+    except Exception:
+        return ""
 RHO = -0.109     # corrección Dixon-Coles de marcadores bajos
 
 # Nombres de Understat que conviene acortar o acentuar al mostrarlos
@@ -721,6 +759,9 @@ def main() -> None:
         # temporada tenga recorrido, describe mejor al equipo la anterior.
         referencia = p_act if len(p_act) >= 50 else (p_ant or p_act)
         ag = agregar(referencia)
+        ag_act = agregar(p_act)
+        ag_ant = agregar(p_ant)
+        ag_ambas = agregar(p_ant + p_act)
 
         # El historial se toma de la temporada más reciente con partidos
         hist = historial(referencia, set(atq))
@@ -745,7 +786,12 @@ def main() -> None:
                 continue
             equipos[e] = {"nombre": BONITO.get(e, e), "clave": e, "nuevo": False,
                           "atq": round(atq[e], 5), "def": round(dfn[e], 5), **ag[e],
-                          "jug": plantillas.get(e, []), "hist": hist.get(e, [])}
+                          "jug": plantillas.get(e, []), "hist": hist.get(e, []),
+                          # Las mismas cifras separadas por temporada, para que
+                          # la web deje elegir: lo que va de curso, lo de la
+                          # temporada pasada, o las dos sumadas.
+                          "temp": {"act": ag_act.get(e), "ant": ag_ant.get(e),
+                                   "ambas": ag_ambas.get(e)}}
 
         # Calendario: openfootball si está; si no, el que ya hubiera
         crudos = bajar_calendario(cod_of, actual)
@@ -765,7 +811,25 @@ def main() -> None:
                     ids.append(eq)
                 futuros.append({"j": m["j"], "fecha": m["fecha"], "hora": m["hora"],
                                 "l": ids[0], "v": ids[1]})
+
+            # openfootball tarda días en cargar los marcadores, así que no sirve
+            # para saber qué se ha jugado ya. Understat sí va al día: se cruzan
+            # sus partidos con el calendario y se descartan los repetidos, más
+            # todo lo que tenga fecha pasada.
+            jugados = {(m["datetime"][:10],
+                        normalizar(m["h"]["title"]), normalizar(m["a"]["title"]))
+                       for m in p_act}
+            antes = len(futuros)
+            futuros = [f for f in futuros
+                       if f["fecha"] >= hoy.isoformat()
+                       and (f["fecha"], normalizar(equipos.get(f["l"], {}).get("nombre", f["l"])),
+                            normalizar(equipos.get(f["v"], {}).get("nombre", f["v"]))) not in jugados]
+            if antes != len(futuros):
+                print(f"    {antes - len(futuros)} partidos ya jugados fuera de la lista")
+
             futuros.sort(key=lambda p: (p["fecha"], p["hora"]))
+            for f in futuros:
+                f["utc"] = a_utc(f["fecha"], f["hora"], clave)
             partidos_web = futuros[:60]
             ascendidos = sorted(sin_casar)
             print(f"    calendario de openfootball: {len(futuros)} por jugar")
@@ -825,12 +889,17 @@ def main() -> None:
                   f"en {hist_aciertos['n']} partidos")
 
         salida["ligas"][clave] = {
-            "nombre": nombre, "pais": pais,
+            "nombre": nombre, "pais": pais, "continente": "Europa",
             "pca": pca, "historico": historico,
             "pronostico": pron,
             "aciertos": hist_aciertos,
             "temp_fuerzas": temp_fuerzas,
             "temp_hist": temp_hist,
+            # Qué temporadas puede elegir el usuario en la tabla, y cuánto
+            # llevamos jugado de la nueva: con pocas jornadas hay que avisar.
+            "temp_opciones": {"act": etiqueta(actual), "ant": etiqueta(anterior),
+                              "ambas": f"{etiqueta(anterior)} + {etiqueta(actual)}"},
+            "pj_act": len(p_act),
             "temp_jug": etiqueta(actual) if fichas is f_act else etiqueta(anterior),
             "nota_temp": temp_hist + jornadas,
             "gamma": round(gamma, 5), "rho": RHO,
@@ -848,10 +917,12 @@ def main() -> None:
     # lo diga y no ofrezca lo que no puede.
     print("")
     print("Ligas sin xG")
-    for clave, (nombre, pais, *_resto) in mod_goles.LIGAS.items():
+    saltadas: list[str] = []
+    for clave, cfg in mod_goles.LIGAS.items():
+        nombre, pais = cfg["nombre"], cfg["pais"]
         partidos, anio = mod_goles.historial(clave, ANIOS_HISTORIA)
         if len(partidos) < 150:
-            print(f"    {nombre}: sin datos suficientes ({len(partidos)} partidos)")
+            saltadas.append(f"{nombre} (pocos partidos)")
             continue
 
         temp_act = mod_goles.etiqueta_temporada(clave, anio)
@@ -868,8 +939,7 @@ def main() -> None:
             if futuros:
                 anio_cal = siguiente
         if not futuros:
-            print(f"    {nombre}: sin partidos por jugar; la fuente aún no "
-                  f"publica la temporada nueva")
+            saltadas.append(nombre)
             continue
 
         atq, dfn, gamma = ajustar_fuerzas(partidos, hoy)
@@ -905,6 +975,7 @@ def main() -> None:
                         sin_casar.add(bruto)
                 ids.append(eq)
             partidos_web.append({"j": "", "fecha": m["fecha"], "hora": m["hora"],
+                                 "utc": a_utc(m["fecha"], m["hora"], clave),
                                  "l": ids[0], "v": ids[1]})
         partidos_web = partidos_web[:60]
 
@@ -918,6 +989,7 @@ def main() -> None:
 
         salida["ligas"][clave] = {
             "nombre": nombre, "pais": pais, "sin_xg": True,
+            "continente": cfg["continente"],
             "pca": componentes_principales(equipos), "historico": [],
             "pronostico": pron, "aciertos": hist_aciertos,
             "temp_fuerzas": temp_act, "temp_hist": temp_act, "temp_jug": "",
@@ -930,6 +1002,10 @@ def main() -> None:
               f"{len(equipos)} equipos, {len(partidos_web)} por jugar"
               + (f" · favorito {pron[0]['nombre']} ({pron[0]['titulo']:.0f} %)"
                  if pron else ""))
+
+    if saltadas:
+        print(f"    en espera de que la fuente publique su temporada: "
+              f"{', '.join(saltadas)}")
 
     # ── Competiciones europeas ─────────────────────────────────────────── #
     # Se calculan al final porque el desnivel entre ligas necesita las fuerzas

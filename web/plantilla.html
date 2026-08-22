@@ -935,6 +935,20 @@ table.tabla-liga tbody tr:hover td { background: var(--surface-2); }
   font-variant-numeric: tabular-nums; font-weight: 600;
 }
 .tr-panel { padding: 4px 4px 14px; }
+/* Globo de las gráficas: flota sobre todo y no intercepta el ratón, porque si
+   lo hiciera se taparía a sí mismo y parpadearía. */
+.globo-grafica {
+  position: absolute; display: none; z-index: 60; pointer-events: none;
+  background: var(--ink); color: var(--fondo);
+  font-family: var(--sans); font-size: 12px; line-height: 1.45;
+  padding: 7px 10px; border-radius: 7px; max-width: 240px;
+  box-shadow: 0 4px 16px rgba(0,0,0,.22);
+}
+.globo-grafica b { color: var(--fondo); }
+/* Las marcas que responden al ratón lo anuncian */
+[data-tip] { cursor: pointer; }
+[data-tip]:hover { opacity: 1 !important; }
+
 .pie-sello {
   font-family: var(--mono); font-size: 11px; color: var(--ink-3);
   letter-spacing: .04em;
@@ -2512,22 +2526,31 @@ function partidosEuropeos(clave) {
 function pintarLigas() {
   const sel = document.getElementById("sel-competicion");
   if (!sel.options.length) {
-    // Las ligas con xG y las que sólo tienen goles van en grupos distintos:
-    // sus probabilidades no se calculan igual y conviene que se note.
-    const gLigas = document.createElement("optgroup");
-    gLigas.label = "Ligas con datos de ocasiones";
-    Object.entries(D.ligas).filter(([, lg]) => !lg.sin_xg).forEach(([k, lg]) =>
-      gLigas.appendChild(new Option(`${lg.nombre} · ${lg.pais}`, k)));
-    sel.appendChild(gLigas);
-
-    const otras = Object.entries(D.ligas).filter(([, lg]) => lg.sin_xg);
-    if (otras.length) {
-      const gOtras = document.createElement("optgroup");
-      gOtras.label = "Otras ligas (sólo goles)";
-      otras.forEach(([k, lg]) =>
-        gOtras.appendChild(new Option(`${lg.nombre} · ${lg.pais}`, k)));
-      sel.appendChild(gOtras);
+    // Primero las cinco grandes, que son las que tienen datos de ocasiones y
+    // por tanto el modelo más afinado. Después, el resto agrupado por
+    // continente, que es como la gente busca una liga.
+    const grandes = Object.entries(D.ligas).filter(([, lg]) => !lg.sin_xg);
+    if (grandes.length) {
+      const g = document.createElement("optgroup");
+      g.label = "Las cinco grandes (con ocasiones de gol)";
+      grandes.forEach(([k, lg]) =>
+        g.appendChild(new Option(`${lg.nombre} · ${lg.pais}`, k)));
+      sel.appendChild(g);
     }
+
+    const porContinente = {};
+    Object.entries(D.ligas).filter(([, lg]) => lg.sin_xg).forEach(([k, lg]) =>
+      (porContinente[lg.continente || "Otras"] ||= []).push([k, lg]));
+
+    ["Europa", "América", "Asia", "África", "Otras"].forEach(cont => {
+      const lista = porContinente[cont];
+      if (!lista || !lista.length) return;
+      const g = document.createElement("optgroup");
+      g.label = `${cont} · sólo goles`;
+      lista.forEach(([k, lg]) =>
+        g.appendChild(new Option(`${lg.nombre} · ${lg.pais}`, k)));
+      sel.appendChild(g);
+    });
 
     const gEuro = document.createElement("optgroup");
     gEuro.label = "Competiciones europeas";
@@ -2640,8 +2663,10 @@ function pintarGrupos(partidosTodos, cont, europea) {
     return;
   }
 
+  // Se agrupa por la fecha de quien mira, no por la del estadio: un partido
+  // nocturno en Europa cae al día siguiente para media Asia.
   const porFecha = {};
-  visibles.forEach((p, i) => (porFecha[p.fecha] ||= []).push({ ...p, i }));
+  visibles.forEach((p, i) => (porFecha[fechaLocal(p)] ||= []).push({ ...p, i }));
 
   Object.entries(porFecha).forEach(([fecha, partidos]) => {
     const grupo = document.createElement("div");
@@ -2663,7 +2688,8 @@ function pintarGrupos(partidosTodos, cont, europea) {
       b.type = "button";
       const marcado = esFavorito(ligaActual, p.l) || esFavorito(ligaActual, p.v);
       b.innerHTML = `
-        <span class="hora">${p.hora}</span>
+        <span class="hora" data-tip="Hora de tu zona (${miZona()})${
+          p.utc ? `<br>En el estadio: ${p.hora}` : ""}">${horaLocal(p)}</span>
         <span class="equipos">
           <span class="eq-linea ${favL ? "favorito" : ""}">
             ${escudo(c.a.nombre)}
@@ -2700,7 +2726,8 @@ function abrirDetalle(ligaKey, p, desdeRuta = false) {
 
   const T2 = t => (t || "").replace("-", "/");
   document.getElementById("d-cuando").textContent =
-    `${lg.nombre} · Jornada ${p.j} · ${fechaLarga(p.fecha)} · ${p.hora}`;
+    `${lg.nombre} · Jornada ${p.j} · ${fechaLarga(fechaLocal(p))} · ${horaLocal(p)}`
+    + (p.utc ? ` <span class="pos-num">(tu hora · ${miZona()})</span>` : "");
   document.getElementById("d-sello-comp").textContent = T2(lg.temp_hist);
   document.getElementById("d-sello-jug").textContent = T2(lg.temp_jug);
   document.getElementById("d-local").innerHTML = escudo(a.nombre, true) +
@@ -2989,7 +3016,7 @@ function graficoTrayectoria(hist) {
   const circulos = pts.map(q =>
     `<circle cx="${cx(q.x).toFixed(1)}" cy="${cy(q.y).toFixed(1)}" r="4.2"
        fill="${COL_RES[q.r]}" stroke="var(--surface-2)" stroke-width="1.2"
-       ><title>${q.p.f} · ${q.p.c === "L" ? "vs" : "en"} ${q.p.r}: ${q.p.gf}-${q.p.gc}</title></circle>`).join("");
+        data-tip="<b>${q.p.c === "L" ? "vs" : "en"} ${q.p.r}</b><br>${q.p.gf}-${q.p.gc} · ${q.p.f}"></circle>`).join("");
 
   const ticks = [0, .25, .5, .75, 1].map(f => {
     const v = Math.round(maxY * f), y = cy(v);
@@ -3151,7 +3178,7 @@ function graficoProduccion(jug) {
 
       return `<circle cx="${X.toFixed(1)}" cy="${Y.toFixed(1)}" r="${r.toFixed(1)}"
           fill="var(--local)" opacity=".5" stroke="var(--local)" stroke-width="1"
-          ><title>${j.n}: ${j.g} goles y ${j.a} asistencias en ${j.min} minutos</title></circle>
+           data-tip="<b>${j.n}</b><br>${j.g} goles y ${j.a} asistencias<br>${j.min} minutos jugados"></circle>
         <text x="${tx.toFixed(1)}" y="${ty.toFixed(1)}"
           text-anchor="${der ? "end" : "start"}" font-size="10.5"
           font-family="var(--sans)" fill="var(--ink-2)">${etq}</text>`;
@@ -3644,7 +3671,7 @@ function graficoBarrasHist(hist, campo, color, formato = v => v) {
           : "";
         return `<rect x="${x.toFixed(1)}" y="${y.toFixed(1)}" width="${w.toFixed(1)}"
             height="${alto.toFixed(1)}" rx="3" fill="${color}" opacity=".8"
-            ><title>${h.temp.replace("-", "/")}${h.campeon ? ": " + h.campeon : ""}</title></rect>
+             data-tip="<b>${h.temp.replace("-", "/")}</b>${h.campeon ? "<br>Campeón: " + h.campeon : ""}"></rect>
           <text x="${cx}" y="${(y - 5).toFixed(1)}" text-anchor="middle"
             font-size="10" font-family="var(--mono)" fill="var(--ink-2)">${formato(h[campo])}</text>
           ${etqTemp}${etqCamp}`;
@@ -3875,14 +3902,37 @@ function abrirLiga(ligaKey) {
   }
 
   // Clasificación, con selector de temporada
-  const temporadas = [
-    { temp: lg.temp_hist, actual: true,
+  // Tres lecturas de los mismos equipos: lo que va de curso, la temporada
+  // pasada y las dos sumadas. Con pocas jornadas jugadas la primera es ruidosa,
+  // pero es la que refleja el equipo de ahora —fichajes, cambio de entrenador—,
+  // así que se ofrece y se avisa.
+  const op = lg.temp_opciones || {};
+  const desde = clave => tabla
+    .filter(e => (e.temp || {})[clave] && (e.temp[clave].pj || 0) > 0)
+    .map(e => ({ e: e.nombre, clave: e.clave, ...e.temp[clave] }))
+    .sort((a, b) => b.pts - a.pts || (b.gf - b.gc) - (a.gf - a.gc));
+
+  const temporadas = [];
+  if (op.act && desde("act").length) {
+    temporadas.push({ temp: op.act, actual: true, encurso: true,
+                      etq: `${T(op.act)} · en curso`, filas: desde("act") });
+  }
+  if (op.ant && desde("ant").length) {
+    temporadas.push({ temp: op.ant, actual: true,
+                      etq: `${T(op.ant)} · completa`, filas: desde("ant") });
+  }
+  if (op.ambas && desde("ambas").length) {
+    temporadas.push({ temp: op.ambas, actual: true, juntas: true,
+                      etq: "Las dos juntas", filas: desde("ambas") });
+  }
+  if (!temporadas.length) {
+    temporadas.push({ temp: lg.temp_hist, actual: true,
       filas: tabla.map(e => ({ e: e.nombre, clave: e.clave, pj: e.pj, pts: e.pts,
-                               gf: e.gf, gc: e.gc, xg: e.xg, xga: e.xga })) },
-    ...(lg.historico || []).slice().reverse()
-        .filter(h => h.temp !== lg.temp_hist && h.tabla)
-        .map(h => ({ temp: h.temp, actual: false, filas: h.tabla })),
-  ];
+                               gf: e.gf, gc: e.gc, xg: e.xg, xga: e.xga })) });
+  }
+  temporadas.push(...(lg.historico || []).slice().reverse()
+      .filter(h => h.temp !== lg.temp_hist && h.tabla)
+      .map(h => ({ temp: h.temp, actual: false, filas: h.tabla })));
 
   const pintarTabla = idx => {
     const t = temporadas[idx];
@@ -3907,9 +3957,25 @@ function abrirLiga(ligaKey) {
     document.querySelectorAll("#lg-tabla tbody tr[data-eq]").forEach(tr =>
       tr.addEventListener("click", () => abrirEquipo(ligaKey, tr.dataset.eq)));
 
-    document.getElementById("lg-nota-tabla").textContent = t.actual
-      ? "Toca cualquier equipo para abrir su ficha."
-      : `Clasificación de ${T(t.temp)}. Sólo los equipos de la temporada actual tienen ficha.`;
+    const nota = document.getElementById("lg-nota-tabla");
+    if (!t.actual) {
+      nota.innerHTML = `Clasificación de ${T(t.temp)}. Sólo los equipos de la
+        temporada actual tienen ficha.`;
+    } else if (t.encurso) {
+      const jor = Math.max(...t.filas.map(f => f.pj));
+      nota.innerHTML = jor < 8
+        ? `<b>Sólo ${jor} ${jor === 1 ? "jornada" : "jornadas"}.</b> Con tan poco
+           jugado, esta tabla se mueve muchísimo de semana en semana: sirve para
+           ver el arranque, no para juzgar a nadie. Toca un equipo para su ficha.`
+        : `Lo que va de temporada. Toca cualquier equipo para abrir su ficha.`;
+    } else if (t.juntas) {
+      nota.innerHTML = `Las dos temporadas sumadas. Es la muestra más grande y
+        por tanto la más estable, pero mezcla plantillas distintas: un equipo que
+        cambió medio equipo en verano no es el mismo de hace un año.
+        Toca cualquier equipo para abrir su ficha.`;
+    } else {
+      nota.innerHTML = `Temporada completa. Toca cualquier equipo para abrir su ficha.`;
+    }
 
     document.querySelectorAll("#lg-temporadas .temp-btn").forEach((b, i) =>
       b.setAttribute("aria-pressed", i === idx ? "true" : "false"));
@@ -3917,7 +3983,7 @@ function abrirLiga(ligaKey) {
 
   document.getElementById("lg-temporadas").innerHTML = temporadas.map((t, i) =>
     `<button class="temp-btn" type="button" data-i="${i}"
-       aria-pressed="${i === 0}">${T(t.temp)}</button>`).join("");
+       aria-pressed="${i === 0}">${t.etq || T(t.temp)}</button>`).join("");
   document.querySelectorAll("#lg-temporadas .temp-btn").forEach(b =>
     b.addEventListener("click", () => pintarTabla(+b.dataset.i)));
   pintarTabla(0);
@@ -4535,7 +4601,8 @@ function abrirJugador(ligaKey, claveEq, nombre) {
       const vals = pares.map(f);
       const pc = percentil(f(j), vals, may);
       const color = pc >= 70 ? "var(--ok)" : pc >= 40 ? "var(--local)" : "var(--visita)";
-      return `<div class="pct-fila">
+      return `<div class="pct-fila" data-tip="<b>${etq}</b><br>Mejor que el
+          ${pc} % de los ${pares.length} jugadores de su puesto">
           <span class="pct-etq">${etq}</span>
           <span class="pct-riel"><i style="width:${Math.max(pc, 3)}%;background:${color}"></i></span>
           <span class="pct-val">${pc} / 100</span>
@@ -4653,7 +4720,8 @@ function mapaJugadores(pares, elegido) {
 
   const puntos = pares.filter(x => x.n !== elegido.n).map(x =>
     `<circle cx="${px(x.xg90).toFixed(1)}" cy="${py(x.xa90).toFixed(1)}" r="2.6"
-       fill="var(--ink-3)" opacity=".38"><title>${x.n}</title></circle>`).join("");
+       fill="var(--ink-3)" opacity=".38"
+       data-tip="<b>${x.n}</b><br>${dec(x.xg90, 2)} xG y ${dec(x.xa90, 2)} xA por 90"></circle>`).join("");
 
   const cx = px(elegido.xg90), cy = py(elegido.xa90);
   return `<svg viewBox="0 0 ${W} ${H}" width="100%" role="img"
@@ -4749,7 +4817,8 @@ function abrirEquipo(ligaKey, clave) {
     const vals = rivales.map(f);
     const p = percentil(f(eq), vals, may);
     const color = p >= 70 ? "var(--ok)" : p >= 40 ? "var(--local)" : "var(--visita)";
-    return `<div class="pct-fila">
+    return `<div class="pct-fila" data-tip="<b>${etq}</b><br>Mejor que el
+        ${p} % de los equipos de su liga">
         <span class="pct-etq">${etq}</span>
         <span class="pct-riel"><i style="width:${Math.max(p, 3)}%;background:${color}"></i></span>
         <span class="pct-val">${p} / 100</span>
@@ -4835,14 +4904,15 @@ function abrirEquipo(ligaKey, clave) {
         const pSuya = local ? c.pl : c.pv;
         return `<button class="partido" type="button" data-l="${p.l}" data-v="${p.v}"
                   data-j="${p.j}" data-f="${p.fecha}" data-h="${p.hora}">
-            <span class="hora">${p.hora}</span>
+            <span class="hora" data-tip="Hora de tu zona (${miZona()})${
+              p.utc ? `<br>En el estadio: ${p.hora}` : ""}">${horaLocal(p)}</span>
             <span class="equipos">
               <span class="eq-linea"><span class="eq-nombre">
                 ${local ? "vs" : "en"} ${rival.nombre}</span>
                 <span class="eq-prob">${Math.round(pSuya * 100)}%</span></span>
               <span class="eq-linea"><span class="eq-nombre"
                 style="color:var(--ink-3);font-size:12.5px">
-                ${fechaLarga(p.fecha)} · ${local ? "en casa" : "fuera"}</span></span>
+                ${fechaLarga(fechaLocal(p))} · ${local ? "en casa" : "fuera"}</span></span>
             </span>
             <span class="mini-barra">
               <i class="l" style="width:${c.pl * 100}%"></i>
@@ -4891,7 +4961,7 @@ Object.entries(D.ligas).forEach(([k, lg]) => {
     if (a && b) {
       INDICE.push({ tipo: "partido", liga: k, p,
                     nombre: `${a.nombre} — ${b.nombre}`,
-                    sub: `${lg.nombre} · ${fechaLarga(p.fecha)}` });
+                    sub: `${lg.nombre} · ${fechaLarga(fechaLocal(p))}` });
     }
   });
 });
@@ -5007,6 +5077,84 @@ window.addEventListener("hashchange", enrutar);
   sello.textContent = isNaN(f) ? `Datos del ${marca}` :
     "Datos actualizados el " + f.toLocaleString("es", {
       day: "numeric", month: "long", hour: "2-digit", minute: "2-digit" });
+})();
+
+/* ── Horas en la zona de quien mira ───────────────────────────────────── */
+
+/* Los partidos vienen en UTC porque cada liga juega en su huso y «20:30» no
+   significa lo mismo en Lisboa que en Bogotá. El navegador ya sabe dónde está
+   quien mira, así que la traducción se hace aquí. */
+function horaLocal(p) {
+  if (!p.utc) return p.hora;                    // sin dato: la del estadio
+  const f = new Date(p.utc);
+  if (isNaN(f)) return p.hora;
+  return f.toLocaleTimeString("es", { hour: "2-digit", minute: "2-digit" });
+}
+
+function fechaLocal(p) {
+  if (!p.utc) return p.fecha;
+  const f = new Date(p.utc);
+  if (isNaN(f)) return p.fecha;
+  // Se compone a mano y no con toISOString, que devuelve la fecha en UTC: un
+  // partido de las 21:00 en Lisboa cae en el día siguiente para Yakarta y en
+  // el mismo día para Bogotá, y eso sólo lo sabe el calendario del visitante.
+  return `${f.getFullYear()}-${String(f.getMonth() + 1).padStart(2, "0")}`
+       + `-${String(f.getDate()).padStart(2, "0")}`;
+}
+
+/** Nombre corto de la zona horaria del visitante, para decírselo. */
+function miZona() {
+  try {
+    return Intl.DateTimeFormat().resolvedOptions().timeZone || "";
+  } catch { return ""; }
+}
+
+/* ── Gráficas interactivas ────────────────────────────────────────────── */
+
+/* El globo del navegador tarda un segundo en salir, no se puede dar estilo y
+   en el móvil no aparece. Este va pegado al dedo o al ratón y sale al instante.
+   Se dibuja uno solo para toda la página y se mueve; crear y destruir nodos en
+   cada movimiento del ratón daría tirones. */
+(() => {
+  let globo = null;
+
+  const mostrar = (texto, x, y) => {
+    if (!globo) {
+      globo = document.createElement("div");
+      globo.className = "globo-grafica";
+      globo.setAttribute("role", "tooltip");
+      document.body.appendChild(globo);
+    }
+    globo.innerHTML = texto;
+    globo.style.display = "block";
+    // Que no se salga por la derecha ni tape el punto señalado
+    const ancho = globo.offsetWidth;
+    const izq = Math.min(Math.max(x - ancho / 2, 8), window.innerWidth - ancho - 8);
+    globo.style.left = izq + "px";
+    globo.style.top = (y + window.scrollY - globo.offsetHeight - 14) + "px";
+  };
+
+  const ocultar = () => { if (globo) globo.style.display = "none"; };
+
+  // El destino de un evento no siempre es un elemento: puede ser el propio
+  // documento o un nodo de texto, y ésos no tienen closest().
+  const marcaEn = destino =>
+    destino && typeof destino.closest === "function"
+      ? destino.closest("[data-tip]") : null;
+
+  document.addEventListener("pointerover", e => {
+    const el = marcaEn(e.target);
+    if (el) mostrar(el.dataset.tip, e.clientX, e.clientY);
+  });
+  document.addEventListener("pointermove", e => {
+    const el = marcaEn(e.target);
+    if (el) mostrar(el.dataset.tip, e.clientX, e.clientY);
+    else ocultar();
+  });
+  document.addEventListener("pointerleave", ocultar, true);
+  document.addEventListener("scroll", ocultar, { passive: true });
+  // En el móvil el dedo no «pasa por encima»: se toca y se retira
+  document.addEventListener("touchend", ocultar, { passive: true });
 })();
 
 activarOrdenacion(document);
