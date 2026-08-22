@@ -34,6 +34,8 @@ AGENTE = {"User-Agent": "VentajaLocal/1.0 (estadisticas de futbol; proyecto pers
 FUTBOLISTA = "wd:Q937857"   # «jugador de fútbol» en Wikidata
 LOTE = 150                  # nombres por consulta; más allá la consulta expira
 ANCHO = 200                 # las imágenes originales pesan megas: se piden en pequeño
+MAX_INTENTOS = 3            # tras esto, un jugador se da por «sin foto»
+FALLOS = CACHE.with_name("fotos_fallidas.json")
 
 
 def _clave(nombre: str) -> str:
@@ -130,6 +132,10 @@ def _rebuscar(nombre: str) -> str | None:
 def mapear(ligas: dict) -> dict[str, str]:
     """Devuelve {nombre del jugador: dirección de su foto}."""
     cache = _cargar()
+    try:
+        fallos = json.loads(FALLOS.read_text(encoding="utf-8")) if FALLOS.exists() else {}
+    except Exception:
+        fallos = {}
 
     # Dos ejecuciones a la vez se pisarían la caché: la segunda la cargaría a
     # medias y luego la reescribiría entera, borrando lo que llevara la primera.
@@ -163,8 +169,15 @@ def mapear(ligas: dict) -> dict[str, str]:
             recuperados = 0
             for n in faltan:
                 url = _rebuscar(n)
-                if url is None:      # falló: se deja pendiente para otra vez
+                if url is None:
+                    # Falló la consulta. Se apunta el intento: tras varios se
+                    # da por perdido, porque reintentar a los mismos ciento y
+                    # pico en cada ejecución añadía dos minutos sin traer nada.
+                    fallos[n] = fallos.get(n, 0) + 1
+                    if fallos[n] >= MAX_INTENTOS:
+                        cache[n] = ""
                     continue
+                fallos.pop(n, None)
                 cache[n] = url
                 if url:
                     recuperados += 1
@@ -174,6 +187,8 @@ def mapear(ligas: dict) -> dict[str, str]:
 
             CACHE.write_text(json.dumps(cache, ensure_ascii=False, indent=0,
                                         sort_keys=True), encoding="utf-8")
+            FALLOS.write_text(json.dumps(fallos, ensure_ascii=False,
+                                         sort_keys=True), encoding="utf-8")
         finally:
             CERROJO.unlink(missing_ok=True)
 

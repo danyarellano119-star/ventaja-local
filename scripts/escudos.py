@@ -201,12 +201,27 @@ _RESPALDO = {
 _BASE = "https://r2.thesportsdb.com/images/media/league/badge/"
 
 
+CACHE_LOGOS = CACHE.with_name("logos_competiciones.json")
+DIAS_LOGOS = 7    # cada cuánto merece la pena volver a preguntar
+
+
 def logos_competiciones() -> dict[str, str]:
     """Devuelve {clave de competición: dirección de su logo}.
 
     Los enlaces llevan una marca de tiempo y cambian si la fuente vuelve a subir
-    la imagen, así que se resuelven en cada actualización en lugar de fijarlos.
+    la imagen, pero eso pasa como mucho una vez al año. Consultarlos en cada
+    ejecución costaba nueve segundos para nada, así que se refrescan una vez por
+    semana y el resto del tiempo se usa lo guardado.
     """
+    import time as _t
+    if CACHE_LOGOS.exists():
+        edad = _t.time() - CACHE_LOGOS.stat().st_mtime
+        if edad < DIAS_LOGOS * 86400:
+            try:
+                return json.loads(CACHE_LOGOS.read_text(encoding="utf-8"))
+            except Exception:
+                pass
+
     salida: dict[str, str] = {}
     for clave, ident in _ID_COMPETICION.items():
         url = ""
@@ -223,4 +238,9 @@ def logos_competiciones() -> dict[str, str]:
             url = _BASE + _RESPALDO[clave] + ".png"
         if url:
             salida[clave] = url
+
+    if salida:
+        CACHE_LOGOS.parent.mkdir(parents=True, exist_ok=True)
+        CACHE_LOGOS.write_text(json.dumps(salida, ensure_ascii=False, indent=0),
+                               encoding="utf-8")
     return salida

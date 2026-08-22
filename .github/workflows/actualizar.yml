@@ -1,10 +1,12 @@
 name: Actualizar Ventaja Local
 
 on:
-  # Cada tres horas: los partidos europeos acaban como muy tarde a las 23:00 UTC,
-  # así que una jornada queda reflejada como mucho tres horas después.
+  # Cada hora: los resultados aparecen en la fuente al poco de acabar el
+  # partido, así que con esta frecuencia la web los refleja dentro de la hora
+  # siguiente. Se pide en el minuto 20 y no en punto porque a esa hora hay
+  # menos cola en los servidores de GitHub y la tarea arranca antes.
   schedule:
-    - cron: "0 */3 * * *"
+    - cron: "20 * * * *"
 
   # También en cuanto tú cambies algo: editas la plantilla o los textos, haces
   # push y la web se regenera y se publica sola en unos minutos.
@@ -54,7 +56,7 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add web/datos_ligas.json web/index.html
-          git add datos/fotos_jugadores.json datos/escudos.json 2>/dev/null || true
+          git add datos/*.json 2>/dev/null || true
           if git diff --staged --quiet; then
             echo "Sin cambios en los datos: no se genera commit."
           else

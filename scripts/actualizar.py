@@ -37,6 +37,7 @@ import aciertos as mod_aciertos
 import escudos as mod_escudos
 import fotos as mod_fotos
 import ligas_goles as mod_goles
+import registro as mod_registro
 
 RAIZ = Path(__file__).resolve().parent.parent
 WEB = RAIZ / "web"
@@ -713,6 +714,9 @@ def main() -> None:
 
     # Con hora, no sólo la fecha: el robot corre cada tres horas y así se
     # distingue una copia recién servida de una que lleve rato en el navegador.
+    reg = mod_registro.cargar()
+    reg_nuevos = reg_resueltos = 0
+
     salida = {"generado": hoy.isoformat(),
               "generado_utc": datetime.now(timezone.utc).isoformat(timespec="minutes"),
               "temporada": etiqueta(actual), "ligas": {}}
@@ -888,6 +892,22 @@ def main() -> None:
             print(f"    acierto histórico: {hist_aciertos['pct']:.1f} % "
                   f"en {hist_aciertos['n']} partidos")
 
+        # Registro público: se apunta lo que el modelo dice HOY de cada partido
+        # por jugar, y se anota el resultado de los que ya se jugaron. Un
+        # pronóstico guardado no se toca nunca más.
+        for pw in partidos_web:
+            el, ev = equipos.get(pw["l"]), equipos.get(pw["v"])
+            if not el or not ev or el.get("atq") is None or ev.get("atq") is None:
+                continue
+            lam = math.exp(el["atq"] - ev["def"] + gamma)
+            mu = math.exp(ev["atq"] - el["def"])
+            pw["prob"] = mod_aciertos._prob_1x2(lam, mu, RHO)
+        reg_nuevos += mod_registro.anotar_pronosticos(
+            reg, clave, nombre, partidos_web, equipos)
+        reg_resueltos += mod_registro.resolver(reg, clave, p_act, BONITO)
+        for pw in partidos_web:
+            pw.pop("prob", None)      # sólo hacía falta para el registro
+
         salida["ligas"][clave] = {
             "nombre": nombre, "pais": pais, "continente": "Europa",
             "pca": pca, "historico": historico,
@@ -987,6 +1007,19 @@ def main() -> None:
         hist_aciertos = mod_aciertos.historial_aciertos(
             previos, referencia, XI, RHO, BONITO)
 
+        for pw in partidos_web:
+            el, ev = equipos.get(pw["l"]), equipos.get(pw["v"])
+            if not el or not ev or el.get("atq") is None or ev.get("atq") is None:
+                continue
+            lam = math.exp(el["atq"] - ev["def"] + gamma)
+            mu = math.exp(ev["atq"] - el["def"])
+            pw["prob"] = mod_aciertos._prob_1x2(lam, mu, RHO)
+        reg_nuevos += mod_registro.anotar_pronosticos(
+            reg, clave, nombre, partidos_web, equipos)
+        reg_resueltos += mod_registro.resolver(reg, clave, p_act, BONITO)
+        for pw in partidos_web:
+            pw.pop("prob", None)
+
         salida["ligas"][clave] = {
             "nombre": nombre, "pais": pais, "sin_xg": True,
             "continente": cfg["continente"],
@@ -1069,6 +1102,18 @@ def main() -> None:
     con_varias = sum(1 for v in salida["trayectoria"].values() if len(v) > 1)
     print(f"    {len(salida['trayectoria'])} jugadores con historial "
           f"({con_varias} con más de una temporada)")
+
+    mod_registro.guardar(reg)
+    salida["registro"] = mod_registro.resumen(reg)
+    print("")
+    print("Registro público de pronósticos")
+    print(f"    {reg_nuevos} pronósticos nuevos · {reg_resueltos} resueltos ahora")
+    r = salida["registro"]
+    if r.get("n"):
+        print(f"    acumulado: {r['aciertos']}/{r['n']} aciertos "
+              f"({r['pct']} %) desde {r['desde']} · {r['pendientes']} por resolver")
+    elif r.get("pendientes"):
+        print(f"    {r['pendientes']} apuntados, ninguno jugado todavía")
 
     JSON_SALIDA.write_text(json.dumps(salida, ensure_ascii=False, separators=(",", ":")),
                            encoding="utf-8")

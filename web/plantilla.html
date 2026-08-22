@@ -1301,6 +1301,42 @@ details .cuerpo strong { color: var(--ink); }
       </div>
     </section>
 
+    <section class="tarjeta oculto" id="bloque-registro">
+      <span class="paso">Nuestro historial</span>
+      <h2>Qué dijimos antes de cada partido y qué pasó después</h2>
+      <p class="sub">
+        Cada pronóstico se guarda el día que se publica, antes de jugarse, con su
+        fecha y su hora. Cuando el partido termina se anota el resultado al lado.
+        Aquí está todo, acertado o no.
+      </p>
+
+      <div class="metricas-modelo" id="reg-cabecera"></div>
+      <p class="gr-conclusion" id="reg-texto"></p>
+
+      <h3 style="font-family:var(--serif);font-size:17px;margin:26px 0 6px">
+        ¿Cuando decimos «70 %», pasa el 70 % de las veces?</h3>
+      <p class="sub" style="margin-bottom:10px">
+        Es la prueba que de verdad importa. Un pronóstico bien hecho no es el que
+        acierta siempre: es el que cuando dice 70 % acierta unas siete de cada
+        diez, y cuando dice 30 % acierta unas tres.
+      </p>
+      <div class="tabla-envoltorio">
+        <table class="tabla-liga" id="reg-calibracion"></table>
+      </div>
+
+      <h3 style="font-family:var(--serif);font-size:17px;margin:26px 0 6px">
+        Partido a partido</h3>
+      <div class="filtros" id="reg-filtros">
+        <button class="filtro" type="button" data-r="todos" aria-pressed="true">Todos</button>
+        <button class="filtro" type="button" data-r="ok" aria-pressed="false">Acertados</button>
+        <button class="filtro" type="button" data-r="no" aria-pressed="false">Fallados</button>
+      </div>
+      <div class="tabla-envoltorio" style="margin-top:10px">
+        <table class="tabla-liga" id="reg-partidos"></table>
+      </div>
+      <p class="nota-fuente" id="reg-nota"></p>
+    </section>
+
     <section class="tarjeta">
       <span class="paso">De dónde sale</span>
       <h2>Las dos fuerzas de cada equipo</h2>
@@ -5157,6 +5193,107 @@ function miZona() {
   document.addEventListener("touchend", ocultar, { passive: true });
 })();
 
+/* ── Historial público de pronósticos ─────────────────────────────────── */
+
+function pintarRegistro() {
+  const R = D.registro || {};
+  const bloque = document.getElementById("bloque-registro");
+  bloque.classList.toggle("oculto", !R.n && !R.pendientes);
+  if (!R.n && !R.pendientes) return;
+
+  // Aún no se ha jugado nada de lo apuntado: se explica en qué consiste esto
+  // en lugar de enseñar una tabla vacía.
+  if (!R.n) {
+    document.getElementById("reg-cabecera").innerHTML =
+      `<div class="metrica"><span class="metrica-val">${R.pendientes}</span>
+         <span class="metrica-lbl">pronósticos apuntados</span></div>
+       <div class="metrica"><span class="metrica-val">0</span>
+         <span class="metrica-lbl">resueltos todavía</span></div>`;
+    document.getElementById("reg-texto").innerHTML =
+      `Hay <b>${R.pendientes} pronósticos guardados</b> esperando a que se jueguen
+       sus partidos. En cuanto haya resultados aparecerán aquí, uno a uno, con lo
+       que dijimos al lado de lo que pasó. Los aciertos y los fallos.`;
+    ["reg-calibracion", "reg-partidos"].forEach(id =>
+      document.getElementById(id).closest(".tabla-envoltorio").classList.add("oculto"));
+    document.getElementById("reg-filtros").classList.add("oculto");
+    document.getElementById("reg-nota").innerHTML =
+      `El archivo con los pronósticos ya está en el repositorio, fechado. Cuando
+       lleguen los resultados se podrá comprobar que nada se retocó por el camino.`;
+    return;
+  }
+
+  const NOMBRE = { L: "gana el local", E: "empate", V: "gana el visitante" };
+
+  document.getElementById("reg-cabecera").innerHTML = [
+    [R.n, "partidos resueltos"],
+    [`${R.pct} %`, "acertados"],
+    [R.aciertos, "aciertos"],
+    [R.n - R.aciertos, "fallos"],
+    [R.pendientes, "por jugarse"],
+  ].map(([v, l]) => `<div class="metrica"><span class="metrica-val">${v}</span>
+       <span class="metrica-lbl">${l}</span></div>`).join("");
+
+  document.getElementById("reg-texto").innerHTML =
+    `Desde el <b>${fechaLarga(R.desde)}</b> se han resuelto <b>${R.n} partidos</b>
+     y el resultado más probable se cumplió en <b>${R.aciertos}</b> de ellos.
+     Conviene leer bien esa cifra: acertar el favorito en un deporte donde el
+     empate es habitual no es lo mismo que acertar siempre, y ningún modelo
+     honesto pasa de cierto punto. Lo que sí se puede exigir es lo de abajo.`;
+
+  // Calibración
+  document.getElementById("reg-calibracion").innerHTML =
+    `<thead><tr><th>Cuando dijimos</th><th>Casos</th><th>Probabilidad media</th>
+       <th>Ocurrió de verdad</th><th>Diferencia</th></tr></thead><tbody>` +
+    (R.tramos || []).map(t => {
+      const dif = t.real - t.dicho;
+      return `<tr>
+        <td style="text-align:left">entre ${t.desde} % y ${t.hasta} %</td>
+        <td>${t.n}</td><td>${dec(t.dicho, 1)} %</td><td>${dec(t.real, 1)} %</td>
+        <td class="${Math.abs(dif) <= 5 ? "mejor" : Math.abs(dif) > 12 ? "peor" : ""}"
+          >${dif > 0 ? "+" : ""}${dec(dif, 1)}</td>
+      </tr>`;
+    }).join("") + "</tbody>";
+
+  // Partido a partido
+  let filtro = "todos";
+  const pintar = () => {
+    const filas = (R.ultimos || []).filter(f =>
+      filtro === "todos" || (filtro === "ok" ? f.ok : !f.ok));
+    document.getElementById("reg-partidos").innerHTML =
+      `<thead><tr><th>Fecha</th><th>Partido</th><th>Lo que dijimos</th>
+         <th>Resultado</th><th>Pasó</th></tr></thead><tbody>` +
+      filas.map(f => {
+        const probs = { L: f.pl, E: f.pe, V: f.pv };
+        const fav = Object.keys(probs).reduce((a, b) => probs[a] >= probs[b] ? a : b);
+        return `<tr>
+          <td style="text-align:left" class="pos-num">${f.f}</td>
+          <td style="text-align:left">${f.l} – ${f.v}
+            <small style="display:block;color:var(--ink-3)">${f.liga}</small></td>
+          <td style="text-align:left">${NOMBRE[fav]}
+            <b>${Math.round(probs[fav] * 100)} %</b>
+            <small style="display:block;color:var(--ink-3)"
+              >L ${Math.round(f.pl * 100)} · X ${Math.round(f.pe * 100)} · V ${Math.round(f.pv * 100)}</small></td>
+          <td><b>${f.gl}–${f.gv}</b></td>
+          <td class="${f.ok ? "mejor" : "peor"}">${f.ok ? "sí" : "no"}</td>
+        </tr>`;
+      }).join("") + "</tbody>";
+    document.getElementById("reg-nota").innerHTML =
+      `Se muestran los <b>${filas.length}</b> partidos más recientes de los
+       ${R.n} resueltos. El archivo completo, con la fecha y hora exactas en que
+       se publicó cada pronóstico, está en el historial del repositorio: cada
+       cambio queda fechado y no se puede reescribir sin que se note.`;
+  };
+  pintar();
+
+  document.querySelectorAll("#reg-filtros .filtro").forEach(b =>
+    b.addEventListener("click", () => {
+      filtro = b.dataset.r;
+      document.querySelectorAll("#reg-filtros .filtro").forEach(x =>
+        x.setAttribute("aria-pressed", String(x === b)));
+      pintar();
+    }));
+}
+
 activarOrdenacion(document);
 
 // Las cabeceras deben poder recibir el foco para ordenar con el teclado.
@@ -5174,5 +5311,6 @@ function hacerEnfocables(raiz) {
 new MutationObserver(() => hacerEnfocables(document)).observe(
   document.body, { childList: true, subtree: true });
 hacerEnfocables(document);
+pintarRegistro();
 if (location.hash) enrutar();
 </script>
