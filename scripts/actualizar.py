@@ -364,7 +364,10 @@ def mismo_equipo(a: str, b: str) -> bool:
     if x == y:
         return True
     corto, largo = (x, y) if len(x) <= len(y) else (y, x)
-    return len(corto) >= 4 and largo.startswith(corto)
+    # El prefijo tiene que cortar en palabra entera. Sin esto, «Inter» casaba
+    # con «Internacional» por compartir las cinco primeras letras.
+    return (len(corto) >= 4 and largo.startswith(corto)
+            and largo[len(corto):len(corto) + 1] == " ")
 
 
 def bajar_calendario(codigo_of: str, anio: int) -> list[dict]:
@@ -580,15 +583,34 @@ def resumen_historico(cod_us: str, anio_final: int,
     return salida
 
 
+# Palabras que sobran en el nombre de un club: sociedades y muletillas que cada
+# fuente escribe a su manera. Aquí NO entran «united», «city» ni «town», aunque
+# lo parezcan: quitarlas dejaba a Manchester United y Manchester City reducidos
+# los dos a «manchester», y el calendario acababa asignándole al United partidos
+# del City.
+_SOCIEDAD = {"fc", "afc", "cf", "sc", "ac", "as", "ss", "ssc", "sv", "cd", "ud",
+             "rcd", "sd", "rc", "club", "calcio", "1913", "1899", "1846"}
+
+# Abreviaturas que unas fuentes usan y otras no
+_EQUIVALE = {"utd": "united", "man": "manchester", "wolves": "wolverhampton",
+             "spurs": "tottenham", "nott m": "nottingham", "psg": "paris"}
+
+
 def normalizar(nombre: str) -> str:
-    """Clave laxa para casar nombres entre fuentes distintas."""
+    """Clave laxa para casar nombres entre fuentes distintas.
+
+    Se quedan las palabras que identifican al club y se van las que no dicen
+    nada. Es deliberadamente menos agresiva de lo que parece necesario: dos
+    equipos distintos que acaben con la misma clave son un error mucho más caro
+    que dos formas del mismo equipo que no se reconozcan.
+    """
     s = nombre.lower()
-    for a, b in [("á","a"),("é","e"),("í","i"),("ó","o"),("ú","u"),("ü","u"),("ñ","n")]:
+    for a, b in [("á", "a"), ("é", "e"), ("í", "i"), ("ó", "o"), ("ú", "u"),
+                 ("ü", "u"), ("ñ", "n"), (".", " "), ("-", " "), ("&", " ")]:
         s = s.replace(a, b)
-    for basura in [" fc", "fc ", " cf", "cf ", " afc", "afc ", " sv", " 1913",
-                   " calcio", "1. ", " united", " city", "."]:
-        s = s.replace(basura, " ")
-    return " ".join(s.split())
+    palabras = [_EQUIVALE.get(w, w) for w in s.split()
+                if w not in _SOCIEDAD and len(w) > 1]
+    return " ".join(palabras)
 
 
 def emparejar(nombre: str, candidatos: dict[str, str]) -> str | None:

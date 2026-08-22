@@ -8,7 +8,7 @@
 "liga": "Brasileirão",
 "pe": 0.4477,
 "pl": 0.2403,
-"publicado": "2026-08-22T21:32Z",
+"publicado": "2026-08-22T22:08Z",
 "pv": 0.3121,
 "v": "CR Flamengo"
 },
@@ -21,11 +21,11 @@
 "liga": "Brasileirão",
 "pe": 0.3622,
 "pl": 0.166,
-"publicado": "2026-08-22T21:32Z",
+"publicado": "2026-08-22T22:08Z",
 "pv": 0.4719,
 "v": "São Paulo FC"
 },
-"brasileirao|2026-08-23|coritiba fbc|sc corinthians paulista": {
+"brasileirao|2026-08-23|coritiba fbc|corinthians paulista": {
 "clave_l": "Coritiba FBC",
 "clave_liga": "brasileirao",
 "clave_v": "SC Corinthians Paulista",
@@ -34,7 +34,7 @@
 "liga": "Brasileirão",
 "pe": 0.4439,
 "pl": 0.365,
-"publicado": "2026-08-22T21:32Z",
+"publicado": "2026-08-22T22:08Z",
 "pv": 0.1911,
 "v": "SC Corinthians Paulista"
 },
@@ -47,7 +47,7 @@
 "liga": "Brasileirão",
 "pe": 0.4261,
 "pl": 0.3378,
-"publicado": "2026-08-22T21:32Z",
+"publicado": "2026-08-22T22:08Z",
 "pv": 0.2361,
 "v": "EC Bahia"
 },
@@ -60,7 +60,7 @@
 "liga": "Brasileirão",
 "pe": 0.3707,
 "pl": 0.5016,
-"publicado": "2026-08-22T21:32Z",
+"publicado": "2026-08-22T22:08Z",
 "pv": 0.1277,
 "v": "Grêmio FBPA"
 },
@@ -73,7 +73,7 @@
 "liga": "Brasileirão",
 "pe": 0.3439,
 "pl": 0.4884,
-"publicado": "2026-08-22T21:32Z",
+"publicado": "2026-08-22T22:08Z",
 "pv": 0.1677,
 "v": "Mirassol FC"
 },
@@ -86,7 +86,7 @@
 "liga": "Brasileirão",
 "pe": 0.1633,
 "pl": 0.8098,
-"publicado": "2026-08-22T21:32Z",
+"publicado": "2026-08-22T22:08Z",
 "pv": 0.0268,
 "v": "CR Vasco da Gama"
 },
@@ -99,7 +99,7 @@
 "liga": "Brasileirão",
 "pe": 0.3697,
 "pl": 0.4887,
-"publicado": "2026-08-22T21:32Z",
+"publicado": "2026-08-22T22:08Z",
 "pv": 0.1417,
 "v": "CA Paranaense"
 },
@@ -112,7 +112,7 @@
 "liga": "Brasileirão",
 "pe": 0.5137,
 "pl": 0.3021,
-"publicado": "2026-08-22T21:32Z",
+"publicado": "2026-08-22T22:08Z",
 "pv": 0.1842,
 "v": "EC Vitória"
 },
@@ -125,7 +125,7 @@
 "liga": "Brasileirão",
 "pe": 0.4598,
 "pl": 0.3229,
-"publicado": "2026-08-22T21:32Z",
+"publicado": "2026-08-22T22:08Z",
 "pv": 0.2173,
 "v": "Fluminense FC"
 },
@@ -138,9 +138,22 @@
 "liga": "Brasileirão",
 "pe": 0.4113,
 "pl": 0.2546,
-"publicado": "2026-08-22T21:32Z",
+"publicado": "2026-08-22T22:08Z",
 "pv": 0.3341,
 "v": "Coritiba FBC"
+},
+"brasileirao|2026-08-29|corinthians paulista|santos": {
+"clave_l": "SC Corinthians Paulista",
+"clave_liga": "brasileirao",
+"clave_v": "Santos FC",
+"fecha": "2026-08-29",
+"l": "SC Corinthians Paulista",
+"liga": "Brasileirão",
+"pe": 0.3926,
+"pl": 0.4494,
+"publicado": "2026-08-22T22:08Z",
+"pv": 0.1581,
+"v": "Santos FC"
 },
 "brasileirao|2026-08-29|cr flamengo|botafogo fr": {
 "clave_l": "CR Flamengo",
@@ -151,7 +164,7 @@
 "liga": "Brasileirão",
 "pe": 0.2608,
 "pl": 0.6656,
-"publicado": "2026-08-22T21:32Z",
+"publicado": "2026-08-22T22:08Z",
 "pv": 0.0736,
 "v": "Botafogo FR"
 },
@@ -164,11 +177,11 @@
 "liga": "Brasileirão",
 "pe": 0.4091,
 "pl": 0.2409,
-"publicado": "2026-08-22T21:32Z",
+"publicado": "2026-08-22T22:08Z",
 "pv": 0.35,
 "v": "Cruzeiro EC"
 },
-"brasileirao|2026-08-29|ec bahia|sc internacional": {
+"brasileirao|2026-08-29|ec bahia|internacional": {
 "clave_l": "EC Bahia",
 "clave_liga": "brasileirao",
 "clave_v": "SC Internacional",
@@ -177,7 +190,7 @@
 "liga": "Brasileirão",
 "pe": 0.3003,
 "pl": 0.5884,
-"publicado": "2026-08-22T21:32Z",
+"publicado": "2026-08-22T22:08Z",
 "pv": 0.1113,
 "v": "SC Internacional"
 },
@@ -190,7 +203,7 @@
 "liga": "Brasileirão",
 "pe": 0.2191,
 "pl": 0.7255,
-"publicado": "2026-08-22T21:32Z",
+"publicado": "2026-08-22T22:08Z",
 "pv": 0.0554,
 "v": "Chapecoense AF"
 },
@@ -203,22 +216,9 @@
 "liga": "Brasileirão",
 "pe": 0.4145,
 "pl": 0.1989,
-"publicado": "2026-08-22T21:32Z",
+"publicado": "2026-08-22T22:08Z",
 "pv": 0.3866,
 "v": "SE Palmeiras"
-},
-"brasileirao|2026-08-29|sc corinthians paulista|santos": {
-"clave_l": "SC Corinthians Paulista",
-"clave_liga": "brasileirao",
-"clave_v": "Santos FC",
-"fecha": "2026-08-29",
-"l": "SC Corinthians Paulista",
-"liga": "Brasileirão",
-"pe": 0.3926,
-"pl": 0.4494,
-"publicado": "2026-08-22T21:32Z",
-"pv": 0.1581,
-"v": "Santos FC"
 },
 "brasileirao|2026-08-29|são paulo|rb bragantino": {
 "clave_l": "São Paulo FC",
@@ -229,7 +229,7 @@
 "liga": "Brasileirão",
 "pe": 0.4233,
 "pl": 0.3943,
-"publicado": "2026-08-22T21:32Z",
+"publicado": "2026-08-22T22:08Z",
 "pv": 0.1824,
 "v": "RB Bragantino"
 },
@@ -242,7 +242,7 @@
 "liga": "Brasileirão",
 "pe": 0.4142,
 "pl": 0.2705,
-"publicado": "2026-08-22T21:32Z",
+"publicado": "2026-08-22T22:08Z",
 "pv": 0.3153,
 "v": "SE Palmeiras"
 },
@@ -255,9 +255,22 @@
 "liga": "Brasileirão",
 "pe": 0.3054,
 "pl": 0.0887,
-"publicado": "2026-08-22T21:32Z",
+"publicado": "2026-08-22T22:08Z",
 "pv": 0.606,
 "v": "CR Flamengo"
+},
+"brasileirao|2026-09-05|corinthians paulista|chapecoense af": {
+"clave_l": "SC Corinthians Paulista",
+"clave_liga": "brasileirao",
+"clave_v": "Chapecoense AF",
+"fecha": "2026-09-05",
+"l": "SC Corinthians Paulista",
+"liga": "Brasileirão",
+"pe": 0.1831,
+"pl": 0.7833,
+"publicado": "2026-08-22T22:08Z",
+"pv": 0.0335,
+"v": "Chapecoense AF"
 },
 "brasileirao|2026-09-05|coritiba fbc|mirassol": {
 "clave_l": "Coritiba FBC",
@@ -268,7 +281,7 @@
 "liga": "Brasileirão",
 "pe": 0.3743,
 "pl": 0.4582,
-"publicado": "2026-08-22T21:32Z",
+"publicado": "2026-08-22T22:08Z",
 "pv": 0.1675,
 "v": "Mirassol FC"
 },
@@ -281,7 +294,7 @@
 "liga": "Brasileirão",
 "pe": 0.429,
 "pl": 0.4385,
-"publicado": "2026-08-22T21:32Z",
+"publicado": "2026-08-22T22:08Z",
 "pv": 0.1325,
 "v": "CA Paranaense"
 },
@@ -294,7 +307,7 @@
 "liga": "Brasileirão",
 "pe": 0.4323,
 "pl": 0.4313,
-"publicado": "2026-08-22T21:32Z",
+"publicado": "2026-08-22T22:08Z",
 "pv": 0.1364,
 "v": "Grêmio FBPA"
 },
@@ -307,9 +320,22 @@
 "liga": "Brasileirão",
 "pe": 0.256,
 "pl": 0.6777,
-"publicado": "2026-08-22T21:32Z",
+"publicado": "2026-08-22T22:08Z",
 "pv": 0.0664,
 "v": "CR Vasco da Gama"
+},
+"brasileirao|2026-09-05|internacional|santos": {
+"clave_l": "SC Internacional",
+"clave_liga": "brasileirao",
+"clave_v": "Santos FC",
+"fecha": "2026-09-05",
+"l": "SC Internacional",
+"liga": "Brasileirão",
+"pe": 0.3739,
+"pl": 0.418,
+"publicado": "2026-08-22T22:08Z",
+"pv": 0.2081,
+"v": "Santos FC"
 },
 "brasileirao|2026-09-05|rb bragantino|ec bahia": {
 "clave_l": "RB Bragantino",
@@ -320,35 +346,9 @@
 "liga": "Brasileirão",
 "pe": 0.3784,
 "pl": 0.3925,
-"publicado": "2026-08-22T21:32Z",
+"publicado": "2026-08-22T22:08Z",
 "pv": 0.2291,
 "v": "EC Bahia"
-},
-"brasileirao|2026-09-05|sc corinthians paulista|chapecoense af": {
-"clave_l": "SC Corinthians Paulista",
-"clave_liga": "brasileirao",
-"clave_v": "Chapecoense AF",
-"fecha": "2026-09-05",
-"l": "SC Corinthians Paulista",
-"liga": "Brasileirão",
-"pe": 0.1831,
-"pl": 0.7833,
-"publicado": "2026-08-22T21:32Z",
-"pv": 0.0335,
-"v": "Chapecoense AF"
-},
-"brasileirao|2026-09-05|sc internacional|santos": {
-"clave_l": "SC Internacional",
-"clave_liga": "brasileirao",
-"clave_v": "Santos FC",
-"fecha": "2026-09-05",
-"l": "SC Internacional",
-"liga": "Brasileirão",
-"pe": 0.3739,
-"pl": 0.418,
-"publicado": "2026-08-22T21:32Z",
-"pv": 0.2081,
-"v": "Santos FC"
 },
 "brasileirao|2026-09-05|são paulo|ca mineiro": {
 "clave_l": "São Paulo FC",
@@ -359,7 +359,7 @@
 "liga": "Brasileirão",
 "pe": 0.4548,
 "pl": 0.4164,
-"publicado": "2026-08-22T21:32Z",
+"publicado": "2026-08-22T22:08Z",
 "pv": 0.1288,
 "v": "CA Mineiro"
 },
@@ -372,7 +372,7 @@
 "liga": "Brasileirão",
 "pe": 0.3453,
 "pl": 0.5021,
-"publicado": "2026-08-22T21:32Z",
+"publicado": "2026-08-22T22:08Z",
 "pv": 0.1526,
 "v": "RB Bragantino"
 },
@@ -385,11 +385,11 @@
 "liga": "Brasileirão",
 "pe": 0.4912,
 "pl": 0.2577,
-"publicado": "2026-08-22T21:32Z",
+"publicado": "2026-08-22T22:08Z",
 "pv": 0.2511,
 "v": "Fluminense FC"
 },
-"brasileirao|2026-09-12|chapecoense af|sc internacional": {
+"brasileirao|2026-09-12|chapecoense af|internacional": {
 "clave_l": "Chapecoense AF",
 "clave_liga": "brasileirao",
 "clave_v": "SC Internacional",
@@ -398,7 +398,7 @@
 "liga": "Brasileirão",
 "pe": 0.3494,
 "pl": 0.1986,
-"publicado": "2026-08-22T21:32Z",
+"publicado": "2026-08-22T22:08Z",
 "pv": 0.4519,
 "v": "SC Internacional"
 },
@@ -411,11 +411,11 @@
 "liga": "Brasileirão",
 "pe": 0.4307,
 "pl": 0.3917,
-"publicado": "2026-08-22T21:32Z",
+"publicado": "2026-08-22T22:08Z",
 "pv": 0.1776,
 "v": "CA Paranaense"
 },
-"brasileirao|2026-09-12|cr flamengo|sc corinthians paulista": {
+"brasileirao|2026-09-12|cr flamengo|corinthians paulista": {
 "clave_l": "CR Flamengo",
 "clave_liga": "brasileirao",
 "clave_v": "SC Corinthians Paulista",
@@ -424,7 +424,7 @@
 "liga": "Brasileirão",
 "pe": 0.3145,
 "pl": 0.6196,
-"publicado": "2026-08-22T21:32Z",
+"publicado": "2026-08-22T22:08Z",
 "pv": 0.066,
 "v": "SC Corinthians Paulista"
 },
@@ -437,7 +437,7 @@
 "liga": "Brasileirão",
 "pe": 0.1918,
 "pl": 0.7626,
-"publicado": "2026-08-22T21:32Z",
+"publicado": "2026-08-22T22:08Z",
 "pv": 0.0456,
 "v": "Clube do Remo"
 },
@@ -450,7 +450,7 @@
 "liga": "Brasileirão",
 "pe": 0.3401,
 "pl": 0.5265,
-"publicado": "2026-08-22T21:32Z",
+"publicado": "2026-08-22T22:08Z",
 "pv": 0.1334,
 "v": "CR Vasco da Gama"
 },
@@ -463,7 +463,7 @@
 "liga": "Brasileirão",
 "pe": 0.4298,
 "pl": 0.387,
-"publicado": "2026-08-22T21:32Z",
+"publicado": "2026-08-22T22:08Z",
 "pv": 0.1832,
 "v": "EC Vitória"
 },
@@ -476,7 +476,7 @@
 "liga": "Brasileirão",
 "pe": 0.4128,
 "pl": 0.3588,
-"publicado": "2026-08-22T21:32Z",
+"publicado": "2026-08-22T22:08Z",
 "pv": 0.2284,
 "v": "Cruzeiro EC"
 },
@@ -489,7 +489,7 @@
 "liga": "Brasileirão",
 "pe": 0.3279,
 "pl": 0.6048,
-"publicado": "2026-08-22T21:32Z",
+"publicado": "2026-08-22T22:08Z",
 "pv": 0.0673,
 "v": "São Paulo FC"
 },
@@ -502,7 +502,7 @@
 "liga": "Brasileirão",
 "pe": 0.2647,
 "pl": 0.6765,
-"publicado": "2026-08-22T21:32Z",
+"publicado": "2026-08-22T22:08Z",
 "pv": 0.0588,
 "v": "Chapecoense AF"
 },
@@ -515,7 +515,7 @@
 "liga": "Brasileirão",
 "pe": 0.4104,
 "pl": 0.3571,
-"publicado": "2026-08-22T21:32Z",
+"publicado": "2026-08-22T22:08Z",
 "pv": 0.2325,
 "v": "EC Bahia"
 },
@@ -528,9 +528,22 @@
 "liga": "Brasileirão",
 "pe": 0.3835,
 "pl": 0.2615,
-"publicado": "2026-08-22T21:32Z",
+"publicado": "2026-08-22T22:08Z",
 "pv": 0.355,
 "v": "Santos FC"
+},
+"brasileirao|2026-09-19|corinthians paulista|fluminense": {
+"clave_l": "SC Corinthians Paulista",
+"clave_liga": "brasileirao",
+"clave_v": "Fluminense FC",
+"fecha": "2026-09-19",
+"l": "SC Corinthians Paulista",
+"liga": "Brasileirão",
+"pe": 0.4618,
+"pl": 0.3387,
+"publicado": "2026-08-22T22:08Z",
+"pv": 0.1995,
+"v": "Fluminense FC"
 },
 "brasileirao|2026-09-19|cr flamengo|rb bragantino": {
 "clave_l": "CR Flamengo",
@@ -541,7 +554,7 @@
 "liga": "Brasileirão",
 "pe": 0.2649,
 "pl": 0.6745,
-"publicado": "2026-08-22T21:32Z",
+"publicado": "2026-08-22T22:08Z",
 "pv": 0.0607,
 "v": "RB Bragantino"
 },
@@ -554,7 +567,7 @@
 "liga": "Brasileirão",
 "pe": 0.3913,
 "pl": 0.316,
-"publicado": "2026-08-22T21:32Z",
+"publicado": "2026-08-22T22:08Z",
 "pv": 0.2927,
 "v": "Coritiba FBC"
 },
@@ -567,7 +580,7 @@
 "liga": "Brasileirão",
 "pe": 0.4866,
 "pl": 0.3059,
-"publicado": "2026-08-22T21:32Z",
+"publicado": "2026-08-22T22:08Z",
 "pv": 0.2076,
 "v": "Cruzeiro EC"
 },
@@ -580,7 +593,7 @@
 "liga": "Brasileirão",
 "pe": 0.4304,
 "pl": 0.1673,
-"publicado": "2026-08-22T21:32Z",
+"publicado": "2026-08-22T22:08Z",
 "pv": 0.4023,
 "v": "SE Palmeiras"
 },
@@ -593,24 +606,11 @@
 "liga": "Brasileirão",
 "pe": 0.3735,
 "pl": 0.3713,
-"publicado": "2026-08-22T21:32Z",
+"publicado": "2026-08-22T22:08Z",
 "pv": 0.2552,
 "v": "Botafogo FR"
 },
-"brasileirao|2026-09-19|sc corinthians paulista|fluminense": {
-"clave_l": "SC Corinthians Paulista",
-"clave_liga": "brasileirao",
-"clave_v": "Fluminense FC",
-"fecha": "2026-09-19",
-"l": "SC Corinthians Paulista",
-"liga": "Brasileirão",
-"pe": 0.4618,
-"pl": 0.3387,
-"publicado": "2026-08-22T21:32Z",
-"pv": 0.1995,
-"v": "Fluminense FC"
-},
-"brasileirao|2026-09-19|são paulo|sc internacional": {
+"brasileirao|2026-09-19|são paulo|internacional": {
 "clave_l": "São Paulo FC",
 "clave_liga": "brasileirao",
 "clave_v": "SC Internacional",
@@ -619,7 +619,7 @@
 "liga": "Brasileirão",
 "pe": 0.3987,
 "pl": 0.4509,
-"publicado": "2026-08-22T21:32Z",
+"publicado": "2026-08-22T22:08Z",
 "pv": 0.1503,
 "v": "SC Internacional"
 },
@@ -632,7 +632,7 @@
 "liga": "Brasileirão",
 "pe": 0.2196,
 "pl": 0.7124,
-"publicado": "2026-08-22T21:32Z",
+"publicado": "2026-08-22T22:08Z",
 "pv": 0.0679,
 "v": "CR Vasco da Gama"
 },
@@ -645,7 +645,7 @@
 "liga": "Brasileirão",
 "pe": 0.4618,
 "pl": 0.4099,
-"publicado": "2026-08-22T21:32Z",
+"publicado": "2026-08-22T22:08Z",
 "pv": 0.1283,
 "v": "CA Mineiro"
 },
@@ -658,7 +658,7 @@
 "liga": "Brasileirão",
 "pe": 0.423,
 "pl": 0.3002,
-"publicado": "2026-08-22T21:32Z",
+"publicado": "2026-08-22T22:08Z",
 "pv": 0.2767,
 "v": "Grêmio FBPA"
 },
@@ -671,7 +671,7 @@
 "liga": "Brasileirão",
 "pe": 0.423,
 "pl": 0.4433,
-"publicado": "2026-08-22T21:32Z",
+"publicado": "2026-08-22T22:08Z",
 "pv": 0.1337,
 "v": "São Paulo FC"
 },
@@ -684,7 +684,7 @@
 "liga": "Brasileirão",
 "pe": 0.2154,
 "pl": 0.7421,
-"publicado": "2026-08-22T21:32Z",
+"publicado": "2026-08-22T22:08Z",
 "pv": 0.0425,
 "v": "Chapecoense AF"
 },
@@ -697,9 +697,22 @@
 "liga": "Brasileirão",
 "pe": 0.3758,
 "pl": 0.4982,
-"publicado": "2026-08-22T21:32Z",
+"publicado": "2026-08-22T22:08Z",
 "pv": 0.126,
 "v": "Coritiba FBC"
+},
+"brasileirao|2026-10-07|internacional|corinthians paulista": {
+"clave_l": "SC Internacional",
+"clave_liga": "brasileirao",
+"clave_v": "SC Corinthians Paulista",
+"fecha": "2026-10-07",
+"l": "SC Internacional",
+"liga": "Brasileirão",
+"pe": 0.4431,
+"pl": 0.3436,
+"publicado": "2026-08-22T22:08Z",
+"pv": 0.2133,
+"v": "SC Corinthians Paulista"
 },
 "brasileirao|2026-10-07|rb bragantino|mirassol": {
 "clave_l": "RB Bragantino",
@@ -710,7 +723,7 @@
 "liga": "Brasileirão",
 "pe": 0.3613,
 "pl": 0.4863,
-"publicado": "2026-08-22T21:32Z",
+"publicado": "2026-08-22T22:08Z",
 "pv": 0.1524,
 "v": "Mirassol FC"
 },
@@ -723,22 +736,9 @@
 "liga": "Brasileirão",
 "pe": 0.381,
 "pl": 0.2034,
-"publicado": "2026-08-22T21:32Z",
+"publicado": "2026-08-22T22:08Z",
 "pv": 0.4156,
 "v": "CR Flamengo"
-},
-"brasileirao|2026-10-07|sc internacional|sc corinthians paulista": {
-"clave_l": "SC Internacional",
-"clave_liga": "brasileirao",
-"clave_v": "SC Corinthians Paulista",
-"fecha": "2026-10-07",
-"l": "SC Internacional",
-"liga": "Brasileirão",
-"pe": 0.4431,
-"pl": 0.3436,
-"publicado": "2026-08-22T21:32Z",
-"pv": 0.2133,
-"v": "SC Corinthians Paulista"
 },
 "brasileirao|2026-10-07|se palmeiras|ec bahia": {
 "clave_l": "SE Palmeiras",
@@ -749,7 +749,7 @@
 "liga": "Brasileirão",
 "pe": 0.3069,
 "pl": 0.6006,
-"publicado": "2026-08-22T21:32Z",
+"publicado": "2026-08-22T22:08Z",
 "pv": 0.0924,
 "v": "EC Bahia"
 },
@@ -762,7 +762,7 @@
 "liga": "Bundesliga",
 "pe": 0.1703,
 "pl": 0.7092,
-"publicado": "2026-08-22T21:28Z",
+"publicado": "2026-08-22T22:04Z",
 "pv": 0.1204,
 "v": "Stuttgart"
 },
@@ -775,7 +775,7 @@
 "liga": "Bundesliga",
 "pe": 0.1851,
 "pl": 0.7205,
-"publicado": "2026-08-22T21:28Z",
+"publicado": "2026-08-22T22:04Z",
 "pv": 0.0944,
 "v": "Hamburger SV"
 },
@@ -788,7 +788,7 @@
 "liga": "Bundesliga",
 "pe": 0.2597,
 "pl": 0.4016,
-"publicado": "2026-08-22T21:28Z",
+"publicado": "2026-08-22T22:04Z",
 "pv": 0.3387,
 "v": "Hoffenheim"
 },
@@ -801,7 +801,7 @@
 "liga": "Bundesliga",
 "pe": 0.2541,
 "pl": 0.2122,
-"publicado": "2026-08-22T21:28Z",
+"publicado": "2026-08-22T22:04Z",
 "pv": 0.5337,
 "v": "Leverkusen"
 },
@@ -814,11 +814,11 @@
 "liga": "Bundesliga",
 "pe": 0.2222,
 "pl": 0.6238,
-"publicado": "2026-08-22T21:28Z",
+"publicado": "2026-08-22T22:04Z",
 "pv": 0.154,
 "v": "Paderborn 07"
 },
-"bundesliga|2026-08-29|rasenballsport leipzig|borussia m gladbach": {
+"bundesliga|2026-08-29|rasenballsport leipzig|borussia gladbach": {
 "clave_l": "RasenBallsport Leipzig",
 "clave_liga": "bundesliga",
 "clave_v": "Borussia M.Gladbach",
@@ -827,7 +827,7 @@
 "liga": "Bundesliga",
 "pe": 0.2129,
 "pl": 0.6425,
-"publicado": "2026-08-22T21:28Z",
+"publicado": "2026-08-22T22:04Z",
 "pv": 0.1446,
 "v": "M'gladbach"
 },
@@ -840,7 +840,7 @@
 "liga": "Bundesliga",
 "pe": 0.3107,
 "pl": 0.3774,
-"publicado": "2026-08-22T21:28Z",
+"publicado": "2026-08-22T22:04Z",
 "pv": 0.3119,
 "v": "Frankfurt"
 },
@@ -853,7 +853,7 @@
 "liga": "Bundesliga",
 "pe": 0.2645,
 "pl": 0.515,
-"publicado": "2026-08-22T21:28Z",
+"publicado": "2026-08-22T22:04Z",
 "pv": 0.2205,
 "v": "Schalke 04"
 },
@@ -866,7 +866,7 @@
 "liga": "Bundesliga",
 "pe": 0.2892,
 "pl": 0.4959,
-"publicado": "2026-08-22T21:28Z",
+"publicado": "2026-08-22T22:04Z",
 "pv": 0.2149,
 "v": "Werder Bremen"
 },
@@ -879,7 +879,7 @@
 "liga": "Bundesliga",
 "pe": 0.1873,
 "pl": 0.6825,
-"publicado": "2026-08-22T21:28Z",
+"publicado": "2026-08-22T22:04Z",
 "pv": 0.1302,
 "v": "Colonia"
 },
@@ -892,11 +892,11 @@
 "liga": "Bundesliga",
 "pe": 0.2346,
 "pl": 0.6274,
-"publicado": "2026-08-22T21:28Z",
+"publicado": "2026-08-22T22:04Z",
 "pv": 0.1379,
 "v": "Union Berlin"
 },
-"bundesliga|2026-09-05|borussia m gladbach|elversberg": {
+"bundesliga|2026-09-05|borussia gladbach|elversberg": {
 "clave_l": "Borussia M.Gladbach",
 "clave_liga": "bundesliga",
 "clave_v": "Elversberg",
@@ -905,7 +905,7 @@
 "liga": "Bundesliga",
 "pe": 0.2742,
 "pl": 0.5155,
-"publicado": "2026-08-22T21:28Z",
+"publicado": "2026-08-22T22:04Z",
 "pv": 0.2103,
 "v": "Elversberg"
 },
@@ -918,7 +918,7 @@
 "liga": "Bundesliga",
 "pe": 0.2737,
 "pl": 0.3263,
-"publicado": "2026-08-22T21:28Z",
+"publicado": "2026-08-22T22:04Z",
 "pv": 0.4,
 "v": "Dortmund"
 },
@@ -931,7 +931,7 @@
 "liga": "Bundesliga",
 "pe": 0.3064,
 "pl": 0.3403,
-"publicado": "2026-08-22T21:28Z",
+"publicado": "2026-08-22T22:04Z",
 "pv": 0.3533,
 "v": "Freiburg"
 },
@@ -944,7 +944,7 @@
 "liga": "Bundesliga",
 "pe": 0.1666,
 "pl": 0.0965,
-"publicado": "2026-08-22T21:28Z",
+"publicado": "2026-08-22T22:04Z",
 "pv": 0.7369,
 "v": "Bayern Munich"
 },
@@ -957,7 +957,7 @@
 "liga": "Bundesliga",
 "pe": 0.2654,
 "pl": 0.2834,
-"publicado": "2026-08-22T21:28Z",
+"publicado": "2026-08-22T22:04Z",
 "pv": 0.4512,
 "v": "RB Leipzig"
 },
@@ -970,7 +970,7 @@
 "liga": "Bundesliga",
 "pe": 0.2508,
 "pl": 0.5578,
-"publicado": "2026-08-22T21:28Z",
+"publicado": "2026-08-22T22:04Z",
 "pv": 0.1914,
 "v": "Augsburg"
 },
@@ -983,7 +983,7 @@
 "liga": "Bundesliga",
 "pe": 0.2724,
 "pl": 0.3336,
-"publicado": "2026-08-22T21:28Z",
+"publicado": "2026-08-22T22:04Z",
 "pv": 0.394,
 "v": "Mainz 05"
 },
@@ -996,7 +996,7 @@
 "liga": "Bundesliga",
 "pe": 0.2846,
 "pl": 0.5186,
-"publicado": "2026-08-22T21:28Z",
+"publicado": "2026-08-22T22:04Z",
 "pv": 0.1967,
 "v": "Schalke 04"
 },
@@ -1009,7 +1009,7 @@
 "liga": "Bundesliga",
 "pe": 0.2604,
 "pl": 0.2583,
-"publicado": "2026-08-22T21:28Z",
+"publicado": "2026-08-22T22:04Z",
 "pv": 0.4813,
 "v": "Leverkusen"
 },
@@ -1022,7 +1022,7 @@
 "liga": "Bundesliga",
 "pe": 0.1798,
 "pl": 0.7331,
-"publicado": "2026-08-22T21:28Z",
+"publicado": "2026-08-22T22:04Z",
 "pv": 0.087,
 "v": "Paderborn 07"
 },
@@ -1035,11 +1035,11 @@
 "liga": "Bundesliga",
 "pe": 0.2643,
 "pl": 0.4909,
-"publicado": "2026-08-22T21:28Z",
+"publicado": "2026-08-22T22:04Z",
 "pv": 0.2448,
 "v": "Werder Bremen"
 },
-"bundesliga|2026-09-12|freiburg|borussia m gladbach": {
+"bundesliga|2026-09-12|freiburg|borussia gladbach": {
 "clave_l": "Freiburg",
 "clave_liga": "bundesliga",
 "clave_v": "Borussia M.Gladbach",
@@ -1048,7 +1048,7 @@
 "liga": "Bundesliga",
 "pe": 0.2951,
 "pl": 0.4748,
-"publicado": "2026-08-22T21:28Z",
+"publicado": "2026-08-22T22:04Z",
 "pv": 0.2301,
 "v": "M'gladbach"
 },
@@ -1061,7 +1061,7 @@
 "liga": "Bundesliga",
 "pe": 0.2604,
 "pl": 0.3592,
-"publicado": "2026-08-22T21:28Z",
+"publicado": "2026-08-22T22:04Z",
 "pv": 0.3804,
 "v": "Stuttgart"
 },
@@ -1074,7 +1074,7 @@
 "liga": "Bundesliga",
 "pe": 0.2649,
 "pl": 0.466,
-"publicado": "2026-08-22T21:28Z",
+"publicado": "2026-08-22T22:04Z",
 "pv": 0.2691,
 "v": "Frankfurt"
 },
@@ -1087,7 +1087,7 @@
 "liga": "Bundesliga",
 "pe": 0.1666,
 "pl": 0.0965,
-"publicado": "2026-08-22T21:28Z",
+"publicado": "2026-08-22T22:04Z",
 "pv": 0.7369,
 "v": "Bayern Munich"
 },
@@ -1100,9 +1100,22 @@
 "liga": "Bundesliga",
 "pe": 0.1834,
 "pl": 0.7026,
-"publicado": "2026-08-22T21:28Z",
+"publicado": "2026-08-22T22:04Z",
 "pv": 0.114,
 "v": "Hamburger SV"
+},
+"eredivisie|2026-08-23|cambuur leeuwarden|feyenoord rotterdam": {
+"clave_l": "SC Cambuur-Leeuwarden",
+"clave_liga": "eredivisie",
+"clave_v": "Feyenoord Rotterdam",
+"fecha": "2026-08-23",
+"l": "SC Cambuur-Leeuwarden",
+"liga": "Eredivisie",
+"pe": 0.277,
+"pl": 0.0735,
+"publicado": "2026-08-22T22:07Z",
+"pv": 0.6496,
+"v": "Feyenoord Rotterdam"
 },
 "eredivisie|2026-08-23|go ahead eagles|ado den haag": {
 "clave_l": "Go Ahead Eagles",
@@ -1113,7 +1126,7 @@
 "liga": "Eredivisie",
 "pe": 0.2725,
 "pl": 0.6691,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.0585,
 "v": "ADO Den Haag"
 },
@@ -1126,22 +1139,9 @@
 "liga": "Eredivisie",
 "pe": 0.1506,
 "pl": 0.7987,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.0506,
 "v": "FC Groningen"
-},
-"eredivisie|2026-08-23|sc cambuur-leeuwarden|feyenoord rotterdam": {
-"clave_l": "SC Cambuur-Leeuwarden",
-"clave_liga": "eredivisie",
-"clave_v": "Feyenoord Rotterdam",
-"fecha": "2026-08-23",
-"l": "SC Cambuur-Leeuwarden",
-"liga": "Eredivisie",
-"pe": 0.277,
-"pl": 0.0735,
-"publicado": "2026-08-22T21:30Z",
-"pv": 0.6496,
-"v": "Feyenoord Rotterdam"
 },
 "eredivisie|2026-08-28|groningen|fortuna sittard": {
 "clave_l": "FC Groningen",
@@ -1152,7 +1152,7 @@
 "liga": "Eredivisie",
 "pe": 0.3284,
 "pl": 0.5386,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.1329,
 "v": "Fortuna Sittard"
 },
@@ -1165,7 +1165,7 @@
 "liga": "Eredivisie",
 "pe": 0.2849,
 "pl": 0.2385,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.4766,
 "v": "NEC"
 },
@@ -1178,7 +1178,7 @@
 "liga": "Eredivisie",
 "pe": 0.409,
 "pl": 0.358,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.233,
 "v": "Sparta Rotterdam"
 },
@@ -1191,11 +1191,11 @@
 "liga": "Eredivisie",
 "pe": 0.1454,
 "pl": 0.8325,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.0222,
 "v": "ADO Den Haag"
 },
-"eredivisie|2026-08-30|telstar 1963|a ajax": {
+"eredivisie|2026-08-30|telstar 1963|ajax": {
 "clave_l": "Telstar 1963",
 "clave_liga": "eredivisie",
 "clave_v": "AFC Ajax",
@@ -1204,7 +1204,7 @@
 "liga": "Eredivisie",
 "pe": 0.3239,
 "pl": 0.175,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.5011,
 "v": "AFC Ajax"
 },
@@ -1217,11 +1217,11 @@
 "liga": "Eredivisie",
 "pe": 0.2995,
 "pl": 0.2624,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.4381,
 "v": "PSV"
 },
-"eredivisie|2026-08-30|willem ii tilburg|sc heerenveen": {
+"eredivisie|2026-08-30|willem ii tilburg|heerenveen": {
 "clave_l": "Willem II Tilburg",
 "clave_liga": "eredivisie",
 "clave_v": "SC Heerenveen",
@@ -1230,7 +1230,7 @@
 "liga": "Eredivisie",
 "pe": 0.3836,
 "pl": 0.1871,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.4293,
 "v": "SC Heerenveen"
 },
@@ -1243,11 +1243,11 @@
 "liga": "Eredivisie",
 "pe": 0.3781,
 "pl": 0.4427,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.1792,
 "v": "PEC Zwolle"
 },
-"eredivisie|2026-09-05|a ajax|psv": {
+"eredivisie|2026-09-05|ajax|psv": {
 "clave_l": "AFC Ajax",
 "clave_liga": "eredivisie",
 "clave_v": "PSV",
@@ -1256,7 +1256,7 @@
 "liga": "Eredivisie",
 "pe": 0.2844,
 "pl": 0.3964,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.3192,
 "v": "PSV"
 },
@@ -1269,7 +1269,7 @@
 "liga": "Eredivisie",
 "pe": 0.3133,
 "pl": 0.3745,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.3121,
 "v": "Feyenoord Rotterdam"
 },
@@ -1282,7 +1282,7 @@
 "liga": "Eredivisie",
 "pe": 0.3889,
 "pl": 0.452,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.159,
 "v": "Go Ahead Eagles"
 },
@@ -1295,7 +1295,7 @@
 "liga": "Eredivisie",
 "pe": 0.3904,
 "pl": 0.2138,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.3958,
 "v": "SBV Excelsior"
 },
@@ -1308,11 +1308,11 @@
 "liga": "Eredivisie",
 "pe": 0.3879,
 "pl": 0.2571,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.355,
 "v": "Fortuna Sittard"
 },
-"eredivisie|2026-09-06|telstar 1963|sc cambuur-leeuwarden": {
+"eredivisie|2026-09-06|telstar 1963|cambuur leeuwarden": {
 "clave_l": "Telstar 1963",
 "clave_liga": "eredivisie",
 "clave_v": "SC Cambuur-Leeuwarden",
@@ -1321,11 +1321,11 @@
 "liga": "Eredivisie",
 "pe": 0.2786,
 "pl": 0.6361,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.0854,
 "v": "SC Cambuur-Leeuwarden"
 },
-"eredivisie|2026-09-12|fortuna sittard|a ajax": {
+"eredivisie|2026-09-12|fortuna sittard|ajax": {
 "clave_l": "Fortuna Sittard",
 "clave_liga": "eredivisie",
 "clave_v": "AFC Ajax",
@@ -1334,7 +1334,7 @@
 "liga": "Eredivisie",
 "pe": 0.2887,
 "pl": 0.1299,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.5814,
 "v": "AFC Ajax"
 },
@@ -1347,7 +1347,7 @@
 "liga": "Eredivisie",
 "pe": 0.4161,
 "pl": 0.3941,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.1898,
 "v": "FC Groningen"
 },
@@ -1360,9 +1360,22 @@
 "liga": "Eredivisie",
 "pe": 0.1704,
 "pl": 0.8005,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.0291,
 "v": "ADO Den Haag"
+},
+"eredivisie|2026-09-13|cambuur leeuwarden|nec": {
+"clave_l": "SC Cambuur-Leeuwarden",
+"clave_liga": "eredivisie",
+"clave_v": "NEC",
+"fecha": "2026-09-13",
+"l": "SC Cambuur-Leeuwarden",
+"liga": "Eredivisie",
+"pe": 0.2491,
+"pl": 0.1,
+"publicado": "2026-08-22T22:07Z",
+"pv": 0.6509,
+"v": "NEC"
 },
 "eredivisie|2026-09-13|pec zwolle|feyenoord rotterdam": {
 "clave_l": "PEC Zwolle",
@@ -1373,7 +1386,7 @@
 "liga": "Eredivisie",
 "pe": 0.3181,
 "pl": 0.1687,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.5131,
 "v": "Feyenoord Rotterdam"
 },
@@ -1386,7 +1399,7 @@
 "liga": "Eredivisie",
 "pe": 0.1337,
 "pl": 0.8285,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.0378,
 "v": "Sparta Rotterdam"
 },
@@ -1399,24 +1412,11 @@
 "liga": "Eredivisie",
 "pe": 0.3864,
 "pl": 0.2366,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.377,
 "v": "FC Utrecht"
 },
-"eredivisie|2026-09-13|sc cambuur-leeuwarden|nec": {
-"clave_l": "SC Cambuur-Leeuwarden",
-"clave_liga": "eredivisie",
-"clave_v": "NEC",
-"fecha": "2026-09-13",
-"l": "SC Cambuur-Leeuwarden",
-"liga": "Eredivisie",
-"pe": 0.2491,
-"pl": 0.1,
-"publicado": "2026-08-22T21:30Z",
-"pv": 0.6509,
-"v": "NEC"
-},
-"eredivisie|2026-09-15|a ajax|willem ii tilburg": {
+"eredivisie|2026-09-15|ajax|willem ii tilburg": {
 "clave_l": "AFC Ajax",
 "clave_liga": "eredivisie",
 "clave_v": "Willem II Tilburg",
@@ -1425,11 +1425,11 @@
 "liga": "Eredivisie",
 "pe": 0.1296,
 "pl": 0.8522,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.0182,
 "v": "Willem II Tilburg"
 },
-"eredivisie|2026-09-18|sparta rotterdam|sc heerenveen": {
+"eredivisie|2026-09-18|sparta rotterdam|heerenveen": {
 "clave_l": "Sparta Rotterdam",
 "clave_liga": "eredivisie",
 "clave_v": "SC Heerenveen",
@@ -1438,24 +1438,11 @@
 "liga": "Eredivisie",
 "pe": 0.4085,
 "pl": 0.3749,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.2166,
 "v": "SC Heerenveen"
 },
-"eredivisie|2026-09-19|a ajax|sbv excelsior": {
-"clave_l": "AFC Ajax",
-"clave_liga": "eredivisie",
-"clave_v": "SBV Excelsior",
-"fecha": "2026-09-19",
-"l": "AFC Ajax",
-"liga": "Eredivisie",
-"pe": 0.2077,
-"pl": 0.7339,
-"publicado": "2026-08-22T21:30Z",
-"pv": 0.0584,
-"v": "SBV Excelsior"
-},
-"eredivisie|2026-09-19|ado den haag|sc cambuur-leeuwarden": {
+"eredivisie|2026-09-19|ado den haag|cambuur leeuwarden": {
 "clave_l": "ADO Den Haag",
 "clave_liga": "eredivisie",
 "clave_v": "SC Cambuur-Leeuwarden",
@@ -1464,9 +1451,22 @@
 "liga": "Eredivisie",
 "pe": 0.4401,
 "pl": 0.3579,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.202,
 "v": "SC Cambuur-Leeuwarden"
+},
+"eredivisie|2026-09-19|ajax|sbv excelsior": {
+"clave_l": "AFC Ajax",
+"clave_liga": "eredivisie",
+"clave_v": "SBV Excelsior",
+"fecha": "2026-09-19",
+"l": "AFC Ajax",
+"liga": "Eredivisie",
+"pe": 0.2077,
+"pl": 0.7339,
+"publicado": "2026-08-22T22:07Z",
+"pv": 0.0584,
+"v": "SBV Excelsior"
 },
 "eredivisie|2026-09-19|groningen|pec zwolle": {
 "clave_l": "FC Groningen",
@@ -1477,7 +1477,7 @@
 "liga": "Eredivisie",
 "pe": 0.345,
 "pl": 0.5051,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.1499,
 "v": "PEC Zwolle"
 },
@@ -1490,7 +1490,7 @@
 "liga": "Eredivisie",
 "pe": 0.3879,
 "pl": 0.2571,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.355,
 "v": "Fortuna Sittard"
 },
@@ -1503,7 +1503,7 @@
 "liga": "Eredivisie",
 "pe": 0.3644,
 "pl": 0.4723,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.1634,
 "v": "FC Utrecht"
 },
@@ -1516,7 +1516,7 @@
 "liga": "Eredivisie",
 "pe": 0.2904,
 "pl": 0.5446,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.1651,
 "v": "Go Ahead Eagles"
 },
@@ -1529,11 +1529,11 @@
 "liga": "Eredivisie",
 "pe": 0.2824,
 "pl": 0.3079,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.4097,
 "v": "PSV"
 },
-"eredivisie|2026-10-10|a ajax|nec": {
+"eredivisie|2026-10-10|ajax|nec": {
 "clave_l": "AFC Ajax",
 "clave_liga": "eredivisie",
 "clave_v": "NEC",
@@ -1542,7 +1542,7 @@
 "liga": "Eredivisie",
 "pe": 0.2562,
 "pl": 0.5998,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.1439,
 "v": "NEC"
 },
@@ -1555,11 +1555,11 @@
 "liga": "Eredivisie",
 "pe": 0.4148,
 "pl": 0.4269,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.1583,
 "v": "Sparta Rotterdam"
 },
-"eredivisie|2026-10-10|psv|sc heerenveen": {
+"eredivisie|2026-10-10|psv|heerenveen": {
 "clave_l": "PSV",
 "clave_liga": "eredivisie",
 "clave_v": "SC Heerenveen",
@@ -1568,11 +1568,11 @@
 "liga": "Eredivisie",
 "pe": 0.0934,
 "pl": 0.8753,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.0313,
 "v": "SC Heerenveen"
 },
-"eredivisie|2026-10-11|pec zwolle|sc cambuur-leeuwarden": {
+"eredivisie|2026-10-11|pec zwolle|cambuur leeuwarden": {
 "clave_l": "PEC Zwolle",
 "clave_liga": "eredivisie",
 "clave_v": "SC Cambuur-Leeuwarden",
@@ -1581,7 +1581,7 @@
 "liga": "Eredivisie",
 "pe": 0.3008,
 "pl": 0.5966,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.1026,
 "v": "SC Cambuur-Leeuwarden"
 },
@@ -1594,7 +1594,7 @@
 "liga": "Eredivisie",
 "pe": 0.4016,
 "pl": 0.322,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.2764,
 "v": "FC Groningen"
 },
@@ -1607,7 +1607,7 @@
 "liga": "Eredivisie",
 "pe": 0.2786,
 "pl": 0.6361,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.0854,
 "v": "ADO Den Haag"
 },
@@ -1620,11 +1620,11 @@
 "liga": "Eredivisie",
 "pe": 0.2271,
 "pl": 0.7339,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.0391,
 "v": "Willem II Tilburg"
 },
-"eredivisie|2026-10-16|sc heerenveen|sbv excelsior": {
+"eredivisie|2026-10-16|heerenveen|sbv excelsior": {
 "clave_l": "SC Heerenveen",
 "clave_liga": "eredivisie",
 "clave_v": "SBV Excelsior",
@@ -1633,7 +1633,7 @@
 "liga": "Eredivisie",
 "pe": 0.3373,
 "pl": 0.4676,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.1951,
 "v": "SBV Excelsior"
 },
@@ -1646,7 +1646,7 @@
 "liga": "Eredivisie",
 "pe": 0.1065,
 "pl": 0.0285,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.865,
 "v": "PSV"
 },
@@ -1659,7 +1659,7 @@
 "liga": "Eredivisie",
 "pe": 0.1624,
 "pl": 0.7706,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.067,
 "v": "Fortuna Sittard"
 },
@@ -1672,7 +1672,7 @@
 "liga": "Eredivisie",
 "pe": 0.3531,
 "pl": 0.5631,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.0838,
 "v": "Willem II Tilburg"
 },
@@ -1685,11 +1685,11 @@
 "liga": "Eredivisie",
 "pe": 0.3339,
 "pl": 0.1976,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.4685,
 "v": "Feyenoord Rotterdam"
 },
-"eredivisie|2026-10-18|groningen|a ajax": {
+"eredivisie|2026-10-18|groningen|ajax": {
 "clave_l": "FC Groningen",
 "clave_liga": "eredivisie",
 "clave_v": "AFC Ajax",
@@ -1698,7 +1698,7 @@
 "liga": "Eredivisie",
 "pe": 0.3984,
 "pl": 0.2101,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.3915,
 "v": "AFC Ajax"
 },
@@ -1711,7 +1711,7 @@
 "liga": "Eredivisie",
 "pe": 0.3791,
 "pl": 0.2903,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.3307,
 "v": "Go Ahead Eagles"
 },
@@ -1724,11 +1724,11 @@
 "liga": "Eredivisie",
 "pe": 0.3794,
 "pl": 0.4303,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.1903,
 "v": "FC Utrecht"
 },
-"eredivisie|2026-10-24|ado den haag|sc heerenveen": {
+"eredivisie|2026-10-24|ado den haag|heerenveen": {
 "clave_l": "ADO Den Haag",
 "clave_liga": "eredivisie",
 "clave_v": "SC Heerenveen",
@@ -1737,7 +1737,7 @@
 "liga": "Eredivisie",
 "pe": 0.3836,
 "pl": 0.1871,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.4293,
 "v": "SC Heerenveen"
 },
@@ -1750,11 +1750,11 @@
 "liga": "Eredivisie",
 "pe": 0.28,
 "pl": 0.626,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.094,
 "v": "PEC Zwolle"
 },
-"eredivisie|2026-10-24|willem ii tilburg|sc cambuur-leeuwarden": {
+"eredivisie|2026-10-24|willem ii tilburg|cambuur leeuwarden": {
 "clave_l": "Willem II Tilburg",
 "clave_liga": "eredivisie",
 "clave_v": "SC Cambuur-Leeuwarden",
@@ -1763,7 +1763,7 @@
 "liga": "Eredivisie",
 "pe": 0.4401,
 "pl": 0.3579,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.202,
 "v": "SC Cambuur-Leeuwarden"
 },
@@ -1776,7 +1776,7 @@
 "liga": "Eredivisie",
 "pe": 0.3445,
 "pl": 0.3819,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.2736,
 "v": "SBV Excelsior"
 },
@@ -1789,7 +1789,7 @@
 "liga": "Eredivisie",
 "pe": 0.2914,
 "pl": 0.5617,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.147,
 "v": "FC Groningen"
 },
@@ -1802,11 +1802,11 @@
 "liga": "Eredivisie",
 "pe": 0.2239,
 "pl": 0.6333,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.1429,
 "v": "Feyenoord Rotterdam"
 },
-"eredivisie|2026-10-25|sparta rotterdam|a ajax": {
+"eredivisie|2026-10-25|sparta rotterdam|ajax": {
 "clave_l": "Sparta Rotterdam",
 "clave_liga": "eredivisie",
 "clave_v": "AFC Ajax",
@@ -1815,7 +1815,7 @@
 "liga": "Eredivisie",
 "pe": 0.3979,
 "pl": 0.1751,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.427,
 "v": "AFC Ajax"
 },
@@ -1828,7 +1828,7 @@
 "liga": "Eredivisie",
 "pe": 0.1801,
 "pl": 0.7702,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.0497,
 "v": "Fortuna Sittard"
 },
@@ -1841,7 +1841,7 @@
 "liga": "Eredivisie",
 "pe": 0.028,
 "pl": 0.9679,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.0041,
 "v": "Willem II Tilburg"
 },
@@ -1852,10 +1852,10 @@
 "fecha": "2026-08-23",
 "l": "Atlético Madrid",
 "liga": "LaLiga",
-"pe": 0.2453,
-"pl": 0.54,
-"publicado": "2026-08-22T21:27Z",
-"pv": 0.2146,
+"pe": 0.2455,
+"pl": 0.5395,
+"publicado": "2026-08-22T22:04Z",
+"pv": 0.215,
 "v": "Villarreal"
 },
 "laliga|2026-08-23|elche|barcelona": {
@@ -1866,9 +1866,9 @@
 "l": "Elche",
 "liga": "LaLiga",
 "pe": 0.2265,
-"pl": 0.1785,
-"publicado": "2026-08-22T21:27Z",
-"pv": 0.5949,
+"pl": 0.1782,
+"publicado": "2026-08-22T22:04Z",
+"pv": 0.5953,
 "v": "Barcelona"
 },
 "laliga|2026-08-23|getafe|racing sant": {
@@ -1878,23 +1878,23 @@
 "fecha": "2026-08-23",
 "l": "Getafe",
 "liga": "LaLiga",
-"pe": 0.3502,
-"pl": 0.3908,
-"publicado": "2026-08-22T21:27Z",
-"pv": 0.259,
+"pe": 0.3503,
+"pl": 0.3904,
+"publicado": "2026-08-22T22:04Z",
+"pv": 0.2592,
 "v": "Racing Sant"
 },
-"laliga|2026-08-24|malaga|dep a coruna": {
+"laliga|2026-08-24|malaga|dep coruna": {
 "clave_l": "Málaga",
 "clave_liga": "laliga",
 "clave_v": "Dep. A Coruña",
 "fecha": "2026-08-24",
 "l": "Málaga",
 "liga": "LaLiga",
-"pe": 0.2783,
-"pl": 0.4748,
-"publicado": "2026-08-22T21:27Z",
-"pv": 0.2469,
+"pe": 0.2785,
+"pl": 0.4743,
+"publicado": "2026-08-22T22:04Z",
+"pv": 0.2472,
 "v": "Dep. A Coruña"
 },
 "laliga|2026-08-24|osasuna|levante": {
@@ -1904,10 +1904,10 @@
 "fecha": "2026-08-24",
 "l": "Osasuna",
 "liga": "LaLiga",
-"pe": 0.2763,
-"pl": 0.5095,
-"publicado": "2026-08-22T21:27Z",
-"pv": 0.2142,
+"pe": 0.2765,
+"pl": 0.5091,
+"publicado": "2026-08-22T22:04Z",
+"pv": 0.2144,
 "v": "Levante"
 },
 "laliga|2026-08-25|valencia|real betis": {
@@ -1917,10 +1917,10 @@
 "fecha": "2026-08-25",
 "l": "Valencia",
 "liga": "LaLiga",
-"pe": 0.3033,
-"pl": 0.3946,
-"publicado": "2026-08-22T21:27Z",
-"pv": 0.3021,
+"pe": 0.3034,
+"pl": 0.3941,
+"publicado": "2026-08-22T22:04Z",
+"pv": 0.3025,
 "v": "Real Betis"
 },
 "laliga|2026-08-26|real madrid|real sociedad": {
@@ -1930,23 +1930,23 @@
 "fecha": "2026-08-26",
 "l": "Real Madrid",
 "liga": "LaLiga",
-"pe": 0.1957,
-"pl": 0.6907,
-"publicado": "2026-08-22T21:27Z",
-"pv": 0.1136,
+"pe": 0.193,
+"pl": 0.6956,
+"publicado": "2026-08-22T22:04Z",
+"pv": 0.1114,
 "v": "Real Sociedad"
 },
-"laliga|2026-08-27|barcelona|athletic club": {
+"laliga|2026-08-27|barcelona|athletic": {
 "clave_l": "Barcelona",
 "clave_liga": "laliga",
 "clave_v": "Athletic Club",
 "fecha": "2026-08-27",
 "l": "Barcelona",
 "liga": "LaLiga",
-"pe": 0.2084,
-"pl": 0.6648,
-"publicado": "2026-08-22T21:27Z",
-"pv": 0.1268,
+"pe": 0.2087,
+"pl": 0.6642,
+"publicado": "2026-08-22T22:04Z",
+"pv": 0.127,
 "v": "Athletic Club"
 },
 "laliga|2026-08-27|celta vigo|osasuna": {
@@ -1956,10 +1956,10 @@
 "fecha": "2026-08-27",
 "l": "Celta Vigo",
 "liga": "LaLiga",
-"pe": 0.3075,
-"pl": 0.4652,
-"publicado": "2026-08-22T21:27Z",
-"pv": 0.2273,
+"pe": 0.3077,
+"pl": 0.4647,
+"publicado": "2026-08-22T22:04Z",
+"pv": 0.2276,
 "v": "Osasuna"
 },
 "laliga|2026-08-28|alaves|villarreal": {
@@ -1969,10 +1969,10 @@
 "fecha": "2026-08-28",
 "l": "Alavés",
 "liga": "LaLiga",
-"pe": 0.2815,
-"pl": 0.4293,
-"publicado": "2026-08-22T21:27Z",
-"pv": 0.2893,
+"pe": 0.2816,
+"pl": 0.4288,
+"publicado": "2026-08-22T22:04Z",
+"pv": 0.2896,
 "v": "Villarreal"
 },
 "laliga|2026-08-28|racing sant|elche": {
@@ -1982,10 +1982,10 @@
 "fecha": "2026-08-28",
 "l": "Racing Sant",
 "liga": "LaLiga",
-"pe": 0.2846,
-"pl": 0.4772,
-"publicado": "2026-08-22T21:27Z",
-"pv": 0.2382,
+"pe": 0.2848,
+"pl": 0.4766,
+"publicado": "2026-08-22T22:04Z",
+"pv": 0.2386,
 "v": "Elche"
 },
 "laliga|2026-08-29|levante|real betis": {
@@ -1995,10 +1995,10 @@
 "fecha": "2026-08-29",
 "l": "Levante",
 "liga": "LaLiga",
-"pe": 0.282,
-"pl": 0.3706,
-"publicado": "2026-08-22T21:27Z",
-"pv": 0.3474,
+"pe": 0.2821,
+"pl": 0.3698,
+"publicado": "2026-08-22T22:04Z",
+"pv": 0.3481,
 "v": "Real Betis"
 },
 "laliga|2026-08-29|real sociedad|espanyol": {
@@ -2008,10 +2008,10 @@
 "fecha": "2026-08-29",
 "l": "Real Sociedad",
 "liga": "LaLiga",
-"pe": 0.2703,
-"pl": 0.5404,
-"publicado": "2026-08-22T21:27Z",
-"pv": 0.1894,
+"pe": 0.2679,
+"pl": 0.5455,
+"publicado": "2026-08-22T22:04Z",
+"pv": 0.1866,
 "v": "Espanyol"
 },
 "laliga|2026-08-29|sevilla|atletico madrid": {
@@ -2021,36 +2021,36 @@
 "fecha": "2026-08-29",
 "l": "Sevilla",
 "liga": "LaLiga",
-"pe": 0.3069,
-"pl": 0.2746,
-"publicado": "2026-08-22T21:27Z",
-"pv": 0.4185,
+"pe": 0.307,
+"pl": 0.2742,
+"publicado": "2026-08-22T22:04Z",
+"pv": 0.4188,
 "v": "Atlético Madrid"
 },
-"laliga|2026-08-30|celta vigo|athletic club": {
+"laliga|2026-08-30|celta vigo|athletic": {
 "clave_l": "Celta Vigo",
 "clave_liga": "laliga",
 "clave_v": "Athletic Club",
 "fecha": "2026-08-30",
 "l": "Celta Vigo",
 "liga": "LaLiga",
-"pe": 0.3269,
-"pl": 0.394,
-"publicado": "2026-08-22T21:27Z",
-"pv": 0.2791,
+"pe": 0.3271,
+"pl": 0.3935,
+"publicado": "2026-08-22T22:04Z",
+"pv": 0.2794,
 "v": "Athletic Club"
 },
-"laliga|2026-08-30|dep a coruna|valencia": {
+"laliga|2026-08-30|dep coruna|valencia": {
 "clave_l": "Dep. A Coruña",
 "clave_liga": "laliga",
 "clave_v": "Valencia",
 "fecha": "2026-08-30",
 "l": "Dep. A Coruña",
 "liga": "LaLiga",
-"pe": 0.3051,
-"pl": 0.3893,
-"publicado": "2026-08-22T21:27Z",
-"pv": 0.3056,
+"pe": 0.3052,
+"pl": 0.3887,
+"publicado": "2026-08-22T22:04Z",
+"pv": 0.3061,
 "v": "Valencia"
 },
 "laliga|2026-08-30|real madrid|malaga": {
@@ -2060,10 +2060,10 @@
 "fecha": "2026-08-30",
 "l": "Real Madrid",
 "liga": "LaLiga",
-"pe": 0.1522,
-"pl": 0.774,
-"publicado": "2026-08-22T21:27Z",
-"pv": 0.0738,
+"pe": 0.1495,
+"pl": 0.7785,
+"publicado": "2026-08-22T22:04Z",
+"pv": 0.072,
 "v": "Málaga"
 },
 "laliga|2026-08-31|barcelona|rayo vallecano": {
@@ -2073,10 +2073,10 @@
 "fecha": "2026-08-31",
 "l": "Barcelona",
 "liga": "LaLiga",
-"pe": 0.1435,
-"pl": 0.7757,
-"publicado": "2026-08-22T21:27Z",
-"pv": 0.0808,
+"pe": 0.1438,
+"pl": 0.7752,
+"publicado": "2026-08-22T22:04Z",
+"pv": 0.081,
 "v": "Rayo Vallecano"
 },
 "laliga|2026-08-31|osasuna|getafe": {
@@ -2086,10 +2086,10 @@
 "fecha": "2026-08-31",
 "l": "Osasuna",
 "liga": "LaLiga",
-"pe": 0.3346,
-"pl": 0.5,
-"publicado": "2026-08-22T21:27Z",
-"pv": 0.1654,
+"pe": 0.3349,
+"pl": 0.4995,
+"publicado": "2026-08-22T22:04Z",
+"pv": 0.1656,
 "v": "Getafe"
 },
 "ligue1|2026-08-23|angers|lille": {
@@ -2101,7 +2101,7 @@
 "liga": "Ligue 1",
 "pe": 0.3112,
 "pl": 0.1718,
-"publicado": "2026-08-22T21:29Z",
+"publicado": "2026-08-22T22:06Z",
 "pv": 0.517,
 "v": "Lille"
 },
@@ -2114,7 +2114,7 @@
 "liga": "Ligue 1",
 "pe": 0.2695,
 "pl": 0.2275,
-"publicado": "2026-08-22T21:29Z",
+"publicado": "2026-08-22T22:06Z",
 "pv": 0.503,
 "v": "Monaco"
 },
@@ -2127,7 +2127,7 @@
 "liga": "Ligue 1",
 "pe": 0.1498,
 "pl": 0.7806,
-"publicado": "2026-08-22T21:29Z",
+"publicado": "2026-08-22T22:06Z",
 "pv": 0.0696,
 "v": "Rennes"
 },
@@ -2140,7 +2140,7 @@
 "liga": "Ligue 1",
 "pe": 0.3147,
 "pl": 0.257,
-"publicado": "2026-08-22T21:29Z",
+"publicado": "2026-08-22T22:06Z",
 "pv": 0.4283,
 "v": "PSG"
 },
@@ -2153,7 +2153,7 @@
 "liga": "Ligue 1",
 "pe": 0.3029,
 "pl": 0.4896,
-"publicado": "2026-08-22T21:29Z",
+"publicado": "2026-08-22T22:06Z",
 "pv": 0.2075,
 "v": "Angers"
 },
@@ -2166,7 +2166,7 @@
 "liga": "Ligue 1",
 "pe": 0.3227,
 "pl": 0.3075,
-"publicado": "2026-08-22T21:29Z",
+"publicado": "2026-08-22T22:06Z",
 "pv": 0.3698,
 "v": "Toulouse"
 },
@@ -2179,7 +2179,7 @@
 "liga": "Ligue 1",
 "pe": 0.2772,
 "pl": 0.5308,
-"publicado": "2026-08-22T21:29Z",
+"publicado": "2026-08-22T22:06Z",
 "pv": 0.192,
 "v": "Troyes"
 },
@@ -2192,7 +2192,7 @@
 "liga": "Ligue 1",
 "pe": 0.245,
 "pl": 0.5937,
-"publicado": "2026-08-22T21:29Z",
+"publicado": "2026-08-22T22:06Z",
 "pv": 0.1613,
 "v": "Le Havre"
 },
@@ -2205,7 +2205,7 @@
 "liga": "Ligue 1",
 "pe": 0.2725,
 "pl": 0.2928,
-"publicado": "2026-08-22T21:29Z",
+"publicado": "2026-08-22T22:06Z",
 "pv": 0.4347,
 "v": "Lens"
 },
@@ -2218,7 +2218,7 @@
 "liga": "Ligue 1",
 "pe": 0.2564,
 "pl": 0.4439,
-"publicado": "2026-08-22T21:29Z",
+"publicado": "2026-08-22T22:06Z",
 "pv": 0.2996,
 "v": "Marseille"
 },
@@ -2231,7 +2231,7 @@
 "liga": "Ligue 1",
 "pe": 0.2623,
 "pl": 0.4691,
-"publicado": "2026-08-22T21:29Z",
+"publicado": "2026-08-22T22:06Z",
 "pv": 0.2687,
 "v": "Nice"
 },
@@ -2244,7 +2244,7 @@
 "liga": "Ligue 1",
 "pe": 0.2534,
 "pl": 0.5683,
-"publicado": "2026-08-22T21:29Z",
+"publicado": "2026-08-22T22:06Z",
 "pv": 0.1782,
 "v": "Le Mans"
 },
@@ -2257,7 +2257,7 @@
 "liga": "Ligue 1",
 "pe": 0.3573,
 "pl": 0.3366,
-"publicado": "2026-08-22T21:29Z",
+"publicado": "2026-08-22T22:06Z",
 "pv": 0.3061,
 "v": "Lille"
 },
@@ -2270,7 +2270,7 @@
 "liga": "Ligue 1",
 "pe": 0.2535,
 "pl": 0.5685,
-"publicado": "2026-08-22T21:29Z",
+"publicado": "2026-08-22T22:06Z",
 "pv": 0.1779,
 "v": "Auxerre"
 },
@@ -2283,7 +2283,7 @@
 "liga": "Ligue 1",
 "pe": 0.2048,
 "pl": 0.6721,
-"publicado": "2026-08-22T21:29Z",
+"publicado": "2026-08-22T22:06Z",
 "pv": 0.1231,
 "v": "Monaco"
 },
@@ -2296,7 +2296,7 @@
 "liga": "Ligue 1",
 "pe": 0.2999,
 "pl": 0.3723,
-"publicado": "2026-08-22T21:29Z",
+"publicado": "2026-08-22T22:06Z",
 "pv": 0.3278,
 "v": "Brest"
 },
@@ -2309,7 +2309,7 @@
 "liga": "Ligue 1",
 "pe": 0.2145,
 "pl": 0.6422,
-"publicado": "2026-08-22T21:29Z",
+"publicado": "2026-08-22T22:06Z",
 "pv": 0.1433,
 "v": "Lorient"
 },
@@ -2322,7 +2322,7 @@
 "liga": "Ligue 1",
 "pe": 0.2715,
 "pl": 0.5282,
-"publicado": "2026-08-22T21:29Z",
+"publicado": "2026-08-22T22:06Z",
 "pv": 0.2004,
 "v": "Le Mans"
 },
@@ -2335,7 +2335,7 @@
 "liga": "Ligue 1",
 "pe": 0.2953,
 "pl": 0.2739,
-"publicado": "2026-08-22T21:29Z",
+"publicado": "2026-08-22T22:06Z",
 "pv": 0.4308,
 "v": "Rennes"
 },
@@ -2348,7 +2348,7 @@
 "liga": "Ligue 1",
 "pe": 0.2071,
 "pl": 0.6389,
-"publicado": "2026-08-22T21:29Z",
+"publicado": "2026-08-22T22:06Z",
 "pv": 0.1541,
 "v": "Paris FC"
 },
@@ -2361,7 +2361,7 @@
 "liga": "Ligue 1",
 "pe": 0.3104,
 "pl": 0.3156,
-"publicado": "2026-08-22T21:29Z",
+"publicado": "2026-08-22T22:06Z",
 "pv": 0.374,
 "v": "Strasbourg"
 },
@@ -2374,24 +2374,24 @@
 "liga": "Premier League",
 "pe": 0.2759,
 "pl": 0.4788,
-"publicado": "2026-08-22T21:26Z",
+"publicado": "2026-08-22T22:03Z",
 "pv": 0.2453,
 "v": "Aston Villa"
 },
-"premier|2026-08-23|manchester|a bournemouth": {
-"clave_l": "Manchester United",
+"premier|2026-08-23|manchester city|bournemouth": {
+"clave_l": "Manchester City",
 "clave_liga": "premier",
-"clave_v": "AFC Bournemouth",
+"clave_v": "Bournemouth",
 "fecha": "2026-08-23",
-"l": "Manchester Utd",
+"l": "Manchester City",
 "liga": "Premier League",
-"pe": 0.2044,
-"pl": 0.6876,
-"publicado": "2026-08-22T21:26Z",
-"pv": 0.108,
-"v": "AFC Bournemouth"
+"pe": 0.2347,
+"pl": 0.5597,
+"publicado": "2026-08-22T22:03Z",
+"pv": 0.2056,
+"v": "Bournemouth"
 },
-"premier|2026-08-23|newcastle|liverpool": {
+"premier|2026-08-23|newcastle united|liverpool": {
 "clave_l": "Newcastle United",
 "clave_liga": "premier",
 "clave_v": "Liverpool",
@@ -2400,7 +2400,7 @@
 "liga": "Premier League",
 "pe": 0.2761,
 "pl": 0.3121,
-"publicado": "2026-08-22T21:26Z",
+"publicado": "2026-08-22T22:03Z",
 "pv": 0.4118,
 "v": "Liverpool"
 },
@@ -2413,22 +2413,9 @@
 "liga": "Premier League",
 "pe": 0.2799,
 "pl": 0.3426,
-"publicado": "2026-08-22T21:26Z",
+"publicado": "2026-08-22T22:03Z",
 "pv": 0.3775,
 "v": "Chelsea"
-},
-"premier|2026-08-29|a bournemouth|everton": {
-"clave_l": "AFC Bournemouth",
-"clave_liga": "premier",
-"clave_v": "Everton",
-"fecha": "2026-08-29",
-"l": "AFC Bournemouth",
-"liga": "Premier League",
-"pe": 0.3031,
-"pl": 0.3134,
-"publicado": "2026-08-22T21:26Z",
-"pv": 0.3835,
-"v": "Everton"
 },
 "premier|2026-08-29|aston villa|arsenal": {
 "clave_l": "Aston Villa",
@@ -2439,9 +2426,22 @@
 "liga": "Premier League",
 "pe": 0.2871,
 "pl": 0.1888,
-"publicado": "2026-08-22T21:26Z",
+"publicado": "2026-08-22T22:03Z",
 "pv": 0.5241,
 "v": "Arsenal"
+},
+"premier|2026-08-29|bournemouth|everton": {
+"clave_l": "Bournemouth",
+"clave_liga": "premier",
+"clave_v": "Everton",
+"fecha": "2026-08-29",
+"l": "Bournemouth",
+"liga": "Premier League",
+"pe": 0.2389,
+"pl": 0.5905,
+"publicado": "2026-08-22T22:03Z",
+"pv": 0.1706,
+"v": "Everton"
 },
 "premier|2026-08-29|chelsea|brighton": {
 "clave_l": "Chelsea",
@@ -2452,11 +2452,11 @@
 "liga": "Premier League",
 "pe": 0.2666,
 "pl": 0.4564,
-"publicado": "2026-08-22T21:26Z",
+"publicado": "2026-08-22T22:03Z",
 "pv": 0.2769,
 "v": "Brighton"
 },
-"premier|2026-08-29|coventry|hull": {
+"premier|2026-08-29|coventry city|hull city": {
 "clave_l": "Coventry City FC",
 "clave_liga": "premier",
 "clave_v": "Hull City AFC",
@@ -2465,22 +2465,22 @@
 "liga": "Premier League",
 "pe": 0.2985,
 "pl": 0.4239,
-"publicado": "2026-08-22T21:26Z",
+"publicado": "2026-08-22T22:03Z",
 "pv": 0.2776,
 "v": "Hull City AFC"
 },
-"premier|2026-08-29|crystal palace|manchester": {
+"premier|2026-08-29|crystal palace|manchester city": {
 "clave_l": "Crystal Palace",
 "clave_liga": "premier",
-"clave_v": "Manchester United",
+"clave_v": "Manchester City",
 "fecha": "2026-08-29",
 "l": "Crystal Palace",
 "liga": "Premier League",
-"pe": 0.2752,
-"pl": 0.3792,
-"publicado": "2026-08-22T21:26Z",
-"pv": 0.3456,
-"v": "Manchester Utd"
+"pe": 0.2595,
+"pl": 0.2827,
+"publicado": "2026-08-22T22:03Z",
+"pv": 0.4578,
+"v": "Manchester City"
 },
 "premier|2026-08-29|leeds|brentford": {
 "clave_l": "Leeds",
@@ -2491,7 +2491,7 @@
 "liga": "Premier League",
 "pe": 0.2869,
 "pl": 0.4204,
-"publicado": "2026-08-22T21:26Z",
+"publicado": "2026-08-22T22:03Z",
 "pv": 0.2927,
 "v": "Brentford"
 },
@@ -2504,11 +2504,11 @@
 "liga": "Premier League",
 "pe": 0.2251,
 "pl": 0.6398,
-"publicado": "2026-08-22T21:26Z",
+"publicado": "2026-08-22T22:03Z",
 "pv": 0.1351,
 "v": "Nottingham"
 },
-"premier|2026-08-29|manchester|ipswich town": {
+"premier|2026-08-29|manchester united|ipswich town": {
 "clave_l": "Manchester United",
 "clave_liga": "premier",
 "clave_v": "Ipswich Town FC",
@@ -2517,7 +2517,7 @@
 "liga": "Premier League",
 "pe": 0.2044,
 "pl": 0.6876,
-"publicado": "2026-08-22T21:26Z",
+"publicado": "2026-08-22T22:03Z",
 "pv": 0.108,
 "v": "Ipswich Town FC"
 },
@@ -2530,11 +2530,11 @@
 "liga": "Premier League",
 "pe": 0.3149,
 "pl": 0.3771,
-"publicado": "2026-08-22T21:26Z",
+"publicado": "2026-08-22T22:03Z",
 "pv": 0.308,
 "v": "Fulham"
 },
-"premier|2026-08-29|tottenham|newcastle": {
+"premier|2026-08-29|tottenham|newcastle united": {
 "clave_l": "Tottenham",
 "clave_liga": "premier",
 "clave_v": "Newcastle United",
@@ -2543,7 +2543,7 @@
 "liga": "Premier League",
 "pe": 0.2935,
 "pl": 0.3689,
-"publicado": "2026-08-22T21:26Z",
+"publicado": "2026-08-22T22:03Z",
 "pv": 0.3376,
 "v": "Newcastle"
 },
@@ -2556,7 +2556,7 @@
 "liga": "Premier League",
 "pe": 0.228,
 "pl": 0.648,
-"publicado": "2026-08-22T21:26Z",
+"publicado": "2026-08-22T22:03Z",
 "pv": 0.1239,
 "v": "Chelsea"
 },
@@ -2569,7 +2569,7 @@
 "liga": "Premier League",
 "pe": 0.2625,
 "pl": 0.5409,
-"publicado": "2026-08-22T21:26Z",
+"publicado": "2026-08-22T22:03Z",
 "pv": 0.1966,
 "v": "Sunderland"
 },
@@ -2582,11 +2582,11 @@
 "liga": "Premier League",
 "pe": 0.2957,
 "pl": 0.4571,
-"publicado": "2026-08-22T21:26Z",
+"publicado": "2026-08-22T22:03Z",
 "pv": 0.2472,
 "v": "Leeds United"
 },
-"premier|2026-09-05|everton|manchester": {
+"premier|2026-09-05|everton|manchester united": {
 "clave_l": "Everton",
 "clave_liga": "premier",
 "clave_v": "Manchester United",
@@ -2595,7 +2595,7 @@
 "liga": "Premier League",
 "pe": 0.2905,
 "pl": 0.3027,
-"publicado": "2026-08-22T21:26Z",
+"publicado": "2026-08-22T22:03Z",
 "pv": 0.4068,
 "v": "Manchester Utd"
 },
@@ -2608,11 +2608,11 @@
 "liga": "Premier League",
 "pe": 0.2862,
 "pl": 0.3876,
-"publicado": "2026-08-22T21:26Z",
+"publicado": "2026-08-22T22:03Z",
 "pv": 0.3262,
 "v": "Crystal Palace"
 },
-"premier|2026-09-05|hull|aston villa": {
+"premier|2026-09-05|hull city|aston villa": {
 "clave_l": "Hull City AFC",
 "clave_liga": "premier",
 "clave_v": "Aston Villa",
@@ -2621,7 +2621,7 @@
 "liga": "Premier League",
 "pe": 0.2844,
 "pl": 0.2574,
-"publicado": "2026-08-22T21:26Z",
+"publicado": "2026-08-22T22:03Z",
 "pv": 0.4582,
 "v": "Aston Villa"
 },
@@ -2634,35 +2634,35 @@
 "liga": "Premier League",
 "pe": 0.2384,
 "pl": 0.1612,
-"publicado": "2026-08-22T21:26Z",
+"publicado": "2026-08-22T22:03Z",
 "pv": 0.6004,
 "v": "Liverpool"
 },
-"premier|2026-09-05|manchester|coventry": {
-"clave_l": "Manchester United",
+"premier|2026-09-05|manchester city|coventry city": {
+"clave_l": "Manchester City",
 "clave_liga": "premier",
 "clave_v": "Coventry City FC",
 "fecha": "2026-09-05",
-"l": "Manchester Utd",
+"l": "Manchester City",
 "liga": "Premier League",
-"pe": 0.2044,
-"pl": 0.6876,
-"publicado": "2026-08-22T21:26Z",
-"pv": 0.108,
+"pe": 0.1471,
+"pl": 0.7892,
+"publicado": "2026-08-22T22:03Z",
+"pv": 0.0637,
 "v": "Coventry City FC"
 },
-"premier|2026-09-05|newcastle|a bournemouth": {
+"premier|2026-09-05|newcastle united|bournemouth": {
 "clave_l": "Newcastle United",
 "clave_liga": "premier",
-"clave_v": "AFC Bournemouth",
+"clave_v": "Bournemouth",
 "fecha": "2026-09-05",
 "l": "Newcastle",
 "liga": "Premier League",
-"pe": 0.2346,
-"pl": 0.6218,
-"publicado": "2026-08-22T21:26Z",
-"pv": 0.1435,
-"v": "AFC Bournemouth"
+"pe": 0.2739,
+"pl": 0.3699,
+"publicado": "2026-08-22T22:03Z",
+"pv": 0.3563,
+"v": "Bournemouth"
 },
 "premier|2026-09-05|nottingham forest|tottenham": {
 "clave_l": "Nottingham Forest",
@@ -2673,22 +2673,9 @@
 "liga": "Premier League",
 "pe": 0.3024,
 "pl": 0.4144,
-"publicado": "2026-08-22T21:26Z",
+"publicado": "2026-08-22T22:03Z",
 "pv": 0.2832,
 "v": "Tottenham"
-},
-"premier|2026-09-12|a bournemouth|brentford": {
-"clave_l": "AFC Bournemouth",
-"clave_liga": "premier",
-"clave_v": "Brentford",
-"fecha": "2026-09-12",
-"l": "AFC Bournemouth",
-"liga": "Premier League",
-"pe": 0.2678,
-"pl": 0.2434,
-"publicado": "2026-08-22T21:26Z",
-"pv": 0.4888,
-"v": "Brentford"
 },
 "premier|2026-09-12|aston villa|nottingham forest": {
 "clave_l": "Aston Villa",
@@ -2699,11 +2686,24 @@
 "liga": "Premier League",
 "pe": 0.2785,
 "pl": 0.4992,
-"publicado": "2026-08-22T21:26Z",
+"publicado": "2026-08-22T22:03Z",
 "pv": 0.2223,
 "v": "Nottingham"
 },
-"premier|2026-09-12|chelsea|hull": {
+"premier|2026-09-12|bournemouth|brentford": {
+"clave_l": "Bournemouth",
+"clave_liga": "premier",
+"clave_v": "Brentford",
+"fecha": "2026-09-12",
+"l": "Bournemouth",
+"liga": "Premier League",
+"pe": 0.2445,
+"pl": 0.5174,
+"publicado": "2026-08-22T22:03Z",
+"pv": 0.2381,
+"v": "Brentford"
+},
+"premier|2026-09-12|chelsea|hull city": {
 "clave_l": "Chelsea",
 "clave_liga": "premier",
 "clave_v": "Hull City AFC",
@@ -2712,11 +2712,11 @@
 "liga": "Premier League",
 "pe": 0.1951,
 "pl": 0.6925,
-"publicado": "2026-08-22T21:26Z",
+"publicado": "2026-08-22T22:03Z",
 "pv": 0.1123,
 "v": "Hull City AFC"
 },
-"premier|2026-09-12|coventry|brighton": {
+"premier|2026-09-12|coventry city|brighton": {
 "clave_l": "Coventry City FC",
 "clave_liga": "premier",
 "clave_v": "Brighton",
@@ -2725,7 +2725,7 @@
 "liga": "Premier League",
 "pe": 0.2791,
 "pl": 0.2231,
-"publicado": "2026-08-22T21:26Z",
+"publicado": "2026-08-22T22:03Z",
 "pv": 0.4979,
 "v": "Brighton"
 },
@@ -2738,11 +2738,11 @@
 "liga": "Premier League",
 "pe": 0.2241,
 "pl": 0.6348,
-"publicado": "2026-08-22T21:26Z",
+"publicado": "2026-08-22T22:03Z",
 "pv": 0.1411,
 "v": "Ipswich Town FC"
 },
-"premier|2026-09-12|leeds|newcastle": {
+"premier|2026-09-12|leeds|newcastle united": {
 "clave_l": "Leeds",
 "clave_liga": "premier",
 "clave_v": "Newcastle United",
@@ -2751,7 +2751,7 @@
 "liga": "Premier League",
 "pe": 0.2969,
 "pl": 0.4299,
-"publicado": "2026-08-22T21:26Z",
+"publicado": "2026-08-22T22:03Z",
 "pv": 0.2732,
 "v": "Newcastle"
 },
@@ -2764,22 +2764,22 @@
 "liga": "Premier League",
 "pe": 0.2321,
 "pl": 0.6185,
-"publicado": "2026-08-22T21:26Z",
+"publicado": "2026-08-22T22:03Z",
 "pv": 0.1495,
 "v": "Fulham"
 },
-"premier|2026-09-12|manchester|manchester": {
+"premier|2026-09-12|manchester united|manchester city": {
 "clave_l": "Manchester United",
 "clave_liga": "premier",
-"clave_v": "Manchester United",
+"clave_v": "Manchester City",
 "fecha": "2026-09-12",
 "l": "Manchester Utd",
 "liga": "Premier League",
-"pe": 0.2763,
-"pl": 0.4404,
-"publicado": "2026-08-22T21:26Z",
-"pv": 0.2833,
-"v": "Manchester Utd"
+"pe": 0.2728,
+"pl": 0.3419,
+"publicado": "2026-08-22T22:03Z",
+"pv": 0.3853,
+"v": "Manchester City"
 },
 "premier|2026-09-12|sunderland|arsenal": {
 "clave_l": "Sunderland",
@@ -2790,7 +2790,7 @@
 "liga": "Premier League",
 "pe": 0.2794,
 "pl": 0.1391,
-"publicado": "2026-08-22T21:26Z",
+"publicado": "2026-08-22T22:03Z",
 "pv": 0.5815,
 "v": "Arsenal"
 },
@@ -2803,21 +2803,21 @@
 "liga": "Premier League",
 "pe": 0.2965,
 "pl": 0.4304,
-"publicado": "2026-08-22T21:26Z",
+"publicado": "2026-08-22T22:03Z",
 "pv": 0.2731,
 "v": "Everton"
 },
-"premier|2026-09-19|a bournemouth|liverpool": {
-"clave_l": "AFC Bournemouth",
+"premier|2026-09-19|bournemouth|liverpool": {
+"clave_l": "Bournemouth",
 "clave_liga": "premier",
 "clave_v": "Liverpool",
 "fecha": "2026-09-19",
-"l": "AFC Bournemouth",
+"l": "Bournemouth",
 "liga": "Premier League",
-"pe": 0.2384,
-"pl": 0.1612,
-"publicado": "2026-08-22T21:26Z",
-"pv": 0.6004,
+"pe": 0.2663,
+"pl": 0.3912,
+"publicado": "2026-08-22T22:03Z",
+"pv": 0.3425,
 "v": "Liverpool"
 },
 "premier|2026-09-19|brentford|chelsea": {
@@ -2829,7 +2829,7 @@
 "liga": "Premier League",
 "pe": 0.2564,
 "pl": 0.4224,
-"publicado": "2026-08-22T21:26Z",
+"publicado": "2026-08-22T22:03Z",
 "pv": 0.3212,
 "v": "Chelsea"
 },
@@ -2842,7 +2842,7 @@
 "liga": "Premier League",
 "pe": 0.3039,
 "pl": 0.2172,
-"publicado": "2026-08-22T21:26Z",
+"publicado": "2026-08-22T22:03Z",
 "pv": 0.4788,
 "v": "Arsenal"
 },
@@ -2855,11 +2855,11 @@
 "liga": "Premier League",
 "pe": 0.2704,
 "pl": 0.5415,
-"publicado": "2026-08-22T21:26Z",
+"publicado": "2026-08-22T22:03Z",
 "pv": 0.1881,
 "v": "Ipswich Town FC"
 },
-"premier|2026-09-19|fulham|manchester": {
+"premier|2026-09-19|fulham|manchester united": {
 "clave_l": "Fulham",
 "clave_liga": "premier",
 "clave_v": "Manchester United",
@@ -2868,7 +2868,7 @@
 "liga": "Premier League",
 "pe": 0.2932,
 "pl": 0.3233,
-"publicado": "2026-08-22T21:26Z",
+"publicado": "2026-08-22T22:03Z",
 "pv": 0.3835,
 "v": "Manchester Utd"
 },
@@ -2881,24 +2881,24 @@
 "liga": "Premier League",
 "pe": 0.2882,
 "pl": 0.4346,
-"publicado": "2026-08-22T21:26Z",
+"publicado": "2026-08-22T22:03Z",
 "pv": 0.2772,
 "v": "Crystal Palace"
 },
-"premier|2026-09-19|manchester|sunderland": {
-"clave_l": "Manchester United",
+"premier|2026-09-19|manchester city|sunderland": {
+"clave_l": "Manchester City",
 "clave_liga": "premier",
 "clave_v": "Sunderland",
 "fecha": "2026-09-19",
-"l": "Manchester Utd",
+"l": "Manchester City",
 "liga": "Premier League",
-"pe": 0.258,
-"pl": 0.5764,
-"publicado": "2026-08-22T21:26Z",
-"pv": 0.1656,
+"pe": 0.2054,
+"pl": 0.6869,
+"publicado": "2026-08-22T22:03Z",
+"pv": 0.1078,
 "v": "Sunderland"
 },
-"premier|2026-09-19|newcastle|hull": {
+"premier|2026-09-19|newcastle united|hull city": {
 "clave_l": "Newcastle United",
 "clave_liga": "premier",
 "clave_v": "Hull City AFC",
@@ -2907,11 +2907,11 @@
 "liga": "Premier League",
 "pe": 0.2346,
 "pl": 0.6218,
-"publicado": "2026-08-22T21:26Z",
+"publicado": "2026-08-22T22:03Z",
 "pv": 0.1435,
 "v": "Hull City AFC"
 },
-"premier|2026-09-19|nottingham forest|coventry": {
+"premier|2026-09-19|nottingham forest|coventry city": {
 "clave_l": "Nottingham Forest",
 "clave_liga": "premier",
 "clave_v": "Coventry City FC",
@@ -2920,7 +2920,7 @@
 "liga": "Premier League",
 "pe": 0.2753,
 "pl": 0.5354,
-"publicado": "2026-08-22T21:26Z",
+"publicado": "2026-08-22T22:03Z",
 "pv": 0.1893,
 "v": "Coventry City FC"
 },
@@ -2933,7 +2933,7 @@
 "liga": "Premier League",
 "pe": 0.2934,
 "pl": 0.3694,
-"publicado": "2026-08-22T21:26Z",
+"publicado": "2026-08-22T22:03Z",
 "pv": 0.3371,
 "v": "Aston Villa"
 },
@@ -2946,7 +2946,7 @@
 "liga": "Premier League",
 "pe": 0.2479,
 "pl": 0.6449,
-"publicado": "2026-08-22T21:26Z",
+"publicado": "2026-08-22T22:03Z",
 "pv": 0.1072,
 "v": "Leeds United"
 },
@@ -2959,24 +2959,24 @@
 "liga": "Premier League",
 "pe": 0.2701,
 "pl": 0.4265,
-"publicado": "2026-08-22T21:26Z",
+"publicado": "2026-08-22T22:03Z",
 "pv": 0.3034,
 "v": "Brentford"
 },
-"premier|2026-10-10|chelsea|a bournemouth": {
+"premier|2026-10-10|chelsea|bournemouth": {
 "clave_l": "Chelsea",
 "clave_liga": "premier",
-"clave_v": "AFC Bournemouth",
+"clave_v": "Bournemouth",
 "fecha": "2026-10-10",
 "l": "Chelsea",
 "liga": "Premier League",
-"pe": 0.1951,
-"pl": 0.6925,
-"publicado": "2026-08-22T21:26Z",
-"pv": 0.1123,
-"v": "AFC Bournemouth"
+"pe": 0.2555,
+"pl": 0.434,
+"publicado": "2026-08-22T22:03Z",
+"pv": 0.3105,
+"v": "Bournemouth"
 },
-"premier|2026-10-10|coventry|newcastle": {
+"premier|2026-10-10|coventry city|newcastle united": {
 "clave_l": "Coventry City FC",
 "clave_liga": "premier",
 "clave_v": "Newcastle United",
@@ -2985,7 +2985,7 @@
 "liga": "Premier League",
 "pe": 0.2844,
 "pl": 0.2569,
-"publicado": "2026-08-22T21:26Z",
+"publicado": "2026-08-22T22:03Z",
 "pv": 0.4587,
 "v": "Newcastle"
 },
@@ -2998,11 +2998,11 @@
 "liga": "Premier League",
 "pe": 0.2687,
 "pl": 0.5104,
-"publicado": "2026-08-22T21:26Z",
+"publicado": "2026-08-22T22:03Z",
 "pv": 0.2209,
 "v": "Nottingham"
 },
-"premier|2026-10-10|hull|everton": {
+"premier|2026-10-10|hull city|everton": {
 "clave_l": "Hull City AFC",
 "clave_liga": "premier",
 "clave_v": "Everton",
@@ -3011,7 +3011,7 @@
 "liga": "Premier League",
 "pe": 0.3031,
 "pl": 0.3134,
-"publicado": "2026-08-22T21:26Z",
+"publicado": "2026-08-22T22:03Z",
 "pv": 0.3835,
 "v": "Everton"
 },
@@ -3024,24 +3024,24 @@
 "liga": "Premier League",
 "pe": 0.3019,
 "pl": 0.2932,
-"publicado": "2026-08-22T21:26Z",
+"publicado": "2026-08-22T22:03Z",
 "pv": 0.4049,
 "v": "Fulham"
 },
-"premier|2026-10-10|liverpool|manchester": {
+"premier|2026-10-10|liverpool|manchester city": {
 "clave_l": "Liverpool",
 "clave_liga": "premier",
-"clave_v": "Manchester United",
+"clave_v": "Manchester City",
 "fecha": "2026-10-10",
 "l": "Liverpool",
 "liga": "Premier League",
-"pe": 0.2572,
-"pl": 0.5139,
-"publicado": "2026-08-22T21:26Z",
-"pv": 0.2288,
-"v": "Manchester Utd"
+"pe": 0.266,
+"pl": 0.4117,
+"publicado": "2026-08-22T22:03Z",
+"pv": 0.3223,
+"v": "Manchester City"
 },
-"premier|2026-10-10|manchester|tottenham": {
+"premier|2026-10-10|manchester united|tottenham": {
 "clave_l": "Manchester United",
 "clave_liga": "premier",
 "clave_v": "Tottenham",
@@ -3050,7 +3050,7 @@
 "liga": "Premier League",
 "pe": 0.2535,
 "pl": 0.5661,
-"publicado": "2026-08-22T21:26Z",
+"publicado": "2026-08-22T22:03Z",
 "pv": 0.1804,
 "v": "Tottenham"
 },
@@ -3063,21 +3063,21 @@
 "liga": "Premier League",
 "pe": 0.3078,
 "pl": 0.3017,
-"publicado": "2026-08-22T21:26Z",
+"publicado": "2026-08-22T22:03Z",
 "pv": 0.3905,
 "v": "Brighton"
 },
-"premier|2026-10-17|a bournemouth|sunderland": {
-"clave_l": "AFC Bournemouth",
+"premier|2026-10-17|bournemouth|sunderland": {
+"clave_l": "Bournemouth",
 "clave_liga": "premier",
 "clave_v": "Sunderland",
 "fecha": "2026-10-17",
-"l": "AFC Bournemouth",
+"l": "Bournemouth",
 "liga": "Premier League",
-"pe": 0.3149,
-"pl": 0.3245,
-"publicado": "2026-08-22T21:26Z",
-"pv": 0.3605,
+"pe": 0.2436,
+"pl": 0.5966,
+"publicado": "2026-08-22T22:03Z",
+"pv": 0.1598,
 "v": "Sunderland"
 },
 "premier|2026-10-17|everton|chelsea": {
@@ -3089,11 +3089,11 @@
 "liga": "Premier League",
 "pe": 0.2778,
 "pl": 0.3207,
-"publicado": "2026-08-22T21:26Z",
+"publicado": "2026-08-22T22:03Z",
 "pv": 0.4015,
 "v": "Chelsea"
 },
-"premier|2026-10-17|fulham|hull": {
+"premier|2026-10-17|fulham|hull city": {
 "clave_l": "Fulham",
 "clave_liga": "premier",
 "clave_v": "Hull City AFC",
@@ -3102,11 +3102,11 @@
 "liga": "Premier League",
 "pe": 0.2636,
 "pl": 0.5635,
-"publicado": "2026-08-22T21:26Z",
+"publicado": "2026-08-22T22:03Z",
 "pv": 0.1729,
 "v": "Hull City AFC"
 },
-"premier|2026-10-17|leeds|manchester": {
+"premier|2026-10-17|leeds|manchester united": {
 "clave_l": "Leeds",
 "clave_liga": "premier",
 "clave_v": "Manchester United",
@@ -3115,11 +3115,11 @@
 "liga": "Premier League",
 "pe": 0.3014,
 "pl": 0.3679,
-"publicado": "2026-08-22T21:26Z",
+"publicado": "2026-08-22T22:03Z",
 "pv": 0.3307,
 "v": "Manchester Utd"
 },
-"premier|2026-10-17|newcastle|aston villa": {
+"premier|2026-10-17|newcastle united|aston villa": {
 "clave_l": "Newcastle United",
 "clave_liga": "premier",
 "clave_v": "Aston Villa",
@@ -3128,11 +3128,11 @@
 "liga": "Premier League",
 "pe": 0.2796,
 "pl": 0.4385,
-"publicado": "2026-08-22T21:26Z",
+"publicado": "2026-08-22T22:03Z",
 "pv": 0.282,
 "v": "Aston Villa"
 },
-"premier|2026-10-17|tottenham|coventry": {
+"premier|2026-10-17|tottenham|coventry city": {
 "clave_l": "Tottenham",
 "clave_liga": "premier",
 "clave_v": "Coventry City FC",
@@ -3141,22 +3141,9 @@
 "liga": "Premier League",
 "pe": 0.2672,
 "pl": 0.5486,
-"publicado": "2026-08-22T21:26Z",
+"publicado": "2026-08-22T22:03Z",
 "pv": 0.1842,
 "v": "Coventry City FC"
-},
-"primeira|2026-08-23|cd santa clara|famalicão": {
-"clave_l": "CD Santa Clara",
-"clave_liga": "primeira",
-"clave_v": "FC Famalicão",
-"fecha": "2026-08-23",
-"l": "CD Santa Clara",
-"liga": "Primeira Liga",
-"pe": 0.5572,
-"pl": 0.1618,
-"publicado": "2026-08-22T21:30Z",
-"pv": 0.281,
-"v": "FC Famalicão"
 },
 "primeira|2026-08-23|cs maritimo|academico de viseu": {
 "clave_l": "CS Marítimo",
@@ -3167,7 +3154,7 @@
 "liga": "Primeira Liga",
 "pe": 0.5184,
 "pl": 0.2902,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.1914,
 "v": "Académico de Viseu FC"
 },
@@ -3180,7 +3167,7 @@
 "liga": "Primeira Liga",
 "pe": 0.2896,
 "pl": 0.0714,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.639,
 "v": "Sporting Clube de Braga"
 },
@@ -3193,11 +3180,11 @@
 "liga": "Primeira Liga",
 "pe": 0.3367,
 "pl": 0.4892,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.1741,
 "v": "Rio Ave FC"
 },
-"primeira|2026-08-23|gil vicente|casa pia ac": {
+"primeira|2026-08-23|gil vicente|casa pia": {
 "clave_l": "Gil Vicente FC",
 "clave_liga": "primeira",
 "clave_v": "Casa Pia AC",
@@ -3206,11 +3193,11 @@
 "liga": "Primeira Liga",
 "pe": 0.428,
 "pl": 0.4397,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.1322,
 "v": "Casa Pia AC"
 },
-"primeira|2026-08-23|moreirense|sport lisboa e benfica": {
+"primeira|2026-08-23|moreirense|sport lisboa benfica": {
 "clave_l": "Moreirense FC",
 "clave_liga": "primeira",
 "clave_v": "Sport Lisboa e Benfica",
@@ -3219,7 +3206,7 @@
 "liga": "Primeira Liga",
 "pe": 0.2205,
 "pl": 0.0556,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.7239,
 "v": "Sport Lisboa e Benfica"
 },
@@ -3232,9 +3219,22 @@
 "liga": "Primeira Liga",
 "pe": 0.1495,
 "pl": 0.8255,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.0251,
 "v": "FC Arouca"
+},
+"primeira|2026-08-23|santa clara|famalicão": {
+"clave_l": "CD Santa Clara",
+"clave_liga": "primeira",
+"clave_v": "FC Famalicão",
+"fecha": "2026-08-23",
+"l": "CD Santa Clara",
+"liga": "Primeira Liga",
+"pe": 0.5572,
+"pl": 0.1618,
+"publicado": "2026-08-22T22:07Z",
+"pv": 0.281,
+"v": "FC Famalicão"
 },
 "primeira|2026-08-23|sporting clube de portugal|alverca": {
 "clave_l": "Sporting Clube de Portugal",
@@ -3245,11 +3245,11 @@
 "liga": "Primeira Liga",
 "pe": 0.056,
 "pl": 0.936,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.008,
 "v": "FC Alverca"
 },
-"primeira|2026-08-23|vitoria guimarães|cd nacional": {
+"primeira|2026-08-23|vitoria guimarães|nacional": {
 "clave_l": "Vitória Guimarães",
 "clave_liga": "primeira",
 "clave_v": "CD Nacional",
@@ -3258,7 +3258,7 @@
 "liga": "Primeira Liga",
 "pe": 0.4592,
 "pl": 0.3888,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.152,
 "v": "CD Nacional"
 },
@@ -3271,11 +3271,11 @@
 "liga": "Primeira Liga",
 "pe": 0.2302,
 "pl": 0.0276,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.7421,
 "v": "FC Porto"
 },
-"primeira|2026-08-30|alverca|cd santa clara": {
+"primeira|2026-08-30|alverca|santa clara": {
 "clave_l": "FC Alverca",
 "clave_liga": "primeira",
 "clave_v": "CD Santa Clara",
@@ -3284,7 +3284,7 @@
 "liga": "Primeira Liga",
 "pe": 0.4819,
 "pl": 0.257,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.2611,
 "v": "CD Santa Clara"
 },
@@ -3297,11 +3297,11 @@
 "liga": "Primeira Liga",
 "pe": 0.3524,
 "pl": 0.5371,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.1105,
 "v": "CS Marítimo"
 },
-"primeira|2026-08-30|casa pia ac|moreirense": {
+"primeira|2026-08-30|casa pia|moreirense": {
 "clave_l": "Casa Pia AC",
 "clave_liga": "primeira",
 "clave_v": "Moreirense FC",
@@ -3310,22 +3310,9 @@
 "liga": "Primeira Liga",
 "pe": 0.4689,
 "pl": 0.2771,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.254,
 "v": "Moreirense FC"
-},
-"primeira|2026-08-30|cd nacional|estrela da amadora": {
-"clave_l": "CD Nacional",
-"clave_liga": "primeira",
-"clave_v": "CF Estrela da Amadora",
-"fecha": "2026-08-30",
-"l": "CD Nacional",
-"liga": "Primeira Liga",
-"pe": 0.4799,
-"pl": 0.3727,
-"publicado": "2026-08-22T21:30Z",
-"pv": 0.1474,
-"v": "CF Estrela da Amadora"
 },
 "primeira|2026-08-30|famalicão|gil vicente": {
 "clave_l": "FC Famalicão",
@@ -3336,9 +3323,22 @@
 "liga": "Primeira Liga",
 "pe": 0.4568,
 "pl": 0.4304,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.1128,
 "v": "Gil Vicente FC"
+},
+"primeira|2026-08-30|nacional|estrela da amadora": {
+"clave_l": "CD Nacional",
+"clave_liga": "primeira",
+"clave_v": "CF Estrela da Amadora",
+"fecha": "2026-08-30",
+"l": "CD Nacional",
+"liga": "Primeira Liga",
+"pe": 0.4799,
+"pl": 0.3727,
+"publicado": "2026-08-22T22:07Z",
+"pv": 0.1474,
+"v": "CF Estrela da Amadora"
 },
 "primeira|2026-08-30|rio ave|sporting clube de portugal": {
 "clave_l": "Rio Ave FC",
@@ -3349,11 +3349,11 @@
 "liga": "Primeira Liga",
 "pe": 0.1176,
 "pl": 0.0235,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.8589,
 "v": "Sporting Clube de Portugal"
 },
-"primeira|2026-08-30|sport lisboa e benfica|gd estoril praia": {
+"primeira|2026-08-30|sport lisboa benfica|gd estoril praia": {
 "clave_l": "Sport Lisboa e Benfica",
 "clave_liga": "primeira",
 "clave_v": "GD Estoril Praia",
@@ -3362,7 +3362,7 @@
 "liga": "Primeira Liga",
 "pe": 0.0804,
 "pl": 0.9033,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.0163,
 "v": "GD Estoril Praia"
 },
@@ -3375,7 +3375,7 @@
 "liga": "Primeira Liga",
 "pe": 0.2868,
 "pl": 0.6323,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.0809,
 "v": "Vitória Guimarães"
 },
@@ -3388,24 +3388,11 @@
 "liga": "Primeira Liga",
 "pe": 0.2713,
 "pl": 0.0986,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.6301,
 "v": "Sporting Clube de Braga"
 },
-"primeira|2026-09-06|cd santa clara|rio ave": {
-"clave_l": "CD Santa Clara",
-"clave_liga": "primeira",
-"clave_v": "Rio Ave FC",
-"fecha": "2026-09-06",
-"l": "CD Santa Clara",
-"liga": "Primeira Liga",
-"pe": 0.4498,
-"pl": 0.4112,
-"publicado": "2026-08-22T21:30Z",
-"pv": 0.139,
-"v": "Rio Ave FC"
-},
-"primeira|2026-09-06|cs maritimo|sport lisboa e benfica": {
+"primeira|2026-09-06|cs maritimo|sport lisboa benfica": {
 "clave_l": "CS Marítimo",
 "clave_liga": "primeira",
 "clave_v": "Sport Lisboa e Benfica",
@@ -3414,7 +3401,7 @@
 "liga": "Primeira Liga",
 "pe": 0.1716,
 "pl": 0.0272,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.8012,
 "v": "Sport Lisboa e Benfica"
 },
@@ -3427,7 +3414,7 @@
 "liga": "Primeira Liga",
 "pe": 0.4858,
 "pl": 0.1025,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.4116,
 "v": "FC Famalicão"
 },
@@ -3440,7 +3427,7 @@
 "liga": "Primeira Liga",
 "pe": 0.3362,
 "pl": 0.3815,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.2822,
 "v": "FC Arouca"
 },
@@ -3453,7 +3440,7 @@
 "liga": "Primeira Liga",
 "pe": 0.4136,
 "pl": 0.486,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.1004,
 "v": "Académico de Viseu FC"
 },
@@ -3466,11 +3453,24 @@
 "liga": "Primeira Liga",
 "pe": 0.1715,
 "pl": 0.8071,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.0214,
 "v": "Moreirense FC"
 },
-"primeira|2026-09-06|sporting clube de portugal|cd nacional": {
+"primeira|2026-09-06|santa clara|rio ave": {
+"clave_l": "CD Santa Clara",
+"clave_liga": "primeira",
+"clave_v": "Rio Ave FC",
+"fecha": "2026-09-06",
+"l": "CD Santa Clara",
+"liga": "Primeira Liga",
+"pe": 0.4498,
+"pl": 0.4112,
+"publicado": "2026-08-22T22:07Z",
+"pv": 0.139,
+"v": "Rio Ave FC"
+},
+"primeira|2026-09-06|sporting clube de portugal|nacional": {
 "clave_l": "Sporting Clube de Portugal",
 "clave_liga": "primeira",
 "clave_v": "CD Nacional",
@@ -3479,11 +3479,11 @@
 "liga": "Primeira Liga",
 "pe": 0.0937,
 "pl": 0.8935,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.0128,
 "v": "CD Nacional"
 },
-"primeira|2026-09-06|vitoria guimarães|casa pia ac": {
+"primeira|2026-09-06|vitoria guimarães|casa pia": {
 "clave_l": "Vitória Guimarães",
 "clave_liga": "primeira",
 "clave_v": "Casa Pia AC",
@@ -3492,7 +3492,7 @@
 "liga": "Primeira Liga",
 "pe": 0.4358,
 "pl": 0.4392,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.125,
 "v": "Casa Pia AC"
 },
@@ -3505,11 +3505,11 @@
 "liga": "Primeira Liga",
 "pe": 0.4861,
 "pl": 0.164,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.3499,
 "v": "Vitória Guimarães"
 },
-"primeira|2026-09-13|arouca|cd santa clara": {
+"primeira|2026-09-13|arouca|santa clara": {
 "clave_l": "FC Arouca",
 "clave_liga": "primeira",
 "clave_v": "CD Santa Clara",
@@ -3518,11 +3518,11 @@
 "liga": "Primeira Liga",
 "pe": 0.4437,
 "pl": 0.3384,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.2179,
 "v": "CD Santa Clara"
 },
-"primeira|2026-09-13|casa pia ac|porto": {
+"primeira|2026-09-13|casa pia|porto": {
 "clave_l": "Casa Pia AC",
 "clave_liga": "primeira",
 "clave_v": "FC Porto",
@@ -3531,22 +3531,9 @@
 "liga": "Primeira Liga",
 "pe": 0.2578,
 "pl": 0.0391,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.703,
 "v": "FC Porto"
-},
-"primeira|2026-09-13|cd nacional|alverca": {
-"clave_l": "CD Nacional",
-"clave_liga": "primeira",
-"clave_v": "FC Alverca",
-"fecha": "2026-09-13",
-"l": "CD Nacional",
-"liga": "Primeira Liga",
-"pe": 0.4356,
-"pl": 0.3582,
-"publicado": "2026-08-22T21:30Z",
-"pv": 0.2062,
-"v": "FC Alverca"
 },
 "primeira|2026-09-13|famalicão|sporting clube de portugal": {
 "clave_l": "FC Famalicão",
@@ -3557,7 +3544,7 @@
 "liga": "Primeira Liga",
 "pe": 0.3768,
 "pl": 0.1429,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.4803,
 "v": "Sporting Clube de Portugal"
 },
@@ -3570,9 +3557,22 @@
 "liga": "Primeira Liga",
 "pe": 0.4406,
 "pl": 0.4268,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.1326,
 "v": "CS Marítimo"
+},
+"primeira|2026-09-13|nacional|alverca": {
+"clave_l": "CD Nacional",
+"clave_liga": "primeira",
+"clave_v": "FC Alverca",
+"fecha": "2026-09-13",
+"l": "CD Nacional",
+"liga": "Primeira Liga",
+"pe": 0.4356,
+"pl": 0.3582,
+"publicado": "2026-08-22T22:07Z",
+"pv": 0.2062,
+"v": "FC Alverca"
 },
 "primeira|2026-09-13|rio ave|estrela da amadora": {
 "clave_l": "Rio Ave FC",
@@ -3583,11 +3583,11 @@
 "liga": "Primeira Liga",
 "pe": 0.4566,
 "pl": 0.3572,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.1862,
 "v": "CF Estrela da Amadora"
 },
-"primeira|2026-09-13|sport lisboa e benfica|gil vicente": {
+"primeira|2026-09-13|sport lisboa benfica|gil vicente": {
 "clave_l": "Sport Lisboa e Benfica",
 "clave_liga": "primeira",
 "clave_v": "Gil Vicente FC",
@@ -3596,7 +3596,7 @@
 "liga": "Primeira Liga",
 "pe": 0.173,
 "pl": 0.7931,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.0339,
 "v": "Gil Vicente FC"
 },
@@ -3609,7 +3609,7 @@
 "liga": "Primeira Liga",
 "pe": 0.1591,
 "pl": 0.7934,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.0474,
 "v": "GD Estoril Praia"
 },
@@ -3622,35 +3622,9 @@
 "liga": "Primeira Liga",
 "pe": 0.3947,
 "pl": 0.4032,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.2021,
 "v": "Rio Ave FC"
-},
-"primeira|2026-09-20|cd nacional|famalicão": {
-"clave_l": "CD Nacional",
-"clave_liga": "primeira",
-"clave_v": "FC Famalicão",
-"fecha": "2026-09-20",
-"l": "CD Nacional",
-"liga": "Primeira Liga",
-"pe": 0.5021,
-"pl": 0.1432,
-"publicado": "2026-08-22T21:30Z",
-"pv": 0.3547,
-"v": "FC Famalicão"
-},
-"primeira|2026-09-20|cd santa clara|sporting clube de braga": {
-"clave_l": "CD Santa Clara",
-"clave_liga": "primeira",
-"clave_v": "Sporting Clube de Braga",
-"fecha": "2026-09-20",
-"l": "CD Santa Clara",
-"liga": "Primeira Liga",
-"pe": 0.3973,
-"pl": 0.1409,
-"publicado": "2026-08-22T21:30Z",
-"pv": 0.4618,
-"v": "Sporting Clube de Braga"
 },
 "primeira|2026-09-20|estrela da amadora|academico de viseu": {
 "clave_l": "CF Estrela da Amadora",
@@ -3661,11 +3635,11 @@
 "liga": "Primeira Liga",
 "pe": 0.514,
 "pl": 0.3128,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.1732,
 "v": "Académico de Viseu FC"
 },
-"primeira|2026-09-20|gd estoril praia|casa pia ac": {
+"primeira|2026-09-20|gd estoril praia|casa pia": {
 "clave_l": "GD Estoril Praia",
 "clave_liga": "primeira",
 "clave_v": "Casa Pia AC",
@@ -3674,7 +3648,7 @@
 "liga": "Primeira Liga",
 "pe": 0.3702,
 "pl": 0.4598,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.1699,
 "v": "Casa Pia AC"
 },
@@ -3687,11 +3661,24 @@
 "liga": "Primeira Liga",
 "pe": 0.4136,
 "pl": 0.486,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.1004,
 "v": "CS Marítimo"
 },
-"primeira|2026-09-20|porto|sport lisboa e benfica": {
+"primeira|2026-09-20|nacional|famalicão": {
+"clave_l": "CD Nacional",
+"clave_liga": "primeira",
+"clave_v": "FC Famalicão",
+"fecha": "2026-09-20",
+"l": "CD Nacional",
+"liga": "Primeira Liga",
+"pe": 0.5021,
+"pl": 0.1432,
+"publicado": "2026-08-22T22:07Z",
+"pv": 0.3547,
+"v": "FC Famalicão"
+},
+"primeira|2026-09-20|porto|sport lisboa benfica": {
 "clave_l": "FC Porto",
 "clave_liga": "primeira",
 "clave_v": "Sport Lisboa e Benfica",
@@ -3700,9 +3687,22 @@
 "liga": "Primeira Liga",
 "pe": 0.3769,
 "pl": 0.4126,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.2105,
 "v": "Sport Lisboa e Benfica"
+},
+"primeira|2026-09-20|santa clara|sporting clube de braga": {
+"clave_l": "CD Santa Clara",
+"clave_liga": "primeira",
+"clave_v": "Sporting Clube de Braga",
+"fecha": "2026-09-20",
+"l": "CD Santa Clara",
+"liga": "Primeira Liga",
+"pe": 0.3973,
+"pl": 0.1409,
+"publicado": "2026-08-22T22:07Z",
+"pv": 0.4618,
+"v": "Sporting Clube de Braga"
 },
 "primeira|2026-09-20|sporting clube de portugal|arouca": {
 "clave_l": "Sporting Clube de Portugal",
@@ -3713,7 +3713,7 @@
 "liga": "Primeira Liga",
 "pe": 0.0695,
 "pl": 0.917,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.0135,
 "v": "FC Arouca"
 },
@@ -3726,7 +3726,7 @@
 "liga": "Primeira Liga",
 "pe": 0.4393,
 "pl": 0.4012,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.1595,
 "v": "Moreirense FC"
 },
@@ -3739,7 +3739,7 @@
 "liga": "Primeira Liga",
 "pe": 0.4119,
 "pl": 0.2281,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.36,
 "v": "GD Estoril Praia"
 },
@@ -3752,11 +3752,11 @@
 "liga": "Primeira Liga",
 "pe": 0.3714,
 "pl": 0.502,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.1267,
 "v": "CF Estrela da Amadora"
 },
-"primeira|2026-10-11|casa pia ac|cd santa clara": {
+"primeira|2026-10-11|casa pia|santa clara": {
 "clave_l": "Casa Pia AC",
 "clave_liga": "primeira",
 "clave_v": "CD Santa Clara",
@@ -3765,7 +3765,7 @@
 "liga": "Primeira Liga",
 "pe": 0.5254,
 "pl": 0.2115,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.2631,
 "v": "CD Santa Clara"
 },
@@ -3778,7 +3778,7 @@
 "liga": "Primeira Liga",
 "pe": 0.2302,
 "pl": 0.0276,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.7421,
 "v": "FC Porto"
 },
@@ -3791,7 +3791,7 @@
 "liga": "Primeira Liga",
 "pe": 0.367,
 "pl": 0.5543,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.0787,
 "v": "FC Alverca"
 },
@@ -3804,11 +3804,11 @@
 "liga": "Primeira Liga",
 "pe": 0.4567,
 "pl": 0.2754,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.2679,
 "v": "Gil Vicente FC"
 },
-"primeira|2026-10-11|rio ave|cd nacional": {
+"primeira|2026-10-11|rio ave|nacional": {
 "clave_l": "Rio Ave FC",
 "clave_liga": "primeira",
 "clave_v": "CD Nacional",
@@ -3817,11 +3817,11 @@
 "liga": "Primeira Liga",
 "pe": 0.4532,
 "pl": 0.2915,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.2553,
 "v": "CD Nacional"
 },
-"primeira|2026-10-11|sport lisboa e benfica|vitoria guimarães": {
+"primeira|2026-10-11|sport lisboa benfica|vitoria guimarães": {
 "clave_l": "Sport Lisboa e Benfica",
 "clave_liga": "primeira",
 "clave_v": "Vitória Guimarães",
@@ -3830,7 +3830,7 @@
 "liga": "Primeira Liga",
 "pe": 0.1932,
 "pl": 0.7688,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.038,
 "v": "Vitória Guimarães"
 },
@@ -3843,7 +3843,7 @@
 "liga": "Primeira Liga",
 "pe": 0.3054,
 "pl": 0.2254,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.4692,
 "v": "Sporting Clube de Portugal"
 },
@@ -3856,35 +3856,9 @@
 "liga": "Primeira Liga",
 "pe": 0.3763,
 "pl": 0.3101,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.3135,
 "v": "FC Arouca"
-},
-"primeira|2026-10-25|cd nacional|sporting clube de braga": {
-"clave_l": "CD Nacional",
-"clave_liga": "primeira",
-"clave_v": "Sporting Clube de Braga",
-"fecha": "2026-10-25",
-"l": "CD Nacional",
-"liga": "Primeira Liga",
-"pe": 0.3275,
-"pl": 0.1097,
-"publicado": "2026-08-22T21:30Z",
-"pv": 0.5628,
-"v": "Sporting Clube de Braga"
-},
-"primeira|2026-10-25|cd santa clara|sport lisboa e benfica": {
-"clave_l": "CD Santa Clara",
-"clave_liga": "primeira",
-"clave_v": "Sport Lisboa e Benfica",
-"fecha": "2026-10-25",
-"l": "CD Santa Clara",
-"liga": "Primeira Liga",
-"pe": 0.3195,
-"pl": 0.0799,
-"publicado": "2026-08-22T21:30Z",
-"pv": 0.6006,
-"v": "Sport Lisboa e Benfica"
 },
 "primeira|2026-10-25|gil vicente|porto": {
 "clave_l": "Gil Vicente FC",
@@ -3895,9 +3869,22 @@
 "liga": "Primeira Liga",
 "pe": 0.3344,
 "pl": 0.0753,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.5903,
 "v": "FC Porto"
+},
+"primeira|2026-10-25|nacional|sporting clube de braga": {
+"clave_l": "CD Nacional",
+"clave_liga": "primeira",
+"clave_v": "Sporting Clube de Braga",
+"fecha": "2026-10-25",
+"l": "CD Nacional",
+"liga": "Primeira Liga",
+"pe": 0.3275,
+"pl": 0.1097,
+"publicado": "2026-08-22T22:07Z",
+"pv": 0.5628,
+"v": "Sporting Clube de Braga"
 },
 "primeira|2026-10-25|rio ave|famalicão": {
 "clave_l": "Rio Ave FC",
@@ -3908,9 +3895,22 @@
 "liga": "Primeira Liga",
 "pe": 0.4397,
 "pl": 0.1251,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.4352,
 "v": "FC Famalicão"
+},
+"primeira|2026-10-25|santa clara|sport lisboa benfica": {
+"clave_l": "CD Santa Clara",
+"clave_liga": "primeira",
+"clave_v": "Sport Lisboa e Benfica",
+"fecha": "2026-10-25",
+"l": "CD Santa Clara",
+"liga": "Primeira Liga",
+"pe": 0.3195,
+"pl": 0.0799,
+"publicado": "2026-08-22T22:07Z",
+"pv": 0.6006,
+"v": "Sport Lisboa e Benfica"
 },
 "primeira|2026-10-25|sporting clube de portugal|academico de viseu": {
 "clave_l": "Sporting Clube de Portugal",
@@ -3921,7 +3921,7 @@
 "liga": "Primeira Liga",
 "pe": 0.0518,
 "pl": 0.9435,
-"publicado": "2026-08-22T21:30Z",
+"publicado": "2026-08-22T22:07Z",
 "pv": 0.0047,
 "v": "Académico de Viseu FC"
 },
@@ -3934,7 +3934,7 @@
 "liga": "Serie A",
 "pe": 0.2155,
 "pl": 0.6387,
-"publicado": "2026-08-22T21:29Z",
+"publicado": "2026-08-22T22:05Z",
 "pv": 0.1457,
 "v": "Sassuolo"
 },
@@ -3947,11 +3947,11 @@
 "liga": "Serie A",
 "pe": 0.2614,
 "pl": 0.1188,
-"publicado": "2026-08-22T21:29Z",
+"publicado": "2026-08-22T22:05Z",
 "pv": 0.6198,
 "v": "Juventus"
 },
-"seriea|2026-08-23|torino|ac milan": {
+"seriea|2026-08-23|torino|milan": {
 "clave_l": "Torino",
 "clave_liga": "seriea",
 "clave_v": "AC Milan",
@@ -3960,7 +3960,7 @@
 "liga": "Serie A",
 "pe": 0.2805,
 "pl": 0.2446,
-"publicado": "2026-08-22T21:29Z",
+"publicado": "2026-08-22T22:05Z",
 "pv": 0.4749,
 "v": "AC Milan"
 },
@@ -3973,7 +3973,7 @@
 "liga": "Serie A",
 "pe": 0.3355,
 "pl": 0.3885,
-"publicado": "2026-08-22T21:29Z",
+"publicado": "2026-08-22T22:05Z",
 "pv": 0.2759,
 "v": "Lecce"
 },
@@ -3986,7 +3986,7 @@
 "liga": "Serie A",
 "pe": 0.3345,
 "pl": 0.4091,
-"publicado": "2026-08-22T21:29Z",
+"publicado": "2026-08-22T22:05Z",
 "pv": 0.2564,
 "v": "Lazio"
 },
@@ -3999,11 +3999,11 @@
 "liga": "Serie A",
 "pe": 0.261,
 "pl": 0.5733,
-"publicado": "2026-08-22T21:29Z",
+"publicado": "2026-08-22T22:05Z",
 "pv": 0.1657,
 "v": "Fiorentina"
 },
-"seriea|2026-08-28|ac milan|venezia": {
+"seriea|2026-08-28|milan|venezia": {
 "clave_l": "AC Milan",
 "clave_liga": "seriea",
 "clave_v": "Venezia",
@@ -4012,7 +4012,7 @@
 "liga": "Serie A",
 "pe": 0.2301,
 "pl": 0.658,
-"publicado": "2026-08-22T21:29Z",
+"publicado": "2026-08-22T22:05Z",
 "pv": 0.112,
 "v": "Venezia"
 },
@@ -4025,7 +4025,7 @@
 "liga": "Serie A",
 "pe": 0.296,
 "pl": 0.5126,
-"publicado": "2026-08-22T21:29Z",
+"publicado": "2026-08-22T22:05Z",
 "pv": 0.1914,
 "v": "Frosinone"
 },
@@ -4038,7 +4038,7 @@
 "liga": "Serie A",
 "pe": 0.2001,
 "pl": 0.7312,
-"publicado": "2026-08-22T21:29Z",
+"publicado": "2026-08-22T22:05Z",
 "pv": 0.0687,
 "v": "Parma"
 },
@@ -4051,7 +4051,7 @@
 "liga": "Serie A",
 "pe": 0.3282,
 "pl": 0.3141,
-"publicado": "2026-08-22T21:29Z",
+"publicado": "2026-08-22T22:05Z",
 "pv": 0.3577,
 "v": "Udinese"
 },
@@ -4064,7 +4064,7 @@
 "liga": "Serie A",
 "pe": 0.2971,
 "pl": 0.4014,
-"publicado": "2026-08-22T21:29Z",
+"publicado": "2026-08-22T22:05Z",
 "pv": 0.3015,
 "v": "Torino"
 },
@@ -4077,7 +4077,7 @@
 "liga": "Serie A",
 "pe": 0.2216,
 "pl": 0.1254,
-"publicado": "2026-08-22T21:29Z",
+"publicado": "2026-08-22T22:05Z",
 "pv": 0.653,
 "v": "Inter"
 },
@@ -4090,7 +4090,7 @@
 "liga": "Serie A",
 "pe": 0.3284,
 "pl": 0.4333,
-"publicado": "2026-08-22T21:29Z",
+"publicado": "2026-08-22T22:05Z",
 "pv": 0.2383,
 "v": "Genoa"
 },
@@ -4103,7 +4103,7 @@
 "liga": "Serie A",
 "pe": 0.3159,
 "pl": 0.4131,
-"publicado": "2026-08-22T21:29Z",
+"publicado": "2026-08-22T22:05Z",
 "pv": 0.271,
 "v": "Como"
 },
@@ -4116,7 +4116,7 @@
 "liga": "Serie A",
 "pe": 0.2778,
 "pl": 0.4977,
-"publicado": "2026-08-22T21:29Z",
+"publicado": "2026-08-22T22:05Z",
 "pv": 0.2245,
 "v": "Bologna"
 },
@@ -4129,7 +4129,7 @@
 "liga": "Serie A",
 "pe": 0.2668,
 "pl": 0.1538,
-"publicado": "2026-08-22T21:29Z",
+"publicado": "2026-08-22T22:05Z",
 "pv": 0.5794,
 "v": "Roma"
 },
@@ -4142,7 +4142,7 @@
 "liga": "Serie A",
 "pe": 0.3005,
 "pl": 0.2407,
-"publicado": "2026-08-22T21:29Z",
+"publicado": "2026-08-22T22:05Z",
 "pv": 0.4588,
 "v": "Como"
 },
@@ -4155,7 +4155,7 @@
 "liga": "Serie A",
 "pe": 0.2951,
 "pl": 0.4453,
-"publicado": "2026-08-22T21:29Z",
+"publicado": "2026-08-22T22:05Z",
 "pv": 0.2596,
 "v": "Torino"
 },
@@ -4168,7 +4168,7 @@
 "liga": "Serie A",
 "pe": 0.2875,
 "pl": 0.507,
-"publicado": "2026-08-22T21:29Z",
+"publicado": "2026-08-22T22:05Z",
 "pv": 0.2055,
 "v": "Napoli"
 },
@@ -4181,7 +4181,7 @@
 "liga": "Serie A",
 "pe": 0.2783,
 "pl": 0.4406,
-"publicado": "2026-08-22T21:29Z",
+"publicado": "2026-08-22T22:05Z",
 "pv": 0.2812,
 "v": "Atalanta"
 },
@@ -4194,7 +4194,7 @@
 "liga": "Serie A",
 "pe": 0.2904,
 "pl": 0.5033,
-"publicado": "2026-08-22T21:29Z",
+"publicado": "2026-08-22T22:05Z",
 "pv": 0.2062,
 "v": "Sassuolo"
 },
@@ -4207,11 +4207,11 @@
 "liga": "Serie A",
 "pe": 0.3507,
 "pl": 0.3717,
-"publicado": "2026-08-22T21:29Z",
+"publicado": "2026-08-22T22:05Z",
 "pv": 0.2776,
 "v": "Venezia"
 },
-"seriea|2026-09-06|juventus|ac milan": {
+"seriea|2026-09-06|juventus|milan": {
 "clave_l": "Juventus",
 "clave_liga": "seriea",
 "clave_v": "AC Milan",
@@ -4220,7 +4220,7 @@
 "liga": "Serie A",
 "pe": 0.2779,
 "pl": 0.5159,
-"publicado": "2026-08-22T21:29Z",
+"publicado": "2026-08-22T22:05Z",
 "pv": 0.2062,
 "v": "AC Milan"
 },
@@ -4233,7 +4233,7 @@
 "liga": "Serie A",
 "pe": 0.3506,
 "pl": 0.3648,
-"publicado": "2026-08-22T21:29Z",
+"publicado": "2026-08-22T22:05Z",
 "pv": 0.2847,
 "v": "Monza"
 },
@@ -4246,7 +4246,7 @@
 "liga": "Serie A",
 "pe": 0.3069,
 "pl": 0.457,
-"publicado": "2026-08-22T21:29Z",
+"publicado": "2026-08-22T22:05Z",
 "pv": 0.2361,
 "v": "Lecce"
 },
@@ -4259,7 +4259,7 @@
 "liga": "Serie A",
 "pe": 0.3237,
 "pl": 0.3249,
-"publicado": "2026-08-22T21:29Z",
+"publicado": "2026-08-22T22:05Z",
 "pv": 0.3514,
 "v": "Lazio"
 }

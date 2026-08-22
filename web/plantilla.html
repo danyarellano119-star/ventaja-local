@@ -2761,8 +2761,12 @@ function abrirDetalle(ligaKey, p, desdeRuta = false) {
   descartados = new Set();   // los descartes manuales son de cada partido
 
   const T2 = t => (t || "").replace("-", "/");
-  document.getElementById("d-cuando").textContent =
-    `${lg.nombre} · Jornada ${p.j} · ${fechaLarga(fechaLocal(p))} · ${horaLocal(p)}`
+  // innerHTML y no textContent: la etiqueta de la zona horaria lleva marcado y
+  // con textContent se veía el «<span class=...>» tal cual en la página.
+  // La jornada no siempre existe: las ligas de openfootball no la traen.
+  document.getElementById("d-cuando").innerHTML =
+    [lg.nombre, p.j ? `Jornada ${p.j}` : "",
+     fechaLarga(fechaLocal(p)), horaLocal(p)].filter(Boolean).join(" · ")
     + (p.utc ? ` <span class="pos-num">(tu hora · ${miZona()})</span>` : "");
   document.getElementById("d-sello-comp").textContent = T2(lg.temp_hist);
   document.getElementById("d-sello-jug").textContent = T2(lg.temp_jug);
