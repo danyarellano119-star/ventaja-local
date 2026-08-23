@@ -753,6 +753,45 @@
 "pv": 0.0924,
 "v": "EC Bahia"
 },
+"brasileirao|2026-10-10|ca mineiro|santos": {
+"clave_l": "CA Mineiro",
+"clave_liga": "brasileirao",
+"clave_v": "Santos FC",
+"fecha": "2026-10-10",
+"l": "CA Mineiro",
+"liga": "Brasileirão",
+"pe": 0.4391,
+"pl": 0.3492,
+"publicado": "2026-08-23T02:06Z",
+"pv": 0.2117,
+"v": "Santos FC"
+},
+"brasileirao|2026-10-10|ec bahia|mirassol": {
+"clave_l": "EC Bahia",
+"clave_liga": "brasileirao",
+"clave_v": "Mirassol FC",
+"fecha": "2026-10-10",
+"l": "EC Bahia",
+"liga": "Brasileirão",
+"pe": 0.2968,
+"pl": 0.586,
+"publicado": "2026-08-23T02:06Z",
+"pv": 0.1172,
+"v": "Mirassol FC"
+},
+"brasileirao|2026-10-10|rb bragantino|cruzeiro ec": {
+"clave_l": "RB Bragantino",
+"clave_liga": "brasileirao",
+"clave_v": "Cruzeiro EC",
+"fecha": "2026-10-10",
+"l": "RB Bragantino",
+"liga": "Brasileirão",
+"pe": 0.4351,
+"pl": 0.359,
+"publicado": "2026-08-23T02:06Z",
+"pv": 0.2059,
+"v": "Cruzeiro EC"
+},
 "bundesliga|2026-08-28|bayern munich|vfb stuttgart": {
 "clave_l": "Bayern Munich",
 "clave_liga": "bundesliga",
@@ -1819,6 +1858,19 @@
 "pv": 0.427,
 "v": "AFC Ajax"
 },
+"eredivisie|2026-10-31|cambuur leeuwarden|go ahead eagles": {
+"clave_l": "SC Cambuur-Leeuwarden",
+"clave_liga": "eredivisie",
+"clave_v": "Go Ahead Eagles",
+"fecha": "2026-10-31",
+"l": "SC Cambuur-Leeuwarden",
+"liga": "Eredivisie",
+"pe": 0.3891,
+"pl": 0.1433,
+"publicado": "2026-08-23T02:05Z",
+"pv": 0.4676,
+"v": "Go Ahead Eagles"
+},
 "eredivisie|2026-10-31|feyenoord rotterdam|fortuna sittard": {
 "clave_l": "Feyenoord Rotterdam",
 "clave_liga": "eredivisie",
@@ -1832,6 +1884,19 @@
 "pv": 0.0497,
 "v": "Fortuna Sittard"
 },
+"eredivisie|2026-10-31|heerenveen|nec": {
+"clave_l": "SC Heerenveen",
+"clave_liga": "eredivisie",
+"clave_v": "NEC",
+"fecha": "2026-10-31",
+"l": "SC Heerenveen",
+"liga": "Eredivisie",
+"pe": 0.3082,
+"pl": 0.2976,
+"publicado": "2026-08-23T02:05Z",
+"pv": 0.3942,
+"v": "NEC"
+},
 "eredivisie|2026-10-31|psv|willem ii tilburg": {
 "clave_l": "PSV",
 "clave_liga": "eredivisie",
@@ -1844,6 +1909,19 @@
 "publicado": "2026-08-22T22:07Z",
 "pv": 0.0041,
 "v": "Willem II Tilburg"
+},
+"eredivisie|2026-11-01|pec zwolle|ado den haag": {
+"clave_l": "PEC Zwolle",
+"clave_liga": "eredivisie",
+"clave_v": "ADO Den Haag",
+"fecha": "2026-11-01",
+"l": "PEC Zwolle",
+"liga": "Eredivisie",
+"pe": 0.3008,
+"pl": 0.5966,
+"publicado": "2026-08-23T02:05Z",
+"pv": 0.1026,
+"v": "ADO Den Haag"
 },
 "laliga|2026-08-23|atletico madrid|villarreal": {
 "clave_l": "Atletico Madrid",
