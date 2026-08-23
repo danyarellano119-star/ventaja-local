@@ -2700,12 +2700,15 @@
 "clave_liga": "premier",
 "clave_v": "Liverpool",
 "fecha": "2026-08-23",
+"gl": 2,
+"gv": 2,
 "l": "Newcastle",
 "liga": "Premier League",
 "pe": 0.2761,
 "pl": 0.3121,
 "publicado": "2026-08-22T22:03Z",
 "pv": 0.4118,
+"real": "E",
 "v": "Liverpool"
 },
 "premier|2026-08-24|fulham|chelsea": {
@@ -3435,6 +3438,19 @@
 "publicado": "2026-08-22T22:03Z",
 "pv": 0.3307,
 "v": "Manchester Utd"
+},
+"premier|2026-10-17|manchester city|ipswich town": {
+"clave_l": "Manchester City",
+"clave_liga": "premier",
+"clave_v": "Ipswich Town FC",
+"fecha": "2026-10-17",
+"l": "Manchester City",
+"liga": "Premier League",
+"pe": 0.1439,
+"pl": 0.7953,
+"publicado": "2026-08-23T18:52Z",
+"pv": 0.0608,
+"v": "Ipswich Town FC"
 },
 "premier|2026-10-17|newcastle united|aston villa": {
 "clave_l": "Newcastle United",
@@ -4663,12 +4679,15 @@
 "clave_liga": "seriea",
 "clave_v": "Juventus",
 "fecha": "2026-08-23",
+"gl": 0,
+"gv": 1,
 "l": "Frosinone",
 "liga": "Serie A",
 "pe": 0.2614,
 "pl": 0.1188,
 "publicado": "2026-08-22T22:05Z",
 "pv": 0.6198,
+"real": "V",
 "v": "Juventus"
 },
 "seriea|2026-08-23|torino|milan": {
@@ -4689,12 +4708,15 @@
 "clave_liga": "seriea",
 "clave_v": "Lecce",
 "fecha": "2026-08-23",
+"gl": 0,
+"gv": 2,
 "l": "Venezia",
 "liga": "Serie A",
 "pe": 0.3355,
 "pl": 0.3885,
 "publicado": "2026-08-22T22:05Z",
 "pv": 0.2759,
+"real": "V",
 "v": "Lecce"
 },
 "seriea|2026-08-24|bologna|lazio": {
