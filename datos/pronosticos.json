@@ -2386,12 +2386,15 @@
 "clave_liga": "ligue1",
 "clave_v": "Lille",
 "fecha": "2026-08-23",
+"gl": 0,
+"gv": 2,
 "l": "Angers",
 "liga": "Ligue 1",
 "pe": 0.3112,
 "pl": 0.1718,
 "publicado": "2026-08-22T22:06Z",
 "pv": 0.517,
+"real": "V",
 "v": "Lille"
 },
 "ligue1|2026-08-23|le havre|monaco": {
@@ -2659,12 +2662,15 @@
 "clave_liga": "premier",
 "clave_v": "Aston Villa",
 "fecha": "2026-08-23",
+"gl": 4,
+"gv": 0,
 "l": "Brighton",
 "liga": "Premier League",
 "pe": 0.2759,
 "pl": 0.4788,
 "publicado": "2026-08-22T22:03Z",
 "pv": 0.2453,
+"real": "L",
 "v": "Aston Villa"
 },
 "premier|2026-08-23|manchester city|bournemouth": {
@@ -2672,12 +2678,15 @@
 "clave_liga": "premier",
 "clave_v": "Bournemouth",
 "fecha": "2026-08-23",
+"gl": 2,
+"gv": 1,
 "l": "Manchester City",
 "liga": "Premier League",
 "pe": 0.2347,
 "pl": 0.5597,
 "publicado": "2026-08-22T22:03Z",
 "pv": 0.2056,
+"real": "L",
 "v": "Bournemouth"
 },
 "premier|2026-08-23|newcastle united|liverpool": {
@@ -3369,6 +3378,19 @@
 "pv": 0.1598,
 "v": "Sunderland"
 },
+"premier|2026-10-17|brighton|crystal palace": {
+"clave_l": "Brighton",
+"clave_liga": "premier",
+"clave_v": "Crystal Palace",
+"fecha": "2026-10-17",
+"l": "Brighton",
+"liga": "Premier League",
+"pe": 0.2626,
+"pl": 0.5099,
+"publicado": "2026-08-23T15:42Z",
+"pv": 0.2276,
+"v": "Crystal Palace"
+},
 "premier|2026-10-17|everton|chelsea": {
 "clave_l": "Everton",
 "clave_liga": "premier",
@@ -3420,6 +3442,19 @@
 "publicado": "2026-08-22T22:03Z",
 "pv": 0.282,
 "v": "Aston Villa"
+},
+"premier|2026-10-17|nottingham forest|arsenal": {
+"clave_l": "Nottingham Forest",
+"clave_liga": "premier",
+"clave_v": "Arsenal",
+"fecha": "2026-10-17",
+"l": "Nottingham",
+"liga": "Premier League",
+"pe": 0.2783,
+"pl": 0.1485,
+"publicado": "2026-08-23T15:42Z",
+"pv": 0.5732,
+"v": "Arsenal"
 },
 "premier|2026-10-17|tottenham|coventry city": {
 "clave_l": "Tottenham",
