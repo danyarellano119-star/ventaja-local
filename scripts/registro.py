@@ -108,7 +108,13 @@ def anotar_pronosticos(registro: dict, clave_liga: str, nombre_liga: str,
             "liga": nombre_liga, "clave_liga": clave_liga,
             "fecha": p["fecha"], "l": local, "v": visita,
             "clave_l": p["l"], "clave_v": p["v"],
-            "pl": round(pr[0], 4), "pe": round(pr[1], 4), "pv": round(pr[2], 4),
+            "pl": round(pr["pl"], 4), "pe": round(pr["pe"], 4),
+            "pv": round(pr["pv"], 4),
+            # Los demás mercados que la ficha del partido enseña, para poder
+            # comprobarlos uno a uno cuando haya resultado.
+            "o15": round(pr["o15"], 4), "o25": round(pr["o25"], 4),
+            "o35": round(pr["o35"], 4), "btts": round(pr["btts"], 4),
+            "marcador": pr["marcador"], "p_marcador": round(pr["p_marcador"], 4),
             "publicado": ahora,
         }
         nuevos += 1
@@ -148,6 +154,13 @@ def resolver(registro: dict, clave_liga: str, jugados: list[dict],
         gl, gv = int(m["goals"]["h"]), int(m["goals"]["a"])
         ficha["gl"], ficha["gv"] = gl, gv
         ficha["real"] = "L" if gl > gv else "E" if gl == gv else "V"
+        # Qué ocurrió de verdad en cada mercado. Se guarda resuelto y no se
+        # recalcula en la web: así lo que se enseña es lo que se apuntó.
+        ficha["ok_o15"] = (gl + gv) > 1.5
+        ficha["ok_o25"] = (gl + gv) > 2.5
+        ficha["ok_o35"] = (gl + gv) > 3.5
+        ficha["ok_btts"] = gl > 0 and gv > 0
+        ficha["ok_marcador"] = ficha.get("marcador") == f"{gl}-{gv}"
         resueltos += 1
     return resueltos
 
@@ -191,6 +204,12 @@ def resumen(registro: dict) -> dict:
         "pl": f["pl"], "pe": f["pe"], "pv": f["pv"],
         "ok": favorito(f)[0] == f["real"],
         "publicado": f.get("publicado", ""),
+        "o15": f.get("o15"), "o25": f.get("o25"), "o35": f.get("o35"),
+        "btts": f.get("btts"), "marcador": f.get("marcador"),
+        "p_marcador": f.get("p_marcador"),
+        "ok_o15": f.get("ok_o15"), "ok_o25": f.get("ok_o25"),
+        "ok_o35": f.get("ok_o35"), "ok_btts": f.get("ok_btts"),
+        "ok_marcador": f.get("ok_marcador"),
     } for f in filas[-MOSTRAR:]][::-1]
 
     return {

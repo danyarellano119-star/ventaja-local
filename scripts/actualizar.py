@@ -349,6 +349,52 @@ def detectar_bajas(partidos: list[dict], hoy: date, ventana: int = 3) -> dict[st
     return estado
 
 
+def mercados(lam: float, mu: float, rho: float, maxg: int = 8) -> dict:
+    """Todo lo que el modelo dice de un partido, no sólo quién gana.
+
+    Son los mismos números que la web enseña en la ficha del partido: el 1X2,
+    las líneas de goles, si marcan los dos y el marcador más probable. Se
+    calculan aquí para poder guardarlos y, cuando el partido acabe, comprobar
+    uno a uno si se cumplieron.
+    """
+    def pois(k, l):
+        return math.exp(-l + k * math.log(l) - math.lgamma(k + 1))
+
+    m = [[pois(i, lam) * pois(j, mu) for j in range(maxg + 1)]
+         for i in range(maxg + 1)]
+    m[0][0] *= 1 - lam * mu * rho
+    m[0][1] *= 1 + lam * rho
+    m[1][0] *= 1 + mu * rho
+    m[1][1] *= 1 - rho
+    total = sum(sum(f) for f in m)
+
+    pl = pe = pv = o15 = o25 = o35 = btts = 0.0
+    mejor, p_mejor = (0, 0), 0.0
+    for i in range(maxg + 1):
+        for j in range(maxg + 1):
+            p = m[i][j] / total
+            if i > j:
+                pl += p
+            elif i == j:
+                pe += p
+            else:
+                pv += p
+            if i + j > 1.5:
+                o15 += p
+            if i + j > 2.5:
+                o25 += p
+            if i + j > 3.5:
+                o35 += p
+            if i and j:
+                btts += p
+            if p > p_mejor:
+                mejor, p_mejor = (i, j), p
+
+    return {"pl": pl, "pe": pe, "pv": pv,
+            "o15": o15, "o25": o25, "o35": o35, "btts": btts,
+            "marcador": f"{mejor[0]}-{mejor[1]}", "p_marcador": p_mejor}
+
+
 def mismo_equipo(a: str, b: str) -> bool:
     """¿Estos dos nombres son del mismo club?
 
@@ -949,7 +995,7 @@ def main() -> None:
                 continue
             lam = math.exp(el["atq"] - ev["def"] + gamma)
             mu = math.exp(ev["atq"] - el["def"])
-            pw["prob"] = mod_aciertos._prob_1x2(lam, mu, RHO)
+            pw["prob"] = mercados(lam, mu, RHO)
         reg_nuevos += mod_registro.anotar_pronosticos(
             reg, clave, nombre, partidos_web, equipos, normalizar)
         reg_resueltos += mod_registro.resolver(reg, clave, p_act, normalizar, mismo_equipo)
@@ -1061,7 +1107,7 @@ def main() -> None:
                 continue
             lam = math.exp(el["atq"] - ev["def"] + gamma)
             mu = math.exp(ev["atq"] - el["def"])
-            pw["prob"] = mod_aciertos._prob_1x2(lam, mu, RHO)
+            pw["prob"] = mercados(lam, mu, RHO)
         reg_nuevos += mod_registro.anotar_pronosticos(
             reg, clave, nombre, partidos_web, equipos, normalizar)
         reg_resueltos += mod_registro.resolver(reg, clave, p_act, normalizar, mismo_equipo)

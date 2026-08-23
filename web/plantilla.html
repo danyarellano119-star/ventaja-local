@@ -910,6 +910,60 @@ table.tabla-liga tbody tr:hover td { background: var(--surface-2); }
 /* La cabecera deja el mismo hueco a la derecha para no descuadrar columnas */
 .jug-cab.con-ficha { padding-right: 22px; }
 
+/* ── Historial de pronósticos ─────────────────────────────────────────── */
+.reg-partido { border-bottom: 1px solid var(--line-soft); }
+.reg-partido:last-child { border-bottom: none; }
+.reg-fila {
+  display: grid; gap: 10px; align-items: center; padding: 10px 4px;
+  cursor: pointer; list-style: none; border-radius: 6px;
+  grid-template-columns: 78px 1fr 140px 52px 78px;
+}
+.reg-fila::-webkit-details-marker { display: none; }
+.reg-fila:hover { background: var(--surface); }
+.reg-fila:focus-visible { outline: 2px solid var(--acento); outline-offset: -2px; }
+.reg-fecha { font-size: 12px; }
+.reg-equipos { font-size: 14px; min-width: 0; }
+.reg-equipos small {
+  display: block; color: var(--ink-3); font-size: 11px; font-family: var(--mono);
+}
+.reg-dijo { font-size: 12.5px; color: var(--ink-2); }
+.reg-marcador { font-family: var(--mono); font-size: 15px; text-align: center; }
+.reg-veredicto {
+  font-size: 12px; font-weight: 600; text-align: right;
+}
+/* La flecha avisa de que la fila esconde algo más */
+.reg-equipos::after { content: " ›"; color: var(--ink-3); }
+.reg-partido[open] .reg-fila { background: var(--surface); }
+
+.reg-detalle { padding: 6px 4px 18px; }
+.mk-titulo {
+  font-family: var(--mono); font-size: 10.5px; letter-spacing: .1em;
+  text-transform: uppercase; color: var(--ink-3); margin: 12px 0 6px;
+}
+.mk-lista { display: flex; flex-direction: column; gap: 1px; }
+.mk-fila {
+  display: grid; grid-template-columns: 1fr 58px 96px 24px; gap: 8px;
+  align-items: center; padding: 7px 9px; border-radius: 6px;
+  background: var(--surface); font-size: 13.5px;
+}
+.mk-favorito { outline: 1px solid var(--acento); }
+.mk-etq em { color: var(--acento); font-style: normal; font-size: 11.5px; }
+.mk-prob {
+  font-family: var(--mono); font-weight: 600; text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+.mk-paso { font-size: 12px; color: var(--ink-3); text-align: right; }
+.mk-ok { text-align: center; font-weight: 700; }
+.mk-nota {
+  margin: 12px 0 0; font-size: 12.5px; color: var(--ink-3); line-height: 1.5;
+}
+@media (max-width: 620px) {
+  .reg-fila { grid-template-columns: 1fr 46px 68px; }
+  .reg-fecha, .reg-dijo { display: none; }
+  .mk-fila { grid-template-columns: 1fr 52px 24px; }
+  .mk-paso { display: none; }
+}
+
 /* ── Trayectoria por temporadas ───────────────────────────────────────── */
 .tr-temp { border-bottom: 1px solid var(--line-soft); }
 .tr-temp:last-child { border-bottom: none; }
@@ -1175,7 +1229,6 @@ details .cuerpo strong { color: var(--ink); }
         <span class="botones-liga">
           <button class="btn-liga" id="btn-ver-liga" type="button">Panorama de la liga →</button>
           <button class="btn-liga" id="btn-ver-europa" type="button">Historia europea →</button>
-          <button class="btn-liga oculto" id="btn-ver-registro" type="button">Nuestros aciertos →</button>
         </span>
       </div>
 
@@ -1186,19 +1239,11 @@ details .cuerpo strong { color: var(--ink); }
         <button class="filtro" type="button" data-f="semana" aria-pressed="false">Esta semana</button>
         <button class="filtro" type="button" data-f="favoritos" aria-pressed="false">★ Mis equipos</button>
         <button class="filtro" type="button" data-f="igualados" aria-pressed="false">Partidos igualados</button>
+        <button class="filtro oculto" type="button" data-f="historial" aria-pressed="false"
+                id="filtro-historial">✓ Nuestros aciertos</button>
       </div>
 
-      <div id="lista-partidos" aria-live="polite"></div>
-
-      <!-- Competiciones europeas: aviso mientras no haya sorteo -->
-      <div id="bloque-euro" class="oculto">
-        <div class="nota-caja" style="margin-top:18px">
-          <p id="euro-estado"></p>
-        </div>
-      </div>
-    </div>
-
-    <section class="tarjeta oculto" id="bloque-registro">
+      <section class="tarjeta oculto" id="bloque-registro">
       <span class="paso">Nuestro historial</span>
       <h2>Qué dijimos antes de cada partido y qué pasó después</h2>
       <p class="sub">
@@ -1228,11 +1273,19 @@ details .cuerpo strong { color: var(--ink); }
         <button class="filtro" type="button" data-r="ok" aria-pressed="false">Acertados</button>
         <button class="filtro" type="button" data-r="no" aria-pressed="false">Fallados</button>
       </div>
-      <div class="tabla-envoltorio" style="margin-top:10px">
-        <table class="tabla-liga" id="reg-partidos"></table>
-      </div>
+      <div id="reg-partidos" style="margin-top:10px"></div>
       <p class="nota-fuente" id="reg-nota"></p>
-    </section>
+      </section>
+
+      <div id="lista-partidos" aria-live="polite"></div>
+
+      <!-- Competiciones europeas: aviso mientras no haya sorteo -->
+      <div id="bloque-euro" class="oculto">
+        <div class="nota-caja" style="margin-top:18px">
+          <p id="euro-estado"></p>
+        </div>
+      </div>
+    </div>
 
     <div class="nota-caja">
       <p>
@@ -2088,6 +2141,16 @@ const GUARDADO = {
 
 let favoritos = new Set(GUARDADO.leer("favoritos", []));
 let filtroActivo = "todos";
+
+/** Muestra la lista de partidos o el historial, según el filtro elegido. */
+function aplicarFiltro() {
+  const historial = filtroActivo === "historial";
+  document.getElementById("bloque-registro").classList.toggle("oculto", !historial);
+  document.getElementById("lista-partidos").classList.toggle("oculto", historial);
+  const euro = document.getElementById("bloque-euro");
+  if (historial) euro.classList.add("oculto");
+  if (!historial) pintarLista();
+}
 
 function esFavorito(liga, clave) { return favoritos.has(liga + "|" + clave); }
 
@@ -5082,7 +5145,7 @@ document.querySelectorAll("#filtros .filtro").forEach(btn => {
     filtroActivo = btn.dataset.f;
     document.querySelectorAll("#filtros .filtro").forEach(b =>
       b.setAttribute("aria-pressed", b === btn ? "true" : "false"));
-    pintarLista();
+    aplicarFiltro();
   });
 });
 
@@ -5200,10 +5263,78 @@ function miZona() {
 
 /* ── Historial público de pronósticos ─────────────────────────────────── */
 
+/** Todos los pronósticos que se hicieron de un partido y qué pasó con cada uno.
+
+    No sólo quién ganaba: la ficha del partido enseña también las líneas de
+    goles, si marcan los dos y el marcador más probable. Aquí se rinde cuentas
+    de todos, no sólo del que salió bien.
+ */
+function mercadosDe(f) {
+  const fila = (etq, prob, ocurrio, ayuda) => {
+    if (prob === null || prob === undefined) return "";
+    const decia = prob >= 0.5;          // lo que el modelo daba por más probable
+    const acerto = decia === !!ocurrio;
+    return `<div class="mk-fila" title="${ayuda}">
+      <span class="mk-etq">${etq}</span>
+      <span class="mk-prob">${Math.round(prob * 100)} %</span>
+      <span class="mk-paso">${ocurrio ? "sí ocurrió" : "no ocurrió"}</span>
+      <span class="mk-ok ${acerto ? "mejor" : "peor"}">${acerto ? "✓" : "✗"}</span>
+    </div>`;
+  };
+
+  const total = f.gl + f.gv;
+  const probs = { L: f.pl, E: f.pe, V: f.pv };
+  const fav = Object.keys(probs).reduce((a, b) => probs[a] >= probs[b] ? a : b);
+  const NOM = { L: "Gana " + f.l, E: "Empate", V: "Gana " + f.v };
+
+  return `
+    <p class="mk-titulo">Resultado del partido</p>
+    <div class="mk-lista">
+      ${["L", "E", "V"].map(k => `<div class="mk-fila${k === fav ? " mk-favorito" : ""}">
+        <span class="mk-etq">${NOM[k]}${k === fav ? " <em>(nuestro favorito)</em>" : ""}</span>
+        <span class="mk-prob">${Math.round(probs[k] * 100)} %</span>
+        <span class="mk-paso">${f.real === k ? "ocurrió" : "—"}</span>
+        <span class="mk-ok ${f.real === k ? "mejor" : ""}">${f.real === k ? "✓" : ""}</span>
+      </div>`).join("")}
+    </div>
+
+    ${f.o25 === null || f.o25 === undefined ? `
+      <p class="mk-nota">De este partido sólo se guardó el resultado. Los demás
+        pronósticos —líneas de goles, si marcan los dos, marcador exacto—
+        empezaron a registrarse después, así que aparecerán en los partidos
+        siguientes.</p>` : `
+    <p class="mk-titulo">Los demás pronósticos de este partido</p>
+    <div class="mk-lista">
+      ${fila("Más de 1,5 goles", f.o15, f.ok_o15,
+             "Que el partido acabe con dos goles o más entre los dos equipos")}
+      ${fila("Más de 2,5 goles", f.o25, f.ok_o25,
+             "Que el partido acabe con tres goles o más entre los dos equipos")}
+      ${fila("Más de 3,5 goles", f.o35, f.ok_o35,
+             "Que el partido acabe con cuatro goles o más entre los dos equipos")}
+      ${fila("Marcan los dos equipos", f.btts, f.ok_btts,
+             "Que ambos equipos marquen al menos un gol")}
+      ${f.marcador ? `<div class="mk-fila">
+        <span class="mk-etq">Marcador más probable: <b>${f.marcador}</b></span>
+        <span class="mk-prob">${Math.round((f.p_marcador || 0) * 100)} %</span>
+        <span class="mk-paso">salió ${f.gl}–${f.gv}</span>
+        <span class="mk-ok ${f.ok_marcador ? "mejor" : "peor"}"
+          >${f.ok_marcador ? "✓" : "✗"}</span>
+      </div>` : ""}
+    </div>`}
+    <p class="mk-nota">Se marca ✓ cuando lo que el modelo veía más probable
+      —por encima del 50 %— fue lo que pasó. El marcador exacto casi nunca se
+      acierta: hasta el más probable de un partido suele quedarse en el 10 %,
+      y por eso es el peor mercado para apostar.
+      Total del partido: <b>${total} ${total === 1 ? "gol" : "goles"}</b>.</p>`;
+}
+
 function pintarRegistro() {
   const R = D.registro || {};
-  const bloque = document.getElementById("bloque-registro");
-  bloque.classList.toggle("oculto", !R.n && !R.pendientes);
+  // El bloque lo enseña o esconde el filtro; aquí sólo se rellena. Lo que sí
+  // se decide es si el filtro llega a existir: sin nada que contar, sobra.
+  const chip = document.getElementById("filtro-historial");
+  chip.classList.toggle("oculto", !R.n && !R.pendientes);
+  if (R.n) chip.textContent = `✓ Nuestros aciertos · ${R.pct} %`;
   if (!R.n && !R.pendientes) return;
 
   // Aún no se ha jugado nada de lo apuntado: se explica en qué consiste esto
@@ -5218,8 +5349,9 @@ function pintarRegistro() {
       `Hay <b>${R.pendientes} pronósticos guardados</b> esperando a que se jueguen
        sus partidos. En cuanto haya resultados aparecerán aquí, uno a uno, con lo
        que dijimos al lado de lo que pasó. Los aciertos y los fallos.`;
-    ["reg-calibracion", "reg-partidos"].forEach(id =>
-      document.getElementById(id).closest(".tabla-envoltorio").classList.add("oculto"));
+    document.getElementById("reg-calibracion")
+      .closest(".tabla-envoltorio").classList.add("oculto");
+    document.getElementById("reg-partidos").classList.add("oculto");
     document.getElementById("reg-filtros").classList.add("oculto");
     document.getElementById("reg-nota").innerHTML =
       `El archivo con los pronósticos ya está en el repositorio, fechado. Cuando
@@ -5264,24 +5396,23 @@ function pintarRegistro() {
   const pintar = () => {
     const filas = (R.ultimos || []).filter(f =>
       filtro === "todos" || (filtro === "ok" ? f.ok : !f.ok));
-    document.getElementById("reg-partidos").innerHTML =
-      `<thead><tr><th>Fecha</th><th>Partido</th><th>Lo que dijimos</th>
-         <th>Resultado</th><th>Pasó</th></tr></thead><tbody>` +
-      filas.map(f => {
-        const probs = { L: f.pl, E: f.pe, V: f.pv };
-        const fav = Object.keys(probs).reduce((a, b) => probs[a] >= probs[b] ? a : b);
-        return `<tr>
-          <td style="text-align:left" class="pos-num">${f.f}</td>
-          <td style="text-align:left">${f.l} – ${f.v}
-            <small style="display:block;color:var(--ink-3)">${f.liga}</small></td>
-          <td style="text-align:left">${NOMBRE[fav]}
-            <b>${Math.round(probs[fav] * 100)} %</b>
-            <small style="display:block;color:var(--ink-3)"
-              >L ${Math.round(f.pl * 100)} · X ${Math.round(f.pe * 100)} · V ${Math.round(f.pv * 100)}</small></td>
-          <td><b>${f.gl}–${f.gv}</b></td>
-          <td class="${f.ok ? "mejor" : "peor"}">${f.ok ? "sí" : "no"}</td>
-        </tr>`;
-      }).join("") + "</tbody>";
+    document.getElementById("reg-partidos").innerHTML = filas.map((f, i) => {
+      const probs = { L: f.pl, E: f.pe, V: f.pv };
+      const fav = Object.keys(probs).reduce((a, b) => probs[a] >= probs[b] ? a : b);
+      return `
+      <details class="reg-partido">
+        <summary class="reg-fila">
+          <span class="reg-fecha pos-num">${f.f}</span>
+          <span class="reg-equipos">${f.l} – ${f.v}
+            <small>${f.liga}</small></span>
+          <span class="reg-dijo">${NOMBRE[fav]} <b>${Math.round(probs[fav] * 100)} %</b></span>
+          <span class="reg-marcador"><b>${f.gl}–${f.gv}</b></span>
+          <span class="reg-veredicto ${f.ok ? "mejor" : "peor"}"
+            >${f.ok ? "acertado" : "fallado"}</span>
+        </summary>
+        <div class="reg-detalle">${mercadosDe(f)}</div>
+      </details>`;
+    }).join("");
     document.getElementById("reg-nota").innerHTML =
       `Se muestran los <b>${filas.length}</b> partidos más recientes de los
        ${R.n} resueltos. El archivo completo, con la fecha y hora exactas en que
@@ -5317,18 +5448,6 @@ new MutationObserver(() => hacerEnfocables(document)).observe(
   document.body, { childList: true, subtree: true });
 hacerEnfocables(document);
 pintarRegistro();
-(() => {
-  // El historial vive al final de la portada; este botón lleva hasta él para
-  // que no haya que bajar buscándolo.
-  const btn = document.getElementById("btn-ver-registro");
-  const R = D.registro || {};
-  btn.classList.toggle("oculto", !R.n && !R.pendientes);
-  btn.textContent = R.n ? `Nuestros aciertos (${R.pct} %) →` : "Nuestros pronósticos →";
-  btn.addEventListener("click", () => {
-    mostrarVista("vista-lista");
-    document.getElementById("bloque-registro")
-      .scrollIntoView({ behavior: "smooth", block: "start" });
-  });
-})();
+
 if (location.hash) enrutar();
 </script>
