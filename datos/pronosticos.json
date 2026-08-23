@@ -2139,12 +2139,15 @@
 "clave_liga": "laliga",
 "clave_v": "Villarreal",
 "fecha": "2026-08-23",
+"gl": 2,
+"gv": 2,
 "l": "Atlético Madrid",
 "liga": "LaLiga",
 "pe": 0.2455,
 "pl": 0.5395,
 "publicado": "2026-08-22T22:04Z",
 "pv": 0.215,
+"real": "E",
 "v": "Villarreal"
 },
 "laliga|2026-08-23|elche|barcelona": {
@@ -2402,12 +2405,15 @@
 "clave_liga": "ligue1",
 "clave_v": "Monaco",
 "fecha": "2026-08-23",
+"gl": 0,
+"gv": 1,
 "l": "Le Havre",
 "liga": "Ligue 1",
 "pe": 0.2695,
 "pl": 0.2275,
 "publicado": "2026-08-22T22:06Z",
 "pv": 0.503,
+"real": "V",
 "v": "Monaco"
 },
 "ligue1|2026-08-23|paris saint germain|rennes": {
