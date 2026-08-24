@@ -38,6 +38,7 @@ import escudos as mod_escudos
 import fotos as mod_fotos
 import ligas_goles as mod_goles
 import registro as mod_registro
+import estadios as mod_estadios
 
 RAIZ = Path(__file__).resolve().parent.parent
 WEB = RAIZ / "web"
@@ -1179,6 +1180,9 @@ def main() -> None:
     salida["escudos"] = mod_escudos.mapear(salida["ligas"])
     total_eq = sum(len(lg["equipos"]) for lg in salida["ligas"].values())
     print(f"    {len(salida['escudos'])} de {total_eq} equipos con escudo")
+
+    salida["estadios"] = mod_estadios.mapear(salida["ligas"])
+    print(f"    {len(salida['estadios'])} equipos con foto de su estadio")
 
     salida["logos"] = mod_escudos.logos_competiciones()
     print(f"    {len(salida['logos'])} competiciones con logo")

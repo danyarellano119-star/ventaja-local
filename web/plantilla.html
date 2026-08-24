@@ -910,6 +910,50 @@ table.tabla-liga tbody tr:hover td { background: var(--surface-2); }
 /* La cabecera deja el mismo hueco a la derecha para no descuadrar columnas */
 .jug-cab.con-ficha { padding-right: 22px; }
 
+/* ── Portada del partido ──────────────────────────────────────────────── */
+/* Una carátula al estilo de las plataformas de vídeo: la foto del estadio de
+   fondo, un velo oscuro encima para que el texto se lea, y los datos delante.
+   El velo no es decorativo: sin él, un cielo claro dejaba el texto ilegible. */
+.portada {
+  position: relative; overflow: hidden; border-radius: 14px;
+  margin-bottom: 16px; isolation: isolate;
+  min-height: 300px; display: flex; align-items: flex-end;
+  box-shadow: 0 10px 30px rgba(0,0,0,.18);
+}
+.portada-fondo {
+  position: absolute; inset: 0; z-index: 0;
+  background-size: cover; background-position: center 40%;
+  transform: scale(1.04);              /* evita bordes al desenfocar */
+}
+/* Degradado de negro a transparente: fuerte abajo, donde va el texto */
+.portada-velo {
+  position: absolute; inset: 0; z-index: 1;
+  background: linear-gradient(to top,
+    rgba(8,10,14,.94) 0%, rgba(8,10,14,.78) 34%,
+    rgba(8,10,14,.42) 66%, rgba(8,10,14,.30) 100%);
+}
+.portada-texto { position: relative; z-index: 2; width: 100%; padding: 26px 24px 22px; }
+/* El texto de la portada va siempre en claro: el fondo es oscuro en los dos
+   temas, así que no debe seguir el color de la página. */
+.portada-texto, .portada-texto .cuando, .portada-texto .rol,
+.portada-texto .versus, .portada-texto .nombre-eq { color: #f2f4f7; }
+.portada-texto .cuando { opacity: .82; }
+.portada-texto .rol { opacity: .7; }
+.portada-texto .versus { opacity: .6; }
+.portada-texto .pos-num { color: #c7ccd4; }
+.portada-sede {
+  margin: 12px 0 0; font-size: 12px; color: #aeb5bf;
+  font-family: var(--mono); letter-spacing: .03em;
+}
+.portada .barra-prob { margin-top: 16px; }
+@media (max-width: 560px) {
+  .portada { min-height: 240px; }
+  .portada-texto { padding: 20px 16px 16px; }
+}
+@media print { .portada { min-height: 0; box-shadow: none; }
+  .portada-fondo, .portada-velo { display: none; }
+  .portada-texto, .portada-texto * { color: #111 !important; } }
+
 /* ── Historial de pronósticos ─────────────────────────────────────────── */
 .reg-partido { border-bottom: 1px solid var(--line-soft); }
 .reg-partido:last-child { border-bottom: none; }
@@ -1307,21 +1351,29 @@ details .cuerpo strong { color: var(--ink); }
   <div id="vista-detalle" class="pila oculto">
     <button class="volver" id="btn-volver" type="button">← Todos los partidos</button>
 
-    <section class="tarjeta">
-      <p class="cuando" id="d-cuando"></p>
-      <div class="duelo">
-        <div class="lado">
-          <span class="rol">Local</span>
-          <span class="nombre-eq" id="d-local"></span>
+    <section class="portada" id="d-portada">
+      <div class="portada-fondo" id="d-fondo"></div>
+      <div class="portada-velo"></div>
+      <div class="portada-texto">
+        <p class="cuando" id="d-cuando"></p>
+        <div class="duelo">
+          <div class="lado">
+            <span class="rol">Local</span>
+            <span class="nombre-eq" id="d-local"></span>
+          </div>
+          <span class="versus">contra</span>
+          <div class="lado der">
+            <span class="rol">Visitante</span>
+            <span class="nombre-eq" id="d-visita"></span>
+          </div>
         </div>
-        <span class="versus">contra</span>
-        <div class="lado der">
-          <span class="rol">Visitante</span>
-          <span class="nombre-eq" id="d-visita"></span>
-        </div>
+        <div class="barra-prob" id="d-barra"></div>
+        <p class="portada-sede" id="d-sede"></p>
       </div>
-      <div class="barra-prob" id="d-barra"></div>
-      <p class="sub" style="margin:14px 0 0" id="d-resumen"></p>
+    </section>
+
+    <section class="tarjeta">
+      <p class="sub" style="margin:0" id="d-resumen"></p>
     </section>
 
     <section class="tarjeta">
@@ -2832,6 +2884,7 @@ function abrirDetalle(ligaKey, p, desdeRuta = false) {
     [lg.nombre, p.j ? `Jornada ${p.j}` : "",
      fechaLarga(fechaLocal(p)), horaLocal(p)].filter(Boolean).join(" · ")
     + (p.utc ? ` <span class="pos-num">(tu hora · ${miZona()})</span>` : "");
+  pintarPortada(lg, p, c);
   document.getElementById("d-sello-comp").textContent = T2(lg.temp_hist);
   document.getElementById("d-sello-jug").textContent = T2(lg.temp_jug);
   document.getElementById("d-local").innerHTML = escudo(a.nombre, true) +
@@ -5326,6 +5379,34 @@ function mercadosDe(f) {
       acierta: hasta el más probable de un partido suele quedarse en el 10 %,
       y por eso es el peor mercado para apostar.
       Total del partido: <b>${total} ${total === 1 ? "gol" : "goles"}</b>.</p>`;
+}
+
+/** Fondo de la ficha del partido: la foto del estadio del local.
+
+    Cuando no la hay —dos de cada cinco equipos— se compone un degradado con
+    los colores de las dos camisetas. Nunca queda un hueco vacío, y la pareja de
+    colores ya identifica el partido de un vistazo.
+ */
+function pintarPortada(lg, p, c) {
+  const local = c.a.nombre, visita = c.b.nombre;
+  const sede = (D.estadios || {})[local];
+  const fondo = document.getElementById("d-fondo");
+  const sub = document.getElementById("d-sede");
+
+  const col = n => (COLORES[n] || ["#41505f", "#28323d"]);
+  const [c1] = col(local), [c2] = col(visita);
+
+  if (sede && sede.img) {
+    // La foto arriba y el degradado debajo: si la imagen tarda o no llega,
+    // lo que se ve entretanto son los colores de los equipos, no un vacío.
+    fondo.style.backgroundImage =
+      `url("${sede.img}"), linear-gradient(120deg, ${c1}, ${c2})`;
+    sub.innerHTML = `${escudo(local)} ${sede.nombre || "Estadio del " + local}
+      · foto de Wikimedia Commons`;
+  } else {
+    fondo.style.backgroundImage = `linear-gradient(120deg, ${c1} 0%, #11151b 55%, ${c2} 100%)`;
+    sub.innerHTML = `${escudo(local)} En casa del ${local}`;
+  }
 }
 
 function pintarRegistro() {

@@ -37,6 +37,7 @@ subir.bat
 # tendría que volver a consultar los 768 jugadores desde cero.
 !datos/fotos_jugadores.json
 !datos/escudos.json
+!datos/estadios.json
 # El registro de pronósticos se publica a propósito: su valor está en que
 # cualquiera pueda comprobar en el historial que no se ha retocado.
 !datos/pronosticos.json
