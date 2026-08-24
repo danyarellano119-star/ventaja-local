@@ -1,35 +1,49 @@
 {
 "1. FC Köln": {
 "aforo": 46195,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/Drohnenaufnahme%20RheinEnergieStadion%20im%20Sportpark%20M%C3%BCngersdorf-0551.jpg?width=1200",
-"nombre": "Estadio Rhein Energie"
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Drohnenaufnahme_RheinEnergieStadion_im_Sportpark_M%C3%BCngersdorf-0551.jpg/1920px-Drohnenaufnahme_RheinEnergieStadion_im_Sportpark_M%C3%BCngersdorf-0551.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Drohnenaufnahme_RheinEnergieStadion_im_Sportpark_M%C3%BCngersdorf-0551.jpg/1920px-Drohnenaufnahme_RheinEnergieStadion_im_Sportpark_M%C3%BCngersdorf-0551.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"nombre": "Estadio Rhein Energie",
+"px": "4593x2584"
 },
 "1. FSV Mainz 05": {
 "aforo": 34034,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/2019-06-11%20Fu%C3%9Fball%2C%20M%C3%A4nner%2C%20L%C3%A4nderspiel%2C%20Deutschland-Estland%20StP%202019%20LR10%20by%20Stepro.jpg?width=1200",
-"nombre": "Mewa Arena"
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/2019-06-11_Fu%C3%9Fball%2C_M%C3%A4nner%2C_L%C3%A4nderspiel%2C_Deutschland-Estland_StP_2019_LR10_by_Stepro.jpg/1920px-2019-06-11_Fu%C3%9Fball%2C_M%C3%A4nner%2C_L%C3%A4nderspiel%2C_Deutschland-Estland_StP_2019_LR10_by_Stepro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/2019-06-11_Fu%C3%9Fball%2C_M%C3%A4nner%2C_L%C3%A4nderspiel%2C_Deutschland-Estland_StP_2019_LR10_by_Stepro.jpg/1920px-2019-06-11_Fu%C3%9Fball%2C_M%C3%A4nner%2C_L%C3%A4nderspiel%2C_Deutschland-Estland_StP_2019_LR10_by_Stepro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"nombre": "Mewa Arena",
+"px": "3872x2581"
 },
 "AC Milan": {
 "aforo": 75817,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/Stadio%20Meazza%202021%203.jpg?width=1200",
-"nombre": "Estadio Giuseppe Meazza"
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Stadio_Meazza_2021_3.jpg/1920px-Stadio_Meazza_2021_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Stadio_Meazza_2021_3.jpg/1920px-Stadio_Meazza_2021_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"nombre": "Estadio Giuseppe Meazza",
+"px": "4728x3152"
 },
 "AC Monza": {
 "aforo": 17102,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/Stadio%20Brianteo%202024%20%28cropped%29.jpg?width=1200",
-"nombre": "Stadio Brianteo"
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Stadio_Brianteo_2024_%28cropped%29.jpg/1920px-Stadio_Brianteo_2024_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Stadio_Brianteo_2024_%28cropped%29.jpg/1920px-Stadio_Brianteo_2024_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"nombre": "Stadio Brianteo",
+"px": "3720x2480"
 },
 "ACF Fiorentina": {},
-"ADO Den Haag": {},
+"ADO Den Haag": {
+"nombre": "WerkTalent Stadion"
+},
 "AFC Ajax": {
 "aforo": 54990,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/Arena%2C%20Ajax%20stadion%2C%20Amsterdam.JPG?width=1200",
-"nombre": "Johan Cruijff Arena"
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Arena%2C_Ajax_stadion%2C_Amsterdam.JPG/1920px-Arena%2C_Ajax_stadion%2C_Amsterdam.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Arena%2C_Ajax_stadion%2C_Amsterdam.JPG/1920px-Arena%2C_Ajax_stadion%2C_Amsterdam.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"nombre": "Johan Cruijff Arena",
+"px": "4608x3456"
 },
 "AJ Auxerre": {
 "aforo": 18541,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/Auxerre%20-%20Stade%20Abb%C3%A9-Deschamps%20%2831%29.JPG?width=1200",
-"nombre": "Estadio de l'Abbé-Deschamps"
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Auxerre_-_Stade_Abb%C3%A9-Deschamps_%2831%29.JPG/1920px-Auxerre_-_Stade_Abb%C3%A9-Deschamps_%2831%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Auxerre_-_Stade_Abb%C3%A9-Deschamps_%2831%29.JPG/1920px-Auxerre_-_Stade_Abb%C3%A9-Deschamps_%2831%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"nombre": "Estadio de l'Abbé-Deschamps",
+"px": "2304x1728"
 },
 "AVS": {},
 "AZ": {},
@@ -38,57 +52,80 @@
 "Angers": {},
 "Arsenal": {
 "aforo": 60338,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/London%20Emirates%20Stadium%20arsenal.jpg?width=1200",
-"nombre": "Emirates Stadium"
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/London_Emirates_Stadium_arsenal.jpg/1920px-London_Emirates_Stadium_arsenal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/London_Emirates_Stadium_arsenal.jpg/1920px-London_Emirates_Stadium_arsenal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"nombre": "Emirates Stadium",
+"px": "4241x3176"
 },
 "Aston Villa": {
 "aforo": 42640,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/Birmingham%20aston%20villa%20park%20stadium.jpg?width=1200",
-"nombre": "Villa Park"
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Birmingham_aston_villa_park_stadium.jpg/1920px-Birmingham_aston_villa_park_stadium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Birmingham_aston_villa_park_stadium.jpg/1920px-Birmingham_aston_villa_park_stadium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"nombre": "Villa Park",
+"px": "4631x3468"
 },
 "Atalanta": {
 "aforo": 24950,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20outside%20of%20the%20Gewiss%20Stadium%20in%202020.jpg?width=1200",
-"nombre": "Stadio Atleti Azzurri d'Italia"
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/The_outside_of_the_Gewiss_Stadium_in_2020.jpg/1920px-The_outside_of_the_Gewiss_Stadium_in_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/The_outside_of_the_Gewiss_Stadium_in_2020.jpg/1920px-The_outside_of_the_Gewiss_Stadium_in_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"nombre": "Stadio Atleti Azzurri d'Italia",
+"px": "4032x3024"
 },
 "Athletic Club": {},
 "Atlético Madrid": {
 "aforo": 70692,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/Wanda-Metropolitano.jpg?width=1200",
-"nombre": "Estadio Metropolitano"
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Wanda-Metropolitano.jpg/1920px-Wanda-Metropolitano.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Wanda-Metropolitano.jpg/1920px-Wanda-Metropolitano.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"nombre": "Estadio Metropolitano",
+"px": "8936x4336"
 },
 "Augsburg": {},
 "Auxerre": {},
 "Barcelona": {
 "aforo": 105000,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/Camp%20Nou%20aerial%20%28cropped%29.jpg?width=1200",
-"nombre": "Camp Nou"
+"img": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Camp_Nou_aerial_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Camp_Nou_aerial_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+"nombre": "Camp Nou",
+"px": "1826x1186"
 },
 "Bayern Munich": {
-"aforo": 75024,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/M%C3%BCnchen%20-%20Allianz-Arena%20%28Luftbild%29.jpg?width=1200",
 "nombre": "Allianz Arena"
 },
 "Bologna": {},
 "Borussia Mönchengladbach": {
 "aforo": 59749,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/M%C3%B6nchengladbach%20stadion.jpg?width=1200",
-"nombre": "Borussia Park"
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/M%C3%B6nchengladbach_stadion.jpg/1920px-M%C3%B6nchengladbach_stadion.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/M%C3%B6nchengladbach_stadion.jpg/1920px-M%C3%B6nchengladbach_stadion.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"nombre": "Borussia Park",
+"px": "5469x3648"
 },
 "Botafogo FR": {},
-"Bournemouth": {},
+"Bournemouth": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Bournemouth_%2C_Boscombe_-_Dean_Court_Football_Stadium_-_geograph.org.uk_-_2196971.jpg/1920px-Bournemouth_%2C_Boscombe_-_Dean_Court_Football_Stadium_-_geograph.org.uk_-_2196971.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Bournemouth_%2C_Boscombe_-_Dean_Court_Football_Stadium_-_geograph.org.uk_-_2196971.jpg/1920px-Bournemouth_%2C_Boscombe_-_Dean_Court_Football_Stadium_-_geograph.org.uk_-_2196971.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"nombre": "Dean Court",
+"px": "4288x2848"
+},
 "Brentford": {
-"aforo": 14863,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/Griffin%20Park%20aerial%202011.jpg?width=1200",
-"nombre": "Griffin Park"
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Griffin_Park_-_Home_of_Brentford_F.C._-_geograph.org.uk_-_6069727.jpg/1920px-Griffin_Park_-_Home_of_Brentford_F.C._-_geograph.org.uk_-_6069727.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Griffin_Park_-_Home_of_Brentford_F.C._-_geograph.org.uk_-_6069727.jpg/1920px-Griffin_Park_-_Home_of_Brentford_F.C._-_geograph.org.uk_-_6069727.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"nombre": "Griffin Park",
+"px": "5183x3380"
 },
 "Brest": {},
 "Brighton": {
 "aforo": 31800,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/Falmer%20Stadium%20-%20night.jpg?width=1200",
-"nombre": "Falmer Stadium"
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Falmer_Stadium_-_night.jpg/1920px-Falmer_Stadium_-_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Falmer_Stadium_-_night.jpg/1920px-Falmer_Stadium_-_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"nombre": "Falmer Stadium",
+"px": "2988x1912"
 },
-"Burnley": {},
+"Burnley": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Turf_Moor_from_Burnley_Manchester_Road_station.jpg/1920px-Turf_Moor_from_Burnley_Manchester_Road_station.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Turf_Moor_from_Burnley_Manchester_Road_station.jpg/1920px-Turf_Moor_from_Burnley_Manchester_Road_station.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"nombre": "Turf Moor",
+"px": "4000x3000"
+},
 "CA Mineiro": {},
 "CA Osasuna": {},
 "CA Paranaense": {},
@@ -99,24 +136,32 @@
 "CR Flamengo": {},
 "CR Vasco da Gama": {
 "aforo": 25000,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/Est%C3%A1dio%20de%20S%C3%A3o%20Janu%C3%A1rio%20by%20Diego%20Baravelli.jpg?width=1200",
-"nombre": "Estadio São Januário"
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Est%C3%A1dio_de_S%C3%A3o_Janu%C3%A1rio_by_Diego_Baravelli.jpg/1920px-Est%C3%A1dio_de_S%C3%A3o_Janu%C3%A1rio_by_Diego_Baravelli.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Est%C3%A1dio_de_S%C3%A3o_Janu%C3%A1rio_by_Diego_Baravelli.jpg/1920px-Est%C3%A1dio_de_S%C3%A3o_Janu%C3%A1rio_by_Diego_Baravelli.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"nombre": "Estadio São Januário",
+"px": "3000x2000"
 },
 "CS Marítimo": {},
 "Cagliari": {},
 "Casa Pia AC": {},
 "Celta Vigo": {
 "aforo": 22803,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/Grada%20R%C3%ADo.JPG?width=1200",
-"nombre": "Estadio Abanca Balaídos"
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Grada_R%C3%ADo.JPG/1920px-Grada_R%C3%ADo.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Grada_R%C3%ADo.JPG/1920px-Grada_R%C3%ADo.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"nombre": "Estadio Abanca Balaídos",
+"px": "2592x1944"
 },
 "Chapecoense AF": {},
 "Chelsea": {
 "aforo": 41875,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/London%20Stamford%20Bridge.jpg?width=1200",
-"nombre": "Stamford Bridge"
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/London_Stamford_Bridge.jpg/1920px-London_Stamford_Bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/London_Stamford_Bridge.jpg/1920px-London_Stamford_Bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"nombre": "Stamford Bridge",
+"px": "4316x3232"
 },
-"Clube do Remo": {},
+"Clube do Remo": {
+"nombre": "Estadio Evandro Almeida"
+},
 "Colonia": {},
 "Como": {},
 "Coritiba FBC": {},
@@ -125,74 +170,101 @@
 "Cruzeiro EC": {},
 "Crystal Palace": {
 "aforo": 26255,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/London%20Selhurst%20Park%20crystal%20palace%20stadium%20aerialview.JPG?width=1200",
-"nombre": "Selhurst Park"
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/London_Selhurst_Park_crystal_palace_stadium_aerialview.JPG/1920px-London_Selhurst_Park_crystal_palace_stadium_aerialview.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/London_Selhurst_Park_crystal_palace_stadium_aerialview.JPG/1920px-London_Selhurst_Park_crystal_palace_stadium_aerialview.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"nombre": "Selhurst Park",
+"px": "4497x3368"
 },
 "Deportivo Alavés": {
 "aforo": 19840,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/Alav%C3%A9s2-2Lega2018.jpg?width=1200",
-"nombre": "Estadio de Mendizorroza"
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Alav%C3%A9s2-2Lega2018.jpg/1920px-Alav%C3%A9s2-2Lega2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Alav%C3%A9s2-2Lega2018.jpg/1920px-Alav%C3%A9s2-2Lega2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"nombre": "Estadio de Mendizorroza",
+"px": "4032x3024"
 },
 "Dortmund": {
 "aforo": 81359,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/Signal%20iduna%20park%20stadium%20dortmund%206.jpg?width=1200",
-"nombre": "Signal Iduna Park"
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Signal_iduna_park_stadium_dortmund_6.jpg/1920px-Signal_iduna_park_stadium_dortmund_6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Signal_iduna_park_stadium_dortmund_6.jpg/1920px-Signal_iduna_park_stadium_dortmund_6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"nombre": "Signal Iduna Park",
+"px": "4133x2755"
 },
 "EC Bahia": {},
 "EC Vitória": {},
-"ES Troyes AC": {},
+"ES Troyes AC": {
+"nombre": "Stade de l'Aube"
+},
 "Elche": {},
 "Espanyol": {},
 "Everton": {
 "aforo": 52769,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/Project%20366%20-217%20040824%20Approaching%20Lift%20Off%20%2853902389448%29.jpg?width=1200",
-"nombre": "Everton Stadium"
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Project_366_-217_040824_Approaching_Lift_Off_%2853902389448%29.jpg/1920px-Project_366_-217_040824_Approaching_Lift_Off_%2853902389448%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Project_366_-217_040824_Approaching_Lift_Off_%2853902389448%29.jpg/1920px-Project_366_-217_040824_Approaching_Lift_Off_%2853902389448%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"nombre": "Everton Stadium",
+"px": "3718x2479"
 },
 "FC Alverca": {},
 "FC Arouca": {},
 "FC Famalicão": {},
 "FC Groningen": {
 "aforo": 22550,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/Euroborg.jpg?width=1200",
-"nombre": "Euroborg"
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Euroborg.jpg/1920px-Euroborg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Euroborg.jpg/1920px-Euroborg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"nombre": "Euroborg",
+"px": "2592x1944"
 },
 "FC Porto": {
 "aforo": 50033,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/Est%C3%A1dio%20do%20Drag%C3%A3o%20%288468978586%29.jpg?width=1200",
-"nombre": "Estádio do Dragão"
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Est%C3%A1dio_do_Drag%C3%A3o_%288468978586%29.jpg/1920px-Est%C3%A1dio_do_Drag%C3%A3o_%288468978586%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Est%C3%A1dio_do_Drag%C3%A3o_%288468978586%29.jpg/1920px-Est%C3%A1dio_do_Drag%C3%A3o_%288468978586%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"nombre": "Estádio do Dragão",
+"px": "2560x1920"
 },
 "FC Schalke 04": {},
 "FC Twente '65": {},
 "FC Utrecht": {
 "aforo": 23750,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/Stadion%20FC%20Utrecht%20-%20Bunnikside.jpg?width=1200",
-"nombre": "Estadio Galgenwaard"
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Stadion_FC_Utrecht_-_Bunnikside.jpg/1920px-Stadion_FC_Utrecht_-_Bunnikside.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Stadion_FC_Utrecht_-_Bunnikside.jpg/1920px-Stadion_FC_Utrecht_-_Bunnikside.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"nombre": "Estadio Galgenwaard",
+"px": "2288x1712"
 },
 "FC Volendam": {},
-"Feyenoord Rotterdam": {},
+"Feyenoord Rotterdam": {
+"nombre": "Stadion Feĳenoord"
+},
 "Fiorentina": {
 "aforo": 43325,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/Firenze%2C%20stadio%20artemio%20franchi%2C%20campo%20da%20gioco%2C%2010%2C0.jpg?width=1200",
-"nombre": "Estadio Artemio Franchi"
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Firenze%2C_stadio_artemio_franchi%2C_campo_da_gioco%2C_10%2C0.jpg/1920px-Firenze%2C_stadio_artemio_franchi%2C_campo_da_gioco%2C_10%2C0.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Firenze%2C_stadio_artemio_franchi%2C_campo_da_gioco%2C_10%2C0.jpg/1920px-Firenze%2C_stadio_artemio_franchi%2C_campo_da_gioco%2C_10%2C0.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"nombre": "Estadio Artemio Franchi",
+"px": "5990x3232"
 },
 "Fluminense FC": {},
 "Fortuna Sittard": {
-"aforo": 12500,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/Stadion%20Sittard%20Rapsstroh%20pressen.JPG?width=1200",
 "nombre": "Fortuna Sittard Stadion"
 },
 "Frankfurt": {
 "aforo": 51500,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/Frankfurt%20stadium.jpg?width=1200",
-"nombre": "Deutsche Bank Park"
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Frankfurt_stadium.jpg/1920px-Frankfurt_stadium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Frankfurt_stadium.jpg/1920px-Frankfurt_stadium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"nombre": "Deutsche Bank Park",
+"px": "2694x1620"
 },
 "Freiburg": {},
 "Frosinone Calcio": {
 "aforo": 16227,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/Benito%20Stirpe%20panoramica%20Frosinone%20Foggia.JPG?width=1200",
-"nombre": "Estadio Benito Stirpe"
+"img": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Benito_Stirpe_panoramica_Frosinone_Foggia.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Benito_Stirpe_panoramica_Frosinone_Foggia.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+"nombre": "Estadio Benito Stirpe",
+"px": "1920x1005"
 },
-"Fulham": {},
+"Fulham": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Craven_Cottage%2C_Fulham_FC_Stadium_-_panoramio.jpg/1920px-Craven_Cottage%2C_Fulham_FC_Stadium_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Craven_Cottage%2C_Fulham_FC_Stadium_-_panoramio.jpg/1920px-Craven_Cottage%2C_Fulham_FC_Stadium_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"nombre": "Craven Cottage",
+"px": "3000x1560"
+},
 "GD Estoril Praia": {},
 "Genoa": {},
 "Getafe": {},
@@ -201,62 +273,74 @@
 "Go Ahead Eagles": {},
 "Grêmio FBPA": {
 "aforo": 60540,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/Arena%20do%20Gr%C3%AAmio%202014.jpg?width=1200",
-"nombre": "Arena do Grêmio"
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Arena_do_Gr%C3%AAmio_2014.jpg/1920px-Arena_do_Gr%C3%AAmio_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Arena_do_Gr%C3%AAmio_2014.jpg/1920px-Arena_do_Gr%C3%AAmio_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"nombre": "Arena do Grêmio",
+"px": "4098x2200"
 },
 "Hamburger SV": {
 "aforo": 57000,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/Well%20lit%20soccer%20stadium%20%28Unsplash%29.jpg?width=1200",
-"nombre": "Volksparkstadion"
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Well_lit_soccer_stadium_%28Unsplash%29.jpg/1920px-Well_lit_soccer_stadium_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Well_lit_soccer_stadium_%28Unsplash%29.jpg/1920px-Well_lit_soccer_stadium_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"nombre": "Volksparkstadion",
+"px": "7686x4358"
 },
 "Heidenheim": {},
 "Heracles Almelo": {
-"aforo": 12080,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/Heracles%20Stadion.PNG?width=1200",
 "nombre": "Asito Stadion"
 },
 "Hoffenheim": {},
 "Hull City AFC": {},
 "Inter": {
 "aforo": 75817,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/Stadio%20Meazza%202021%203.jpg?width=1200",
-"nombre": "Estadio Giuseppe Meazza"
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Stadio_Meazza_2021_3.jpg/1920px-Stadio_Meazza_2021_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Stadio_Meazza_2021_3.jpg/1920px-Stadio_Meazza_2021_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"nombre": "Estadio Giuseppe Meazza",
+"px": "4728x3152"
 },
 "Ipswich Town FC": {},
 "Juventus": {
 "aforo": 41689,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/Juventus%20v%20Real%20Madrid%2C%20Champions%20League%2C%20Stadium%2C%20Turin%2C%202013.jpg?width=1200",
-"nombre": "Juventus Stadium"
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Juventus_v_Real_Madrid%2C_Champions_League%2C_Stadium%2C_Turin%2C_2013.jpg/1920px-Juventus_v_Real_Madrid%2C_Champions_League%2C_Stadium%2C_Turin%2C_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Juventus_v_Real_Madrid%2C_Champions_League%2C_Stadium%2C_Turin%2C_2013.jpg/1920px-Juventus_v_Real_Madrid%2C_Champions_League%2C_Stadium%2C_Turin%2C_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"nombre": "Juventus Stadium",
+"px": "4608x2592"
 },
 "Lazio": {
 "aforo": 70634,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/Stadio%20Olimpico%202024.jpg?width=1200",
-"nombre": "Estadio Olímpico de Roma"
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Stadio_Olimpico_2024.jpg/1920px-Stadio_Olimpico_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Stadio_Olimpico_2024.jpg/1920px-Stadio_Olimpico_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"nombre": "Estadio Olímpico de Roma",
+"px": "3384x1712"
 },
 "Le Havre": {},
 "Le Mans FC": {},
 "Lecce": {},
 "Leeds United": {
 "aforo": 37792,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/Elland%20Road%202023%20cropped.jpg?width=1200",
-"nombre": "Elland Road"
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Elland_Road_2023_cropped.jpg/1920px-Elland_Road_2023_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Elland_Road_2023_cropped.jpg/1920px-Elland_Road_2023_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"nombre": "Elland Road",
+"px": "4500x3000"
 },
 "Lens": {},
 "Levante": {},
 "Leverkusen": {
 "aforo": 30210,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/Bayarena%20Leverkusen%202020.jpg?width=1200",
-"nombre": "BayArena"
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Bayarena_Leverkusen_2020.jpg/1920px-Bayarena_Leverkusen_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Bayarena_Leverkusen_2020.jpg/1920px-Bayarena_Leverkusen_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"nombre": "BayArena",
+"px": "4978x2797"
 },
 "Lille": {
-"aforo": 50000,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/Finale%20Coupe%20Davis%202017%20Pouille%20Goffin.jpg?width=1200",
 "nombre": "Estadio Pierre Mauroy"
 },
 "Liverpool": {
 "aforo": 61276,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/Liverpool%20anfield%20road%20stadium.jpg?width=1200",
-"nombre": "Anfield"
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Liverpool_anfield_road_stadium.jpg/1920px-Liverpool_anfield_road_stadium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Liverpool_anfield_road_stadium.jpg/1920px-Liverpool_anfield_road_stadium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"nombre": "Anfield",
+"px": "4595x3441"
 },
 "Lorient": {},
 "Lyon": {},
@@ -265,197 +349,273 @@
 "Mallorca": {},
 "Manchester City": {
 "aforo": 52900,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/City%20of%20Manchester%20Stadium%202023%20cropped.jpg?width=1200",
-"nombre": "Estadio Ciudad de Mánchester"
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/City_of_Manchester_Stadium_2023_cropped.jpg/1920px-City_of_Manchester_Stadium_2023_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/City_of_Manchester_Stadium_2023_cropped.jpg/1920px-City_of_Manchester_Stadium_2023_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"nombre": "Estadio Ciudad de Mánchester",
+"px": "4500x3000"
 },
-"Manchester Utd": {},
+"Manchester Utd": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Manchester_United_Old_Trafford.jpg/1920px-Manchester_United_Old_Trafford.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Manchester_United_Old_Trafford.jpg/1920px-Manchester_United_Old_Trafford.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"nombre": "Old Trafford",
+"px": "4995x3741"
+},
 "Marseille": {},
 "Metz": {},
 "Mirassol FC": {},
 "Monaco": {
-"aforo": 18523,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/Monaco%20Stade%20Louis-II%201.jpg?width=1200",
 "nombre": "Estadio Luis II"
 },
 "Moreirense FC": {},
 "Málaga CF": {
 "aforo": 30044,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/Estado%20de%20la%20Rosaleda%20%28M%C3%A1laga%20C.F.%29.jpg?width=1200",
-"nombre": "Estadio La Rosaleda"
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Estado_de_la_Rosaleda_%28M%C3%A1laga_C.F.%29.jpg/1920px-Estado_de_la_Rosaleda_%28M%C3%A1laga_C.F.%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Estado_de_la_Rosaleda_%28M%C3%A1laga_C.F.%29.jpg/1920px-Estado_de_la_Rosaleda_%28M%C3%A1laga_C.F.%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"nombre": "Estadio La Rosaleda",
+"px": "3264x2448"
 },
-"NAC Breda": {},
+"NAC Breda": {
+"nombre": "Estadio Rat Verlegh"
+},
 "NEC": {},
 "Nantes": {},
 "Napoli": {
 "aforo": 54726,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/Stadio%20Maradona%20Serie%20A.jpg?width=1200",
-"nombre": "Estadio Diego Armando Maradona"
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Stadio_Maradona_Serie_A.jpg/1920px-Stadio_Maradona_Serie_A.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Stadio_Maradona_Serie_A.jpg/1920px-Stadio_Maradona_Serie_A.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"nombre": "Estadio Diego Armando Maradona",
+"px": "3561x1730"
 },
 "Newcastle": {
 "aforo": 52305,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/Newcastle%20st-james-park%20stadium.jpg?width=1200",
-"nombre": "St James’ Park"
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Newcastle_st-james-park_stadium.jpg/1920px-Newcastle_st-james-park_stadium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Newcastle_st-james-park_stadium.jpg/1920px-Newcastle_st-james-park_stadium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"nombre": "St James’ Park",
+"px": "4306x3225"
 },
 "Nice": {},
 "Nottingham": {
 "aforo": 30404,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/Nottingham%20the%20city%20ground%20stadium%20forest.jpg?width=1200",
-"nombre": "City Ground"
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Nottingham_the_city_ground_stadium_forest.jpg/1920px-Nottingham_the_city_ground_stadium_forest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Nottingham_the_city_ground_stadium_forest.jpg/1920px-Nottingham_the_city_ground_stadium_forest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"nombre": "City Ground",
+"px": "3916x2933"
 },
 "OGC Nice": {
 "aforo": 36178,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/Allianzcoupdenvoi.jpg?width=1200",
-"nombre": "Allianz Riviera"
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Allianzcoupdenvoi.jpg/1920px-Allianzcoupdenvoi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Allianzcoupdenvoi.jpg/1920px-Allianzcoupdenvoi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"nombre": "Allianz Riviera",
+"px": "2592x1936"
 },
 "Olympique Lyonnais": {
 "aforo": 59286,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/Stade%20Lumi%C3%A8re.jpg?width=1200",
-"nombre": "Parc Olympique lyonnais"
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Stade_Lumi%C3%A8re.jpg/1920px-Stade_Lumi%C3%A8re.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Stade_Lumi%C3%A8re.jpg/1920px-Stade_Lumi%C3%A8re.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"nombre": "Parc Olympique lyonnais",
+"px": "2672x1232"
 },
 "Olympique de Marseille": {
 "aforo": 67394,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/Stade%20V%C3%A9lodrome%20closeup.jpg?width=1200",
-"nombre": "Stade Vélodrome"
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Stade_V%C3%A9lodrome_closeup.jpg/1920px-Stade_V%C3%A9lodrome_closeup.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Stade_V%C3%A9lodrome_closeup.jpg/1920px-Stade_V%C3%A9lodrome_closeup.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"nombre": "Stade Vélodrome",
+"px": "5347x3565"
 },
 "Osasuna": {},
-"PEC Zwolle": {},
+"PEC Zwolle": {
+"nombre": "MAC³PARK Stadion"
+},
 "PSG": {},
-"PSV": {},
+"PSV": {
+"nombre": "Philips Stadion"
+},
 "Paris FC": {
 "aforo": 20000,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/Paris%20Stade%20S%C3%A9bastien%20Charl%C3%A9ty.jpg?width=1200",
-"nombre": "Estadio Charléty"
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Paris_Stade_S%C3%A9bastien_Charl%C3%A9ty.jpg/1920px-Paris_Stade_S%C3%A9bastien_Charl%C3%A9ty.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Paris_Stade_S%C3%A9bastien_Charl%C3%A9ty.jpg/1920px-Paris_Stade_S%C3%A9bastien_Charl%C3%A9ty.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"nombre": "Estadio Charléty",
+"px": "4322x3237"
 },
 "Parma": {},
 "Pisa": {},
 "RB Bragantino": {},
 "RB Leipzig": {
 "aforo": 42000,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/Leipzig%20stadium.jpg?width=1200",
-"nombre": "Zentralstadion"
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Leipzig_stadium.jpg/1920px-Leipzig_stadium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Leipzig_stadium.jpg/1920px-Leipzig_stadium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"nombre": "Zentralstadion",
+"px": "4775x3576"
 },
 "RC Deportivo La Coruña": {},
 "Racing Club de Lens": {},
 "Rayo Vallecano": {
 "aforo": 14708,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/Estadio%20de%20Vallecas.jpg?width=1200",
-"nombre": "Campo de Fútbol de Vallecas"
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Estadio_de_Vallecas.jpg/1920px-Estadio_de_Vallecas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Estadio_de_Vallecas.jpg/1920px-Estadio_de_Vallecas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"nombre": "Campo de Fútbol de Vallecas",
+"px": "2592x1552"
 },
 "Real Betis": {},
 "Real Madrid": {},
 "Real Oviedo": {
 "aforo": 30500,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/Estadio%20Carlos%20Tartiere%2001.jpg?width=1200",
-"nombre": "Estadio Carlos Tartiere"
+"img": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Estadio_Carlos_Tartiere_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Estadio_Carlos_Tartiere_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+"nombre": "Estadio Carlos Tartiere",
+"px": "1600x1200"
 },
 "Real Racing Club de Santander": {},
-"Real Sociedad": {},
+"Real Sociedad": {
+"nombre": "Estadio Municipal de Anoeta"
+},
 "Rennes": {},
 "Rio Ave FC": {},
 "Roma": {
 "aforo": 70634,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/Stadio%20Olimpico%202024.jpg?width=1200",
-"nombre": "Estadio Olímpico de Roma"
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Stadio_Olimpico_2024.jpg/1920px-Stadio_Olimpico_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Stadio_Olimpico_2024.jpg/1920px-Stadio_Olimpico_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"nombre": "Estadio Olímpico de Roma",
+"px": "3384x1712"
 },
 "SBV Excelsior": {},
 "SC Cambuur-Leeuwarden": {},
 "SC Corinthians Paulista": {},
 "SC Heerenveen": {
 "aforo": 26100,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/Abe%20Lenstra%20Stadion%2008c.JPG?width=1200",
-"nombre": "Abe Lenstra Stadion"
+"img": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Abe_Lenstra_Stadion_08c.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Abe_Lenstra_Stadion_08c.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+"nombre": "Abe Lenstra Stadion",
+"px": "1920x1078"
 },
 "SC Internacional": {},
-"SC Paderborn 07": {},
+"SC Paderborn 07": {
+"nombre": "Home Deluxe Arena"
+},
 "SE Palmeiras": {
 "aforo": 43713,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/Allianz%20Parque%202025.jpg?width=1200",
-"nombre": "Estadio Allianz Parque"
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Allianz_Parque_2025.jpg/1920px-Allianz_Parque_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Allianz_Parque_2025.jpg/1920px-Allianz_Parque_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"nombre": "Estadio Allianz Parque",
+"px": "4000x2250"
 },
-"SV 07 Elversberg": {},
+"SV 07 Elversberg": {
+"nombre": "Waldstadion an der Kaiserlinde"
+},
 "Santos FC": {
 "aforo": 16068,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/Vila%20Belmiro%20pre-match%20Santos%20vs%20Gr%C3%AAmio%202021.jpg?width=1200",
-"nombre": "Estadio Urbano Caldeira"
+"img": "https://upload.wikimedia.org/wikipedia/commons/4/47/Vila_Belmiro_pre-match_Santos_vs_Gr%C3%AAmio_2021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/4/47/Vila_Belmiro_pre-match_Santos_vs_Gr%C3%AAmio_2021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+"nombre": "Estadio Urbano Caldeira",
+"px": "1600x900"
 },
 "Sassuolo": {},
 "Sevilla": {
 "aforo": 42714,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-10-25%201%20Estadio%20Ram%C3%B3n%20S%C3%A1nchez%20Pizju%C3%A1n%20%28Sevilla%20FC%29.jpg?width=1200",
-"nombre": "Estadio Ramón Sánchez-Pizjuán"
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/2022-10-25_1_Estadio_Ram%C3%B3n_S%C3%A1nchez_Pizju%C3%A1n_%28Sevilla_FC%29.jpg/1920px-2022-10-25_1_Estadio_Ram%C3%B3n_S%C3%A1nchez_Pizju%C3%A1n_%28Sevilla_FC%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/2022-10-25_1_Estadio_Ram%C3%B3n_S%C3%A1nchez_Pizju%C3%A1n_%28Sevilla_FC%29.jpg/1920px-2022-10-25_1_Estadio_Ram%C3%B3n_S%C3%A1nchez_Pizju%C3%A1n_%28Sevilla_FC%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"nombre": "Estadio Ramón Sánchez-Pizjuán",
+"px": "4032x3024"
 },
 "Sparta Rotterdam": {
 "aforo": 11026,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/SpartaKasteel.jpg?width=1200",
-"nombre": "Sparta Stadion Het Kasteel"
+"img": "https://upload.wikimedia.org/wikipedia/commons/f/fd/SpartaKasteel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/f/fd/SpartaKasteel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+"nombre": "Sparta Stadion Het Kasteel",
+"px": "1697x1205"
 },
 "Sport Lisboa e Benfica": {},
 "Sporting Clube de Braga": {},
-"Sporting Clube de Portugal": {},
+"Sporting Clube de Portugal": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Old_est%C3%A1dio_de_Alvalade_at_the_new_Est%C3%A1dio_Alvalade_XXI.JPG/1920px-Old_est%C3%A1dio_de_Alvalade_at_the_new_Est%C3%A1dio_Alvalade_XXI.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Old_est%C3%A1dio_de_Alvalade_at_the_new_Est%C3%A1dio_Alvalade_XXI.JPG/1920px-Old_est%C3%A1dio_de_Alvalade_at_the_new_Est%C3%A1dio_Alvalade_XXI.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"nombre": "Estádio José Alvalade (1956)",
+"px": "4608x3456"
+},
 "St. Pauli": {},
-"Stade Brestois 29": {},
+"Stade Brestois 29": {
+"nombre": "Stade Francis-Le Blé"
+},
 "Stade Rennais FC 1901": {},
 "Strasbourg": {},
 "Stuttgart": {
-"aforo": 60058,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/Blick%20vom%20Rotenberg%20Stadion.jpg?width=1200",
 "nombre": "MHPArena"
 },
 "Sunderland": {
 "aforo": 48339,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/Sunderland%20stadium%20of%20light.jpg?width=1200",
-"nombre": "Stadium of Light"
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Sunderland_stadium_of_light.jpg/1920px-Sunderland_stadium_of_light.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Sunderland_stadium_of_light.jpg/1920px-Sunderland_stadium_of_light.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"nombre": "Stadium of Light",
+"px": "4610x3452"
 },
 "São Paulo FC": {
 "aforo": 120000,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/Est%C3%A1dio%20do%20Morumbi.jpg?width=1200",
-"nombre": "Estadio Morumbi"
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Est%C3%A1dio_do_Morumbi.jpg/1920px-Est%C3%A1dio_do_Morumbi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Est%C3%A1dio_do_Morumbi.jpg/1920px-Est%C3%A1dio_do_Morumbi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"nombre": "Estadio Morumbi",
+"px": "4754x3560"
 },
 "TSG 1899 Hoffenheim": {
 "aforo": 30150,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/Sinsheim%20-%20Rhein-Neckar-Arena%20-%20blick%20von%20der%20Burg%20Steinsberg%202016-03-28%2017-08-31.JPG?width=1200",
-"nombre": "PreZero-Arena"
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Sinsheim_-_Rhein-Neckar-Arena_-_blick_von_der_Burg_Steinsberg_2016-03-28_17-08-31.JPG/1920px-Sinsheim_-_Rhein-Neckar-Arena_-_blick_von_der_Burg_Steinsberg_2016-03-28_17-08-31.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Sinsheim_-_Rhein-Neckar-Arena_-_blick_von_der_Burg_Steinsberg_2016-03-28_17-08-31.JPG/1920px-Sinsheim_-_Rhein-Neckar-Arena_-_blick_von_der_Burg_Steinsberg_2016-03-28_17-08-31.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"nombre": "PreZero-Arena",
+"px": "2392x1584"
 },
 "Telstar 1963": {},
 "Torino": {},
 "Tottenham": {
 "aforo": 62850,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/London%20Tottenham%20Hotspur%20Stadium.jpg?width=1200",
-"nombre": ""
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/London_Tottenham_Hotspur_Stadium.jpg/1920px-London_Tottenham_Hotspur_Stadium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/London_Tottenham_Hotspur_Stadium.jpg/1920px-London_Tottenham_Hotspur_Stadium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"nombre": "",
+"px": "3906x2925"
 },
 "Toulouse": {},
 "US Lecce": {
 "aforo": 31461,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/Stadio%20Via%20del%20Mare%20-%20Lecce.jpg?width=1200",
-"nombre": "Stadio Via del Mare"
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Stadio_Via_del_Mare_-_Lecce.jpg/1920px-Stadio_Via_del_Mare_-_Lecce.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Stadio_Via_del_Mare_-_Lecce.jpg/1920px-Stadio_Via_del_Mare_-_Lecce.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"nombre": "Stadio Via del Mare",
+"px": "3278x2540"
 },
 "US Sassuolo Calcio": {
-"aforo": 21525,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/Das%20Mapei%20Stadium%20von%20Reggio%20nell%60Emilia%20%282026%29.jpg?width=1200",
 "nombre": "MAPEI Stadium - Città del Tricolore"
 },
 "Udinese": {},
 "Union Berlin": {},
 "Valencia": {
 "aforo": 49430,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/CAMP%20DE%20MESTALLA%20GRADA%20DE%20LA%20MAR%202014.JPG?width=1200",
-"nombre": "Campo de Mestalla"
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/CAMP_DE_MESTALLA_GRADA_DE_LA_MAR_2014.JPG/1920px-CAMP_DE_MESTALLA_GRADA_DE_LA_MAR_2014.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/CAMP_DE_MESTALLA_GRADA_DE_LA_MAR_2014.JPG/1920px-CAMP_DE_MESTALLA_GRADA_DE_LA_MAR_2014.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"nombre": "Campo de Mestalla",
+"px": "5184x3456"
 },
 "Venezia FC": {},
 "Verona": {},
 "Villarreal": {
 "aforo": 24891,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/City%20v%20Villarreal.jpg?width=1200",
-"nombre": "Estadio de la Cerámica"
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/City_v_Villarreal.jpg/1920px-City_v_Villarreal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/City_v_Villarreal.jpg/1920px-City_v_Villarreal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"nombre": "Estadio de la Cerámica",
+"px": "2592x1552"
 },
 "Vitória Guimarães": {},
 "Werder Bremen": {},
 "West Ham": {
-"aforo": 62500,
-"img": "https://commons.wikimedia.org/wiki/Special:FilePath/London%20Olympic%20Stadium%20West%20Ham.jpg?width=1200",
-"nombre": "Estadio Olímpico de Londres"
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/London_Stadium_%2827757353179%29.jpg/1920px-London_Stadium_%2827757353179%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/London_Stadium_%2827757353179%29.jpg/1920px-London_Stadium_%2827757353179%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"nombre": "Estadio Olímpico de Londres",
+"px": "4608x3456"
 },
-"Willem II Tilburg": {},
+"Willem II Tilburg": {
+"nombre": "Koning Willem II Stadion"
+},
 "Wolfsburg": {},
-"Wolves": {}
+"Wolves": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Molineux_Stadium_-_geograph.org.uk_-_2439244.jpg/1920px-Molineux_Stadium_-_geograph.org.uk_-_2439244.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"mini": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Molineux_Stadium_-_geograph.org.uk_-_2439244.jpg/1920px-Molineux_Stadium_-_geograph.org.uk_-_2439244.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+"nombre": "Molineux Stadium",
+"px": "3872x2592"
+}
 }

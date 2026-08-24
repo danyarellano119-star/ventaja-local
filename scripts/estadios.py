@@ -28,9 +28,12 @@ SPARQL = "https://query.wikidata.org/sparql"
 COMMONS = "https://commons.wikimedia.org/wiki/Special:FilePath/"
 AGENTE = {"User-Agent": "VentajaLocal/1.0 (estadisticas de futbol; proyecto personal)"}
 
-# Ancho de la imagen que se pide. Es un fondo a pantalla completa, así que
-# necesita más resolución que un escudo, pero pedirla original traería 8 MB.
-ANCHO = 1200
+# Dos tamaños. El grande es el fondo del escaparate: en pantallas de alta
+# densidad, un ancho de 1200 se ampliaba casi al doble y se veía borroso, que
+# era justo el problema. El pequeño es para las tarjetas del carrusel, donde
+# cargar la grande sería tirar megas por gusto.
+ANCHO = 1600
+ANCHO_MINI = 500
 LOTE = 20          # clubes por consulta; con más, la consulta expira (504)
 DIAS = 30          # un estadio no cambia de foto todas las semanas
 
@@ -95,8 +98,11 @@ AFORO_MINIMO = 10000
 # Una foto que se estira a lo ancho de la pantalla necesita píxeles de sobra.
 # Y no basta el ancho: el Turf Moor del Burnley venía a 1280x296, un panorama
 # tan aplastado que al recortarlo para la portada quedaba irreconocible.
-ANCHO_MINIMO = 1000
-ALTO_MINIMO = 500
+# El escaparate ocupa el ancho de la página y en pantallas de alta densidad
+# eso son unos 2200 píxeles reales. Aceptar originales de 1200 obligaba al
+# navegador a ampliarlos, y ése era el motivo de que se vieran mal.
+ANCHO_MINIMO = 1600
+ALTO_MINIMO = 900
 PROPORCION_MAXIMA = 2.6      # más ancha que esto, se descarta
 
 
@@ -184,44 +190,117 @@ def _consultar(nombres: list[str], pais: str, fallidos: set) -> dict:
     return hallados
 
 
-def _medir(urls: list[str]) -> dict[str, tuple]:
-    """Tamaño real de cada archivo, preguntando a Commons en bloque.
+def _miniaturas(urls: list[str]) -> dict[str, dict]:
+    """Tamaño real y direcciones de miniatura de cada archivo.
 
-    Commons no amplía las imágenes: si el original mide menos de lo que se le
-    pide, devuelve el original y el navegador lo estira. Por eso hay que mirar
-    el tamaño antes de aceptar una foto, no después.
+    Se pregunta a la API de Commons en vez de construir la dirección a mano.
+    ``Special:FilePath?width=N`` parecía servir, pero no respeta el ancho: salta
+    a tamaños fijos y por encima de cierto punto devuelve algo que ni siquiera
+    es una imagen. La API sí da la miniatura exacta, y de paso el tamaño del
+    original, que hace falta para descartar las que quedarían borrosas.
     """
-    medidas: dict[str, tuple] = {}
+    fuera: dict[str, dict] = {}
     api = "https://commons.wikimedia.org/w/api.php"
-    archivos = [u.rsplit("/", 1)[-1].split("?")[0] for u in urls]
+    archivos = [urllib.parse.unquote(u.rsplit("/", 1)[-1].split("?")[0]) for u in urls]
     for i in range(0, len(archivos), 40):
         lote = archivos[i:i + 40]
         try:
             r = requests.get(api, headers=AGENTE, timeout=90, params={
                 "action": "query", "format": "json", "prop": "imageinfo",
-                "iiprop": "size",
-                "titles": "|".join("File:" + urllib.parse.unquote(a) for a in lote)})
+                "iiprop": "url|size", "iiurlwidth": ANCHO,
+                "titles": "|".join("File:" + a for a in lote)})
             if r.status_code != 200:
                 continue
             for pag in (r.json().get("query", {}).get("pages") or {}).values():
                 info = (pag.get("imageinfo") or [{}])[0]
-                if info.get("width"):
-                    titulo = pag["title"].replace("File:", "").replace(" ", "_")
-                    medidas[titulo] = (info["width"], info["height"])
+                if not info.get("thumburl"):
+                    continue
+                grande = info["thumburl"]
+                # Las direcciones de miniatura llevan el ancho en el nombre, así
+                # que la pequeña se obtiene cambiando ese número.
+                mini = grande.replace(f"/{info['thumbwidth']}px-",
+                                      f"/{ANCHO_MINI}px-")
+                fuera[pag["title"].replace("File:", "").replace(" ", "_")] = {
+                    "grande": grande, "mini": mini,
+                    "w": info["width"], "h": info["height"],
+                }
         except Exception:
             pass
         time.sleep(0.5)
-    return medidas
+    return fuera
 
 
-def _sirve(url: str, medidas: dict) -> bool:
+def _sirve(datos: dict) -> bool:
     """¿Esta foto aguanta usarse como fondo a pantalla completa?"""
-    archivo = urllib.parse.unquote(url.rsplit("/", 1)[-1].split("?")[0])
-    w, h = medidas.get(archivo.replace(" ", "_"), (0, 0))
-    if not w:
-        return True          # sin dato, se le da el beneficio de la duda
+    w, h = datos.get("w", 0), datos.get("h", 0)
     return (w >= ANCHO_MINIMO and h >= ALTO_MINIMO
-            and w / h <= PROPORCION_MAXIMA)
+            and w / max(h, 1) <= PROPORCION_MAXIMA)
+
+
+# Un estadio de fútbol acoge conciertos, tenis, rugby y mítines. Buscar sólo
+# por su nombre traía la final de la Copa Davis del Pierre Mauroy: el recinto
+# correcto, pero con una pista de tenis dentro.
+_OTROS_USOS = (
+    "tennis", "davis", "rugby", "concert", "konzert", "concierto", "boxing",
+    "athletics", "atletismo", "nfl", "cricket", "speedway", "motocross",
+    "ice hockey", "festival", "wrestling", "olympic", "handball", "snow",
+    "construction", "bau", "obras", "maqueta", "model", "plan", "map", "mapa",
+)
+
+
+def _es_de_futbol(titulo: str) -> bool:
+    """Descarta las fotos del mismo recinto usadas para otra cosa."""
+    t = titulo.lower()
+    return not any(palabra in t for palabra in _OTROS_USOS)
+
+
+def _buscar_en_commons(sede: str) -> dict | None:
+    """Busca en Commons la mejor foto de un estadio por su nombre.
+
+    Wikidata guarda una sola imagen por estadio y a veces es pequeña o vieja.
+    Commons tiene decenas: el Old Trafford que enlazaba Wikidata no llegaba a
+    1600 píxeles, y buscando aparece una de 4995. Se toma la más grande que
+    cumpla las mismas reglas de nitidez y proporción.
+    """
+    api = "https://commons.wikimedia.org/w/api.php"
+    # Dos intentos: primero con «stadium», que empuja hacia fotos del recinto
+    # entero; si no sale nada aprovechable, con el nombre a secas, porque hay
+    # estadios cuyas mejores fotos no llevan esa palabra en el título.
+    mejores = []
+    for consulta in (f"{sede} stadium filetype:bitmap", f"{sede} filetype:bitmap"):
+        if mejores:
+            break
+        try:
+            r = requests.get(api, headers=AGENTE, timeout=90, params={
+                "action": "query", "format": "json", "generator": "search",
+                "gsrsearch": consulta, "gsrnamespace": 6,
+                "gsrlimit": 14, "prop": "imageinfo",
+                "iiprop": "size|url", "iiurlwidth": ANCHO})
+            if r.status_code != 200:
+                continue
+            for pag in (r.json().get("query", {}).get("pages") or {}).values():
+                i = (pag.get("imageinfo") or [{}])[0]
+                if not i.get("thumburl") or not _es_de_futbol(pag["title"]):
+                    continue
+                datos = {"w": i["width"], "h": i["height"]}
+                if not _sirve(datos):
+                    continue
+                mejores.append({
+                    "img": i["thumburl"],
+                    "mini": i["thumburl"].replace(f"/{i['thumbwidth']}px-",
+                                                  f"/{ANCHO_MINI}px-"),
+                    "px": f"{i['width']}x{i['height']}",
+                    "orden": i["width"] * i["height"],
+                })
+        except Exception:
+            continue
+        time.sleep(0.4)
+
+    if not mejores:
+        return None
+    mejor = max(mejores, key=lambda x: x["orden"])
+    mejor.pop("orden")
+    return mejor
 
 
 def mapear(ligas: dict) -> dict[str, dict]:
@@ -256,19 +335,45 @@ def mapear(ligas: dict) -> dict[str, dict]:
         # Sólo se da por «sin foto» a quien la fuente contestó y no tenía. Si la
         # consulta falló, el club queda pendiente: marcarlo dejaría a una liga
         # entera sin fondo por un corte de un minuto.
-        # Descartar las que quedarían borrosas al usarlas de fondo
+        # Medir, quedarse con las nítidas y guardar sus dos tamaños
         candidatas = [v["img"] for n, v in cache.items()
                       if n in pendientes and v.get("img")]
         if candidatas:
-            medidas = _medir(candidatas)
+            info = _miniaturas(candidatas)
             descartadas = 0
             for n in pendientes:
                 v = cache.get(n) or {}
-                if v.get("img") and not _sirve(v["img"], medidas):
-                    cache[n] = {}
+                if not v.get("img"):
+                    continue
+                archivo = urllib.parse.unquote(
+                    v["img"].rsplit("/", 1)[-1].split("?")[0]).replace(" ", "_")
+                datos = info.get(archivo)
+                if not datos or not _sirve(datos) or not _es_de_futbol(archivo):
+                    # Se guarda el nombre: con él se puede buscar otra foto
+                    cache[n] = {"nombre": v.get("nombre", "")}
                     descartadas += 1
+                    continue
+                v["img"] = datos["grande"]
+                v["mini"] = datos["mini"]
+                v["px"] = f"{datos['w']}x{datos['h']}"
             if descartadas:
                 print(f"    {descartadas} fotos descartadas por baja resolución")
+
+            # Segunda oportunidad: buscar en Commons una foto mejor del mismo
+            # estadio. Es lo que rescata a los estadios famosos, cuya imagen en
+            # Wikidata suele ser antigua y pequeña.
+            rescatadas = 0
+            for n in pendientes:
+                v = cache.get(n) or {}
+                if v.get("img") or not v.get("nombre"):
+                    continue
+                mejor = _buscar_en_commons(v["nombre"])
+                if mejor:
+                    cache[n] = {**mejor, "nombre": v["nombre"]}
+                    rescatadas += 1
+                time.sleep(0.6)
+            if rescatadas:
+                print(f"    {rescatadas} recuperadas buscando en Commons")
 
         for n in pendientes:
             if n not in fallidos:

@@ -1026,7 +1026,6 @@ table.tabla-liga tbody tr:hover td { background: var(--surface-2); }
 .portada-fondo {
   position: absolute; inset: 0; z-index: 0;
   background-size: cover; background-position: center 40%;
-  transform: scale(1.04);              /* evita bordes al desenfocar */
 }
 /* Degradado de negro a transparente: fuerte abajo, donde va el texto */
 .portada-velo {
@@ -5666,14 +5665,17 @@ function partidosGrandes(dias = 10) {
 }
 
 /** Fondo de un partido: el estadio del local, o los colores de las camisetas. */
-function fondoDe(a, b) {
+function fondoDe(a, b, pequena = false) {
   const sede = (D.estadios || {})[a];
   const col = n => (COLORES[n] || ["#41505f", "#28323d"]);
   const degradado = `linear-gradient(120deg, ${col(a)[0]} 0%, #11151b 55%, ${col(b)[0]} 100%)`;
+  // Cada sitio pide su tamaño: la grande sólo en el escaparate, que ocupa el
+  // ancho de la pantalla; en las tarjetas de 250 píxeles sería tirar megas.
+  const img = sede && (pequena ? (sede.mini || sede.img) : sede.img);
   // La foto va encima y el degradado debajo: mientras la imagen carga, o si no
   // llega nunca, lo que se ve son los colores y no un hueco vacío.
-  return sede && sede.img
-    ? { css: `url("${sede.img}"), ${degradado}`, sede: sede.nombre || "" }
+  return img
+    ? { css: `url("${img}"), ${degradado}`, sede: sede.nombre || "" }
     : { css: degradado, sede: "" };
 }
 
@@ -5730,7 +5732,7 @@ function pintarDestacado() {
   carruselCaja.classList.toggle("oculto", !resto.length);
   document.getElementById("carrusel").innerHTML = resto.map(g => {
     const cc = calcular(g.k, g.p.l, g.p.v);
-    const ff = fondoDe(g.a.nombre, g.b.nombre);
+    const ff = fondoDe(g.a.nombre, g.b.nombre, true);
     const barra = [["var(--local)", cc.pl], ["var(--ink-3)", cc.pe],
                    ["var(--visita)", cc.pv]]
       .map(([col, pr]) => `<i style="flex:${pr};background:${col}"></i>`).join("");
