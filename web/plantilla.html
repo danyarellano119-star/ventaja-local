@@ -2296,6 +2296,13 @@ details .cuerpo strong { color: var(--ink); }
 const D = /*__DATOS__*/;
 const MAXG = 8;
 let ligaActual = "premier";
+
+/* La competición que el usuario eligió a mano. Abrir un partido cambia
+   `ligaActual` para poder pintar su ficha, pero eso no debe alterar lo que
+   estaba mirando: al volver a la lista se restaura ésta. Sin separarlas, entrar
+   a un partido destacado de la Ligue 1 dejaba el selector en Ligue 1 mientras
+   la lista seguía enseñando la Premier. */
+let ligaElegida = "premier";
 let margen = 0.06;          // margen de la casa aplicado a las cuotas estimadas
 let opcionesActuales = [];  // mercados del partido abierto, para la calculadora
 
@@ -2464,11 +2471,11 @@ function enrutar() {
   const ruta = decodeURIComponent(location.hash.replace(/^#\/?/, ""));
   const partes = ruta.split("/").filter(Boolean);
 
-  if (!partes.length) { mostrarVista("vista-lista"); return; }
+  if (!partes.length) { volverALista(); return; }
 
   const [tipo, a, b] = partes;
   try {
-    if (tipo === "liga" && D.ligas[a]) { ligaActual = a; pintarLigas(); pintarLista(); abrirLiga(a); return; }
+    if (tipo === "liga" && D.ligas[a]) { ligaActual = ligaElegida = a; pintarLigas(); pintarLista(); abrirLiga(a); return; }
     if (tipo === "europa") { abrirEuropa(); return; }
     if (tipo === "equipo" && D.ligas[a] && D.ligas[a].equipos[b]) { abrirEquipo(a, b); return; }
     if (tipo === "jugador" && D.ligas[a] && D.ligas[a].equipos[b] && partes[3]) {
@@ -2478,7 +2485,7 @@ function enrutar() {
       const p = (D.ligas[a].partidos || []).find(x => idPartido(x) === b);
       if (p) { ligaActual = a; pintarLigas(); abrirDetalle(a, p, true); return; }
     }
-    if (tipo === "competicion") { ligaActual = a; pintarLigas(); pintarLista(); mostrarVista("vista-lista"); return; }
+    if (tipo === "competicion") { ligaActual = ligaElegida = a; pintarLigas(); pintarLista(); mostrarVista("vista-lista"); return; }
   } catch {}
   mostrarVista("vista-lista");
 }
@@ -2840,7 +2847,7 @@ function pintarLigas() {
     sel.appendChild(gEuro);
 
     sel.addEventListener("change", () => {
-      ligaActual = sel.value;
+      ligaActual = ligaElegida = sel.value;
       GUARDADO.escribir("liga", ligaActual);
       irA(`/competicion/${ligaActual}`, true);
       pintarLigas();
@@ -5220,7 +5227,18 @@ document.getElementById("btn-volver-eq").addEventListener("click", volverALista)
    estilos @media print deja sólo la ficha y la adapta a papel. */
 document.getElementById("btn-pdf").addEventListener("click", () => window.print());
 
-function volverALista() { history.replaceState(null, "", location.pathname); mostrarVista("vista-lista"); }
+function volverALista() {
+  history.replaceState(null, "", location.pathname);
+  // Ver un partido de otra competición no cambia la que estaba eligida: se
+  // devuelve el selector y la lista a donde estaban, y se repintan las dos
+  // juntas para que no queden diciendo cosas distintas.
+  if (ligaActual !== ligaElegida) {
+    ligaActual = ligaElegida;
+    pintarLigas();
+  }
+  aplicarFiltro();          // respeta el filtro que estuviera puesto
+  mostrarVista("vista-lista");
+}
 document.getElementById("btn-volver").addEventListener("click", volverALista);
 
 /* ── Buscador global ──────────────────────────────────────────────────── */
