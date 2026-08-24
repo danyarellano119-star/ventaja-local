@@ -212,6 +212,73 @@ def resumen(registro: dict) -> dict:
         "ok_marcador": f.get("ok_marcador"),
     } for f in filas[-MOSTRAR:]][::-1]
 
+    # ── Medidas de rendimiento ──────────────────────────────────────────
+    # El porcentaje de acierto es la cifra que todo el mundo entiende, pero no
+    # es la que mide bien un pronóstico probabilístico: acertar al 90 % y
+    # acertar al 51 % cuentan igual. Estas otras sí distinguen.
+    import math
+
+    brier = sum((f["pl"] - (f["real"] == "L")) ** 2
+                + (f["pe"] - (f["real"] == "E")) ** 2
+                + (f["pv"] - (f["real"] == "V")) ** 2 for f in filas) / len(filas)
+
+    logloss = -sum(math.log(max({"L": f["pl"], "E": f["pe"],
+                                 "V": f["pv"]}[f["real"]], 1e-9))
+                   for f in filas) / len(filas)
+
+    # Referencia honesta: qué saldría tirando a los porcentajes históricos del
+    # fútbol (46 % local, 26 % empate, 28 % visitante). Si el modelo no mejora
+    # esto, no aporta nada.
+    BASE = {"L": .46, "E": .26, "V": .28}
+    brier_base = sum(sum((BASE[k] - (f["real"] == k)) ** 2 for k in BASE)
+                     for f in filas) / len(filas)
+    logloss_base = -sum(math.log(BASE[f["real"]]) for f in filas) / len(filas)
+
+    # Acierto por liga y por tipo de resultado
+    def reparto(clave):
+        cajas: dict = {}
+        for f in filas:
+            k = clave(f)
+            c = cajas.setdefault(k, {"n": 0, "ok": 0})
+            c["n"] += 1
+            c["ok"] += favorito(f)[0] == f["real"]
+        return sorted(({"etq": k, "n": v["n"], "ok": v["ok"],
+                        "pct": round(v["ok"] / v["n"] * 100, 1)}
+                       for k, v in cajas.items() if v["n"] >= 3),
+                      key=lambda x: -x["n"])
+
+    NOM = {"L": "Ganó el local", "E": "Empate", "V": "Ganó el visitante"}
+
+    # Los demás mercados: sólo cuentan los partidos que los llevan guardados
+    def mercado(campo, ok_campo):
+        casos = [f for f in filas if f.get(campo) is not None
+                 and f.get(ok_campo) is not None]
+        if len(casos) < 3:
+            return None
+        aciertan = sum(1 for f in casos if (f[campo] >= 0.5) == bool(f[ok_campo]))
+        return {"n": len(casos), "ok": aciertan,
+                "pct": round(aciertan / len(casos) * 100, 1),
+                "dicho": round(sum(f[campo] for f in casos) / len(casos) * 100, 1),
+                "real": round(sum(1 for f in casos if f[ok_campo]) / len(casos) * 100, 1)}
+
+    mercados = {etq: m for etq, m in (
+        ("Más de 1,5 goles", mercado("o15", "ok_o15")),
+        ("Más de 2,5 goles", mercado("o25", "ok_o25")),
+        ("Más de 3,5 goles", mercado("o35", "ok_o35")),
+        ("Marcan los dos", mercado("btts", "ok_btts")),
+    ) if m}
+
+    # Racha: cuántos seguidos lleva acertando o fallando ahora mismo
+    racha = 0
+    for f in reversed(filas):
+        ok = favorito(f)[0] == f["real"]
+        if racha == 0:
+            racha = 1 if ok else -1
+        elif (racha > 0) == ok:
+            racha += 1 if ok else -1
+        else:
+            break
+
     return {
         "n": len(filas),
         "aciertos": aciertos,
@@ -220,4 +287,12 @@ def resumen(registro: dict) -> dict:
         "tramos": tramos,
         "ultimos": ultimos,
         "pendientes": sum(1 for f in registro.values() if "real" not in f),
+        "rendimiento": {
+            "brier": round(brier, 4), "brier_base": round(brier_base, 4),
+            "logloss": round(logloss, 4), "logloss_base": round(logloss_base, 4),
+            "racha": racha,
+            "por_liga": reparto(lambda f: f["liga"]),
+            "por_resultado": reparto(lambda f: NOM[f["real"]]),
+            "mercados": mercados,
+        },
     }

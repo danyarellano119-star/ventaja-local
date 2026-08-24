@@ -18,6 +18,7 @@ from __future__ import annotations
 import json
 import time
 import unicodedata
+import urllib.parse
 from pathlib import Path
 
 import requests
@@ -90,6 +91,13 @@ OFICIAL = {
 # mínimo se caen solas las ciudades deportivas y los pabellones, que es lo que
 # hacía aparecer al Barcelona con la Ciutat Esportiva en vez del Camp Nou.
 AFORO_MINIMO = 10000
+
+# Una foto que se estira a lo ancho de la pantalla necesita píxeles de sobra.
+# Y no basta el ancho: el Turf Moor del Burnley venía a 1280x296, un panorama
+# tan aplastado que al recortarlo para la portada quedaba irreconocible.
+ANCHO_MINIMO = 1000
+ALTO_MINIMO = 500
+PROPORCION_MAXIMA = 2.6      # más ancha que esto, se descarta
 
 
 def _clave(nombre: str) -> str:
@@ -176,6 +184,46 @@ def _consultar(nombres: list[str], pais: str, fallidos: set) -> dict:
     return hallados
 
 
+def _medir(urls: list[str]) -> dict[str, tuple]:
+    """Tamaño real de cada archivo, preguntando a Commons en bloque.
+
+    Commons no amplía las imágenes: si el original mide menos de lo que se le
+    pide, devuelve el original y el navegador lo estira. Por eso hay que mirar
+    el tamaño antes de aceptar una foto, no después.
+    """
+    medidas: dict[str, tuple] = {}
+    api = "https://commons.wikimedia.org/w/api.php"
+    archivos = [u.rsplit("/", 1)[-1].split("?")[0] for u in urls]
+    for i in range(0, len(archivos), 40):
+        lote = archivos[i:i + 40]
+        try:
+            r = requests.get(api, headers=AGENTE, timeout=90, params={
+                "action": "query", "format": "json", "prop": "imageinfo",
+                "iiprop": "size",
+                "titles": "|".join("File:" + urllib.parse.unquote(a) for a in lote)})
+            if r.status_code != 200:
+                continue
+            for pag in (r.json().get("query", {}).get("pages") or {}).values():
+                info = (pag.get("imageinfo") or [{}])[0]
+                if info.get("width"):
+                    titulo = pag["title"].replace("File:", "").replace(" ", "_")
+                    medidas[titulo] = (info["width"], info["height"])
+        except Exception:
+            pass
+        time.sleep(0.5)
+    return medidas
+
+
+def _sirve(url: str, medidas: dict) -> bool:
+    """¿Esta foto aguanta usarse como fondo a pantalla completa?"""
+    archivo = urllib.parse.unquote(url.rsplit("/", 1)[-1].split("?")[0])
+    w, h = medidas.get(archivo.replace(" ", "_"), (0, 0))
+    if not w:
+        return True          # sin dato, se le da el beneficio de la duda
+    return (w >= ANCHO_MINIMO and h >= ALTO_MINIMO
+            and w / h <= PROPORCION_MAXIMA)
+
+
 def mapear(ligas: dict) -> dict[str, dict]:
     """Devuelve {equipo: {img, nombre del estadio}}.
 
@@ -208,6 +256,20 @@ def mapear(ligas: dict) -> dict[str, dict]:
         # Sólo se da por «sin foto» a quien la fuente contestó y no tenía. Si la
         # consulta falló, el club queda pendiente: marcarlo dejaría a una liga
         # entera sin fondo por un corte de un minuto.
+        # Descartar las que quedarían borrosas al usarlas de fondo
+        candidatas = [v["img"] for n, v in cache.items()
+                      if n in pendientes and v.get("img")]
+        if candidatas:
+            medidas = _medir(candidatas)
+            descartadas = 0
+            for n in pendientes:
+                v = cache.get(n) or {}
+                if v.get("img") and not _sirve(v["img"], medidas):
+                    cache[n] = {}
+                    descartadas += 1
+            if descartadas:
+                print(f"    {descartadas} fotos descartadas por baja resolución")
+
         for n in pendientes:
             if n not in fallidos:
                 cache.setdefault(n, {})

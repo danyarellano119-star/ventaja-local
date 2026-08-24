@@ -910,6 +910,35 @@ table.tabla-liga tbody tr:hover td { background: var(--surface-2); }
 /* La cabecera deja el mismo hueco a la derecha para no descuadrar columnas */
 .jug-cab.con-ficha { padding-right: 22px; }
 
+/* ── Partido destacado de la portada ─────────────────────────────────── */
+.destacado {
+  position: relative; display: block; overflow: hidden; border-radius: 14px;
+  min-height: 250px; margin-bottom: 20px; text-decoration: none;
+  box-shadow: 0 10px 30px rgba(0,0,0,.18); isolation: isolate;
+  transition: transform .18s, box-shadow .18s;
+}
+.destacado:hover { transform: translateY(-2px); box-shadow: 0 14px 38px rgba(0,0,0,.26); }
+.destacado:focus-visible { outline: 3px solid var(--acento); outline-offset: 3px; }
+.destacado .portada-texto { display: flex; flex-direction: column; justify-content: flex-end;
+  min-height: 250px; }
+.dest-etq {
+  display: inline-block; align-self: flex-start; font-family: var(--mono);
+  font-size: 10px; letter-spacing: .12em; text-transform: uppercase;
+  background: var(--acento); color: #fff; padding: 4px 9px; border-radius: 5px;
+  margin-bottom: 12px;
+}
+.dest-duelo {
+  display: flex; align-items: center; gap: 14px; flex-wrap: wrap;
+  font-family: var(--serif); font-size: 26px; font-weight: 600; color: #f2f4f7;
+}
+.dest-duelo .escudo-caja, .dest-duelo .escudo { width: 40px; height: 40px; }
+.dest-duelo .dest-vs { font-size: 15px; opacity: .6; font-family: var(--sans); }
+@media (max-width: 560px) {
+  .destacado, .destacado .portada-texto { min-height: 210px; }
+  .dest-duelo { font-size: 19px; gap: 9px; }
+  .dest-duelo .escudo-caja, .dest-duelo .escudo { width: 30px; height: 30px; }
+}
+
 /* ── Portada del partido ──────────────────────────────────────────────── */
 /* Una carátula al estilo de las plataformas de vídeo: la foto del estadio de
    fondo, un velo oscuro encima para que el texto se lea, y los datos delante.
@@ -1259,6 +1288,17 @@ details .cuerpo strong { color: var(--ink); }
       </div>
     </div>
 
+    <a class="destacado oculto" id="destacado" href="#">
+      <div class="portada-fondo" id="dest-fondo"></div>
+      <div class="portada-velo"></div>
+      <div class="portada-texto">
+        <span class="dest-etq" id="dest-etq"></span>
+        <div class="dest-duelo" id="dest-duelo"></div>
+        <div class="barra-prob" id="dest-barra"></div>
+        <p class="portada-sede" id="dest-pie"></p>
+      </div>
+    </a>
+
     <div>
       <div class="selector-comp">
         <label for="sel-competicion">Competición</label>
@@ -1298,6 +1338,8 @@ details .cuerpo strong { color: var(--ink); }
 
       <div class="metricas-modelo" id="reg-cabecera"></div>
       <p class="gr-conclusion" id="reg-texto"></p>
+
+      <div id="reg-rendimiento"></div>
 
       <h3 style="font-family:var(--serif);font-size:17px;margin:26px 0 6px">
         ¿Cuando decimos «70 %», pasa el 70 % de las veces?</h3>
@@ -2893,16 +2935,7 @@ function abrirDetalle(ligaKey, p, desdeRuta = false) {
     escudo(b.nombre, true);
 
   // Barra
-  const barra = document.getElementById("d-barra");
-  barra.innerHTML = "";
-  [["l", c.pl, "Local"], ["e", c.pe, "Empate"], ["v", c.pv, "Visitante"]].forEach(([cl, pr, et]) => {
-    const d = document.createElement("div");
-    d.className = "seg " + cl;
-    d.style.flexGrow = pr;
-    d.innerHTML = `<span class="seg-pct">${Math.round(pr * 100)}%</span>` +
-                  (pr > .13 ? `<span class="seg-etq">${et}</span>` : "");
-    barra.appendChild(d);
-  });
+  pintarBarraProb(document.getElementById("d-barra"), c.pl, c.pe, c.pv);
 
   // Resumen en palabras
   const mx = Math.max(c.pl, c.pe, c.pv);
@@ -5409,6 +5442,152 @@ function pintarPortada(lg, p, c) {
   }
 }
 
+/** Cómo de bien pronostica la página, más allá del «acerté o no acerté».
+
+    El porcentaje de acierto es lo que todo el mundo mira, pero engaña: acertar
+    un partido dándole el 51 % cuenta igual que acertarlo dándole el 90 %, y
+    fallar uno al que dabas el 30 % no es un error. Las dos medidas de abajo sí
+    tienen eso en cuenta, y se enseñan comparadas con lo que saldría pronosticando
+    a ciegas, que es la única forma de saber si el modelo aporta algo.
+ */
+function pintarRendimiento(R) {
+  const caja = document.getElementById("reg-rendimiento");
+  if (!R) { caja.innerHTML = ""; return; }
+
+  const mejora = (nuestro, base) => Math.round((base - nuestro) / base * 100);
+  const mBrier = mejora(R.brier, R.brier_base);
+  const mLog = mejora(R.logloss, R.logloss_base);
+  const racha = R.racha > 0
+    ? `<b>${R.racha}</b> ${R.racha === 1 ? "acierto" : "aciertos"} seguidos`
+    : `<b>${-R.racha}</b> ${R.racha === -1 ? "fallo" : "fallos"} seguidos`;
+
+  const tabla = (titulo, filas, ayuda) => !filas || !filas.length ? "" : `
+    <p class="mk-titulo">${titulo}</p>
+    <div class="tabla-envoltorio">
+      <table class="tabla-liga">
+        <thead><tr><th>${ayuda}</th><th>Partidos</th><th>Aciertos</th>
+          <th>% acierto</th></tr></thead>
+        <tbody>${filas.map(f => `<tr>
+          <td style="text-align:left">${f.etq}</td><td>${f.n}</td>
+          <td>${f.ok}</td>
+          <td class="${f.pct >= 60 ? "mejor" : f.pct < 35 ? "peor" : ""}"
+            >${dec(f.pct, 1)} %</td>
+        </tr>`).join("")}</tbody>
+      </table>
+    </div>`;
+
+  const merc = Object.entries(R.mercados || {});
+
+  caja.innerHTML = `
+    <p class="mk-titulo" style="margin-top:22px">Qué tan buenos son los números</p>
+    <div class="jd-rejilla">
+      <div class="jd-dato" title="Mide el error de las probabilidades: cuanto más bajo, mejor. Cero sería adivinar siempre con total seguridad.">
+        <span class="jd-val">${dec(R.brier, 3)}</span>
+        <span class="jd-etq">error medio (Brier)</span></div>
+      <div class="jd-dato" title="Lo mismo pero castigando mucho más equivocarse con seguridad.">
+        <span class="jd-val">${dec(R.logloss, 3)}</span>
+        <span class="jd-etq">error logarítmico</span></div>
+      <div class="jd-dato" title="Cuánto mejora nuestro error frente a pronosticar con los porcentajes históricos del fútbol.">
+        <span class="jd-val ${mBrier > 0 ? "mejor" : "peor"}">${mBrier > 0 ? "+" : ""}${mBrier} %</span>
+        <span class="jd-etq">mejor que pronosticar a ciegas</span></div>
+      <div class="jd-dato" title="Aciertos o fallos encadenados hasta ahora.">
+        <span class="jd-val">${R.racha > 0 ? "+" : ""}${R.racha}</span>
+        <span class="jd-etq">racha actual</span></div>
+    </div>
+    <p class="mk-nota">Ahora mismo la página lleva ${racha}. Su error medio es de
+      <b>${dec(R.brier, 3)}</b>, frente al <b>${dec(R.brier_base, 3)}</b> que daría
+      pronosticar sin mirar nada, usando sólo los porcentajes históricos del fútbol
+      (46 % local, 26 % empate, 28 % visitante).
+      ${mBrier > 0
+        ? `Es decir, el modelo <b>mejora esa referencia en un ${mBrier} %</b>.`
+        : `Es decir, <b>todavía no mejora esa referencia</b>. Con tan pocos
+           partidos eso puede cambiar mucho, pero conviene que lo sepas.`}
+      Cuanto más bajo el error, mejor.</p>
+
+    ${tabla("Acierto por competición", R.por_liga, "Competición")}
+    ${tabla("Acierto según lo que pasó", R.por_resultado, "Resultado")}
+
+    ${merc.length ? `
+      <p class="mk-titulo">Acierto en los demás pronósticos</p>
+      <div class="tabla-envoltorio">
+        <table class="tabla-liga">
+          <thead><tr><th>Pronóstico</th><th>Partidos</th><th>% acierto</th>
+            <th>Decíamos</th><th>Ocurrió</th></tr></thead>
+          <tbody>${merc.map(([etq, m]) => `<tr>
+            <td style="text-align:left">${etq}</td><td>${m.n}</td>
+            <td class="${m.pct >= 60 ? "mejor" : m.pct < 35 ? "peor" : ""}">${dec(m.pct, 1)} %</td>
+            <td>${dec(m.dicho, 1)} %</td><td>${dec(m.real, 1)} %</td>
+          </tr>`).join("")}</tbody>
+        </table>
+      </div>` : ""}`;
+}
+
+/** El partido más llamativo de los próximos días, en grande al entrar.
+
+    «Llamativo» se mide por la fuerza de los dos equipos: un Madrid–Barcelona
+    interesa a cualquiera y un Getafe–Alavés no. Se busca entre los siete días
+    siguientes y se prefieren las cinco grandes ligas, que son las que tienen
+    datos de ocasiones y por tanto el pronóstico más fino.
+ */
+/** Barra de tres tramos con las probabilidades del partido. */
+function pintarBarraProb(barra, pl, pe, pv) {
+  barra.innerHTML = "";
+  [["l", pl, "Local"], ["e", pe, "Empate"], ["v", pv, "Visitante"]].forEach(([cl, pr, et]) => {
+    const d = document.createElement("div");
+    d.className = "seg " + cl;
+    d.style.flexGrow = pr;
+    d.innerHTML = `<span class="seg-pct">${Math.round(pr * 100)}%</span>` +
+                  (pr > .13 ? `<span class="seg-etq">${et}</span>` : "");
+    barra.appendChild(d);
+  });
+}
+
+function pintarDestacado() {
+  const hoy = new Date().toISOString().slice(0, 10);
+  const limite = new Date(Date.now() + 7 * 864e5).toISOString().slice(0, 10);
+
+  let mejor = null;
+  Object.entries(D.ligas).forEach(([k, lg]) => {
+    (lg.partidos || []).forEach(p => {
+      if (p.fecha < hoy || p.fecha > limite) return;
+      // Sólo las cinco grandes. Las fuerzas de las demás se calculan sobre
+      // goles y no sobre ocasiones, así que no están en la misma escala: al
+      // compararlas salía un partido brasileño por delante de la Premier.
+      if (lg.sin_xg) return;
+      const a = lg.equipos[p.l], b = lg.equipos[p.v];
+      if (!a || !b || a.atq === undefined || b.atq === undefined) return;
+      // Fuerza combinada: lo que genera cada uno más lo que evita el otro
+      const fuerza = (a.atq + a.def + b.atq + b.def)
+                   + (k === "premier" ? 0.12 : 0);
+      if (!mejor || fuerza > mejor.fuerza) mejor = { k, lg, p, a, b, fuerza };
+    });
+  });
+
+  const caja = document.getElementById("destacado");
+  if (!mejor) { caja.classList.add("oculto"); return; }
+  caja.classList.remove("oculto");
+
+  const { k, lg, p, a, b } = mejor;
+  const c = calcular(k, p.l, p.v);
+  caja.href = `#/partido/${k}/${idPartido({ l: a.nombre, v: b.nombre })}`;
+
+  document.getElementById("dest-etq").textContent = "Partido destacado";
+  document.getElementById("dest-duelo").innerHTML =
+    `${escudo(a.nombre, true)} ${a.nombre}
+     <span class="dest-vs">contra</span>
+     ${escudo(b.nombre, true)} ${b.nombre}`;
+  pintarBarraProb(document.getElementById("dest-barra"), c.pl, c.pe, c.pv);
+  document.getElementById("dest-pie").textContent =
+    `${lg.nombre} · ${fechaLarga(fechaLocal(p))} · ${horaLocal(p)}`;
+
+  const sede = (D.estadios || {})[a.nombre];
+  const col = n => (COLORES[n] || ["#41505f", "#28323d"]);
+  const fondo = document.getElementById("dest-fondo");
+  fondo.style.backgroundImage = sede && sede.img
+    ? `url("${sede.img}"), linear-gradient(120deg, ${col(a.nombre)[0]}, ${col(b.nombre)[0]})`
+    : `linear-gradient(120deg, ${col(a.nombre)[0]} 0%, #11151b 55%, ${col(b.nombre)[0]} 100%)`;
+}
+
 function pintarRegistro() {
   const R = D.registro || {};
   // El bloque lo enseña o esconde el filtro; aquí sólo se rellena. Lo que sí
@@ -5457,6 +5636,8 @@ function pintarRegistro() {
      Conviene leer bien esa cifra: acertar el favorito en un deporte donde el
      empate es habitual no es lo mismo que acertar siempre, y ningún modelo
      honesto pasa de cierto punto. Lo que sí se puede exigir es lo de abajo.`;
+
+  pintarRendimiento(R.rendimiento);
 
   // Calibración
   document.getElementById("reg-calibracion").innerHTML =
@@ -5528,6 +5709,7 @@ function hacerEnfocables(raiz) {
 new MutationObserver(() => hacerEnfocables(document)).observe(
   document.body, { childList: true, subtree: true });
 hacerEnfocables(document);
+pintarDestacado();
 pintarRegistro();
 
 if (location.hash) enrutar();

@@ -37,6 +37,40 @@ CARPETAS = {
     "primeira": "Portugal - Liga Portugal",
     "superleague": "Greece - Super League 1",
     "premiership": "Scotland - Scottish Premiership",
+    "superlig": "Türkiye - Süper Lig",
+    "eliteserien": "Norway - Eliteserien",
+    "allsvenskan": "Sweden - Allsvenskan",
+}
+
+# El repositorio sólo cubre Europa. Para el resto —Brasil, Argentina, Colombia,
+# Japón— se recurre a Wikidata, que guarda el escudo de cada club en P154.
+SPARQL = "https://query.wikidata.org/sparql"
+AGENTE_WD = {"User-Agent": "VentajaLocal/1.0 (estadisticas de futbol; proyecto personal)"}
+CACHE_WD = CACHE.with_name("escudos_wikidata.json")
+
+# Nuestros nombres son los cortos de la fuente de resultados; Wikidata usa los
+# oficiales. Decirlo explícitamente es más fiable que confiar en los alias.
+OFICIAL_WD = {
+    "Botafogo FR": "Botafogo de Futebol e Regatas",
+    "CA Mineiro": "Clube Atlético Mineiro",
+    "CA Paranaense": "Club Athletico Paranaense",
+    "CR Flamengo": "Clube de Regatas do Flamengo",
+    "CR Vasco da Gama": "Club de Regatas Vasco da Gama",
+    "Chapecoense AF": "Associação Chapecoense de Futebol",
+    "Clube do Remo": "Clube do Remo",
+    "Coritiba FBC": "Coritiba Foot Ball Club",
+    "Cruzeiro EC": "Cruzeiro Esporte Clube",
+    "EC Bahia": "Esporte Clube Bahia",
+    "EC Vitória": "Esporte Clube Vitória",
+    "Fluminense FC": "Fluminense FC",
+    "Grêmio FBPA": "Grêmio Foot-Ball Porto Alegrense",
+    "Mirassol FC": "Mirassol Futebol Clube",
+    "RB Bragantino": "Red Bull Bragantino",
+    "SC Corinthians Paulista": "Sport Club Corinthians Paulista",
+    "SC Internacional": "Sport Club Internacional",
+    "SE Palmeiras": "Sociedade Esportiva Palmeiras",
+    "Santos FC": "Santos FC",
+    "São Paulo FC": "São Paulo FC",
 }
 
 # Palabras que sobran al comparar nombres de clubes
@@ -131,6 +165,50 @@ def _listar(carpeta: str) -> dict[str, str]:
     return _arbol().get(carpeta, {})
 
 
+def _desde_wikidata(nombres: list[str]) -> dict[str, str]:
+    """Escudos de Wikidata, para los clubes que el repositorio no cubre.
+
+    Se pregunta por el nombre exacto y se descarta cualquiera que devuelva más
+    de un club: un escudo equivocado se nota mucho más que la falta de uno.
+    """
+    import time
+    hallados: dict[str, str] = {}
+    for i in range(0, len(nombres), 25):
+        lote = nombres[i:i + 25]
+        pedido = {OFICIAL_WD.get(n, n): n for n in lote}
+        valores = " ".join('"%s"@en' % n.replace('"', "") for n in pedido)
+        consulta = f"""SELECT ?l ?logo ?club WHERE {{
+          VALUES ?l {{ {valores} }}
+          ?c wdt:P154 ?logo ; rdfs:label ?l .
+          BIND(STR(?c) AS ?club)
+        }}"""
+        for intento in range(3):
+            try:
+                r = requests.get(SPARQL, params={"query": consulta, "format": "json"},
+                                 headers=AGENTE_WD, timeout=120)
+                if r.status_code == 429:
+                    time.sleep(30 * (intento + 1))
+                    continue
+                if r.status_code != 200:
+                    break
+                filas = r.json()["results"]["bindings"]
+                clubes: dict[str, set] = {}
+                for f in filas:
+                    clubes.setdefault(f["l"]["value"], set()).add(f["club"]["value"])
+                for f in filas:
+                    bruto = f["l"]["value"]
+                    n = pedido.get(bruto, bruto)
+                    if len(clubes[bruto]) == 1 and n not in hallados:
+                        archivo = f["logo"]["value"].rsplit("/", 1)[-1]
+                        hallados[n] = ("https://commons.wikimedia.org/wiki/"
+                                       f"Special:FilePath/{archivo}?width=120")
+                break
+            except Exception:
+                time.sleep(10 * (intento + 1))
+        time.sleep(1.5)
+    return hallados
+
+
 def mapear(ligas: dict) -> dict[str, str]:
     """Devuelve {nombre del equipo: dirección de su escudo}.
 
@@ -171,6 +249,29 @@ def mapear(ligas: dict) -> dict[str, str]:
                 # jsDelivr necesita los espacios codificados
                 ruta = f"{carpeta}/{elegido}".replace(" ", "%20")
                 salida[nombre] = f"{CDN}/{ruta}"
+
+    # Segunda pasada para los que el repositorio no tenga, con caché propia:
+    # así los clubes sudamericanos también llevan su escudo.
+    try:
+        cache_wd = json.loads(CACHE_WD.read_text(encoding="utf-8"))             if CACHE_WD.exists() else {}
+    except Exception:
+        cache_wd = {}
+
+    todos = [e["nombre"] for lg in ligas.values() for e in lg["equipos"].values()]
+    faltan = [n for n in dict.fromkeys(todos) if n not in salida and n not in cache_wd]
+    if faltan:
+        nuevos = _desde_wikidata(faltan)
+        cache_wd.update(nuevos)
+        for n in faltan:                 # los buscados sin éxito, marcados
+            cache_wd.setdefault(n, "")
+        CACHE_WD.parent.mkdir(parents=True, exist_ok=True)
+        CACHE_WD.write_text(json.dumps(cache_wd, ensure_ascii=False, indent=0,
+                                       sort_keys=True), encoding="utf-8")
+        print(f"    {sum(1 for v in nuevos.values() if v)} escudos más desde Wikidata")
+
+    for n, url in cache_wd.items():
+        if url and n not in salida:
+            salida[n] = url
 
     return salida
 
