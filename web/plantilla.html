@@ -109,6 +109,8 @@ body {
 }
 
 .envoltorio { max-width: 1020px; margin: 0 auto; padding: 30px 18px 70px; }
+/* Si la portada abre la página, va pegada al borde superior */
+.pila > .escaparate:first-child { margin-top: -30px; }
 .pila { display: flex; flex-direction: column; gap: 22px; }
 
 .eyebrow {
@@ -910,110 +912,171 @@ table.tabla-liga tbody tr:hover td { background: var(--surface-2); }
 /* La cabecera deja el mismo hueco a la derecha para no descuadrar columnas */
 .jug-cab.con-ficha { padding-right: 22px; }
 
-/* ── Escaparate: el partido grande al entrar ──────────────────────────── */
-/* Copia la idea de las plataformas de vídeo: una imagen a sangre que ocupa
-   media pantalla, el título en grande y un botón claro. Lo que allí es la
-   carátula de una película aquí es el estadio donde se juega. */
+/* ── Escaparate a pantalla completa ───────────────────────────────────── */
+/* La portada ocupa todo el ancho de la ventana aunque el resto de la página
+   viva dentro de un contenedor estrecho. El truco de los márgenes negativos
+   la saca de él sin tener que mover la maquetación entera. */
 .escaparate {
-  position: relative; overflow: hidden; border-radius: 16px;
-  min-height: 460px; margin-bottom: 26px; isolation: isolate;
-  display: flex; align-items: flex-end;
-  box-shadow: 0 16px 44px rgba(0,0,0,.24);
+  position: relative; overflow: hidden; isolation: isolate;
+  /* El resto de la página vive en un contenedor de 1020 px; esto lo rompe.
+     Se usa el ancho del documento y no 100vw porque 100vw cuenta también la
+     barra de desplazamiento, y la imagen se salía siete píxeles por la derecha. */
+  width: 100dvw; max-width: 100dvw;
+  margin-left: calc(50% - 50dvw); margin-right: calc(50% - 50dvw);
+  min-height: 88vh; margin-top: -30px; margin-bottom: 34px;
+  display: flex; flex-direction: column; justify-content: space-between;
 }
-/* Doble degradado: uno de abajo arriba para el texto y otro lateral, que es
-   lo que da el aire de cartel y evita que la foto compita con las letras. */
+.escaparate.oculto { display: none; }
+/* Tres degradados: de abajo para el texto, lateral para el bloque izquierdo y
+   uno arriba para que la barra de navegación se lea sobre cualquier foto. */
 .escaparate-velo {
   position: absolute; inset: 0; z-index: 1;
   background:
-    linear-gradient(to top, rgba(6,8,12,.97) 0%, rgba(6,8,12,.80) 38%,
-                    rgba(6,8,12,.34) 72%, rgba(6,8,12,.20) 100%),
-    linear-gradient(to right, rgba(6,8,12,.80) 0%, rgba(6,8,12,.20) 58%,
-                    rgba(6,8,12,0) 100%);
+    linear-gradient(to top, rgba(6,8,12,.97) 0%, rgba(6,8,12,.72) 40%,
+                    rgba(6,8,12,.24) 78%, rgba(6,8,12,.10) 100%),
+    linear-gradient(to right, rgba(6,8,12,.90) 0%, rgba(6,8,12,.45) 46%,
+                    rgba(6,8,12,0) 82%),
+    linear-gradient(to bottom, rgba(6,8,12,.72) 0%, rgba(6,8,12,0) 18%);
 }
+
+/* ── Barra superior, sobre la imagen ─────────────────────────────────── */
+.esc-barra {
+  position: relative; z-index: 3;
+  display: flex; align-items: center; gap: 26px; flex-wrap: wrap;
+  padding: 18px 42px;
+}
+.esc-marca {
+  font-family: var(--serif); font-size: 21px; font-weight: 700; color: #fff;
+  letter-spacing: -.01em;
+}
+.esc-nav { display: flex; gap: 4px; flex: 1; flex-wrap: wrap; }
+.esc-nav button {
+  background: none; border: none; cursor: pointer;
+  font-family: var(--sans); font-size: 13px; letter-spacing: .1em;
+  text-transform: uppercase; color: #d6dbe3; padding: 8px 12px; border-radius: 6px;
+}
+.esc-nav button:hover { color: #fff; background: rgba(255,255,255,.12); }
+.esc-nav button:focus-visible { outline: 2px solid #fff; outline-offset: 1px; }
+.esc-acciones { display: flex; gap: 8px; }
+.esc-acciones .btn-icono {
+  background: rgba(255,255,255,.12); border-color: rgba(255,255,255,.22);
+  color: #eef1f5;
+}
+.esc-acciones .btn-icono:hover { background: rgba(255,255,255,.22); }
+
+/* ── Bloque de texto, a la izquierda ─────────────────────────────────── */
 .escaparate-texto {
-  position: relative; z-index: 2; width: 100%; max-width: 660px;
-  padding: 30px 30px 28px;
+  position: relative; z-index: 2; max-width: 620px;
+  padding: 0 42px 40px; margin-top: auto;
 }
-.escaparate-texto .barra-prob { margin: 18px 0 0; }
+.escaparate-texto .barra-prob { margin: 20px 0 0; max-width: 480px; }
 
 .dest-etq {
-  display: inline-block; font-family: var(--mono); font-size: 10px;
-  letter-spacing: .14em; text-transform: uppercase;
-  background: var(--acento); color: #fff; padding: 5px 10px; border-radius: 5px;
+  display: inline-block; font-family: var(--sans); font-size: 12.5px;
+  font-weight: 700; letter-spacing: .1em; text-transform: uppercase;
+  color: #3ddc84;                     /* el acento verde del ejemplo */
+  margin-bottom: 10px;
 }
 .dest-titulo {
-  font-family: var(--serif); font-size: 42px; line-height: 1.08;
-  font-weight: 600; color: #fff; margin: 14px 0 0;
-  display: flex; align-items: center; gap: 14px; flex-wrap: wrap;
-  text-shadow: 0 2px 14px rgba(0,0,0,.5);
+  font-family: var(--serif); font-size: clamp(32px, 5.2vw, 62px);
+  line-height: 1.04; font-weight: 700; color: #fff; margin: 0;
+  display: flex; align-items: center; gap: 16px; flex-wrap: wrap;
+  text-shadow: 0 3px 20px rgba(0,0,0,.55);
 }
-.dest-titulo .escudo-caja, .dest-titulo .escudo { width: 46px; height: 46px; }
+.dest-titulo .escudo-caja, .dest-titulo .escudo { width: 52px; height: 52px; }
 .dest-titulo .dest-vs {
-  font-family: var(--sans); font-size: 15px; font-weight: 400;
-  color: #c3cad4; letter-spacing: .04em;
+  font-family: var(--sans); font-size: 16px; font-weight: 400;
+  color: #b9c1cc; letter-spacing: .06em; text-transform: uppercase;
 }
 .dest-meta {
-  margin: 12px 0 0; color: #cfd6e0; font-size: 13.5px;
+  margin: 14px 0 0; color: #cbd2dc; font-size: 13.5px;
   font-family: var(--mono); letter-spacing: .03em;
 }
 .dest-gancho {
-  margin: 12px 0 0; color: #e6eaf0; font-size: 15px; line-height: 1.55;
+  margin: 12px 0 0; color: #e8ebf0; font-size: 16px; line-height: 1.6;
   max-width: 560px;
 }
-.dest-acciones { display: flex; align-items: center; gap: 16px; margin-top: 20px;
+.dest-acciones { display: flex; align-items: center; gap: 14px; margin-top: 24px;
   flex-wrap: wrap; }
 .btn-ver-partido {
-  display: inline-block; background: #fff; color: #11151b;
-  font-family: var(--sans); font-size: 15px; font-weight: 600;
-  padding: 12px 26px; border-radius: 8px; text-decoration: none;
-  transition: transform .15s, background .15s;
+  display: inline-block; background: var(--acento); color: #fff;
+  font-family: var(--sans); font-size: 15px; font-weight: 700;
+  letter-spacing: .04em; text-transform: uppercase;
+  padding: 14px 32px; border-radius: 6px; text-decoration: none;
+  transition: filter .15s, transform .15s;
 }
-.btn-ver-partido:hover { transform: translateY(-1px); background: #e8ecf2; }
-.btn-ver-partido:focus-visible { outline: 3px solid var(--acento); outline-offset: 3px; }
-.dest-sede { color: #99a2af; font-size: 12px; font-family: var(--mono); }
+.btn-ver-partido:hover { filter: brightness(1.12); transform: translateY(-1px); }
+.btn-ver-partido:focus-visible { outline: 3px solid #fff; outline-offset: 3px; }
+.btn-seguir {
+  display: inline-flex; align-items: center; gap: 10px; cursor: pointer;
+  background: none; border: none; color: #eef1f5;
+  font-family: var(--sans); font-size: 14px; letter-spacing: .04em;
+  text-transform: uppercase; padding: 0;
+}
+.btn-seguir .mas {
+  display: grid; place-items: center; width: 42px; height: 42px;
+  border: 2px solid rgba(255,255,255,.6); border-radius: 50%;
+  font-size: 22px; line-height: 1; transition: background .15s, border-color .15s;
+}
+.btn-seguir:hover .mas { background: rgba(255,255,255,.18); border-color: #fff; }
+.btn-seguir.activo .mas { background: #fff; color: #11151b; border-color: #fff; }
+.btn-seguir:focus-visible { outline: 2px solid #fff; outline-offset: 4px; }
+.dest-sede {
+  margin: 18px 0 0; color: #96a0ad; font-size: 11.5px; font-family: var(--mono);
+}
 
-/* ── Fila de tarjetas, como los carruseles de las plataformas ─────────── */
-.carrusel-caja { margin-bottom: 26px; }
-.carrusel-cab {
-  display: flex; align-items: baseline; justify-content: space-between; gap: 12px;
-  margin-bottom: 10px;
+/* ── Carrusel, abajo a la derecha y sobre la imagen ──────────────────── */
+.carrusel-caja {
+  position: absolute; right: 0; bottom: 34px; z-index: 3;
+  width: min(58vw, 760px); padding-left: 20px;
 }
-.carrusel-cab h3 { font-family: var(--serif); font-size: 19px; margin: 0; }
-.carrusel-pista { font-size: 11.5px; color: var(--ink-3); font-family: var(--mono); }
+.carrusel-caja.oculto { display: none; }
+.carrusel-cab { margin-bottom: 8px; padding-right: 42px; }
+.carrusel-cab h3 {
+  font-family: var(--sans); font-size: 13px; font-weight: 600; margin: 0;
+  color: #e2e6ec; letter-spacing: .06em; text-transform: uppercase;
+}
 .carrusel {
-  display: flex; gap: 12px; overflow-x: auto; padding-bottom: 8px;
-  scroll-snap-type: x mandatory; scrollbar-width: thin;
+  display: flex; gap: 10px; overflow-x: auto; padding: 4px 42px 10px 0;
+  scroll-snap-type: x mandatory; scrollbar-width: none;
 }
+.carrusel::-webkit-scrollbar { display: none; }
 .tarjeta-partido {
-  position: relative; flex: 0 0 250px; height: 150px; border-radius: 11px;
+  position: relative; flex: 0 0 128px; height: 178px; border-radius: 8px;
   overflow: hidden; text-decoration: none; scroll-snap-align: start;
-  isolation: isolate; transition: transform .16s;
+  isolation: isolate; border: 2px solid transparent;
+  transition: transform .16s, border-color .16s;
 }
-.tarjeta-partido:hover { transform: scale(1.03); }
+.tarjeta-partido:hover { transform: scale(1.06); border-color: #fff; }
 .tarjeta-partido:focus-visible { outline: 3px solid var(--acento); outline-offset: 2px; }
 .tp-fondo { position: absolute; inset: 0; background-size: cover; background-position: center 42%; }
 .tp-velo {
   position: absolute; inset: 0;
-  background: linear-gradient(to top, rgba(6,8,12,.95) 12%, rgba(6,8,12,.35) 100%);
+  background: linear-gradient(to top, rgba(6,8,12,.96) 18%, rgba(6,8,12,.30) 100%);
 }
-.tp-texto { position: relative; z-index: 2; padding: 12px; height: 100%;
+.tp-texto { position: relative; z-index: 2; padding: 9px; height: 100%;
   display: flex; flex-direction: column; justify-content: flex-end; }
-.tp-equipos { color: #fff; font-size: 14px; font-weight: 600; line-height: 1.3; }
-.tp-meta { color: #b9c1cc; font-size: 11px; font-family: var(--mono); margin-top: 4px; }
-.tp-prob { display: flex; gap: 3px; margin-top: 8px; }
-.tp-prob i { height: 4px; border-radius: 2px; display: block; }
+.tp-equipos { color: #fff; font-size: 12px; font-weight: 600; line-height: 1.25; }
+.tp-meta { color: #b3bcc7; font-size: 9.5px; font-family: var(--mono); margin-top: 3px; }
+.tp-prob { display: flex; gap: 2px; margin-top: 6px; }
+.tp-prob i { height: 3px; border-radius: 2px; display: block; }
 
-@media (max-width: 700px) {
-  .escaparate { min-height: 380px; }
-  .escaparate-texto { padding: 22px 18px 20px; }
-  .dest-titulo { font-size: 28px; gap: 10px; }
-  .dest-titulo .escudo-caja, .dest-titulo .escudo { width: 34px; height: 34px; }
-  .dest-gancho { font-size: 14px; }
-  .tarjeta-partido { flex-basis: 210px; height: 132px; }
+/* En pantallas estrechas el carrusel no cabe al lado: pasa debajo del texto */
+@media (max-width: 900px) {
+  .escaparate { min-height: auto; }
+  .esc-barra { padding: 14px 18px; gap: 14px; }
+  .esc-marca { font-size: 18px; }
+  .escaparate-texto { padding: 40px 18px 18px; max-width: none; }
+  .carrusel-caja {
+    position: static; width: auto; padding: 0 0 22px 18px; margin-top: 4px;
+  }
+  .carrusel, .carrusel-cab { padding-right: 18px; }
+  .dest-titulo .escudo-caja, .dest-titulo .escudo { width: 36px; height: 36px; }
+  .dest-gancho { font-size: 14.5px; }
 }
-@media print { .escaparate, .carrusel-caja { display: none; } }
+@media print { .escaparate { display: none; } }
 
-/* ── Portada del partido ──────────────────────────────────────────────── */
+/* ── Portada del partido ─/* ── Portada del partido ──────────────────────────────────────────────── */
 /* Una carátula al estilo de las plataformas de vídeo: la foto del estadio de
    fondo, un velo oscuro encima para que el texto se lea, y los datos delante.
    El velo no es decorativo: sin él, un cielo claro dejaba el texto ilegible. */
@@ -1331,15 +1394,46 @@ details .cuerpo strong { color: var(--ink); }
 
   <!-- ══ VISTA LISTA ══ -->
   <div id="vista-lista" class="pila">
-    <header>
-      <span class="eyebrow">Temporada 2026/27 · las cinco grandes ligas</span>
-      <h1>Ventaja Local</h1>
-      <p class="entradilla">
-        Probabilidades, cuotas y estadísticas de cada partido, calculadas a
-        partir de las ocasiones de gol que genera y concede cada equipo. Toca
-        cualquier partido para ver el análisis completo, jugador por jugador.
-      </p>
-    </header>
+    <section class="escaparate" id="destacado">
+      <div class="portada-fondo" id="dest-fondo"></div>
+      <div class="escaparate-velo"></div>
+
+      <div class="esc-barra">
+        <span class="esc-marca">Ventaja Local</span>
+        <nav class="esc-nav">
+          <button type="button" data-ir="lista">Partidos</button>
+          <button type="button" data-ir="liga">Panorama</button>
+          <button type="button" data-ir="europa">Europa</button>
+          <button type="button" data-ir="registro">Aciertos</button>
+        </nav>
+        <span class="esc-acciones">
+          <button class="btn-icono" id="btn-tema" type="button"
+                  aria-label="Cambiar entre modo claro y oscuro">🌗</button>
+          <button class="btn-icono" id="btn-compartir" type="button">Compartir</button>
+        </span>
+      </div>
+
+      <div class="escaparate-texto" id="dest-panel">
+        <span class="dest-etq" id="dest-etq"></span>
+        <h1 class="dest-titulo" id="dest-duelo"></h1>
+        <p class="dest-meta" id="dest-pie"></p>
+        <p class="dest-gancho" id="dest-gancho"></p>
+        <div class="barra-prob" id="dest-barra"></div>
+        <div class="dest-acciones">
+          <a class="btn-ver-partido" id="dest-enlace" href="#">Ver el análisis</a>
+          <button class="btn-seguir" id="dest-seguir" type="button">
+            <span class="mas">+</span> Seguir estos equipos</button>
+        </div>
+        <p class="dest-sede" id="dest-sede"></p>
+      </div>
+
+      <div class="carrusel-caja" id="carrusel-caja">
+        <div class="carrusel-cab">
+          <h3>Los próximos partidos grandes</h3>
+        </div>
+        <div class="carrusel" id="carrusel"></div>
+      </div>
+    </section>
 
     <div class="barra-sup">
       <div class="buscador-global">
@@ -1361,29 +1455,6 @@ details .cuerpo strong { color: var(--ink); }
       </div>
     </div>
 
-    <section class="escaparate oculto" id="destacado">
-      <div class="portada-fondo" id="dest-fondo"></div>
-      <div class="escaparate-velo"></div>
-      <div class="escaparate-texto">
-        <span class="dest-etq" id="dest-etq"></span>
-        <h2 class="dest-titulo" id="dest-duelo"></h2>
-        <p class="dest-meta" id="dest-pie"></p>
-        <p class="dest-gancho" id="dest-gancho"></p>
-        <div class="barra-prob" id="dest-barra"></div>
-        <div class="dest-acciones">
-          <a class="btn-ver-partido" id="dest-enlace" href="#">Ver el análisis</a>
-          <span class="dest-sede" id="dest-sede"></span>
-        </div>
-      </div>
-    </section>
-
-    <div class="carrusel-caja oculto" id="carrusel-caja">
-      <div class="carrusel-cab">
-        <h3>Los próximos partidos grandes</h3>
-        <span class="carrusel-pista">desliza para ver más →</span>
-      </div>
-      <div class="carrusel" id="carrusel"></div>
-    </div>
 
     <div>
       <div class="selector-comp">
@@ -5690,6 +5761,7 @@ function pintarDestacado() {
     return;
   }
   caja.classList.remove("oculto");
+  carruselCaja.classList.remove("oculto");
 
   const { k, lg, p, a, b } = grandes[0];
   const c = calcular(k, p.l, p.v);
@@ -5721,6 +5793,25 @@ function pintarDestacado() {
   const boton = document.getElementById("dest-enlace");
   boton.href = enlace;
   boton.textContent = `Ver el análisis de ${a.nombre} – ${b.nombre}`;
+
+  // «Seguir» marca como favoritos a los dos equipos, que es lo que ya hace el
+  // resto de la página con la estrella; aquí sólo cambia la forma de pedirlo.
+  const seguir = document.getElementById("dest-seguir");
+  const marcados = () => esFavorito(k, p.l) && esFavorito(k, p.v);
+  const refrescar = () => {
+    seguir.classList.toggle("activo", marcados());
+    seguir.querySelector(".mas").textContent = marcados() ? "✓" : "+";
+    seguir.lastChild.textContent = marcados()
+      ? " Siguiendo estos equipos" : " Seguir estos equipos";
+  };
+  seguir.onclick = () => {
+    const poner = !marcados();
+    [p.l, p.v].forEach(clave => {
+      if (esFavorito(k, clave) !== poner) alternarFavorito(k, clave);
+    });
+    refrescar();
+  };
+  refrescar();
 
   const f = fondoDe(a.nombre, b.nombre);
   document.getElementById("dest-fondo").style.backgroundImage = f.css;
@@ -5870,6 +5961,23 @@ function hacerEnfocables(raiz) {
 new MutationObserver(() => hacerEnfocables(document)).observe(
   document.body, { childList: true, subtree: true });
 hacerEnfocables(document);
+document.querySelectorAll(".esc-nav button").forEach(b =>
+  b.addEventListener("click", () => {
+    const donde = b.dataset.ir;
+    if (donde === "lista") {
+      document.getElementById("filtros").scrollIntoView({ behavior: "smooth" });
+    } else if (donde === "liga") {
+      if (!esEuropea(ligaActual)) abrirLiga(ligaActual);
+    } else if (donde === "europa") {
+      abrirEuropa();
+    } else if (donde === "registro") {
+      const chip = document.querySelector('#filtros .filtro[data-f="historial"]');
+      if (chip && !chip.classList.contains("oculto")) chip.click();
+      document.getElementById("bloque-registro")
+        .scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  }));
+
 pintarDestacado();
 pintarRegistro();
 
