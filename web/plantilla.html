@@ -957,7 +957,24 @@ table.tabla-liga tbody tr:hover td { background: var(--surface-2); }
 }
 .esc-nav button:hover { color: #fff; background: rgba(255,255,255,.12); }
 .esc-nav button:focus-visible { outline: 2px solid #fff; outline-offset: 1px; }
-.esc-acciones { display: flex; gap: 8px; }
+.esc-acciones { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+/* Los buscadores viven ahora sobre la foto: fondo translúcido y texto claro */
+.esc-acciones .buscador-global { width: min(230px, 40vw); }
+.esc-acciones input[type="search"],
+.esc-acciones select {
+  background: rgba(255,255,255,.14); border: 1px solid rgba(255,255,255,.24);
+  color: #f2f4f7; border-radius: 7px; padding: 8px 11px;
+  font-family: var(--sans); font-size: 13px; width: 100%;
+  color-scheme: dark;
+}
+.esc-acciones select { width: auto; max-width: 190px; padding-right: 26px; }
+.esc-acciones .comp-caja select { padding-left: 34px; }
+.esc-acciones .comp-caja.con-logo select { padding-left: 34px; }
+.esc-acciones .comp-caja .logo-comp { left: 7px; width: 20px; height: 20px; }
+.esc-acciones input::placeholder { color: #bcc4cf; }
+.esc-acciones input:focus-visible, .esc-acciones select:focus-visible {
+  outline: 2px solid #fff; outline-offset: 1px;
+}
 .esc-acciones .btn-icono {
   background: rgba(255,255,255,.12); border-color: rgba(255,255,255,.22);
   color: #eef1f5;
@@ -1075,6 +1092,56 @@ table.tabla-liga tbody tr:hover td { background: var(--surface-2); }
   .dest-gancho { font-size: 14.5px; }
 }
 @media print { .escaparate { display: none; } }
+
+/* ── Filas por competición, al estilo de los carruseles de vídeo ──────── */
+.fila-liga-carrusel { margin-bottom: 30px; }
+.flc-cab { display: flex; align-items: center; gap: 11px; margin-bottom: 11px; }
+.flc-logo { width: 26px; height: 26px; object-fit: contain; flex-shrink: 0; }
+.flc-cab h3 {
+  font-family: var(--serif); font-size: 20px; margin: 0; flex: 1;
+  display: flex; align-items: baseline; gap: 10px;
+}
+.flc-pais {
+  font-family: var(--mono); font-size: 11px; color: var(--ink-3);
+  letter-spacing: .06em; text-transform: uppercase; font-weight: 400;
+}
+.flc-mas {
+  background: none; border: none; cursor: pointer; color: var(--acento);
+  font-family: var(--sans); font-size: 13px; padding: 5px 8px; border-radius: 6px;
+}
+.flc-mas:hover { background: var(--surface); }
+.flc-mas:focus-visible { outline: 2px solid var(--acento); outline-offset: 1px; }
+
+/* ── Carril con flechas ───────────────────────────────────────────────── */
+.carrusel-pista { position: relative; }
+.carrusel-pista .carrusel {
+  display: flex; gap: 10px; overflow-x: auto; padding: 4px 0 10px;
+  /* «proximity» y no «mandatory»: el ajuste obligatorio devuelve el carril a la
+     tarjeta anterior cuando el desplazamiento lo lanza un botón. */
+  scroll-snap-type: x proximity; scrollbar-width: none;
+}
+.carrusel-pista .carrusel::-webkit-scrollbar { display: none; }
+.flecha {
+  position: absolute; top: 50%; transform: translateY(-50%); z-index: 4;
+  width: 38px; height: 62px; border: none; cursor: pointer;
+  background: rgba(12,15,20,.72); color: #fff; font-size: 26px; line-height: 1;
+  border-radius: 7px; display: grid; place-items: center;
+  transition: background .15s, opacity .15s;
+}
+.flecha:hover { background: rgba(12,15,20,.92); }
+.flecha:focus-visible { outline: 3px solid var(--acento); outline-offset: 2px; }
+.flecha.izq { left: -6px; }
+.flecha.der { right: -6px; }
+.flecha.oculto { display: none; }
+/* En el escaparate las flechas van sobre la foto y conviene que se noten */
+.carrusel-caja .flecha { background: rgba(6,8,12,.82); }
+
+.tp-vs { color: #97a1ad; font-weight: 400; font-size: 10.5px; }
+
+@media (max-width: 700px) {
+  .flc-cab h3 { font-size: 17px; }
+  .flecha { width: 30px; height: 52px; font-size: 21px; }
+}
 
 /* ── Portada del partido ─/* ── Portada del partido ──────────────────────────────────────────────── */
 /* Una carátula al estilo de las plataformas de vídeo: la foto del estadio de
@@ -1407,6 +1474,19 @@ details .cuerpo strong { color: var(--ink); }
           <button type="button" data-ir="registro">Aciertos</button>
         </nav>
         <span class="esc-acciones">
+          <div class="buscador-global">
+            <input id="buscar" type="search" autocomplete="off"
+                   placeholder="Buscar equipo o partido..."
+                   aria-label="Buscar equipo o partido">
+            <div id="resultados" class="resultados-busqueda oculto" role="listbox"></div>
+          </div>
+          <div class="comp-caja">
+            <img class="logo-comp oculto" id="logo-comp" alt="" loading="lazy"
+                 decoding="async">
+            <select id="sel-competicion" aria-label="Competición"></select>
+          </div>
+          <select id="buscar-equipo" aria-label="Ver la ficha de un equipo"></select>
+          <button class="btn-icono" id="btn-ver-equipo" type="button">Ficha</button>
           <button class="btn-icono" id="btn-tema" type="button"
                   aria-label="Cambiar entre modo claro y oscuro">🌗</button>
           <button class="btn-icono" id="btn-compartir" type="button">Compartir</button>
@@ -1431,40 +1511,15 @@ details .cuerpo strong { color: var(--ink); }
         <div class="carrusel-cab">
           <h3>Los próximos partidos grandes</h3>
         </div>
-        <div class="carrusel" id="carrusel"></div>
+        <div class="carrusel-pista">
+          <button class="flecha izq" type="button" aria-label="Anterior">‹</button>
+          <div class="carrusel" id="carrusel"></div>
+          <button class="flecha der" type="button" aria-label="Siguiente">›</button>
+        </div>
       </div>
     </section>
 
-    <div class="barra-sup">
-      <div class="buscador-global">
-        <input id="buscar" type="search" autocomplete="off"
-               placeholder="Busca un equipo o un partido..."
-               aria-label="Buscar equipo o partido">
-        <div id="resultados" class="resultados-busqueda oculto" role="listbox"></div>
-      </div>
-      <button class="btn-icono" id="btn-tema" type="button"
-              aria-label="Cambiar entre modo claro y oscuro">🌗</button>
-      <button class="btn-icono" id="btn-compartir" type="button">Compartir</button>
-    </div>
-
-    <div class="buscador">
-      <label for="buscar-equipo">Ver la ficha completa de un equipo</label>
-      <div class="buscador-fila">
-        <select id="buscar-equipo"></select>
-        <button class="btn-ver" id="btn-ver-equipo" type="button">Ver ficha</button>
-      </div>
-    </div>
-
-
     <div>
-      <div class="selector-comp">
-        <label for="sel-competicion">Competición</label>
-        <div class="comp-caja">
-          <img class="logo-comp oculto" id="logo-comp" alt="" loading="lazy"
-               decoding="async">
-          <select id="sel-competicion"></select>
-        </div>
-      </div>
       <div class="fila-liga">
         <span class="fila-liga-txt" id="txt-liga"></span>
         <span class="botones-liga">
@@ -1520,6 +1575,7 @@ details .cuerpo strong { color: var(--ink); }
       <p class="nota-fuente" id="reg-nota"></p>
       </section>
 
+      <div id="filas-ligas"></div>
       <div id="lista-partidos" aria-live="polite"></div>
 
       <!-- Competiciones europeas: aviso mientras no haya sorteo -->
@@ -5750,6 +5806,93 @@ function fondoDe(a, b, pequena = false) {
     : { css: degradado, sede: "" };
 }
 
+/** Una tarjeta vertical de partido, como las carátulas de las plataformas. */
+function tarjetaPartido(g) {
+  const c = calcular(g.k, g.p.l, g.p.v);
+  const f = fondoDe(g.a.nombre, g.b.nombre, true);
+  const barra = [["var(--local)", c.pl], ["var(--ink-3)", c.pe],
+                 ["var(--visita)", c.pv]]
+    .map(([col, pr]) => `<i style="flex:${pr};background:${col}"></i>`).join("");
+  return `<a class="tarjeta-partido" href="#/partido/${g.k}/${idPartido(g.p)}">
+      <span class="tp-fondo" style="background-image:${f.css}"></span>
+      <span class="tp-velo"></span>
+      <span class="tp-texto">
+        <span class="tp-equipos">${g.a.nombre}<br><span class="tp-vs">vs</span>
+          ${g.b.nombre}</span>
+        <span class="tp-meta">${fechaCorta(g.p)} · ${horaLocal(g.p)}</span>
+        <span class="tp-prob">${barra}</span>
+      </span>
+    </a>`;
+}
+
+/** Fecha corta para las tarjetas: «sáb 29 ago». */
+function fechaCorta(p) {
+  const f = new Date(fechaLocal(p) + "T12:00:00");
+  return isNaN(f) ? p.fecha
+    : f.toLocaleDateString("es", { weekday: "short", day: "numeric", month: "short" });
+}
+
+/** Deja una fila lista para moverse con las flechas.
+
+    Las flechas se esconden solas cuando no hay nada más hacia ese lado: una
+    flecha que no lleva a ninguna parte confunde más que ayudar.
+ */
+function activarFlechas(pista) {
+  const carril = pista.querySelector(".carrusel");
+  const izq = pista.querySelector(".flecha.izq");
+  const der = pista.querySelector(".flecha.der");
+  if (!carril || !izq || !der) return;
+
+  const paso = () => Math.max(carril.clientWidth * 0.8, 200);
+  izq.addEventListener("click", () =>
+    carril.scrollBy({ left: -paso(), behavior: "smooth" }));
+  der.addEventListener("click", () =>
+    carril.scrollBy({ left: paso(), behavior: "smooth" }));
+
+  const revisar = () => {
+    const max = carril.scrollWidth - carril.clientWidth - 2;
+    izq.classList.toggle("oculto", carril.scrollLeft <= 2);
+    der.classList.toggle("oculto", carril.scrollLeft >= max);
+  };
+  carril.addEventListener("scroll", revisar, { passive: true });
+  new ResizeObserver(revisar).observe(carril);
+  revisar();
+}
+
+/** Una fila por competición: el nombre arriba y sus partidos debajo. */
+function pintarFilasLigas() {
+  const caja = document.getElementById("filas-ligas");
+  const hoy = new Date().toISOString().slice(0, 10);
+
+  const filas = Object.entries(D.ligas).map(([k, lg]) => {
+    const partidos = (lg.partidos || [])
+      .filter(p => p.fecha >= hoy)
+      .map(p => ({ k, lg, p, a: lg.equipos[p.l], b: lg.equipos[p.v] }))
+      .filter(g => g.a && g.b)
+      .slice(0, 20);
+    return { k, lg, partidos };
+  }).filter(f => f.partidos.length);
+
+  caja.innerHTML = filas.map(f => `
+    <section class="fila-liga-carrusel">
+      <div class="flc-cab">
+        ${logoComp(f.k) ? `<img class="flc-logo" src="${logoComp(f.k)}" alt=""
+            loading="lazy" decoding="async">` : ""}
+        <h3>${f.lg.nombre}<span class="flc-pais">${f.lg.pais}</span></h3>
+        <button class="flc-mas" type="button" data-liga="${f.k}">Ver la liga →</button>
+      </div>
+      <div class="carrusel-pista">
+        <button class="flecha izq" type="button" aria-label="Anterior">‹</button>
+        <div class="carrusel">${f.partidos.map(tarjetaPartido).join("")}</div>
+        <button class="flecha der" type="button" aria-label="Siguiente">›</button>
+      </div>
+    </section>`).join("");
+
+  caja.querySelectorAll(".carrusel-pista").forEach(activarFlechas);
+  caja.querySelectorAll(".flc-mas").forEach(b =>
+    b.addEventListener("click", () => abrirLiga(b.dataset.liga)));
+}
+
 /** El partido más grande, en grande, nada más entrar. */
 function pintarDestacado() {
   const grandes = partidosGrandes();
@@ -5821,23 +5964,8 @@ function pintarDestacado() {
   // ── Fila de tarjetas con los siguientes ────────────────────────────────
   const resto = grandes.slice(1, 13);
   carruselCaja.classList.toggle("oculto", !resto.length);
-  document.getElementById("carrusel").innerHTML = resto.map(g => {
-    const cc = calcular(g.k, g.p.l, g.p.v);
-    const ff = fondoDe(g.a.nombre, g.b.nombre, true);
-    const barra = [["var(--local)", cc.pl], ["var(--ink-3)", cc.pe],
-                   ["var(--visita)", cc.pv]]
-      .map(([col, pr]) => `<i style="flex:${pr};background:${col}"></i>`).join("");
-    return `<a class="tarjeta-partido" href="#/partido/${g.k}/${idPartido(g.p)}">
-      <span class="tp-fondo" style="background-image:${ff.css}"></span>
-      <span class="tp-velo"></span>
-      <span class="tp-texto">
-        <span class="tp-equipos">${g.a.nombre} – ${g.b.nombre}</span>
-        <span class="tp-meta">${g.lg.nombre} · ${fechaLarga(fechaLocal(g.p))}
-          · ${horaLocal(g.p)}</span>
-        <span class="tp-prob">${barra}</span>
-      </span>
-    </a>`;
-  }).join("");
+  document.getElementById("carrusel").innerHTML = resto.map(tarjetaPartido).join("");
+  activarFlechas(carruselCaja.querySelector(".carrusel-pista"));
 }
 
 function pintarRegistro() {
@@ -5979,6 +6107,7 @@ document.querySelectorAll(".esc-nav button").forEach(b =>
   }));
 
 pintarDestacado();
+pintarFilasLigas();
 pintarRegistro();
 
 if (location.hash) enrutar();
