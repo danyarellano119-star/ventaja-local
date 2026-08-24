@@ -910,34 +910,108 @@ table.tabla-liga tbody tr:hover td { background: var(--surface-2); }
 /* La cabecera deja el mismo hueco a la derecha para no descuadrar columnas */
 .jug-cab.con-ficha { padding-right: 22px; }
 
-/* ── Partido destacado de la portada ─────────────────────────────────── */
-.destacado {
-  position: relative; display: block; overflow: hidden; border-radius: 14px;
-  min-height: 250px; margin-bottom: 20px; text-decoration: none;
-  box-shadow: 0 10px 30px rgba(0,0,0,.18); isolation: isolate;
-  transition: transform .18s, box-shadow .18s;
+/* ── Escaparate: el partido grande al entrar ──────────────────────────── */
+/* Copia la idea de las plataformas de vídeo: una imagen a sangre que ocupa
+   media pantalla, el título en grande y un botón claro. Lo que allí es la
+   carátula de una película aquí es el estadio donde se juega. */
+.escaparate {
+  position: relative; overflow: hidden; border-radius: 16px;
+  min-height: 460px; margin-bottom: 26px; isolation: isolate;
+  display: flex; align-items: flex-end;
+  box-shadow: 0 16px 44px rgba(0,0,0,.24);
 }
-.destacado:hover { transform: translateY(-2px); box-shadow: 0 14px 38px rgba(0,0,0,.26); }
-.destacado:focus-visible { outline: 3px solid var(--acento); outline-offset: 3px; }
-.destacado .portada-texto { display: flex; flex-direction: column; justify-content: flex-end;
-  min-height: 250px; }
+/* Doble degradado: uno de abajo arriba para el texto y otro lateral, que es
+   lo que da el aire de cartel y evita que la foto compita con las letras. */
+.escaparate-velo {
+  position: absolute; inset: 0; z-index: 1;
+  background:
+    linear-gradient(to top, rgba(6,8,12,.97) 0%, rgba(6,8,12,.80) 38%,
+                    rgba(6,8,12,.34) 72%, rgba(6,8,12,.20) 100%),
+    linear-gradient(to right, rgba(6,8,12,.80) 0%, rgba(6,8,12,.20) 58%,
+                    rgba(6,8,12,0) 100%);
+}
+.escaparate-texto {
+  position: relative; z-index: 2; width: 100%; max-width: 660px;
+  padding: 30px 30px 28px;
+}
+.escaparate-texto .barra-prob { margin: 18px 0 0; }
+
 .dest-etq {
-  display: inline-block; align-self: flex-start; font-family: var(--mono);
-  font-size: 10px; letter-spacing: .12em; text-transform: uppercase;
-  background: var(--acento); color: #fff; padding: 4px 9px; border-radius: 5px;
-  margin-bottom: 12px;
+  display: inline-block; font-family: var(--mono); font-size: 10px;
+  letter-spacing: .14em; text-transform: uppercase;
+  background: var(--acento); color: #fff; padding: 5px 10px; border-radius: 5px;
 }
-.dest-duelo {
+.dest-titulo {
+  font-family: var(--serif); font-size: 42px; line-height: 1.08;
+  font-weight: 600; color: #fff; margin: 14px 0 0;
   display: flex; align-items: center; gap: 14px; flex-wrap: wrap;
-  font-family: var(--serif); font-size: 26px; font-weight: 600; color: #f2f4f7;
+  text-shadow: 0 2px 14px rgba(0,0,0,.5);
 }
-.dest-duelo .escudo-caja, .dest-duelo .escudo { width: 40px; height: 40px; }
-.dest-duelo .dest-vs { font-size: 15px; opacity: .6; font-family: var(--sans); }
-@media (max-width: 560px) {
-  .destacado, .destacado .portada-texto { min-height: 210px; }
-  .dest-duelo { font-size: 19px; gap: 9px; }
-  .dest-duelo .escudo-caja, .dest-duelo .escudo { width: 30px; height: 30px; }
+.dest-titulo .escudo-caja, .dest-titulo .escudo { width: 46px; height: 46px; }
+.dest-titulo .dest-vs {
+  font-family: var(--sans); font-size: 15px; font-weight: 400;
+  color: #c3cad4; letter-spacing: .04em;
 }
+.dest-meta {
+  margin: 12px 0 0; color: #cfd6e0; font-size: 13.5px;
+  font-family: var(--mono); letter-spacing: .03em;
+}
+.dest-gancho {
+  margin: 12px 0 0; color: #e6eaf0; font-size: 15px; line-height: 1.55;
+  max-width: 560px;
+}
+.dest-acciones { display: flex; align-items: center; gap: 16px; margin-top: 20px;
+  flex-wrap: wrap; }
+.btn-ver-partido {
+  display: inline-block; background: #fff; color: #11151b;
+  font-family: var(--sans); font-size: 15px; font-weight: 600;
+  padding: 12px 26px; border-radius: 8px; text-decoration: none;
+  transition: transform .15s, background .15s;
+}
+.btn-ver-partido:hover { transform: translateY(-1px); background: #e8ecf2; }
+.btn-ver-partido:focus-visible { outline: 3px solid var(--acento); outline-offset: 3px; }
+.dest-sede { color: #99a2af; font-size: 12px; font-family: var(--mono); }
+
+/* ── Fila de tarjetas, como los carruseles de las plataformas ─────────── */
+.carrusel-caja { margin-bottom: 26px; }
+.carrusel-cab {
+  display: flex; align-items: baseline; justify-content: space-between; gap: 12px;
+  margin-bottom: 10px;
+}
+.carrusel-cab h3 { font-family: var(--serif); font-size: 19px; margin: 0; }
+.carrusel-pista { font-size: 11.5px; color: var(--ink-3); font-family: var(--mono); }
+.carrusel {
+  display: flex; gap: 12px; overflow-x: auto; padding-bottom: 8px;
+  scroll-snap-type: x mandatory; scrollbar-width: thin;
+}
+.tarjeta-partido {
+  position: relative; flex: 0 0 250px; height: 150px; border-radius: 11px;
+  overflow: hidden; text-decoration: none; scroll-snap-align: start;
+  isolation: isolate; transition: transform .16s;
+}
+.tarjeta-partido:hover { transform: scale(1.03); }
+.tarjeta-partido:focus-visible { outline: 3px solid var(--acento); outline-offset: 2px; }
+.tp-fondo { position: absolute; inset: 0; background-size: cover; background-position: center 42%; }
+.tp-velo {
+  position: absolute; inset: 0;
+  background: linear-gradient(to top, rgba(6,8,12,.95) 12%, rgba(6,8,12,.35) 100%);
+}
+.tp-texto { position: relative; z-index: 2; padding: 12px; height: 100%;
+  display: flex; flex-direction: column; justify-content: flex-end; }
+.tp-equipos { color: #fff; font-size: 14px; font-weight: 600; line-height: 1.3; }
+.tp-meta { color: #b9c1cc; font-size: 11px; font-family: var(--mono); margin-top: 4px; }
+.tp-prob { display: flex; gap: 3px; margin-top: 8px; }
+.tp-prob i { height: 4px; border-radius: 2px; display: block; }
+
+@media (max-width: 700px) {
+  .escaparate { min-height: 380px; }
+  .escaparate-texto { padding: 22px 18px 20px; }
+  .dest-titulo { font-size: 28px; gap: 10px; }
+  .dest-titulo .escudo-caja, .dest-titulo .escudo { width: 34px; height: 34px; }
+  .dest-gancho { font-size: 14px; }
+  .tarjeta-partido { flex-basis: 210px; height: 132px; }
+}
+@media print { .escaparate, .carrusel-caja { display: none; } }
 
 /* ── Portada del partido ──────────────────────────────────────────────── */
 /* Una carátula al estilo de las plataformas de vídeo: la foto del estadio de
@@ -1288,16 +1362,29 @@ details .cuerpo strong { color: var(--ink); }
       </div>
     </div>
 
-    <a class="destacado oculto" id="destacado" href="#">
+    <section class="escaparate oculto" id="destacado">
       <div class="portada-fondo" id="dest-fondo"></div>
-      <div class="portada-velo"></div>
-      <div class="portada-texto">
+      <div class="escaparate-velo"></div>
+      <div class="escaparate-texto">
         <span class="dest-etq" id="dest-etq"></span>
-        <div class="dest-duelo" id="dest-duelo"></div>
+        <h2 class="dest-titulo" id="dest-duelo"></h2>
+        <p class="dest-meta" id="dest-pie"></p>
+        <p class="dest-gancho" id="dest-gancho"></p>
         <div class="barra-prob" id="dest-barra"></div>
-        <p class="portada-sede" id="dest-pie"></p>
+        <div class="dest-acciones">
+          <a class="btn-ver-partido" id="dest-enlace" href="#">Ver el análisis</a>
+          <span class="dest-sede" id="dest-sede"></span>
+        </div>
       </div>
-    </a>
+    </section>
+
+    <div class="carrusel-caja oculto" id="carrusel-caja">
+      <div class="carrusel-cab">
+        <h3>Los próximos partidos grandes</h3>
+        <span class="carrusel-pista">desliza para ver más →</span>
+      </div>
+      <div class="carrusel" id="carrusel"></div>
+    </div>
 
     <div>
       <div class="selector-comp">
@@ -5522,13 +5609,6 @@ function pintarRendimiento(R) {
       </div>` : ""}`;
 }
 
-/** El partido más llamativo de los próximos días, en grande al entrar.
-
-    «Llamativo» se mide por la fuerza de los dos equipos: un Madrid–Barcelona
-    interesa a cualquiera y un Getafe–Alavés no. Se busca entre los siete días
-    siguientes y se prefieren las cinco grandes ligas, que son las que tienen
-    datos de ocasiones y por tanto el pronóstico más fino.
- */
 /** Barra de tres tramos con las probabilidades del partido. */
 function pintarBarraProb(barra, pl, pe, pv) {
   barra.innerHTML = "";
@@ -5542,50 +5622,111 @@ function pintarBarraProb(barra, pl, pe, pv) {
   });
 }
 
-function pintarDestacado() {
-  const hoy = new Date().toISOString().slice(0, 10);
-  const limite = new Date(Date.now() + 7 * 864e5).toISOString().slice(0, 10);
+/** Los partidos grandes de los próximos días, ordenados por interés.
 
-  let mejor = null;
+    «Grande» se mide por la fuerza de los dos equipos: un Madrid–Barcelona
+    interesa a cualquiera y un Getafe–Alavés no. Sólo se miran las cinco grandes
+    ligas, porque las fuerzas de las demás se calculan sobre goles y no sobre
+    ocasiones: no están en la misma escala y al mezclarlas salían por delante.
+ */
+function partidosGrandes(dias = 10) {
+  const hoy = new Date().toISOString().slice(0, 10);
+  const limite = new Date(Date.now() + dias * 864e5).toISOString().slice(0, 10);
+
+  const lista = [];
   Object.entries(D.ligas).forEach(([k, lg]) => {
+    if (lg.sin_xg) return;
     (lg.partidos || []).forEach(p => {
       if (p.fecha < hoy || p.fecha > limite) return;
-      // Sólo las cinco grandes. Las fuerzas de las demás se calculan sobre
-      // goles y no sobre ocasiones, así que no están en la misma escala: al
-      // compararlas salía un partido brasileño por delante de la Premier.
-      if (lg.sin_xg) return;
       const a = lg.equipos[p.l], b = lg.equipos[p.v];
       if (!a || !b || a.atq === undefined || b.atq === undefined) return;
-      // Fuerza combinada: lo que genera cada uno más lo que evita el otro
-      const fuerza = (a.atq + a.def + b.atq + b.def)
-                   + (k === "premier" ? 0.12 : 0);
-      if (!mejor || fuerza > mejor.fuerza) mejor = { k, lg, p, a, b, fuerza };
+      lista.push({ k, lg, p, a, b,
+        fuerza: (a.atq + a.def + b.atq + b.def) + (k === "premier" ? 0.12 : 0) });
     });
   });
+  return lista.sort((x, y) => y.fuerza - x.fuerza);
+}
 
+/** Fondo de un partido: el estadio del local, o los colores de las camisetas. */
+function fondoDe(a, b) {
+  const sede = (D.estadios || {})[a];
+  const col = n => (COLORES[n] || ["#41505f", "#28323d"]);
+  const degradado = `linear-gradient(120deg, ${col(a)[0]} 0%, #11151b 55%, ${col(b)[0]} 100%)`;
+  // La foto va encima y el degradado debajo: mientras la imagen carga, o si no
+  // llega nunca, lo que se ve son los colores y no un hueco vacío.
+  return sede && sede.img
+    ? { css: `url("${sede.img}"), ${degradado}`, sede: sede.nombre || "" }
+    : { css: degradado, sede: "" };
+}
+
+/** El partido más grande, en grande, nada más entrar. */
+function pintarDestacado() {
+  const grandes = partidosGrandes();
   const caja = document.getElementById("destacado");
-  if (!mejor) { caja.classList.add("oculto"); return; }
+  const carruselCaja = document.getElementById("carrusel-caja");
+  if (!grandes.length) {
+    caja.classList.add("oculto");
+    carruselCaja.classList.add("oculto");
+    return;
+  }
   caja.classList.remove("oculto");
 
-  const { k, lg, p, a, b } = mejor;
+  const { k, lg, p, a, b } = grandes[0];
   const c = calcular(k, p.l, p.v);
-  caja.href = `#/partido/${k}/${idPartido({ l: a.nombre, v: b.nombre })}`;
+  const enlace = `#/partido/${k}/${idPartido(p)}`;
 
   document.getElementById("dest-etq").textContent = "Partido destacado";
   document.getElementById("dest-duelo").innerHTML =
     `${escudo(a.nombre, true)} ${a.nombre}
      <span class="dest-vs">contra</span>
      ${escudo(b.nombre, true)} ${b.nombre}`;
-  pintarBarraProb(document.getElementById("dest-barra"), c.pl, c.pe, c.pv);
   document.getElementById("dest-pie").textContent =
     `${lg.nombre} · ${fechaLarga(fechaLocal(p))} · ${horaLocal(p)}`;
 
-  const sede = (D.estadios || {})[a.nombre];
-  const col = n => (COLORES[n] || ["#41505f", "#28323d"]);
-  const fondo = document.getElementById("dest-fondo");
-  fondo.style.backgroundImage = sede && sede.img
-    ? `url("${sede.img}"), linear-gradient(120deg, ${col(a.nombre)[0]}, ${col(b.nombre)[0]})`
-    : `linear-gradient(120deg, ${col(a.nombre)[0]} 0%, #11151b 55%, ${col(b.nombre)[0]} 100%)`;
+  // Una frase que diga por qué merece la pena mirar este partido
+  const probs = [["gana el " + a.nombre, c.pl], ["empate", c.pe],
+                 ["gana el " + b.nombre, c.pv]].sort((x, y) => y[1] - x[1]);
+  const [mejor, segundo] = probs;
+  document.getElementById("dest-gancho").innerHTML = mejor[1] - segundo[1] < .10
+    ? `Partido abierto: lo más probable es que <b>${mejor[0]}</b>
+       (${Math.round(mejor[1] * 100)} %), pero <b>${segundo[0]}</b> queda a un
+       suspiro (${Math.round(segundo[1] * 100)} %). De los que no conviene dar
+       por sentados.`
+    : `El modelo ve favorito a que <b>${mejor[0]}</b>, con un
+       <b>${Math.round(mejor[1] * 100)} %</b>. Dentro tienes de dónde sale ese
+       número: fuerzas de cada equipo, jugadores y los marcadores más probables.`;
+
+  pintarBarraProb(document.getElementById("dest-barra"), c.pl, c.pe, c.pv);
+
+  const boton = document.getElementById("dest-enlace");
+  boton.href = enlace;
+  boton.textContent = `Ver el análisis de ${a.nombre} – ${b.nombre}`;
+
+  const f = fondoDe(a.nombre, b.nombre);
+  document.getElementById("dest-fondo").style.backgroundImage = f.css;
+  document.getElementById("dest-sede").textContent =
+    f.sede ? `${f.sede} · foto de Wikimedia Commons` : `En casa del ${a.nombre}`;
+
+  // ── Fila de tarjetas con los siguientes ────────────────────────────────
+  const resto = grandes.slice(1, 13);
+  carruselCaja.classList.toggle("oculto", !resto.length);
+  document.getElementById("carrusel").innerHTML = resto.map(g => {
+    const cc = calcular(g.k, g.p.l, g.p.v);
+    const ff = fondoDe(g.a.nombre, g.b.nombre);
+    const barra = [["var(--local)", cc.pl], ["var(--ink-3)", cc.pe],
+                   ["var(--visita)", cc.pv]]
+      .map(([col, pr]) => `<i style="flex:${pr};background:${col}"></i>`).join("");
+    return `<a class="tarjeta-partido" href="#/partido/${g.k}/${idPartido(g.p)}">
+      <span class="tp-fondo" style="background-image:${ff.css}"></span>
+      <span class="tp-velo"></span>
+      <span class="tp-texto">
+        <span class="tp-equipos">${g.a.nombre} – ${g.b.nombre}</span>
+        <span class="tp-meta">${g.lg.nombre} · ${fechaLarga(fechaLocal(g.p))}
+          · ${horaLocal(g.p)}</span>
+        <span class="tp-prob">${barra}</span>
+      </span>
+    </a>`;
+  }).join("");
 }
 
 function pintarRegistro() {
