@@ -1145,6 +1145,36 @@ table.tabla-liga tbody tr:hover td { background: var(--surface-2); }
 
 .tp-vs { color: #97a1ad; font-weight: 400; font-size: 10.5px; }
 
+/* Vista previa dentro de la propia tarjeta: al señalarla crece y enseña el
+   pronóstico. Va aquí y no en la cabecera de la página, que está reservada
+   al partido importante del día y no debe moverse por el ratón. */
+.tp-detalle {
+  display: block; max-height: 0; opacity: 0; overflow: hidden;
+  transition: max-height .22s ease, opacity .18s ease, margin .22s ease;
+}
+.tarjeta-partido:hover .tp-detalle,
+.tarjeta-partido:focus-visible .tp-detalle,
+.tarjeta-partido:focus-within .tp-detalle {
+  max-height: 120px; opacity: 1; margin-top: 8px;
+}
+.tarjeta-partido:hover, .tarjeta-partido:focus-visible {
+  flex-basis: 190px; z-index: 3;
+}
+.tp-fav { display: block; color: #fff; font-size: 11.5px; line-height: 1.35; }
+.tp-fav b { color: #fff; }
+.tp-cifras { display: flex; gap: 8px; margin-top: 5px; }
+.tp-cifras span {
+  font-family: var(--mono); font-size: 10.5px; color: #cfd6e0;
+  display: flex; align-items: baseline; gap: 3px;
+}
+.tp-cifras i { color: #8f99a6; font-style: normal; font-size: 9px; }
+.tp-mas {
+  display: block; margin-top: 7px; font-size: 10.5px; font-weight: 600;
+  color: var(--acento); letter-spacing: .04em;
+}
+/* La tarjeta crece hacia los lados: el carril necesita sitio para ese cambio */
+.carrusel-pista .carrusel { padding-top: 6px; padding-bottom: 14px; }
+
 @media (max-width: 700px) {
   .flc-cab h3 { font-size: 17px; }
   .flecha-carril { width: 30px; height: 52px; font-size: 21px; }
@@ -2479,7 +2509,7 @@ function aplicarFiltro() {
 
   const euro = document.getElementById("bloque-euro");
   if (historial || porFilas) euro.classList.add("oculto");
-  if (!historial && !porFilas) pintarLista();
+  if (!historial && !porFilas) aplicarFiltro();   // decide qué se enseña: las filas o la lista con filtro
 }
 
 function esFavorito(liga, clave) { return favoritos.has(liga + "|" + clave); }
@@ -5500,7 +5530,7 @@ document.getElementById("btn-compartir").addEventListener("click", () => {
 /* ── Arranque ─────────────────────────────────────────────────────────── */
 
 pintarLigas();
-pintarLista();
+aplicarFiltro();   // decide qué se enseña: las filas o la lista con filtro
 poblarBuscador();
 
 window.addEventListener("hashchange", enrutar);
@@ -5829,6 +5859,12 @@ function tarjetaPartido(g) {
   const barra = [["var(--local)", c.pl], ["var(--ink-3)", c.pe],
                  ["var(--visita)", c.pv]]
     .map(([col, pr]) => `<i style="flex:${pr};background:${col}"></i>`).join("");
+  const probs = [["1", c.pl], ["X", c.pe], ["2", c.pv]];
+  const fav = probs.reduce((x, y) => x[1] >= y[1] ? x : y);
+
+  // El detalle vive dentro de la tarjeta y sólo se despliega al señalarla:
+  // así la vista previa aparece donde está el partido y no en la cabecera,
+  // que es la que anuncia el partido importante del día.
   return `<a class="tarjeta-partido" href="#/partido/${g.k}/${idPartido(g.p)}">
       <span class="tp-fondo" style="background-image:${f.css}"></span>
       <span class="tp-velo"></span>
@@ -5837,6 +5873,15 @@ function tarjetaPartido(g) {
           ${g.b.nombre}</span>
         <span class="tp-meta">${fechaCorta(g.p)} · ${horaLocal(g.p)}</span>
         <span class="tp-prob">${barra}</span>
+        <span class="tp-detalle">
+          <span class="tp-fav">${fav[0] === "1" ? g.a.nombre
+            : fav[0] === "2" ? g.b.nombre : "Empate"}
+            <b>${Math.round(fav[1] * 100)} %</b></span>
+          <span class="tp-cifras">
+            ${probs.map(([et, pr]) => `<span><i>${et}</i>${Math.round(pr * 100)}</span>`).join("")}
+          </span>
+          <span class="tp-mas">Ver el análisis →</span>
+        </span>
       </span>
     </a>`;
 }
@@ -5908,11 +5953,7 @@ function pintarFilasLigas() {
   caja.querySelectorAll(".flc-mas").forEach(b =>
     b.addEventListener("click", () => abrirLiga(b.dataset.liga)));
 
-  // Cada tarjeta enseña su partido en la portada al señalarla
-  const todos = filas.flatMap(f => f.partidos);
-  caja.querySelectorAll(".tarjeta-partido").forEach((el, i) => {
-    if (todos[i]) conectarVistaPrevia(el, todos[i]);
-  });
+
 }
 
 /* El partido que está enseñando la portada ahora mismo. Al pasar por una
@@ -5925,8 +5966,7 @@ function mostrarEnPortada(g) {
   const { k, lg, p, a, b } = g;
   const c = calcular(k, p.l, p.v);
 
-  document.getElementById("dest-etq").textContent =
-    g === destacadoPorDefecto ? "Partido destacado" : "Vista previa";
+  document.getElementById("dest-etq").textContent = "Partido destacado";
   document.getElementById("dest-duelo").innerHTML =
     `${escudo(a.nombre, true)} ${a.nombre}
      <span class="dest-vs">contra</span>
@@ -5973,13 +6013,6 @@ function mostrarEnPortada(g) {
     f.sede ? `${f.sede} · foto de Wikimedia Commons` : `En casa del ${a.nombre}`;
 }
 
-/** Conecta una tarjeta con la portada: al señalarla, la portada la enseña. */
-function conectarVistaPrevia(elemento, g) {
-  const ver = () => mostrarEnPortada(g);
-  elemento.addEventListener("mouseenter", ver);
-  elemento.addEventListener("focus", ver);
-}
-
 /** El partido más grande, en grande, nada más entrar. */
 function pintarDestacado() {
   const grandes = partidosGrandes();
@@ -6000,9 +6033,6 @@ function pintarDestacado() {
   const resto = grandes.slice(1, 13);
   carruselCaja.classList.toggle("oculto", !resto.length);
   document.getElementById("carrusel").innerHTML = resto.map(tarjetaPartido).join("");
-  document.querySelectorAll("#carrusel .tarjeta-partido").forEach((el, i) => {
-    if (resto[i]) conectarVistaPrevia(el, resto[i]);
-  });
   activarFlechas(carruselCaja.querySelector(".carrusel-pista"));
 }
 

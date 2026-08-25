@@ -65,7 +65,7 @@ def _por_lotes(nombres: list[str]) -> dict[str, str]:
     for i in range(0, len(nombres), LOTE):
         lote = nombres[i:i + LOTE]
         valores = " ".join('"%s"@en' % n.replace('"', "") for n in lote)
-        consulta = f"""SELECT ?l ?img WHERE {{
+        consulta = f"""SELECT ?l ?img ?p WHERE {{
           VALUES ?l {{ {valores} }}
           ?p wdt:P106 {FUTBOLISTA} ; wdt:P18 ?img .
           {{ ?p rdfs:label ?l }} UNION {{ ?p skos:altLabel ?l }}
@@ -76,8 +76,19 @@ def _por_lotes(nombres: list[str]) -> dict[str, str]:
             if r.status_code != 200:
                 print(f"    [aviso] consulta {i // LOTE + 1}: HTTP {r.status_code}")
                 continue
-            for fila in r.json()["results"]["bindings"]:
-                hallados.setdefault(fila["l"]["value"], _miniatura(fila["img"]["value"]))
+            # Un nombre que llevan varios futbolistas no sirve: «Beto» lo
+            # usan siete y «Dodô» seis. Quedarse con el primero que devuelve la
+            # consulta es jugársela a que sea el bueno, así que se descarta.
+            filas = r.json()["results"]["bindings"]
+            personas: dict[str, set] = {}
+            for fila in filas:
+                personas.setdefault(fila["l"]["value"], set()).add(fila["p"]["value"])
+            for fila in filas:
+                etq = fila["l"]["value"]
+                if len(personas[etq]) == 1:
+                    hallados.setdefault(etq, _miniatura(fila["img"]["value"]))
+                else:
+                    hallados.setdefault(etq, "")     # comprobado, sin foto fiable
         except Exception as e:
             print(f"    [aviso] consulta {i // LOTE + 1}: {type(e).__name__}")
         time.sleep(1.0)
