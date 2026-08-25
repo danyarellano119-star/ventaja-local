@@ -27,7 +27,9 @@ permissions:
   id-token: write
 
 concurrency:
-  group: pages
+  # Una sola ejecución a la vez. Sin esto, el disparo por push y el del reloj
+  # coincidían y las dos intentaban escribir en el repositorio.
+  group: actualizar
   cancel-in-progress: false
 
 jobs:
@@ -61,10 +63,19 @@ jobs:
             echo "Sin cambios en los datos: no se genera commit."
           else
             git commit -m "Datos actualizados $(date -u '+%Y-%m-%d %H:%M UTC')"
-            # Otro push tuyo puede haber llegado mientras corría el trabajo:
-            # se reintegra antes de subir para no perder tus cambios.
-            git pull --rebase --autostash origin main
-            git push
+            # Otro push puede haber llegado mientras corría el trabajo: el tuyo,
+            # o el de otra ejecución del propio robot si dos coinciden. Se
+            # reintegra y se reintenta, porque el primero en llegar hace que el
+            # segundo sea rechazado y eso tumbaba la publicación entera.
+            for intento in 1 2 3; do
+              git pull --rebase --autostash origin main || true
+              if git push; then
+                echo "Subido en el intento $intento"
+                break
+              fi
+              echo "Rechazado; se reintenta"
+              sleep 8
+            done
           fi
 
       - uses: actions/configure-pages@v5
