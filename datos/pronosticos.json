@@ -4475,7 +4475,7 @@
 "p_marcador": 0.0972,
 "pe": 0.2116,
 "pl": 0.6186,
-"publicado": "2026-08-24T22:48Z",
+"publicado": "2026-08-25T01:05Z",
 "pv": 0.1698,
 "v": "Villarreal"
 },
@@ -7156,7 +7156,7 @@
 "p_marcador": 0.1269,
 "pe": 0.2668,
 "pl": 0.5504,
-"publicado": "2026-08-24T22:48Z",
+"publicado": "2026-08-25T01:04Z",
 "pv": 0.1828,
 "v": "Coventry City FC"
 },
@@ -9467,7 +9467,7 @@
 "v": "AC Milan"
 },
 "seriea|2026-10-18|acf fiorentina|como": {
-"btts": 0.4337,
+"btts": 0.4342,
 "clave_l": "ACF Fiorentina",
 "clave_liga": "seriea",
 "clave_v": "Como",
@@ -9475,14 +9475,14 @@
 "l": "ACF Fiorentina",
 "liga": "Serie A",
 "marcador": "0-1",
-"o15": 0.6863,
-"o25": 0.409,
-"o35": 0.2045,
-"p_marcador": 0.1404,
-"pe": 0.2801,
-"pl": 0.1699,
-"publicado": "2026-08-24T20:54Z",
-"pv": 0.5501,
+"o15": 0.686,
+"o25": 0.4087,
+"o35": 0.2043,
+"p_marcador": 0.1402,
+"pe": 0.2806,
+"pl": 0.1709,
+"publicado": "2026-08-25T01:06Z",
+"pv": 0.5485,
 "v": "Como"
 },
 "seriea|2026-10-18|bologna|inter": {

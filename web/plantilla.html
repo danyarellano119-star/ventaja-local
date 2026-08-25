@@ -956,6 +956,10 @@ table.tabla-liga tbody tr:hover td { background: var(--surface-2); }
   text-transform: uppercase; color: #d6dbe3; padding: 8px 12px; border-radius: 6px;
 }
 .esc-nav button:hover { color: #fff; background: rgba(255,255,255,.12); }
+.esc-nav button.activo {
+  color: #fff; background: rgba(255,255,255,.18);
+  box-shadow: inset 0 -2px 0 var(--acento);
+}
 .esc-nav button:focus-visible { outline: 2px solid #fff; outline-offset: 1px; }
 .esc-acciones { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
 /* Los buscadores viven ahora sobre la foto: fondo translúcido y texto claro */
@@ -1121,26 +1125,29 @@ table.tabla-liga tbody tr:hover td { background: var(--surface-2); }
   scroll-snap-type: x proximity; scrollbar-width: none;
 }
 .carrusel-pista .carrusel::-webkit-scrollbar { display: none; }
-.flecha {
+/* Nombre propio: «flecha» a secas ya existía para las flechitas de texto de
+   las filas, y darle estos estilos la convertía en un botón negro flotante
+   dentro de la ficha de equipo. */
+.flecha-carril {
   position: absolute; top: 50%; transform: translateY(-50%); z-index: 4;
   width: 38px; height: 62px; border: none; cursor: pointer;
   background: rgba(12,15,20,.72); color: #fff; font-size: 26px; line-height: 1;
   border-radius: 7px; display: grid; place-items: center;
   transition: background .15s, opacity .15s;
 }
-.flecha:hover { background: rgba(12,15,20,.92); }
-.flecha:focus-visible { outline: 3px solid var(--acento); outline-offset: 2px; }
-.flecha.izq { left: -6px; }
-.flecha.der { right: -6px; }
-.flecha.oculto { display: none; }
+.flecha-carril:hover { background: rgba(12,15,20,.92); }
+.flecha-carril:focus-visible { outline: 3px solid var(--acento); outline-offset: 2px; }
+.flecha-carril.izq { left: -6px; }
+.flecha-carril.der { right: -6px; }
+.flecha-carril.oculto { display: none; }
 /* En el escaparate las flechas van sobre la foto y conviene que se noten */
-.carrusel-caja .flecha { background: rgba(6,8,12,.82); }
+.carrusel-caja .flecha-carril { background: rgba(6,8,12,.82); }
 
 .tp-vs { color: #97a1ad; font-weight: 400; font-size: 10.5px; }
 
 @media (max-width: 700px) {
   .flc-cab h3 { font-size: 17px; }
-  .flecha { width: 30px; height: 52px; font-size: 21px; }
+  .flecha-carril { width: 30px; height: 52px; font-size: 21px; }
 }
 
 /* ── Portada del partido ─/* ── Portada del partido ──────────────────────────────────────────────── */
@@ -1512,15 +1519,15 @@ details .cuerpo strong { color: var(--ink); }
           <h3>Los próximos partidos grandes</h3>
         </div>
         <div class="carrusel-pista">
-          <button class="flecha izq" type="button" aria-label="Anterior">‹</button>
+          <button class="flecha-carril izq" type="button" aria-label="Anterior">‹</button>
           <div class="carrusel" id="carrusel"></div>
-          <button class="flecha der" type="button" aria-label="Siguiente">›</button>
+          <button class="flecha-carril der" type="button" aria-label="Siguiente">›</button>
         </div>
       </div>
     </section>
 
     <div>
-      <div class="fila-liga">
+      <div id="fila-liga-sel" class="fila-liga">
         <span class="fila-liga-txt" id="txt-liga"></span>
         <span class="botones-liga">
           <button class="btn-liga" id="btn-ver-liga" type="button">Panorama de la liga →</button>
@@ -2459,11 +2466,20 @@ let filtroActivo = "todos";
 /** Muestra la lista de partidos o el historial, según el filtro elegido. */
 function aplicarFiltro() {
   const historial = filtroActivo === "historial";
+  // Sin filtro se enseñan las filas por competición, que son la portada nueva.
+  // Con filtro hace falta la lista plana: «esta semana» o «mis equipos» mezclan
+  // competiciones y no encajan en una fila por liga.
+  const porFilas = filtroActivo === "todos";
+
   document.getElementById("bloque-registro").classList.toggle("oculto", !historial);
-  document.getElementById("lista-partidos").classList.toggle("oculto", historial);
+  document.getElementById("filas-ligas").classList.toggle("oculto", !porFilas);
+  document.getElementById("lista-partidos")
+    .classList.toggle("oculto", historial || porFilas);
+  document.getElementById("fila-liga-sel").classList.toggle("oculto", porFilas || historial);
+
   const euro = document.getElementById("bloque-euro");
-  if (historial) euro.classList.add("oculto");
-  if (!historial) pintarLista();
+  if (historial || porFilas) euro.classList.add("oculto");
+  if (!historial && !porFilas) pintarLista();
 }
 
 function esFavorito(liga, clave) { return favoritos.has(liga + "|" + clave); }
@@ -5839,8 +5855,8 @@ function fechaCorta(p) {
  */
 function activarFlechas(pista) {
   const carril = pista.querySelector(".carrusel");
-  const izq = pista.querySelector(".flecha.izq");
-  const der = pista.querySelector(".flecha.der");
+  const izq = pista.querySelector(".flecha-carril.izq");
+  const der = pista.querySelector(".flecha-carril.der");
   if (!carril || !izq || !der) return;
 
   const paso = () => Math.max(carril.clientWidth * 0.8, 200);
@@ -5882,35 +5898,35 @@ function pintarFilasLigas() {
         <button class="flc-mas" type="button" data-liga="${f.k}">Ver la liga →</button>
       </div>
       <div class="carrusel-pista">
-        <button class="flecha izq" type="button" aria-label="Anterior">‹</button>
+        <button class="flecha-carril izq" type="button" aria-label="Anterior">‹</button>
         <div class="carrusel">${f.partidos.map(tarjetaPartido).join("")}</div>
-        <button class="flecha der" type="button" aria-label="Siguiente">›</button>
+        <button class="flecha-carril der" type="button" aria-label="Siguiente">›</button>
       </div>
     </section>`).join("");
 
   caja.querySelectorAll(".carrusel-pista").forEach(activarFlechas);
   caja.querySelectorAll(".flc-mas").forEach(b =>
     b.addEventListener("click", () => abrirLiga(b.dataset.liga)));
+
+  // Cada tarjeta enseña su partido en la portada al señalarla
+  const todos = filas.flatMap(f => f.partidos);
+  caja.querySelectorAll(".tarjeta-partido").forEach((el, i) => {
+    if (todos[i]) conectarVistaPrevia(el, todos[i]);
+  });
 }
 
-/** El partido más grande, en grande, nada más entrar. */
-function pintarDestacado() {
-  const grandes = partidosGrandes();
-  const caja = document.getElementById("destacado");
-  const carruselCaja = document.getElementById("carrusel-caja");
-  if (!grandes.length) {
-    caja.classList.add("oculto");
-    carruselCaja.classList.add("oculto");
-    return;
-  }
-  caja.classList.remove("oculto");
-  carruselCaja.classList.remove("oculto");
+/* El partido que está enseñando la portada ahora mismo. Al pasar por una
+   tarjeta se cambia sin entrar en ella: es lo que hacen las plataformas de
+   vídeo y permite ojear varios partidos sin salir de la portada. */
+let destacadoPorDefecto = null;
 
-  const { k, lg, p, a, b } = grandes[0];
+/** Enseña un partido en la portada, sin navegar a él. */
+function mostrarEnPortada(g) {
+  const { k, lg, p, a, b } = g;
   const c = calcular(k, p.l, p.v);
-  const enlace = `#/partido/${k}/${idPartido(p)}`;
 
-  document.getElementById("dest-etq").textContent = "Partido destacado";
+  document.getElementById("dest-etq").textContent =
+    g === destacadoPorDefecto ? "Partido destacado" : "Vista previa";
   document.getElementById("dest-duelo").innerHTML =
     `${escudo(a.nombre, true)} ${a.nombre}
      <span class="dest-vs">contra</span>
@@ -5918,7 +5934,6 @@ function pintarDestacado() {
   document.getElementById("dest-pie").textContent =
     `${lg.nombre} · ${fechaLarga(fechaLocal(p))} · ${horaLocal(p)}`;
 
-  // Una frase que diga por qué merece la pena mirar este partido
   const probs = [["gana el " + a.nombre, c.pl], ["empate", c.pe],
                  ["gana el " + b.nombre, c.pv]].sort((x, y) => y[1] - x[1]);
   const [mejor, segundo] = probs;
@@ -5934,11 +5949,9 @@ function pintarDestacado() {
   pintarBarraProb(document.getElementById("dest-barra"), c.pl, c.pe, c.pv);
 
   const boton = document.getElementById("dest-enlace");
-  boton.href = enlace;
+  boton.href = `#/partido/${k}/${idPartido(p)}`;
   boton.textContent = `Ver el análisis de ${a.nombre} – ${b.nombre}`;
 
-  // «Seguir» marca como favoritos a los dos equipos, que es lo que ya hace el
-  // resto de la página con la estrella; aquí sólo cambia la forma de pedirlo.
   const seguir = document.getElementById("dest-seguir");
   const marcados = () => esFavorito(k, p.l) && esFavorito(k, p.v);
   const refrescar = () => {
@@ -5949,9 +5962,7 @@ function pintarDestacado() {
   };
   seguir.onclick = () => {
     const poner = !marcados();
-    [p.l, p.v].forEach(clave => {
-      if (esFavorito(k, clave) !== poner) alternarFavorito(k, clave);
-    });
+    [p.l, p.v].forEach(cl => { if (esFavorito(k, cl) !== poner) alternarFavorito(k, cl); });
     refrescar();
   };
   refrescar();
@@ -5960,11 +5971,38 @@ function pintarDestacado() {
   document.getElementById("dest-fondo").style.backgroundImage = f.css;
   document.getElementById("dest-sede").textContent =
     f.sede ? `${f.sede} · foto de Wikimedia Commons` : `En casa del ${a.nombre}`;
+}
+
+/** Conecta una tarjeta con la portada: al señalarla, la portada la enseña. */
+function conectarVistaPrevia(elemento, g) {
+  const ver = () => mostrarEnPortada(g);
+  elemento.addEventListener("mouseenter", ver);
+  elemento.addEventListener("focus", ver);
+}
+
+/** El partido más grande, en grande, nada más entrar. */
+function pintarDestacado() {
+  const grandes = partidosGrandes();
+  const caja = document.getElementById("destacado");
+  const carruselCaja = document.getElementById("carrusel-caja");
+  if (!grandes.length) {
+    caja.classList.add("oculto");
+    carruselCaja.classList.add("oculto");
+    return;
+  }
+  caja.classList.remove("oculto");
+  carruselCaja.classList.remove("oculto");
+
+  destacadoPorDefecto = grandes[0];
+  mostrarEnPortada(destacadoPorDefecto);
 
   // ── Fila de tarjetas con los siguientes ────────────────────────────────
   const resto = grandes.slice(1, 13);
   carruselCaja.classList.toggle("oculto", !resto.length);
   document.getElementById("carrusel").innerHTML = resto.map(tarjetaPartido).join("");
+  document.querySelectorAll("#carrusel .tarjeta-partido").forEach((el, i) => {
+    if (resto[i]) conectarVistaPrevia(el, resto[i]);
+  });
   activarFlechas(carruselCaja.querySelector(".carrusel-pista"));
 }
 
@@ -6091,15 +6129,26 @@ new MutationObserver(() => hacerEnfocables(document)).observe(
 hacerEnfocables(document);
 document.querySelectorAll(".esc-nav button").forEach(b =>
   b.addEventListener("click", () => {
+    // Se marca cuál está activa: sin eso, pulsar no parecía hacer nada
+    document.querySelectorAll(".esc-nav button").forEach(x =>
+      x.classList.toggle("activo", x === b));
+
     const donde = b.dataset.ir;
     if (donde === "lista") {
-      document.getElementById("filtros").scrollIntoView({ behavior: "smooth" });
+      // Volver a la portada de partidos y bajar hasta las filas
+      if (filtroActivo !== "todos") {
+        document.querySelector('#filtros .filtro[data-f="todos"]').click();
+      }
+      mostrarVista("vista-lista");
+      document.getElementById("filas-ligas")
+        .scrollIntoView({ behavior: "smooth", block: "start" });
     } else if (donde === "liga") {
-      if (!esEuropea(ligaActual)) abrirLiga(ligaActual);
+      if (esEuropea(ligaActual)) abrirEuropa(); else abrirLiga(ligaActual);
     } else if (donde === "europa") {
       abrirEuropa();
     } else if (donde === "registro") {
       const chip = document.querySelector('#filtros .filtro[data-f="historial"]');
+      mostrarVista("vista-lista");
       if (chip && !chip.classList.contains("oculto")) chip.click();
       document.getElementById("bloque-registro")
         .scrollIntoView({ behavior: "smooth", block: "start" });
