@@ -116,6 +116,48 @@ BONITO = {
     "Bayer Leverkusen": "Leverkusen", "Eintracht Frankfurt": "Frankfurt",
     "VfB Stuttgart": "Stuttgart", "FC Heidenheim": "Heidenheim",
     "Leeds": "Leeds United",
+
+    # Los nombres de las ligas nuevas vienen en su idioma y con la razón social
+    # entera. Se acortan a como se les llama en español: quien no sepa portugués
+    # no tiene por qué adivinar que «Sporting Clube de Portugal» es el Sporting
+    # de Lisboa, ni que «Sport Lisboa e Benfica» es el Benfica de toda la vida.
+    "Sporting Clube de Portugal": "Sporting de Lisboa",
+    "Sport Lisboa e Benfica": "Benfica",
+    "Sporting Clube de Braga": "Braga",
+    "FC Porto": "Oporto",
+    "Vitória Guimarães": "Vitória de Guimarães",
+    "CD Nacional": "Nacional",
+    "CD Santa Clara": "Santa Clara",
+    "CD Tondela": "Tondela",
+    "CF Estrela da Amadora": "Estrela da Amadora",
+    "CS Marítimo": "Marítimo",
+    "Casa Pia AC": "Casa Pia",
+    "FC Alverca": "Alverca",
+    "FC Arouca": "Arouca",
+    "FC Famalicão": "Famalicão",
+    "GD Estoril Praia": "Estoril",
+    "Gil Vicente FC": "Gil Vicente",
+    "Moreirense FC": "Moreirense",
+    "Rio Ave FC": "Rio Ave",
+    "Académico de Viseu FC": "Académico de Viseu",
+
+    "AFC Ajax": "Ajax", "Feyenoord Rotterdam": "Feyenoord",
+    "FC Twente '65": "Twente", "FC Groningen": "Groningen",
+    "FC Utrecht": "Utrecht", "FC Volendam": "Volendam",
+    "SBV Excelsior": "Excelsior", "SC Heerenveen": "Heerenveen",
+    "SC Cambuur-Leeuwarden": "Cambuur", "Willem II Tilburg": "Willem II",
+    "Heracles Almelo": "Heracles", "Telstar 1963": "Telstar",
+    "ADO Den Haag": "Den Haag", "PEC Zwolle": "Zwolle",
+
+    "CR Flamengo": "Flamengo", "SE Palmeiras": "Palmeiras",
+    "SC Corinthians Paulista": "Corinthians", "SC Internacional": "Internacional",
+    "CR Vasco da Gama": "Vasco da Gama", "CA Mineiro": "Atlético Mineiro",
+    "CA Paranaense": "Athletico Paranaense", "Cruzeiro EC": "Cruzeiro",
+    "EC Bahia": "Bahía", "EC Vitória": "Vitória", "Fluminense FC": "Fluminense",
+    "Grêmio FBPA": "Gremio", "Santos FC": "Santos", "São Paulo FC": "São Paulo",
+    "Botafogo FR": "Botafogo", "Coritiba FBC": "Coritiba",
+    "Chapecoense AF": "Chapecoense", "Mirassol FC": "Mirassol",
+    "RB Bragantino": "Bragantino",
 }
 
 
@@ -897,7 +939,7 @@ def main() -> None:
                     if eq is None:
                         eq = bruto
                         if eq not in equipos:
-                            equipos[eq] = {"nombre": bruto, "clave": eq, "nuevo": True, **base}
+                            equipos[eq] = {"nombre": BONITO.get(bruto, bruto), "clave": eq, "nuevo": True, **base}
                             sin_casar.add(bruto)
                     ids.append(eq)
                 futuros.append({"j": m["j"], "fecha": m["fecha"], "hora": m["hora"],
@@ -1085,7 +1127,7 @@ def main() -> None:
                 if eq is None:
                     eq = bruto
                     if eq not in equipos:
-                        equipos[eq] = {"nombre": bruto, "clave": eq,
+                        equipos[eq] = {"nombre": BONITO.get(bruto, bruto), "clave": eq,
                                        "nuevo": True, "jug": [], **base}
                         sin_casar.add(bruto)
                 ids.append(eq)

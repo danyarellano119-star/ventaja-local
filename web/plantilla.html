@@ -820,11 +820,13 @@ table.tabla-liga tbody tr:hover td { background: var(--surface-2); }
   margin: 0 0 16px; max-width: 68ch;
 }
 .gr-explica b { color: var(--ink); font-weight: 600; }
-.lienzo {
+.lienzo { overflow: hidden;
   background: var(--surface-2); border: 1px solid var(--line-soft);
   border-radius: 8px; padding: 16px 14px;
 }
-.lienzo svg { display: block; width: 100%; height: auto; overflow: visible; }
+/* «visible» dejaba que las etiquetas largas se salieran de la tarjeta; con
+   «hidden» el dibujo se queda dentro y los nombres se recortan en el texto. */
+.lienzo svg { display: block; width: 100%; height: auto; overflow: hidden; }
 /* Cada competición europea, en su propio bloque */
 .torneo-bloque { margin-top: 30px; }
 .torneo-bloque:first-child { margin-top: 12px; }
@@ -1089,10 +1091,16 @@ table.tabla-liga tbody tr:hover td { background: var(--surface-2); }
   padding: 12px;
 }
 .tp-escudos .escudo-caja, .tp-escudos .escudo {
-  width: 54px; height: 54px;
-  filter: drop-shadow(0 3px 10px rgba(0,0,0,.55));
+  /* 48 y no 54: los escudos del repositorio miden 139x181, y a mayor tamaño
+     las pantallas de alta densidad tienen que ampliarlos. */
+  width: 48px; height: 48px;
+  filter: drop-shadow(0 3px 10px rgba(0,0,0,.6));
 }
-.tp-escudos .escudo-caja img { background: none; }
+/* Sin recuadro ni relleno: el marco claro que llevan en las listas hacía que
+   sobre la tarjeta oscura parecieran pegotes borrosos. */
+.tp-escudos .escudo-caja img {
+  background: none; border-radius: 0; padding: 0;
+}
 /* Todas las tarjetas se ven igual, haya foto del estadio detrás o no: los dos
    escudos grandes en el centro. Antes, las que tenían foto los llevaban
    pequeños en una esquina y el conjunto parecía de dos webs distintas. */
@@ -1261,6 +1269,44 @@ table.tabla-liga tbody tr:hover td { background: var(--surface-2); }
   font-weight: 600;
 }
 .elige-eq.activo::after { content: "★"; margin-left: auto; color: var(--acento); }
+
+/* ── Elegir competición dentro del panorama ───────────────────────────── */
+.lg-elige { display: flex; align-items: center; gap: 10px; margin-bottom: 12px; }
+.lg-elige label {
+  font-family: var(--mono); font-size: 10.5px; letter-spacing: .1em;
+  text-transform: uppercase; color: var(--ink-3);
+}
+.lg-elige select {
+  font-family: var(--sans); font-size: 14px; color: var(--ink);
+  background: var(--surface); border: 1px solid var(--line);
+  border-radius: 7px; padding: 7px 11px; cursor: pointer; max-width: 260px;
+}
+.lg-elige select:focus-visible { outline: 2px solid var(--acento); outline-offset: 1px; }
+
+/* ── Reparto de aciertos y fallos ─────────────────────────────────────── */
+.reparto { margin-bottom: 4px; }
+.reparto-barra {
+  display: flex; height: 46px; border-radius: 9px; overflow: hidden;
+  font-family: var(--sans); font-size: 13px;
+}
+.reparto-barra span {
+  display: flex; align-items: center; justify-content: center; gap: 6px;
+  color: #fff; min-width: 0; padding: 0 8px; white-space: nowrap; overflow: hidden;
+}
+.reparto-barra b { font-size: 17px; font-family: var(--mono); }
+.rp-ok { background: var(--ok); }
+.rp-no { background: var(--visita); }
+.reparto-pies {
+  display: flex; gap: 18px; margin-top: 9px; flex-wrap: wrap;
+  font-size: 12.5px; color: var(--ink-2);
+}
+.reparto-pies i.pt {
+  display: inline-block; width: 10px; height: 10px; border-radius: 3px;
+  margin-right: 6px; vertical-align: -1px;
+}
+.reparto-pies i.ok { background: var(--ok); }
+.reparto-pies i.no { background: var(--visita); }
+.rp-total { color: var(--ink-3); font-family: var(--mono); font-size: 12px; }
 
 /* ── Portada del partido ─/* ── Portada del partido ──────────────────────────────────────────────── */
 /* Una carátula al estilo de las plataformas de vídeo: la foto del estadio de
@@ -2084,6 +2130,10 @@ details .cuerpo strong { color: var(--ink); }
     </div>
 
     <section class="tarjeta">
+      <div class="lg-elige">
+        <label for="lg-selector">Panorama de</label>
+        <select id="lg-selector"></select>
+      </div>
       <span class="paso" id="lg-pais"></span>
       <div class="titulo-con-logo">
         <img class="logo-liga oculto" id="lg-logo" alt="" loading="lazy"
@@ -2816,6 +2866,19 @@ function calcular(ligaKey, claveLocal, claveVisita) {
 
 /* ── Formato ──────────────────────────────────────────────────────────── */
 const pct = x => (x * 100).toFixed(1).replace(".", ",") + " %";
+
+/** Acorta un nombre para que quepa en el hueco reservado de una gráfica.
+
+    Las etiquetas se dibujan hacia la izquierda desde un punto fijo, así que un
+    nombre largo —«Sporting Clube de Portugal»— se salía del lienzo por el
+    borde. Se calcula a ojo: en las tipografías que usa la página cada letra
+    ocupa algo más de medio cuerpo de ancho.
+ */
+function recorta(texto, anchoDisponible, cuerpo = 12) {
+  const t = String(texto || "");
+  const cabe = Math.max(Math.floor(anchoDisponible / (cuerpo * 0.55)), 6);
+  return t.length <= cabe ? t : t.slice(0, cabe - 1).trimEnd() + "…";
+}
 const dec = (x, n = 2) => x.toFixed(n).replace(".", ",");
 
 /* ── Ordenar las tablas ───────────────────────────────────────────────── */
@@ -4253,7 +4316,7 @@ function graficoCalibracion(tramos) {
 function graficoPronostico(pron, tope = 10) {
   const d = pron.slice(0, tope);
   if (!d.length) return "";
-  const W = 640, filaH = 30, etqW = 128, H = 34 + d.length * filaH;
+  const W = 640, filaH = 30, etqW = 168, H = 34 + d.length * filaH;
   const ancho = W - etqW - 96;
 
   const barras = d.map((p, i) => {
@@ -4273,7 +4336,7 @@ function graficoPronostico(pron, tope = 10) {
                 : p.descenso >= 1 ? `${dec(p.descenso, 0)} % descenso`
                 : p.europa >= 1 ? `${dec(p.europa, 0)} % Champions` : "";
     return `<text x="${etqW - 10}" y="${y + 13}" text-anchor="end" font-size="12.5"
-        font-family="var(--sans)" fill="var(--ink)">${p.nombre}</text>
+        font-family="var(--sans)" fill="var(--ink)">${recorta(p.nombre, etqW - 16, 12)}</text>
       ${partes.join("")}
       <text x="${(etqW + Math.max(wT + wE, wD) + 8).toFixed(1)}" y="${y + 13}"
         font-size="11" font-family="var(--mono)" fill="var(--ink-2)">${texto}</text>`;
@@ -4333,6 +4396,15 @@ function abrirLiga(ligaKey) {
 
   document.getElementById("lg-pais").textContent =
     `${lg.pais} · datos de la temporada ${T(lg.temp_hist)}`;
+  // Desplegable para saltar a otra competición sin volver a la portada
+  const sel = document.getElementById("lg-selector");
+  if (!sel.options.length) {
+    Object.entries(D.ligas).forEach(([k, l]) =>
+      sel.appendChild(new Option(`${l.nombre} · ${l.pais}`, k)));
+    sel.addEventListener("change", () => abrirLiga(sel.value));
+  }
+  sel.value = ligaKey;
+
   document.getElementById("lg-nombre").textContent = lg.nombre;
   ponerLogo("lg-logo", logoComp(ligaKey));
 
@@ -5816,9 +5888,9 @@ function pintarPortada(lg, p, c) {
     tienen eso en cuenta, y se enseñan comparadas con lo que saldría pronosticando
     a ciegas, que es la única forma de saber si el modelo aporta algo.
  */
-function pintarRendimiento(R) {
+function pintarRendimiento(R, R_TOTAL) {
   const caja = document.getElementById("reg-rendimiento");
-  if (!R) { caja.innerHTML = ""; return; }
+  if (!R || !R_TOTAL || !R_TOTAL.n) { caja.innerHTML = ""; return; }
 
   const mejora = (nuestro, base) => Math.round((base - nuestro) / base * 100);
   const mBrier = mejora(R.brier, R.brier_base);
@@ -5844,7 +5916,26 @@ function pintarRendimiento(R) {
 
   const merc = Object.entries(R.mercados || {});
 
+  // Aciertos contra fallos, en una barra: es la lectura más inmediata
+  const fallos = R_TOTAL.n - R_TOTAL.aciertos;
+  const pctFallos = Math.round(fallos / R_TOTAL.n * 1000) / 10;
+
   caja.innerHTML = `
+    <p class="mk-titulo" style="margin-top:22px">De cada partido que pronosticamos</p>
+    <div class="reparto">
+      <div class="reparto-barra">
+        <span class="rp-ok" style="flex:${R_TOTAL.aciertos}">
+          <b>${R_TOTAL.aciertos}</b> acertados</span>
+        <span class="rp-no" style="flex:${fallos}">
+          <b>${fallos}</b> fallados</span>
+      </div>
+      <div class="reparto-pies">
+        <span><i class="pt ok"></i>${dec(R_TOTAL.pct, 1)} % acertados</span>
+        <span><i class="pt no"></i>${dec(pctFallos, 1)} % fallados</span>
+        <span class="rp-total">${R_TOTAL.n} partidos en total</span>
+      </div>
+    </div>
+
     <p class="mk-titulo" style="margin-top:22px">Qué tan buenos son los números</p>
     <div class="jd-rejilla">
       <div class="jd-dato" title="Mide el error de las probabilidades: cuanto más bajo, mejor. Cero sería adivinar siempre con total seguridad.">
@@ -6289,7 +6380,7 @@ function pintarRegistro() {
      empate es habitual no es lo mismo que acertar siempre, y ningún modelo
      honesto pasa de cierto punto. Lo que sí se puede exigir es lo de abajo.`;
 
-  pintarRendimiento(R.rendimiento);
+  pintarRendimiento(R.rendimiento, R);
 
   // Calibración
   document.getElementById("reg-calibracion").innerHTML =
