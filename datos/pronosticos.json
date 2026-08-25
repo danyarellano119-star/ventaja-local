@@ -1008,6 +1008,25 @@
 "pv": 0.0815,
 "v": "Fluminense FC"
 },
+"brasileirao|2026-10-10|cr vasco da gama|clube do remo": {
+"btts": 0.3165,
+"clave_l": "CR Vasco da Gama",
+"clave_liga": "brasileirao",
+"clave_v": "Clube do Remo",
+"fecha": "2026-10-10",
+"l": "CR Vasco da Gama",
+"liga": "Brasileirão",
+"marcador": "0-0",
+"o15": 0.506,
+"o25": 0.2307,
+"o35": 0.0865,
+"p_marcador": 0.2049,
+"pe": 0.3652,
+"pl": 0.4168,
+"publicado": "2026-08-25T01:16Z",
+"pv": 0.218,
+"v": "Clube do Remo"
+},
 "brasileirao|2026-10-10|ec bahia|mirassol": {
 "clave_l": "EC Bahia",
 "clave_liga": "brasileirao",
@@ -4421,6 +4440,25 @@
 "publicado": "2026-08-24T13:19Z",
 "pv": 0.4236,
 "v": "Atlético Madrid"
+},
+"laliga|2026-10-11|elche|celta vigo": {
+"btts": 0.4715,
+"clave_l": "Elche",
+"clave_liga": "laliga",
+"clave_v": "Celta Vigo",
+"fecha": "2026-10-11",
+"l": "Elche",
+"liga": "LaLiga",
+"marcador": "1-1",
+"o15": 0.673,
+"o25": 0.3918,
+"o35": 0.1914,
+"p_marcador": 0.1478,
+"pe": 0.3161,
+"pl": 0.3495,
+"publicado": "2026-08-25T01:14Z",
+"pv": 0.3344,
+"v": "Celta Vigo"
 },
 "laliga|2026-10-11|rayo vallecano|athletic": {
 "btts": 0.4928,
@@ -8330,6 +8368,25 @@
 "pv": 0.1069,
 "v": "CS Marítimo"
 },
+"primeira|2026-11-01|arouca|nacional": {
+"btts": 0.2417,
+"clave_l": "FC Arouca",
+"clave_liga": "primeira",
+"clave_v": "CD Nacional",
+"fecha": "2026-11-01",
+"l": "FC Arouca",
+"liga": "Primeira Liga",
+"marcador": "0-0",
+"o15": 0.4187,
+"o25": 0.1655,
+"o35": 0.0533,
+"p_marcador": 0.2595,
+"pe": 0.3935,
+"pl": 0.4302,
+"publicado": "2026-08-25T01:16Z",
+"pv": 0.1763,
+"v": "CD Nacional"
+},
 "primeira|2026-11-01|cs maritimo|santa clara": {
 "btts": 0.1175,
 "clave_l": "CS Marítimo",
@@ -9579,6 +9636,25 @@
 "publicado": "2026-08-24T13:21Z",
 "pv": 0.3339,
 "v": "Cagliari"
+},
+"seriea|2026-10-18|parma|torino": {
+"btts": 0.4357,
+"clave_l": "Parma Calcio 1913",
+"clave_liga": "seriea",
+"clave_v": "Torino",
+"fecha": "2026-10-18",
+"l": "Parma",
+"liga": "Serie A",
+"marcador": "1-1",
+"o15": 0.6349,
+"o25": 0.3503,
+"o35": 0.1613,
+"p_marcador": 0.1492,
+"pe": 0.3281,
+"pl": 0.303,
+"publicado": "2026-08-25T01:15Z",
+"pv": 0.3689,
+"v": "Torino"
 },
 "seriea|2026-10-18|roma|genoa": {
 "btts": 0.4199,
