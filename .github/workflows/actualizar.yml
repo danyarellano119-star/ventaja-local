@@ -51,6 +51,9 @@ jobs:
         # a 5.000, que es lo que hace falta para leer el repositorio de escudos.
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Clave de football-data.org, guardada como secreto del repositorio.
+          # Si no existe, el programa lo detecta y sigue sin esa fuente.
+          FOOTBALL_DATA_KEY: ${{ secrets.FOOTBALL_DATA_KEY }}
         run: python scripts/actualizar.py
 
       - name: Guardar los datos nuevos en el repositorio

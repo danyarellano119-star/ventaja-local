@@ -1379,6 +1379,8 @@ table.tabla-liga tbody tr:hover td { background: var(--surface-2); }
   .portada-texto, .portada-texto * { color: #111 !important; } }
 
 /* ── Historial de pronósticos ─────────────────────────────────────────── */
+.reg-grupo { margin-bottom: 22px; }
+.reg-grupo .gl-cab { padding-bottom: 6px; border-bottom: 1px solid var(--line); }
 .reg-partido { border-bottom: 1px solid var(--line-soft); }
 .reg-partido:last-child { border-bottom: none; }
 .reg-fila {
@@ -6460,15 +6462,20 @@ function pintarRegistro() {
   const pintar = () => {
     const filas = (R.ultimos || []).filter(f =>
       filtro === "todos" || (filtro === "ok" ? f.ok : !f.ok));
-    document.getElementById("reg-partidos").innerHTML = filas.map((f, i) => {
+    // Agrupados por competición, y cada grupo con su propio acierto: así se ve
+    // si el modelo va mejor en unas ligas que en otras, que es la primera
+    // pregunta que se hace cualquiera al mirar esta tabla.
+    const porLiga = {};
+    filas.forEach(f => (porLiga[f.liga] ||= []).push(f));
+
+    const unaFila = f => {
       const probs = { L: f.pl, E: f.pe, V: f.pv };
       const fav = Object.keys(probs).reduce((a, b) => probs[a] >= probs[b] ? a : b);
       return `
       <details class="reg-partido">
         <summary class="reg-fila">
           <span class="reg-fecha pos-num">${f.f}</span>
-          <span class="reg-equipos">${f.l} – ${f.v}
-            <small>${f.liga}</small></span>
+          <span class="reg-equipos">${f.l} – ${f.v}</span>
           <span class="reg-dijo">${NOMBRE[fav]} <b>${Math.round(probs[fav] * 100)} %</b></span>
           <span class="reg-marcador"><b>${f.gl}–${f.gv}</b></span>
           <span class="reg-veredicto ${f.ok ? "mejor" : "peor"}"
@@ -6476,7 +6483,25 @@ function pintarRegistro() {
         </summary>
         <div class="reg-detalle">${mercadosDe(f)}</div>
       </details>`;
-    }).join("");
+    };
+
+    document.getElementById("reg-partidos").innerHTML =
+      Object.entries(porLiga)
+        .sort((a, b) => b[1].length - a[1].length)
+        .map(([liga, suyos]) => {
+          const ok = suyos.filter(f => f.ok).length;
+          const clave = Object.keys(D.ligas).find(k => D.ligas[k].nombre === liga);
+          return `<section class="reg-grupo">
+            <div class="gl-cab">
+              ${clave && logoComp(clave) ? `<img class="flc-logo"
+                  src="${logoComp(clave)}" alt="" loading="lazy" decoding="async">` : ""}
+              <h4>${liga}</h4>
+              <span class="gl-cuenta">${ok} de ${suyos.length} acertados
+                · ${Math.round(ok / suyos.length * 100)} %</span>
+            </div>
+            ${suyos.map(unaFila).join("")}
+          </section>`;
+        }).join("");
     document.getElementById("reg-nota").innerHTML =
       `Se muestran los <b>${filas.length}</b> partidos más recientes de los
        ${R.n} resueltos. El archivo completo, con la fecha y hora exactas en que

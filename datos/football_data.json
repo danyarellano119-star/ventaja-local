@@ -1,0 +1,3728 @@
+{
+"champions": {
+"continente": "Europa",
+"mes": 8,
+"nombre": "Champions League",
+"pais": "Europa",
+"partidos": []
+},
+"championship": {
+"continente": "Europa",
+"mes": 8,
+"nombre": "Championship",
+"pais": "Inglaterra",
+"partidos": [
+{
+"fecha": "2026-08-28",
+"hora": "19:00",
+"local": "Wrexham AFC",
+"utc": "2026-08-28T19:00Z",
+"visita": "Birmingham City FC"
+},
+{
+"fecha": "2026-08-29",
+"hora": "11:30",
+"local": "Wolverhampton Wanderers FC",
+"utc": "2026-08-29T11:30Z",
+"visita": "Stoke City FC"
+},
+{
+"fecha": "2026-08-29",
+"hora": "11:30",
+"local": "Derby County FC",
+"utc": "2026-08-29T11:30Z",
+"visita": "Swansea City AFC"
+},
+{
+"fecha": "2026-08-29",
+"hora": "11:30",
+"local": "Middlesbrough FC",
+"utc": "2026-08-29T11:30Z",
+"visita": "West Bromwich Albion FC"
+},
+{
+"fecha": "2026-08-29",
+"hora": "14:00",
+"local": "Norwich City FC",
+"utc": "2026-08-29T14:00Z",
+"visita": "Burnley FC"
+},
+{
+"fecha": "2026-08-29",
+"hora": "14:00",
+"local": "Bolton Wanderers FC",
+"utc": "2026-08-29T14:00Z",
+"visita": "Lincoln City FC"
+},
+{
+"fecha": "2026-08-29",
+"hora": "14:00",
+"local": "Bristol City FC",
+"utc": "2026-08-29T14:00Z",
+"visita": "Portsmouth FC"
+},
+{
+"fecha": "2026-08-29",
+"hora": "14:00",
+"local": "Southampton FC",
+"utc": "2026-08-29T14:00Z",
+"visita": "Millwall FC"
+},
+{
+"fecha": "2026-08-29",
+"hora": "14:00",
+"local": "Charlton Athletic FC",
+"utc": "2026-08-29T14:00Z",
+"visita": "Preston North End FC"
+},
+{
+"fecha": "2026-08-29",
+"hora": "14:00",
+"local": "Blackburn Rovers FC",
+"utc": "2026-08-29T14:00Z",
+"visita": "Queens Park Rangers FC"
+},
+{
+"fecha": "2026-08-29",
+"hora": "14:00",
+"local": "Cardiff City FC",
+"utc": "2026-08-29T14:00Z",
+"visita": "Sheffield United FC"
+},
+{
+"fecha": "2026-08-29",
+"hora": "14:00",
+"local": "Watford FC",
+"utc": "2026-08-29T14:00Z",
+"visita": "West Ham United FC"
+},
+{
+"fecha": "2026-09-01",
+"hora": "18:45",
+"local": "Preston North End FC",
+"utc": "2026-09-01T18:45Z",
+"visita": "Bristol City FC"
+},
+{
+"fecha": "2026-09-01",
+"hora": "18:45",
+"local": "West Ham United FC",
+"utc": "2026-09-01T18:45Z",
+"visita": "Wolverhampton Wanderers FC"
+},
+{
+"fecha": "2026-09-01",
+"hora": "18:45",
+"local": "Lincoln City FC",
+"utc": "2026-09-01T18:45Z",
+"visita": "Blackburn Rovers FC"
+},
+{
+"fecha": "2026-09-01",
+"hora": "18:45",
+"local": "Sheffield United FC",
+"utc": "2026-09-01T18:45Z",
+"visita": "Bolton Wanderers FC"
+},
+{
+"fecha": "2026-09-01",
+"hora": "18:45",
+"local": "Portsmouth FC",
+"utc": "2026-09-01T18:45Z",
+"visita": "Derby County FC"
+},
+{
+"fecha": "2026-09-01",
+"hora": "18:45",
+"local": "Swansea City AFC",
+"utc": "2026-09-01T18:45Z",
+"visita": "Watford FC"
+},
+{
+"fecha": "2026-09-01",
+"hora": "19:00",
+"local": "Stoke City FC",
+"utc": "2026-09-01T19:00Z",
+"visita": "Norwich City FC"
+},
+{
+"fecha": "2026-09-01",
+"hora": "19:00",
+"local": "Birmingham City FC",
+"utc": "2026-09-01T19:00Z",
+"visita": "Southampton FC"
+},
+{
+"fecha": "2026-09-02",
+"hora": "18:45",
+"local": "Millwall FC",
+"utc": "2026-09-02T18:45Z",
+"visita": "Wrexham AFC"
+},
+{
+"fecha": "2026-09-02",
+"hora": "18:45",
+"local": "Queens Park Rangers FC",
+"utc": "2026-09-02T18:45Z",
+"visita": "Cardiff City FC"
+},
+{
+"fecha": "2026-09-02",
+"hora": "18:45",
+"local": "West Bromwich Albion FC",
+"utc": "2026-09-02T18:45Z",
+"visita": "Charlton Athletic FC"
+},
+{
+"fecha": "2026-09-02",
+"hora": "19:00",
+"local": "Burnley FC",
+"utc": "2026-09-02T19:00Z",
+"visita": "Middlesbrough FC"
+},
+{
+"fecha": "2026-09-05",
+"hora": "11:30",
+"local": "Preston North End FC",
+"utc": "2026-09-05T11:30Z",
+"visita": "Blackburn Rovers FC"
+},
+{
+"fecha": "2026-09-05",
+"hora": "11:30",
+"local": "Stoke City FC",
+"utc": "2026-09-05T11:30Z",
+"visita": "Charlton Athletic FC"
+},
+{
+"fecha": "2026-09-05",
+"hora": "11:30",
+"local": "Lincoln City FC",
+"utc": "2026-09-05T11:30Z",
+"visita": "Southampton FC"
+},
+{
+"fecha": "2026-09-05",
+"hora": "14:00",
+"local": "Queens Park Rangers FC",
+"utc": "2026-09-05T14:00Z",
+"visita": "Middlesbrough FC"
+},
+{
+"fecha": "2026-09-05",
+"hora": "14:00",
+"local": "Sheffield United FC",
+"utc": "2026-09-05T14:00Z",
+"visita": "Norwich City FC"
+},
+{
+"fecha": "2026-09-05",
+"hora": "14:00",
+"local": "Portsmouth FC",
+"utc": "2026-09-05T14:00Z",
+"visita": "Cardiff City FC"
+},
+{
+"fecha": "2026-09-05",
+"hora": "14:00",
+"local": "West Bromwich Albion FC",
+"utc": "2026-09-05T14:00Z",
+"visita": "Watford FC"
+},
+{
+"fecha": "2026-09-05",
+"hora": "14:00",
+"local": "West Ham United FC",
+"utc": "2026-09-05T14:00Z",
+"visita": "Derby County FC"
+},
+{
+"fecha": "2026-09-05",
+"hora": "14:00",
+"local": "Burnley FC",
+"utc": "2026-09-05T14:00Z",
+"visita": "Bristol City FC"
+},
+{
+"fecha": "2026-09-05",
+"hora": "14:00",
+"local": "Millwall FC",
+"utc": "2026-09-05T14:00Z",
+"visita": "Bolton Wanderers FC"
+},
+{
+"fecha": "2026-09-05",
+"hora": "19:00",
+"local": "Swansea City AFC",
+"utc": "2026-09-05T19:00Z",
+"visita": "Wrexham AFC"
+},
+{
+"fecha": "2026-09-06",
+"hora": "11:00",
+"local": "Birmingham City FC",
+"utc": "2026-09-06T11:00Z",
+"visita": "Wolverhampton Wanderers FC"
+},
+{
+"fecha": "2026-09-08",
+"hora": "18:45",
+"local": "Blackburn Rovers FC",
+"utc": "2026-09-08T18:45Z",
+"visita": "Sheffield United FC"
+},
+{
+"fecha": "2026-09-08",
+"hora": "18:45",
+"local": "Southampton FC",
+"utc": "2026-09-08T18:45Z",
+"visita": "Swansea City AFC"
+},
+{
+"fecha": "2026-09-08",
+"hora": "18:45",
+"local": "Watford FC",
+"utc": "2026-09-08T18:45Z",
+"visita": "Preston North End FC"
+},
+{
+"fecha": "2026-09-08",
+"hora": "18:45",
+"local": "Cardiff City FC",
+"utc": "2026-09-08T18:45Z",
+"visita": "Stoke City FC"
+},
+{
+"fecha": "2026-09-08",
+"hora": "18:45",
+"local": "Middlesbrough FC",
+"utc": "2026-09-08T18:45Z",
+"visita": "Millwall FC"
+},
+{
+"fecha": "2026-09-08",
+"hora": "18:45",
+"local": "Bristol City FC",
+"utc": "2026-09-08T18:45Z",
+"visita": "Lincoln City FC"
+},
+{
+"fecha": "2026-09-08",
+"hora": "18:45",
+"local": "Wrexham AFC",
+"utc": "2026-09-08T18:45Z",
+"visita": "Burnley FC"
+},
+{
+"fecha": "2026-09-08",
+"hora": "19:00",
+"local": "Bolton Wanderers FC",
+"utc": "2026-09-08T19:00Z",
+"visita": "West Ham United FC"
+},
+{
+"fecha": "2026-09-09",
+"hora": "18:45",
+"local": "Wolverhampton Wanderers FC",
+"utc": "2026-09-09T18:45Z",
+"visita": "Portsmouth FC"
+},
+{
+"fecha": "2026-09-09",
+"hora": "18:45",
+"local": "Derby County FC",
+"utc": "2026-09-09T18:45Z",
+"visita": "West Bromwich Albion FC"
+},
+{
+"fecha": "2026-09-09",
+"hora": "18:45",
+"local": "Norwich City FC",
+"utc": "2026-09-09T18:45Z",
+"visita": "Birmingham City FC"
+},
+{
+"fecha": "2026-09-09",
+"hora": "19:00",
+"local": "Charlton Athletic FC",
+"utc": "2026-09-09T19:00Z",
+"visita": "Queens Park Rangers FC"
+},
+{
+"fecha": "2026-09-11",
+"hora": "19:00",
+"local": "West Ham United FC",
+"utc": "2026-09-11T19:00Z",
+"visita": "Wrexham AFC"
+},
+{
+"fecha": "2026-09-12",
+"hora": "11:30",
+"local": "Derby County FC",
+"utc": "2026-09-12T11:30Z",
+"visita": "Birmingham City FC"
+},
+{
+"fecha": "2026-09-12",
+"hora": "11:30",
+"local": "Bolton Wanderers FC",
+"utc": "2026-09-12T11:30Z",
+"visita": "Cardiff City FC"
+},
+{
+"fecha": "2026-09-12",
+"hora": "11:30",
+"local": "West Bromwich Albion FC",
+"utc": "2026-09-12T11:30Z",
+"visita": "Queens Park Rangers FC"
+},
+{
+"fecha": "2026-09-12",
+"hora": "14:00",
+"local": "Southampton FC",
+"utc": "2026-09-12T14:00Z",
+"visita": "Bristol City FC"
+},
+{
+"fecha": "2026-09-12",
+"hora": "14:00",
+"local": "Preston North End FC",
+"utc": "2026-09-12T14:00Z",
+"visita": "Lincoln City FC"
+},
+{
+"fecha": "2026-09-12",
+"hora": "14:00",
+"local": "Blackburn Rovers FC",
+"utc": "2026-09-12T14:00Z",
+"visita": "Millwall FC"
+},
+{
+"fecha": "2026-09-12",
+"hora": "14:00",
+"local": "Charlton Athletic FC",
+"utc": "2026-09-12T14:00Z",
+"visita": "Portsmouth FC"
+},
+{
+"fecha": "2026-09-12",
+"hora": "14:00",
+"local": "Watford FC",
+"utc": "2026-09-12T14:00Z",
+"visita": "Stoke City FC"
+},
+{
+"fecha": "2026-09-12",
+"hora": "14:00",
+"local": "Swansea City AFC",
+"utc": "2026-09-12T14:00Z",
+"visita": "Burnley FC"
+},
+{
+"fecha": "2026-09-12",
+"hora": "14:00",
+"local": "Middlesbrough FC",
+"utc": "2026-09-12T14:00Z",
+"visita": "Norwich City FC"
+},
+{
+"fecha": "2026-09-13",
+"hora": "11:00",
+"local": "Sheffield United FC",
+"utc": "2026-09-13T11:00Z",
+"visita": "Wolverhampton Wanderers FC"
+},
+{
+"fecha": "2026-09-18",
+"hora": "19:00",
+"local": "Bristol City FC",
+"utc": "2026-09-18T19:00Z",
+"visita": "Watford FC"
+},
+{
+"fecha": "2026-09-19",
+"hora": "11:30",
+"local": "Stoke City FC",
+"utc": "2026-09-19T11:30Z",
+"visita": "Sheffield United FC"
+},
+{
+"fecha": "2026-09-19",
+"hora": "11:30",
+"local": "Millwall FC",
+"utc": "2026-09-19T11:30Z",
+"visita": "West Ham United FC"
+},
+{
+"fecha": "2026-09-19",
+"hora": "11:30",
+"local": "Cardiff City FC",
+"utc": "2026-09-19T11:30Z",
+"visita": "Charlton Athletic FC"
+},
+{
+"fecha": "2026-09-19",
+"hora": "14:00",
+"local": "Wrexham AFC",
+"utc": "2026-09-19T14:00Z",
+"visita": "Southampton FC"
+},
+{
+"fecha": "2026-09-19",
+"hora": "14:00",
+"local": "Burnley FC",
+"utc": "2026-09-19T14:00Z",
+"visita": "Derby County FC"
+},
+{
+"fecha": "2026-09-19",
+"hora": "14:00",
+"local": "Norwich City FC",
+"utc": "2026-09-19T14:00Z",
+"visita": "Bolton Wanderers FC"
+},
+{
+"fecha": "2026-09-19",
+"hora": "14:00",
+"local": "Queens Park Rangers FC",
+"utc": "2026-09-19T14:00Z",
+"visita": "Preston North End FC"
+},
+{
+"fecha": "2026-09-19",
+"hora": "14:00",
+"local": "Portsmouth FC",
+"utc": "2026-09-19T14:00Z",
+"visita": "Blackburn Rovers FC"
+},
+{
+"fecha": "2026-09-19",
+"hora": "14:00",
+"local": "Birmingham City FC",
+"utc": "2026-09-19T14:00Z",
+"visita": "Middlesbrough FC"
+},
+{
+"fecha": "2026-09-19",
+"hora": "14:00",
+"local": "Lincoln City FC",
+"utc": "2026-09-19T14:00Z",
+"visita": "Swansea City AFC"
+},
+{
+"fecha": "2026-09-20",
+"hora": "11:00",
+"local": "Wolverhampton Wanderers FC",
+"utc": "2026-09-20T11:00Z",
+"visita": "West Bromwich Albion FC"
+},
+{
+"fecha": "2026-10-09",
+"hora": "19:00",
+"local": "West Ham United FC",
+"utc": "2026-10-09T19:00Z",
+"visita": "Queens Park Rangers FC"
+},
+{
+"fecha": "2026-10-10",
+"hora": "11:30",
+"local": "West Bromwich Albion FC",
+"utc": "2026-10-10T11:30Z",
+"visita": "Birmingham City FC"
+},
+{
+"fecha": "2026-10-10",
+"hora": "11:30",
+"local": "Swansea City AFC",
+"utc": "2026-10-10T11:30Z",
+"visita": "Norwich City FC"
+},
+{
+"fecha": "2026-10-10",
+"hora": "11:30",
+"local": "Charlton Athletic FC",
+"utc": "2026-10-10T11:30Z",
+"visita": "Bristol City FC"
+},
+{
+"fecha": "2026-10-10",
+"hora": "14:00",
+"local": "Sheffield United FC",
+"utc": "2026-10-10T14:00Z",
+"visita": "Lincoln City FC"
+},
+{
+"fecha": "2026-10-10",
+"hora": "14:00",
+"local": "Watford FC",
+"utc": "2026-10-10T14:00Z",
+"visita": "Burnley FC"
+},
+{
+"fecha": "2026-10-10",
+"hora": "14:00",
+"local": "Derby County FC",
+"utc": "2026-10-10T14:00Z",
+"visita": "Wrexham AFC"
+},
+{
+"fecha": "2026-10-10",
+"hora": "14:00",
+"local": "Blackburn Rovers FC",
+"utc": "2026-10-10T14:00Z",
+"visita": "Cardiff City FC"
+},
+{
+"fecha": "2026-10-10",
+"hora": "14:00",
+"local": "Bolton Wanderers FC",
+"utc": "2026-10-10T14:00Z",
+"visita": "Stoke City FC"
+},
+{
+"fecha": "2026-10-10",
+"hora": "14:00",
+"local": "Preston North End FC",
+"utc": "2026-10-10T14:00Z",
+"visita": "Millwall FC"
+},
+{
+"fecha": "2026-10-10",
+"hora": "14:00",
+"local": "Middlesbrough FC",
+"utc": "2026-10-10T14:00Z",
+"visita": "Wolverhampton Wanderers FC"
+},
+{
+"fecha": "2026-10-11",
+"hora": "11:00",
+"local": "Southampton FC",
+"utc": "2026-10-11T11:00Z",
+"visita": "Portsmouth FC"
+},
+{
+"fecha": "2026-10-13",
+"hora": "18:45",
+"local": "Wolverhampton Wanderers FC",
+"utc": "2026-10-13T18:45Z",
+"visita": "Bolton Wanderers FC"
+},
+{
+"fecha": "2026-10-13",
+"hora": "18:45",
+"local": "Wrexham AFC",
+"utc": "2026-10-13T18:45Z",
+"visita": "West Bromwich Albion FC"
+},
+{
+"fecha": "2026-10-13",
+"hora": "18:45",
+"local": "Millwall FC",
+"utc": "2026-10-13T18:45Z",
+"visita": "Swansea City AFC"
+},
+{
+"fecha": "2026-10-13",
+"hora": "18:45",
+"local": "Cardiff City FC",
+"utc": "2026-10-13T18:45Z",
+"visita": "Watford FC"
+},
+{
+"fecha": "2026-10-13",
+"hora": "18:45",
+"local": "Burnley FC",
+"utc": "2026-10-13T18:45Z",
+"visita": "Charlton Athletic FC"
+},
+{
+"fecha": "2026-10-13",
+"hora": "18:45",
+"local": "Bristol City FC",
+"utc": "2026-10-13T18:45Z",
+"visita": "Blackburn Rovers FC"
+},
+{
+"fecha": "2026-10-13",
+"hora": "18:45",
+"local": "Birmingham City FC",
+"utc": "2026-10-13T18:45Z",
+"visita": "Preston North End FC"
+},
+{
+"fecha": "2026-10-13",
+"hora": "19:00",
+"local": "Stoke City FC",
+"utc": "2026-10-13T19:00Z",
+"visita": "Middlesbrough FC"
+},
+{
+"fecha": "2026-10-14",
+"hora": "18:45",
+"local": "Portsmouth FC",
+"utc": "2026-10-14T18:45Z",
+"visita": "Sheffield United FC"
+},
+{
+"fecha": "2026-10-14",
+"hora": "18:45",
+"local": "Norwich City FC",
+"utc": "2026-10-14T18:45Z",
+"visita": "Southampton FC"
+},
+{
+"fecha": "2026-10-14",
+"hora": "18:45",
+"local": "Queens Park Rangers FC",
+"utc": "2026-10-14T18:45Z",
+"visita": "Derby County FC"
+},
+{
+"fecha": "2026-10-14",
+"hora": "19:00",
+"local": "Lincoln City FC",
+"utc": "2026-10-14T19:00Z",
+"visita": "West Ham United FC"
+},
+{
+"fecha": "2026-10-16",
+"hora": "19:00",
+"local": "Burnley FC",
+"utc": "2026-10-16T19:00Z",
+"visita": "Wolverhampton Wanderers FC"
+},
+{
+"fecha": "2026-10-17",
+"hora": "11:30",
+"local": "Millwall FC",
+"utc": "2026-10-17T11:30Z",
+"visita": "Lincoln City FC"
+},
+{
+"fecha": "2026-10-17",
+"hora": "11:30",
+"local": "Middlesbrough FC",
+"utc": "2026-10-17T11:30Z",
+"visita": "Cardiff City FC"
+},
+{
+"fecha": "2026-10-17",
+"hora": "11:30",
+"local": "Watford FC",
+"utc": "2026-10-17T11:30Z",
+"visita": "Charlton Athletic FC"
+},
+{
+"fecha": "2026-10-17",
+"hora": "14:00",
+"local": "Norwich City FC",
+"utc": "2026-10-17T14:00Z",
+"visita": "Portsmouth FC"
+},
+{
+"fecha": "2026-10-17",
+"hora": "14:00",
+"local": "Southampton FC",
+"utc": "2026-10-17T14:00Z",
+"visita": "Bolton Wanderers FC"
+},
+{
+"fecha": "2026-10-17",
+"hora": "14:00",
+"local": "Bristol City FC",
+"utc": "2026-10-17T14:00Z",
+"visita": "Sheffield United FC"
+},
+{
+"fecha": "2026-10-17",
+"hora": "14:00",
+"local": "Birmingham City FC",
+"utc": "2026-10-17T14:00Z",
+"visita": "Queens Park Rangers FC"
+},
+{
+"fecha": "2026-10-17",
+"hora": "14:00",
+"local": "Derby County FC",
+"utc": "2026-10-17T14:00Z",
+"visita": "Stoke City FC"
+},
+{
+"fecha": "2026-10-17",
+"hora": "14:00",
+"local": "Swansea City AFC",
+"utc": "2026-10-17T14:00Z",
+"visita": "West Ham United FC"
+},
+{
+"fecha": "2026-10-17",
+"hora": "14:00",
+"local": "West Bromwich Albion FC",
+"utc": "2026-10-17T14:00Z",
+"visita": "Blackburn Rovers FC"
+},
+{
+"fecha": "2026-10-17",
+"hora": "14:00",
+"local": "Wrexham AFC",
+"utc": "2026-10-17T14:00Z",
+"visita": "Preston North End FC"
+},
+{
+"fecha": "2026-10-23",
+"hora": "19:00",
+"local": "Bolton Wanderers FC",
+"utc": "2026-10-23T19:00Z",
+"visita": "Middlesbrough FC"
+},
+{
+"fecha": "2026-10-24",
+"hora": "11:30",
+"local": "Sheffield United FC",
+"utc": "2026-10-24T11:30Z",
+"visita": "Derby County FC"
+},
+{
+"fecha": "2026-10-24",
+"hora": "11:30",
+"local": "Charlton Athletic FC",
+"utc": "2026-10-24T11:30Z",
+"visita": "Norwich City FC"
+},
+{
+"fecha": "2026-10-24",
+"hora": "11:30",
+"local": "Portsmouth FC",
+"utc": "2026-10-24T11:30Z",
+"visita": "Millwall FC"
+},
+{
+"fecha": "2026-10-24",
+"hora": "14:00",
+"local": "Cardiff City FC",
+"utc": "2026-10-24T14:00Z",
+"visita": "Birmingham City FC"
+},
+{
+"fecha": "2026-10-24",
+"hora": "14:00",
+"local": "Queens Park Rangers FC",
+"utc": "2026-10-24T14:00Z",
+"visita": "Swansea City AFC"
+},
+{
+"fecha": "2026-10-24",
+"hora": "14:00",
+"local": "Stoke City FC",
+"utc": "2026-10-24T14:00Z",
+"visita": "Bristol City FC"
+},
+{
+"fecha": "2026-10-24",
+"hora": "14:00",
+"local": "Preston North End FC",
+"utc": "2026-10-24T14:00Z",
+"visita": "West Bromwich Albion FC"
+},
+{
+"fecha": "2026-10-24",
+"hora": "14:00",
+"local": "Lincoln City FC",
+"utc": "2026-10-24T14:00Z",
+"visita": "Burnley FC"
+},
+{
+"fecha": "2026-10-24",
+"hora": "14:00",
+"local": "West Ham United FC",
+"utc": "2026-10-24T14:00Z",
+"visita": "Southampton FC"
+},
+{
+"fecha": "2026-10-24",
+"hora": "14:00",
+"local": "Blackburn Rovers FC",
+"utc": "2026-10-24T14:00Z",
+"visita": "Wrexham AFC"
+},
+{
+"fecha": "2026-10-24",
+"hora": "14:00",
+"local": "Wolverhampton Wanderers FC",
+"utc": "2026-10-24T14:00Z",
+"visita": "Watford FC"
+},
+{
+"fecha": "2026-10-30",
+"hora": "20:00",
+"local": "Sheffield United FC",
+"utc": "2026-10-30T20:00Z",
+"visita": "Wrexham AFC"
+},
+{
+"fecha": "2026-10-31",
+"hora": "12:30",
+"local": "Stoke City FC",
+"utc": "2026-10-31T12:30Z",
+"visita": "Preston North End FC"
+},
+{
+"fecha": "2026-10-31",
+"hora": "12:30",
+"local": "Norwich City FC",
+"utc": "2026-10-31T12:30Z",
+"visita": "Watford FC"
+},
+{
+"fecha": "2026-10-31",
+"hora": "12:30",
+"local": "Lincoln City FC",
+"utc": "2026-10-31T12:30Z",
+"visita": "Birmingham City FC"
+},
+{
+"fecha": "2026-10-31",
+"hora": "15:00",
+"local": "Wolverhampton Wanderers FC",
+"utc": "2026-10-31T15:00Z",
+"visita": "Cardiff City FC"
+},
+{
+"fecha": "2026-10-31",
+"hora": "15:00",
+"local": "West Ham United FC",
+"utc": "2026-10-31T15:00Z",
+"visita": "West Bromwich Albion FC"
+},
+{
+"fecha": "2026-10-31",
+"hora": "15:00",
+"local": "Swansea City AFC",
+"utc": "2026-10-31T15:00Z",
+"visita": "Blackburn Rovers FC"
+},
+{
+"fecha": "2026-10-31",
+"hora": "15:00",
+"local": "Bolton Wanderers FC",
+"utc": "2026-10-31T15:00Z",
+"visita": "Bristol City FC"
+},
+{
+"fecha": "2026-10-31",
+"hora": "15:00",
+"local": "Middlesbrough FC",
+"utc": "2026-10-31T15:00Z",
+"visita": "Charlton Athletic FC"
+},
+{
+"fecha": "2026-10-31",
+"hora": "15:00",
+"local": "Burnley FC",
+"utc": "2026-10-31T15:00Z",
+"visita": "Portsmouth FC"
+},
+{
+"fecha": "2026-10-31",
+"hora": "15:00",
+"local": "Millwall FC",
+"utc": "2026-10-31T15:00Z",
+"visita": "Derby County FC"
+},
+{
+"fecha": "2026-10-31",
+"hora": "15:00",
+"local": "Southampton FC",
+"utc": "2026-10-31T15:00Z",
+"visita": "Queens Park Rangers FC"
+},
+{
+"fecha": "2026-11-03",
+"hora": "19:45",
+"local": "Queens Park Rangers FC",
+"utc": "2026-11-03T19:45Z",
+"visita": "Burnley FC"
+},
+{
+"fecha": "2026-11-03",
+"hora": "19:45",
+"local": "Derby County FC",
+"utc": "2026-11-03T19:45Z",
+"visita": "Norwich City FC"
+},
+{
+"fecha": "2026-11-03",
+"hora": "19:45",
+"local": "Blackburn Rovers FC",
+"utc": "2026-11-03T19:45Z",
+"visita": "Stoke City FC"
+},
+{
+"fecha": "2026-11-03",
+"hora": "19:45",
+"local": "Watford FC",
+"utc": "2026-11-03T19:45Z",
+"visita": "Lincoln City FC"
+},
+{
+"fecha": "2026-11-03",
+"hora": "19:45",
+"local": "Charlton Athletic FC",
+"utc": "2026-11-03T19:45Z",
+"visita": "Bolton Wanderers FC"
+},
+{
+"fecha": "2026-11-03",
+"hora": "19:45",
+"local": "Birmingham City FC",
+"utc": "2026-11-03T19:45Z",
+"visita": "Millwall FC"
+},
+{
+"fecha": "2026-11-03",
+"hora": "19:45",
+"local": "Portsmouth FC",
+"utc": "2026-11-03T19:45Z",
+"visita": "Swansea City AFC"
+},
+{
+"fecha": "2026-11-03",
+"hora": "19:45",
+"local": "Preston North End FC",
+"utc": "2026-11-03T19:45Z",
+"visita": "Sheffield United FC"
+},
+{
+"fecha": "2026-11-03",
+"hora": "20:00",
+"local": "West Bromwich Albion FC",
+"utc": "2026-11-03T20:00Z",
+"visita": "Southampton FC"
+},
+{
+"fecha": "2026-11-04",
+"hora": "19:45",
+"local": "Cardiff City FC",
+"utc": "2026-11-04T19:45Z",
+"visita": "West Ham United FC"
+},
+{
+"fecha": "2026-11-04",
+"hora": "19:45",
+"local": "Wrexham AFC",
+"utc": "2026-11-04T19:45Z",
+"visita": "Middlesbrough FC"
+},
+{
+"fecha": "2026-11-04",
+"hora": "20:00",
+"local": "Bristol City FC",
+"utc": "2026-11-04T20:00Z",
+"visita": "Wolverhampton Wanderers FC"
+},
+{
+"fecha": "2026-11-06",
+"hora": "20:00",
+"local": "Derby County FC",
+"utc": "2026-11-06T20:00Z",
+"visita": "Bolton Wanderers FC"
+},
+{
+"fecha": "2026-11-07",
+"hora": "12:30",
+"local": "Wrexham AFC",
+"utc": "2026-11-07T12:30Z",
+"visita": "Wolverhampton Wanderers FC"
+},
+{
+"fecha": "2026-11-07",
+"hora": "12:30",
+"local": "Portsmouth FC",
+"utc": "2026-11-07T12:30Z",
+"visita": "Stoke City FC"
+},
+{
+"fecha": "2026-11-07",
+"hora": "12:30",
+"local": "Bristol City FC",
+"utc": "2026-11-07T12:30Z",
+"visita": "Norwich City FC"
+},
+{
+"fecha": "2026-11-07",
+"hora": "15:00",
+"local": "Queens Park Rangers FC",
+"utc": "2026-11-07T15:00Z",
+"visita": "Lincoln City FC"
+},
+{
+"fecha": "2026-11-07",
+"hora": "15:00",
+"local": "Cardiff City FC",
+"utc": "2026-11-07T15:00Z",
+"visita": "Burnley FC"
+},
+{
+"fecha": "2026-11-07",
+"hora": "15:00",
+"local": "Charlton Athletic FC",
+"utc": "2026-11-07T15:00Z",
+"visita": "Sheffield United FC"
+},
+{
+"fecha": "2026-11-07",
+"hora": "15:00",
+"local": "Watford FC",
+"utc": "2026-11-07T15:00Z",
+"visita": "Middlesbrough FC"
+},
+{
+"fecha": "2026-11-07",
+"hora": "15:00",
+"local": "Blackburn Rovers FC",
+"utc": "2026-11-07T15:00Z",
+"visita": "West Ham United FC"
+},
+{
+"fecha": "2026-11-07",
+"hora": "15:00",
+"local": "West Bromwich Albion FC",
+"utc": "2026-11-07T15:00Z",
+"visita": "Millwall FC"
+},
+{
+"fecha": "2026-11-07",
+"hora": "15:00",
+"local": "Preston North End FC",
+"utc": "2026-11-07T15:00Z",
+"visita": "Southampton FC"
+},
+{
+"fecha": "2026-11-07",
+"hora": "15:00",
+"local": "Birmingham City FC",
+"utc": "2026-11-07T15:00Z",
+"visita": "Swansea City AFC"
+},
+{
+"fecha": "2026-11-21",
+"hora": "12:30",
+"local": "Sheffield United FC",
+"utc": "2026-11-21T12:30Z",
+"visita": "Watford FC"
+},
+{
+"fecha": "2026-11-21",
+"hora": "12:30",
+"local": "Southampton FC",
+"utc": "2026-11-21T12:30Z",
+"visita": "Derby County FC"
+},
+{
+"fecha": "2026-11-21",
+"hora": "12:30",
+"local": "Millwall FC",
+"utc": "2026-11-21T12:30Z",
+"visita": "Queens Park Rangers FC"
+},
+{
+"fecha": "2026-11-21",
+"hora": "15:00",
+"local": "Swansea City AFC",
+"utc": "2026-11-21T15:00Z",
+"visita": "West Bromwich Albion FC"
+},
+{
+"fecha": "2026-11-21",
+"hora": "15:00",
+"local": "Middlesbrough FC",
+"utc": "2026-11-21T15:00Z",
+"visita": "Bristol City FC"
+},
+{
+"fecha": "2026-11-21",
+"hora": "15:00",
+"local": "Bolton Wanderers FC",
+"utc": "2026-11-21T15:00Z",
+"visita": "Portsmouth FC"
+},
+{
+"fecha": "2026-11-21",
+"hora": "15:00",
+"local": "Stoke City FC",
+"utc": "2026-11-21T15:00Z",
+"visita": "Birmingham City FC"
+},
+{
+"fecha": "2026-11-21",
+"hora": "15:00",
+"local": "Norwich City FC",
+"utc": "2026-11-21T15:00Z",
+"visita": "Cardiff City FC"
+},
+{
+"fecha": "2026-11-21",
+"hora": "15:00",
+"local": "Lincoln City FC",
+"utc": "2026-11-21T15:00Z",
+"visita": "Wrexham AFC"
+},
+{
+"fecha": "2026-11-21",
+"hora": "15:00",
+"local": "West Ham United FC",
+"utc": "2026-11-21T15:00Z",
+"visita": "Preston North End FC"
+},
+{
+"fecha": "2026-11-21",
+"hora": "15:00",
+"local": "Wolverhampton Wanderers FC",
+"utc": "2026-11-21T15:00Z",
+"visita": "Charlton Athletic FC"
+},
+{
+"fecha": "2026-11-22",
+"hora": "12:00",
+"local": "Burnley FC",
+"utc": "2026-11-22T12:00Z",
+"visita": "Blackburn Rovers FC"
+},
+{
+"fecha": "2026-11-24",
+"hora": "19:45",
+"local": "Cardiff City FC",
+"utc": "2026-11-24T19:45Z",
+"visita": "Preston North End FC"
+},
+{
+"fecha": "2026-11-24",
+"hora": "19:45",
+"local": "Middlesbrough FC",
+"utc": "2026-11-24T19:45Z",
+"visita": "Swansea City AFC"
+},
+{
+"fecha": "2026-11-24",
+"hora": "19:45",
+"local": "Portsmouth FC",
+"utc": "2026-11-24T19:45Z",
+"visita": "West Ham United FC"
+},
+{
+"fecha": "2026-11-24",
+"hora": "19:45",
+"local": "Sheffield United FC",
+"utc": "2026-11-24T19:45Z",
+"visita": "Southampton FC"
+},
+{
+"fecha": "2026-11-24",
+"hora": "19:45",
+"local": "Charlton Athletic FC",
+"utc": "2026-11-24T19:45Z",
+"visita": "Lincoln City FC"
+},
+{
+"fecha": "2026-11-24",
+"hora": "19:45",
+"local": "Bristol City FC",
+"utc": "2026-11-24T19:45Z",
+"visita": "Wrexham AFC"
+},
+{
+"fecha": "2026-11-24",
+"hora": "19:45",
+"local": "Norwich City FC",
+"utc": "2026-11-24T19:45Z",
+"visita": "Queens Park Rangers FC"
+},
+{
+"fecha": "2026-11-24",
+"hora": "20:00",
+"local": "Wolverhampton Wanderers FC",
+"utc": "2026-11-24T20:00Z",
+"visita": "Derby County FC"
+},
+{
+"fecha": "2026-11-25",
+"hora": "19:45",
+"local": "Watford FC",
+"utc": "2026-11-25T19:45Z",
+"visita": "Blackburn Rovers FC"
+},
+{
+"fecha": "2026-11-25",
+"hora": "19:45",
+"local": "Bolton Wanderers FC",
+"utc": "2026-11-25T19:45Z",
+"visita": "West Bromwich Albion FC"
+},
+{
+"fecha": "2026-11-25",
+"hora": "19:45",
+"local": "Burnley FC",
+"utc": "2026-11-25T19:45Z",
+"visita": "Birmingham City FC"
+},
+{
+"fecha": "2026-11-25",
+"hora": "20:00",
+"local": "Stoke City FC",
+"utc": "2026-11-25T20:00Z",
+"visita": "Millwall FC"
+},
+{
+"fecha": "2026-11-27",
+"hora": "20:00",
+"local": "Southampton FC",
+"utc": "2026-11-27T20:00Z",
+"visita": "Middlesbrough FC"
+},
+{
+"fecha": "2026-11-28",
+"hora": "12:30",
+"local": "Blackburn Rovers FC",
+"utc": "2026-11-28T12:30Z",
+"visita": "Charlton Athletic FC"
+},
+{
+"fecha": "2026-11-28",
+"hora": "12:30",
+"local": "Lincoln City FC",
+"utc": "2026-11-28T12:30Z",
+"visita": "Wolverhampton Wanderers FC"
+},
+{
+"fecha": "2026-11-28",
+"hora": "12:30",
+"local": "Preston North End FC",
+"utc": "2026-11-28T12:30Z",
+"visita": "Norwich City FC"
+},
+{
+"fecha": "2026-11-28",
+"hora": "15:00",
+"local": "Wrexham AFC",
+"utc": "2026-11-28T15:00Z",
+"visita": "Portsmouth FC"
+},
+{
+"fecha": "2026-11-28",
+"hora": "15:00",
+"local": "Queens Park Rangers FC",
+"utc": "2026-11-28T15:00Z",
+"visita": "Sheffield United FC"
+},
+{
+"fecha": "2026-11-28",
+"hora": "15:00",
+"local": "Millwall FC",
+"utc": "2026-11-28T15:00Z",
+"visita": "Burnley FC"
+},
+{
+"fecha": "2026-11-28",
+"hora": "15:00",
+"local": "Birmingham City FC",
+"utc": "2026-11-28T15:00Z",
+"visita": "Bolton Wanderers FC"
+},
+{
+"fecha": "2026-11-28",
+"hora": "15:00",
+"local": "Derby County FC",
+"utc": "2026-11-28T15:00Z",
+"visita": "Watford FC"
+},
+{
+"fecha": "2026-11-28",
+"hora": "15:00",
+"local": "West Ham United FC",
+"utc": "2026-11-28T15:00Z",
+"visita": "Stoke City FC"
+},
+{
+"fecha": "2026-11-28",
+"hora": "15:00",
+"local": "West Bromwich Albion FC",
+"utc": "2026-11-28T15:00Z",
+"visita": "Bristol City FC"
+},
+{
+"fecha": "2026-11-29",
+"hora": "12:00",
+"local": "Swansea City AFC",
+"utc": "2026-11-29T12:00Z",
+"visita": "Cardiff City FC"
+},
+{
+"fecha": "2026-12-04",
+"hora": "20:00",
+"local": "Sheffield United FC",
+"utc": "2026-12-04T20:00Z",
+"visita": "West Ham United FC"
+},
+{
+"fecha": "2026-12-05",
+"hora": "12:30",
+"local": "Bristol City FC",
+"utc": "2026-12-05T12:30Z",
+"visita": "Swansea City AFC"
+},
+{
+"fecha": "2026-12-05",
+"hora": "12:30",
+"local": "Bolton Wanderers FC",
+"utc": "2026-12-05T12:30Z",
+"visita": "Blackburn Rovers FC"
+},
+{
+"fecha": "2026-12-05",
+"hora": "12:30",
+"local": "Middlesbrough FC",
+"utc": "2026-12-05T12:30Z",
+"visita": "Derby County FC"
+},
+{
+"fecha": "2026-12-05",
+"hora": "15:00",
+"local": "Cardiff City FC",
+"utc": "2026-12-05T15:00Z",
+"visita": "Lincoln City FC"
+},
+{
+"fecha": "2026-12-05",
+"hora": "15:00",
+"local": "Norwich City FC",
+"utc": "2026-12-05T15:00Z",
+"visita": "Wrexham AFC"
+},
+{
+"fecha": "2026-12-05",
+"hora": "15:00",
+"local": "Charlton Athletic FC",
+"utc": "2026-12-05T15:00Z",
+"visita": "Birmingham City FC"
+},
+{
+"fecha": "2026-12-05",
+"hora": "15:00",
+"local": "Wolverhampton Wanderers FC",
+"utc": "2026-12-05T15:00Z",
+"visita": "Southampton FC"
+},
+{
+"fecha": "2026-12-05",
+"hora": "15:00",
+"local": "Watford FC",
+"utc": "2026-12-05T15:00Z",
+"visita": "Millwall FC"
+},
+{
+"fecha": "2026-12-05",
+"hora": "15:00",
+"local": "Portsmouth FC",
+"utc": "2026-12-05T15:00Z",
+"visita": "West Bromwich Albion FC"
+},
+{
+"fecha": "2026-12-05",
+"hora": "15:00",
+"local": "Stoke City FC",
+"utc": "2026-12-05T15:00Z",
+"visita": "Queens Park Rangers FC"
+},
+{
+"fecha": "2026-12-06",
+"hora": "12:00",
+"local": "Burnley FC",
+"utc": "2026-12-06T12:00Z",
+"visita": "Preston North End FC"
+},
+{
+"fecha": "2026-12-08",
+"hora": "19:45",
+"local": "Blackburn Rovers FC",
+"utc": "2026-12-08T19:45Z",
+"visita": "Norwich City FC"
+},
+{
+"fecha": "2026-12-08",
+"hora": "19:45",
+"local": "West Bromwich Albion FC",
+"utc": "2026-12-08T19:45Z",
+"visita": "Cardiff City FC"
+},
+{
+"fecha": "2026-12-08",
+"hora": "19:45",
+"local": "Wrexham AFC",
+"utc": "2026-12-08T19:45Z",
+"visita": "Charlton Athletic FC"
+},
+{
+"fecha": "2026-12-08",
+"hora": "19:45",
+"local": "Millwall FC",
+"utc": "2026-12-08T19:45Z",
+"visita": "Sheffield United FC"
+},
+{
+"fecha": "2026-12-08",
+"hora": "19:45",
+"local": "Swansea City AFC",
+"utc": "2026-12-08T19:45Z",
+"visita": "Bolton Wanderers FC"
+},
+{
+"fecha": "2026-12-08",
+"hora": "19:45",
+"local": "Queens Park Rangers FC",
+"utc": "2026-12-08T19:45Z",
+"visita": "Wolverhampton Wanderers FC"
+},
+{
+"fecha": "2026-12-08",
+"hora": "19:45",
+"local": "Birmingham City FC",
+"utc": "2026-12-08T19:45Z",
+"visita": "Watford FC"
+},
+{
+"fecha": "2026-12-08",
+"hora": "20:45",
+"local": "West Ham United FC",
+"utc": "2026-12-08T20:45Z",
+"visita": "Middlesbrough FC"
+},
+{
+"fecha": "2026-12-09",
+"hora": "19:45",
+"local": "Preston North End FC",
+"utc": "2026-12-09T19:45Z",
+"visita": "Portsmouth FC"
+},
+{
+"fecha": "2026-12-09",
+"hora": "19:45",
+"local": "Lincoln City FC",
+"utc": "2026-12-09T19:45Z",
+"visita": "Stoke City FC"
+},
+{
+"fecha": "2026-12-09",
+"hora": "19:45",
+"local": "Derby County FC",
+"utc": "2026-12-09T19:45Z",
+"visita": "Bristol City FC"
+},
+{
+"fecha": "2026-12-09",
+"hora": "20:00",
+"local": "Southampton FC",
+"utc": "2026-12-09T20:00Z",
+"visita": "Burnley FC"
+},
+{
+"fecha": "2026-12-11",
+"hora": "20:00",
+"local": "Bolton Wanderers FC",
+"utc": "2026-12-11T20:00Z",
+"visita": "Wrexham AFC"
+},
+{
+"fecha": "2026-12-12",
+"hora": "12:30",
+"local": "Preston North End FC",
+"utc": "2026-12-12T12:30Z",
+"visita": "Middlesbrough FC"
+},
+{
+"fecha": "2026-12-12",
+"hora": "12:30",
+"local": "Queens Park Rangers FC",
+"utc": "2026-12-12T12:30Z",
+"visita": "Watford FC"
+},
+{
+"fecha": "2026-12-12",
+"hora": "12:30",
+"local": "Stoke City FC",
+"utc": "2026-12-12T12:30Z",
+"visita": "West Bromwich Albion FC"
+},
+{
+"fecha": "2026-12-12",
+"hora": "15:00",
+"local": "Charlton Athletic FC",
+"utc": "2026-12-12T15:00Z",
+"visita": "Swansea City AFC"
+},
+{
+"fecha": "2026-12-12",
+"hora": "15:00",
+"local": "West Ham United FC",
+"utc": "2026-12-12T15:00Z",
+"visita": "Bristol City FC"
+},
+{
+"fecha": "2026-12-12",
+"hora": "15:00",
+"local": "Lincoln City FC",
+"utc": "2026-12-12T15:00Z",
+"visita": "Norwich City FC"
+},
+{
+"fecha": "2026-12-12",
+"hora": "15:00",
+"local": "Blackburn Rovers FC",
+"utc": "2026-12-12T15:00Z",
+"visita": "Derby County FC"
+},
+{
+"fecha": "2026-12-12",
+"hora": "15:00",
+"local": "Portsmouth FC",
+"utc": "2026-12-12T15:00Z",
+"visita": "Birmingham City FC"
+},
+{
+"fecha": "2026-12-12",
+"hora": "15:00",
+"local": "Sheffield United FC",
+"utc": "2026-12-12T15:00Z",
+"visita": "Burnley FC"
+},
+{
+"fecha": "2026-12-12",
+"hora": "15:00",
+"local": "Wolverhampton Wanderers FC",
+"utc": "2026-12-12T15:00Z",
+"visita": "Millwall FC"
+},
+{
+"fecha": "2026-12-12",
+"hora": "15:00",
+"local": "Cardiff City FC",
+"utc": "2026-12-12T15:00Z",
+"visita": "Southampton FC"
+},
+{
+"fecha": "2026-12-18",
+"hora": "20:00",
+"local": "West Bromwich Albion FC",
+"utc": "2026-12-18T20:00Z",
+"visita": "Sheffield United FC"
+},
+{
+"fecha": "2026-12-19",
+"hora": "12:30",
+"local": "Bristol City FC",
+"utc": "2026-12-19T12:30Z",
+"visita": "Cardiff City FC"
+},
+{
+"fecha": "2026-12-19",
+"hora": "12:30",
+"local": "Millwall FC",
+"utc": "2026-12-19T12:30Z",
+"visita": "Charlton Athletic FC"
+},
+{
+"fecha": "2026-12-19",
+"hora": "12:30",
+"local": "Birmingham City FC",
+"utc": "2026-12-19T12:30Z",
+"visita": "West Ham United FC"
+},
+{
+"fecha": "2026-12-19",
+"hora": "12:30",
+"local": "Swansea City AFC",
+"utc": "2026-12-19T12:30Z",
+"visita": "Preston North End FC"
+},
+{
+"fecha": "2026-12-19",
+"hora": "12:30",
+"local": "Watford FC",
+"utc": "2026-12-19T12:30Z",
+"visita": "Bolton Wanderers FC"
+},
+{
+"fecha": "2026-12-19",
+"hora": "15:00",
+"local": "Middlesbrough FC",
+"utc": "2026-12-19T15:00Z",
+"visita": "Portsmouth FC"
+},
+{
+"fecha": "2026-12-19",
+"hora": "15:00",
+"local": "Norwich City FC",
+"utc": "2026-12-19T15:00Z",
+"visita": "Wolverhampton Wanderers FC"
+},
+{
+"fecha": "2026-12-19",
+"hora": "15:00",
+"local": "Burnley FC",
+"utc": "2026-12-19T15:00Z",
+"visita": "Stoke City FC"
+},
+{
+"fecha": "2026-12-19",
+"hora": "15:00",
+"local": "Derby County FC",
+"utc": "2026-12-19T15:00Z",
+"visita": "Lincoln City FC"
+},
+{
+"fecha": "2026-12-19",
+"hora": "15:00",
+"local": "Wrexham AFC",
+"utc": "2026-12-19T15:00Z",
+"visita": "Queens Park Rangers FC"
+},
+{
+"fecha": "2026-12-19",
+"hora": "15:00",
+"local": "Southampton FC",
+"utc": "2026-12-19T15:00Z",
+"visita": "Blackburn Rovers FC"
+},
+{
+"fecha": "2026-12-26",
+"hora": "12:30",
+"local": "Bolton Wanderers FC",
+"utc": "2026-12-26T12:30Z",
+"visita": "Burnley FC"
+},
+{
+"fecha": "2026-12-26",
+"hora": "12:30",
+"local": "Sheffield United FC",
+"utc": "2026-12-26T12:30Z",
+"visita": "Middlesbrough FC"
+},
+{
+"fecha": "2026-12-26",
+"hora": "15:00",
+"local": "Portsmouth FC",
+"utc": "2026-12-26T15:00Z",
+"visita": "Watford FC"
+},
+{
+"fecha": "2026-12-26",
+"hora": "15:00",
+"local": "Blackburn Rovers FC",
+"utc": "2026-12-26T15:00Z",
+"visita": "Birmingham City FC"
+},
+{
+"fecha": "2026-12-26",
+"hora": "15:00",
+"local": "West Ham United FC",
+"utc": "2026-12-26T15:00Z",
+"visita": "Norwich City FC"
+},
+{
+"fecha": "2026-12-26",
+"hora": "15:00",
+"local": "Wolverhampton Wanderers FC",
+"utc": "2026-12-26T15:00Z",
+"visita": "Swansea City AFC"
+},
+{
+"fecha": "2026-12-26",
+"hora": "15:00",
+"local": "Queens Park Rangers FC",
+"utc": "2026-12-26T15:00Z",
+"visita": "Bristol City FC"
+},
+{
+"fecha": "2026-12-26",
+"hora": "15:00",
+"local": "Stoke City FC",
+"utc": "2026-12-26T15:00Z",
+"visita": "Wrexham AFC"
+},
+{
+"fecha": "2026-12-26",
+"hora": "15:00",
+"local": "Cardiff City FC",
+"utc": "2026-12-26T15:00Z",
+"visita": "Millwall FC"
+},
+{
+"fecha": "2026-12-26",
+"hora": "15:00",
+"local": "Lincoln City FC",
+"utc": "2026-12-26T15:00Z",
+"visita": "West Bromwich Albion FC"
+},
+{
+"fecha": "2026-12-26",
+"hora": "15:00",
+"local": "Preston North End FC",
+"utc": "2026-12-26T15:00Z",
+"visita": "Derby County FC"
+},
+{
+"fecha": "2026-12-26",
+"hora": "15:00",
+"local": "Charlton Athletic FC",
+"utc": "2026-12-26T15:00Z",
+"visita": "Southampton FC"
+},
+{
+"fecha": "2026-12-29",
+"hora": "18:00",
+"local": "Wrexham AFC",
+"utc": "2026-12-29T18:00Z",
+"visita": "Blackburn Rovers FC"
+},
+{
+"fecha": "2026-12-29",
+"hora": "19:45",
+"local": "West Bromwich Albion FC",
+"utc": "2026-12-29T19:45Z",
+"visita": "Preston North End FC"
+},
+{
+"fecha": "2026-12-29",
+"hora": "19:45",
+"local": "Derby County FC",
+"utc": "2026-12-29T19:45Z",
+"visita": "Sheffield United FC"
+},
+{
+"fecha": "2026-12-29",
+"hora": "19:45",
+"local": "Swansea City AFC",
+"utc": "2026-12-29T19:45Z",
+"visita": "Queens Park Rangers FC"
+},
+{
+"fecha": "2026-12-29",
+"hora": "19:45",
+"local": "Watford FC",
+"utc": "2026-12-29T19:45Z",
+"visita": "Wolverhampton Wanderers FC"
+},
+{
+"fecha": "2026-12-29",
+"hora": "19:45",
+"local": "Norwich City FC",
+"utc": "2026-12-29T19:45Z",
+"visita": "Charlton Athletic FC"
+},
+{
+"fecha": "2026-12-29",
+"hora": "19:45",
+"local": "Burnley FC",
+"utc": "2026-12-29T19:45Z",
+"visita": "Lincoln City FC"
+},
+{
+"fecha": "2026-12-29",
+"hora": "19:45",
+"local": "Birmingham City FC",
+"utc": "2026-12-29T19:45Z",
+"visita": "Cardiff City FC"
+},
+{
+"fecha": "2026-12-29",
+"hora": "19:45",
+"local": "Middlesbrough FC",
+"utc": "2026-12-29T19:45Z",
+"visita": "Bolton Wanderers FC"
+},
+{
+"fecha": "2026-12-29",
+"hora": "19:45",
+"local": "Bristol City FC",
+"utc": "2026-12-29T19:45Z",
+"visita": "Stoke City FC"
+},
+{
+"fecha": "2026-12-29",
+"hora": "19:45",
+"local": "Millwall FC",
+"utc": "2026-12-29T19:45Z",
+"visita": "Portsmouth FC"
+},
+{
+"fecha": "2026-12-29",
+"hora": "20:15",
+"local": "Southampton FC",
+"utc": "2026-12-29T20:15Z",
+"visita": "West Ham United FC"
+},
+{
+"fecha": "2027-01-01",
+"hora": "00:00",
+"local": "Middlesbrough FC",
+"utc": "2027-01-01T00:00Z",
+"visita": "Preston North End FC"
+},
+{
+"fecha": "2027-01-01",
+"hora": "00:00",
+"local": "Southampton FC",
+"utc": "2027-01-01T00:00Z",
+"visita": "Cardiff City FC"
+},
+{
+"fecha": "2027-01-01",
+"hora": "00:00",
+"local": "Watford FC",
+"utc": "2027-01-01T00:00Z",
+"visita": "Queens Park Rangers FC"
+},
+{
+"fecha": "2027-01-01",
+"hora": "00:00",
+"local": "Burnley FC",
+"utc": "2027-01-01T00:00Z",
+"visita": "Sheffield United FC"
+},
+{
+"fecha": "2027-01-01",
+"hora": "00:00",
+"local": "Derby County FC",
+"utc": "2027-01-01T00:00Z",
+"visita": "Blackburn Rovers FC"
+},
+{
+"fecha": "2027-01-01",
+"hora": "00:00",
+"local": "Birmingham City FC",
+"utc": "2027-01-01T00:00Z",
+"visita": "Portsmouth FC"
+},
+{
+"fecha": "2027-01-01",
+"hora": "00:00",
+"local": "West Bromwich Albion FC",
+"utc": "2027-01-01T00:00Z",
+"visita": "Stoke City FC"
+},
+{
+"fecha": "2027-01-01",
+"hora": "00:00",
+"local": "Norwich City FC",
+"utc": "2027-01-01T00:00Z",
+"visita": "Lincoln City FC"
+},
+{
+"fecha": "2027-01-01",
+"hora": "00:00",
+"local": "Swansea City AFC",
+"utc": "2027-01-01T00:00Z",
+"visita": "Charlton Athletic FC"
+},
+{
+"fecha": "2027-01-01",
+"hora": "00:00",
+"local": "Wrexham AFC",
+"utc": "2027-01-01T00:00Z",
+"visita": "Bolton Wanderers FC"
+},
+{
+"fecha": "2027-01-01",
+"hora": "00:00",
+"local": "Millwall FC",
+"utc": "2027-01-01T00:00Z",
+"visita": "Wolverhampton Wanderers FC"
+},
+{
+"fecha": "2027-01-01",
+"hora": "00:00",
+"local": "Bristol City FC",
+"utc": "2027-01-01T00:00Z",
+"visita": "West Ham United FC"
+},
+{
+"fecha": "2027-01-16",
+"hora": "00:00",
+"local": "Stoke City FC",
+"utc": "2027-01-16T00:00Z",
+"visita": "Derby County FC"
+},
+{
+"fecha": "2027-01-16",
+"hora": "00:00",
+"local": "Charlton Athletic FC",
+"utc": "2027-01-16T00:00Z",
+"visita": "Watford FC"
+},
+{
+"fecha": "2027-01-16",
+"hora": "00:00",
+"local": "Wolverhampton Wanderers FC",
+"utc": "2027-01-16T00:00Z",
+"visita": "Burnley FC"
+},
+{
+"fecha": "2027-01-16",
+"hora": "00:00",
+"local": "Preston North End FC",
+"utc": "2027-01-16T00:00Z",
+"visita": "Wrexham AFC"
+},
+{
+"fecha": "2027-01-16",
+"hora": "00:00",
+"local": "Cardiff City FC",
+"utc": "2027-01-16T00:00Z",
+"visita": "Middlesbrough FC"
+},
+{
+"fecha": "2027-01-16",
+"hora": "00:00",
+"local": "Lincoln City FC",
+"utc": "2027-01-16T00:00Z",
+"visita": "Millwall FC"
+},
+{
+"fecha": "2027-01-16",
+"hora": "00:00",
+"local": "Portsmouth FC",
+"utc": "2027-01-16T00:00Z",
+"visita": "Norwich City FC"
+},
+{
+"fecha": "2027-01-16",
+"hora": "00:00",
+"local": "Queens Park Rangers FC",
+"utc": "2027-01-16T00:00Z",
+"visita": "Birmingham City FC"
+},
+{
+"fecha": "2027-01-16",
+"hora": "00:00",
+"local": "Sheffield United FC",
+"utc": "2027-01-16T00:00Z",
+"visita": "Bristol City FC"
+},
+{
+"fecha": "2027-01-16",
+"hora": "00:00",
+"local": "West Ham United FC",
+"utc": "2027-01-16T00:00Z",
+"visita": "Swansea City AFC"
+},
+{
+"fecha": "2027-01-16",
+"hora": "00:00",
+"local": "Bolton Wanderers FC",
+"utc": "2027-01-16T00:00Z",
+"visita": "Southampton FC"
+},
+{
+"fecha": "2027-01-16",
+"hora": "00:00",
+"local": "Blackburn Rovers FC",
+"utc": "2027-01-16T00:00Z",
+"visita": "West Bromwich Albion FC"
+},
+{
+"fecha": "2027-01-23",
+"hora": "00:00",
+"local": "Wrexham AFC",
+"utc": "2027-01-23T00:00Z",
+"visita": "Sheffield United FC"
+},
+{
+"fecha": "2027-01-23",
+"hora": "00:00",
+"local": "Preston North End FC",
+"utc": "2027-01-23T00:00Z",
+"visita": "Stoke City FC"
+},
+{
+"fecha": "2027-01-23",
+"hora": "00:00",
+"local": "Cardiff City FC",
+"utc": "2027-01-23T00:00Z",
+"visita": "Wolverhampton Wanderers FC"
+},
+{
+"fecha": "2027-01-23",
+"hora": "00:00",
+"local": "Queens Park Rangers FC",
+"utc": "2027-01-23T00:00Z",
+"visita": "Southampton FC"
+},
+{
+"fecha": "2027-01-23",
+"hora": "00:00",
+"local": "Bristol City FC",
+"utc": "2027-01-23T00:00Z",
+"visita": "Bolton Wanderers FC"
+},
+{
+"fecha": "2027-01-23",
+"hora": "00:00",
+"local": "Derby County FC",
+"utc": "2027-01-23T00:00Z",
+"visita": "Millwall FC"
+},
+{
+"fecha": "2027-01-23",
+"hora": "00:00",
+"local": "Portsmouth FC",
+"utc": "2027-01-23T00:00Z",
+"visita": "Burnley FC"
+},
+{
+"fecha": "2027-01-23",
+"hora": "00:00",
+"local": "Charlton Athletic FC",
+"utc": "2027-01-23T00:00Z",
+"visita": "Middlesbrough FC"
+},
+{
+"fecha": "2027-01-23",
+"hora": "00:00",
+"local": "Birmingham City FC",
+"utc": "2027-01-23T00:00Z",
+"visita": "Lincoln City FC"
+},
+{
+"fecha": "2027-01-23",
+"hora": "00:00",
+"local": "Watford FC",
+"utc": "2027-01-23T00:00Z",
+"visita": "Norwich City FC"
+},
+{
+"fecha": "2027-01-23",
+"hora": "00:00",
+"local": "West Bromwich Albion FC",
+"utc": "2027-01-23T00:00Z",
+"visita": "West Ham United FC"
+},
+{
+"fecha": "2027-01-23",
+"hora": "00:00",
+"local": "Blackburn Rovers FC",
+"utc": "2027-01-23T00:00Z",
+"visita": "Swansea City AFC"
+},
+{
+"fecha": "2027-01-26",
+"hora": "00:00",
+"local": "Bolton Wanderers FC",
+"utc": "2027-01-26T00:00Z",
+"visita": "Charlton Athletic FC"
+},
+{
+"fecha": "2027-01-26",
+"hora": "00:00",
+"local": "Norwich City FC",
+"utc": "2027-01-26T00:00Z",
+"visita": "Derby County FC"
+},
+{
+"fecha": "2027-01-26",
+"hora": "00:00",
+"local": "Lincoln City FC",
+"utc": "2027-01-26T00:00Z",
+"visita": "Watford FC"
+},
+{
+"fecha": "2027-01-26",
+"hora": "00:00",
+"local": "Sheffield United FC",
+"utc": "2027-01-26T00:00Z",
+"visita": "Preston North End FC"
+},
+{
+"fecha": "2027-01-26",
+"hora": "00:00",
+"local": "Southampton FC",
+"utc": "2027-01-26T00:00Z",
+"visita": "West Bromwich Albion FC"
+},
+{
+"fecha": "2027-01-26",
+"hora": "00:00",
+"local": "Millwall FC",
+"utc": "2027-01-26T00:00Z",
+"visita": "Birmingham City FC"
+},
+{
+"fecha": "2027-01-26",
+"hora": "00:00",
+"local": "Stoke City FC",
+"utc": "2027-01-26T00:00Z",
+"visita": "Blackburn Rovers FC"
+},
+{
+"fecha": "2027-01-26",
+"hora": "00:00",
+"local": "Burnley FC",
+"utc": "2027-01-26T00:00Z",
+"visita": "Queens Park Rangers FC"
+},
+{
+"fecha": "2027-01-27",
+"hora": "00:00",
+"local": "Wolverhampton Wanderers FC",
+"utc": "2027-01-27T00:00Z",
+"visita": "Bristol City FC"
+},
+{
+"fecha": "2027-01-27",
+"hora": "00:00",
+"local": "Swansea City AFC",
+"utc": "2027-01-27T00:00Z",
+"visita": "Portsmouth FC"
+},
+{
+"fecha": "2027-01-27",
+"hora": "00:00",
+"local": "West Ham United FC",
+"utc": "2027-01-27T00:00Z",
+"visita": "Cardiff City FC"
+},
+{
+"fecha": "2027-01-27",
+"hora": "00:00",
+"local": "Middlesbrough FC",
+"utc": "2027-01-27T00:00Z",
+"visita": "Wrexham AFC"
+},
+{
+"fecha": "2027-01-30",
+"hora": "00:00",
+"local": "Burnley FC",
+"utc": "2027-01-30T00:00Z",
+"visita": "Cardiff City FC"
+},
+{
+"fecha": "2027-01-30",
+"hora": "00:00",
+"local": "Swansea City AFC",
+"utc": "2027-01-30T00:00Z",
+"visita": "Birmingham City FC"
+},
+{
+"fecha": "2027-01-30",
+"hora": "00:00",
+"local": "Southampton FC",
+"utc": "2027-01-30T00:00Z",
+"visita": "Preston North End FC"
+},
+{
+"fecha": "2027-01-30",
+"hora": "00:00",
+"local": "Millwall FC",
+"utc": "2027-01-30T00:00Z",
+"visita": "West Bromwich Albion FC"
+},
+{
+"fecha": "2027-01-30",
+"hora": "00:00",
+"local": "Wolverhampton Wanderers FC",
+"utc": "2027-01-30T00:00Z",
+"visita": "Wrexham AFC"
+},
+{
+"fecha": "2027-01-30",
+"hora": "00:00",
+"local": "Lincoln City FC",
+"utc": "2027-01-30T00:00Z",
+"visita": "Queens Park Rangers FC"
+},
+{
+"fecha": "2027-01-30",
+"hora": "00:00",
+"local": "Stoke City FC",
+"utc": "2027-01-30T00:00Z",
+"visita": "Portsmouth FC"
+},
+{
+"fecha": "2027-01-30",
+"hora": "00:00",
+"local": "Bolton Wanderers FC",
+"utc": "2027-01-30T00:00Z",
+"visita": "Derby County FC"
+},
+{
+"fecha": "2027-01-30",
+"hora": "00:00",
+"local": "West Ham United FC",
+"utc": "2027-01-30T00:00Z",
+"visita": "Blackburn Rovers FC"
+},
+{
+"fecha": "2027-01-30",
+"hora": "00:00",
+"local": "Middlesbrough FC",
+"utc": "2027-01-30T00:00Z",
+"visita": "Watford FC"
+},
+{
+"fecha": "2027-01-30",
+"hora": "00:00",
+"local": "Sheffield United FC",
+"utc": "2027-01-30T00:00Z",
+"visita": "Charlton Athletic FC"
+},
+{
+"fecha": "2027-01-30",
+"hora": "00:00",
+"local": "Norwich City FC",
+"utc": "2027-01-30T00:00Z",
+"visita": "Bristol City FC"
+},
+{
+"fecha": "2027-02-06",
+"hora": "00:00",
+"local": "West Bromwich Albion FC",
+"utc": "2027-02-06T00:00Z",
+"visita": "Swansea City AFC"
+},
+{
+"fecha": "2027-02-06",
+"hora": "00:00",
+"local": "Derby County FC",
+"utc": "2027-02-06T00:00Z",
+"visita": "Southampton FC"
+},
+{
+"fecha": "2027-02-06",
+"hora": "00:00",
+"local": "Watford FC",
+"utc": "2027-02-06T00:00Z",
+"visita": "Sheffield United FC"
+},
+{
+"fecha": "2027-02-06",
+"hora": "00:00",
+"local": "Preston North End FC",
+"utc": "2027-02-06T00:00Z",
+"visita": "West Ham United FC"
+},
+{
+"fecha": "2027-02-06",
+"hora": "00:00",
+"local": "Portsmouth FC",
+"utc": "2027-02-06T00:00Z",
+"visita": "Bolton Wanderers FC"
+},
+{
+"fecha": "2027-02-06",
+"hora": "00:00",
+"local": "Queens Park Rangers FC",
+"utc": "2027-02-06T00:00Z",
+"visita": "Millwall FC"
+},
+{
+"fecha": "2027-02-06",
+"hora": "00:00",
+"local": "Charlton Athletic FC",
+"utc": "2027-02-06T00:00Z",
+"visita": "Wolverhampton Wanderers FC"
+},
+{
+"fecha": "2027-02-06",
+"hora": "00:00",
+"local": "Wrexham AFC",
+"utc": "2027-02-06T00:00Z",
+"visita": "Lincoln City FC"
+},
+{
+"fecha": "2027-02-06",
+"hora": "00:00",
+"local": "Blackburn Rovers FC",
+"utc": "2027-02-06T00:00Z",
+"visita": "Burnley FC"
+},
+{
+"fecha": "2027-02-06",
+"hora": "00:00",
+"local": "Cardiff City FC",
+"utc": "2027-02-06T00:00Z",
+"visita": "Norwich City FC"
+},
+{
+"fecha": "2027-02-06",
+"hora": "00:00",
+"local": "Birmingham City FC",
+"utc": "2027-02-06T00:00Z",
+"visita": "Stoke City FC"
+},
+{
+"fecha": "2027-02-06",
+"hora": "00:00",
+"local": "Bristol City FC",
+"utc": "2027-02-06T00:00Z",
+"visita": "Middlesbrough FC"
+},
+{
+"fecha": "2027-02-13",
+"hora": "00:00",
+"local": "Bristol City FC",
+"utc": "2027-02-13T00:00Z",
+"visita": "Southampton FC"
+},
+{
+"fecha": "2027-02-13",
+"hora": "00:00",
+"local": "Queens Park Rangers FC",
+"utc": "2027-02-13T00:00Z",
+"visita": "West Bromwich Albion FC"
+},
+{
+"fecha": "2027-02-13",
+"hora": "00:00",
+"local": "Lincoln City FC",
+"utc": "2027-02-13T00:00Z",
+"visita": "Preston North End FC"
+},
+{
+"fecha": "2027-02-13",
+"hora": "00:00",
+"local": "Birmingham City FC",
+"utc": "2027-02-13T00:00Z",
+"visita": "Derby County FC"
+},
+{
+"fecha": "2027-02-13",
+"hora": "00:00",
+"local": "Norwich City FC",
+"utc": "2027-02-13T00:00Z",
+"visita": "Middlesbrough FC"
+},
+{
+"fecha": "2027-02-13",
+"hora": "00:00",
+"local": "Cardiff City FC",
+"utc": "2027-02-13T00:00Z",
+"visita": "Bolton Wanderers FC"
+},
+{
+"fecha": "2027-02-13",
+"hora": "00:00",
+"local": "Wolverhampton Wanderers FC",
+"utc": "2027-02-13T00:00Z",
+"visita": "Sheffield United FC"
+},
+{
+"fecha": "2027-02-13",
+"hora": "00:00",
+"local": "Stoke City FC",
+"utc": "2027-02-13T00:00Z",
+"visita": "Watford FC"
+},
+{
+"fecha": "2027-02-13",
+"hora": "00:00",
+"local": "Wrexham AFC",
+"utc": "2027-02-13T00:00Z",
+"visita": "West Ham United FC"
+},
+{
+"fecha": "2027-02-13",
+"hora": "00:00",
+"local": "Burnley FC",
+"utc": "2027-02-13T00:00Z",
+"visita": "Swansea City AFC"
+},
+{
+"fecha": "2027-02-13",
+"hora": "00:00",
+"local": "Portsmouth FC",
+"utc": "2027-02-13T00:00Z",
+"visita": "Charlton Athletic FC"
+},
+{
+"fecha": "2027-02-13",
+"hora": "00:00",
+"local": "Millwall FC",
+"utc": "2027-02-13T00:00Z",
+"visita": "Blackburn Rovers FC"
+},
+{
+"fecha": "2027-02-16",
+"hora": "00:00",
+"local": "Blackburn Rovers FC",
+"utc": "2027-02-16T00:00Z",
+"visita": "Bristol City FC"
+},
+{
+"fecha": "2027-02-16",
+"hora": "00:00",
+"local": "Sheffield United FC",
+"utc": "2027-02-16T00:00Z",
+"visita": "Portsmouth FC"
+},
+{
+"fecha": "2027-02-16",
+"hora": "00:00",
+"local": "West Ham United FC",
+"utc": "2027-02-16T00:00Z",
+"visita": "Lincoln City FC"
+},
+{
+"fecha": "2027-02-16",
+"hora": "00:00",
+"local": "Charlton Athletic FC",
+"utc": "2027-02-16T00:00Z",
+"visita": "Burnley FC"
+},
+{
+"fecha": "2027-02-16",
+"hora": "00:00",
+"local": "Preston North End FC",
+"utc": "2027-02-16T00:00Z",
+"visita": "Birmingham City FC"
+},
+{
+"fecha": "2027-02-16",
+"hora": "00:00",
+"local": "Watford FC",
+"utc": "2027-02-16T00:00Z",
+"visita": "Cardiff City FC"
+},
+{
+"fecha": "2027-02-16",
+"hora": "00:00",
+"local": "West Bromwich Albion FC",
+"utc": "2027-02-16T00:00Z",
+"visita": "Wrexham AFC"
+},
+{
+"fecha": "2027-02-16",
+"hora": "00:00",
+"local": "Derby County FC",
+"utc": "2027-02-16T00:00Z",
+"visita": "Queens Park Rangers FC"
+},
+{
+"fecha": "2027-02-17",
+"hora": "00:00",
+"local": "Bolton Wanderers FC",
+"utc": "2027-02-17T00:00Z",
+"visita": "Wolverhampton Wanderers FC"
+},
+{
+"fecha": "2027-02-17",
+"hora": "00:00",
+"local": "Swansea City AFC",
+"utc": "2027-02-17T00:00Z",
+"visita": "Millwall FC"
+},
+{
+"fecha": "2027-02-17",
+"hora": "00:00",
+"local": "Southampton FC",
+"utc": "2027-02-17T00:00Z",
+"visita": "Norwich City FC"
+},
+{
+"fecha": "2027-02-17",
+"hora": "00:00",
+"local": "Middlesbrough FC",
+"utc": "2027-02-17T00:00Z",
+"visita": "Stoke City FC"
+},
+{
+"fecha": "2027-02-20",
+"hora": "00:00",
+"local": "Southampton FC",
+"utc": "2027-02-20T00:00Z",
+"visita": "Wrexham AFC"
+},
+{
+"fecha": "2027-02-20",
+"hora": "00:00",
+"local": "Charlton Athletic FC",
+"utc": "2027-02-20T00:00Z",
+"visita": "Cardiff City FC"
+},
+{
+"fecha": "2027-02-20",
+"hora": "00:00",
+"local": "Swansea City AFC",
+"utc": "2027-02-20T00:00Z",
+"visita": "Lincoln City FC"
+},
+{
+"fecha": "2027-02-20",
+"hora": "00:00",
+"local": "Sheffield United FC",
+"utc": "2027-02-20T00:00Z",
+"visita": "Stoke City FC"
+},
+{
+"fecha": "2027-02-20",
+"hora": "00:00",
+"local": "Preston North End FC",
+"utc": "2027-02-20T00:00Z",
+"visita": "Queens Park Rangers FC"
+},
+{
+"fecha": "2027-02-20",
+"hora": "00:00",
+"local": "Derby County FC",
+"utc": "2027-02-20T00:00Z",
+"visita": "Burnley FC"
+},
+{
+"fecha": "2027-02-20",
+"hora": "00:00",
+"local": "Middlesbrough FC",
+"utc": "2027-02-20T00:00Z",
+"visita": "Birmingham City FC"
+},
+{
+"fecha": "2027-02-20",
+"hora": "00:00",
+"local": "Watford FC",
+"utc": "2027-02-20T00:00Z",
+"visita": "Bristol City FC"
+},
+{
+"fecha": "2027-02-20",
+"hora": "00:00",
+"local": "Blackburn Rovers FC",
+"utc": "2027-02-20T00:00Z",
+"visita": "Portsmouth FC"
+},
+{
+"fecha": "2027-02-20",
+"hora": "00:00",
+"local": "West Ham United FC",
+"utc": "2027-02-20T00:00Z",
+"visita": "Millwall FC"
+},
+{
+"fecha": "2027-02-20",
+"hora": "00:00",
+"local": "Bolton Wanderers FC",
+"utc": "2027-02-20T00:00Z",
+"visita": "Norwich City FC"
+},
+{
+"fecha": "2027-02-20",
+"hora": "00:00",
+"local": "West Bromwich Albion FC",
+"utc": "2027-02-20T00:00Z",
+"visita": "Wolverhampton Wanderers FC"
+},
+{
+"fecha": "2027-02-27",
+"hora": "00:00",
+"local": "Queens Park Rangers FC",
+"utc": "2027-02-27T00:00Z",
+"visita": "West Ham United FC"
+},
+{
+"fecha": "2027-02-27",
+"hora": "00:00",
+"local": "Portsmouth FC",
+"utc": "2027-02-27T00:00Z",
+"visita": "Southampton FC"
+},
+{
+"fecha": "2027-02-27",
+"hora": "00:00",
+"local": "Stoke City FC",
+"utc": "2027-02-27T00:00Z",
+"visita": "Bolton Wanderers FC"
+},
+{
+"fecha": "2027-02-27",
+"hora": "00:00",
+"local": "Norwich City FC",
+"utc": "2027-02-27T00:00Z",
+"visita": "Swansea City AFC"
+},
+{
+"fecha": "2027-02-27",
+"hora": "00:00",
+"local": "Wrexham AFC",
+"utc": "2027-02-27T00:00Z",
+"visita": "Derby County FC"
+},
+{
+"fecha": "2027-02-27",
+"hora": "00:00",
+"local": "Wolverhampton Wanderers FC",
+"utc": "2027-02-27T00:00Z",
+"visita": "Middlesbrough FC"
+},
+{
+"fecha": "2027-02-27",
+"hora": "00:00",
+"local": "Bristol City FC",
+"utc": "2027-02-27T00:00Z",
+"visita": "Charlton Athletic FC"
+},
+{
+"fecha": "2027-02-27",
+"hora": "00:00",
+"local": "Birmingham City FC",
+"utc": "2027-02-27T00:00Z",
+"visita": "West Bromwich Albion FC"
+},
+{
+"fecha": "2027-02-27",
+"hora": "00:00",
+"local": "Lincoln City FC",
+"utc": "2027-02-27T00:00Z",
+"visita": "Sheffield United FC"
+},
+{
+"fecha": "2027-02-27",
+"hora": "00:00",
+"local": "Burnley FC",
+"utc": "2027-02-27T00:00Z",
+"visita": "Watford FC"
+},
+{
+"fecha": "2027-02-27",
+"hora": "00:00",
+"local": "Cardiff City FC",
+"utc": "2027-02-27T00:00Z",
+"visita": "Blackburn Rovers FC"
+},
+{
+"fecha": "2027-02-27",
+"hora": "00:00",
+"local": "Millwall FC",
+"utc": "2027-02-27T00:00Z",
+"visita": "Preston North End FC"
+},
+{
+"fecha": "2027-03-02",
+"hora": "00:00",
+"local": "Middlesbrough FC",
+"utc": "2027-03-02T00:00Z",
+"visita": "Blackburn Rovers FC"
+},
+{
+"fecha": "2027-03-02",
+"hora": "00:00",
+"local": "Norwich City FC",
+"utc": "2027-03-02T00:00Z",
+"visita": "Millwall FC"
+},
+{
+"fecha": "2027-03-02",
+"hora": "00:00",
+"local": "Burnley FC",
+"utc": "2027-03-02T00:00Z",
+"visita": "West Bromwich Albion FC"
+},
+{
+"fecha": "2027-03-02",
+"hora": "00:00",
+"local": "Watford FC",
+"utc": "2027-03-02T00:00Z",
+"visita": "Wrexham AFC"
+},
+{
+"fecha": "2027-03-02",
+"hora": "00:00",
+"local": "Charlton Athletic FC",
+"utc": "2027-03-02T00:00Z",
+"visita": "West Ham United FC"
+},
+{
+"fecha": "2027-03-02",
+"hora": "00:00",
+"local": "Bolton Wanderers FC",
+"utc": "2027-03-02T00:00Z",
+"visita": "Queens Park Rangers FC"
+},
+{
+"fecha": "2027-03-02",
+"hora": "00:00",
+"local": "Bristol City FC",
+"utc": "2027-03-02T00:00Z",
+"visita": "Birmingham City FC"
+},
+{
+"fecha": "2027-03-02",
+"hora": "00:00",
+"local": "Cardiff City FC",
+"utc": "2027-03-02T00:00Z",
+"visita": "Derby County FC"
+},
+{
+"fecha": "2027-03-03",
+"hora": "00:00",
+"local": "Portsmouth FC",
+"utc": "2027-03-03T00:00Z",
+"visita": "Lincoln City FC"
+},
+{
+"fecha": "2027-03-03",
+"hora": "00:00",
+"local": "Wolverhampton Wanderers FC",
+"utc": "2027-03-03T00:00Z",
+"visita": "Preston North End FC"
+},
+{
+"fecha": "2027-03-03",
+"hora": "00:00",
+"local": "Sheffield United FC",
+"utc": "2027-03-03T00:00Z",
+"visita": "Swansea City AFC"
+},
+{
+"fecha": "2027-03-03",
+"hora": "00:00",
+"local": "Stoke City FC",
+"utc": "2027-03-03T00:00Z",
+"visita": "Southampton FC"
+},
+{
+"fecha": "2027-03-06",
+"hora": "00:00",
+"local": "Derby County FC",
+"utc": "2027-03-06T00:00Z",
+"visita": "Charlton Athletic FC"
+},
+{
+"fecha": "2027-03-06",
+"hora": "00:00",
+"local": "Blackburn Rovers FC",
+"utc": "2027-03-06T00:00Z",
+"visita": "Wolverhampton Wanderers FC"
+},
+{
+"fecha": "2027-03-06",
+"hora": "00:00",
+"local": "Southampton FC",
+"utc": "2027-03-06T00:00Z",
+"visita": "Watford FC"
+},
+{
+"fecha": "2027-03-06",
+"hora": "00:00",
+"local": "Wrexham AFC",
+"utc": "2027-03-06T00:00Z",
+"visita": "Cardiff City FC"
+},
+{
+"fecha": "2027-03-06",
+"hora": "00:00",
+"local": "Swansea City AFC",
+"utc": "2027-03-06T00:00Z",
+"visita": "Stoke City FC"
+},
+{
+"fecha": "2027-03-06",
+"hora": "00:00",
+"local": "Preston North End FC",
+"utc": "2027-03-06T00:00Z",
+"visita": "Bolton Wanderers FC"
+},
+{
+"fecha": "2027-03-06",
+"hora": "00:00",
+"local": "Lincoln City FC",
+"utc": "2027-03-06T00:00Z",
+"visita": "Middlesbrough FC"
+},
+{
+"fecha": "2027-03-06",
+"hora": "00:00",
+"local": "Millwall FC",
+"utc": "2027-03-06T00:00Z",
+"visita": "Bristol City FC"
+},
+{
+"fecha": "2027-03-06",
+"hora": "00:00",
+"local": "Queens Park Rangers FC",
+"utc": "2027-03-06T00:00Z",
+"visita": "Portsmouth FC"
+},
+{
+"fecha": "2027-03-06",
+"hora": "00:00",
+"local": "West Bromwich Albion FC",
+"utc": "2027-03-06T00:00Z",
+"visita": "Norwich City FC"
+},
+{
+"fecha": "2027-03-06",
+"hora": "00:00",
+"local": "Birmingham City FC",
+"utc": "2027-03-06T00:00Z",
+"visita": "Sheffield United FC"
+},
+{
+"fecha": "2027-03-06",
+"hora": "00:00",
+"local": "West Ham United FC",
+"utc": "2027-03-06T00:00Z",
+"visita": "Burnley FC"
+},
+{
+"fecha": "2027-03-13",
+"hora": "00:00",
+"local": "Watford FC",
+"utc": "2027-03-13T00:00Z",
+"visita": "Derby County FC"
+},
+{
+"fecha": "2027-03-13",
+"hora": "00:00",
+"local": "Burnley FC",
+"utc": "2027-03-13T00:00Z",
+"visita": "Millwall FC"
+},
+{
+"fecha": "2027-03-13",
+"hora": "00:00",
+"local": "Portsmouth FC",
+"utc": "2027-03-13T00:00Z",
+"visita": "Wrexham AFC"
+},
+{
+"fecha": "2027-03-13",
+"hora": "00:00",
+"local": "Middlesbrough FC",
+"utc": "2027-03-13T00:00Z",
+"visita": "Southampton FC"
+},
+{
+"fecha": "2027-03-13",
+"hora": "00:00",
+"local": "Sheffield United FC",
+"utc": "2027-03-13T00:00Z",
+"visita": "Queens Park Rangers FC"
+},
+{
+"fecha": "2027-03-13",
+"hora": "00:00",
+"local": "Bristol City FC",
+"utc": "2027-03-13T00:00Z",
+"visita": "West Bromwich Albion FC"
+},
+{
+"fecha": "2027-03-13",
+"hora": "00:00",
+"local": "Charlton Athletic FC",
+"utc": "2027-03-13T00:00Z",
+"visita": "Blackburn Rovers FC"
+},
+{
+"fecha": "2027-03-13",
+"hora": "00:00",
+"local": "Stoke City FC",
+"utc": "2027-03-13T00:00Z",
+"visita": "West Ham United FC"
+},
+{
+"fecha": "2027-03-13",
+"hora": "00:00",
+"local": "Norwich City FC",
+"utc": "2027-03-13T00:00Z",
+"visita": "Preston North End FC"
+},
+{
+"fecha": "2027-03-13",
+"hora": "00:00",
+"local": "Cardiff City FC",
+"utc": "2027-03-13T00:00Z",
+"visita": "Swansea City AFC"
+},
+{
+"fecha": "2027-03-13",
+"hora": "00:00",
+"local": "Bolton Wanderers FC",
+"utc": "2027-03-13T00:00Z",
+"visita": "Birmingham City FC"
+},
+{
+"fecha": "2027-03-13",
+"hora": "00:00",
+"local": "Wolverhampton Wanderers FC",
+"utc": "2027-03-13T00:00Z",
+"visita": "Lincoln City FC"
+},
+{
+"fecha": "2027-03-16",
+"hora": "00:00",
+"local": "Preston North End FC",
+"utc": "2027-03-16T00:00Z",
+"visita": "Burnley FC"
+},
+{
+"fecha": "2027-03-16",
+"hora": "00:00",
+"local": "Swansea City AFC",
+"utc": "2027-03-16T00:00Z",
+"visita": "Bristol City FC"
+},
+{
+"fecha": "2027-03-16",
+"hora": "00:00",
+"local": "Queens Park Rangers FC",
+"utc": "2027-03-16T00:00Z",
+"visita": "Stoke City FC"
+},
+{
+"fecha": "2027-03-16",
+"hora": "00:00",
+"local": "West Bromwich Albion FC",
+"utc": "2027-03-16T00:00Z",
+"visita": "Portsmouth FC"
+},
+{
+"fecha": "2027-03-16",
+"hora": "00:00",
+"local": "Wrexham AFC",
+"utc": "2027-03-16T00:00Z",
+"visita": "Norwich City FC"
+},
+{
+"fecha": "2027-03-16",
+"hora": "00:00",
+"local": "Lincoln City FC",
+"utc": "2027-03-16T00:00Z",
+"visita": "Cardiff City FC"
+},
+{
+"fecha": "2027-03-16",
+"hora": "00:00",
+"local": "Derby County FC",
+"utc": "2027-03-16T00:00Z",
+"visita": "Middlesbrough FC"
+},
+{
+"fecha": "2027-03-16",
+"hora": "00:00",
+"local": "Southampton FC",
+"utc": "2027-03-16T00:00Z",
+"visita": "Wolverhampton Wanderers FC"
+},
+{
+"fecha": "2027-03-17",
+"hora": "00:00",
+"local": "West Ham United FC",
+"utc": "2027-03-17T00:00Z",
+"visita": "Sheffield United FC"
+},
+{
+"fecha": "2027-03-17",
+"hora": "00:00",
+"local": "Millwall FC",
+"utc": "2027-03-17T00:00Z",
+"visita": "Watford FC"
+},
+{
+"fecha": "2027-03-17",
+"hora": "00:00",
+"local": "Blackburn Rovers FC",
+"utc": "2027-03-17T00:00Z",
+"visita": "Bolton Wanderers FC"
+},
+{
+"fecha": "2027-03-17",
+"hora": "00:00",
+"local": "Birmingham City FC",
+"utc": "2027-03-17T00:00Z",
+"visita": "Charlton Athletic FC"
+},
+{
+"fecha": "2027-03-20",
+"hora": "00:00",
+"local": "Swansea City AFC",
+"utc": "2027-03-20T00:00Z",
+"visita": "Wolverhampton Wanderers FC"
+},
+{
+"fecha": "2027-03-20",
+"hora": "00:00",
+"local": "Millwall FC",
+"utc": "2027-03-20T00:00Z",
+"visita": "Cardiff City FC"
+},
+{
+"fecha": "2027-03-20",
+"hora": "00:00",
+"local": "Wrexham AFC",
+"utc": "2027-03-20T00:00Z",
+"visita": "Stoke City FC"
+},
+{
+"fecha": "2027-03-20",
+"hora": "00:00",
+"local": "Bristol City FC",
+"utc": "2027-03-20T00:00Z",
+"visita": "Queens Park Rangers FC"
+},
+{
+"fecha": "2027-03-20",
+"hora": "00:00",
+"local": "Watford FC",
+"utc": "2027-03-20T00:00Z",
+"visita": "Portsmouth FC"
+},
+{
+"fecha": "2027-03-20",
+"hora": "00:00",
+"local": "Southampton FC",
+"utc": "2027-03-20T00:00Z",
+"visita": "Charlton Athletic FC"
+},
+{
+"fecha": "2027-03-20",
+"hora": "00:00",
+"local": "Birmingham City FC",
+"utc": "2027-03-20T00:00Z",
+"visita": "Blackburn Rovers FC"
+},
+{
+"fecha": "2027-03-20",
+"hora": "00:00",
+"local": "Burnley FC",
+"utc": "2027-03-20T00:00Z",
+"visita": "Bolton Wanderers FC"
+},
+{
+"fecha": "2027-03-20",
+"hora": "00:00",
+"local": "Middlesbrough FC",
+"utc": "2027-03-20T00:00Z",
+"visita": "Sheffield United FC"
+},
+{
+"fecha": "2027-03-20",
+"hora": "00:00",
+"local": "West Bromwich Albion FC",
+"utc": "2027-03-20T00:00Z",
+"visita": "Lincoln City FC"
+},
+{
+"fecha": "2027-03-20",
+"hora": "00:00",
+"local": "Norwich City FC",
+"utc": "2027-03-20T00:00Z",
+"visita": "West Ham United FC"
+},
+{
+"fecha": "2027-03-20",
+"hora": "00:00",
+"local": "Derby County FC",
+"utc": "2027-03-20T00:00Z",
+"visita": "Preston North End FC"
+},
+{
+"fecha": "2027-04-03",
+"hora": "00:00",
+"local": "Stoke City FC",
+"utc": "2027-04-03T00:00Z",
+"visita": "Burnley FC"
+},
+{
+"fecha": "2027-04-03",
+"hora": "00:00",
+"local": "Portsmouth FC",
+"utc": "2027-04-03T00:00Z",
+"visita": "Middlesbrough FC"
+},
+{
+"fecha": "2027-04-03",
+"hora": "00:00",
+"local": "Cardiff City FC",
+"utc": "2027-04-03T00:00Z",
+"visita": "Bristol City FC"
+},
+{
+"fecha": "2027-04-03",
+"hora": "00:00",
+"local": "Bolton Wanderers FC",
+"utc": "2027-04-03T00:00Z",
+"visita": "Watford FC"
+},
+{
+"fecha": "2027-04-03",
+"hora": "00:00",
+"local": "Charlton Athletic FC",
+"utc": "2027-04-03T00:00Z",
+"visita": "Millwall FC"
+},
+{
+"fecha": "2027-04-03",
+"hora": "00:00",
+"local": "West Ham United FC",
+"utc": "2027-04-03T00:00Z",
+"visita": "Birmingham City FC"
+},
+{
+"fecha": "2027-04-03",
+"hora": "00:00",
+"local": "Lincoln City FC",
+"utc": "2027-04-03T00:00Z",
+"visita": "Derby County FC"
+},
+{
+"fecha": "2027-04-03",
+"hora": "00:00",
+"local": "Wolverhampton Wanderers FC",
+"utc": "2027-04-03T00:00Z",
+"visita": "Norwich City FC"
+},
+{
+"fecha": "2027-04-03",
+"hora": "00:00",
+"local": "Sheffield United FC",
+"utc": "2027-04-03T00:00Z",
+"visita": "West Bromwich Albion FC"
+},
+{
+"fecha": "2027-04-03",
+"hora": "00:00",
+"local": "Blackburn Rovers FC",
+"utc": "2027-04-03T00:00Z",
+"visita": "Southampton FC"
+},
+{
+"fecha": "2027-04-03",
+"hora": "00:00",
+"local": "Queens Park Rangers FC",
+"utc": "2027-04-03T00:00Z",
+"visita": "Wrexham AFC"
+},
+{
+"fecha": "2027-04-03",
+"hora": "00:00",
+"local": "Preston North End FC",
+"utc": "2027-04-03T00:00Z",
+"visita": "Swansea City AFC"
+},
+{
+"fecha": "2027-04-06",
+"hora": "00:00",
+"local": "Lincoln City FC",
+"utc": "2027-04-06T00:00Z",
+"visita": "Bristol City FC"
+},
+{
+"fecha": "2027-04-06",
+"hora": "00:00",
+"local": "Millwall FC",
+"utc": "2027-04-06T00:00Z",
+"visita": "Middlesbrough FC"
+},
+{
+"fecha": "2027-04-06",
+"hora": "00:00",
+"local": "West Ham United FC",
+"utc": "2027-04-06T00:00Z",
+"visita": "Bolton Wanderers FC"
+},
+{
+"fecha": "2027-04-06",
+"hora": "00:00",
+"local": "Queens Park Rangers FC",
+"utc": "2027-04-06T00:00Z",
+"visita": "Charlton Athletic FC"
+},
+{
+"fecha": "2027-04-06",
+"hora": "00:00",
+"local": "Stoke City FC",
+"utc": "2027-04-06T00:00Z",
+"visita": "Cardiff City FC"
+},
+{
+"fecha": "2027-04-06",
+"hora": "00:00",
+"local": "Portsmouth FC",
+"utc": "2027-04-06T00:00Z",
+"visita": "Wolverhampton Wanderers FC"
+},
+{
+"fecha": "2027-04-06",
+"hora": "00:00",
+"local": "Swansea City AFC",
+"utc": "2027-04-06T00:00Z",
+"visita": "Southampton FC"
+},
+{
+"fecha": "2027-04-06",
+"hora": "00:00",
+"local": "Burnley FC",
+"utc": "2027-04-06T00:00Z",
+"visita": "Wrexham AFC"
+},
+{
+"fecha": "2027-04-07",
+"hora": "00:00",
+"local": "Preston North End FC",
+"utc": "2027-04-07T00:00Z",
+"visita": "Watford FC"
+},
+{
+"fecha": "2027-04-07",
+"hora": "00:00",
+"local": "West Bromwich Albion FC",
+"utc": "2027-04-07T00:00Z",
+"visita": "Derby County FC"
+},
+{
+"fecha": "2027-04-07",
+"hora": "00:00",
+"local": "Birmingham City FC",
+"utc": "2027-04-07T00:00Z",
+"visita": "Norwich City FC"
+},
+{
+"fecha": "2027-04-07",
+"hora": "00:00",
+"local": "Sheffield United FC",
+"utc": "2027-04-07T00:00Z",
+"visita": "Blackburn Rovers FC"
+},
+{
+"fecha": "2027-04-10",
+"hora": "00:00",
+"local": "Wrexham AFC",
+"utc": "2027-04-10T00:00Z",
+"visita": "Swansea City AFC"
+},
+{
+"fecha": "2027-04-10",
+"hora": "00:00",
+"local": "Wolverhampton Wanderers FC",
+"utc": "2027-04-10T00:00Z",
+"visita": "Birmingham City FC"
+},
+{
+"fecha": "2027-04-10",
+"hora": "00:00",
+"local": "Watford FC",
+"utc": "2027-04-10T00:00Z",
+"visita": "West Bromwich Albion FC"
+},
+{
+"fecha": "2027-04-10",
+"hora": "00:00",
+"local": "Blackburn Rovers FC",
+"utc": "2027-04-10T00:00Z",
+"visita": "Preston North End FC"
+},
+{
+"fecha": "2027-04-10",
+"hora": "00:00",
+"local": "Bolton Wanderers FC",
+"utc": "2027-04-10T00:00Z",
+"visita": "Millwall FC"
+},
+{
+"fecha": "2027-04-10",
+"hora": "00:00",
+"local": "Norwich City FC",
+"utc": "2027-04-10T00:00Z",
+"visita": "Sheffield United FC"
+},
+{
+"fecha": "2027-04-10",
+"hora": "00:00",
+"local": "Middlesbrough FC",
+"utc": "2027-04-10T00:00Z",
+"visita": "Queens Park Rangers FC"
+},
+{
+"fecha": "2027-04-10",
+"hora": "00:00",
+"local": "Cardiff City FC",
+"utc": "2027-04-10T00:00Z",
+"visita": "Portsmouth FC"
+},
+{
+"fecha": "2027-04-10",
+"hora": "00:00",
+"local": "Southampton FC",
+"utc": "2027-04-10T00:00Z",
+"visita": "Lincoln City FC"
+},
+{
+"fecha": "2027-04-10",
+"hora": "00:00",
+"local": "Charlton Athletic FC",
+"utc": "2027-04-10T00:00Z",
+"visita": "Stoke City FC"
+},
+{
+"fecha": "2027-04-10",
+"hora": "00:00",
+"local": "Bristol City FC",
+"utc": "2027-04-10T00:00Z",
+"visita": "Burnley FC"
+},
+{
+"fecha": "2027-04-10",
+"hora": "00:00",
+"local": "Derby County FC",
+"utc": "2027-04-10T00:00Z",
+"visita": "West Ham United FC"
+},
+{
+"fecha": "2027-04-17",
+"hora": "00:00",
+"local": "Preston North End FC",
+"utc": "2027-04-17T00:00Z",
+"visita": "Charlton Athletic FC"
+},
+{
+"fecha": "2027-04-17",
+"hora": "00:00",
+"local": "Portsmouth FC",
+"utc": "2027-04-17T00:00Z",
+"visita": "Bristol City FC"
+},
+{
+"fecha": "2027-04-17",
+"hora": "00:00",
+"local": "Birmingham City FC",
+"utc": "2027-04-17T00:00Z",
+"visita": "Wrexham AFC"
+},
+{
+"fecha": "2027-04-17",
+"hora": "00:00",
+"local": "Stoke City FC",
+"utc": "2027-04-17T00:00Z",
+"visita": "Wolverhampton Wanderers FC"
+},
+{
+"fecha": "2027-04-17",
+"hora": "00:00",
+"local": "Lincoln City FC",
+"utc": "2027-04-17T00:00Z",
+"visita": "Bolton Wanderers FC"
+},
+{
+"fecha": "2027-04-17",
+"hora": "00:00",
+"local": "West Bromwich Albion FC",
+"utc": "2027-04-17T00:00Z",
+"visita": "Middlesbrough FC"
+},
+{
+"fecha": "2027-04-17",
+"hora": "00:00",
+"local": "Queens Park Rangers FC",
+"utc": "2027-04-17T00:00Z",
+"visita": "Blackburn Rovers FC"
+},
+{
+"fecha": "2027-04-17",
+"hora": "00:00",
+"local": "West Ham United FC",
+"utc": "2027-04-17T00:00Z",
+"visita": "Watford FC"
+},
+{
+"fecha": "2027-04-17",
+"hora": "00:00",
+"local": "Burnley FC",
+"utc": "2027-04-17T00:00Z",
+"visita": "Norwich City FC"
+},
+{
+"fecha": "2027-04-17",
+"hora": "00:00",
+"local": "Millwall FC",
+"utc": "2027-04-17T00:00Z",
+"visita": "Southampton FC"
+},
+{
+"fecha": "2027-04-17",
+"hora": "00:00",
+"local": "Swansea City AFC",
+"utc": "2027-04-17T00:00Z",
+"visita": "Derby County FC"
+},
+{
+"fecha": "2027-04-17",
+"hora": "00:00",
+"local": "Sheffield United FC",
+"utc": "2027-04-17T00:00Z",
+"visita": "Cardiff City FC"
+},
+{
+"fecha": "2027-04-20",
+"hora": "00:00",
+"local": "Bolton Wanderers FC",
+"utc": "2027-04-20T00:00Z",
+"visita": "Sheffield United FC"
+},
+{
+"fecha": "2027-04-20",
+"hora": "00:00",
+"local": "Norwich City FC",
+"utc": "2027-04-20T00:00Z",
+"visita": "Stoke City FC"
+},
+{
+"fecha": "2027-04-20",
+"hora": "00:00",
+"local": "Middlesbrough FC",
+"utc": "2027-04-20T00:00Z",
+"visita": "Burnley FC"
+},
+{
+"fecha": "2027-04-20",
+"hora": "00:00",
+"local": "Derby County FC",
+"utc": "2027-04-20T00:00Z",
+"visita": "Portsmouth FC"
+},
+{
+"fecha": "2027-04-20",
+"hora": "00:00",
+"local": "Wolverhampton Wanderers FC",
+"utc": "2027-04-20T00:00Z",
+"visita": "West Ham United FC"
+},
+{
+"fecha": "2027-04-20",
+"hora": "00:00",
+"local": "Wrexham AFC",
+"utc": "2027-04-20T00:00Z",
+"visita": "Millwall FC"
+},
+{
+"fecha": "2027-04-20",
+"hora": "00:00",
+"local": "Southampton FC",
+"utc": "2027-04-20T00:00Z",
+"visita": "Birmingham City FC"
+},
+{
+"fecha": "2027-04-20",
+"hora": "00:00",
+"local": "Charlton Athletic FC",
+"utc": "2027-04-20T00:00Z",
+"visita": "West Bromwich Albion FC"
+},
+{
+"fecha": "2027-04-21",
+"hora": "00:00",
+"local": "Bristol City FC",
+"utc": "2027-04-21T00:00Z",
+"visita": "Preston North End FC"
+},
+{
+"fecha": "2027-04-21",
+"hora": "00:00",
+"local": "Blackburn Rovers FC",
+"utc": "2027-04-21T00:00Z",
+"visita": "Lincoln City FC"
+},
+{
+"fecha": "2027-04-21",
+"hora": "00:00",
+"local": "Cardiff City FC",
+"utc": "2027-04-21T00:00Z",
+"visita": "Queens Park Rangers FC"
+},
+{
+"fecha": "2027-04-21",
+"hora": "00:00",
+"local": "Watford FC",
+"utc": "2027-04-21T00:00Z",
+"visita": "Swansea City AFC"
+},
+{
+"fecha": "2027-04-24",
+"hora": "00:00",
+"local": "Watford FC",
+"utc": "2027-04-24T00:00Z",
+"visita": "Birmingham City FC"
+},
+{
+"fecha": "2027-04-24",
+"hora": "00:00",
+"local": "Middlesbrough FC",
+"utc": "2027-04-24T00:00Z",
+"visita": "West Ham United FC"
+},
+{
+"fecha": "2027-04-24",
+"hora": "00:00",
+"local": "Stoke City FC",
+"utc": "2027-04-24T00:00Z",
+"visita": "Lincoln City FC"
+},
+{
+"fecha": "2027-04-24",
+"hora": "00:00",
+"local": "Burnley FC",
+"utc": "2027-04-24T00:00Z",
+"visita": "Southampton FC"
+},
+{
+"fecha": "2027-04-24",
+"hora": "00:00",
+"local": "Bolton Wanderers FC",
+"utc": "2027-04-24T00:00Z",
+"visita": "Swansea City AFC"
+},
+{
+"fecha": "2027-04-24",
+"hora": "00:00",
+"local": "Sheffield United FC",
+"utc": "2027-04-24T00:00Z",
+"visita": "Millwall FC"
+},
+{
+"fecha": "2027-04-24",
+"hora": "00:00",
+"local": "Wolverhampton Wanderers FC",
+"utc": "2027-04-24T00:00Z",
+"visita": "Queens Park Rangers FC"
+},
+{
+"fecha": "2027-04-24",
+"hora": "00:00",
+"local": "Bristol City FC",
+"utc": "2027-04-24T00:00Z",
+"visita": "Derby County FC"
+},
+{
+"fecha": "2027-04-24",
+"hora": "00:00",
+"local": "Charlton Athletic FC",
+"utc": "2027-04-24T00:00Z",
+"visita": "Wrexham AFC"
+},
+{
+"fecha": "2027-04-24",
+"hora": "00:00",
+"local": "Norwich City FC",
+"utc": "2027-04-24T00:00Z",
+"visita": "Blackburn Rovers FC"
+},
+{
+"fecha": "2027-04-24",
+"hora": "00:00",
+"local": "Cardiff City FC",
+"utc": "2027-04-24T00:00Z",
+"visita": "West Bromwich Albion FC"
+},
+{
+"fecha": "2027-04-24",
+"hora": "00:00",
+"local": "Portsmouth FC",
+"utc": "2027-04-24T00:00Z",
+"visita": "Preston North End FC"
+},
+{
+"fecha": "2027-05-01",
+"hora": "00:00",
+"local": "Queens Park Rangers FC",
+"utc": "2027-05-01T00:00Z",
+"visita": "Norwich City FC"
+},
+{
+"fecha": "2027-05-01",
+"hora": "00:00",
+"local": "West Ham United FC",
+"utc": "2027-05-01T00:00Z",
+"visita": "Portsmouth FC"
+},
+{
+"fecha": "2027-05-01",
+"hora": "00:00",
+"local": "West Bromwich Albion FC",
+"utc": "2027-05-01T00:00Z",
+"visita": "Bolton Wanderers FC"
+},
+{
+"fecha": "2027-05-01",
+"hora": "00:00",
+"local": "Southampton FC",
+"utc": "2027-05-01T00:00Z",
+"visita": "Sheffield United FC"
+},
+{
+"fecha": "2027-05-01",
+"hora": "00:00",
+"local": "Birmingham City FC",
+"utc": "2027-05-01T00:00Z",
+"visita": "Burnley FC"
+},
+{
+"fecha": "2027-05-01",
+"hora": "00:00",
+"local": "Millwall FC",
+"utc": "2027-05-01T00:00Z",
+"visita": "Stoke City FC"
+},
+{
+"fecha": "2027-05-01",
+"hora": "00:00",
+"local": "Wrexham AFC",
+"utc": "2027-05-01T00:00Z",
+"visita": "Bristol City FC"
+},
+{
+"fecha": "2027-05-01",
+"hora": "00:00",
+"local": "Blackburn Rovers FC",
+"utc": "2027-05-01T00:00Z",
+"visita": "Watford FC"
+},
+{
+"fecha": "2027-05-01",
+"hora": "00:00",
+"local": "Lincoln City FC",
+"utc": "2027-05-01T00:00Z",
+"visita": "Charlton Athletic FC"
+},
+{
+"fecha": "2027-05-01",
+"hora": "00:00",
+"local": "Preston North End FC",
+"utc": "2027-05-01T00:00Z",
+"visita": "Cardiff City FC"
+},
+{
+"fecha": "2027-05-01",
+"hora": "00:00",
+"local": "Derby County FC",
+"utc": "2027-05-01T00:00Z",
+"visita": "Wolverhampton Wanderers FC"
+},
+{
+"fecha": "2027-05-01",
+"hora": "00:00",
+"local": "Swansea City AFC",
+"utc": "2027-05-01T00:00Z",
+"visita": "Middlesbrough FC"
+}
+]
+},
+"libertadores": {
+"continente": "América",
+"mes": 1,
+"nombre": "Copa Libertadores",
+"pais": "Sudamérica",
+"partidos": [
+{
+"fecha": "2026-08-26",
+"hora": "00:30",
+"local": "CAR Independiente del Valle",
+"utc": "2026-08-26T00:30Z",
+"visita": "CD Tolima"
+}
+]
+}
+}

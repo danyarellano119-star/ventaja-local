@@ -38,6 +38,8 @@ subir.bat
 !datos/fotos_jugadores.json
 !datos/escudos.json
 !datos/estadios.json
+!datos/football_data_historial.json
+!datos/football_data.json
 !datos/escudos_wikidata.json
 # El registro de pronósticos se publica a propósito: su valor está en que
 # cualquiera pueda comprobar en el historial que no se ha retocado.

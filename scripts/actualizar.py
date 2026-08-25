@@ -37,6 +37,7 @@ import aciertos as mod_aciertos
 import escudos as mod_escudos
 import fotos as mod_fotos
 import ligas_goles as mod_goles
+import football_data as mod_fd
 import registro as mod_registro
 import estadios as mod_estadios
 
@@ -1176,6 +1177,95 @@ def main() -> None:
     if saltadas:
         print(f"    en espera de que la fuente publique su temporada: "
               f"{', '.join(saltadas)}")
+
+    # ── Competiciones de football-data.org ─────────────────────────────── #
+    # Las que openfootball no publica y sí trae esta fuente. Se calculan igual
+    # que las anteriores: mismo modelo sobre goles, misma forma de partido.
+    if mod_fd.disponible():
+        print("")
+        print("Competiciones de football-data.org")
+        calendarios = mod_fd.calendarios(hoy)
+        for clave, info in calendarios.items():
+            partidos = mod_fd.historial(clave)
+            if len(partidos) < 150 or not info["partidos"]:
+                print(f"    {info['nombre']}: sin datos suficientes")
+                continue
+
+            atq, dfn, gamma = ajustar_fuerzas(partidos, hoy)
+            corte = (hoy.replace(year=hoy.year - 1)).isoformat()
+            referencia = [m for m in partidos if m["datetime"][:10] >= corte]
+            ag = agregar(referencia or partidos)
+            hist = historial(referencia or partidos, set(atq))
+
+            pj_ventana: dict[str, int] = {}
+            for m in partidos:
+                for eq in (m["h"]["title"], m["a"]["title"]):
+                    pj_ventana[eq] = pj_ventana.get(eq, 0) + 1
+
+            equipos = {}
+            for e in atq:
+                if e not in ag or pj_ventana.get(e, 0) < MIN_PARTIDOS:
+                    continue
+                equipos[e] = {"nombre": BONITO.get(e, e), "clave": e,
+                              "nuevo": False, "atq": round(atq[e], 5),
+                              "def": round(dfn[e], 5), **ag[e],
+                              "jug": [], "hist": hist.get(e, [])}
+
+            indice = {normalizar(e): e for e in equipos}
+            base = perfil_ascendido(equipos)
+            partidos_web, sin_casar = [], set()
+            for m in info["partidos"]:
+                ids = []
+                for bruto in (m["local"], m["visita"]):
+                    eq = emparejar(bruto, indice)
+                    if eq is None:
+                        eq = bruto
+                        if eq not in equipos:
+                            equipos[eq] = {"nombre": BONITO.get(bruto, bruto),
+                                           "clave": eq, "nuevo": True,
+                                           "jug": [], **base}
+                            sin_casar.add(bruto)
+                    ids.append(eq)
+                partidos_web.append({"j": "", "fecha": m["fecha"],
+                                     "hora": m["hora"], "utc": m["utc"],
+                                     "l": ids[0], "v": ids[1]})
+            partidos_web = partidos_web[:60]
+
+            del_calendario = {q["l"] for q in partidos_web} | {q["v"] for q in partidos_web}
+            plantel = {k: v for k, v in equipos.items() if k in del_calendario}
+            pron = simular.simular_liga(plantel, gamma, RHO,
+                                        descensos=3 if len(plantel) >= 18 else 0)
+
+            for pw in partidos_web:
+                el, ev = equipos.get(pw["l"]), equipos.get(pw["v"])
+                if not el or not ev or el.get("atq") is None or ev.get("atq") is None:
+                    continue
+                lam = math.exp(el["atq"] - ev["def"] + gamma)
+                mu = math.exp(ev["atq"] - el["def"])
+                pw["prob"] = mercados(lam, mu, RHO)
+            reg_nuevos += mod_registro.anotar_pronosticos(
+                reg, clave, info["nombre"], partidos_web, equipos, normalizar)
+            reg_resueltos += mod_registro.resolver(
+                reg, clave, referencia or partidos, normalizar, mismo_equipo)
+            for pw in partidos_web:
+                pw.pop("prob", None)
+
+            salida["ligas"][clave] = {
+                "nombre": info["nombre"], "pais": info["pais"], "sin_xg": True,
+                "continente": info["continente"],
+                "pca": componentes_principales(equipos), "historico": [],
+                "pronostico": pron, "aciertos": {},
+                "temp_fuerzas": "", "temp_hist": "", "temp_jug": "",
+                "nota_temp": f"{len(partidos)} partidos de historial",
+                "gamma": round(gamma, 5), "rho": RHO,
+                "equipos": equipos, "partidos": partidos_web,
+                "ascendidos": sorted(sin_casar), "nivel_europeo": None,
+            }
+            print(f"    {info['nombre']}: {len(partidos)} partidos, "
+                  f"{len(equipos)} equipos, {len(partidos_web)} por jugar")
+    else:
+        print("")
+        print("football-data.org: sin clave, se omite")
 
     # ── Competiciones europeas ─────────────────────────────────────────── #
     # Se calculan al final porque el desnivel entre ligas necesita las fuerzas
