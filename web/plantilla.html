@@ -921,8 +921,10 @@ table.tabla-liga tbody tr:hover td { background: var(--surface-2); }
   /* El resto de la página vive en un contenedor de 1020 px; esto lo rompe.
      Se usa el ancho del documento y no 100vw porque 100vw cuenta también la
      barra de desplazamiento, y la imagen se salía siete píxeles por la derecha. */
-  width: 100dvw; max-width: 100dvw;
-  margin-left: calc(50% - 50dvw); margin-right: calc(50% - 50dvw);
+  width: calc(100dvw - var(--barra, 0px));
+  max-width: calc(100dvw - var(--barra, 0px));
+  margin-left: calc(50% - 50dvw + var(--barra, 0px) / 2);
+  margin-right: calc(50% - 50dvw + var(--barra, 0px) / 2);
   min-height: 88vh; margin-top: -30px; margin-bottom: 34px;
   display: flex; flex-direction: column; justify-content: space-between;
 }
@@ -1073,8 +1075,9 @@ table.tabla-liga tbody tr:hover td { background: var(--surface-2); }
 .tp-fondo { position: absolute; inset: 0; background-size: cover; background-position: center 42%; }
 .tp-velo {
   position: absolute; inset: 0;
-  background: linear-gradient(to top, rgba(6,8,12,.96) 22%, rgba(6,8,12,.34) 68%,
-                              rgba(6,8,12,.18) 100%);
+  /* Más oscuro que antes: con la foto a plena luz, los escudos se perdían */
+  background: linear-gradient(to top, rgba(6,8,12,.97) 24%, rgba(6,8,12,.62) 62%,
+                              rgba(6,8,12,.48) 100%);
 }
 
 /* Los escudos son la ilustración de la tarjeta. Con foto del estadio detrás
@@ -1090,11 +1093,9 @@ table.tabla-liga tbody tr:hover td { background: var(--surface-2); }
   filter: drop-shadow(0 3px 10px rgba(0,0,0,.55));
 }
 .tp-escudos .escudo-caja img { background: none; }
-/* Cuando hay foto detrás, los escudos se hacen a un lado para no taparla */
-.tarjeta-partido.con-foto .tp-escudos { inset: 6px 6px auto auto; padding: 0;
-  justify-content: flex-end; }
-.tarjeta-partido.con-foto .tp-escudos .escudo-caja,
-.tarjeta-partido.con-foto .tp-escudos .escudo { width: 28px; height: 28px; }
+/* Todas las tarjetas se ven igual, haya foto del estadio detrás o no: los dos
+   escudos grandes en el centro. Antes, las que tenían foto los llevaban
+   pequeños en una esquina y el conjunto parecía de dos webs distintas. */
 .tp-texto { position: relative; z-index: 2; padding: 9px; height: 100%;
   display: flex; flex-direction: column; justify-content: flex-end; }
 .tp-equipos { color: #fff; font-size: 12px; font-weight: 600; line-height: 1.25; }
@@ -1123,12 +1124,21 @@ table.tabla-liga tbody tr:hover td { background: var(--surface-2); }
    dos franjas vacías a los lados. */
 .fila-liga-carrusel {
   margin-bottom: 30px;
-  width: 100dvw; max-width: 100dvw;
-  margin-left: calc(50% - 50dvw); margin-right: calc(50% - 50dvw);
+  /* --barra la mide el programa: 100dvw cuenta la barra de desplazamiento y
+     sin descontarla la fila se salía por la izquierda. */
+  width: calc(100dvw - var(--barra, 0px));
+  max-width: calc(100dvw - var(--barra, 0px));
+  margin-left: calc(50% - 50dvw + var(--barra, 0px) / 2);
+  margin-right: calc(50% - 50dvw + var(--barra, 0px) / 2);
 }
 .fila-liga-carrusel .flc-cab,
-.fila-liga-carrusel .carrusel { padding-left: 42px; }
-.fila-liga-carrusel .carrusel { padding-right: 42px; }
+.fila-liga-carrusel .carrusel { padding-left: 26px; }
+.fila-liga-carrusel .carrusel {
+  padding-right: 26px;
+  /* Sin esto, el ajuste magnético pega la primera tarjeta al borde y anula
+     el margen: el carril nace ya desplazado esos 26 píxeles. */
+  scroll-padding-left: 26px;
+}
 .flc-cab { display: flex; align-items: center; gap: 11px; margin-bottom: 11px; }
 .flc-logo { width: 26px; height: 26px; object-fit: contain; flex-shrink: 0; }
 .flc-cab h3 {
@@ -1149,7 +1159,10 @@ table.tabla-liga tbody tr:hover td { background: var(--surface-2); }
 /* ── Carril con flechas ───────────────────────────────────────────────── */
 .carrusel-pista { position: relative; }
 .carrusel-pista .carrusel {
-  display: flex; gap: 10px; overflow-x: auto; padding: 4px 0 10px;
+  display: flex; gap: 10px; overflow-x: auto;
+  /* Sin los lados: quien los pone es la fila, que sabe cuánto margen quiere.
+     Antes esta regla usaba el atajo «padding» y borraba ese margen. */
+  padding-top: 4px; padding-bottom: 10px;
   /* «proximity» y no «mandatory»: el ajuste obligatorio devuelve el carril a la
      tarjeta anterior cuando el desplazamiento lo lanza un botón. */
   scroll-snap-type: x proximity; scrollbar-width: none;
@@ -1167,8 +1180,8 @@ table.tabla-liga tbody tr:hover td { background: var(--surface-2); }
 }
 .flecha-carril:hover { background: rgba(12,15,20,.92); }
 .flecha-carril:focus-visible { outline: 3px solid var(--acento); outline-offset: 2px; }
-.flecha-carril.izq { left: 0; }
-.flecha-carril.der { right: 0; }
+.flecha-carril.izq { left: 4px; }
+.flecha-carril.der { right: 4px; }
 .flecha-carril.oculto { display: none; }
 /* En el escaparate las flechas van sobre la foto y conviene que se noten */
 .carrusel-caja .flecha-carril { background: rgba(6,8,12,.82); }
@@ -5597,6 +5610,15 @@ document.getElementById("btn-compartir").addEventListener("click", () => {
 /* ── Arranque ─────────────────────────────────────────────────────────── */
 
 pintarLigas();
+/* Ancho real de la barra de desplazamiento. Las secciones que van a sangre lo
+   necesitan: 100dvw la incluye, y sin restarla se salen por un costado. */
+function medirBarra() {
+  const ancho = window.innerWidth - document.documentElement.clientWidth;
+  document.documentElement.style.setProperty("--barra", Math.max(ancho, 0) + "px");
+}
+medirBarra();
+window.addEventListener("resize", medirBarra);
+
 aplicarFiltro();   // decide qué se enseña: las filas o el filtro elegido
 poblarBuscador();
 
@@ -5932,7 +5954,7 @@ function tarjetaPartido(g) {
   // El detalle vive dentro de la tarjeta y sólo se despliega al señalarla:
   // así la vista previa aparece donde está el partido y no en la cabecera,
   // que es la que anuncia el partido importante del día.
-  return `<a class="tarjeta-partido${f.sede ? " con-foto" : ""}" href="#/partido/${g.k}/${idPartido(g.p)}">
+  return `<a class="tarjeta-partido" href="#/partido/${g.k}/${idPartido(g.p)}">
       <span class="tp-fondo" style="background-image:${f.css}"></span>
       <span class="tp-velo"></span>
       <span class="tp-escudos">${escudo(g.a.nombre, true)}${escudo(g.b.nombre, true)}</span>
