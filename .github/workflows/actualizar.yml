@@ -71,7 +71,20 @@ jobs:
             # reintegra y se reintenta, porque el primero en llegar hace que el
             # segundo sea rechazado y eso tumbaba la publicación entera.
             for intento in 1 2 3; do
-              git pull --rebase --autostash origin main || true
+              # Si el rebase choca hay que abortarlo y quedarse con lo recién
+              # generado. Antes se tragaba el fallo con «|| true» y se empujaba
+              # el archivo con las marcas de conflicto dentro, que rompía la web.
+              if ! git pull --rebase --autostash origin main; then
+                echo "Choque al reintegrar: se conserva lo regenerado"
+                git checkout --ours web/index.html web/datos_ligas.json 2>/dev/null || true
+                git add -A
+                git rebase --continue || git rebase --abort || true
+              fi
+              # Nunca subir un archivo con marcas de conflicto dentro
+              if grep -lq '^<<<<<<< ' web/index.html web/datos_ligas.json; then
+                echo "Hay marcas de conflicto: no se sube nada"
+                exit 1
+              fi
               if git push; then
                 echo "Subido en el intento $intento"
                 break
