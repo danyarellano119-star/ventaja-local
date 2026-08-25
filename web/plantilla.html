@@ -1063,7 +1063,7 @@ table.tabla-liga tbody tr:hover td { background: var(--surface-2); }
 }
 .carrusel::-webkit-scrollbar { display: none; }
 .tarjeta-partido {
-  position: relative; flex: 0 0 128px; height: 178px; border-radius: 8px;
+  position: relative; flex: 0 0 168px; height: 250px; border-radius: 8px;
   overflow: hidden; text-decoration: none; scroll-snap-align: start;
   isolation: isolate; border: 2px solid transparent;
   transition: transform .16s, border-color .16s;
@@ -1073,8 +1073,28 @@ table.tabla-liga tbody tr:hover td { background: var(--surface-2); }
 .tp-fondo { position: absolute; inset: 0; background-size: cover; background-position: center 42%; }
 .tp-velo {
   position: absolute; inset: 0;
-  background: linear-gradient(to top, rgba(6,8,12,.96) 18%, rgba(6,8,12,.30) 100%);
+  background: linear-gradient(to top, rgba(6,8,12,.96) 22%, rgba(6,8,12,.34) 68%,
+                              rgba(6,8,12,.18) 100%);
 }
+
+/* Los escudos son la ilustración de la tarjeta. Con foto del estadio detrás
+   la rematan; sin ella son lo único que se ve, y por eso van grandes: una
+   tarjeta con sólo un degradado no dice nada de qué partido es. */
+.tp-escudos {
+  position: absolute; inset: 0 0 44%; z-index: 1;
+  display: flex; align-items: center; justify-content: center; gap: 6px;
+  padding: 12px;
+}
+.tp-escudos .escudo-caja, .tp-escudos .escudo {
+  width: 54px; height: 54px;
+  filter: drop-shadow(0 3px 10px rgba(0,0,0,.55));
+}
+.tp-escudos .escudo-caja img { background: none; }
+/* Cuando hay foto detrás, los escudos se hacen a un lado para no taparla */
+.tarjeta-partido.con-foto .tp-escudos { inset: 6px 6px auto auto; padding: 0;
+  justify-content: flex-end; }
+.tarjeta-partido.con-foto .tp-escudos .escudo-caja,
+.tarjeta-partido.con-foto .tp-escudos .escudo { width: 28px; height: 28px; }
 .tp-texto { position: relative; z-index: 2; padding: 9px; height: 100%;
   display: flex; flex-direction: column; justify-content: flex-end; }
 .tp-equipos { color: #fff; font-size: 12px; font-weight: 600; line-height: 1.25; }
@@ -1098,7 +1118,17 @@ table.tabla-liga tbody tr:hover td { background: var(--surface-2); }
 @media print { .escaparate { display: none; } }
 
 /* ── Filas por competición, al estilo de los carruseles de vídeo ──────── */
-.fila-liga-carrusel { margin-bottom: 30px; }
+/* Las filas ocupan todo el ancho de la ventana y las tarjetas se salen por la
+   derecha, como en las plataformas de vídeo: así se ve que hay más y no quedan
+   dos franjas vacías a los lados. */
+.fila-liga-carrusel {
+  margin-bottom: 30px;
+  width: 100dvw; max-width: 100dvw;
+  margin-left: calc(50% - 50dvw); margin-right: calc(50% - 50dvw);
+}
+.fila-liga-carrusel .flc-cab,
+.fila-liga-carrusel .carrusel { padding-left: 42px; }
+.fila-liga-carrusel .carrusel { padding-right: 42px; }
 .flc-cab { display: flex; align-items: center; gap: 11px; margin-bottom: 11px; }
 .flc-logo { width: 26px; height: 26px; object-fit: contain; flex-shrink: 0; }
 .flc-cab h3 {
@@ -1137,8 +1167,8 @@ table.tabla-liga tbody tr:hover td { background: var(--surface-2); }
 }
 .flecha-carril:hover { background: rgba(12,15,20,.92); }
 .flecha-carril:focus-visible { outline: 3px solid var(--acento); outline-offset: 2px; }
-.flecha-carril.izq { left: -6px; }
-.flecha-carril.der { right: -6px; }
+.flecha-carril.izq { left: 0; }
+.flecha-carril.der { right: 0; }
 .flecha-carril.oculto { display: none; }
 /* En el escaparate las flechas van sobre la foto y conviene que se noten */
 .carrusel-caja .flecha-carril { background: rgba(6,8,12,.82); }
@@ -1158,7 +1188,7 @@ table.tabla-liga tbody tr:hover td { background: var(--surface-2); }
   max-height: 120px; opacity: 1; margin-top: 8px;
 }
 .tarjeta-partido:hover, .tarjeta-partido:focus-visible {
-  flex-basis: 190px; z-index: 3;
+  flex-basis: 230px; z-index: 3;
 }
 .tp-fav { display: block; color: #fff; font-size: 11.5px; line-height: 1.35; }
 .tp-fav b { color: #fff; }
@@ -1177,8 +1207,47 @@ table.tabla-liga tbody tr:hover td { background: var(--surface-2); }
 
 @media (max-width: 700px) {
   .flc-cab h3 { font-size: 17px; }
+  .fila-liga-carrusel .flc-cab,
+  .fila-liga-carrusel .carrusel { padding-left: 18px; }
+  .fila-liga-carrusel .carrusel { padding-right: 18px; }
   .flecha-carril { width: 30px; height: 52px; font-size: 21px; }
 }
+
+/* ── Resultados de un filtro: rejilla en vez de carril ────────────────── */
+/* Con un filtro puesto no se sabe cuántos partidos saldrán, así que se
+   reparten en filas que van bajando. Un carril obligaría a desplazarse mucho
+   para ver veinte partidos. */
+.fila-filtrada { margin-bottom: 30px; }
+.rejilla-partidos {
+  display: grid; gap: 12px;
+  grid-template-columns: repeat(auto-fill, minmax(168px, 1fr));
+}
+.rejilla-partidos .tarjeta-partido { flex: none; width: 100%; }
+.rejilla-partidos .tarjeta-partido:hover { flex: none; transform: scale(1.04); }
+
+/* ── Elegir equipos favoritos ─────────────────────────────────────────── */
+.elige-equipos { margin-top: 4px; }
+.elige-txt { color: var(--ink-2); font-size: 14px; margin: 0 0 14px; max-width: 620px; }
+.elige-rejilla {
+  display: grid; gap: 8px;
+  grid-template-columns: repeat(auto-fill, minmax(158px, 1fr));
+}
+.elige-eq {
+  display: flex; align-items: center; gap: 9px; cursor: pointer;
+  background: var(--surface); border: 1px solid var(--line);
+  border-radius: 9px; padding: 9px 11px; text-align: left;
+  font-family: var(--sans); font-size: 13px; color: var(--ink);
+  transition: border-color .14s, background .14s;
+}
+.elige-eq span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.elige-eq:hover { border-color: var(--acento); }
+.elige-eq:focus-visible { outline: 2px solid var(--acento); outline-offset: 1px; }
+/* El elegido se marca con el color de acento y una estrella */
+.elige-eq.activo {
+  border-color: var(--acento); background: color-mix(in srgb, var(--acento) 12%, transparent);
+  font-weight: 600;
+}
+.elige-eq.activo::after { content: "★"; margin-left: auto; color: var(--acento); }
 
 /* ── Portada del partido ─/* ── Portada del partido ──────────────────────────────────────────────── */
 /* Una carátula al estilo de las plataformas de vídeo: la foto del estadio de
@@ -1498,6 +1567,11 @@ details .cuerpo strong { color: var(--ink); }
 
   <!-- ══ VISTA LISTA ══ -->
   <div id="vista-lista" class="pila">
+    <!-- El selector de competición ya no se enseña: las filas por liga hacen
+         su papel. Se conserva oculto porque varias partes del programa leen su
+         valor para saber qué liga se está mirando. -->
+    <select id="sel-competicion" class="oculto" aria-hidden="true"></select>
+
     <section class="escaparate" id="destacado">
       <div class="portada-fondo" id="dest-fondo"></div>
       <div class="escaparate-velo"></div>
@@ -1516,11 +1590,6 @@ details .cuerpo strong { color: var(--ink); }
                    placeholder="Buscar equipo o partido..."
                    aria-label="Buscar equipo o partido">
             <div id="resultados" class="resultados-busqueda oculto" role="listbox"></div>
-          </div>
-          <div class="comp-caja">
-            <img class="logo-comp oculto" id="logo-comp" alt="" loading="lazy"
-                 decoding="async">
-            <select id="sel-competicion" aria-label="Competición"></select>
           </div>
           <select id="buscar-equipo" aria-label="Ver la ficha de un equipo"></select>
           <button class="btn-icono" id="btn-ver-equipo" type="button">Ficha</button>
@@ -2496,20 +2565,18 @@ let filtroActivo = "todos";
 /** Muestra la lista de partidos o el historial, según el filtro elegido. */
 function aplicarFiltro() {
   const historial = filtroActivo === "historial";
-  // Sin filtro se enseñan las filas por competición, que son la portada nueva.
-  // Con filtro hace falta la lista plana: «esta semana» o «mis equipos» mezclan
-  // competiciones y no encajan en una fila por liga.
   const porFilas = filtroActivo === "todos";
 
   document.getElementById("bloque-registro").classList.toggle("oculto", !historial);
-  document.getElementById("filas-ligas").classList.toggle("oculto", !porFilas);
-  document.getElementById("lista-partidos")
-    .classList.toggle("oculto", historial || porFilas);
-  document.getElementById("fila-liga-sel").classList.toggle("oculto", porFilas || historial);
+  document.getElementById("filas-ligas").classList.toggle("oculto", historial);
+  // La lista antigua y el selector de liga ya no se usan: todo son tarjetas
+  document.getElementById("lista-partidos").classList.add("oculto");
+  document.getElementById("fila-liga-sel").classList.add("oculto");
+  document.getElementById("bloque-euro").classList.add("oculto");
 
-  const euro = document.getElementById("bloque-euro");
-  if (historial || porFilas) euro.classList.add("oculto");
-  if (!historial && !porFilas) aplicarFiltro();   // decide qué se enseña: las filas o la lista con filtro
+  if (historial) return;
+  if (porFilas) pintarFilasLigas();
+  else pintarFiltrado();
 }
 
 function esFavorito(liga, clave) { return favoritos.has(liga + "|" + clave); }
@@ -5530,7 +5597,7 @@ document.getElementById("btn-compartir").addEventListener("click", () => {
 /* ── Arranque ─────────────────────────────────────────────────────────── */
 
 pintarLigas();
-aplicarFiltro();   // decide qué se enseña: las filas o la lista con filtro
+aplicarFiltro();   // decide qué se enseña: las filas o el filtro elegido
 poblarBuscador();
 
 window.addEventListener("hashchange", enrutar);
@@ -5865,9 +5932,10 @@ function tarjetaPartido(g) {
   // El detalle vive dentro de la tarjeta y sólo se despliega al señalarla:
   // así la vista previa aparece donde está el partido y no en la cabecera,
   // que es la que anuncia el partido importante del día.
-  return `<a class="tarjeta-partido" href="#/partido/${g.k}/${idPartido(g.p)}">
+  return `<a class="tarjeta-partido${f.sede ? " con-foto" : ""}" href="#/partido/${g.k}/${idPartido(g.p)}">
       <span class="tp-fondo" style="background-image:${f.css}"></span>
       <span class="tp-velo"></span>
+      <span class="tp-escudos">${escudo(g.a.nombre, true)}${escudo(g.b.nombre, true)}</span>
       <span class="tp-texto">
         <span class="tp-equipos">${g.a.nombre}<br><span class="tp-vs">vs</span>
           ${g.b.nombre}</span>
@@ -6011,6 +6079,120 @@ function mostrarEnPortada(g) {
   document.getElementById("dest-fondo").style.backgroundImage = f.css;
   document.getElementById("dest-sede").textContent =
     f.sede ? `${f.sede} · foto de Wikimedia Commons` : `En casa del ${a.nombre}`;
+}
+
+/** Partidos de todas las competiciones que cumplen el filtro elegido.
+
+    Antes cada filtro sólo miraba la liga del desplegable, que ya no existe.
+    Ahora recorren todas: «esta semana» tiene mucho más sentido si enseña la
+    jornada entera y no la de una sola competición.
+ */
+function partidosFiltrados() {
+  const hoy = new Date().toISOString().slice(0, 10);
+  const semana = new Date(Date.now() + 8 * 864e5).toISOString().slice(0, 10);
+
+  const todos = [];
+  Object.entries(D.ligas).forEach(([k, lg]) => {
+    (lg.partidos || []).forEach(p => {
+      if (p.fecha < hoy) return;
+      const a = lg.equipos[p.l], b = lg.equipos[p.v];
+      if (!a || !b) return;
+      todos.push({ k, lg, p, a, b });
+    });
+  });
+
+  const criterio = {
+    semana: g => g.p.fecha <= semana,
+    favoritos: g => esFavorito(g.k, g.p.l) || esFavorito(g.k, g.p.v),
+    igualados: g => {
+      // Ninguno de los tres resultados domina: los más abiertos
+      const c = calcular(g.k, g.p.l, g.p.v);
+      return Math.max(c.pl, c.pe, c.pv) < 0.45;
+    },
+  }[filtroActivo] || (() => true);
+
+  return todos.filter(criterio)
+              .sort((x, y) => (x.p.fecha + x.p.hora).localeCompare(y.p.fecha + y.p.hora));
+}
+
+/** Rejilla de equipos para marcar favoritos de un vistazo. */
+function selectorDeEquipos() {
+  const equipos = [];
+  Object.entries(D.ligas).forEach(([k, lg]) =>
+    Object.values(lg.equipos).forEach(e => {
+      if (!e.nuevo || e.atq !== undefined) equipos.push({ k, e, liga: lg.nombre });
+    }));
+  equipos.sort((x, y) => x.e.nombre.localeCompare(y.e.nombre, "es"));
+
+  return `<div class="elige-equipos">
+    <p class="elige-txt">Marca los equipos que sigues y aquí quedarán sólo sus
+      partidos. Puedes elegir los que quieras, de cualquier competición.</p>
+    <div class="elige-rejilla">
+      ${equipos.map(({ k, e, liga }) => `
+        <button class="elige-eq${esFavorito(k, e.clave) ? " activo" : ""}"
+                type="button" data-liga="${k}" data-eq="${e.clave}"
+                title="${e.nombre} · ${liga}">
+          ${escudo(e.nombre)}
+          <span>${e.nombre}</span>
+        </button>`).join("")}
+    </div>
+  </div>`;
+}
+
+/** Lo que se enseña cuando hay un filtro puesto: tarjetas, no la lista vieja. */
+function pintarFiltrado() {
+  const caja = document.getElementById("filas-ligas");
+  const lista = partidosFiltrados();
+
+  const TITULO = {
+    semana: "Los partidos de los próximos ocho días",
+    favoritos: "Los partidos de tus equipos",
+    igualados: "Los partidos más abiertos",
+  }[filtroActivo] || "Partidos";
+
+  const VACIO = {
+    semana: "No hay partidos en los próximos ocho días.",
+    favoritos: "",
+    igualados: "Ahora mismo no hay ningún partido tan igualado. Vuelve cuando "
+             + "se acerque la jornada.",
+  }[filtroActivo] || "No hay partidos que mostrar.";
+
+  let dentro;
+  if (lista.length) {
+    dentro = `<div class="rejilla-partidos">${lista.map(tarjetaPartido).join("")}</div>`;
+  } else if (filtroActivo === "favoritos") {
+    dentro = selectorDeEquipos();
+  } else {
+    dentro = `<p class="jug-vacio">${VACIO}</p>`;
+  }
+
+  caja.innerHTML = `<section class="fila-filtrada">
+      <div class="flc-cab"><h3>${TITULO}
+        <span class="flc-pais">${lista.length} ${lista.length === 1
+          ? "partido" : "partidos"}</span></h3>
+        ${filtroActivo === "favoritos" && lista.length
+          ? `<button class="flc-mas" type="button" id="cambiar-favoritos">Cambiar equipos →</button>`
+          : ""}
+      </div>
+      ${dentro}
+    </section>`;
+
+  conectarSelectorEquipos(caja);
+  const cambiar = document.getElementById("cambiar-favoritos");
+  if (cambiar) cambiar.addEventListener("click", () => {
+    cambiar.remove();
+    caja.querySelector(".rejilla-partidos").outerHTML = selectorDeEquipos();
+    conectarSelectorEquipos(caja);
+  });
+}
+
+/** Hace que los botones de la rejilla marquen y desmarquen favoritos. */
+function conectarSelectorEquipos(caja) {
+  caja.querySelectorAll(".elige-eq").forEach(b =>
+    b.addEventListener("click", () => {
+      alternarFavorito(b.dataset.liga, b.dataset.eq);
+      b.classList.toggle("activo");
+    }));
 }
 
 /** El partido más grande, en grande, nada más entrar. */
