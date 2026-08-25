@@ -108,7 +108,11 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-.envoltorio { max-width: 1020px; margin: 0 auto; padding: 30px 18px 70px; }
+/* El ancho del contenido se alinea con el de las filas: antes el contenedor
+   medía 1020 px mientras las filas iban a sangre, y todo lo de abajo parecía
+   encogido en comparación. El relleno coincide con el margen de las filas
+   para que los títulos empiecen en la misma vertical. */
+.envoltorio { max-width: 1240px; margin: 0 auto; padding: 30px 26px 70px; }
 /* Si la portada abre la página, va pegada al borde superior */
 .pila > .escaparate:first-child { margin-top: -30px; }
 .pila { display: flex; flex-direction: column; gap: 22px; }
@@ -1009,6 +1013,8 @@ table.tabla-liga tbody tr:hover td { background: var(--surface-2); }
   text-shadow: 0 3px 20px rgba(0,0,0,.55);
 }
 .dest-titulo .escudo-caja, .dest-titulo .escudo { width: 52px; height: 52px; }
+.dest-titulo .escudo-caja.con-img .escudo { display: none; }
+.dest-titulo .escudo-caja img { background: none; border-radius: 0; padding: 0; }
 .dest-titulo .dest-vs {
   font-family: var(--sans); font-size: 16px; font-weight: 400;
   color: #b9c1cc; letter-spacing: .06em; text-transform: uppercase;
@@ -1101,6 +1107,8 @@ table.tabla-liga tbody tr:hover td { background: var(--surface-2); }
 .tp-escudos .escudo-caja img {
   background: none; border-radius: 0; padding: 0;
 }
+/* Y sin el distintivo de colores debajo, que teñía los escudos de línea */
+.tp-escudos .escudo-caja.con-img .escudo { display: none; }
 /* Todas las tarjetas se ven igual, haya foto del estadio detrás o no: los dos
    escudos grandes en el centro. Antes, las que tenían foto los llevaban
    pequeños en una esquina y el conjunto parecía de dos webs distintas. */
@@ -1246,6 +1254,17 @@ table.tabla-liga tbody tr:hover td { background: var(--surface-2); }
 .rejilla-partidos .tarjeta-partido { flex: none; width: 100%; }
 .rejilla-partidos .tarjeta-partido:hover { flex: none; transform: scale(1.04); }
 
+/* Cada competición, con su cabecera, dentro de un filtro */
+.grupo-liga { margin-bottom: 26px; }
+.gl-cab { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+.gl-cab h4 {
+  font-family: var(--serif); font-size: 17px; margin: 0; flex: 1;
+}
+.gl-cuenta {
+  font-family: var(--mono); font-size: 11px; color: var(--ink-3);
+  letter-spacing: .05em;
+}
+
 /* ── Elegir equipos favoritos ─────────────────────────────────────────── */
 .elige-equipos { margin-top: 4px; }
 .elige-txt { color: var(--ink-2); font-size: 14px; margin: 0 0 14px; max-width: 620px; }
@@ -1285,15 +1304,23 @@ table.tabla-liga tbody tr:hover td { background: var(--surface-2); }
 
 /* ── Reparto de aciertos y fallos ─────────────────────────────────────── */
 .reparto { margin-bottom: 4px; }
+.rp-linea {
+  display: grid; grid-template-columns: 170px 1fr 62px; gap: 12px;
+  align-items: center; margin-bottom: 8px;
+}
+.rp-etq { font-size: 13.5px; color: var(--ink); }
+.rp-pct {
+  font-family: var(--mono); font-size: 14px; font-weight: 600; text-align: right;
+}
 .reparto-barra {
-  display: flex; height: 46px; border-radius: 9px; overflow: hidden;
-  font-family: var(--sans); font-size: 13px;
+  display: flex; height: 34px; border-radius: 7px; overflow: hidden;
+  font-family: var(--sans); font-size: 12px;
 }
 .reparto-barra span {
   display: flex; align-items: center; justify-content: center; gap: 6px;
   color: #fff; min-width: 0; padding: 0 8px; white-space: nowrap; overflow: hidden;
 }
-.reparto-barra b { font-size: 17px; font-family: var(--mono); }
+.reparto-barra b { font-size: 14px; font-family: var(--mono); }
 .rp-ok { background: var(--ok); }
 .rp-no { background: var(--visita); }
 .reparto-pies {
@@ -1399,6 +1426,8 @@ table.tabla-liga tbody tr:hover td { background: var(--surface-2); }
   margin: 12px 0 0; font-size: 12.5px; color: var(--ink-3); line-height: 1.5;
 }
 @media (max-width: 620px) {
+  .rp-linea { grid-template-columns: 1fr 54px; }
+  .rp-etq { grid-column: 1 / -1; margin-bottom: 2px; }
   .reg-fila { grid-template-columns: 1fr 46px 68px; }
   .reg-fecha, .reg-dijo { display: none; }
   .mk-fila { grid-template-columns: 1fr 52px 24px; }
@@ -2747,10 +2776,14 @@ function escudo(nombre, grande = false) {
     style="background:${fondo};color:${texto}">${iniciales}</span>`;
 
   if (!url) return insignia;
-  return `<span class="escudo-caja${grande ? " grande" : ""}">
+  // «con-img» permite tapar el distintivo de colores cuando hay escudo: muchos
+  // escudos son línea sobre fondo transparente, y el del Liverpool —rojo—
+  // desaparecía encima del distintivo rojo del club. Si la imagen falla, el
+  // onerror quita la marca y el distintivo vuelve a verse.
+  return `<span class="escudo-caja con-img${grande ? " grande" : ""}">
       ${insignia}
       <img src="${url}" alt="" loading="lazy" decoding="async"
-        onerror="this.remove()">
+        onerror="this.parentElement.classList.remove('con-img');this.remove()">
     </span>`;
 }
 
@@ -5914,27 +5947,50 @@ function pintarRendimiento(R, R_TOTAL) {
       </table>
     </div>`;
 
+  // Cada pronóstico que se hace de un partido, con su acierto. El resultado
+  // 1X2 es el más difícil de todos, así que enseñarlo solo daba una impresión
+  // injustamente mala: quien mira quiere saber cómo va cada mercado.
   const merc = Object.entries(R.mercados || {});
-
-  // Aciertos contra fallos, en una barra: es la lectura más inmediata
-  const fallos = R_TOTAL.n - R_TOTAL.aciertos;
-  const pctFallos = Math.round(fallos / R_TOTAL.n * 1000) / 10;
+  const lineas = [
+    { etq: "Quién gana (1X2)", ok: R_TOTAL.aciertos, n: R_TOTAL.n,
+      pct: R_TOTAL.pct, duro: true },
+    ...merc.map(([etq, m]) => ({ etq, ok: m.ok, n: m.n, pct: m.pct })),
+  ];
 
   caja.innerHTML = `
-    <p class="mk-titulo" style="margin-top:22px">De cada partido que pronosticamos</p>
+    <p class="mk-titulo" style="margin-top:22px">Acierto en cada pronóstico</p>
     <div class="reparto">
-      <div class="reparto-barra">
-        <span class="rp-ok" style="flex:${R_TOTAL.aciertos}">
-          <b>${R_TOTAL.aciertos}</b> acertados</span>
-        <span class="rp-no" style="flex:${fallos}">
-          <b>${fallos}</b> fallados</span>
-      </div>
+      ${lineas.map(l => `
+        <div class="rp-linea">
+          <span class="rp-etq">${l.etq}</span>
+          <span class="reparto-barra">
+            <span class="rp-ok" style="flex:${Math.max(l.ok, 0.01)}"
+              >${l.pct >= 22 ? `<b>${l.ok}</b> acertados` : ""}</span>
+            <span class="rp-no" style="flex:${Math.max(l.n - l.ok, 0.01)}"
+              >${100 - l.pct >= 22 ? `<b>${l.n - l.ok}</b> fallados` : ""}</span>
+          </span>
+          <span class="rp-pct ${l.pct >= 60 ? "mejor" : l.pct < 40 ? "peor" : ""}"
+            >${dec(l.pct, 1)} %</span>
+        </div>`).join("")}
       <div class="reparto-pies">
-        <span><i class="pt ok"></i>${dec(R_TOTAL.pct, 1)} % acertados</span>
-        <span><i class="pt no"></i>${dec(pctFallos, 1)} % fallados</span>
-        <span class="rp-total">${R_TOTAL.n} partidos en total</span>
+        <span><i class="pt ok"></i>acertados</span>
+        <span><i class="pt no"></i>fallados</span>
+        <span class="rp-total">sobre ${R_TOTAL.n} partidos resueltos</span>
       </div>
     </div>
+
+    <p class="mk-nota">Acertar <b>quién gana</b> es lo más difícil que hay: son
+      tres resultados posibles y el empate se lleva una de cada cuatro veces.
+      Elegir siempre al local acierta un 46 % y tirar una moneda de tres caras,
+      un 33 %; nuestro <b>${dec(R_TOTAL.pct, 1)} %</b> hay que leerlo contra eso,
+      no contra el 100 %.
+      ${merc.length
+        ? `Los demás pronósticos —líneas de goles, si marcan los dos— son de sí
+           o no, y por eso aciertan más. Están todos arriba.`
+        : `Los demás pronósticos que hace la página —más de 2,5 goles, si marcan
+           los dos equipos, marcador exacto— empezaron a registrarse después,
+           así que aún no hay partidos suficientes resueltos con ellos.
+           Aparecerán aquí en cuanto los haya.`}</p>
 
     <p class="mk-titulo" style="margin-top:22px">Qué tan buenos son los números</p>
     <div class="jd-rejilla">
@@ -5964,19 +6020,7 @@ function pintarRendimiento(R, R_TOTAL) {
     ${tabla("Acierto por competición", R.por_liga, "Competición")}
     ${tabla("Acierto según lo que pasó", R.por_resultado, "Resultado")}
 
-    ${merc.length ? `
-      <p class="mk-titulo">Acierto en los demás pronósticos</p>
-      <div class="tabla-envoltorio">
-        <table class="tabla-liga">
-          <thead><tr><th>Pronóstico</th><th>Partidos</th><th>% acierto</th>
-            <th>Decíamos</th><th>Ocurrió</th></tr></thead>
-          <tbody>${merc.map(([etq, m]) => `<tr>
-            <td style="text-align:left">${etq}</td><td>${m.n}</td>
-            <td class="${m.pct >= 60 ? "mejor" : m.pct < 35 ? "peor" : ""}">${dec(m.pct, 1)} %</td>
-            <td>${dec(m.dicho, 1)} %</td><td>${dec(m.real, 1)} %</td>
-          </tr>`).join("")}</tbody>
-        </table>
-      </div>` : ""}`;
+`;
 }
 
 /** Barra de tres tramos con las probabilidades del partido. */
@@ -6272,7 +6316,22 @@ function pintarFiltrado() {
 
   let dentro;
   if (lista.length) {
-    dentro = `<div class="rejilla-partidos">${lista.map(tarjetaPartido).join("")}</div>`;
+    // Agrupados por competición: veinte partidos sueltos de cinco ligas se
+    // leen mal, y así se reconoce de un vistazo a qué torneo pertenece cada uno.
+    const porLiga = {};
+    lista.forEach(g => (porLiga[g.k] ||= { lg: g.lg, partidos: [] }).partidos.push(g));
+
+    dentro = Object.entries(porLiga).map(([k, grupo]) => `
+      <div class="grupo-liga">
+        <div class="gl-cab">
+          ${logoComp(k) ? `<img class="flc-logo" src="${logoComp(k)}" alt=""
+              loading="lazy" decoding="async">` : ""}
+          <h4>${grupo.lg.nombre}</h4>
+          <span class="gl-cuenta">${grupo.partidos.length}
+            ${grupo.partidos.length === 1 ? "partido" : "partidos"}</span>
+        </div>
+        <div class="rejilla-partidos">${grupo.partidos.map(tarjetaPartido).join("")}</div>
+      </div>`).join("");
   } else if (filtroActivo === "favoritos") {
     dentro = selectorDeEquipos();
   } else {
