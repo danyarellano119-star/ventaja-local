@@ -1,6 +1,7 @@
 {
 "champions": {
 "continente": "Europa",
+"es_liga": false,
 "mes": 8,
 "nombre": "Champions League",
 "pais": "Europa",
@@ -8,6 +9,7 @@
 },
 "championship": {
 "continente": "Europa",
+"es_liga": true,
 "mes": 8,
 "nombre": "Championship",
 "pais": "Inglaterra",
@@ -3712,6 +3714,7 @@
 },
 "libertadores": {
 "continente": "América",
+"es_liga": false,
 "mes": 1,
 "nombre": "Copa Libertadores",
 "pais": "Sudamérica",

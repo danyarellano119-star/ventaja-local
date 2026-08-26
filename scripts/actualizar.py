@@ -1231,10 +1231,15 @@ def main() -> None:
                                      "l": ids[0], "v": ids[1]})
             partidos_web = partidos_web[:60]
 
-            del_calendario = {q["l"] for q in partidos_web} | {q["v"] for q in partidos_web}
-            plantel = {k: v for k, v in equipos.items() if k in del_calendario}
-            pron = simular.simular_liga(plantel, gamma, RHO,
-                                        descensos=3 if len(plantel) >= 18 else 0)
+            # Simular la temporada sólo tiene sentido en una liga: en una copa
+            # por eliminatorias no hay clasificación general que predecir.
+            pron = []
+            if info.get("es_liga"):
+                del_calendario = ({q["l"] for q in partidos_web}
+                                  | {q["v"] for q in partidos_web})
+                plantel = {k: v for k, v in equipos.items() if k in del_calendario}
+                pron = simular.simular_liga(plantel, gamma, RHO,
+                                            descensos=3 if len(plantel) >= 18 else 0)
 
             for pw in partidos_web:
                 el, ev = equipos.get(pw["l"]), equipos.get(pw["v"])
@@ -1253,6 +1258,7 @@ def main() -> None:
             salida["ligas"][clave] = {
                 "nombre": info["nombre"], "pais": info["pais"], "sin_xg": True,
                 "continente": info["continente"],
+                "es_copa": not info.get("es_liga", True),
                 "pca": componentes_principales(equipos), "historico": [],
                 "pronostico": pron, "aciertos": {},
                 "temp_fuerzas": "", "temp_hist": "", "temp_jug": "",

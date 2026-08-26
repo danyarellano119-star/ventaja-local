@@ -33,11 +33,15 @@ BASE = "https://api.football-data.org/v4"
 HORAS = 12
 PAUSA = 7        # segundos entre peticiones; el plan libre da 10 por minuto
 
-# clave interna -> (código en la API, nombre, país, continente, mes de inicio)
+# clave interna -> (código, nombre, país, continente, mes de inicio, es liga)
+#
+# La última casilla distingue una liga de una copa. La Libertadores y la
+# Champions son torneos por eliminatorias: no tienen clasificación general ni
+# descensos, así que la web no debe enseñarles nada de eso.
 COMPETICIONES = {
-    "championship": ("ELC", "Championship", "Inglaterra", "Europa", 8),
-    "champions":    ("CL",  "Champions League", "Europa", "Europa", 8),
-    "libertadores": ("CLI", "Copa Libertadores", "Sudamérica", "América", 1),
+    "championship": ("ELC", "Championship", "Inglaterra", "Europa", 8, True),
+    "champions":    ("CL",  "Champions League", "Europa", "Europa", 8, False),
+    "libertadores": ("CLI", "Copa Libertadores", "Sudamérica", "América", 1, False),
 }
 
 
@@ -149,7 +153,7 @@ def calendarios(hoy: date | None = None) -> dict:
         return {k: v for k, v in cache.items() if v.get("partidos")}
 
     fuera: dict[str, dict] = {}
-    for clave, (cod, nombre, pais, continente, mes) in COMPETICIONES.items():
+    for clave, (cod, nombre, pais, continente, mes, es_liga) in COMPETICIONES.items():
         datos = _pedir(f"competitions/{cod}/matches?status=SCHEDULED")
         time.sleep(PAUSA)
         if not datos:
@@ -177,7 +181,7 @@ def calendarios(hoy: date | None = None) -> dict:
         partidos.sort(key=lambda p: (p["fecha"], p["hora"]))
         fuera[clave] = {"nombre": nombre, "pais": pais,
                         "continente": continente, "mes": mes,
-                        "partidos": partidos}
+                        "es_liga": es_liga, "partidos": partidos}
 
     if fuera:
         CACHE.parent.mkdir(parents=True, exist_ok=True)

@@ -2218,7 +2218,7 @@ details .cuerpo strong { color: var(--ink); }
       <div id="ac-lista"></div>
     </section>
 
-    <section class="tarjeta">
+    <section class="tarjeta" id="lg-bloque-tabla">
       <span class="paso">Clasificación</span>
       <h2>Cómo quedó la liga</h2>
       <p class="sub">
@@ -2234,7 +2234,7 @@ details .cuerpo strong { color: var(--ink); }
       <p class="aviso-bajas" id="lg-nota-tabla"></p>
     </section>
 
-    <section class="tarjeta">
+    <section class="tarjeta" id="lg-bloque-mapa">
       <span class="paso">El mapa de la liga</span>
       <h2>Qué separa de verdad a los equipos</h2>
       <p class="sub" id="lg-pca-intro"></p>
@@ -2244,7 +2244,7 @@ details .cuerpo strong { color: var(--ink); }
       <div class="ejes" id="lg-ejes"></div>
     </section>
 
-    <section class="tarjeta">
+    <section class="tarjeta" id="lg-bloque-historia">
       <span class="paso">Las últimas temporadas</span>
       <h2>Qué ha pasado en los últimos años</h2>
       <p class="sub" id="lg-hist-intro"></p>
@@ -4441,6 +4441,37 @@ function abrirLiga(ligaKey) {
   sel.value = ligaKey;
 
   document.getElementById("lg-nombre").textContent = lg.nombre;
+
+  // Cada sección se esconde si esta competición no tiene ese dato. Sin esto,
+  // al pasar de una liga a otra quedaba a la vista lo de la anterior: la
+  // Libertadores enseñaba a la Juventus como campeona porque el gráfico de la
+  // Serie A seguía dibujado.
+  const copa = !!lg.es_copa;
+  const tiene = {
+    "lg-bloque-pron": !copa && (lg.pronostico || []).length > 0,
+    "lg-bloque-aciertos": (lg.aciertos || {}).n > 0,
+    "lg-bloque-tabla": !copa,
+    "lg-bloque-mapa": !!(lg.pca && lg.pca.equipos),
+    "lg-bloque-historia": (lg.historico || []).length > 0,
+  };
+  Object.entries(tiene).forEach(([id, hay]) => {
+    const el = document.getElementById(id);
+    if (el) el.classList.toggle("oculto", !hay);
+  });
+
+  // Y se vacía lo que no se vaya a rellenar, para que no quede nada pegado
+  if (!tiene["lg-bloque-historia"]) {
+    ["lg-g-campeones", "lg-g-goles", "lg-g-dominio"].forEach(id => {
+      const el = document.getElementById(id);
+      if (el) el.innerHTML = "";
+    });
+  }
+  if (!tiene["lg-bloque-pron"]) {
+    ["lg-g-titulo", "lg-tabla-pron"].forEach(id => {
+      const el = document.getElementById(id);
+      if (el) el.innerHTML = "";
+    });
+  }
   ponerLogo("lg-logo", logoComp(ligaKey));
 
   const golesTot = clubes.reduce((s, e) => s + e.gf, 0);
@@ -4448,13 +4479,33 @@ function abrirLiga(ligaKey) {
   const masGoles = clubes.slice().sort((a, b) => b.gf - a.gf)[0];
   const mejorDef = clubes.slice().sort((a, b) => a.gc - b.gc)[0];
 
-  document.getElementById("lg-resumen").innerHTML =
-    `${clubes.length} equipos y ${Math.round(pjTot)} partidos. ` +
-    `<b>${tabla[0].nombre}</b> lidera con ${tabla[0].pts} puntos, ` +
-    `<b>${masGoles.nombre}</b> es el que más marca (${masGoles.gf} goles) y ` +
-    `<b>${mejorDef.nombre}</b> el que menos encaja (${mejorDef.gc}). ` +
-    `Jugar en casa vale aquí un <b>${Math.round((Math.exp(lg.gamma) - 1) * 100)} %</b> ` +
-    `más de ocasiones, ${Math.exp(lg.gamma) > 1.35 ? "de las ventajas más altas de Europa" : "una cifra normal en Europa"}.`;
+  // En una copa no hay «líder»: se juega por eliminatorias y quien va primero
+  // en un grupo no encabeza nada general. Decirlo evita que parezca una liga.
+  const casa = `Jugar en casa vale aquí un ` +
+    `<b>${Math.round((Math.exp(lg.gamma) - 1) * 100)} %</b> más de ocasiones, ` +
+    `${Math.exp(lg.gamma) > 1.35 ? "de las ventajas más altas que medimos" : "una cifra normal"}.`;
+
+  // En una copa cada equipo juega un número distinto de partidos, así que los
+  // totales engañan: quien cayó en la primera ronda «encaja pocos goles». Se
+  // mira el promedio por partido y sólo entre los que llevan ya cuatro.
+  const conRodaje = clubes.filter(e => e.pj >= 4);
+  const muestra = conRodaje.length >= 4 ? conRodaje : clubes;
+  const masGolesC = muestra.slice().sort((a, b) => b.gf / b.pj - a.gf / a.pj)[0];
+  const mejorDefC = muestra.slice().sort((a, b) => a.gc / a.pj - b.gc / b.pj)[0];
+  const elLa = /^(Copa|Liga|Super|Primeira|Premier)/.test(lg.nombre) ? "La " : "El ";
+
+  document.getElementById("lg-resumen").innerHTML = copa
+    ? `${elLa}<b>${lg.nombre}</b> es un torneo por eliminatorias, no una liga: no hay ` +
+      `clasificación general ni descensos, así que aquí verás la fuerza de cada ` +
+      `equipo y no una tabla. Sobre los ${Math.round(pjTot)} partidos ya jugados ` +
+      `entre estos ${clubes.length} equipos, <b>${masGolesC.nombre}</b> es el que ` +
+      `más marca (${dec(masGolesC.gf / masGolesC.pj, 1)} goles por partido) y ` +
+      `<b>${mejorDefC.nombre}</b> el que menos encaja ` +
+      `(${dec(mejorDefC.gc / mejorDefC.pj, 1)}). ` + casa
+    : `${clubes.length} equipos y ${Math.round(pjTot)} partidos. ` +
+      `<b>${tabla[0].nombre}</b> lidera con ${tabla[0].pts} puntos, ` +
+      `<b>${masGoles.nombre}</b> es el que más marca (${masGoles.gf} goles) y ` +
+      `<b>${mejorDef.nombre}</b> el que menos encaja (${mejorDef.gc}). ` + casa;
 
   document.getElementById("lg-cabecera").innerHTML = [
     [clubes.length, "equipos"],
