@@ -50,4 +50,7 @@ subir.bat
 # cualquiera pueda comprobar en el historial que no se ha retocado.
 !datos/pronosticos.json
 !datos/logos_competiciones.json
+# La biblioteca de vídeos se acumula ejecución a ejecución: el RSS sólo da los
+# quince últimos de cada canal, así que si no se guarda no hay biblioteca.
+!datos/videos.json
 !datos/fotos_fallidas.json

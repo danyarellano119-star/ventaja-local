@@ -39,6 +39,7 @@ import escudos as mod_escudos
 import fotos as mod_fotos
 import ligas_goles as mod_goles
 import football_data as mod_fd
+import videos as mod_videos
 import registro as mod_registro
 import estadios as mod_estadios
 
@@ -1418,6 +1419,10 @@ def main() -> None:
     # les pinta su distintivo de colores.
     print("")
     print("Escudos")
+    print("")
+    print("Vídeos oficiales")
+    salida["videos"] = mod_videos.recolectar(hoy)
+
     salida["escudos"] = mod_escudos.mapear(salida["ligas"])
     # football-data.org publica el escudo de cada equipo suyo. Es la única
     # fuente que cubre la Championship y los clubes sudamericanos, así que

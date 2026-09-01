@@ -947,6 +947,36 @@ table.tabla-liga tbody tr:hover td { background: var(--surface-2); }
     linear-gradient(to bottom, rgba(6,8,12,.72) 0%, rgba(6,8,12,0) 18%);
 }
 
+/* ── Vídeos oficiales ─────────────────────────────────────────────────── */
+/* El primero se ve grande y en la propia página; los demás quedan como
+   miniaturas que se abren al pulsarlas, para no cargar cinco reproductores. */
+.video-grande {
+  position: relative; width: 100%; aspect-ratio: 16 / 9; margin: 4px 0 14px;
+  border-radius: 10px; overflow: hidden; background: #0b0e13;
+}
+.video-grande iframe { width: 100%; height: 100%; border: 0; display: block; }
+.video-lista { display: flex; gap: 12px; overflow-x: auto; padding-bottom: 6px; }
+.video-mini {
+  flex: none; width: 190px; text-align: left; background: none; border: none;
+  padding: 0; cursor: pointer; font-family: var(--sans); color: inherit;
+}
+.video-mini img {
+  width: 190px; height: 107px; object-fit: cover; border-radius: 8px;
+  display: block; background: #0b0e13;
+}
+.video-mini span {
+  display: block; font-size: 12.5px; line-height: 1.35; margin-top: 6px;
+  color: var(--ink-2);
+}
+.video-mini:hover span { color: var(--ink); }
+.video-mini:focus-visible { outline: 2px solid var(--acento); outline-offset: 2px; }
+.video-mini.activo img { outline: 2px solid var(--acento); outline-offset: 2px; }
+.video-canal {
+  font-family: var(--mono); font-size: 11px; letter-spacing: .04em;
+  text-transform: uppercase; color: var(--ink-3);
+}
+@media print { .video-grande, .video-lista { display: none; } }
+
 /* ── Portada de las fichas de equipo y de jugador ─────────────────────── */
 /* Mismo lenguaje que la portada principal: la foto ocupa todo el ancho, el
    texto va encima. Antes las fichas empezaban con una tarjeta blanca y se
@@ -2152,6 +2182,14 @@ details .cuerpo strong { color: var(--ink); }
       </div>
     </section>
 
+    <section class="tarjeta oculto" id="d-bloque-video">
+      <span class="paso">En vídeo</span>
+      <h2>Cómo llegan estos dos equipos</h2>
+      <p class="sub" id="d-video-sub"></p>
+      <div id="d-videos"></div>
+      <p class="sub" id="d-video-buscar" style="margin-top:14px"></p>
+    </section>
+
     <section class="tarjeta">
       <span class="paso">Fiabilidad</span>
       <h2>Qué tan fiables son estos números</h2>
@@ -2523,6 +2561,14 @@ details .cuerpo strong { color: var(--ink); }
              aria-label="Qué temporada mirar"></div>
         <p class="ficha-aviso" id="eq-aviso"></p>
       </div>
+    </section>
+
+    <section class="tarjeta oculto" id="eq-bloque-video">
+      <span class="paso">En vídeo</span>
+      <h2>Cómo le ha ido, en imágenes</h2>
+      <p class="sub" id="eq-video-sub"></p>
+      <div id="eq-videos"></div>
+      <p class="sub" id="eq-video-buscar" style="margin-top:14px"></p>
     </section>
 
     <section class="tarjeta" id="eq-bloque-tabla">
@@ -3703,6 +3749,31 @@ function abrirDetalle(ligaKey, p, desdeRuta = false) {
   } else {
     cajaNuevo.classList.add("oculto");
   }
+
+  // ── Vídeos ──────────────────────────────────────────────────────────── //
+  // Se incrusta lo que haya publicado el canal oficial de la competición y
+  // mencione a los dos equipos. Y esté o no, siempre queda el enlace al
+  // buscador, para que cada uno mire lo que quiera.
+  const vids = videosDe(ligaKey, [a.nombre, b.nombre]);
+  const sueltos = vids.length ? [] :
+    videosDe(ligaKey, [a.nombre], 3).concat(videosDe(ligaKey, [b.nombre], 3));
+  const mostrar = vids.length ? vids : sueltos;
+  const canal = (D.videos || {})[ligaKey];
+  document.getElementById("d-bloque-video").classList
+    .toggle("oculto", !mostrar.length && !canal);
+  document.getElementById("d-video-sub").innerHTML = mostrar.length
+    ? (vids.length
+        ? `Lo último que ha publicado el canal oficial de ${lg.nombre} sobre
+           este partido.`
+        : `El canal oficial de ${lg.nombre} no tiene todavía nada de este
+           partido, así que aquí van sus vídeos más recientes de cada equipo.`)
+    : `El canal oficial de ${lg.nombre} no ha publicado aún nada de estos dos
+       equipos. Se revisa cada hora.`;
+  pintarVideos("d-videos", mostrar);
+  document.getElementById("d-video-buscar").innerHTML =
+    `¿Buscas otra cosa? ` +
+    enlaceBusqueda(`${a.nombre} ${b.nombre} resumen`, "Búscalo tú en YouTube") +
+    ` — se abre en otra pestaña.`;
 
   mostrarVista("vista-detalle");
 }
@@ -5621,6 +5692,80 @@ function mapaJugadores(pares, elegido) {
 // fichas para que no tenga que volver a elegirla en cada una.
 let tempEquipo = "";
 
+/* ── Vídeos oficiales ─────────────────────────────────────────────────── */
+
+/** Texto sin acentos ni signos, para buscar equipos dentro de un título. */
+function clvVideo(t) {
+  return (t || "").toLowerCase().normalize("NFD")
+    .replace(/[̀-ͯ]/g, "")
+    .replace(/[^a-z0-9]+/g, " ").trim();
+}
+
+/** Las palabras por las que se puede reconocer a un equipo en un título.
+ *  Se descartan las genéricas: buscar «city» o «real» encontraría cualquier
+ *  cosa, y colgar el vídeo equivocado es peor que no colgar ninguno. */
+const GENERICAS = new Set(["city", "town", "united", "real", "club", "sport",
+  "sporting", "athletic", "atletico", "deportivo", "racing", "borussia",
+  "olympique", "stade", "calcio", "milan", "fc", "cf", "sc", "ac"]);
+
+function palabrasEquipo(nombre) {
+  return clvVideo(nombre).split(" ")
+    .filter(w => w.length >= 4 && !GENERICAS.has(w));
+}
+
+/** ¿Este título habla de este equipo? */
+function tituloMenciona(titulo, nombre) {
+  const t = clvVideo(titulo);
+  const ws = palabrasEquipo(nombre);
+  return ws.length > 0 && ws.some(w => t.includes(w));
+}
+
+/** Vídeos de una competición que mencionan a todos los equipos que se le pidan. */
+function videosDe(ligaKey, nombres, tope = 6) {
+  const biblio = (D.videos || {})[ligaKey] || [];
+  return biblio
+    .filter(v => nombres.every(n => tituloMenciona(v.t, n)))
+    .slice(0, tope);
+}
+
+/** Enlace al buscador de YouTube, para que cada uno mire lo que quiera. */
+function enlaceBusqueda(texto, etiqueta) {
+  const q = encodeURIComponent(texto);
+  return `<a href="https://www.youtube.com/results?search_query=${q}"
+     target="_blank" rel="noopener noreferrer">${etiqueta}</a>`;
+}
+
+/** Pinta un bloque de vídeos: el primero incrustado y el resto en miniaturas. */
+function pintarVideos(idCaja, videos) {
+  const caja = document.getElementById(idCaja);
+  if (!videos.length) { caja.innerHTML = ""; return; }
+
+  const poner = i => {
+    const v = videos[i];
+    // youtube-nocookie: el reproductor no deja rastro hasta que se le da al play
+    caja.querySelector(".video-grande").innerHTML =
+      `<iframe src="https://www.youtube-nocookie.com/embed/${v.id}"
+         title="${v.t.replace(/"/g, "&quot;")}" loading="lazy"
+         allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+         referrerpolicy="strict-origin-when-cross-origin"
+         allowfullscreen></iframe>`;
+    caja.querySelectorAll(".video-mini").forEach((b, j) =>
+      b.classList.toggle("activo", j === i));
+  };
+
+  caja.innerHTML = `<div class="video-grande"></div>` + (videos.length > 1
+    ? `<div class="video-lista">` + videos.map((v, i) => `
+        <button class="video-mini" type="button" data-i="${i}">
+          <img src="https://i.ytimg.com/vi/${v.id}/mqdefault.jpg" alt="" loading="lazy">
+          <span>${v.t}</span>
+          <span class="video-canal">${v.c} · ${fechaLarga(v.f)}</span>
+        </button>`).join("") + `</div>`
+    : "");
+  caja.querySelectorAll(".video-mini").forEach(b =>
+    b.addEventListener("click", () => poner(+b.dataset.i)));
+  poner(0);
+}
+
 function abrirEquipo(ligaKey, clave) {
   irA(`/equipo/${ligaKey}/${clave}`, true);
   const lg = D.ligas[ligaKey];
@@ -5760,6 +5905,22 @@ function abrirEquipo(ligaKey, clave) {
   ] : []).concat([[dec(Math.exp(eq.atq), 2) + "×", "fuerza de ataque"]]);
   document.getElementById("eq-cabecera").innerHTML = cabecera.map(([v, l]) =>
     `<div class="cifra"><b>${v}</b><span>${l}</span></div>`).join("");
+
+  // ── Vídeos del equipo ───────────────────────────────────────────────── //
+  const susVideos = videosDe(ligaKey, [eq.nombre], 8);
+  const hayCanal = !!(D.videos || {})[ligaKey];
+  document.getElementById("eq-bloque-video").classList
+    .toggle("oculto", !susVideos.length && !hayCanal);
+  document.getElementById("eq-video-sub").innerHTML = susVideos.length
+    ? `Lo último que ha publicado el canal oficial de ${lg.nombre} sobre
+       ${eq.nombre}.`
+    : `El canal oficial de ${lg.nombre} no ha publicado nada de ${eq.nombre}
+       últimamente. Se revisa cada hora.`;
+  pintarVideos("eq-videos", susVideos);
+  document.getElementById("eq-video-buscar").innerHTML =
+    `¿Buscas otra cosa? ` +
+    enlaceBusqueda(`${eq.nombre} resumen ${T(op.act || lg.temp_hist || "")}`,
+                   "Búscalo tú en YouTube") + ` — se abre en otra pestaña.`;
 
   // ── La tabla de su liga, con él resaltado ────────────────────────────── //
   // Ver el puesto suelto no dice gran cosa: lo que importa es quién tiene
