@@ -17,6 +17,9 @@ on:
       - "scripts/**"
       - "requirements.txt"
       - ".github/workflows/actualizar.yml"
+      # Las cachés publicadas también: son datos de la web. Sin esto, añadir
+      # la lista de escudos no regeneraba nada y había que esperar al reloj.
+      - "datos/**"
 
   # Y a mano, desde la pestaña Actions del repositorio.
   workflow_dispatch:
