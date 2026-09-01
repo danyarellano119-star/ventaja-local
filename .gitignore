@@ -40,6 +40,11 @@ subir.bat
 !datos/estadios.json
 !datos/football_data_historial.json
 !datos/football_data.json
+# Los escudos de football-data.org se recogen de los partidos que ya se bajan,
+# así que en una ejecución con la caché de partidos caliente no se recoge
+# ninguno. Sin publicar esta lista, la actualización automática dejaba a la
+# Championship y a la Champions sin escudos.
+!datos/football_data_equipos.json
 !datos/escudos_wikidata.json
 # El registro de pronósticos se publica a propósito: su valor está en que
 # cualquiera pueda comprobar en el historial que no se ha retocado.
