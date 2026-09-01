@@ -971,6 +971,23 @@ table.tabla-liga tbody tr:hover td { background: var(--surface-2); }
 .video-mini:hover span { color: var(--ink); }
 .video-mini:focus-visible { outline: 2px solid var(--acento); outline-offset: 2px; }
 .video-mini.activo img { outline: 2px solid var(--acento); outline-offset: 2px; }
+.video-equipo { margin-bottom: 26px; }
+.video-equipo h3 {
+  display: flex; align-items: center; gap: 9px; margin: 0 0 10px;
+  font-family: var(--serif); font-size: 17px; font-weight: 600;
+}
+.video-equipo h3 small {
+  font-family: var(--sans); font-size: 11px; letter-spacing: .08em;
+  text-transform: uppercase; color: var(--ink-3); font-weight: 400;
+}
+.video-pie { font-family: var(--sans); font-size: 13px; margin: 0 0 12px;
+  line-height: 1.5; color: var(--ink-2); }
+.video-vacio { font-family: var(--sans); font-size: 13px; margin: 10px 0 0;
+  color: var(--ink-2); }
+@media (min-width: 900px) {
+  #d-videos { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+  #d-videos .video-equipo { margin-bottom: 0; }
+}
 .video-canal {
   font-family: var(--mono); font-size: 11px; letter-spacing: .04em;
   text-transform: uppercase; color: var(--ink-3);
@@ -2482,17 +2499,18 @@ details .cuerpo strong { color: var(--ink); }
         </div>
         <p class="ficha-meta" id="jf-resumen"></p>
         <div class="ficha-cifras" id="jf-cabecera"></div>
+        <p class="ficha-aviso" id="jf-aviso"></p>
       </div>
     </section>
 
-    <section class="tarjeta">
+    <section class="tarjeta" id="jf-bloque-pct">
       <span class="paso">Comparación</span>
       <h2>Dónde está entre los de su puesto<span class="sello-temporada" id="jf-sello"></span></h2>
       <p class="sub" id="jf-pct-sub"></p>
       <div id="jf-percentiles"></div>
     </section>
 
-    <section class="tarjeta">
+    <section class="tarjeta" id="jf-bloque-rend">
       <span class="paso">Rendimiento</span>
       <h2>Lo que genera y lo que convierte</h2>
       <div class="graficos">
@@ -2512,7 +2530,7 @@ details .cuerpo strong { color: var(--ink); }
       </div>
     </section>
 
-    <section class="tarjeta">
+    <section class="tarjeta" id="jf-bloque-detalle">
       <span class="paso">Todos los números</span>
       <h2>Su temporada al detalle</h2>
       <p class="sub">Pasa el ratón por cada dato para ver qué significa.</p>
@@ -3136,6 +3154,46 @@ function recorta(texto, anchoDisponible, cuerpo = 12) {
 }
 const dec = (x, n = 2) => x.toFixed(n).replace(".", ",");
 const mayus = t => (t || "").charAt(0).toUpperCase() + (t || "").slice(1);
+const PUESTO_LARGO = { POR: "portero", DEF: "defensa", MED: "centrocampista",
+                       DEL: "delantero", SUP: "suplente" };
+
+/* La fuente da la nacionalidad en inglés. Aquí van las que aparecen en estas
+   competiciones; la que no esté se enseña tal cual, que es mejor que nada. */
+const PAIS = {
+  England: "Inglaterra", Scotland: "Escocia", Wales: "Gales", Ireland: "Irlanda",
+  "Northern Ireland": "Irlanda del Norte", France: "Francia", Spain: "España",
+  Germany: "Alemania", Italy: "Italia", Portugal: "Portugal",
+  Netherlands: "Países Bajos", Belgium: "Bélgica", Denmark: "Dinamarca",
+  Sweden: "Suecia", Norway: "Noruega", Finland: "Finlandia", Iceland: "Islandia",
+  Poland: "Polonia", Czechia: "Chequia", "Czech Republic": "Chequia",
+  Slovakia: "Eslovaquia", Slovenia: "Eslovenia", Croatia: "Croacia",
+  Serbia: "Serbia", Bosnia: "Bosnia", "Bosnia-Herzegovina": "Bosnia",
+  Austria: "Austria", Switzerland: "Suiza", Hungary: "Hungría",
+  Romania: "Rumanía", Bulgaria: "Bulgaria", Greece: "Grecia", Turkey: "Turquía",
+  Türkiye: "Turquía", Ukraine: "Ucrania", Russia: "Rusia", Belarus: "Bielorrusia",
+  Albania: "Albania", "North Macedonia": "Macedonia del Norte",
+  Montenegro: "Montenegro", Kosovo: "Kosovo", Georgia: "Georgia",
+  Armenia: "Armenia", Azerbaijan: "Azerbaiyán", Israel: "Israel",
+  Brazil: "Brasil", Argentina: "Argentina", Uruguay: "Uruguay", Chile: "Chile",
+  Colombia: "Colombia", Peru: "Perú", Ecuador: "Ecuador", Paraguay: "Paraguay",
+  Venezuela: "Venezuela", Bolivia: "Bolivia", Mexico: "México",
+  "United States": "Estados Unidos", USA: "Estados Unidos", Canada: "Canadá",
+  Jamaica: "Jamaica", "Costa Rica": "Costa Rica", Honduras: "Honduras",
+  Panama: "Panamá", "Trinidad and Tobago": "Trinidad y Tobago",
+  Curaçao: "Curazao", Haiti: "Haití", "Dominican Republic": "República Dominicana",
+  Nigeria: "Nigeria", Ghana: "Ghana", Senegal: "Senegal", Cameroon: "Camerún",
+  "Ivory Coast": "Costa de Marfil", "Côte d'Ivoire": "Costa de Marfil",
+  Mali: "Malí", Morocco: "Marruecos", Algeria: "Argelia", Tunisia: "Túnez",
+  Egypt: "Egipto", "South Africa": "Sudáfrica", Guinea: "Guinea",
+  "Burkina Faso": "Burkina Faso", "DR Congo": "R. D. del Congo",
+  Congo: "Congo", Gabon: "Gabón", Angola: "Angola", Zimbabwe: "Zimbabue",
+  Zambia: "Zambia", Kenya: "Kenia", Gambia: "Gambia", "Cape Verde": "Cabo Verde",
+  "Guinea-Bissau": "Guinea-Bisáu", Togo: "Togo", Benin: "Benín",
+  Japan: "Japón", "South Korea": "Corea del Sur", "Korea Republic": "Corea del Sur",
+  China: "China", Australia: "Australia", "New Zealand": "Nueva Zelanda",
+  Iran: "Irán", Iraq: "Irak", Uzbekistan: "Uzbekistán", India: "India",
+};
+const pais = p => PAIS[p] || p || "";
 
 /* ── Ordenar las tablas ───────────────────────────────────────────────── */
 
@@ -3751,29 +3809,36 @@ function abrirDetalle(ligaKey, p, desdeRuta = false) {
   }
 
   // ── Vídeos ──────────────────────────────────────────────────────────── //
-  // Se incrusta lo que haya publicado el canal oficial de la competición y
-  // mencione a los dos equipos. Y esté o no, siempre queda el enlace al
-  // buscador, para que cada uno mire lo que quiera.
-  const vids = videosDe(ligaKey, [a.nombre, b.nombre]);
-  const sueltos = vids.length ? [] :
-    videosDe(ligaKey, [a.nombre], 3).concat(videosDe(ligaKey, [b.nombre], 3));
-  const mostrar = vids.length ? vids : sueltos;
+  // Un bloque por equipo, con lo último suyo. Buscar «PSG - Mónaco» devuelve
+  // los duelos entre ellos de años pasados, que no dicen nada de cómo llegan
+  // hoy; lo que interesa es el último partido de cada uno por separado.
   const canal = (D.videos || {})[ligaKey];
-  document.getElementById("d-bloque-video").classList
-    .toggle("oculto", !mostrar.length && !canal);
-  document.getElementById("d-video-sub").innerHTML = mostrar.length
-    ? (vids.length
-        ? `Lo último que ha publicado el canal oficial de ${lg.nombre} sobre
-           este partido.`
-        : `El canal oficial de ${lg.nombre} no tiene todavía nada de este
-           partido, así que aquí van sus vídeos más recientes de cada equipo.`)
-    : `El canal oficial de ${lg.nombre} no ha publicado aún nada de estos dos
-       equipos. Se revisa cada hora.`;
-  pintarVideos("d-videos", mostrar);
-  document.getElementById("d-video-buscar").innerHTML =
-    `¿Buscas otra cosa? ` +
-    enlaceBusqueda(`${a.nombre} ${b.nombre} resumen`, "Búscalo tú en YouTube") +
-    ` — se abre en otra pestaña.`;
+  document.getElementById("d-bloque-video").classList.toggle("oculto", !canal);
+  if (canal) {
+    document.getElementById("d-video-sub").innerHTML =
+      `Lo último de cada uno en el canal oficial de <b>${lg.nombre}</b>. Puedes ` +
+      `verlo aquí mismo o abrirlo en YouTube, como prefieras.`;
+    document.getElementById("d-videos").innerHTML =
+      [a, b].map((eq, i) => `
+        <div class="video-equipo">
+          <h3>${escudo(eq.nombre)} <span>${eq.nombre}</span>
+            <small>${i === 0 ? "local" : "visitante"}</small></h3>
+          <div id="d-videos-${i}"></div>
+          <p class="video-vacio" id="d-vacio-${i}"></p>
+        </div>`).join("");
+    [a, b].forEach((eq, i) => {
+      const suyos = videosDe(ligaKey, [eq], 6);
+      pintarVideos(`d-videos-${i}`, suyos);
+      document.getElementById(`d-vacio-${i}`).innerHTML = suyos.length
+        ? enlaceBusqueda(`${eq.nombre} resumen último partido`, "Ver más de este equipo en YouTube ↗")
+        : `Todavía no hay nada de ${eq.nombre} en el canal oficial. ` +
+          enlaceBusqueda(`${eq.nombre} resumen último partido`, "Buscarlo en YouTube ↗");
+    });
+    document.getElementById("d-video-buscar").innerHTML =
+      `¿Prefieres el cruce entre los dos? ` +
+      enlaceBusqueda(`${a.nombre} vs ${b.nombre}`, "Búscalo tú en YouTube ↗") +
+      ` — ojo, ahí salen sus duelos de otros años, no cómo llegan a éste.`;
+  }
 
   mostrarVista("vista-detalle");
 }
@@ -5509,16 +5574,50 @@ function abrirJugador(ligaKey, claveEq, nombre) {
     `<span>${eq.nombre} · ${lg.nombre}</span>`;
   document.getElementById("jf-nombre").textContent = j.n;
   document.getElementById("jf-sello").textContent = T(lg.temp_jug || lg.temp_hist);
-  document.getElementById("jf-resumen").innerHTML =
-    `${mayus(PUESTO[j.p] || "jugador")} · <b>${j.pj} partidos</b> y ${j.min} minutos,
-     el equivalente a ${dec(n90, 1)} partidos completos.`;
 
-  document.getElementById("jf-cabecera").innerHTML = [
-    [j.g, j.g === 1 ? "gol" : "goles"],
-    [j.a, j.a === 1 ? "asistencia" : "asistencias"],
-    [dec(j.g90 + j.a90, 2), "G+A por 90"],
-    [dec(j.xg, 1), "xG"], [dec(j.xa, 1), "xA"], [`${j.ta}/${j.tr}`, "TA / TR"],
-  ].map(([v, l]) => `<div class="cifra"><b>${v}</b><span>${l}</span></div>`).join("");
+  // De algunos jugadores sólo hay lo básico. Las competiciones fuera de las
+  // cinco grandes no tienen ocasiones de gol publicadas por ninguna fuente
+  // gratuita, así que de ellos se sabe lo que marcan y poco más. La ficha
+  // enseña eso y esconde lo que no puede calcular, en vez de fingirlo.
+  const soloBasico = !!j.basico;
+  const partes = [];
+  if (j.pj) partes.push(`<b>${j.pj} partido${j.pj === 1 ? "" : "s"}</b>`);
+  if (j.min) partes.push(`${j.min} minutos, el equivalente a ${dec(n90, 1)} partidos completos`);
+  if (j.edad) partes.push(`${j.edad} años`);
+  if (j.nac) partes.push(pais(j.nac));
+  document.getElementById("jf-resumen").innerHTML =
+    `${mayus(PUESTO[j.p] || "jugador")}${partes.length ? " · " + partes.join(" · ") : ""}.`;
+
+  document.getElementById("jf-cabecera").innerHTML = (soloBasico
+    ? [[j.g, j.g === 1 ? "gol" : "goles"],
+       [j.a, j.a === 1 ? "asistencia" : "asistencias"],
+       [j.pen || 0, (j.pen || 0) === 1 ? "de penalti" : "de penalti"],
+       [j.pj, j.pj === 1 ? "partido" : "partidos"]]
+    : [[j.g, j.g === 1 ? "gol" : "goles"],
+       [j.a, j.a === 1 ? "asistencia" : "asistencias"],
+       [dec(j.g90 + j.a90, 2), "G+A por 90"],
+       [dec(j.xg, 1), "xG"], [dec(j.xa, 1), "xA"], [`${j.ta}/${j.tr}`, "TA / TR"]]
+  ).map(([v, l]) => `<div class="cifra"><b>${v}</b><span>${l}</span></div>`).join("");
+
+  document.getElementById("jf-aviso").innerHTML = soloBasico
+    ? `De la ${lg.nombre} no hay ocasiones de gol publicadas —ninguna fuente
+       gratuita las da—, así que de este jugador tenemos lo que marca, lo que
+       asiste y sus partidos. Ni percentiles ni xG: preferimos no enseñarlos a
+       inventarlos.`
+    : "";
+
+  // Lo que no se puede calcular sin ocasiones de gol, fuera
+  ["jf-bloque-pct", "jf-bloque-rend", "jf-bloque-detalle", "jf-bloque-trayectoria"]
+    .forEach(id => {
+      const el = document.getElementById(id);
+      if (el) el.classList.toggle("oculto", soloBasico);
+    });
+  if (soloBasico) {
+    const notas = document.getElementById("jf-bloque-notas");
+    if (notas) notas.classList.add("oculto");
+    mostrarVista("vista-jugador");
+    return true;
+  }
 
   // ── Percentiles contra los de su mismo puesto ──────────────────────────
   const pares = companerosDePuesto(lg, j.p);
@@ -5713,18 +5812,26 @@ function palabrasEquipo(nombre) {
     .filter(w => w.length >= 4 && !GENERICAS.has(w));
 }
 
-/** ¿Este título habla de este equipo? */
-function tituloMenciona(titulo, nombre) {
+/** ¿Este título habla de este equipo?
+ *  Se prueban todos sus nombres: el que enseñamos en español y el que usa su
+ *  propia liga. El canal alemán titula «KÖLN» y nosotros escribimos
+ *  «Colonia», así que con uno solo no se encontraba nada. */
+function tituloMenciona(titulo, equipo) {
   const t = clvVideo(titulo);
-  const ws = palabrasEquipo(nombre);
-  return ws.length > 0 && ws.some(w => t.includes(w));
+  const nombres = typeof equipo === "string"
+    ? [equipo]
+    : [equipo.nombre].concat(equipo.alias || []);
+  return nombres.some(n => {
+    const ws = palabrasEquipo(n);
+    return ws.length > 0 && ws.some(w => t.includes(w));
+  });
 }
 
 /** Vídeos de una competición que mencionan a todos los equipos que se le pidan. */
-function videosDe(ligaKey, nombres, tope = 6) {
+function videosDe(ligaKey, equipos, tope = 6) {
   const biblio = (D.videos || {})[ligaKey] || [];
   return biblio
-    .filter(v => nombres.every(n => tituloMenciona(v.t, n)))
+    .filter(v => equipos.every(e => tituloMenciona(v.t, e)))
     .slice(0, tope);
 }
 
@@ -5749,16 +5856,22 @@ function pintarVideos(idCaja, videos) {
          allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
          referrerpolicy="strict-origin-when-cross-origin"
          allowfullscreen></iframe>`;
+    // Se puede ver aquí mismo o irse a YouTube; que elija cada uno.
+    caja.querySelector(".video-pie").innerHTML =
+      `<b>${v.t}</b><br><span class="video-canal">${v.c} · ${fechaLarga(v.f)}</span>` +
+      ` · <a href="https://www.youtube.com/watch?v=${v.id}" target="_blank"
+             rel="noopener noreferrer">Verlo en YouTube ↗</a>`;
     caja.querySelectorAll(".video-mini").forEach((b, j) =>
       b.classList.toggle("activo", j === i));
   };
 
-  caja.innerHTML = `<div class="video-grande"></div>` + (videos.length > 1
+  caja.innerHTML = `<div class="video-grande"></div>
+    <p class="video-pie"></p>` + (videos.length > 1
     ? `<div class="video-lista">` + videos.map((v, i) => `
         <button class="video-mini" type="button" data-i="${i}">
           <img src="https://i.ytimg.com/vi/${v.id}/mqdefault.jpg" alt="" loading="lazy">
           <span>${v.t}</span>
-          <span class="video-canal">${v.c} · ${fechaLarga(v.f)}</span>
+          <span class="video-canal">${fechaLarga(v.f)}</span>
         </button>`).join("") + `</div>`
     : "");
   caja.querySelectorAll(".video-mini").forEach(b =>
@@ -5907,7 +6020,7 @@ function abrirEquipo(ligaKey, clave) {
     `<div class="cifra"><b>${v}</b><span>${l}</span></div>`).join("");
 
   // ── Vídeos del equipo ───────────────────────────────────────────────── //
-  const susVideos = videosDe(ligaKey, [eq.nombre], 8);
+  const susVideos = videosDe(ligaKey, [eq], 8);
   const hayCanal = !!(D.videos || {})[ligaKey];
   document.getElementById("eq-bloque-video").classList
     .toggle("oculto", !susVideos.length && !hayCanal);
@@ -5999,6 +6112,10 @@ function abrirEquipo(ligaKey, clave) {
 
   document.getElementById("eq-g-mapa").innerHTML = graficoMapa(lg, eq, null);
 
+  // ¿De este equipo sólo tenemos goles y asistencias? Entonces hay gráficos y
+  // columnas que no se pueden dibujar y se esconden en vez de salir vacíos.
+  const jugBasico = (eq.jug || []).length > 0 && (eq.jug || []).every(j => j.basico);
+
   // Gráficos de la temporada, cada uno con la conclusión que se lee en él.
   // El historial llega con las dos temporadas seguidas, así que aquí se
   // recorta por la fecha en que arrancó la nueva.
@@ -6015,7 +6132,8 @@ function abrirEquipo(ligaKey, clave) {
     ["caja-localia", "eq-g-localia", "eq-txt-localia",
      graficoLocalVisitante(hist), () => leerLocalia(hist)],
     ["caja-produccion", "eq-g-produccion", "eq-txt-produccion",
-     graficoProduccion(eq.jug || []), () => leerProduccion(eq.jug || [])],
+     jugBasico ? "" : graficoProduccion(eq.jug || []),
+     () => leerProduccion(eq.jug || [])],
   ];
   let dibujados = 0;
   bloques.forEach(([caja, idSvg, idTxt, svg, leer]) => {
@@ -6029,21 +6147,32 @@ function abrirEquipo(ligaKey, clave) {
 
   // Plantilla
   const jug = (eq.jug || []).slice().sort((a, b) => (b.g + b.a) - (a.g + a.a));
+  // De algunas competiciones sólo hay goles, asistencias y partidos: no tiene
+  // sentido enseñar columnas de minutos y tiros que estarían todas vacías.
+  const COLS = jugBasico ? "26px 1fr 52px 52px" : "26px 1fr 52px 52px 52px";
   document.getElementById("eq-plantilla").innerHTML = jug.length
-    ? `<div class="jug-cab" style="grid-template-columns:26px 1fr 52px 52px 52px">
-         <span></span><span>Jugador</span><span>G+A</span><span>Min/PJ</span><span>Tarj.</span></div>` +
+    ? `<div class="jug-cab" style="grid-template-columns:${COLS}">
+         <span></span><span>Jugador</span><span>G+A</span>` +
+      (jugBasico ? `<span>PJ</span>` : `<span>Min/PJ</span><span>Tarj.</span>`) +
+      `</div>` +
       jug.map(j => `
         <a class="jug-fila jug-enlace"
-           style="grid-template-columns:26px 1fr 52px 52px 52px"
+           style="grid-template-columns:${COLS}"
            href="#/jugador/${ligaKey}/${clave}/${encodeURIComponent(j.n)}">
           ${fotoJug(j.n)}
           <span class="jug-nombre">${j.n}${j.baja
             ? `<span class="etq-baja ${j.baja}">${ETQ_BAJA[j.baja][0]}</span>` : ""}
-            <small>${j.p} · ${j.pj} partidos · ${j.t} tiros</small></span>
-          <span class="jug-gol">${j.g}+${j.a}</span>
-          <span class="jug-ta">${Math.round(j.min / Math.max(j.pj, 1))}</span>
-          <span class="jug-ta">${j.ta}${j.tr ? "/" + j.tr : ""}</span>
-        </a>`).join("")
+            <small>${[PUESTO_LARGO[j.p] || j.p,
+                      j.basico ? "" : `${j.pj} partidos`,
+                      j.basico ? "" : `${j.t} tiros`,
+                      j.edad ? `${j.edad} años` : "",
+                      pais(j.nac)].filter(Boolean).join(" · ")}</small></span>
+          <span class="jug-gol">${j.g}+${j.a}</span>` +
+        (j.basico
+          ? `<span class="jug-ta">${j.pj}</span>`
+          : `<span class="jug-ta">${Math.round(j.min / Math.max(j.pj, 1))}</span>
+             <span class="jug-ta">${j.ta}${j.tr ? "/" + j.tr : ""}</span>`) +
+        `</a>`).join("")
     : `<p class="jug-vacio">${sinXg(ligaKey)
         ? `No hay estadísticas de jugadores en esta liga: la fuente de la que
            salen los datos sólo publica resultados de partidos.`

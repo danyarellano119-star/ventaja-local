@@ -810,6 +810,40 @@ def _misma_palabra(a: str, b: str) -> bool:
     return larga.startswith(corta) or (len(corta) > 4 and corta in larga)
 
 
+# Cómo llama al club su propia liga en YouTube. En la web se escribe en
+# español —«Colonia», «Múnich»— pero el canal alemán titula «KÖLN», así que sin
+# esto sus vídeos no aparecían nunca. Sólo hacen falta los que no se parecen.
+_ALIAS_VIDEO = {
+    "FC Cologne": ["Köln", "Koeln"],
+    "Bayern Munich": ["München", "Muenchen", "Bayern"],
+    "Borussia M.Gladbach": ["Gladbach", "Mönchengladbach"],
+    "AC Milan": ["Milan"],
+    "Inter": ["Inter", "Internazionale"],
+    "Roma": ["Roma"],
+    "Napoli": ["Napoli"],
+    "Sporting Clube de Portugal": ["Sporting"],
+    "Sport Lisboa e Benfica": ["Benfica"],
+    "FC Porto": ["Porto"],
+    "Paris Saint Germain": ["PSG", "Paris"],
+    "Manchester United": ["Man Utd", "Manchester United"],
+    "Manchester City": ["Man City", "Manchester City"],
+    "Wolverhampton Wanderers": ["Wolves"],
+    "Tottenham": ["Tottenham", "Spurs"],
+    "RasenBallsport Leipzig": ["Leipzig"],
+    "Real Sociedad": ["Real Sociedad"],
+    "Athletic Club": ["Athletic"],
+}
+
+
+def alias_video(clave: str, nombre: str) -> list[str]:
+    """Nombres con los que buscar a un equipo dentro del título de un vídeo."""
+    fuera = []
+    for n in [nombre, clave] + _ALIAS_VIDEO.get(clave, []):
+        if n and n not in fuera:
+            fuera.append(n)
+    return fuera
+
+
 def perfil_ascendido(equipos: dict) -> dict:
     """Nivel medio de los tres últimos clasificados, para los recién ascendidos."""
     peores = sorted(equipos.values(), key=lambda e: e["pts"])[:3]
@@ -1295,10 +1329,51 @@ def main() -> None:
                 continue
 
             atq, dfn, gamma = ajustar_fuerzas(partidos, hoy)
-            corte = (hoy.replace(year=hoy.year - 1)).isoformat()
-            referencia = [m for m in partidos if m["datetime"][:10] >= corte]
+
+            # Partido por temporada, igual que en el resto de competiciones.
+            # Antes esto usaba una ventana de doce meses y la ficha de un
+            # equipo de la Championship enseñaba los 42 partidos del curso
+            # pasado como si fueran los de ahora.
+            mes_inicio = mod_fd.COMPETICIONES[clave][4]
+            anio_act = (hoy.year if hoy.month >= mes_inicio else hoy.year - 1)
+
+            def de_temporada(anio):
+                ini = date(anio, mes_inicio, 1).isoformat()
+                fin = date(anio + 1, mes_inicio, 1).isoformat()
+                return [m for m in partidos if ini <= m["datetime"][:10] < fin]
+
+            p_act, p_ant = de_temporada(anio_act), de_temporada(anio_act - 1)
+            etq_act = (f"{anio_act}-{str(anio_act + 1)[2:]}" if mes_inicio >= 7
+                       else str(anio_act))
+            etq_ant = (f"{anio_act - 1}-{str(anio_act)[2:]}" if mes_inicio >= 7
+                       else str(anio_act - 1))
+
+            referencia = p_act if len(p_act) >= 50 else (p_ant or p_act)
             ag = agregar(referencia or partidos)
-            hist = historial(referencia or partidos, set(atq))
+            ag_act, ag_ant = agregar(p_act), agregar(p_ant)
+            hist = historial(p_ant + p_act, set(atq), maximo=60)
+            corte_act = min((m["datetime"][:10] for m in p_act), default="")
+
+            # Plantillas: goleadores y plantilla de cada equipo. No hay
+            # ocasiones de gol —nadie las publica gratis para estas
+            # competiciones—, así que las fichas llevan lo que sí hay.
+            plantillas_fd = mod_fd.jugadores(clave, anio_act, hoy)
+            # El emparejado por el nombre exacto deja fuera a demasiados
+            # —«Wolverhampton Wanderers FC» frente a «Wolverhampton
+            # Wanderers»—, así que se indexa también por la forma normalizada.
+            idx_plantillas = {}
+            for nom, js in plantillas_fd.items():
+                idx_plantillas.setdefault(normalizar(nom), js)
+
+            def plantilla_de(*nombres):
+                for n in nombres:
+                    if plantillas_fd.get(n):
+                        return plantillas_fd[n]
+                for n in nombres:
+                    js = idx_plantillas.get(normalizar(n))
+                    if js:
+                        return js
+                return []
 
             pj_ventana: dict[str, int] = {}
             for m in partidos:
@@ -1309,11 +1384,15 @@ def main() -> None:
             for e in atq:
                 if e not in ag or pj_ventana.get(e, 0) < MIN_PARTIDOS:
                     continue
-                equipos[e] = {"nombre": BONITO.get(e, mod_fd.nombre_corto(e)),
+                corto = mod_fd.nombre_corto(e)
+                equipos[e] = {"nombre": BONITO.get(e, corto),
                               "clave": e,
                               "nuevo": False, "atq": round(atq[e], 5),
                               "def": round(dfn[e], 5), **ag[e],
-                              "jug": [], "hist": hist.get(e, [])}
+                              "jug": plantilla_de(corto, e, BONITO.get(e, corto)),
+                              "hist": hist.get(e, []),
+                              "temp": {"act": ag_act.get(e),
+                                       "ant": ag_ant.get(e)}}
 
             indice = {normalizar(e): e for e in equipos}
             base = perfil_ascendido(equipos)
@@ -1325,9 +1404,11 @@ def main() -> None:
                     if eq is None:
                         eq = bruto
                         if eq not in equipos:
-                            equipos[eq] = {"nombre": BONITO.get(bruto, bruto),
+                            corto_b = mod_fd.nombre_corto(bruto)
+                            equipos[eq] = {**base,
+                                           "nombre": BONITO.get(bruto, corto_b),
                                            "clave": eq, "nuevo": True,
-                                           "jug": [], **base}
+                                           "jug": plantilla_de(corto_b, bruto)}
                             sin_casar.add(bruto)
                     ids.append(eq)
                 partidos_web.append({"j": "", "fecha": m["fecha"],
@@ -1365,8 +1446,12 @@ def main() -> None:
                 "es_copa": not info.get("es_liga", True),
                 "pca": componentes_principales(equipos), "historico": [],
                 "pronostico": pron, "aciertos": {},
-                "temp_fuerzas": "", "temp_hist": "", "temp_jug": "",
-                "nota_temp": f"{len(partidos)} partidos de historial",
+                "temp_fuerzas": f"{etq_ant} y {etq_act}",
+                "temp_hist": etq_act if referencia is p_act else etq_ant,
+                "temp_jug": etq_act,
+                "temp_opciones": {"act": etq_act, "ant": etq_ant},
+                "pj_act": len(p_act), "corte_act": corte_act,
+                "nota_temp": f"{len(p_act)} partidos jugados",
                 "gamma": round(gamma, 5), "rho": RHO,
                 "equipos": equipos, "partidos": partidos_web,
                 "ascendidos": sorted(sin_casar), "nivel_europeo": None,
@@ -1422,6 +1507,12 @@ def main() -> None:
     print("")
     print("Vídeos oficiales")
     salida["videos"] = mod_videos.recolectar(hoy)
+
+    for lg in salida["ligas"].values():
+        for eq in lg["equipos"].values():
+            al = alias_video(eq.get("clave", ""), eq.get("nombre", ""))
+            if al[1:]:                     # el nombre ya lo tiene la web
+                eq["alias"] = al[1:]
 
     salida["escudos"] = mod_escudos.mapear(salida["ligas"])
     # football-data.org publica el escudo de cada equipo suyo. Es la única
