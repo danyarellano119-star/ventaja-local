@@ -115,6 +115,8 @@ def historial(clave: str, temporadas: int = 3) -> list[dict]:
         for m in datos.get("matches", []):
             fin = ((m.get("score") or {}).get("fullTime") or {})
             gl, gv = fin.get("home"), fin.get("away")
+            _apuntar_escudo(m.get("homeTeam") or {})
+            _apuntar_escudo(m.get("awayTeam") or {})
             local = (m.get("homeTeam") or {}).get("name")
             visita = (m.get("awayTeam") or {}).get("name")
             if gl is None or gv is None or not local or not visita:
@@ -165,6 +167,8 @@ def calendarios(hoy: date | None = None) -> dict:
 
         partidos = []
         for m in datos.get("matches", []):
+            _apuntar_escudo(m.get("homeTeam") or {})
+            _apuntar_escudo(m.get("awayTeam") or {})
             local = (m.get("homeTeam") or {}).get("name")
             visita = (m.get("awayTeam") or {}).get("name")
             utc = m.get("utcDate") or ""
@@ -188,3 +192,52 @@ def calendarios(hoy: date | None = None) -> dict:
         CACHE.write_text(json.dumps(fuera, ensure_ascii=False, indent=0,
                                     sort_keys=True), encoding="utf-8")
     return {k: v for k, v in fuera.items() if v.get("partidos")}
+
+
+CACHE_EQ = CACHE.with_name("football_data_equipos.json")
+
+# Sufijos de sociedad que sobran al mostrar el nombre. La fuente escribe
+# «Coventry City FC» y «Hull City AFC»; en la web queda mejor sin ellos, y da
+# igual para el emparejado interno porque ahí ya se descartan estas palabras.
+_SOBRA = (" FC", " AFC", " CF", " SC", " F.C.", " A.F.C.")
+
+# Escudos recogidos al vuelo. Cada partido que baja esta fuente ya trae el
+# escudo de los dos equipos, así que no hace falta pedirlos aparte: se van
+# apuntando según se leen los calendarios y los resultados.
+_ESCUDOS: dict[str, str] = {}
+
+
+def nombre_corto(nombre: str) -> str:
+    for s in _SOBRA:
+        if nombre.endswith(s) and len(nombre) - len(s) >= 4:
+            return nombre[: -len(s)]
+    return nombre
+
+
+def _apuntar_escudo(equipo: dict) -> None:
+    nombre, escudo = equipo.get("name"), equipo.get("crest")
+    if nombre and escudo:
+        _ESCUDOS[nombre_corto(nombre)] = escudo
+
+
+def escudos() -> dict[str, str]:
+    """Escudo de cada equipo de estas competiciones, por su nombre ya limpio.
+
+    Es la única fuente que cubre la Championship y los clubes sudamericanos: el
+    repositorio de logos que usamos para las grandes ligas no los tiene, y por
+    Wikidata había que acertar el nombre oficial de cada uno.
+
+    Lo recogido en esta ejecución se suma a lo guardado y se conserva, para que
+    un equipo no pierda su escudo el día que no aparezca en ningún partido.
+    """
+    try:
+        guardado = json.loads(CACHE_EQ.read_text(encoding="utf-8"))             if CACHE_EQ.exists() else {}
+    except Exception:
+        guardado = {}
+
+    guardado.update(_ESCUDOS)
+    if guardado:
+        CACHE_EQ.parent.mkdir(parents=True, exist_ok=True)
+        CACHE_EQ.write_text(json.dumps(guardado, ensure_ascii=False, indent=0,
+                                       sort_keys=True), encoding="utf-8")
+    return guardado

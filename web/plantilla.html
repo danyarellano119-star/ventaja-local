@@ -947,6 +947,135 @@ table.tabla-liga tbody tr:hover td { background: var(--surface-2); }
     linear-gradient(to bottom, rgba(6,8,12,.72) 0%, rgba(6,8,12,0) 18%);
 }
 
+/* ── Portada de las fichas de equipo y de jugador ─────────────────────── */
+/* Mismo lenguaje que la portada principal: la foto ocupa todo el ancho, el
+   texto va encima. Antes las fichas empezaban con una tarjeta blanca y se
+   notaba el salto al entrar desde la fila de partidos. */
+.ficha-portada {
+  position: relative; overflow: hidden; isolation: isolate;
+  width: calc(100dvw - var(--barra, 0px));
+  max-width: calc(100dvw - var(--barra, 0px));
+  margin-left: calc(50% - 50dvw + var(--barra, 0px) / 2);
+  margin-right: calc(50% - 50dvw + var(--barra, 0px) / 2);
+  min-height: 56vh; margin-top: -30px; margin-bottom: 30px;
+  display: flex; flex-direction: column; justify-content: space-between;
+  background: #10141b;
+}
+.ficha-velo {
+  position: absolute; inset: 0; z-index: 1;
+  background:
+    linear-gradient(to top, rgba(6,8,12,.97) 0%, rgba(6,8,12,.74) 42%,
+                    rgba(6,8,12,.28) 80%, rgba(6,8,12,.14) 100%),
+    linear-gradient(to right, rgba(6,8,12,.90) 0%, rgba(6,8,12,.42) 52%,
+                    rgba(6,8,12,0) 88%),
+    linear-gradient(to bottom, rgba(6,8,12,.70) 0%, rgba(6,8,12,0) 20%);
+}
+.ficha-barra {
+  position: relative; z-index: 3; display: flex; gap: 8px;
+  align-items: center; flex-wrap: wrap; padding: 16px 42px;
+}
+.ficha-barra button {
+  background: rgba(255,255,255,.13); border: 1px solid rgba(255,255,255,.22);
+  color: #eef1f5; border-radius: 7px; padding: 8px 13px; cursor: pointer;
+  font-family: var(--sans); font-size: 13px;
+}
+.ficha-barra button:hover { background: rgba(255,255,255,.24); }
+.ficha-barra button:focus-visible { outline: 2px solid #fff; outline-offset: 1px; }
+.ficha-barra .separa { flex: 1; }
+
+.ficha-texto {
+  position: relative; z-index: 2; max-width: 760px;
+  padding: 0 42px 34px; margin-top: auto; color: #eef1f5;
+}
+/* Escudo o foto a la izquierda del nombre, como el cartel de una serie */
+.ficha-cresta {
+  display: flex; align-items: center; gap: 20px; margin: 0 0 6px;
+}
+.ficha-cresta img.sello {
+  width: 92px; height: 92px; object-fit: contain; flex: none;
+  filter: drop-shadow(0 3px 10px rgba(0,0,0,.55));
+}
+/* Cuando no hay escudo se pinta el distintivo de colores: al mismo tamaño,
+   para que la portada no cambie de composición según el equipo. */
+.ficha-cresta .escudo, .ficha-cresta .escudo-caja, .ficha-cresta .jug-foto {
+  width: 92px !important; height: 92px !important; font-size: 27px !important;
+  flex: none;
+}
+.ficha-cresta .retrato {
+  width: 92px; height: 92px; border-radius: 50%; object-fit: cover; flex: none;
+  border: 2px solid rgba(255,255,255,.35);
+}
+.ficha-etq {
+  display: flex; align-items: center; gap: 8px;
+  font-family: var(--sans); font-size: 12.5px; font-weight: 700;
+  letter-spacing: .1em; text-transform: uppercase; color: #3ddc84;
+  margin-bottom: 9px;
+}
+.ficha-etq img { width: 22px; height: 22px; object-fit: contain; }
+.ficha-titulo {
+  font-family: var(--serif); font-size: clamp(28px, 4.4vw, 50px);
+  line-height: 1.03; margin: 0; color: #fff; letter-spacing: -.015em;
+  display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
+}
+.ficha-titulo .estrella { font-size: 24px; }
+.ficha-meta {
+  font-family: var(--sans); font-size: 15px; line-height: 1.55;
+  color: #d3d9e2; margin: 12px 0 0; max-width: 640px;
+}
+.ficha-meta b { color: #fff; }
+/* Las cifras de cabecera, en fila y sobre la foto */
+.ficha-cifras {
+  display: flex; gap: 26px; flex-wrap: wrap; margin: 18px 0 0;
+}
+.ficha-cifras .cifra { display: flex; flex-direction: column; gap: 1px; }
+.ficha-cifras .cifra b {
+  font-family: var(--mono); font-size: 24px; font-weight: 600; color: #fff;
+  line-height: 1.1;
+}
+.ficha-cifras .cifra span {
+  font-family: var(--sans); font-size: 11.5px; letter-spacing: .06em;
+  text-transform: uppercase; color: #aeb7c4;
+}
+/* Selector de temporada: qué números está mirando el usuario */
+.ficha-temps { display: flex; gap: 7px; flex-wrap: wrap; margin: 20px 0 0; }
+.ficha-temps button {
+  background: rgba(255,255,255,.10); border: 1px solid rgba(255,255,255,.20);
+  color: #d8dee7; border-radius: 999px; padding: 7px 15px; cursor: pointer;
+  font-family: var(--sans); font-size: 12.5px;
+}
+.ficha-temps button:hover { background: rgba(255,255,255,.20); color: #fff; }
+.ficha-temps button[aria-pressed="true"] {
+  background: #fff; color: #10141b; border-color: #fff; font-weight: 600;
+}
+.ficha-temps button:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
+.ficha-aviso {
+  font-family: var(--sans); font-size: 12.5px; color: #9fa9b8;
+  margin: 9px 0 0; max-width: 560px;
+}
+
+/* La fila del equipo del que es la ficha, resaltada en la tabla de su liga */
+tr.eq-destacado > td {
+  background: color-mix(in srgb, var(--acento) 16%, transparent);
+  font-weight: 600;
+}
+tr.eq-destacado > td:first-child { box-shadow: inset 3px 0 0 var(--acento); }
+
+@media (max-width: 720px) {
+  .ficha-portada { min-height: auto; margin-top: -30px; }
+  .ficha-barra { padding: 12px 18px; }
+  .ficha-texto { padding: 30px 18px 22px; max-width: none; }
+  .ficha-cresta img.sello, .ficha-cresta .retrato { width: 64px; height: 64px; }
+  .ficha-cifras { gap: 18px; }
+  .ficha-cifras .cifra b { font-size: 20px; }
+}
+@media print {
+  .ficha-portada { min-height: auto; background: none; margin: 0 0 14px; }
+  .ficha-velo, .ficha-barra { display: none; }
+  .ficha-texto { padding: 0; color: #000; }
+  .ficha-titulo, .ficha-cifras .cifra b { color: #000; }
+  .ficha-meta, .ficha-cifras .cifra span { color: #333; }
+}
+
 /* ── Barra superior, sobre la imagen ─────────────────────────────────── */
 .esc-barra {
   position: relative; z-index: 3;
@@ -1730,7 +1859,6 @@ details .cuerpo strong { color: var(--ink); }
         <button class="filtro" type="button" data-f="todos" aria-pressed="true">Todos</button>
         <button class="filtro" type="button" data-f="semana" aria-pressed="false">Esta semana</button>
         <button class="filtro" type="button" data-f="favoritos" aria-pressed="false">★ Mis equipos</button>
-        <button class="filtro" type="button" data-f="igualados" aria-pressed="false">Partidos igualados</button>
         <button class="filtro oculto" type="button" data-f="historial" aria-pressed="false"
                 id="filtro-historial">✓ Nuestros aciertos</button>
       </div>
@@ -2277,21 +2405,25 @@ details .cuerpo strong { color: var(--ink); }
   <!-- ══ VISTA EQUIPO ══ -->
   <!-- ══ VISTA JUGADOR ══ -->
   <div id="vista-jugador" class="pila oculto">
-    <div class="barra-acciones">
-      <button class="volver" id="btn-volver-jug" type="button">← Volver</button>
-      <button class="btn-pdf" id="btn-pdf-jug" type="button">Guardar en PDF</button>
-    </div>
+    <section class="ficha-portada" id="jf-portada">
+      <div class="portada-fondo" id="jf-fondo"></div>
+      <div class="ficha-velo"></div>
 
-    <section class="tarjeta">
-      <div class="jf-cabecera">
-        <div id="jf-foto"></div>
-        <div>
-          <span class="paso" id="jf-equipo"></span>
-          <h2 style="font-size:27px;margin:2px 0 0" id="jf-nombre"></h2>
-          <p class="sub" id="jf-resumen" style="margin-top:6px"></p>
-        </div>
+      <div class="ficha-barra">
+        <button class="volver" id="btn-volver-jug" type="button">← Volver</button>
+        <span class="separa"></span>
+        <button class="btn-pdf" id="btn-pdf-jug" type="button">Guardar en PDF</button>
       </div>
-      <div class="metricas-modelo" id="jf-cabecera"></div>
+
+      <div class="ficha-texto">
+        <span class="ficha-etq" id="jf-equipo"></span>
+        <div class="ficha-cresta">
+          <span id="jf-foto"></span>
+          <h1 class="ficha-titulo" id="jf-nombre"></h1>
+        </div>
+        <p class="ficha-meta" id="jf-resumen"></p>
+        <div class="ficha-cifras" id="jf-cabecera"></div>
+      </div>
     </section>
 
     <section class="tarjeta">
@@ -2348,16 +2480,37 @@ details .cuerpo strong { color: var(--ink); }
   </div>
 
   <div id="vista-equipo" class="pila oculto">
-    <div class="barra-acciones">
-      <button class="volver" id="btn-volver-eq" type="button">← Todos los partidos</button>
-      <button class="btn-pdf" id="btn-pdf" type="button">Guardar en PDF</button>
-    </div>
+    <section class="ficha-portada" id="eq-portada">
+      <div class="portada-fondo" id="eq-fondo"></div>
+      <div class="ficha-velo"></div>
 
-    <section class="tarjeta">
-      <span class="paso" id="eq-liga"></span>
-      <h2 style="font-size:27px" id="eq-nombre"></h2>
-      <p class="sub" id="eq-resumen"></p>
-      <div class="metricas-modelo" id="eq-cabecera"></div>
+      <div class="ficha-barra">
+        <button class="volver" id="btn-volver-eq" type="button">← Todos los partidos</button>
+        <span class="separa"></span>
+        <button class="btn-pdf" id="btn-pdf" type="button">Guardar en PDF</button>
+      </div>
+
+      <div class="ficha-texto">
+        <span class="ficha-etq" id="eq-liga"></span>
+        <div class="ficha-cresta">
+          <span id="eq-sello"></span>
+          <h1 class="ficha-titulo" id="eq-nombre"></h1>
+        </div>
+        <p class="ficha-meta" id="eq-resumen"></p>
+        <div class="ficha-cifras" id="eq-cabecera"></div>
+        <div class="ficha-temps" id="eq-temps" role="group"
+             aria-label="Qué temporada mirar"></div>
+        <p class="ficha-aviso" id="eq-aviso"></p>
+      </div>
+    </section>
+
+    <section class="tarjeta" id="eq-bloque-tabla">
+      <span class="paso">Clasificación</span>
+      <h2>Dónde está en la tabla<span class="sello-temporada" id="eq-sello-tabla"></span></h2>
+      <p class="sub" id="eq-tabla-sub"></p>
+      <div class="tabla-envoltorio">
+        <table class="tabla-liga" id="eq-tabla"></table>
+      </div>
     </section>
 
     <section class="tarjeta">
@@ -2915,6 +3068,7 @@ function recorta(texto, anchoDisponible, cuerpo = 12) {
   return t.length <= cabe ? t : t.slice(0, cabe - 1).trimEnd() + "…";
 }
 const dec = (x, n = 2) => x.toFixed(n).replace(".", ",");
+const mayus = t => (t || "").charAt(0).toUpperCase() + (t || "").slice(1);
 
 /* ── Ordenar las tablas ───────────────────────────────────────────────── */
 
@@ -3279,13 +3433,6 @@ function filtrarPartidos(partidos) {
   if (filtroActivo === "favoritos") {
     return partidos.filter(p => esFavorito(ligaActual, p.l) || esFavorito(ligaActual, p.v));
   }
-  if (filtroActivo === "igualados") {
-    // Ninguno de los tres resultados domina: son los partidos más abiertos
-    return partidos.filter(p => {
-      const c = calcular(ligaActual, p.l, p.v);
-      return Math.max(c.pl, c.pe, c.pv) < 0.45;
-    });
-  }
   return partidos;
 }
 
@@ -3295,7 +3442,6 @@ function pintarGrupos(partidosTodos, cont, europea) {
     const vacio = {
       favoritos: "Todavía no has marcado ningún equipo. Pulsa la estrella junto a un equipo para seguirlo.",
       semana: "No hay partidos programados en los próximos ocho días.",
-      igualados: "Ningún partido de esta jornada está tan igualado.",
     }[filtroActivo] || "No hay partidos que mostrar.";
     cont.innerHTML = `<p class="sin-resultados">${vacio}</p>`;
     return;
@@ -5250,13 +5396,21 @@ function abrirJugador(ligaKey, claveEq, nombre) {
   const n90 = j.min / 90;
 
   // Cabecera
+  // El estadio de su equipo hace de fondo: da contexto de un vistazo y evita
+  // que la ficha empiece con una tarjeta en blanco.
+  const sede = (D.estadios || {})[eq.nombre] || {};
+  document.getElementById("jf-fondo").style.backgroundImage =
+    sede.img ? `url("${sede.img}")` : "none";
+
   document.getElementById("jf-foto").innerHTML = fotoJug(j.n, true);
+  const urlEscudo = (D.escudos || {})[eq.nombre];
   document.getElementById("jf-equipo").innerHTML =
-    `${escudo(eq.nombre)} ${eq.nombre} · ${lg.nombre}`;
+    (urlEscudo ? `<img src="${urlEscudo}" alt="" loading="lazy">` : "") +
+    `<span>${eq.nombre} · ${lg.nombre}</span>`;
   document.getElementById("jf-nombre").textContent = j.n;
   document.getElementById("jf-sello").textContent = T(lg.temp_jug || lg.temp_hist);
   document.getElementById("jf-resumen").innerHTML =
-    `${PUESTO[j.p] || "jugador"} · <b>${j.pj} partidos</b> y ${j.min} minutos,
+    `${mayus(PUESTO[j.p] || "jugador")} · <b>${j.pj} partidos</b> y ${j.min} minutos,
      el equivalente a ${dec(n90, 1)} partidos completos.`;
 
   document.getElementById("jf-cabecera").innerHTML = [
@@ -5264,8 +5418,7 @@ function abrirJugador(ligaKey, claveEq, nombre) {
     [j.a, j.a === 1 ? "asistencia" : "asistencias"],
     [dec(j.g90 + j.a90, 2), "G+A por 90"],
     [dec(j.xg, 1), "xG"], [dec(j.xa, 1), "xA"], [`${j.ta}/${j.tr}`, "TA / TR"],
-  ].map(([v, l]) => `<div class="metrica"><span class="metrica-val">${v}</span>
-       <span class="metrica-lbl">${l}</span></div>`).join("");
+  ].map(([v, l]) => `<div class="cifra"><b>${v}</b><span>${l}</span></div>`).join("");
 
   // ── Percentiles contra los de su mismo puesto ──────────────────────────
   const pares = companerosDePuesto(lg, j.p);
@@ -5435,26 +5588,101 @@ function mapaJugadores(pares, elegido) {
   </svg>`;
 }
 
+// Qué temporada mira el usuario en las fichas de equipo. Se recuerda entre
+// fichas para que no tenga que volver a elegirla en cada una.
+let tempEquipo = "";
+
 function abrirEquipo(ligaKey, clave) {
   irA(`/equipo/${ligaKey}/${clave}`, true);
   const lg = D.ligas[ligaKey];
   const eq = lg.equipos[clave];
   if (!eq) return;
-  const rivales = Object.values(lg.equipos).filter(e => !e.nuevo && e.pj > 0);
-  const pj = eq.pj || 1;
+  const todos = Object.values(lg.equipos).filter(e => !e.nuevo && e.pj > 0);
 
-  const T = t => t.replace("-", "/");
-  document.getElementById("eq-liga").textContent =
-    `${lg.nombre} · datos de la temporada ${T(lg.temp_hist)}`;
+  // El guión de «2025-26» se cambia por barra, y en las etiquetas dobles
+  // («2025-26 + 2026-27») hay que cambiarlos todos, no sólo el primero.
+  const T = t => (t || "").replace(/(\d)-(\d)/g, "$1/$2");
+
+  // ── Qué temporada se está mirando ────────────────────────────────────── //
+  // Lo que la gente quiere saber es cómo está el equipo AHORA, no cómo acabó
+  // el año pasado. Así que se enseña la temporada en curso en cuanto tiene
+  // recorrido; con dos o tres jornadas los números aún no dicen nada, y hasta
+  // entonces se muestran las dos sumadas. La pasada queda a un clic.
+  const op = lg.temp_opciones || {};
+  const cifrasDe = (e, k) => (k === "total" ? e : (e.temp || {})[k]);
+  const hayDatos = k => k === "total"
+    ? true
+    : todos.some(e => (cifrasDe(e, k) || {}).pj > 0) && !!op[k];
+
+  const OPCIONES = [
+    { k: "act", etq: "Esta temporada", sello: T(op.act) },
+    { k: "ant", etq: "La pasada", sello: T(op.ant) },
+    { k: "ambas", etq: "Las dos juntas", sello: T(op.ambas) },
+  ].filter(o => hayDatos(o.k));
+  // Las competiciones que llegan de football-data.org no vienen partidas por
+  // temporada: sus cifras son las del último año, y así se dice.
+  if (!OPCIONES.length) {
+    OPCIONES.push(lg.temp_hist
+      ? { k: "total", etq: "Temporada", sello: T(lg.temp_hist) }
+      : { k: "total", etq: "Último año", sello: "" });
+  }
+
+  const pjAct = ((eq.temp || {}).act || {}).pj || 0;
+  const preferida = OPCIONES.some(o => o.k === "act") && pjAct >= 5 ? "act"
+    : OPCIONES.some(o => o.k === "ambas") ? "ambas"
+    : OPCIONES[0].k;
+  // Si el usuario ya eligió una en otra ficha, se le respeta mientras exista
+  if (!OPCIONES.some(o => o.k === tempEquipo)) tempEquipo = preferida;
+  const sel = tempEquipo;
+  const selEtq = (OPCIONES.find(o => o.k === sel) || OPCIONES[0]).sello;
+
+  // Los números de esta vista: los del equipo y los de sus rivales, siempre
+  // de la misma temporada, para que las comparaciones sean legítimas.
+  // Si el equipo aún no ha jugado en la temporada elegida, se enseñan ceros y
+  // no los números del año pasado: mostrarlos bajo la etiqueta «esta
+  // temporada» sería decirle al usuario algo que no es cierto.
+  const VACIO = { pts: 0, pj: 0, gf: 0, gc: 0, xg: 0, xga: 0 };
+  const num = { ...eq, ...(sel === "total" ? {} : (cifrasDe(eq, sel) || VACIO)) };
+  const rivales = todos
+    .filter(e => (cifrasDe(e, sel) || {}).pj > 0 || sel === "total")
+    .map(e => ({ ...e, ...(cifrasDe(e, sel) || {}) }));
+  const pj = num.pj || 1;
+
+  document.getElementById("eq-temps").innerHTML = OPCIONES.map(o =>
+    `<button type="button" data-t="${o.k}" aria-pressed="${o.k === sel}">
+       ${o.etq}${o.sello ? ` <span style="opacity:.7">· ${o.sello}</span>` : ""}
+     </button>`).join("");
+  document.getElementById("eq-temps").querySelectorAll("button").forEach(b =>
+    b.addEventListener("click", () => {
+      tempEquipo = b.dataset.t;
+      abrirEquipo(ligaKey, clave);
+    }));
+  document.getElementById("eq-aviso").textContent =
+    sel === "act" && pj < 6
+      ? `Sólo se han jugado ${pj} partido${pj === 1 ? "" : "s"} de esta temporada:`
+        + ` con tan pocos, cualquier número se mueve mucho. Mira «Las dos juntas»`
+        + ` si quieres una imagen más estable.`
+      : "";
+
+  // ── Portada ──────────────────────────────────────────────────────────── //
+  const sede = (D.estadios || {})[eq.nombre] || {};
+  document.getElementById("eq-fondo").style.backgroundImage =
+    sede.img ? `url("${sede.img}")` : "none";
+  const logoLiga = (D.logos || {})[ligaKey];
+  document.getElementById("eq-liga").innerHTML =
+    (logoLiga ? `<img src="${logoLiga}" alt="" loading="lazy">` : "") +
+    `<span>${lg.nombre} · ${lg.pais}</span>`;
+  const urlEscudo = (D.escudos || {})[eq.nombre];
+  document.getElementById("eq-sello").innerHTML = urlEscudo
+    ? `<img class="sello" src="${urlEscudo}" alt="Escudo de ${eq.nombre}">`
+    : escudo(eq.nombre, true);
+
   const marcado = esFavorito(ligaKey, clave);
   document.getElementById("eq-nombre").innerHTML =
-    `${escudo(eq.nombre, true)} ${eq.nombre}` +
+    `<span>${eq.nombre}</span>` +
     `<button class="estrella ${marcado ? "activa" : ""}" type="button" id="eq-estrella"
        aria-pressed="${marcado}"
        title="${marcado ? "Dejar de seguir" : "Seguir a este equipo"}">${marcado ? "★" : "☆"}</button>`;
-  document.getElementById("eq-nombre").style.display = "flex";
-  document.getElementById("eq-nombre").style.alignItems = "center";
-  document.getElementById("eq-nombre").style.gap = "10px";
   document.getElementById("eq-estrella").addEventListener("click", () => {
     alternarFavorito(ligaKey, clave);
     abrirEquipo(ligaKey, clave);
@@ -5463,38 +5691,75 @@ function abrirEquipo(ligaKey, clave) {
       : `${eq.nombre} quitado de tus equipos`);
   });
 
-  const dif = eq.gf - eq.gc;
-  const rend = eq.gf - eq.xg;
-  const puesto = rivales.slice().sort((a, b) => b.pts - a.pts)
-    .findIndex(e => e.clave === clave) + 1;
-  const enCurso = lg.temp_hist === (D.temporada || "");
+  const dif = num.gf - num.gc;
+  const rend = num.gf - num.xg;
+  const clasif = rivales.slice()
+    .sort((a, b) => b.pts - a.pts || (b.gf - b.gc) - (a.gf - a.gc) || b.gf - a.gf);
+  const puesto = clasif.findIndex(e => e.clave === clave) + 1;
+  // «Terminó» sólo vale para una temporada cerrada. Las competiciones de
+  // football-data.org no vienen partidas por temporada: sus cifras son las del
+  // último año, que sigue corriendo.
+  const enCurso = sel === "act" || sel === "ambas" || !lg.temp_hist
+    || lg.temp_hist === (D.temporada || "");
   const verbo = enCurso ? "Va" : "Terminó";
+  const conXg = !sinXg(ligaKey);
 
   document.getElementById("eq-resumen").innerHTML =
-    `<b>${verbo} ${puesto}.º de ${rivales.length}</b> en ${T(lg.temp_hist)} ` +
-    `con ${eq.pts} puntos en ${eq.pj} partidos y una ` +
-    `diferencia de ${dif >= 0 ? "+" : ""}${dif} goles. ` +
-    (Math.abs(rend) < 3
-      ? `Marcó prácticamente lo que sus ocasiones sugerían.`
-      : rend > 0
-        ? `Marcó <b>${dec(rend, 1)} goles más</b> de los que sus ocasiones
-           esperaban: definió por encima de lo normal.`
-        : `Marcó <b>${dec(-rend, 1)} goles menos</b> de los que sus ocasiones
-           esperaban: le faltó puntería.`);
+    (puesto ? `<b>${verbo} ${puesto}.º de ${rivales.length}</b> ` : "") +
+    `con ${num.pts} punto${num.pts === 1 ? "" : "s"} en ${num.pj} ` +
+    `partido${num.pj === 1 ? "" : "s"} y una diferencia de ` +
+    `${dif >= 0 ? "+" : ""}${dif} gol${Math.abs(dif) === 1 ? "" : "es"}. ` +
+    (!conXg ? ""
+      : Math.abs(rend) < Math.max(2, num.pj * 0.12)
+        ? `Marca prácticamente lo que sus ocasiones sugieren.`
+        : rend > 0
+          ? `Marca <b>${dec(rend, 1)} goles más</b> de los que sus ocasiones
+             esperaban: define por encima de lo normal.`
+          : `Marca <b>${dec(-rend, 1)} goles menos</b> de los que sus ocasiones
+             esperaban: le falta puntería.`);
 
-  document.getElementById("eq-sello-perfil").textContent = T(lg.temp_hist);
-  document.getElementById("eq-sello-serie").textContent = T(lg.temp_hist);
+  document.getElementById("eq-sello-perfil").textContent = selEtq;
+  document.getElementById("eq-sello-serie").textContent = selEtq;
   document.getElementById("eq-sello-plantilla").textContent = T(lg.temp_jug);
 
   const cabecera = [
-    [eq.pts, "puntos"], [eq.gf, "goles a favor"], [eq.gc, "goles en contra"],
-    [dec(eq.xg / pj, 2), "ocasiones por partido"],
-    [dec(eq.xga / pj, 2), "concedidas por partido"],
-    [dec(Math.exp(eq.atq), 2) + "×", "fuerza de ataque"],
-  ];
+    [num.pts, "puntos"], [num.pj, "partidos"],
+    [num.gf, "goles a favor"], [num.gc, "goles en contra"],
+  ].concat(conXg ? [
+    [dec(num.xg / pj, 2), "ocasiones por partido"],
+    [dec(num.xga / pj, 2), "concedidas por partido"],
+  ] : []).concat([[dec(Math.exp(eq.atq), 2) + "×", "fuerza de ataque"]]);
   document.getElementById("eq-cabecera").innerHTML = cabecera.map(([v, l]) =>
-    `<div class="metrica-caja"><span class="metrica-val">${v}</span>
-       <span class="metrica-lbl">${l}</span></div>`).join("");
+    `<div class="cifra"><b>${v}</b><span>${l}</span></div>`).join("");
+
+  // ── La tabla de su liga, con él resaltado ────────────────────────────── //
+  // Ver el puesto suelto no dice gran cosa: lo que importa es quién tiene
+  // delante y quién detrás, y por cuántos puntos.
+  const bloqueTabla = document.getElementById("eq-bloque-tabla");
+  bloqueTabla.classList.toggle("oculto", !!lg.es_copa || clasif.length < 4);
+  if (!lg.es_copa && clasif.length >= 4) {
+    document.getElementById("eq-sello-tabla").textContent = selEtq;
+    document.getElementById("eq-tabla-sub").innerHTML =
+      `${eq.nombre} va <b>${puesto}.º de ${clasif.length}</b>. Pulsa cualquier ` +
+      `otro equipo para abrir su ficha.`;
+    const cab = ["#", "Equipo", "PJ", "Pts", "GF", "GC", "Dif"]
+      .concat(conXg ? ["Ocasiones", "Concedidas"] : []);
+    document.getElementById("eq-tabla").innerHTML =
+      `<thead><tr>${cab.map(c => `<th>${c}</th>`).join("")}</tr></thead><tbody>` +
+      clasif.map((f, i) => {
+        const d = f.gf - f.gc;
+        return `<tr data-eq="${f.clave}"${f.clave === clave ? ' class="eq-destacado"' : ""}>
+          <td class="pos-num">${i + 1}</td>
+          <td>${escudo(f.nombre)} ${f.nombre}</td>
+          <td>${f.pj}</td><td><b>${f.pts}</b></td>
+          <td>${f.gf}</td><td>${f.gc}</td>
+          <td>${d >= 0 ? "+" : ""}${d}</td>` +
+          (conXg ? `<td>${dec(f.xg, 1)}</td><td>${dec(f.xga, 1)}</td>` : "") +
+        `</tr>`;
+      }).join("") + "</tbody>";
+    document.getElementById("eq-tabla").querySelectorAll("tr[data-eq]").forEach(tr =>
+      tr.addEventListener("click", () => abrirEquipo(ligaKey, tr.dataset.eq)));
+  }
 
   // Percentiles
   const metricas = [
@@ -5509,7 +5774,7 @@ function abrirEquipo(ligaKey, clave) {
   ].filter(m => !sinXg(ligaKey) || !/ocasion|esperado/i.test(m[0]));
   document.getElementById("eq-percentiles").innerHTML = metricas.map(([etq, f, may]) => {
     const vals = rivales.map(f);
-    const p = percentil(f(eq), vals, may);
+    const p = percentil(f(num), vals, may);
     const color = p >= 70 ? "var(--ok)" : p >= 40 ? "var(--local)" : "var(--visita)";
     return `<div class="pct-fila" data-tip="<b>${etq}</b><br>Mejor que el
         ${p} % de los equipos de su liga">
@@ -5525,7 +5790,7 @@ function abrirEquipo(ligaKey, clave) {
 
   // Gráfico goles vs ocasiones
   const W = 300, H = 120;
-  const maxV = Math.max(eq.gf, eq.xg, eq.gc, eq.xga) * 1.15;
+  const maxV = Math.max(num.gf, num.xg, num.gc, num.xga) * 1.15;
   const barra = (y, v, color, etq) => {
     const w = (v / maxV) * (W - 108);
     return `<rect x="104" y="${y}" width="${w.toFixed(1)}" height="17" rx="3" fill="${color}"></rect>
@@ -5536,16 +5801,22 @@ function abrirEquipo(ligaKey, clave) {
   };
   document.getElementById("eq-g-rendimiento").innerHTML =
     `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Goles frente a ocasiones">
-       ${barra(6, eq.gf, "var(--local)", "Goles")}
-       ${barra(29, eq.xg, "var(--local)", "Ocasiones")}
-       ${barra(64, eq.gc, "var(--visita)", "Encajados")}
-       ${barra(87, eq.xga, "var(--visita)", "Concedidas")}
+       ${barra(6, num.gf, "var(--local)", "Goles")}
+       ${barra(29, num.xg, "var(--local)", "Ocasiones")}
+       ${barra(64, num.gc, "var(--visita)", "Encajados")}
+       ${barra(87, num.xga, "var(--visita)", "Concedidas")}
      </svg>`;
 
   document.getElementById("eq-g-mapa").innerHTML = graficoMapa(lg, eq, null);
 
-  // Gráficos de la temporada, cada uno con la conclusión que se lee en él
-  const hist = eq.hist || [];
+  // Gráficos de la temporada, cada uno con la conclusión que se lee en él.
+  // El historial llega con las dos temporadas seguidas, así que aquí se
+  // recorta por la fecha en que arrancó la nueva.
+  const corte = lg.corte_act || "";
+  const todosLos = eq.hist || [];
+  const hist = !corte || sel === "ambas" || sel === "total" ? todosLos
+    : sel === "act" ? todosLos.filter(m => m.f >= corte)
+    : todosLos.filter(m => m.f < corte);
   const bloques = [
     ["caja-trayectoria", "eq-g-trayectoria", "eq-txt-trayectoria",
      graficoTrayectoria(hist), () => leerTrayectoria(hist)],
@@ -6314,11 +6585,6 @@ function partidosFiltrados() {
   const criterio = {
     semana: g => g.p.fecha <= semana,
     favoritos: g => esFavorito(g.k, g.p.l) || esFavorito(g.k, g.p.v),
-    igualados: g => {
-      // Ninguno de los tres resultados domina: los más abiertos
-      const c = calcular(g.k, g.p.l, g.p.v);
-      return Math.max(c.pl, c.pe, c.pv) < 0.45;
-    },
   }[filtroActivo] || (() => true);
 
   return todos.filter(criterio)
@@ -6357,14 +6623,11 @@ function pintarFiltrado() {
   const TITULO = {
     semana: "Los partidos de los próximos ocho días",
     favoritos: "Los partidos de tus equipos",
-    igualados: "Los partidos más abiertos",
   }[filtroActivo] || "Partidos";
 
   const VACIO = {
     semana: "No hay partidos en los próximos ocho días.",
     favoritos: "",
-    igualados: "Ahora mismo no hay ningún partido tan igualado. Vuelve cuando "
-             + "se acerque la jornada.",
   }[filtroActivo] || "No hay partidos que mostrar.";
 
   let dentro;

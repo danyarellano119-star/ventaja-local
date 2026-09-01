@@ -5,7 +5,1016 @@
 "mes": 8,
 "nombre": "Champions League",
 "pais": "Europa",
-"partidos": []
+"partidos": [
+{
+"fecha": "2026-09-08",
+"hora": "16:45",
+"local": "Club Brugge KV",
+"utc": "2026-09-08T16:45Z",
+"visita": "Aston Villa FC"
+},
+{
+"fecha": "2026-09-08",
+"hora": "16:45",
+"local": "PAE AEK",
+"utc": "2026-09-08T16:45Z",
+"visita": "LASK Linz"
+},
+{
+"fecha": "2026-09-08",
+"hora": "19:00",
+"local": "Real Madrid CF",
+"utc": "2026-09-08T19:00Z",
+"visita": "FC Internazionale Milano"
+},
+{
+"fecha": "2026-09-08",
+"hora": "19:00",
+"local": "FC Porto",
+"utc": "2026-09-08T19:00Z",
+"visita": "Manchester City FC"
+},
+{
+"fecha": "2026-09-08",
+"hora": "19:00",
+"local": "Borussia Dortmund",
+"utc": "2026-09-08T19:00Z",
+"visita": "Villarreal CF"
+},
+{
+"fecha": "2026-09-08",
+"hora": "19:00",
+"local": "Lille OSC",
+"utc": "2026-09-08T19:00Z",
+"visita": "Real Betis Balompié"
+},
+{
+"fecha": "2026-09-09",
+"hora": "16:45",
+"local": "FC Barcelona",
+"utc": "2026-09-09T16:45Z",
+"visita": "Feyenoord Rotterdam"
+},
+{
+"fecha": "2026-09-09",
+"hora": "16:45",
+"local": "VfB Stuttgart",
+"utc": "2026-09-09T16:45Z",
+"visita": "Viking FK"
+},
+{
+"fecha": "2026-09-09",
+"hora": "19:00",
+"local": "Liverpool FC",
+"utc": "2026-09-09T19:00Z",
+"visita": "Club Atlético de Madrid"
+},
+{
+"fecha": "2026-09-09",
+"hora": "19:00",
+"local": "Paris Saint-Germain FC",
+"utc": "2026-09-09T19:00Z",
+"visita": "ŠK Slovan Bratislava"
+},
+{
+"fecha": "2026-09-09",
+"hora": "19:00",
+"local": "SSC Napoli",
+"utc": "2026-09-09T19:00Z",
+"visita": "Arsenal FC"
+},
+{
+"fecha": "2026-09-09",
+"hora": "19:00",
+"local": "Sporting Clube de Portugal",
+"utc": "2026-09-09T19:00Z",
+"visita": "Galatasaray SK"
+},
+{
+"fecha": "2026-09-10",
+"hora": "16:45",
+"local": "Fenerbahçe SK",
+"utc": "2026-09-10T16:45Z",
+"visita": "AS Roma"
+},
+{
+"fecha": "2026-09-10",
+"hora": "16:45",
+"local": "PSV",
+"utc": "2026-09-10T16:45Z",
+"visita": "FK Shakhtar Donetsk"
+},
+{
+"fecha": "2026-09-10",
+"hora": "19:00",
+"local": "FC Bayern München",
+"utc": "2026-09-10T19:00Z",
+"visita": "FK Bodø/Glimt"
+},
+{
+"fecha": "2026-09-10",
+"hora": "19:00",
+"local": "Manchester United FC",
+"utc": "2026-09-10T19:00Z",
+"visita": "Sabah FK"
+},
+{
+"fecha": "2026-09-10",
+"hora": "19:00",
+"local": "Como 1907",
+"utc": "2026-09-10T19:00Z",
+"visita": "RB Leipzig"
+},
+{
+"fecha": "2026-09-10",
+"hora": "19:00",
+"local": "SK Slavia Praha",
+"utc": "2026-09-10T19:00Z",
+"visita": "Racing Club de Lens"
+},
+{
+"fecha": "2026-10-13",
+"hora": "16:45",
+"local": "Racing Club de Lens",
+"utc": "2026-10-13T16:45Z",
+"visita": "Sporting Clube de Portugal"
+},
+{
+"fecha": "2026-10-13",
+"hora": "16:45",
+"local": "Sabah FK",
+"utc": "2026-10-13T16:45Z",
+"visita": "SK Slavia Praha"
+},
+{
+"fecha": "2026-10-13",
+"hora": "19:00",
+"local": "FC Internazionale Milano",
+"utc": "2026-10-13T19:00Z",
+"visita": "Club Brugge KV"
+},
+{
+"fecha": "2026-10-13",
+"hora": "19:00",
+"local": "Galatasaray SK",
+"utc": "2026-10-13T19:00Z",
+"visita": "FC Barcelona"
+},
+{
+"fecha": "2026-10-13",
+"hora": "19:00",
+"local": "Club Atlético de Madrid",
+"utc": "2026-10-13T19:00Z",
+"visita": "Manchester United FC"
+},
+{
+"fecha": "2026-10-13",
+"hora": "19:00",
+"local": "Arsenal FC",
+"utc": "2026-10-13T19:00Z",
+"visita": "Lille OSC"
+},
+{
+"fecha": "2026-10-13",
+"hora": "19:00",
+"local": "Viking FK",
+"utc": "2026-10-13T19:00Z",
+"visita": "FC Bayern München"
+},
+{
+"fecha": "2026-10-13",
+"hora": "19:00",
+"local": "RB Leipzig",
+"utc": "2026-10-13T19:00Z",
+"visita": "PSV"
+},
+{
+"fecha": "2026-10-13",
+"hora": "19:00",
+"local": "Villarreal CF",
+"utc": "2026-10-13T19:00Z",
+"visita": "SSC Napoli"
+},
+{
+"fecha": "2026-10-14",
+"hora": "16:45",
+"local": "LASK Linz",
+"utc": "2026-10-14T16:45Z",
+"visita": "Liverpool FC"
+},
+{
+"fecha": "2026-10-14",
+"hora": "16:45",
+"local": "Feyenoord Rotterdam",
+"utc": "2026-10-14T16:45Z",
+"visita": "Como 1907"
+},
+{
+"fecha": "2026-10-14",
+"hora": "19:00",
+"local": "AS Roma",
+"utc": "2026-10-14T19:00Z",
+"visita": "Real Madrid CF"
+},
+{
+"fecha": "2026-10-14",
+"hora": "19:00",
+"local": "Manchester City FC",
+"utc": "2026-10-14T19:00Z",
+"visita": "Paris Saint-Germain FC"
+},
+{
+"fecha": "2026-10-14",
+"hora": "19:00",
+"local": "FK Bodø/Glimt",
+"utc": "2026-10-14T19:00Z",
+"visita": "Borussia Dortmund"
+},
+{
+"fecha": "2026-10-14",
+"hora": "19:00",
+"local": "Aston Villa FC",
+"utc": "2026-10-14T19:00Z",
+"visita": "Fenerbahçe SK"
+},
+{
+"fecha": "2026-10-14",
+"hora": "19:00",
+"local": "Real Betis Balompié",
+"utc": "2026-10-14T19:00Z",
+"visita": "FC Porto"
+},
+{
+"fecha": "2026-10-14",
+"hora": "19:00",
+"local": "FK Shakhtar Donetsk",
+"utc": "2026-10-14T19:00Z",
+"visita": "PAE AEK"
+},
+{
+"fecha": "2026-10-14",
+"hora": "19:00",
+"local": "ŠK Slovan Bratislava",
+"utc": "2026-10-14T19:00Z",
+"visita": "VfB Stuttgart"
+},
+{
+"fecha": "2026-10-20",
+"hora": "16:45",
+"local": "Sabah FK",
+"utc": "2026-10-20T16:45Z",
+"visita": "Borussia Dortmund"
+},
+{
+"fecha": "2026-10-20",
+"hora": "16:45",
+"local": "Fenerbahçe SK",
+"utc": "2026-10-20T16:45Z",
+"visita": "SK Slavia Praha"
+},
+{
+"fecha": "2026-10-20",
+"hora": "19:00",
+"local": "Manchester City FC",
+"utc": "2026-10-20T19:00Z",
+"visita": "PAE AEK"
+},
+{
+"fecha": "2026-10-20",
+"hora": "19:00",
+"local": "VfB Stuttgart",
+"utc": "2026-10-20T19:00Z",
+"visita": "Club Atlético de Madrid"
+},
+{
+"fecha": "2026-10-20",
+"hora": "19:00",
+"local": "Liverpool FC",
+"utc": "2026-10-20T19:00Z",
+"visita": "Villarreal CF"
+},
+{
+"fecha": "2026-10-20",
+"hora": "19:00",
+"local": "AS Roma",
+"utc": "2026-10-20T19:00Z",
+"visita": "ŠK Slovan Bratislava"
+},
+{
+"fecha": "2026-10-20",
+"hora": "19:00",
+"local": "FC Porto",
+"utc": "2026-10-20T19:00Z",
+"visita": "PSV"
+},
+{
+"fecha": "2026-10-20",
+"hora": "19:00",
+"local": "SSC Napoli",
+"utc": "2026-10-20T19:00Z",
+"visita": "FK Bodø/Glimt"
+},
+{
+"fecha": "2026-10-20",
+"hora": "19:00",
+"local": "Paris Saint-Germain FC",
+"utc": "2026-10-20T19:00Z",
+"visita": "FC Barcelona"
+},
+{
+"fecha": "2026-10-21",
+"hora": "16:45",
+"local": "Como 1907",
+"utc": "2026-10-21T16:45Z",
+"visita": "Manchester United FC"
+},
+{
+"fecha": "2026-10-21",
+"hora": "16:45",
+"local": "Lille OSC",
+"utc": "2026-10-21T16:45Z",
+"visita": "Galatasaray SK"
+},
+{
+"fecha": "2026-10-21",
+"hora": "19:00",
+"local": "Real Madrid CF",
+"utc": "2026-10-21T19:00Z",
+"visita": "RB Leipzig"
+},
+{
+"fecha": "2026-10-21",
+"hora": "19:00",
+"local": "FC Internazionale Milano",
+"utc": "2026-10-21T19:00Z",
+"visita": "FK Shakhtar Donetsk"
+},
+{
+"fecha": "2026-10-21",
+"hora": "19:00",
+"local": "FC Bayern München",
+"utc": "2026-10-21T19:00Z",
+"visita": "Arsenal FC"
+},
+{
+"fecha": "2026-10-21",
+"hora": "19:00",
+"local": "Club Brugge KV",
+"utc": "2026-10-21T19:00Z",
+"visita": "Racing Club de Lens"
+},
+{
+"fecha": "2026-10-21",
+"hora": "19:00",
+"local": "Aston Villa FC",
+"utc": "2026-10-21T19:00Z",
+"visita": "Viking FK"
+},
+{
+"fecha": "2026-10-21",
+"hora": "19:00",
+"local": "Sporting Clube de Portugal",
+"utc": "2026-10-21T19:00Z",
+"visita": "LASK Linz"
+},
+{
+"fecha": "2026-10-21",
+"hora": "19:00",
+"local": "Real Betis Balompié",
+"utc": "2026-10-21T19:00Z",
+"visita": "Feyenoord Rotterdam"
+},
+{
+"fecha": "2026-11-03",
+"hora": "17:45",
+"local": "FK Shakhtar Donetsk",
+"utc": "2026-11-03T17:45Z",
+"visita": "Sporting Clube de Portugal"
+},
+{
+"fecha": "2026-11-03",
+"hora": "17:45",
+"local": "Galatasaray SK",
+"utc": "2026-11-03T17:45Z",
+"visita": "VfB Stuttgart"
+},
+{
+"fecha": "2026-11-03",
+"hora": "20:00",
+"local": "Feyenoord Rotterdam",
+"utc": "2026-11-03T20:00Z",
+"visita": "FC Internazionale Milano"
+},
+{
+"fecha": "2026-11-03",
+"hora": "20:00",
+"local": "FC Barcelona",
+"utc": "2026-11-03T20:00Z",
+"visita": "Aston Villa FC"
+},
+{
+"fecha": "2026-11-03",
+"hora": "20:00",
+"local": "Club Atlético de Madrid",
+"utc": "2026-11-03T20:00Z",
+"visita": "FC Bayern München"
+},
+{
+"fecha": "2026-11-03",
+"hora": "20:00",
+"local": "Villarreal CF",
+"utc": "2026-11-03T20:00Z",
+"visita": "Paris Saint-Germain FC"
+},
+{
+"fecha": "2026-11-03",
+"hora": "20:00",
+"local": "Manchester United FC",
+"utc": "2026-11-03T20:00Z",
+"visita": "AS Roma"
+},
+{
+"fecha": "2026-11-03",
+"hora": "20:00",
+"local": "FK Bodø/Glimt",
+"utc": "2026-11-03T20:00Z",
+"visita": "Lille OSC"
+},
+{
+"fecha": "2026-11-03",
+"hora": "20:00",
+"local": "LASK Linz",
+"utc": "2026-11-03T20:00Z",
+"visita": "ŠK Slovan Bratislava"
+},
+{
+"fecha": "2026-11-04",
+"hora": "17:45",
+"local": "PAE AEK",
+"utc": "2026-11-04T17:45Z",
+"visita": "Real Madrid CF"
+},
+{
+"fecha": "2026-11-04",
+"hora": "17:45",
+"local": "Fenerbahçe SK",
+"utc": "2026-11-04T17:45Z",
+"visita": "Liverpool FC"
+},
+{
+"fecha": "2026-11-04",
+"hora": "20:00",
+"local": "RB Leipzig",
+"utc": "2026-11-04T20:00Z",
+"visita": "Manchester City FC"
+},
+{
+"fecha": "2026-11-04",
+"hora": "20:00",
+"local": "SK Slavia Praha",
+"utc": "2026-11-04T20:00Z",
+"visita": "Arsenal FC"
+},
+{
+"fecha": "2026-11-04",
+"hora": "20:00",
+"local": "PSV",
+"utc": "2026-11-04T20:00Z",
+"visita": "Club Brugge KV"
+},
+{
+"fecha": "2026-11-04",
+"hora": "20:00",
+"local": "Borussia Dortmund",
+"utc": "2026-11-04T20:00Z",
+"visita": "Real Betis Balompié"
+},
+{
+"fecha": "2026-11-04",
+"hora": "20:00",
+"local": "FC Porto",
+"utc": "2026-11-04T20:00Z",
+"visita": "SSC Napoli"
+},
+{
+"fecha": "2026-11-04",
+"hora": "20:00",
+"local": "Racing Club de Lens",
+"utc": "2026-11-04T20:00Z",
+"visita": "Como 1907"
+},
+{
+"fecha": "2026-11-04",
+"hora": "20:00",
+"local": "Viking FK",
+"utc": "2026-11-04T20:00Z",
+"visita": "Sabah FK"
+},
+{
+"fecha": "2026-11-24",
+"hora": "17:45",
+"local": "Galatasaray SK",
+"utc": "2026-11-24T17:45Z",
+"visita": "Aston Villa FC"
+},
+{
+"fecha": "2026-11-24",
+"hora": "17:45",
+"local": "FK Bodø/Glimt",
+"utc": "2026-11-24T17:45Z",
+"visita": "LASK Linz"
+},
+{
+"fecha": "2026-11-24",
+"hora": "20:00",
+"local": "Real Madrid CF",
+"utc": "2026-11-24T20:00Z",
+"visita": "PSV"
+},
+{
+"fecha": "2026-11-24",
+"hora": "20:00",
+"local": "Manchester City FC",
+"utc": "2026-11-24T20:00Z",
+"visita": "SSC Napoli"
+},
+{
+"fecha": "2026-11-24",
+"hora": "20:00",
+"local": "Arsenal FC",
+"utc": "2026-11-24T20:00Z",
+"visita": "Borussia Dortmund"
+},
+{
+"fecha": "2026-11-24",
+"hora": "20:00",
+"local": "Feyenoord Rotterdam",
+"utc": "2026-11-24T20:00Z",
+"visita": "FC Porto"
+},
+{
+"fecha": "2026-11-24",
+"hora": "20:00",
+"local": "ŠK Slovan Bratislava",
+"utc": "2026-11-24T20:00Z",
+"visita": "Real Betis Balompié"
+},
+{
+"fecha": "2026-11-24",
+"hora": "20:00",
+"local": "RB Leipzig",
+"utc": "2026-11-24T20:00Z",
+"visita": "Racing Club de Lens"
+},
+{
+"fecha": "2026-11-24",
+"hora": "20:00",
+"local": "Como 1907",
+"utc": "2026-11-24T20:00Z",
+"visita": "PAE AEK"
+},
+{
+"fecha": "2026-11-25",
+"hora": "17:45",
+"local": "Sabah FK",
+"utc": "2026-11-25T17:45Z",
+"visita": "FC Barcelona"
+},
+{
+"fecha": "2026-11-25",
+"hora": "17:45",
+"local": "SK Slavia Praha",
+"utc": "2026-11-25T17:45Z",
+"visita": "Villarreal CF"
+},
+{
+"fecha": "2026-11-25",
+"hora": "20:00",
+"local": "FC Internazionale Milano",
+"utc": "2026-11-25T20:00Z",
+"visita": "VfB Stuttgart"
+},
+{
+"fecha": "2026-11-25",
+"hora": "20:00",
+"local": "Club Atlético de Madrid",
+"utc": "2026-11-25T20:00Z",
+"visita": "Viking FK"
+},
+{
+"fecha": "2026-11-25",
+"hora": "20:00",
+"local": "Paris Saint-Germain FC",
+"utc": "2026-11-25T20:00Z",
+"visita": "AS Roma"
+},
+{
+"fecha": "2026-11-25",
+"hora": "20:00",
+"local": "Club Brugge KV",
+"utc": "2026-11-25T20:00Z",
+"visita": "Liverpool FC"
+},
+{
+"fecha": "2026-11-25",
+"hora": "20:00",
+"local": "Lille OSC",
+"utc": "2026-11-25T20:00Z",
+"visita": "FC Bayern München"
+},
+{
+"fecha": "2026-11-25",
+"hora": "20:00",
+"local": "Sporting Clube de Portugal",
+"utc": "2026-11-25T20:00Z",
+"visita": "Manchester United FC"
+},
+{
+"fecha": "2026-11-25",
+"hora": "20:00",
+"local": "FK Shakhtar Donetsk",
+"utc": "2026-11-25T20:00Z",
+"visita": "Fenerbahçe SK"
+},
+{
+"fecha": "2026-12-08",
+"hora": "17:45",
+"local": "Villarreal CF",
+"utc": "2026-12-08T17:45Z",
+"visita": "Sabah FK"
+},
+{
+"fecha": "2026-12-08",
+"hora": "17:45",
+"local": "Viking FK",
+"utc": "2026-12-08T17:45Z",
+"visita": "Feyenoord Rotterdam"
+},
+{
+"fecha": "2026-12-08",
+"hora": "20:00",
+"local": "FC Barcelona",
+"utc": "2026-12-08T20:00Z",
+"visita": "Manchester City FC"
+},
+{
+"fecha": "2026-12-08",
+"hora": "20:00",
+"local": "Aston Villa FC",
+"utc": "2026-12-08T20:00Z",
+"visita": "Paris Saint-Germain FC"
+},
+{
+"fecha": "2026-12-08",
+"hora": "20:00",
+"local": "FC Bayern München",
+"utc": "2026-12-08T20:00Z",
+"visita": "SK Slavia Praha"
+},
+{
+"fecha": "2026-12-08",
+"hora": "20:00",
+"local": "SSC Napoli",
+"utc": "2026-12-08T20:00Z",
+"visita": "Club Brugge KV"
+},
+{
+"fecha": "2026-12-08",
+"hora": "20:00",
+"local": "AS Roma",
+"utc": "2026-12-08T20:00Z",
+"visita": "Sporting Clube de Portugal"
+},
+{
+"fecha": "2026-12-08",
+"hora": "20:00",
+"local": "Manchester United FC",
+"utc": "2026-12-08T20:00Z",
+"visita": "RB Leipzig"
+},
+{
+"fecha": "2026-12-08",
+"hora": "20:00",
+"local": "PAE AEK",
+"utc": "2026-12-08T20:00Z",
+"visita": "Galatasaray SK"
+},
+{
+"fecha": "2026-12-09",
+"hora": "17:45",
+"local": "Real Betis Balompié",
+"utc": "2026-12-09T17:45Z",
+"visita": "Como 1907"
+},
+{
+"fecha": "2026-12-09",
+"hora": "17:45",
+"local": "ŠK Slovan Bratislava",
+"utc": "2026-12-09T17:45Z",
+"visita": "FK Shakhtar Donetsk"
+},
+{
+"fecha": "2026-12-09",
+"hora": "20:00",
+"local": "Arsenal FC",
+"utc": "2026-12-09T20:00Z",
+"visita": "Real Madrid CF"
+},
+{
+"fecha": "2026-12-09",
+"hora": "20:00",
+"local": "Borussia Dortmund",
+"utc": "2026-12-09T20:00Z",
+"visita": "FC Internazionale Milano"
+},
+{
+"fecha": "2026-12-09",
+"hora": "20:00",
+"local": "PSV",
+"utc": "2026-12-09T20:00Z",
+"visita": "Club Atlético de Madrid"
+},
+{
+"fecha": "2026-12-09",
+"hora": "20:00",
+"local": "Liverpool FC",
+"utc": "2026-12-09T20:00Z",
+"visita": "FC Porto"
+},
+{
+"fecha": "2026-12-09",
+"hora": "20:00",
+"local": "Racing Club de Lens",
+"utc": "2026-12-09T20:00Z",
+"visita": "FK Bodø/Glimt"
+},
+{
+"fecha": "2026-12-09",
+"hora": "20:00",
+"local": "LASK Linz",
+"utc": "2026-12-09T20:00Z",
+"visita": "Fenerbahçe SK"
+},
+{
+"fecha": "2026-12-09",
+"hora": "20:00",
+"local": "VfB Stuttgart",
+"utc": "2026-12-09T20:00Z",
+"visita": "Lille OSC"
+},
+{
+"fecha": "2027-01-19",
+"hora": "17:45",
+"local": "FK Bodø/Glimt",
+"utc": "2027-01-19T17:45Z",
+"visita": "Club Atlético de Madrid"
+},
+{
+"fecha": "2027-01-19",
+"hora": "17:45",
+"local": "Galatasaray SK",
+"utc": "2027-01-19T17:45Z",
+"visita": "Feyenoord Rotterdam"
+},
+{
+"fecha": "2027-01-19",
+"hora": "20:00",
+"local": "Real Madrid CF",
+"utc": "2027-01-19T20:00Z",
+"visita": "LASK Linz"
+},
+{
+"fecha": "2027-01-19",
+"hora": "20:00",
+"local": "FC Internazionale Milano",
+"utc": "2027-01-19T20:00Z",
+"visita": "Liverpool FC"
+},
+{
+"fecha": "2027-01-19",
+"hora": "20:00",
+"local": "VfB Stuttgart",
+"utc": "2027-01-19T20:00Z",
+"visita": "Club Brugge KV"
+},
+{
+"fecha": "2027-01-19",
+"hora": "20:00",
+"local": "Aston Villa FC",
+"utc": "2027-01-19T20:00Z",
+"visita": "Borussia Dortmund"
+},
+{
+"fecha": "2027-01-19",
+"hora": "20:00",
+"local": "PAE AEK",
+"utc": "2027-01-19T20:00Z",
+"visita": "AS Roma"
+},
+{
+"fecha": "2027-01-19",
+"hora": "20:00",
+"local": "FC Porto",
+"utc": "2027-01-19T20:00Z",
+"visita": "SK Slavia Praha"
+},
+{
+"fecha": "2027-01-19",
+"hora": "20:00",
+"local": "Lille OSC",
+"utc": "2027-01-19T20:00Z",
+"visita": "ŠK Slovan Bratislava"
+},
+{
+"fecha": "2027-01-20",
+"hora": "17:45",
+"local": "Fenerbahçe SK",
+"utc": "2027-01-20T17:45Z",
+"visita": "Villarreal CF"
+},
+{
+"fecha": "2027-01-20",
+"hora": "17:45",
+"local": "Sabah FK",
+"utc": "2027-01-20T17:45Z",
+"visita": "SSC Napoli"
+},
+{
+"fecha": "2027-01-20",
+"hora": "20:00",
+"local": "Racing Club de Lens",
+"utc": "2027-01-20T20:00Z",
+"visita": "Manchester City FC"
+},
+{
+"fecha": "2027-01-20",
+"hora": "20:00",
+"local": "Sporting Clube de Portugal",
+"utc": "2027-01-20T20:00Z",
+"visita": "FC Barcelona"
+},
+{
+"fecha": "2027-01-20",
+"hora": "20:00",
+"local": "Como 1907",
+"utc": "2027-01-20T20:00Z",
+"visita": "Paris Saint-Germain FC"
+},
+{
+"fecha": "2027-01-20",
+"hora": "20:00",
+"local": "Real Betis Balompié",
+"utc": "2027-01-20T20:00Z",
+"visita": "Arsenal FC"
+},
+{
+"fecha": "2027-01-20",
+"hora": "20:00",
+"local": "Manchester United FC",
+"utc": "2027-01-20T20:00Z",
+"visita": "FC Bayern München"
+},
+{
+"fecha": "2027-01-20",
+"hora": "20:00",
+"local": "Viking FK",
+"utc": "2027-01-20T20:00Z",
+"visita": "PSV"
+},
+{
+"fecha": "2027-01-20",
+"hora": "20:00",
+"local": "RB Leipzig",
+"utc": "2027-01-20T20:00Z",
+"visita": "FK Shakhtar Donetsk"
+},
+{
+"fecha": "2027-01-27",
+"hora": "20:00",
+"local": "FK Shakhtar Donetsk",
+"utc": "2027-01-27T20:00Z",
+"visita": "Real Madrid CF"
+},
+{
+"fecha": "2027-01-27",
+"hora": "20:00",
+"local": "Manchester City FC",
+"utc": "2027-01-27T20:00Z",
+"visita": "Sporting Clube de Portugal"
+},
+{
+"fecha": "2027-01-27",
+"hora": "20:00",
+"local": "ŠK Slovan Bratislava",
+"utc": "2027-01-27T20:00Z",
+"visita": "FC Internazionale Milano"
+},
+{
+"fecha": "2027-01-27",
+"hora": "20:00",
+"local": "FC Barcelona",
+"utc": "2027-01-27T20:00Z",
+"visita": "Como 1907"
+},
+{
+"fecha": "2027-01-27",
+"hora": "20:00",
+"local": "Club Atlético de Madrid",
+"utc": "2027-01-27T20:00Z",
+"visita": "Fenerbahçe SK"
+},
+{
+"fecha": "2027-01-27",
+"hora": "20:00",
+"local": "Paris Saint-Germain FC",
+"utc": "2027-01-27T20:00Z",
+"visita": "Galatasaray SK"
+},
+{
+"fecha": "2027-01-27",
+"hora": "20:00",
+"local": "Liverpool FC",
+"utc": "2027-01-27T20:00Z",
+"visita": "Racing Club de Lens"
+},
+{
+"fecha": "2027-01-27",
+"hora": "20:00",
+"local": "Arsenal FC",
+"utc": "2027-01-27T20:00Z",
+"visita": "Sabah FK"
+},
+{
+"fecha": "2027-01-27",
+"hora": "20:00",
+"local": "FC Bayern München",
+"utc": "2027-01-27T20:00Z",
+"visita": "Real Betis Balompié"
+},
+{
+"fecha": "2027-01-27",
+"hora": "20:00",
+"local": "Club Brugge KV",
+"utc": "2027-01-27T20:00Z",
+"visita": "FK Bodø/Glimt"
+},
+{
+"fecha": "2027-01-27",
+"hora": "20:00",
+"local": "Borussia Dortmund",
+"utc": "2027-01-27T20:00Z",
+"visita": "PAE AEK"
+},
+{
+"fecha": "2027-01-27",
+"hora": "20:00",
+"local": "SK Slavia Praha",
+"utc": "2027-01-27T20:00Z",
+"visita": "Aston Villa FC"
+},
+{
+"fecha": "2027-01-27",
+"hora": "20:00",
+"local": "AS Roma",
+"utc": "2027-01-27T20:00Z",
+"visita": "Lille OSC"
+},
+{
+"fecha": "2027-01-27",
+"hora": "20:00",
+"local": "LASK Linz",
+"utc": "2027-01-27T20:00Z",
+"visita": "FC Porto"
+},
+{
+"fecha": "2027-01-27",
+"hora": "20:00",
+"local": "Villarreal CF",
+"utc": "2027-01-27T20:00Z",
+"visita": "Manchester United FC"
+},
+{
+"fecha": "2027-01-27",
+"hora": "20:00",
+"local": "PSV",
+"utc": "2027-01-27T20:00Z",
+"visita": "VfB Stuttgart"
+},
+{
+"fecha": "2027-01-27",
+"hora": "20:00",
+"local": "Feyenoord Rotterdam",
+"utc": "2027-01-27T20:00Z",
+"visita": "RB Leipzig"
+},
+{
+"fecha": "2027-01-27",
+"hora": "20:00",
+"local": "SSC Napoli",
+"utc": "2027-01-27T20:00Z",
+"visita": "Viking FK"
+}
+]
 },
 "championship": {
 "continente": "Europa",
@@ -14,90 +1023,6 @@
 "nombre": "Championship",
 "pais": "Inglaterra",
 "partidos": [
-{
-"fecha": "2026-08-28",
-"hora": "19:00",
-"local": "Wrexham AFC",
-"utc": "2026-08-28T19:00Z",
-"visita": "Birmingham City FC"
-},
-{
-"fecha": "2026-08-29",
-"hora": "11:30",
-"local": "Wolverhampton Wanderers FC",
-"utc": "2026-08-29T11:30Z",
-"visita": "Stoke City FC"
-},
-{
-"fecha": "2026-08-29",
-"hora": "11:30",
-"local": "Derby County FC",
-"utc": "2026-08-29T11:30Z",
-"visita": "Swansea City AFC"
-},
-{
-"fecha": "2026-08-29",
-"hora": "11:30",
-"local": "Middlesbrough FC",
-"utc": "2026-08-29T11:30Z",
-"visita": "West Bromwich Albion FC"
-},
-{
-"fecha": "2026-08-29",
-"hora": "14:00",
-"local": "Norwich City FC",
-"utc": "2026-08-29T14:00Z",
-"visita": "Burnley FC"
-},
-{
-"fecha": "2026-08-29",
-"hora": "14:00",
-"local": "Bolton Wanderers FC",
-"utc": "2026-08-29T14:00Z",
-"visita": "Lincoln City FC"
-},
-{
-"fecha": "2026-08-29",
-"hora": "14:00",
-"local": "Bristol City FC",
-"utc": "2026-08-29T14:00Z",
-"visita": "Portsmouth FC"
-},
-{
-"fecha": "2026-08-29",
-"hora": "14:00",
-"local": "Southampton FC",
-"utc": "2026-08-29T14:00Z",
-"visita": "Millwall FC"
-},
-{
-"fecha": "2026-08-29",
-"hora": "14:00",
-"local": "Charlton Athletic FC",
-"utc": "2026-08-29T14:00Z",
-"visita": "Preston North End FC"
-},
-{
-"fecha": "2026-08-29",
-"hora": "14:00",
-"local": "Blackburn Rovers FC",
-"utc": "2026-08-29T14:00Z",
-"visita": "Queens Park Rangers FC"
-},
-{
-"fecha": "2026-08-29",
-"hora": "14:00",
-"local": "Cardiff City FC",
-"utc": "2026-08-29T14:00Z",
-"visita": "Sheffield United FC"
-},
-{
-"fecha": "2026-08-29",
-"hora": "14:00",
-"local": "Watford FC",
-"utc": "2026-08-29T14:00Z",
-"visita": "West Ham United FC"
-},
 {
 "fecha": "2026-09-01",
 "hora": "18:45",
@@ -297,20 +1222,6 @@
 {
 "fecha": "2026-09-08",
 "hora": "18:45",
-"local": "Middlesbrough FC",
-"utc": "2026-09-08T18:45Z",
-"visita": "Millwall FC"
-},
-{
-"fecha": "2026-09-08",
-"hora": "18:45",
-"local": "Bristol City FC",
-"utc": "2026-09-08T18:45Z",
-"visita": "Lincoln City FC"
-},
-{
-"fecha": "2026-09-08",
-"hora": "18:45",
 "local": "Wrexham AFC",
 "utc": "2026-09-08T18:45Z",
 "visita": "Burnley FC"
@@ -321,13 +1232,6 @@
 "local": "Bolton Wanderers FC",
 "utc": "2026-09-08T19:00Z",
 "visita": "West Ham United FC"
-},
-{
-"fecha": "2026-09-09",
-"hora": "18:45",
-"local": "Wolverhampton Wanderers FC",
-"utc": "2026-09-09T18:45Z",
-"visita": "Portsmouth FC"
 },
 {
 "fecha": "2026-09-09",
@@ -435,6 +1339,20 @@
 "visita": "Wolverhampton Wanderers FC"
 },
 {
+"fecha": "2026-09-15",
+"hora": "18:45",
+"local": "Middlesbrough FC",
+"utc": "2026-09-15T18:45Z",
+"visita": "Millwall FC"
+},
+{
+"fecha": "2026-09-15",
+"hora": "18:45",
+"local": "Bristol City FC",
+"utc": "2026-09-15T18:45Z",
+"visita": "Lincoln City FC"
+},
+{
 "fecha": "2026-09-18",
 "hora": "19:00",
 "local": "Bristol City FC",
@@ -479,13 +1397,6 @@
 {
 "fecha": "2026-09-19",
 "hora": "14:00",
-"local": "Norwich City FC",
-"utc": "2026-09-19T14:00Z",
-"visita": "Bolton Wanderers FC"
-},
-{
-"fecha": "2026-09-19",
-"hora": "14:00",
 "local": "Queens Park Rangers FC",
 "utc": "2026-09-19T14:00Z",
 "visita": "Preston North End FC"
@@ -517,6 +1428,13 @@
 "local": "Wolverhampton Wanderers FC",
 "utc": "2026-09-20T11:00Z",
 "visita": "West Bromwich Albion FC"
+},
+{
+"fecha": "2026-09-20",
+"hora": "12:30",
+"local": "Norwich City FC",
+"utc": "2026-09-20T12:30Z",
+"visita": "Bolton Wanderers FC"
 },
 {
 "fecha": "2026-10-09",
@@ -3718,14 +4636,6 @@
 "mes": 1,
 "nombre": "Copa Libertadores",
 "pais": "Sudamérica",
-"partidos": [
-{
-"fecha": "2026-08-26",
-"hora": "00:30",
-"local": "CAR Independiente del Valle",
-"utc": "2026-08-26T00:30Z",
-"visita": "CD Tolima"
-}
-]
+"partidos": []
 }
 }

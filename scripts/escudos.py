@@ -165,7 +165,7 @@ def _listar(carpeta: str) -> dict[str, str]:
     return _arbol().get(carpeta, {})
 
 
-def _desde_wikidata(nombres: list[str]) -> dict[str, str]:
+def _desde_wikidata(nombres: list[str], oficial: dict | None = None) -> dict[str, str]:
     """Escudos de Wikidata, para los clubes que el repositorio no cubre.
 
     Se pregunta por el nombre exacto y se descarta cualquiera que devuelva más
@@ -175,7 +175,7 @@ def _desde_wikidata(nombres: list[str]) -> dict[str, str]:
     hallados: dict[str, str] = {}
     for i in range(0, len(nombres), 25):
         lote = nombres[i:i + 25]
-        pedido = {OFICIAL_WD.get(n, n): n for n in lote}
+        pedido = {(oficial or OFICIAL_WD).get(n, n): n for n in lote}
         valores = " ".join('"%s"@en' % n.replace('"', "") for n in pedido)
         consulta = f"""SELECT ?l ?logo ?club WHERE {{
           VALUES ?l {{ {valores} }}
@@ -258,9 +258,26 @@ def mapear(ligas: dict) -> dict[str, str]:
         cache_wd = {}
 
     todos = [e["nombre"] for lg in ligas.values() for e in lg["equipos"].values()]
+
+    # OFICIAL_WD está escrito con la clave interna del equipo («CA Mineiro»),
+    # pero aquí se busca por el nombre que se enseña («Atlético Mineiro»). Sin
+    # traducir de uno a otro el mapa no se aplicaba nunca y esos clubes se
+    # quedaban sin escudo aunque Wikidata sí lo tuviera.
+    oficial = dict(OFICIAL_WD)
+    for lg in ligas.values():
+        for e in lg["equipos"].values():
+            wd = OFICIAL_WD.get(e["clave"]) or OFICIAL_WD.get(e["nombre"])
+            if wd:
+                oficial[e["nombre"]] = wd
+
+    # A quien se buscó con el nombre equivocado se le da otra oportunidad
+    for n, wd in oficial.items():
+        if cache_wd.get(n) == "" and n != wd:
+            cache_wd.pop(n, None)
+
     faltan = [n for n in dict.fromkeys(todos) if n not in salida and n not in cache_wd]
     if faltan:
-        nuevos = _desde_wikidata(faltan)
+        nuevos = _desde_wikidata(faltan, oficial)
         cache_wd.update(nuevos)
         for n in faltan:                 # los buscados sin éxito, marcados
             cache_wd.setdefault(n, "")

@@ -897,8 +897,13 @@ def main() -> None:
         ag_ant = agregar(p_ant)
         ag_ambas = agregar(p_ant + p_act)
 
-        # El historial se toma de la temporada más reciente con partidos
-        hist = historial(referencia, set(atq))
+        # El historial abarca las dos temporadas seguidas, no sólo la de
+        # referencia: así la ficha del equipo puede enseñar su estado de ahora
+        # —que es lo que la gente busca— y también dejar mirar hacia atrás.
+        hist = historial(p_ant + p_act, set(atq), maximo=60)
+        # Fecha en que arrancó la temporada nueva, para que la web sepa por
+        # dónde cortar ese historial sin marcar cada partido uno a uno.
+        corte_act = min((m["datetime"][:10] for m in p_act), default="")
 
         pj_ventana: dict[str, int] = {}
         for m in partidos:
@@ -1058,6 +1063,7 @@ def main() -> None:
             "temp_opciones": {"act": etiqueta(actual), "ant": etiqueta(anterior),
                               "ambas": f"{etiqueta(anterior)} + {etiqueta(actual)}"},
             "pj_act": len(p_act),
+            "corte_act": corte_act,
             "temp_jug": etiqueta(actual) if fichas is f_act else etiqueta(anterior),
             "nota_temp": temp_hist + jornadas,
             "gamma": round(gamma, 5), "rho": RHO,
@@ -1103,7 +1109,10 @@ def main() -> None:
         atq, dfn, gamma = ajustar_fuerzas(partidos, hoy)
         referencia = p_act if len(p_act) >= 50 else (p_ant or p_act)
         ag = agregar(referencia)
-        hist = historial(referencia, set(atq))
+        ag_act, ag_ant = agregar(p_act), agregar(p_ant)
+        ag_ambas = agregar(p_ant + p_act)
+        hist = historial(p_ant + p_act, set(atq), maximo=60)
+        corte_act = min((m["datetime"][:10] for m in p_act), default="")
 
         pj_ventana: dict[str, int] = {}
         for m in partidos:
@@ -1116,7 +1125,9 @@ def main() -> None:
                 continue
             equipos[e] = {"nombre": BONITO.get(e, e), "clave": e, "nuevo": False,
                           "atq": round(atq[e], 5), "def": round(dfn[e], 5), **ag[e],
-                          "jug": [], "hist": hist.get(e, [])}
+                          "jug": [], "hist": hist.get(e, []),
+                          "temp": {"act": ag_act.get(e), "ant": ag_ant.get(e),
+                                   "ambas": ag_ambas.get(e)}}
 
         indice = {normalizar(e): e for e in equipos}
         base = perfil_ascendido(equipos)
@@ -1128,7 +1139,8 @@ def main() -> None:
                 if eq is None:
                     eq = bruto
                     if eq not in equipos:
-                        equipos[eq] = {"nombre": BONITO.get(bruto, bruto), "clave": eq,
+                        equipos[eq] = {"nombre": BONITO.get(bruto, mod_fd.nombre_corto(bruto)),
+                                       "clave": eq,
                                        "nuevo": True, "jug": [], **base}
                         sin_casar.add(bruto)
                 ids.append(eq)
@@ -1165,6 +1177,11 @@ def main() -> None:
             "pronostico": pron, "aciertos": hist_aciertos,
             "temp_fuerzas": temp_act, "temp_hist": temp_act, "temp_jug": "",
             "nota_temp": f"{len(p_act)} partidos jugados",
+            "temp_opciones": {"act": temp_act,
+                              "ant": mod_goles.etiqueta_temporada(clave, anio - 1),
+                              "ambas": f"{mod_goles.etiqueta_temporada(clave, anio - 1)}"
+                                       f" + {temp_act}"},
+            "pj_act": len(p_act), "corte_act": corte_act,
             "gamma": round(gamma, 5), "rho": RHO,
             "equipos": equipos, "partidos": partidos_web,
             "ascendidos": sorted(sin_casar), "nivel_europeo": None,
@@ -1206,7 +1223,8 @@ def main() -> None:
             for e in atq:
                 if e not in ag or pj_ventana.get(e, 0) < MIN_PARTIDOS:
                     continue
-                equipos[e] = {"nombre": BONITO.get(e, e), "clave": e,
+                equipos[e] = {"nombre": BONITO.get(e, mod_fd.nombre_corto(e)),
+                              "clave": e,
                               "nuevo": False, "atq": round(atq[e], 5),
                               "def": round(dfn[e], 5), **ag[e],
                               "jug": [], "hist": hist.get(e, [])}
@@ -1316,6 +1334,32 @@ def main() -> None:
     print("")
     print("Escudos")
     salida["escudos"] = mod_escudos.mapear(salida["ligas"])
+    # football-data.org publica el escudo de cada equipo suyo. Es la única
+    # fuente que cubre la Championship y los clubes sudamericanos, así que
+    # rellena lo que el repositorio de logos y Wikidata dejan fuera.
+    propios = mod_fd.escudos()
+    if propios:
+        # El emparejado no puede ser por el nombre tal cual: en la web los
+        # clubes brasileños llevan su nombre en español —«Flamengo», «Bahía»—
+        # y la fuente los escribe «CR Flamengo», «EC Bahia». Se compara por la
+        # forma normalizada, que ya descarta siglas y acentos.
+        indice_esc = {}
+        for bruto, url in propios.items():
+            indice_esc.setdefault(normalizar(bruto), url)
+
+        puestos = 0
+        for lg in salida["ligas"].values():
+            for eq in lg["equipos"].values():
+                if salida["escudos"].get(eq["nombre"]):
+                    continue
+                url = (propios.get(eq["nombre"])
+                       or propios.get(eq["clave"])
+                       or indice_esc.get(normalizar(eq["nombre"]))
+                       or indice_esc.get(normalizar(eq["clave"])))
+                if url:
+                    salida["escudos"][eq["nombre"]] = url
+                    puestos += 1
+        print(f"    {puestos} escudos más desde football-data.org")
     total_eq = sum(len(lg["equipos"]) for lg in salida["ligas"].values())
     print(f"    {len(salida['escudos'])} de {total_eq} equipos con escudo")
 
