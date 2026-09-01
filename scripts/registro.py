@@ -47,6 +47,46 @@ def _id(liga: str, fecha: str, local: str, visita: str, norm=None) -> str:
     return f"{liga}|{fecha}|{f(local)}|{f(visita)}"
 
 
+def migrar(registro: dict, norm) -> tuple[dict, int]:
+    """Vuelve a calcular las claves del archivo con el normalizador de ahora.
+
+    La clave de cada partido sale de reducir el nombre de los dos equipos. El
+    día que ese reductor mejora —y mejora, porque las fuentes escriben los
+    nombres de mil maneras— las claves viejas dejan de coincidir con las que se
+    generan a partir de ese momento: el mismo partido acaba en dos fichas, la
+    vieja no se resuelve nunca y el historial se parte en dos.
+
+    Esto lo arregla solo en cada ejecución. **No se toca ni un pronóstico**: es
+    un cambio de nombre de la ficha, no de su contenido. Si dos fichas viejas
+    caen en la misma clave nueva se conserva la que se publicó antes, que es la
+    regla de siempre aquí; si a ésa le falta el resultado y la otra lo tiene,
+    se le copia el resultado.
+    """
+    salida: dict = {}
+    movidas = 0
+    for vieja, f in registro.items():
+        try:
+            nueva = _id(f["clave_liga"], f["fecha"],
+                        f.get("clave_l") or f["l"], f.get("clave_v") or f["v"],
+                        norm)
+        except KeyError:
+            salida[vieja] = f          # ficha incompleta: se deja como está
+            continue
+        movidas += nueva != vieja
+        previa = salida.get(nueva)
+        if previa is None:
+            salida[nueva] = f
+            continue
+        # Gana la publicada antes; el resultado se conserva venga de donde venga
+        primera, segunda = sorted((previa, f), key=lambda x: x.get("publicado", ""))
+        if "real" not in primera and "real" in segunda:
+            primera = {**primera, **{k: v for k, v in segunda.items()
+                                     if k.startswith("ok_") or k in
+                                     ("real", "gl", "gv")}}
+        salida[nueva] = primera
+    return salida, movidas
+
+
 def cargar() -> dict:
     if ARCHIVO.exists():
         try:
@@ -165,14 +205,26 @@ def resolver(registro: dict, clave_liga: str, jugados: list[dict],
     return resueltos
 
 
+# Competiciones que no entran en el resumen público de aciertos. Se siguen
+# pronosticando y se siguen apuntando en el registro —el archivo completo sigue
+# ahí para quien lo quiera comprobar—, pero no cuentan en el porcentaje que
+# encabeza la sección: en ellas el modelo va sobre goles y sin ocasiones de
+# gol, y acierta bastante menos, así que mezclarlas ensucia la cifra.
+FUERA_DEL_RESUMEN = {"championship", "brasileirao"}
+
+
 def resumen(registro: dict) -> dict:
     """Lo que se enseña en la web: cuánto se acertó y con qué calibración."""
+    excluidas = sorted({f.get("liga") for f in registro.values()
+                        if f.get("clave_liga") in FUERA_DEL_RESUMEN})
+    registro = {k: f for k, f in registro.items()
+                if f.get("clave_liga") not in FUERA_DEL_RESUMEN}
     pendientes = sum(1 for f in registro.values() if "real" not in f)
     filas = [f for f in registro.values() if "real" in f]
     if not filas:
         # Sin resultados todavía, pero conviene decir cuántos hay apuntados:
         # es la prueba de que los pronósticos existían antes de los partidos.
-        return {"n": 0, "pendientes": pendientes}
+        return {"n": 0, "pendientes": pendientes, "excluidas": excluidas}
     filas.sort(key=lambda f: (f["fecha"], f["l"]))
 
     def favorito(f):
@@ -281,6 +333,11 @@ def resumen(registro: dict) -> dict:
 
     return {
         "n": len(filas),
+        # Qué competiciones están detrás de esta cifra y cuáles no. Se publica
+        # para que el porcentaje no se pueda leer como una selección a
+        # conveniencia: quien mire sabe sobre qué se ha medido.
+        "ligas": sorted({f["liga"] for f in filas}),
+        "excluidas": excluidas,
         "aciertos": aciertos,
         "pct": round(aciertos / len(filas) * 100, 1),
         "desde": filas[0]["fecha"],

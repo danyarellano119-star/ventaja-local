@@ -982,6 +982,21 @@ table.tabla-liga tbody tr:hover td { background: var(--surface-2); }
 .ficha-barra button:hover { background: rgba(255,255,255,.24); }
 .ficha-barra button:focus-visible { outline: 2px solid #fff; outline-offset: 1px; }
 .ficha-barra .separa { flex: 1; }
+/* El desplegable para saltar de competición vive ahora sobre la foto */
+.ficha-barra .lg-elige {
+  display: flex; align-items: center; gap: 8px; margin-left: 6px;
+}
+.ficha-barra .lg-elige label {
+  font-family: var(--sans); font-size: 12px; letter-spacing: .08em;
+  text-transform: uppercase; color: #aeb7c4;
+}
+.ficha-barra .lg-elige select {
+  background: rgba(255,255,255,.13); border: 1px solid rgba(255,255,255,.22);
+  color: #eef1f5; border-radius: 7px; padding: 8px 11px; cursor: pointer;
+  font-family: var(--sans); font-size: 13px; max-width: 230px;
+  color-scheme: dark;
+}
+.ficha-barra .lg-elige select:focus-visible { outline: 2px solid #fff; outline-offset: 1px; }
 
 .ficha-texto {
   position: relative; z-index: 2; max-width: 760px;
@@ -1871,6 +1886,7 @@ details .cuerpo strong { color: var(--ink); }
         fecha y su hora. Cuando el partido termina se anota el resultado al lado.
         Aquí está todo, acertado o no.
       </p>
+      <p class="sub" id="reg-alcance"></p>
 
       <div class="metricas-modelo" id="reg-cabecera"></div>
       <p class="gr-conclusion" id="reg-texto"></p>
@@ -2283,24 +2299,29 @@ details .cuerpo strong { color: var(--ink); }
 
   <!-- ══ VISTA LIGA ══ -->
   <div id="vista-liga" class="pila oculto">
-    <div class="barra-acciones">
-      <button class="volver" id="btn-volver-liga" type="button">← Todos los partidos</button>
-      <button class="btn-pdf" id="btn-pdf-liga" type="button">Guardar en PDF</button>
-    </div>
+    <section class="ficha-portada" id="lg-portada">
+      <div class="portada-fondo" id="lg-fondo"></div>
+      <div class="ficha-velo"></div>
 
-    <section class="tarjeta">
-      <div class="lg-elige">
-        <label for="lg-selector">Panorama de</label>
-        <select id="lg-selector"></select>
+      <div class="ficha-barra">
+        <button class="volver" id="btn-volver-liga" type="button">← Todos los partidos</button>
+        <span class="lg-elige">
+          <label for="lg-selector">Panorama de</label>
+          <select id="lg-selector"></select>
+        </span>
+        <span class="separa"></span>
+        <button class="btn-pdf" id="btn-pdf-liga" type="button">Guardar en PDF</button>
       </div>
-      <span class="paso" id="lg-pais"></span>
-      <div class="titulo-con-logo">
-        <img class="logo-liga oculto" id="lg-logo" alt="" loading="lazy"
-             decoding="async">
-        <h2 style="font-size:27px;margin:0" id="lg-nombre"></h2>
+
+      <div class="ficha-texto">
+        <span class="ficha-etq" id="lg-pais"></span>
+        <div class="ficha-cresta">
+          <span id="lg-sello"></span>
+          <h1 class="ficha-titulo" id="lg-nombre"></h1>
+        </div>
+        <p class="ficha-meta" id="lg-resumen"></p>
+        <div class="ficha-cifras" id="lg-cabecera"></div>
       </div>
-      <p class="sub" id="lg-resumen"></p>
-      <div class="metricas-modelo" id="lg-cabecera"></div>
     </section>
 
     <section class="tarjeta" id="lg-bloque-pron">
@@ -4575,8 +4596,10 @@ function abrirLiga(ligaKey) {
   const tabla = clubes.slice().sort((a, b) =>
     b.pts - a.pts || (b.gf - b.gc) - (a.gf - a.gc));
 
-  document.getElementById("lg-pais").textContent =
-    `${lg.pais} · datos de la temporada ${T(lg.temp_hist)}`;
+  const logoLg = logoComp(ligaKey);
+  document.getElementById("lg-pais").innerHTML =
+    (logoLg ? `<img src="${logoLg}" alt="" loading="lazy">` : "") +
+    `<span>${lg.pais}${lg.temp_hist ? ` · temporada ${T(lg.temp_hist)}` : ""}</span>`;
   // Desplegable para saltar a otra competición sin volver a la portada
   const sel = document.getElementById("lg-selector");
   if (!sel.options.length) {
@@ -4587,6 +4610,14 @@ function abrirLiga(ligaKey) {
   sel.value = ligaKey;
 
   document.getElementById("lg-nombre").textContent = lg.nombre;
+  document.getElementById("lg-sello").innerHTML = logoLg
+    ? `<img class="sello" src="${logoLg}" alt="Logo de ${lg.nombre}">` : "";
+
+  // De fondo, el estadio del equipo que va primero: da una imagen de la
+  // competición sin tener que buscar una foto para cada una.
+  const casaLider = (D.estadios || {})[(tabla[0] || {}).nombre] || {};
+  document.getElementById("lg-fondo").style.backgroundImage =
+    casaLider.img ? `url("${casaLider.img}")` : "none";
 
   // Cada sección se esconde si esta competición no tiene ese dato. Sin esto,
   // al pasar de una liga a otra quedaba a la vista lo de la anterior: la
@@ -4618,7 +4649,6 @@ function abrirLiga(ligaKey) {
       if (el) el.innerHTML = "";
     });
   }
-  ponerLogo("lg-logo", logoComp(ligaKey));
 
   const golesTot = clubes.reduce((s, e) => s + e.gf, 0);
   const pjTot = clubes.reduce((s, e) => s + e.pj, 0) / 2;
@@ -4658,8 +4688,7 @@ function abrirLiga(ligaKey) {
     [golesTot, "goles en la temporada"],
     [dec(golesTot / pjTot, 2), "goles por partido"],
     [dec(Math.exp(lg.gamma), 2) + "×", "ventaja de jugar en casa"],
-  ].map(([v, l]) => `<div class="metrica-caja"><span class="metrica-val">${v}</span>
-      <span class="metrica-lbl">${l}</span></div>`).join("");
+  ].map(([v, l]) => `<div class="cifra"><b>${v}</b><span>${l}</span></div>`).join("");
 
   // Historial de aciertos
   const ac = lg.aciertos || {};
@@ -4761,10 +4790,10 @@ function abrirLiga(ligaKey) {
     temporadas.push({ temp: op.ant, actual: true,
                       etq: `${T(op.ant)} · completa`, filas: desde("ant") });
   }
-  if (op.ambas && desde("ambas").length) {
-    temporadas.push({ temp: op.ambas, actual: true, juntas: true,
-                      etq: "Las dos juntas", filas: desde("ambas") });
-  }
+  // Nada de sumar dos temporadas en una tabla: una clasificación es de un
+  // curso concreto, y mezclarlos daba un «91 puntos en 40 partidos» que no
+  // corresponde a ninguna competición real.
+
   if (!temporadas.length) {
     temporadas.push({ temp: lg.temp_hist, actual: true,
       filas: tabla.map(e => ({ e: e.nombre, clave: e.clave, pj: e.pj, pts: e.pts,
@@ -5614,10 +5643,11 @@ function abrirEquipo(ligaKey, clave) {
     ? true
     : todos.some(e => (cifrasDe(e, k) || {}).pj > 0) && !!op[k];
 
+  // Una temporada u otra, nunca las dos sumadas: los totales mezclados no son
+  // los de ninguna competición de verdad.
   const OPCIONES = [
     { k: "act", etq: "Esta temporada", sello: T(op.act) },
     { k: "ant", etq: "La pasada", sello: T(op.ant) },
-    { k: "ambas", etq: "Las dos juntas", sello: T(op.ambas) },
   ].filter(o => hayDatos(o.k));
   // Las competiciones que llegan de football-data.org no vienen partidas por
   // temporada: sus cifras son las del último año, y así se dice.
@@ -5628,9 +5658,8 @@ function abrirEquipo(ligaKey, clave) {
   }
 
   const pjAct = ((eq.temp || {}).act || {}).pj || 0;
-  const preferida = OPCIONES.some(o => o.k === "act") && pjAct >= 5 ? "act"
-    : OPCIONES.some(o => o.k === "ambas") ? "ambas"
-    : OPCIONES[0].k;
+  const preferida = OPCIONES.some(o => o.k === "act") && pjAct > 0
+    ? "act" : OPCIONES[0].k;
   // Si el usuario ya eligió una en otra ficha, se le respeta mientras exista
   if (!OPCIONES.some(o => o.k === tempEquipo)) tempEquipo = preferida;
   const sel = tempEquipo;
@@ -5660,8 +5689,8 @@ function abrirEquipo(ligaKey, clave) {
   document.getElementById("eq-aviso").textContent =
     sel === "act" && pj < 6
       ? `Sólo se han jugado ${pj} partido${pj === 1 ? "" : "s"} de esta temporada:`
-        + ` con tan pocos, cualquier número se mueve mucho. Mira «Las dos juntas»`
-        + ` si quieres una imagen más estable.`
+        + ` con tan pocos, cualquier número se mueve mucho. En «La pasada`
+        + ` temporada» tienes el curso completo.`
       : "";
 
   // ── Portada ──────────────────────────────────────────────────────────── //
@@ -6738,6 +6767,20 @@ function pintarRegistro() {
   }
 
   const NOMBRE = { L: "gana el local", E: "empate", V: "gana el visitante" };
+
+  // Decir qué competiciones cuentan aquí. Dos quedan fuera, y callarlo haría
+  // que este porcentaje pareciera mejor de lo que es: quien lo lea tiene
+  // derecho a saber sobre qué se ha medido.
+  const fuera = (D.registro || {}).excluidas || [];
+  document.getElementById("reg-alcance").innerHTML = fuera.length
+    ? `Estas cifras salen de <b>${(R.ligas || []).join(", ")}</b>. ` +
+      `Hemos dejado fuera <b>${fuera.join(" y ")}</b>, donde el modelo acierta ` +
+      `bastante menos y arrastraba el porcentaje hacia abajo. Decirlo importa: ` +
+      `un número sube fácil si se eligen las competiciones que lo favorecen, ` +
+      `así que ahí tienes cuáles son. Sus pronósticos se siguen publicando y ` +
+      `se siguen guardando en el archivo, y cada una lleva su propio balance ` +
+      `en su panorama.`
+    : "";
 
   document.getElementById("reg-cabecera").innerHTML = [
     [R.n, "partidos resueltos"],

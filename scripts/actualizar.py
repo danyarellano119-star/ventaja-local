@@ -24,6 +24,7 @@ from __future__ import annotations
 import json
 import math
 import sys
+import unicodedata
 from datetime import date, datetime, time as _hora, timezone
 from zoneinfo import ZoneInfo
 from pathlib import Path
@@ -679,11 +680,40 @@ def resumen_historico(cod_us: str, anio_final: int,
 # los dos a «manchester», y el calendario acababa asignándole al United partidos
 # del City.
 _SOCIEDAD = {"fc", "afc", "cf", "sc", "ac", "as", "ss", "ssc", "sv", "cd", "ud",
-             "rcd", "sd", "rc", "club", "calcio", "1913", "1899", "1846"}
+             "rcd", "sd", "rc", "club", "calcio",
+             # openfootball escribe el nombre oficial completo —«ACF
+             # Fiorentina», «TSG 1899 Hoffenheim», «Olympique Lyonnais»—
+             # mientras que la fuente de estadísticas usa el corto. Sin
+             # descartar estas siglas, cada equipo aparecía dos veces: una con
+             # sus datos y otra vacía, con el calendario colgando de la falsa.
+             "acf", "aj", "ogc", "us", "ss", "tsg", "fsv", "es", "rb", "ca",
+             "vfb", "vfl", "bsc", "sk", "fk", "cr", "ec", "se", "aa",
+             "olympique", "stade", "de", "del", "la", "le", "les", "los", "do"}
 
 # Abreviaturas que unas fuentes usan y otras no
 _EQUIVALE = {"utd": "united", "man": "manchester", "wolves": "wolverhampton",
-             "spurs": "tottenham", "nott m": "nottingham", "psg": "paris"}
+             "spurs": "tottenham", "nott m": "nottingham", "psg": "paris",
+             # Nombres que no se parecen entre fuentes
+             "koln": "cologne", "rennais": "rennes", "munchen": "munich",
+             "monchengladbach": "gladbach"}
+_EQUIVALE.pop("psg", None)   # ver _ALIAS_NOMBRE: «paris» a secas es del Paris FC
+
+# Nombres enteros que hay que traducir antes de comparar nada. Van aquí y no en
+# _EQUIVALE porque cambiar una palabra suelta se contagia: con «psg» → «paris»,
+# el PSG casaba con el Paris FC, que es otro club y este año juega en la misma
+# liga.
+_ALIAS_NOMBRE = {
+    "psg": "paris saint germain",
+    "paris sg": "paris saint germain",
+    "sporting cp": "sporting portugal",
+    "sporting lisboa": "sporting portugal",
+}
+
+# Palabras que llevan tantos clubes que sólo valen si coinciden exactas. Sin
+# esto «Sporting» casaba con el «Sport Lisboa e Benfica» por parecido de raíz.
+_SOLO_EXACTA = {"sport", "sporting", "real", "atletico", "athletic", "deportivo",
+                "racing", "city", "town", "united", "borussia", "dynamo",
+                "spartak", "estrela", "nacional", "internacional", "juventud"}
 
 
 def normalizar(nombre: str) -> str:
@@ -694,13 +724,19 @@ def normalizar(nombre: str) -> str:
     equipos distintos que acaben con la misma clave son un error mucho más caro
     que dos formas del mismo equipo que no se reconozcan.
     """
-    s = nombre.lower()
-    for a, b in [("á", "a"), ("é", "e"), ("í", "i"), ("ó", "o"), ("ú", "u"),
-                 ("ü", "u"), ("ñ", "n"), (".", " "), ("-", " "), ("&", " ")]:
+    # Se quitan todos los acentos, no una lista a mano: faltaban la diéresis
+    # alemana y la tilde portuguesa, así que «Köln» y «Mönchengladbach» no
+    # casaban nunca con «Cologne» ni con «Gladbach».
+    s = unicodedata.normalize("NFKD", nombre.lower())
+    s = "".join(c for c in s if not unicodedata.combining(c))
+    for a, b in [(".", " "), ("-", " "), ("&", " "), ("'", " ")]:
         s = s.replace(a, b)
+    # Los años y números del nombre oficial —«1899», «04», «1901»— no
+    # identifican a nadie: los lleva media Bundesliga.
     palabras = [_EQUIVALE.get(w, w) for w in s.split()
-                if w not in _SOCIEDAD and len(w) > 1]
-    return " ".join(palabras)
+                if w not in _SOCIEDAD and len(w) > 1 and not w.isdigit()]
+    limpio = " ".join(palabras)
+    return _ALIAS_NOMBRE.get(limpio, limpio)
 
 
 def emparejar(nombre: str, candidatos: dict[str, str]) -> str | None:
@@ -714,9 +750,10 @@ def emparejar(nombre: str, candidatos: dict[str, str]) -> str | None:
     if n in candidatos:
         return candidatos[n]
 
-    for clave, original in candidatos.items():
-        if clave.startswith(n) or n.startswith(clave) or (len(n) > 4 and n in clave):
-            return original
+    sueltos = [o for c, o in candidatos.items()
+               if c.startswith(n) or n.startswith(c) or (len(n) > 4 and n in c)]
+    if len(sueltos) == 1:
+        return sueltos[0]
 
     # Última pasada: misma palabra inicial y longitud parecida
     palabras = n.split()
@@ -726,7 +763,50 @@ def emparejar(nombre: str, candidatos: dict[str, str]) -> str | None:
                    if c.split() and c.split()[0] == primera and len(primera) > 3]
         if len(iguales) == 1:
             return iguales[0]
+
+    # Pasada por palabras. Los nombres oficiales llevan la palabra que
+    # identifica al club en medio y no al principio: «Olympique Lyonnais» por
+    # «Lyon», «Racing Club de Lens» por «Lens». Se cuenta cuántas palabras
+    # comparten los dos nombres y sólo se acepta si hay un candidato que gana
+    # solo: emparejar mal a dos equipos es mucho peor que no emparejar.
+    if palabras:
+        puntuados = []
+        for clave, original in candidatos.items():
+            suyas = clave.split()
+            if not suyas:
+                continue
+            # El nombre corto tiene que quedar cubierto **entero** por el
+            # largo. Con exigir una palabra cualquiera bastaba para que
+            # «Coventry City» casara con el «Manchester City» por compartir
+            # «city», que es justo el error que no puede pasar.
+            cortas, largas = ((palabras, suyas) if len(palabras) <= len(suyas)
+                              else (suyas, palabras))
+            if all(any(_misma_palabra(a, b) for b in largas) for a in cortas):
+                puntuados.append((len(cortas), original))
+        if puntuados:
+            mejor = max(c for c, _ in puntuados)
+            ganadores = {o for c, o in puntuados if c == mejor}
+            if len(ganadores) == 1:
+                return ganadores.pop()
     return None
+
+
+def _misma_palabra(a: str, b: str) -> bool:
+    """¿Estas dos palabras nombran a lo mismo?
+
+    Vale la igualdad, que una empiece por la otra —«Lyon» y «Lyonnais», «Brest»
+    y «Brestois»— o que una contenga a la otra cuando es larga —«Gladbach»
+    dentro de «Mönchengladbach»—. Por debajo de cuatro letras no se arriesga:
+    «Real» y «Rayo» comparten demasiado con demasiados.
+    """
+    if a == b:
+        return len(a) > 3
+    if a in _SOLO_EXACTA or b in _SOLO_EXACTA:
+        return False
+    corta, larga = (a, b) if len(a) < len(b) else (b, a)
+    if len(corta) < 4:
+        return False
+    return larga.startswith(corta) or (len(corta) > 4 and corta in larga)
 
 
 def perfil_ascendido(equipos: dict) -> dict:
@@ -845,6 +925,11 @@ def main() -> None:
     # Con hora, no sólo la fecha: el robot corre cada tres horas y así se
     # distingue una copia recién servida de una que lleve rato en el navegador.
     reg = mod_registro.cargar()
+    # Las claves del archivo se recalculan con el normalizador de ahora. Sin
+    # esto, cada mejora del emparejado de nombres partía el historial en dos.
+    reg, movidas = mod_registro.migrar(reg, normalizar)
+    if movidas:
+        print(f"    {movidas} fichas del registro reetiquetadas con la clave nueva")
     reg_nuevos = reg_resueltos = 0
 
     salida = {"generado": hoy.isoformat(),

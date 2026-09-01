@@ -1,5 +1,5 @@
 {
-"brasileirao|2026-08-22|cruzeiro ec|cr flamengo": {
+"brasileirao|2026-08-22|cruzeiro|flamengo": {
 "clave_l": "Cruzeiro EC",
 "clave_liga": "brasileirao",
 "clave_v": "CR Flamengo",
@@ -15,7 +15,28 @@
 "real": "L",
 "v": "CR Flamengo"
 },
-"brasileirao|2026-08-23|chapecoense af|são paulo": {
+"brasileirao|2026-08-23|bragantino|gremio fbpa": {
+"clave_l": "RB Bragantino",
+"clave_liga": "brasileirao",
+"clave_v": "Grêmio FBPA",
+"fecha": "2026-08-23",
+"gl": 1,
+"gv": 0,
+"l": "RB Bragantino",
+"liga": "Brasileirão",
+"ok_btts": false,
+"ok_marcador": false,
+"ok_o15": false,
+"ok_o25": false,
+"ok_o35": false,
+"pe": 0.3707,
+"pl": 0.5016,
+"publicado": "2026-08-22T22:08Z",
+"pv": 0.1277,
+"real": "L",
+"v": "Grêmio FBPA"
+},
+"brasileirao|2026-08-23|chapecoense af|sao paulo": {
 "clave_l": "Chapecoense AF",
 "clave_liga": "brasileirao",
 "clave_v": "São Paulo FC",
@@ -57,47 +78,26 @@
 "real": "L",
 "v": "SC Corinthians Paulista"
 },
-"brasileirao|2026-08-23|ec vitoria|ec bahia": {
-"clave_l": "EC Vitória",
+"brasileirao|2026-08-23|palmeiras|vasco da gama": {
+"clave_l": "SE Palmeiras",
 "clave_liga": "brasileirao",
-"clave_v": "EC Bahia",
+"clave_v": "CR Vasco da Gama",
 "fecha": "2026-08-23",
-"gl": 0,
-"gv": 2,
-"l": "EC Vitória",
+"gl": 4,
+"gv": 1,
+"l": "SE Palmeiras",
 "liga": "Brasileirão",
-"ok_btts": false,
+"ok_btts": true,
 "ok_marcador": false,
 "ok_o15": true,
-"ok_o25": false,
-"ok_o35": false,
-"pe": 0.4261,
-"pl": 0.3378,
+"ok_o25": true,
+"ok_o35": true,
+"pe": 0.1633,
+"pl": 0.8098,
 "publicado": "2026-08-22T22:08Z",
-"pv": 0.2361,
-"real": "V",
-"v": "EC Bahia"
-},
-"brasileirao|2026-08-23|rb bragantino|grêmio fbpa": {
-"clave_l": "RB Bragantino",
-"clave_liga": "brasileirao",
-"clave_v": "Grêmio FBPA",
-"fecha": "2026-08-23",
-"gl": 1,
-"gv": 0,
-"l": "RB Bragantino",
-"liga": "Brasileirão",
-"ok_btts": false,
-"ok_marcador": false,
-"ok_o15": false,
-"ok_o25": false,
-"ok_o35": false,
-"pe": 0.3707,
-"pl": 0.5016,
-"publicado": "2026-08-22T22:08Z",
-"pv": 0.1277,
+"pv": 0.0268,
 "real": "L",
-"v": "Grêmio FBPA"
+"v": "CR Vasco da Gama"
 },
 "brasileirao|2026-08-23|santos|mirassol": {
 "clave_l": "Santos FC",
@@ -120,28 +120,28 @@
 "real": "E",
 "v": "Mirassol FC"
 },
-"brasileirao|2026-08-23|se palmeiras|cr vasco da gama": {
-"clave_l": "SE Palmeiras",
+"brasileirao|2026-08-23|vitoria|bahia": {
+"clave_l": "EC Vitória",
 "clave_liga": "brasileirao",
-"clave_v": "CR Vasco da Gama",
+"clave_v": "EC Bahia",
 "fecha": "2026-08-23",
-"gl": 4,
-"gv": 1,
-"l": "SE Palmeiras",
+"gl": 0,
+"gv": 2,
+"l": "EC Vitória",
 "liga": "Brasileirão",
-"ok_btts": true,
+"ok_btts": false,
 "ok_marcador": false,
 "ok_o15": true,
-"ok_o25": true,
-"ok_o35": true,
-"pe": 0.1633,
-"pl": 0.8098,
+"ok_o25": false,
+"ok_o35": false,
+"pe": 0.4261,
+"pl": 0.3378,
 "publicado": "2026-08-22T22:08Z",
-"pv": 0.0268,
-"real": "L",
-"v": "CR Vasco da Gama"
+"pv": 0.2361,
+"real": "V",
+"v": "EC Bahia"
 },
-"brasileirao|2026-08-24|botafogo fr|ca paranaense": {
+"brasileirao|2026-08-24|botafogo fr|paranaense": {
 "clave_l": "Botafogo FR",
 "clave_liga": "brasileirao",
 "clave_v": "CA Paranaense",
@@ -162,41 +162,20 @@
 "real": "V",
 "v": "CA Paranaense"
 },
-"brasileirao|2026-08-29|ca mineiro|ec vitoria": {
-"clave_l": "CA Mineiro",
+"brasileirao|2026-08-29|bahia|internacional": {
+"clave_l": "EC Bahia",
 "clave_liga": "brasileirao",
-"clave_v": "EC Vitória",
+"clave_v": "SC Internacional",
 "fecha": "2026-08-29",
-"gl": 2,
-"gv": 1,
-"l": "CA Mineiro",
+"l": "EC Bahia",
 "liga": "Brasileirão",
-"ok_btts": true,
-"ok_marcador": false,
-"ok_o15": true,
-"ok_o25": true,
-"ok_o35": false,
-"pe": 0.5137,
-"pl": 0.3021,
+"pe": 0.3003,
+"pl": 0.5884,
 "publicado": "2026-08-22T22:08Z",
-"pv": 0.1842,
-"real": "L",
-"v": "EC Vitória"
+"pv": 0.1113,
+"v": "SC Internacional"
 },
-"brasileirao|2026-08-29|ca paranaense|fluminense": {
-"clave_l": "CA Paranaense",
-"clave_liga": "brasileirao",
-"clave_v": "Fluminense FC",
-"fecha": "2026-08-29",
-"l": "CA Paranaense",
-"liga": "Brasileirão",
-"pe": 0.4598,
-"pl": 0.3229,
-"publicado": "2026-08-22T22:08Z",
-"pv": 0.2173,
-"v": "Fluminense FC"
-},
-"brasileirao|2026-08-29|clube do remo|coritiba fbc": {
+"brasileirao|2026-08-29|clube remo|coritiba fbc": {
 "clave_l": "Clube do Remo",
 "clave_liga": "brasileirao",
 "clave_v": "Coritiba FBC",
@@ -222,7 +201,7 @@
 "pv": 0.1581,
 "v": "Santos FC"
 },
-"brasileirao|2026-08-29|cr flamengo|botafogo fr": {
+"brasileirao|2026-08-29|flamengo|botafogo fr": {
 "clave_l": "CR Flamengo",
 "clave_liga": "brasileirao",
 "clave_v": "Botafogo FR",
@@ -235,41 +214,7 @@
 "pv": 0.0736,
 "v": "Botafogo FR"
 },
-"brasileirao|2026-08-29|cr vasco da gama|cruzeiro ec": {
-"clave_l": "CR Vasco da Gama",
-"clave_liga": "brasileirao",
-"clave_v": "Cruzeiro EC",
-"fecha": "2026-08-29",
-"gl": 3,
-"gv": 1,
-"l": "CR Vasco da Gama",
-"liga": "Brasileirão",
-"ok_btts": true,
-"ok_marcador": false,
-"ok_o15": true,
-"ok_o25": true,
-"ok_o35": true,
-"pe": 0.4091,
-"pl": 0.2409,
-"publicado": "2026-08-22T22:08Z",
-"pv": 0.35,
-"real": "L",
-"v": "Cruzeiro EC"
-},
-"brasileirao|2026-08-29|ec bahia|internacional": {
-"clave_l": "EC Bahia",
-"clave_liga": "brasileirao",
-"clave_v": "SC Internacional",
-"fecha": "2026-08-29",
-"l": "EC Bahia",
-"liga": "Brasileirão",
-"pe": 0.3003,
-"pl": 0.5884,
-"publicado": "2026-08-22T22:08Z",
-"pv": 0.1113,
-"v": "SC Internacional"
-},
-"brasileirao|2026-08-29|grêmio fbpa|chapecoense af": {
+"brasileirao|2026-08-29|gremio fbpa|chapecoense af": {
 "clave_l": "Grêmio FBPA",
 "clave_liga": "brasileirao",
 "clave_v": "Chapecoense AF",
@@ -282,7 +227,28 @@
 "pv": 0.0554,
 "v": "Chapecoense AF"
 },
-"brasileirao|2026-08-29|mirassol|se palmeiras": {
+"brasileirao|2026-08-29|mineiro|vitoria": {
+"clave_l": "CA Mineiro",
+"clave_liga": "brasileirao",
+"clave_v": "EC Vitória",
+"fecha": "2026-08-29",
+"gl": 2,
+"gv": 1,
+"l": "CA Mineiro",
+"liga": "Brasileirão",
+"ok_btts": true,
+"ok_marcador": false,
+"ok_o15": true,
+"ok_o25": true,
+"ok_o35": false,
+"pe": 0.5137,
+"pl": 0.3021,
+"publicado": "2026-08-22T22:08Z",
+"pv": 0.1842,
+"real": "L",
+"v": "EC Vitória"
+},
+"brasileirao|2026-08-29|mirassol|palmeiras": {
 "clave_l": "Mirassol FC",
 "clave_liga": "brasileirao",
 "clave_v": "SE Palmeiras",
@@ -295,7 +261,20 @@
 "pv": 0.3866,
 "v": "SE Palmeiras"
 },
-"brasileirao|2026-08-29|são paulo|rb bragantino": {
+"brasileirao|2026-08-29|paranaense|fluminense": {
+"clave_l": "CA Paranaense",
+"clave_liga": "brasileirao",
+"clave_v": "Fluminense FC",
+"fecha": "2026-08-29",
+"l": "CA Paranaense",
+"liga": "Brasileirão",
+"pe": 0.4598,
+"pl": 0.3229,
+"publicado": "2026-08-22T22:08Z",
+"pv": 0.2173,
+"v": "Fluminense FC"
+},
+"brasileirao|2026-08-29|sao paulo|bragantino": {
 "clave_l": "São Paulo FC",
 "clave_liga": "brasileirao",
 "clave_v": "RB Bragantino",
@@ -316,26 +295,47 @@
 "real": "L",
 "v": "RB Bragantino"
 },
-"brasileirao|2026-08-30|ca paranaense|fluminense": {
-"clave_l": "CA Paranaense",
+"brasileirao|2026-08-29|vasco da gama|cruzeiro": {
+"clave_l": "CR Vasco da Gama",
 "clave_liga": "brasileirao",
-"clave_v": "Fluminense FC",
-"fecha": "2026-08-30",
+"clave_v": "Cruzeiro EC",
+"fecha": "2026-08-29",
 "gl": 3,
-"gv": 3,
-"l": "CA Paranaense",
+"gv": 1,
+"l": "CR Vasco da Gama",
 "liga": "Brasileirão",
 "ok_btts": true,
 "ok_marcador": false,
 "ok_o15": true,
 "ok_o25": true,
 "ok_o35": true,
-"pe": 0.4532,
-"pl": 0.379,
+"pe": 0.4091,
+"pl": 0.2409,
+"publicado": "2026-08-22T22:08Z",
+"pv": 0.35,
+"real": "L",
+"v": "Cruzeiro EC"
+},
+"brasileirao|2026-08-30|bahia|internacional": {
+"clave_l": "EC Bahia",
+"clave_liga": "brasileirao",
+"clave_v": "SC Internacional",
+"fecha": "2026-08-30",
+"gl": 3,
+"gv": 2,
+"l": "EC Bahia",
+"liga": "Brasileirão",
+"ok_btts": true,
+"ok_marcador": false,
+"ok_o15": true,
+"ok_o25": true,
+"ok_o35": true,
+"pe": 0.3609,
+"pl": 0.5218,
 "publicado": "2026-08-23T19:48Z",
-"pv": 0.1678,
-"real": "E",
-"v": "Fluminense FC"
+"pv": 0.1173,
+"real": "L",
+"v": "SC Internacional"
 },
 "brasileirao|2026-08-30|corinthians paulista|santos": {
 "clave_l": "SC Corinthians Paulista",
@@ -358,7 +358,7 @@
 "real": "V",
 "v": "Santos FC"
 },
-"brasileirao|2026-08-30|cr flamengo|botafogo fr": {
+"brasileirao|2026-08-30|flamengo|botafogo fr": {
 "clave_l": "CR Flamengo",
 "clave_liga": "brasileirao",
 "clave_v": "Botafogo FR",
@@ -379,28 +379,7 @@
 "real": "L",
 "v": "Botafogo FR"
 },
-"brasileirao|2026-08-30|ec bahia|internacional": {
-"clave_l": "EC Bahia",
-"clave_liga": "brasileirao",
-"clave_v": "SC Internacional",
-"fecha": "2026-08-30",
-"gl": 3,
-"gv": 2,
-"l": "EC Bahia",
-"liga": "Brasileirão",
-"ok_btts": true,
-"ok_marcador": false,
-"ok_o15": true,
-"ok_o25": true,
-"ok_o35": true,
-"pe": 0.3609,
-"pl": 0.5218,
-"publicado": "2026-08-23T19:48Z",
-"pv": 0.1173,
-"real": "L",
-"v": "SC Internacional"
-},
-"brasileirao|2026-08-30|grêmio fbpa|chapecoense af": {
+"brasileirao|2026-08-30|gremio fbpa|chapecoense af": {
 "clave_l": "Grêmio FBPA",
 "clave_liga": "brasileirao",
 "clave_v": "Chapecoense AF",
@@ -421,7 +400,7 @@
 "real": "L",
 "v": "Chapecoense AF"
 },
-"brasileirao|2026-08-30|mirassol|se palmeiras": {
+"brasileirao|2026-08-30|mirassol|palmeiras": {
 "clave_l": "Mirassol FC",
 "clave_liga": "brasileirao",
 "clave_v": "SE Palmeiras",
@@ -442,7 +421,28 @@
 "real": "E",
 "v": "SE Palmeiras"
 },
-"brasileirao|2026-08-31|clube do remo|coritiba fbc": {
+"brasileirao|2026-08-30|paranaense|fluminense": {
+"clave_l": "CA Paranaense",
+"clave_liga": "brasileirao",
+"clave_v": "Fluminense FC",
+"fecha": "2026-08-30",
+"gl": 3,
+"gv": 3,
+"l": "CA Paranaense",
+"liga": "Brasileirão",
+"ok_btts": true,
+"ok_marcador": false,
+"ok_o15": true,
+"ok_o25": true,
+"ok_o35": true,
+"pe": 0.4532,
+"pl": 0.379,
+"publicado": "2026-08-23T19:48Z",
+"pv": 0.1678,
+"real": "E",
+"v": "Fluminense FC"
+},
+"brasileirao|2026-08-31|clube remo|coritiba fbc": {
 "clave_l": "Clube do Remo",
 "clave_liga": "brasileirao",
 "clave_v": "Coritiba FBC",
@@ -463,7 +463,7 @@
 "real": "V",
 "v": "Coritiba FBC"
 },
-"brasileirao|2026-09-02|cr flamengo|mirassol": {
+"brasileirao|2026-09-02|flamengo|mirassol": {
 "btts": 0.2624,
 "clave_l": "CR Flamengo",
 "clave_liga": "brasileirao",
@@ -482,7 +482,7 @@
 "pv": 0.0413,
 "v": "Mirassol FC"
 },
-"brasileirao|2026-09-05|botafogo fr|se palmeiras": {
+"brasileirao|2026-09-05|botafogo fr|palmeiras": {
 "clave_l": "Botafogo FR",
 "clave_liga": "brasileirao",
 "clave_v": "SE Palmeiras",
@@ -495,7 +495,20 @@
 "pv": 0.3153,
 "v": "SE Palmeiras"
 },
-"brasileirao|2026-09-05|clube do remo|cr flamengo": {
+"brasileirao|2026-09-05|bragantino|bahia": {
+"clave_l": "RB Bragantino",
+"clave_liga": "brasileirao",
+"clave_v": "EC Bahia",
+"fecha": "2026-09-05",
+"l": "RB Bragantino",
+"liga": "Brasileirão",
+"pe": 0.3784,
+"pl": 0.3925,
+"publicado": "2026-08-22T22:08Z",
+"pv": 0.2291,
+"v": "EC Bahia"
+},
+"brasileirao|2026-09-05|clube remo|flamengo": {
 "clave_l": "Clube do Remo",
 "clave_liga": "brasileirao",
 "clave_v": "CR Flamengo",
@@ -534,7 +547,7 @@
 "pv": 0.1675,
 "v": "Mirassol FC"
 },
-"brasileirao|2026-09-05|cruzeiro ec|ca paranaense": {
+"brasileirao|2026-09-05|cruzeiro|paranaense": {
 "clave_l": "Cruzeiro EC",
 "clave_liga": "brasileirao",
 "clave_v": "CA Paranaense",
@@ -547,20 +560,7 @@
 "pv": 0.1325,
 "v": "CA Paranaense"
 },
-"brasileirao|2026-09-05|ec vitoria|grêmio fbpa": {
-"clave_l": "EC Vitória",
-"clave_liga": "brasileirao",
-"clave_v": "Grêmio FBPA",
-"fecha": "2026-09-05",
-"l": "EC Vitória",
-"liga": "Brasileirão",
-"pe": 0.4323,
-"pl": 0.4313,
-"publicado": "2026-08-22T22:08Z",
-"pv": 0.1364,
-"v": "Grêmio FBPA"
-},
-"brasileirao|2026-09-05|fluminense|cr vasco da gama": {
+"brasileirao|2026-09-05|fluminense|vasco da gama": {
 "clave_l": "Fluminense FC",
 "clave_liga": "brasileirao",
 "clave_v": "CR Vasco da Gama",
@@ -586,20 +586,7 @@
 "pv": 0.2081,
 "v": "Santos FC"
 },
-"brasileirao|2026-09-05|rb bragantino|ec bahia": {
-"clave_l": "RB Bragantino",
-"clave_liga": "brasileirao",
-"clave_v": "EC Bahia",
-"fecha": "2026-09-05",
-"l": "RB Bragantino",
-"liga": "Brasileirão",
-"pe": 0.3784,
-"pl": 0.3925,
-"publicado": "2026-08-22T22:08Z",
-"pv": 0.2291,
-"v": "EC Bahia"
-},
-"brasileirao|2026-09-05|são paulo|ca mineiro": {
+"brasileirao|2026-09-05|sao paulo|mineiro": {
 "clave_l": "São Paulo FC",
 "clave_liga": "brasileirao",
 "clave_v": "CA Mineiro",
@@ -612,7 +599,20 @@
 "pv": 0.1288,
 "v": "CA Mineiro"
 },
-"brasileirao|2026-09-06|botafogo fr|se palmeiras": {
+"brasileirao|2026-09-05|vitoria|gremio fbpa": {
+"clave_l": "EC Vitória",
+"clave_liga": "brasileirao",
+"clave_v": "Grêmio FBPA",
+"fecha": "2026-09-05",
+"l": "EC Vitória",
+"liga": "Brasileirão",
+"pe": 0.4323,
+"pl": 0.4313,
+"publicado": "2026-08-22T22:08Z",
+"pv": 0.1364,
+"v": "Grêmio FBPA"
+},
+"brasileirao|2026-09-06|botafogo fr|palmeiras": {
 "clave_l": "Botafogo FR",
 "clave_liga": "brasileirao",
 "clave_v": "SE Palmeiras",
@@ -625,7 +625,7 @@
 "pv": 0.3285,
 "v": "SE Palmeiras"
 },
-"brasileirao|2026-09-06|clube do remo|cr flamengo": {
+"brasileirao|2026-09-06|clube remo|flamengo": {
 "clave_l": "Clube do Remo",
 "clave_liga": "brasileirao",
 "clave_v": "CR Flamengo",
@@ -664,7 +664,7 @@
 "pv": 0.206,
 "v": "Mirassol FC"
 },
-"brasileirao|2026-09-06|cruzeiro ec|ca paranaense": {
+"brasileirao|2026-09-06|cruzeiro|paranaense": {
 "clave_l": "Cruzeiro EC",
 "clave_liga": "brasileirao",
 "clave_v": "CA Paranaense",
@@ -690,7 +690,7 @@
 "pv": 0.2199,
 "v": "Santos FC"
 },
-"brasileirao|2026-09-07|ec vitoria|grêmio fbpa": {
+"brasileirao|2026-09-07|vitoria|gremio fbpa": {
 "clave_l": "EC Vitória",
 "clave_liga": "brasileirao",
 "clave_v": "Grêmio FBPA",
@@ -703,7 +703,20 @@
 "pv": 0.1452,
 "v": "Grêmio FBPA"
 },
-"brasileirao|2026-09-12|botafogo fr|rb bragantino": {
+"brasileirao|2026-09-12|bahia|clube remo": {
+"clave_l": "EC Bahia",
+"clave_liga": "brasileirao",
+"clave_v": "Clube do Remo",
+"fecha": "2026-09-12",
+"l": "EC Bahia",
+"liga": "Brasileirão",
+"pe": 0.1918,
+"pl": 0.7626,
+"publicado": "2026-08-22T22:08Z",
+"pv": 0.0456,
+"v": "Clube do Remo"
+},
+"brasileirao|2026-09-12|botafogo fr|bragantino": {
 "clave_l": "Botafogo FR",
 "clave_liga": "brasileirao",
 "clave_v": "RB Bragantino",
@@ -715,19 +728,6 @@
 "publicado": "2026-08-22T22:08Z",
 "pv": 0.1526,
 "v": "RB Bragantino"
-},
-"brasileirao|2026-09-12|ca mineiro|fluminense": {
-"clave_l": "CA Mineiro",
-"clave_liga": "brasileirao",
-"clave_v": "Fluminense FC",
-"fecha": "2026-09-12",
-"l": "CA Mineiro",
-"liga": "Brasileirão",
-"pe": 0.4912,
-"pl": 0.2577,
-"publicado": "2026-08-22T22:08Z",
-"pv": 0.2511,
-"v": "Fluminense FC"
 },
 "brasileirao|2026-09-12|chapecoense af|internacional": {
 "clave_l": "Chapecoense AF",
@@ -742,7 +742,7 @@
 "pv": 0.4519,
 "v": "SC Internacional"
 },
-"brasileirao|2026-09-12|coritiba fbc|ca paranaense": {
+"brasileirao|2026-09-12|coritiba fbc|paranaense": {
 "clave_l": "Coritiba FBC",
 "clave_liga": "brasileirao",
 "clave_v": "CA Paranaense",
@@ -755,7 +755,7 @@
 "pv": 0.1776,
 "v": "CA Paranaense"
 },
-"brasileirao|2026-09-12|cr flamengo|corinthians paulista": {
+"brasileirao|2026-09-12|flamengo|corinthians paulista": {
 "clave_l": "CR Flamengo",
 "clave_liga": "brasileirao",
 "clave_v": "SC Corinthians Paulista",
@@ -768,20 +768,7 @@
 "pv": 0.066,
 "v": "SC Corinthians Paulista"
 },
-"brasileirao|2026-09-12|ec bahia|clube do remo": {
-"clave_l": "EC Bahia",
-"clave_liga": "brasileirao",
-"clave_v": "Clube do Remo",
-"fecha": "2026-09-12",
-"l": "EC Bahia",
-"liga": "Brasileirão",
-"pe": 0.1918,
-"pl": 0.7626,
-"publicado": "2026-08-22T22:08Z",
-"pv": 0.0456,
-"v": "Clube do Remo"
-},
-"brasileirao|2026-09-12|grêmio fbpa|cr vasco da gama": {
+"brasileirao|2026-09-12|gremio fbpa|vasco da gama": {
 "clave_l": "Grêmio FBPA",
 "clave_liga": "brasileirao",
 "clave_v": "CR Vasco da Gama",
@@ -794,7 +781,20 @@
 "pv": 0.1334,
 "v": "CR Vasco da Gama"
 },
-"brasileirao|2026-09-12|mirassol|ec vitoria": {
+"brasileirao|2026-09-12|mineiro|fluminense": {
+"clave_l": "CA Mineiro",
+"clave_liga": "brasileirao",
+"clave_v": "Fluminense FC",
+"fecha": "2026-09-12",
+"l": "CA Mineiro",
+"liga": "Brasileirão",
+"pe": 0.4912,
+"pl": 0.2577,
+"publicado": "2026-08-22T22:08Z",
+"pv": 0.2511,
+"v": "Fluminense FC"
+},
+"brasileirao|2026-09-12|mirassol|vitoria": {
 "clave_l": "Mirassol FC",
 "clave_liga": "brasileirao",
 "clave_v": "EC Vitória",
@@ -807,20 +807,7 @@
 "pv": 0.1832,
 "v": "EC Vitória"
 },
-"brasileirao|2026-09-12|santos|cruzeiro ec": {
-"clave_l": "Santos FC",
-"clave_liga": "brasileirao",
-"clave_v": "Cruzeiro EC",
-"fecha": "2026-09-12",
-"l": "Santos FC",
-"liga": "Brasileirão",
-"pe": 0.4128,
-"pl": 0.3588,
-"publicado": "2026-08-22T22:08Z",
-"pv": 0.2284,
-"v": "Cruzeiro EC"
-},
-"brasileirao|2026-09-12|se palmeiras|são paulo": {
+"brasileirao|2026-09-12|palmeiras|sao paulo": {
 "clave_l": "SE Palmeiras",
 "clave_liga": "brasileirao",
 "clave_v": "São Paulo FC",
@@ -833,33 +820,20 @@
 "pv": 0.0673,
 "v": "São Paulo FC"
 },
-"brasileirao|2026-09-19|ca mineiro|chapecoense af": {
-"clave_l": "CA Mineiro",
+"brasileirao|2026-09-12|santos|cruzeiro": {
+"clave_l": "Santos FC",
 "clave_liga": "brasileirao",
-"clave_v": "Chapecoense AF",
-"fecha": "2026-09-19",
-"l": "CA Mineiro",
+"clave_v": "Cruzeiro EC",
+"fecha": "2026-09-12",
+"l": "Santos FC",
 "liga": "Brasileirão",
-"pe": 0.2647,
-"pl": 0.6765,
+"pe": 0.4128,
+"pl": 0.3588,
 "publicado": "2026-08-22T22:08Z",
-"pv": 0.0588,
-"v": "Chapecoense AF"
+"pv": 0.2284,
+"v": "Cruzeiro EC"
 },
-"brasileirao|2026-09-19|ca paranaense|ec bahia": {
-"clave_l": "CA Paranaense",
-"clave_liga": "brasileirao",
-"clave_v": "EC Bahia",
-"fecha": "2026-09-19",
-"l": "CA Paranaense",
-"liga": "Brasileirão",
-"pe": 0.4104,
-"pl": 0.3571,
-"publicado": "2026-08-22T22:08Z",
-"pv": 0.2325,
-"v": "EC Bahia"
-},
-"brasileirao|2026-09-19|clube do remo|santos": {
+"brasileirao|2026-09-19|clube remo|santos": {
 "clave_l": "Clube do Remo",
 "clave_liga": "brasileirao",
 "clave_v": "Santos FC",
@@ -885,7 +859,7 @@
 "pv": 0.1995,
 "v": "Fluminense FC"
 },
-"brasileirao|2026-09-19|cr flamengo|rb bragantino": {
+"brasileirao|2026-09-19|flamengo|bragantino": {
 "clave_l": "CR Flamengo",
 "clave_liga": "brasileirao",
 "clave_v": "RB Bragantino",
@@ -898,33 +872,7 @@
 "pv": 0.0607,
 "v": "RB Bragantino"
 },
-"brasileirao|2026-09-19|cr vasco da gama|coritiba fbc": {
-"clave_l": "CR Vasco da Gama",
-"clave_liga": "brasileirao",
-"clave_v": "Coritiba FBC",
-"fecha": "2026-09-19",
-"l": "CR Vasco da Gama",
-"liga": "Brasileirão",
-"pe": 0.3913,
-"pl": 0.316,
-"publicado": "2026-08-22T22:08Z",
-"pv": 0.2927,
-"v": "Coritiba FBC"
-},
-"brasileirao|2026-09-19|ec vitoria|cruzeiro ec": {
-"clave_l": "EC Vitória",
-"clave_liga": "brasileirao",
-"clave_v": "Cruzeiro EC",
-"fecha": "2026-09-19",
-"l": "EC Vitória",
-"liga": "Brasileirão",
-"pe": 0.4866,
-"pl": 0.3059,
-"publicado": "2026-08-22T22:08Z",
-"pv": 0.2076,
-"v": "Cruzeiro EC"
-},
-"brasileirao|2026-09-19|grêmio fbpa|se palmeiras": {
+"brasileirao|2026-09-19|gremio fbpa|palmeiras": {
 "clave_l": "Grêmio FBPA",
 "clave_liga": "brasileirao",
 "clave_v": "SE Palmeiras",
@@ -936,6 +884,19 @@
 "publicado": "2026-08-22T22:08Z",
 "pv": 0.4023,
 "v": "SE Palmeiras"
+},
+"brasileirao|2026-09-19|mineiro|chapecoense af": {
+"clave_l": "CA Mineiro",
+"clave_liga": "brasileirao",
+"clave_v": "Chapecoense AF",
+"fecha": "2026-09-19",
+"l": "CA Mineiro",
+"liga": "Brasileirão",
+"pe": 0.2647,
+"pl": 0.6765,
+"publicado": "2026-08-22T22:08Z",
+"pv": 0.0588,
+"v": "Chapecoense AF"
 },
 "brasileirao|2026-09-19|mirassol|botafogo fr": {
 "clave_l": "Mirassol FC",
@@ -950,7 +911,20 @@
 "pv": 0.2552,
 "v": "Botafogo FR"
 },
-"brasileirao|2026-09-19|são paulo|internacional": {
+"brasileirao|2026-09-19|paranaense|bahia": {
+"clave_l": "CA Paranaense",
+"clave_liga": "brasileirao",
+"clave_v": "EC Bahia",
+"fecha": "2026-09-19",
+"l": "CA Paranaense",
+"liga": "Brasileirão",
+"pe": 0.4104,
+"pl": 0.3571,
+"publicado": "2026-08-22T22:08Z",
+"pv": 0.2325,
+"v": "EC Bahia"
+},
+"brasileirao|2026-09-19|sao paulo|internacional": {
 "clave_l": "São Paulo FC",
 "clave_liga": "brasileirao",
 "clave_v": "SC Internacional",
@@ -963,7 +937,33 @@
 "pv": 0.1503,
 "v": "SC Internacional"
 },
-"brasileirao|2026-10-07|botafogo fr|cr vasco da gama": {
+"brasileirao|2026-09-19|vasco da gama|coritiba fbc": {
+"clave_l": "CR Vasco da Gama",
+"clave_liga": "brasileirao",
+"clave_v": "Coritiba FBC",
+"fecha": "2026-09-19",
+"l": "CR Vasco da Gama",
+"liga": "Brasileirão",
+"pe": 0.3913,
+"pl": 0.316,
+"publicado": "2026-08-22T22:08Z",
+"pv": 0.2927,
+"v": "Coritiba FBC"
+},
+"brasileirao|2026-09-19|vitoria|cruzeiro": {
+"clave_l": "EC Vitória",
+"clave_liga": "brasileirao",
+"clave_v": "Cruzeiro EC",
+"fecha": "2026-09-19",
+"l": "EC Vitória",
+"liga": "Brasileirão",
+"pe": 0.4866,
+"pl": 0.3059,
+"publicado": "2026-08-22T22:08Z",
+"pv": 0.2076,
+"v": "Cruzeiro EC"
+},
+"brasileirao|2026-10-07|botafogo fr|vasco da gama": {
 "clave_l": "Botafogo FR",
 "clave_liga": "brasileirao",
 "clave_v": "CR Vasco da Gama",
@@ -976,20 +976,20 @@
 "pv": 0.0679,
 "v": "CR Vasco da Gama"
 },
-"brasileirao|2026-10-07|ca paranaense|ca mineiro": {
-"clave_l": "CA Paranaense",
+"brasileirao|2026-10-07|bragantino|mirassol": {
+"clave_l": "RB Bragantino",
 "clave_liga": "brasileirao",
-"clave_v": "CA Mineiro",
+"clave_v": "Mirassol FC",
 "fecha": "2026-10-07",
-"l": "CA Paranaense",
+"l": "RB Bragantino",
 "liga": "Brasileirão",
-"pe": 0.4618,
-"pl": 0.4099,
+"pe": 0.3613,
+"pl": 0.4863,
 "publicado": "2026-08-22T22:08Z",
-"pv": 0.1283,
-"v": "CA Mineiro"
+"pv": 0.1524,
+"v": "Mirassol FC"
 },
-"brasileirao|2026-10-07|clube do remo|grêmio fbpa": {
+"brasileirao|2026-10-07|clube remo|gremio fbpa": {
 "clave_l": "Clube do Remo",
 "clave_liga": "brasileirao",
 "clave_v": "Grêmio FBPA",
@@ -1002,7 +1002,7 @@
 "pv": 0.2767,
 "v": "Grêmio FBPA"
 },
-"brasileirao|2026-10-07|cruzeiro ec|são paulo": {
+"brasileirao|2026-10-07|cruzeiro|sao paulo": {
 "clave_l": "Cruzeiro EC",
 "clave_liga": "brasileirao",
 "clave_v": "São Paulo FC",
@@ -1014,19 +1014,6 @@
 "publicado": "2026-08-22T22:08Z",
 "pv": 0.1337,
 "v": "São Paulo FC"
-},
-"brasileirao|2026-10-07|ec vitoria|chapecoense af": {
-"clave_l": "EC Vitória",
-"clave_liga": "brasileirao",
-"clave_v": "Chapecoense AF",
-"fecha": "2026-10-07",
-"l": "EC Vitória",
-"liga": "Brasileirão",
-"pe": 0.2154,
-"pl": 0.7421,
-"publicado": "2026-08-22T22:08Z",
-"pv": 0.0425,
-"v": "Chapecoense AF"
 },
 "brasileirao|2026-10-07|fluminense|coritiba fbc": {
 "clave_l": "Fluminense FC",
@@ -1054,33 +1041,7 @@
 "pv": 0.2133,
 "v": "SC Corinthians Paulista"
 },
-"brasileirao|2026-10-07|rb bragantino|mirassol": {
-"clave_l": "RB Bragantino",
-"clave_liga": "brasileirao",
-"clave_v": "Mirassol FC",
-"fecha": "2026-10-07",
-"l": "RB Bragantino",
-"liga": "Brasileirão",
-"pe": 0.3613,
-"pl": 0.4863,
-"publicado": "2026-08-22T22:08Z",
-"pv": 0.1524,
-"v": "Mirassol FC"
-},
-"brasileirao|2026-10-07|santos|cr flamengo": {
-"clave_l": "Santos FC",
-"clave_liga": "brasileirao",
-"clave_v": "CR Flamengo",
-"fecha": "2026-10-07",
-"l": "Santos FC",
-"liga": "Brasileirão",
-"pe": 0.381,
-"pl": 0.2034,
-"publicado": "2026-08-22T22:08Z",
-"pv": 0.4156,
-"v": "CR Flamengo"
-},
-"brasileirao|2026-10-07|se palmeiras|ec bahia": {
+"brasileirao|2026-10-07|palmeiras|bahia": {
 "clave_l": "SE Palmeiras",
 "clave_liga": "brasileirao",
 "clave_v": "EC Bahia",
@@ -1093,20 +1054,72 @@
 "pv": 0.0924,
 "v": "EC Bahia"
 },
-"brasileirao|2026-10-10|ca mineiro|santos": {
-"clave_l": "CA Mineiro",
+"brasileirao|2026-10-07|paranaense|mineiro": {
+"clave_l": "CA Paranaense",
 "clave_liga": "brasileirao",
-"clave_v": "Santos FC",
-"fecha": "2026-10-10",
-"l": "CA Mineiro",
+"clave_v": "CA Mineiro",
+"fecha": "2026-10-07",
+"l": "CA Paranaense",
 "liga": "Brasileirão",
-"pe": 0.4282,
-"pl": 0.3822,
-"publicado": "2026-08-23T19:48Z",
-"pv": 0.1896,
-"v": "Santos FC"
+"pe": 0.4618,
+"pl": 0.4099,
+"publicado": "2026-08-22T22:08Z",
+"pv": 0.1283,
+"v": "CA Mineiro"
 },
-"brasileirao|2026-10-10|chapecoense af|ca paranaense": {
+"brasileirao|2026-10-07|santos|flamengo": {
+"clave_l": "Santos FC",
+"clave_liga": "brasileirao",
+"clave_v": "CR Flamengo",
+"fecha": "2026-10-07",
+"l": "Santos FC",
+"liga": "Brasileirão",
+"pe": 0.381,
+"pl": 0.2034,
+"publicado": "2026-08-22T22:08Z",
+"pv": 0.4156,
+"v": "CR Flamengo"
+},
+"brasileirao|2026-10-07|vitoria|chapecoense af": {
+"clave_l": "EC Vitória",
+"clave_liga": "brasileirao",
+"clave_v": "Chapecoense AF",
+"fecha": "2026-10-07",
+"l": "EC Vitória",
+"liga": "Brasileirão",
+"pe": 0.2154,
+"pl": 0.7421,
+"publicado": "2026-08-22T22:08Z",
+"pv": 0.0425,
+"v": "Chapecoense AF"
+},
+"brasileirao|2026-10-10|bahia|mirassol": {
+"clave_l": "EC Bahia",
+"clave_liga": "brasileirao",
+"clave_v": "Mirassol FC",
+"fecha": "2026-10-10",
+"l": "EC Bahia",
+"liga": "Brasileirão",
+"pe": 0.3015,
+"pl": 0.5727,
+"publicado": "2026-08-23T19:48Z",
+"pv": 0.1258,
+"v": "Mirassol FC"
+},
+"brasileirao|2026-10-10|bragantino|cruzeiro": {
+"clave_l": "RB Bragantino",
+"clave_liga": "brasileirao",
+"clave_v": "Cruzeiro EC",
+"fecha": "2026-10-10",
+"l": "RB Bragantino",
+"liga": "Brasileirão",
+"pe": 0.4411,
+"pl": 0.3118,
+"publicado": "2026-08-23T19:48Z",
+"pv": 0.2471,
+"v": "Cruzeiro EC"
+},
+"brasileirao|2026-10-10|chapecoense af|paranaense": {
 "btts": 0.2484,
 "clave_l": "Chapecoense AF",
 "clave_liga": "brasileirao",
@@ -1144,7 +1157,7 @@
 "pv": 0.2665,
 "v": "Botafogo FR"
 },
-"brasileirao|2026-10-10|cr flamengo|fluminense": {
+"brasileirao|2026-10-10|flamengo|fluminense": {
 "btts": 0.2208,
 "clave_l": "CR Flamengo",
 "clave_liga": "brasileirao",
@@ -1163,39 +1176,7 @@
 "pv": 0.0815,
 "v": "Fluminense FC"
 },
-"brasileirao|2026-10-10|cr vasco da gama|clube do remo": {
-"btts": 0.3165,
-"clave_l": "CR Vasco da Gama",
-"clave_liga": "brasileirao",
-"clave_v": "Clube do Remo",
-"fecha": "2026-10-10",
-"l": "CR Vasco da Gama",
-"liga": "Brasileirão",
-"marcador": "0-0",
-"o15": 0.506,
-"o25": 0.2307,
-"o35": 0.0865,
-"p_marcador": 0.2049,
-"pe": 0.3652,
-"pl": 0.4168,
-"publicado": "2026-08-25T12:37Z",
-"pv": 0.218,
-"v": "Clube do Remo"
-},
-"brasileirao|2026-10-10|ec bahia|mirassol": {
-"clave_l": "EC Bahia",
-"clave_liga": "brasileirao",
-"clave_v": "Mirassol FC",
-"fecha": "2026-10-10",
-"l": "EC Bahia",
-"liga": "Brasileirão",
-"pe": 0.3015,
-"pl": 0.5727,
-"publicado": "2026-08-23T19:48Z",
-"pv": 0.1258,
-"v": "Mirassol FC"
-},
-"brasileirao|2026-10-10|grêmio fbpa|internacional": {
+"brasileirao|2026-10-10|gremio fbpa|internacional": {
 "btts": 0.2208,
 "clave_l": "Grêmio FBPA",
 "clave_liga": "brasileirao",
@@ -1214,20 +1195,20 @@
 "pv": 0.208,
 "v": "SC Internacional"
 },
-"brasileirao|2026-10-10|rb bragantino|cruzeiro ec": {
-"clave_l": "RB Bragantino",
+"brasileirao|2026-10-10|mineiro|santos": {
+"clave_l": "CA Mineiro",
 "clave_liga": "brasileirao",
-"clave_v": "Cruzeiro EC",
+"clave_v": "Santos FC",
 "fecha": "2026-10-10",
-"l": "RB Bragantino",
+"l": "CA Mineiro",
 "liga": "Brasileirão",
-"pe": 0.4411,
-"pl": 0.3118,
+"pe": 0.4282,
+"pl": 0.3822,
 "publicado": "2026-08-23T19:48Z",
-"pv": 0.2471,
-"v": "Cruzeiro EC"
+"pv": 0.1896,
+"v": "Santos FC"
 },
-"brasileirao|2026-10-10|se palmeiras|corinthians paulista": {
+"brasileirao|2026-10-10|palmeiras|corinthians paulista": {
 "btts": 0.1549,
 "clave_l": "SE Palmeiras",
 "clave_liga": "brasileirao",
@@ -1246,7 +1227,7 @@
 "pv": 0.0955,
 "v": "SC Corinthians Paulista"
 },
-"brasileirao|2026-10-10|são paulo|ec vitoria": {
+"brasileirao|2026-10-10|sao paulo|vitoria": {
 "btts": 0.1422,
 "clave_l": "São Paulo FC",
 "clave_liga": "brasileirao",
@@ -1264,6 +1245,44 @@
 "publicado": "2026-08-24T13:24Z",
 "pv": 0.1525,
 "v": "EC Vitória"
+},
+"brasileirao|2026-10-10|vasco da gama|clube remo": {
+"btts": 0.3165,
+"clave_l": "CR Vasco da Gama",
+"clave_liga": "brasileirao",
+"clave_v": "Clube do Remo",
+"fecha": "2026-10-10",
+"l": "CR Vasco da Gama",
+"liga": "Brasileirão",
+"marcador": "0-0",
+"o15": 0.506,
+"o25": 0.2307,
+"o35": 0.0865,
+"p_marcador": 0.2049,
+"pe": 0.3652,
+"pl": 0.4168,
+"publicado": "2026-08-25T12:37Z",
+"pv": 0.218,
+"v": "Clube do Remo"
+},
+"brasileirao|2026-10-17|bahia|flamengo": {
+"btts": 0.2716,
+"clave_l": "EC Bahia",
+"clave_liga": "brasileirao",
+"clave_v": "CR Flamengo",
+"fecha": "2026-10-17",
+"l": "Bahía",
+"liga": "Brasileirão",
+"marcador": "0-0",
+"o15": 0.4319,
+"o25": 0.1739,
+"o35": 0.0572,
+"p_marcador": 0.2524,
+"pe": 0.4029,
+"pl": 0.2548,
+"publicado": "2026-08-31T05:49Z",
+"pv": 0.3423,
+"v": "Flamengo"
 },
 "brasileirao|2026-10-17|botafogo fr|chapecoense af": {
 "btts": 0.2688,
@@ -1284,45 +1303,7 @@
 "pv": 0.0398,
 "v": "Chapecoense"
 },
-"brasileirao|2026-10-17|ca mineiro|coritiba fbc": {
-"btts": 0.1685,
-"clave_l": "CA Mineiro",
-"clave_liga": "brasileirao",
-"clave_v": "Coritiba FBC",
-"fecha": "2026-10-17",
-"l": "Atlético Mineiro",
-"liga": "Brasileirão",
-"marcador": "0-0",
-"o15": 0.3039,
-"o25": 0.0958,
-"o35": 0.0244,
-"p_marcador": 0.349,
-"pe": 0.455,
-"pl": 0.3795,
-"publicado": "2026-08-30T00:29Z",
-"pv": 0.1655,
-"v": "Coritiba"
-},
-"brasileirao|2026-10-17|ca paranaense|se palmeiras": {
-"btts": 0.1919,
-"clave_l": "CA Paranaense",
-"clave_liga": "brasileirao",
-"clave_v": "SE Palmeiras",
-"fecha": "2026-10-17",
-"l": "Athletico Paranaense",
-"liga": "Brasileirão",
-"marcador": "0-0",
-"o15": 0.3148,
-"o25": 0.1011,
-"o35": 0.0263,
-"p_marcador": 0.3414,
-"pe": 0.4618,
-"pl": 0.2678,
-"publicado": "2026-08-30T00:29Z",
-"pv": 0.2704,
-"v": "Palmeiras"
-},
-"brasileirao|2026-10-17|clube do remo|rb bragantino": {
+"brasileirao|2026-10-17|clube remo|bragantino": {
 "btts": 0.2809,
 "clave_l": "Clube do Remo",
 "clave_liga": "brasileirao",
@@ -1341,7 +1322,7 @@
 "pv": 0.3223,
 "v": "Bragantino"
 },
-"brasileirao|2026-10-17|corinthians paulista|ec vitoria": {
+"brasileirao|2026-10-17|corinthians paulista|vitoria": {
 "btts": 0.1049,
 "clave_l": "SC Corinthians Paulista",
 "clave_liga": "brasileirao",
@@ -1359,25 +1340,6 @@
 "publicado": "2026-08-31T05:49Z",
 "pv": 0.107,
 "v": "Vitória"
-},
-"brasileirao|2026-10-17|ec bahia|cr flamengo": {
-"btts": 0.2716,
-"clave_l": "EC Bahia",
-"clave_liga": "brasileirao",
-"clave_v": "CR Flamengo",
-"fecha": "2026-10-17",
-"l": "Bahía",
-"liga": "Brasileirão",
-"marcador": "0-0",
-"o15": 0.4319,
-"o25": 0.1739,
-"o35": 0.0572,
-"p_marcador": 0.2524,
-"pe": 0.4029,
-"pl": 0.2548,
-"publicado": "2026-08-31T05:49Z",
-"pv": 0.3423,
-"v": "Flamengo"
 },
 "brasileirao|2026-10-17|fluminense|santos": {
 "btts": 0.2627,
@@ -1398,7 +1360,7 @@
 "pv": 0.1367,
 "v": "Santos"
 },
-"brasileirao|2026-10-17|grêmio fbpa|cruzeiro ec": {
+"brasileirao|2026-10-17|gremio fbpa|cruzeiro": {
 "btts": 0.2199,
 "clave_l": "Grêmio FBPA",
 "clave_liga": "brasileirao",
@@ -1416,6 +1378,25 @@
 "publicado": "2026-08-31T05:49Z",
 "pv": 0.3269,
 "v": "Cruzeiro"
+},
+"brasileirao|2026-10-17|mineiro|coritiba fbc": {
+"btts": 0.1685,
+"clave_l": "CA Mineiro",
+"clave_liga": "brasileirao",
+"clave_v": "Coritiba FBC",
+"fecha": "2026-10-17",
+"l": "Atlético Mineiro",
+"liga": "Brasileirão",
+"marcador": "0-0",
+"o15": 0.3039,
+"o25": 0.0958,
+"o35": 0.0244,
+"p_marcador": 0.349,
+"pe": 0.455,
+"pl": 0.3795,
+"publicado": "2026-08-30T00:29Z",
+"pv": 0.1655,
+"v": "Coritiba"
 },
 "brasileirao|2026-10-17|mirassol|internacional": {
 "btts": 0.2814,
@@ -1436,7 +1417,26 @@
 "pv": 0.1799,
 "v": "Internacional"
 },
-"bundesliga|2026-08-28|bayern munich|vfb stuttgart": {
+"brasileirao|2026-10-17|paranaense|palmeiras": {
+"btts": 0.1919,
+"clave_l": "CA Paranaense",
+"clave_liga": "brasileirao",
+"clave_v": "SE Palmeiras",
+"fecha": "2026-10-17",
+"l": "Athletico Paranaense",
+"liga": "Brasileirão",
+"marcador": "0-0",
+"o15": 0.3148,
+"o25": 0.1011,
+"o35": 0.0263,
+"p_marcador": 0.3414,
+"pe": 0.4618,
+"pl": 0.2678,
+"publicado": "2026-08-30T00:29Z",
+"pv": 0.2704,
+"v": "Palmeiras"
+},
+"bundesliga|2026-08-28|bayern munich|stuttgart": {
 "clave_l": "Bayern Munich",
 "clave_liga": "bundesliga",
 "clave_v": "VfB Stuttgart",
@@ -1456,25 +1456,6 @@
 "pv": 0.1204,
 "real": "L",
 "v": "Stuttgart"
-},
-"bundesliga|2026-08-29|07 elversberg|bayer leverkusen": {
-"btts": 0.563,
-"clave_l": "SV 07 Elversberg",
-"clave_liga": "bundesliga",
-"clave_v": "Bayer Leverkusen",
-"fecha": "2026-08-29",
-"l": "SV 07 Elversberg",
-"liga": "Bundesliga",
-"marcador": "1-1",
-"o15": 0.795,
-"o25": 0.5507,
-"o35": 0.3271,
-"p_marcador": 0.1205,
-"pe": 0.2541,
-"pl": 0.2122,
-"publicado": "2026-08-24T13:20Z",
-"pv": 0.5337,
-"v": "Leverkusen"
 },
 "bundesliga|2026-08-29|borussia dortmund|hamburger": {
 "clave_l": "Borussia Dortmund",
@@ -1539,13 +1520,13 @@
 "real": "L",
 "v": "Leverkusen"
 },
-"bundesliga|2026-08-29|fsv mainz 05|paderborn 07": {
+"bundesliga|2026-08-29|leipzig|borussia gladbach": {
 "btts": 0.5304,
-"clave_l": "1. FSV Mainz 05",
+"clave_l": "RB Leipzig",
 "clave_liga": "bundesliga",
-"clave_v": "SC Paderborn 07",
+"clave_v": "Borussia Mönchengladbach",
 "fecha": "2026-08-29",
-"l": "1. FSV Mainz 05",
+"l": "RB Leipzig",
 "liga": "Bundesliga",
 "marcador": "1-1",
 "o15": 0.7449,
@@ -1556,28 +1537,9 @@
 "pl": 0.4514,
 "publicado": "2026-08-24T13:20Z",
 "pv": 0.264,
-"v": "SC Paderborn 07"
+"v": "Borussia Mönchengladbach"
 },
-"bundesliga|2026-08-29|köln|tsg hoffenheim": {
-"btts": 0.5304,
-"clave_l": "1. FC Köln",
-"clave_liga": "bundesliga",
-"clave_v": "TSG 1899 Hoffenheim",
-"fecha": "2026-08-29",
-"l": "1. FC Köln",
-"liga": "Bundesliga",
-"marcador": "1-1",
-"o15": 0.7449,
-"o25": 0.4801,
-"o35": 0.2628,
-"p_marcador": 0.136,
-"pe": 0.2847,
-"pl": 0.4514,
-"publicado": "2026-08-24T13:20Z",
-"pv": 0.264,
-"v": "TSG 1899 Hoffenheim"
-},
-"bundesliga|2026-08-29|mainz 05|paderborn 07": {
+"bundesliga|2026-08-29|mainz|paderborn": {
 "clave_l": "Mainz 05",
 "clave_liga": "bundesliga",
 "clave_v": "Paderborn 07",
@@ -1619,25 +1581,6 @@
 "real": "L",
 "v": "M'gladbach"
 },
-"bundesliga|2026-08-29|rb leipzig|borussia mönchengladbach": {
-"btts": 0.5304,
-"clave_l": "RB Leipzig",
-"clave_liga": "bundesliga",
-"clave_v": "Borussia Mönchengladbach",
-"fecha": "2026-08-29",
-"l": "RB Leipzig",
-"liga": "Bundesliga",
-"marcador": "1-1",
-"o15": 0.7449,
-"o25": 0.4801,
-"o35": 0.2628,
-"p_marcador": 0.136,
-"pe": 0.2847,
-"pl": 0.4514,
-"publicado": "2026-08-24T13:20Z",
-"pv": 0.264,
-"v": "Borussia Mönchengladbach"
-},
 "bundesliga|2026-08-29|union berlin|eintracht frankfurt": {
 "clave_l": "Union Berlin",
 "clave_liga": "bundesliga",
@@ -1659,7 +1602,7 @@
 "real": "E",
 "v": "Frankfurt"
 },
-"bundesliga|2026-08-30|augsburg|schalke 04": {
+"bundesliga|2026-08-30|augsburg|schalke": {
 "clave_l": "Augsburg",
 "clave_liga": "bundesliga",
 "clave_v": "Schalke 04",
@@ -1701,7 +1644,7 @@
 "real": "L",
 "v": "Werder Bremen"
 },
-"bundesliga|2026-09-04|vfb stuttgart|cologne": {
+"bundesliga|2026-09-04|stuttgart|cologne": {
 "clave_l": "VfB Stuttgart",
 "clave_liga": "bundesliga",
 "clave_v": "FC Cologne",
@@ -1713,25 +1656,6 @@
 "publicado": "2026-08-22T22:04Z",
 "pv": 0.1302,
 "v": "Colonia"
-},
-"bundesliga|2026-09-04|vfb stuttgart|köln": {
-"btts": 0.5243,
-"clave_l": "VfB Stuttgart",
-"clave_liga": "bundesliga",
-"clave_v": "1. FC Köln",
-"fecha": "2026-09-04",
-"l": "Stuttgart",
-"liga": "Bundesliga",
-"marcador": "2-0",
-"o15": 0.8519,
-"o25": 0.6444,
-"o35": 0.4237,
-"p_marcador": 0.1124,
-"pe": 0.1755,
-"pl": 0.7291,
-"publicado": "2026-08-24T13:20Z",
-"pv": 0.0954,
-"v": "1. FC Köln"
 },
 "bundesliga|2026-09-05|bayer leverkusen|union berlin": {
 "clave_l": "Bayer Leverkusen",
@@ -1759,25 +1683,6 @@
 "pv": 0.2103,
 "v": "Elversberg"
 },
-"bundesliga|2026-09-05|borussia mönchengladbach|07 elversberg": {
-"btts": 0.5304,
-"clave_l": "Borussia Mönchengladbach",
-"clave_liga": "bundesliga",
-"clave_v": "SV 07 Elversberg",
-"fecha": "2026-09-05",
-"l": "Borussia Mönchengladbach",
-"liga": "Bundesliga",
-"marcador": "1-1",
-"o15": 0.7449,
-"o25": 0.4801,
-"o35": 0.2628,
-"p_marcador": 0.136,
-"pe": 0.2847,
-"pl": 0.4514,
-"publicado": "2026-08-24T13:20Z",
-"pv": 0.264,
-"v": "SV 07 Elversberg"
-},
 "bundesliga|2026-09-05|hoffenheim|borussia dortmund": {
 "clave_l": "Hoffenheim",
 "clave_liga": "bundesliga",
@@ -1791,7 +1696,7 @@
 "pv": 0.4,
 "v": "Dortmund"
 },
-"bundesliga|2026-09-05|paderborn 07|freiburg": {
+"bundesliga|2026-09-05|paderborn|freiburg": {
 "clave_l": "Paderborn 07",
 "clave_liga": "bundesliga",
 "clave_v": "Freiburg",
@@ -1804,7 +1709,7 @@
 "pv": 0.3533,
 "v": "Freiburg"
 },
-"bundesliga|2026-09-05|schalke 04|bayern munich": {
+"bundesliga|2026-09-05|schalke|bayern munich": {
 "clave_l": "Schalke 04",
 "clave_liga": "bundesliga",
 "clave_v": "Bayern Munich",
@@ -1817,39 +1722,7 @@
 "pv": 0.7369,
 "v": "Bayern Munich"
 },
-"bundesliga|2026-09-05|tsg hoffenheim|borussia dortmund": {
-"btts": 0.5311,
-"clave_l": "TSG 1899 Hoffenheim",
-"clave_liga": "bundesliga",
-"clave_v": "Borussia Dortmund",
-"fecha": "2026-09-05",
-"l": "TSG 1899 Hoffenheim",
-"liga": "Bundesliga",
-"marcador": "1-1",
-"o15": 0.7694,
-"o25": 0.5142,
-"o35": 0.293,
-"p_marcador": 0.1246,
-"pe": 0.2608,
-"pl": 0.2021,
-"publicado": "2026-08-24T13:20Z",
-"pv": 0.5371,
-"v": "Dortmund"
-},
-"bundesliga|2026-09-05|werder bremen|rasenballsport leipzig": {
-"clave_l": "Werder Bremen",
-"clave_liga": "bundesliga",
-"clave_v": "RasenBallsport Leipzig",
-"fecha": "2026-09-05",
-"l": "Werder Bremen",
-"liga": "Bundesliga",
-"pe": 0.2654,
-"pl": 0.2834,
-"publicado": "2026-08-22T22:04Z",
-"pv": 0.4512,
-"v": "RB Leipzig"
-},
-"bundesliga|2026-09-05|werder bremen|rb leipzig": {
+"bundesliga|2026-09-05|werder bremen|leipzig": {
 "btts": 0.5114,
 "clave_l": "Werder Bremen",
 "clave_liga": "bundesliga",
@@ -1868,6 +1741,19 @@
 "pv": 0.226,
 "v": "RB Leipzig"
 },
+"bundesliga|2026-09-05|werder bremen|rasenballsport leipzig": {
+"clave_l": "Werder Bremen",
+"clave_liga": "bundesliga",
+"clave_v": "RasenBallsport Leipzig",
+"fecha": "2026-09-05",
+"l": "Werder Bremen",
+"liga": "Bundesliga",
+"pe": 0.2654,
+"pl": 0.2834,
+"publicado": "2026-08-22T22:04Z",
+"pv": 0.4512,
+"v": "RB Leipzig"
+},
 "bundesliga|2026-09-06|eintracht frankfurt|augsburg": {
 "clave_l": "Eintracht Frankfurt",
 "clave_liga": "bundesliga",
@@ -1881,26 +1767,7 @@
 "pv": 0.1914,
 "v": "Augsburg"
 },
-"bundesliga|2026-09-06|hamburger|fsv mainz 05": {
-"btts": 0.5363,
-"clave_l": "Hamburger SV",
-"clave_liga": "bundesliga",
-"clave_v": "1. FSV Mainz 05",
-"fecha": "2026-09-06",
-"l": "Hamburger SV",
-"liga": "Bundesliga",
-"marcador": "1-1",
-"o15": 0.7551,
-"o25": 0.4939,
-"o35": 0.2748,
-"p_marcador": 0.133,
-"pe": 0.2783,
-"pl": 0.4722,
-"publicado": "2026-08-24T13:20Z",
-"pv": 0.2495,
-"v": "1. FSV Mainz 05"
-},
-"bundesliga|2026-09-06|hamburger|mainz 05": {
+"bundesliga|2026-09-06|hamburger|mainz": {
 "clave_l": "Hamburger SV",
 "clave_liga": "bundesliga",
 "clave_v": "Mainz 05",
@@ -1913,7 +1780,7 @@
 "pv": 0.394,
 "v": "Mainz 05"
 },
-"bundesliga|2026-09-11|union berlin|schalke 04": {
+"bundesliga|2026-09-11|union berlin|schalke": {
 "clave_l": "Union Berlin",
 "clave_liga": "bundesliga",
 "clave_v": "Schalke 04",
@@ -1939,7 +1806,7 @@
 "pv": 0.4813,
 "v": "Leverkusen"
 },
-"bundesliga|2026-09-12|borussia dortmund|paderborn 07": {
+"bundesliga|2026-09-12|borussia dortmund|paderborn": {
 "clave_l": "Borussia Dortmund",
 "clave_liga": "bundesliga",
 "clave_v": "Paderborn 07",
@@ -1978,45 +1845,7 @@
 "pv": 0.2301,
 "v": "M'gladbach"
 },
-"bundesliga|2026-09-12|freiburg|borussia mönchengladbach": {
-"btts": 0.4786,
-"clave_l": "Freiburg",
-"clave_liga": "bundesliga",
-"clave_v": "Borussia Mönchengladbach",
-"fecha": "2026-09-12",
-"l": "Freiburg",
-"liga": "Bundesliga",
-"marcador": "1-1",
-"o15": 0.7267,
-"o25": 0.458,
-"o35": 0.2439,
-"p_marcador": 0.1281,
-"pe": 0.2702,
-"pl": 0.5468,
-"publicado": "2026-08-24T13:20Z",
-"pv": 0.183,
-"v": "Borussia Mönchengladbach"
-},
-"bundesliga|2026-09-12|fsv mainz 05|eintracht frankfurt": {
-"btts": 0.5399,
-"clave_l": "1. FSV Mainz 05",
-"clave_liga": "bundesliga",
-"clave_v": "Eintracht Frankfurt",
-"fecha": "2026-09-12",
-"l": "1. FSV Mainz 05",
-"liga": "Bundesliga",
-"marcador": "1-1",
-"o15": 0.7461,
-"o25": 0.4814,
-"o35": 0.2638,
-"p_marcador": 0.1384,
-"pe": 0.2896,
-"pl": 0.3082,
-"publicado": "2026-08-24T13:20Z",
-"pv": 0.4022,
-"v": "Frankfurt"
-},
-"bundesliga|2026-09-12|hoffenheim|vfb stuttgart": {
+"bundesliga|2026-09-12|hoffenheim|stuttgart": {
 "clave_l": "Hoffenheim",
 "clave_liga": "bundesliga",
 "clave_v": "VfB Stuttgart",
@@ -2029,26 +1858,7 @@
 "pv": 0.3804,
 "v": "Stuttgart"
 },
-"bundesliga|2026-09-12|köln|werder bremen": {
-"btts": 0.5208,
-"clave_l": "1. FC Köln",
-"clave_liga": "bundesliga",
-"clave_v": "Werder Bremen",
-"fecha": "2026-09-12",
-"l": "1. FC Köln",
-"liga": "Bundesliga",
-"marcador": "1-1",
-"o15": 0.7275,
-"o25": 0.4574,
-"o35": 0.2434,
-"p_marcador": 0.1411,
-"pe": 0.2957,
-"pl": 0.4015,
-"publicado": "2026-08-24T13:20Z",
-"pv": 0.3028,
-"v": "Werder Bremen"
-},
-"bundesliga|2026-09-12|mainz 05|eintracht frankfurt": {
+"bundesliga|2026-09-12|mainz|eintracht frankfurt": {
 "clave_l": "Mainz 05",
 "clave_liga": "bundesliga",
 "clave_v": "Eintracht Frankfurt",
@@ -2060,44 +1870,6 @@
 "publicado": "2026-08-22T22:04Z",
 "pv": 0.2691,
 "v": "Frankfurt"
-},
-"bundesliga|2026-09-12|tsg hoffenheim|vfb stuttgart": {
-"btts": 0.5796,
-"clave_l": "TSG 1899 Hoffenheim",
-"clave_liga": "bundesliga",
-"clave_v": "VfB Stuttgart",
-"fecha": "2026-09-12",
-"l": "TSG 1899 Hoffenheim",
-"liga": "Bundesliga",
-"marcador": "1-1",
-"o15": 0.8057,
-"o25": 0.5666,
-"o35": 0.3426,
-"p_marcador": 0.1192,
-"pe": 0.2528,
-"pl": 0.223,
-"publicado": "2026-08-24T13:20Z",
-"pv": 0.5242,
-"v": "Stuttgart"
-},
-"bundesliga|2026-09-13|07 elversberg|bayern munich": {
-"btts": 0.558,
-"clave_l": "SV 07 Elversberg",
-"clave_liga": "bundesliga",
-"clave_v": "Bayern Munich",
-"fecha": "2026-09-13",
-"l": "SV 07 Elversberg",
-"liga": "Bundesliga",
-"marcador": "0-2",
-"o15": 0.8755,
-"o25": 0.6859,
-"o35": 0.471,
-"p_marcador": 0.1014,
-"pe": 0.1666,
-"pl": 0.0965,
-"publicado": "2026-08-24T13:20Z",
-"pv": 0.7369,
-"v": "Bayern Munich"
 },
 "bundesliga|2026-09-13|elversberg|bayern munich": {
 "clave_l": "Elversberg",
@@ -2112,20 +1884,7 @@
 "pv": 0.7369,
 "v": "Bayern Munich"
 },
-"bundesliga|2026-09-13|rasenballsport leipzig|hamburger": {
-"clave_l": "RasenBallsport Leipzig",
-"clave_liga": "bundesliga",
-"clave_v": "Hamburger SV",
-"fecha": "2026-09-13",
-"l": "RB Leipzig",
-"liga": "Bundesliga",
-"pe": 0.1834,
-"pl": 0.7026,
-"publicado": "2026-08-22T22:04Z",
-"pv": 0.114,
-"v": "Hamburger SV"
-},
-"bundesliga|2026-09-13|rb leipzig|hamburger": {
+"bundesliga|2026-09-13|leipzig|hamburger": {
 "btts": 0.5402,
 "clave_l": "RB Leipzig",
 "clave_liga": "bundesliga",
@@ -2142,6 +1901,19 @@
 "pl": 0.4352,
 "publicado": "2026-08-24T13:20Z",
 "pv": 0.28,
+"v": "Hamburger SV"
+},
+"bundesliga|2026-09-13|rasenballsport leipzig|hamburger": {
+"clave_l": "RasenBallsport Leipzig",
+"clave_liga": "bundesliga",
+"clave_v": "Hamburger SV",
+"fecha": "2026-09-13",
+"l": "RB Leipzig",
+"liga": "Bundesliga",
+"pe": 0.1834,
+"pl": 0.7026,
+"publicado": "2026-08-22T22:04Z",
+"pv": 0.114,
 "v": "Hamburger SV"
 },
 "bundesliga|2026-09-18|bayern munich|union berlin": {
@@ -2163,7 +1935,7 @@
 "pv": 0.0563,
 "v": "Union Berlin"
 },
-"bundesliga|2026-09-19|borussia mönchengladbach|fsv mainz 05": {
+"bundesliga|2026-09-19|borussia gladbach|mainz": {
 "btts": 0.5304,
 "clave_l": "Borussia Mönchengladbach",
 "clave_liga": "bundesliga",
@@ -2201,7 +1973,7 @@
 "pv": 0.2287,
 "v": "Freiburg"
 },
-"bundesliga|2026-09-19|hamburger|köln": {
+"bundesliga|2026-09-19|hamburger|cologne": {
 "btts": 0.5363,
 "clave_l": "Hamburger SV",
 "clave_liga": "bundesliga",
@@ -2220,7 +1992,7 @@
 "pv": 0.2495,
 "v": "1. FC Köln"
 },
-"bundesliga|2026-09-19|vfb stuttgart|borussia dortmund": {
+"bundesliga|2026-09-19|stuttgart|borussia dortmund": {
 "btts": 0.603,
 "clave_l": "VfB Stuttgart",
 "clave_liga": "bundesliga",
@@ -2258,7 +2030,7 @@
 "pv": 0.2717,
 "v": "Augsburg"
 },
-"bundesliga|2026-09-20|bayer leverkusen|rb leipzig": {
+"bundesliga|2026-09-20|bayer leverkusen|leipzig": {
 "btts": 0.507,
 "clave_l": "Bayer Leverkusen",
 "clave_liga": "bundesliga",
@@ -2277,7 +2049,26 @@
 "pv": 0.0904,
 "v": "RB Leipzig"
 },
-"bundesliga|2026-09-20|paderborn 07|tsg hoffenheim": {
+"bundesliga|2026-09-20|bayer leverkusen|rasenballsport leipzig": {
+"btts": 0.6495,
+"clave_l": "Bayer Leverkusen",
+"clave_liga": "bundesliga",
+"clave_v": "RasenBallsport Leipzig",
+"fecha": "2026-09-20",
+"l": "Leverkusen",
+"liga": "Bundesliga",
+"marcador": "1-1",
+"o15": 0.8585,
+"o25": 0.652,
+"o35": 0.4323,
+"p_marcador": 0.1042,
+"pe": 0.2353,
+"pl": 0.5241,
+"publicado": "2026-09-01T18:59Z",
+"pv": 0.2406,
+"v": "RB Leipzig"
+},
+"bundesliga|2026-09-20|paderborn|hoffenheim": {
 "btts": 0.5304,
 "clave_l": "SC Paderborn 07",
 "clave_liga": "bundesliga",
@@ -2296,7 +2087,7 @@
 "pv": 0.264,
 "v": "TSG 1899 Hoffenheim"
 },
-"bundesliga|2026-09-20|schalke 04|07 elversberg": {
+"bundesliga|2026-09-20|schalke|elversberg": {
 "btts": 0.5304,
 "clave_l": "FC Schalke 04",
 "clave_liga": "bundesliga",
@@ -2353,45 +2144,7 @@
 "pv": 0.1094,
 "v": "Werder Bremen"
 },
-"bundesliga|2026-10-10|freiburg|schalke 04": {
-"btts": 0.4786,
-"clave_l": "Freiburg",
-"clave_liga": "bundesliga",
-"clave_v": "FC Schalke 04",
-"fecha": "2026-10-10",
-"l": "Freiburg",
-"liga": "Bundesliga",
-"marcador": "1-1",
-"o15": 0.7267,
-"o25": 0.458,
-"o35": 0.2439,
-"p_marcador": 0.1281,
-"pe": 0.2702,
-"pl": 0.5468,
-"publicado": "2026-08-24T13:20Z",
-"pv": 0.183,
-"v": "FC Schalke 04"
-},
-"bundesliga|2026-10-10|fsv mainz 05|bayer leverkusen": {
-"btts": 0.563,
-"clave_l": "1. FSV Mainz 05",
-"clave_liga": "bundesliga",
-"clave_v": "Bayer Leverkusen",
-"fecha": "2026-10-10",
-"l": "1. FSV Mainz 05",
-"liga": "Bundesliga",
-"marcador": "1-1",
-"o15": 0.795,
-"o25": 0.5507,
-"o35": 0.3271,
-"p_marcador": 0.1205,
-"pe": 0.2541,
-"pl": 0.2122,
-"publicado": "2026-08-24T13:20Z",
-"pv": 0.5337,
-"v": "Leverkusen"
-},
-"bundesliga|2026-10-10|köln|borussia mönchengladbach": {
+"bundesliga|2026-10-10|cologne|borussia gladbach": {
 "btts": 0.5304,
 "clave_l": "1. FC Köln",
 "clave_liga": "bundesliga",
@@ -2410,45 +2163,26 @@
 "pv": 0.264,
 "v": "Borussia Mönchengladbach"
 },
-"bundesliga|2026-10-10|paderborn 07|vfb stuttgart": {
-"btts": 0.5796,
-"clave_l": "SC Paderborn 07",
+"bundesliga|2026-10-10|freiburg|schalke": {
+"btts": 0.4786,
+"clave_l": "Freiburg",
 "clave_liga": "bundesliga",
-"clave_v": "VfB Stuttgart",
+"clave_v": "FC Schalke 04",
 "fecha": "2026-10-10",
-"l": "SC Paderborn 07",
+"l": "Freiburg",
 "liga": "Bundesliga",
 "marcador": "1-1",
-"o15": 0.8057,
-"o25": 0.5666,
-"o35": 0.3426,
-"p_marcador": 0.1192,
-"pe": 0.2528,
-"pl": 0.223,
+"o15": 0.7267,
+"o25": 0.458,
+"o35": 0.2439,
+"p_marcador": 0.1281,
+"pe": 0.2702,
+"pl": 0.5468,
 "publicado": "2026-08-24T13:20Z",
-"pv": 0.5242,
-"v": "Stuttgart"
+"pv": 0.183,
+"v": "FC Schalke 04"
 },
-"bundesliga|2026-10-10|rb leipzig|eintracht frankfurt": {
-"btts": 0.5399,
-"clave_l": "RB Leipzig",
-"clave_liga": "bundesliga",
-"clave_v": "Eintracht Frankfurt",
-"fecha": "2026-10-10",
-"l": "RB Leipzig",
-"liga": "Bundesliga",
-"marcador": "1-1",
-"o15": 0.7461,
-"o25": 0.4814,
-"o35": 0.2638,
-"p_marcador": 0.1384,
-"pe": 0.2896,
-"pl": 0.3082,
-"publicado": "2026-08-24T13:20Z",
-"pv": 0.4022,
-"v": "Frankfurt"
-},
-"bundesliga|2026-10-10|tsg hoffenheim|hamburger": {
+"bundesliga|2026-10-10|hoffenheim|hamburger": {
 "btts": 0.5402,
 "clave_l": "TSG 1899 Hoffenheim",
 "clave_liga": "bundesliga",
@@ -2467,7 +2201,83 @@
 "pv": 0.28,
 "v": "Hamburger SV"
 },
-"bundesliga|2026-10-10|union berlin|07 elversberg": {
+"bundesliga|2026-10-10|leipzig|eintracht frankfurt": {
+"btts": 0.5399,
+"clave_l": "RB Leipzig",
+"clave_liga": "bundesliga",
+"clave_v": "Eintracht Frankfurt",
+"fecha": "2026-10-10",
+"l": "RB Leipzig",
+"liga": "Bundesliga",
+"marcador": "1-1",
+"o15": 0.7461,
+"o25": 0.4814,
+"o35": 0.2638,
+"p_marcador": 0.1384,
+"pe": 0.2896,
+"pl": 0.3082,
+"publicado": "2026-08-24T13:20Z",
+"pv": 0.4022,
+"v": "Frankfurt"
+},
+"bundesliga|2026-10-10|mainz|bayer leverkusen": {
+"btts": 0.563,
+"clave_l": "1. FSV Mainz 05",
+"clave_liga": "bundesliga",
+"clave_v": "Bayer Leverkusen",
+"fecha": "2026-10-10",
+"l": "1. FSV Mainz 05",
+"liga": "Bundesliga",
+"marcador": "1-1",
+"o15": 0.795,
+"o25": 0.5507,
+"o35": 0.3271,
+"p_marcador": 0.1205,
+"pe": 0.2541,
+"pl": 0.2122,
+"publicado": "2026-08-24T13:20Z",
+"pv": 0.5337,
+"v": "Leverkusen"
+},
+"bundesliga|2026-10-10|paderborn|stuttgart": {
+"btts": 0.5796,
+"clave_l": "SC Paderborn 07",
+"clave_liga": "bundesliga",
+"clave_v": "VfB Stuttgart",
+"fecha": "2026-10-10",
+"l": "SC Paderborn 07",
+"liga": "Bundesliga",
+"marcador": "1-1",
+"o15": 0.8057,
+"o25": 0.5666,
+"o35": 0.3426,
+"p_marcador": 0.1192,
+"pe": 0.2528,
+"pl": 0.223,
+"publicado": "2026-08-24T13:20Z",
+"pv": 0.5242,
+"v": "Stuttgart"
+},
+"bundesliga|2026-10-10|rasenballsport leipzig|eintracht frankfurt": {
+"btts": 0.6154,
+"clave_l": "RasenBallsport Leipzig",
+"clave_liga": "bundesliga",
+"clave_v": "Eintracht Frankfurt",
+"fecha": "2026-10-10",
+"l": "RB Leipzig",
+"liga": "Bundesliga",
+"marcador": "1-1",
+"o15": 0.8466,
+"o25": 0.6322,
+"o35": 0.4104,
+"p_marcador": 0.1044,
+"pe": 0.229,
+"pl": 0.5723,
+"publicado": "2026-09-01T18:59Z",
+"pv": 0.1987,
+"v": "Frankfurt"
+},
+"bundesliga|2026-10-10|union berlin|elversberg": {
 "btts": 0.4626,
 "clave_l": "Union Berlin",
 "clave_liga": "bundesliga",
@@ -2485,25 +2295,6 @@
 "publicado": "2026-08-24T13:20Z",
 "pv": 0.1967,
 "v": "SV 07 Elversberg"
-},
-"bundesliga|2026-10-17|07 elversberg|augsburg": {
-"btts": 0.5566,
-"clave_l": "SV 07 Elversberg",
-"clave_liga": "bundesliga",
-"clave_v": "Augsburg",
-"fecha": "2026-10-17",
-"l": "SV 07 Elversberg",
-"liga": "Bundesliga",
-"marcador": "1-1",
-"o15": 0.7617,
-"o25": 0.5024,
-"o35": 0.2823,
-"p_marcador": 0.1357,
-"pe": 0.2844,
-"pl": 0.401,
-"publicado": "2026-08-24T13:20Z",
-"pv": 0.3145,
-"v": "Augsburg"
 },
 "bundesliga|2026-10-17|bayer leverkusen|freiburg": {
 "btts": 0.5069,
@@ -2524,7 +2315,7 @@
 "pv": 0.1492,
 "v": "Freiburg"
 },
-"bundesliga|2026-10-17|bayern munich|rb leipzig": {
+"bundesliga|2026-10-17|bayern munich|leipzig": {
 "btts": 0.4721,
 "clave_l": "Bayern Munich",
 "clave_liga": "bundesliga",
@@ -2543,7 +2334,26 @@
 "pv": 0.0297,
 "v": "RB Leipzig"
 },
-"bundesliga|2026-10-17|borussia mönchengladbach|tsg hoffenheim": {
+"bundesliga|2026-10-17|bayern munich|rasenballsport leipzig": {
+"btts": 0.6461,
+"clave_l": "Bayern Munich",
+"clave_liga": "bundesliga",
+"clave_v": "RasenBallsport Leipzig",
+"fecha": "2026-10-17",
+"l": "Bayern Munich",
+"liga": "Bundesliga",
+"marcador": "2-1",
+"o15": 0.9224,
+"o25": 0.7779,
+"o35": 0.5877,
+"p_marcador": 0.0822,
+"pe": 0.1506,
+"pl": 0.7447,
+"publicado": "2026-09-01T18:59Z",
+"pv": 0.1047,
+"v": "RB Leipzig"
+},
+"bundesliga|2026-10-17|borussia gladbach|hoffenheim": {
 "btts": 0.5304,
 "clave_l": "Borussia Mönchengladbach",
 "clave_liga": "bundesliga",
@@ -2562,7 +2372,7 @@
 "pv": 0.264,
 "v": "TSG 1899 Hoffenheim"
 },
-"bundesliga|2026-10-17|eintracht frankfurt|köln": {
+"bundesliga|2026-10-17|eintracht frankfurt|cologne": {
 "btts": 0.5091,
 "clave_l": "Eintracht Frankfurt",
 "clave_liga": "bundesliga",
@@ -2581,7 +2391,26 @@
 "pv": 0.155,
 "v": "1. FC Köln"
 },
-"bundesliga|2026-10-17|hamburger|vfb stuttgart": {
+"bundesliga|2026-10-17|elversberg|augsburg": {
+"btts": 0.5566,
+"clave_l": "SV 07 Elversberg",
+"clave_liga": "bundesliga",
+"clave_v": "Augsburg",
+"fecha": "2026-10-17",
+"l": "SV 07 Elversberg",
+"liga": "Bundesliga",
+"marcador": "1-1",
+"o15": 0.7617,
+"o25": 0.5024,
+"o35": 0.2823,
+"p_marcador": 0.1357,
+"pe": 0.2844,
+"pl": 0.401,
+"publicado": "2026-08-24T13:20Z",
+"pv": 0.3145,
+"v": "Augsburg"
+},
+"bundesliga|2026-10-17|hamburger|stuttgart": {
 "btts": 0.5908,
 "clave_l": "Hamburger SV",
 "clave_liga": "bundesliga",
@@ -2600,7 +2429,7 @@
 "pv": 0.5071,
 "v": "Stuttgart"
 },
-"bundesliga|2026-10-17|schalke 04|fsv mainz 05": {
+"bundesliga|2026-10-17|schalke|mainz": {
 "btts": 0.5304,
 "clave_l": "FC Schalke 04",
 "clave_liga": "bundesliga",
@@ -2638,7 +2467,7 @@
 "pv": 0.4323,
 "v": "Dortmund"
 },
-"bundesliga|2026-10-17|werder bremen|paderborn 07": {
+"bundesliga|2026-10-17|werder bremen|paderborn": {
 "btts": 0.5114,
 "clave_l": "Werder Bremen",
 "clave_liga": "bundesliga",
@@ -2695,6 +2524,25 @@
 "pv": 0.1666,
 "v": "Frankfurt"
 },
+"bundesliga|2026-10-24|cologne|schalke": {
+"btts": 0.5304,
+"clave_l": "1. FC Köln",
+"clave_liga": "bundesliga",
+"clave_v": "FC Schalke 04",
+"fecha": "2026-10-24",
+"l": "1. FC Köln",
+"liga": "Bundesliga",
+"marcador": "1-1",
+"o15": 0.7449,
+"o25": 0.4801,
+"o35": 0.2628,
+"p_marcador": 0.136,
+"pe": 0.2847,
+"pl": 0.4514,
+"publicado": "2026-08-24T13:20Z",
+"pv": 0.264,
+"v": "FC Schalke 04"
+},
 "bundesliga|2026-10-24|freiburg|bayern munich": {
 "btts": 0.5626,
 "clave_l": "Freiburg",
@@ -2714,83 +2562,7 @@
 "pv": 0.6185,
 "v": "Bayern Munich"
 },
-"bundesliga|2026-10-24|fsv mainz 05|werder bremen": {
-"btts": 0.5208,
-"clave_l": "1. FSV Mainz 05",
-"clave_liga": "bundesliga",
-"clave_v": "Werder Bremen",
-"fecha": "2026-10-24",
-"l": "1. FSV Mainz 05",
-"liga": "Bundesliga",
-"marcador": "1-1",
-"o15": 0.7275,
-"o25": 0.4574,
-"o35": 0.2434,
-"p_marcador": 0.1411,
-"pe": 0.2957,
-"pl": 0.4015,
-"publicado": "2026-08-24T13:20Z",
-"pv": 0.3028,
-"v": "Werder Bremen"
-},
-"bundesliga|2026-10-24|köln|schalke 04": {
-"btts": 0.5304,
-"clave_l": "1. FC Köln",
-"clave_liga": "bundesliga",
-"clave_v": "FC Schalke 04",
-"fecha": "2026-10-24",
-"l": "1. FC Köln",
-"liga": "Bundesliga",
-"marcador": "1-1",
-"o15": 0.7449,
-"o25": 0.4801,
-"o35": 0.2628,
-"p_marcador": 0.136,
-"pe": 0.2847,
-"pl": 0.4514,
-"publicado": "2026-08-24T13:20Z",
-"pv": 0.264,
-"v": "FC Schalke 04"
-},
-"bundesliga|2026-10-24|paderborn 07|hamburger": {
-"btts": 0.5402,
-"clave_l": "SC Paderborn 07",
-"clave_liga": "bundesliga",
-"clave_v": "Hamburger SV",
-"fecha": "2026-10-24",
-"l": "SC Paderborn 07",
-"liga": "Bundesliga",
-"marcador": "1-1",
-"o15": 0.751,
-"o25": 0.4881,
-"o35": 0.2697,
-"p_marcador": 0.1361,
-"pe": 0.2848,
-"pl": 0.4352,
-"publicado": "2026-08-24T13:20Z",
-"pv": 0.28,
-"v": "Hamburger SV"
-},
-"bundesliga|2026-10-24|rb leipzig|07 elversberg": {
-"btts": 0.5304,
-"clave_l": "RB Leipzig",
-"clave_liga": "bundesliga",
-"clave_v": "SV 07 Elversberg",
-"fecha": "2026-10-24",
-"l": "RB Leipzig",
-"liga": "Bundesliga",
-"marcador": "1-1",
-"o15": 0.7449,
-"o25": 0.4801,
-"o35": 0.2628,
-"p_marcador": 0.136,
-"pe": 0.2847,
-"pl": 0.4514,
-"publicado": "2026-08-24T13:20Z",
-"pv": 0.264,
-"v": "SV 07 Elversberg"
-},
-"bundesliga|2026-10-24|tsg hoffenheim|bayer leverkusen": {
+"bundesliga|2026-10-24|hoffenheim|bayer leverkusen": {
 "btts": 0.563,
 "clave_l": "TSG 1899 Hoffenheim",
 "clave_liga": "bundesliga",
@@ -2809,7 +2581,83 @@
 "pv": 0.5337,
 "v": "Leverkusen"
 },
-"bundesliga|2026-10-24|vfb stuttgart|borussia mönchengladbach": {
+"bundesliga|2026-10-24|leipzig|elversberg": {
+"btts": 0.5304,
+"clave_l": "RB Leipzig",
+"clave_liga": "bundesliga",
+"clave_v": "SV 07 Elversberg",
+"fecha": "2026-10-24",
+"l": "RB Leipzig",
+"liga": "Bundesliga",
+"marcador": "1-1",
+"o15": 0.7449,
+"o25": 0.4801,
+"o35": 0.2628,
+"p_marcador": 0.136,
+"pe": 0.2847,
+"pl": 0.4514,
+"publicado": "2026-08-24T13:20Z",
+"pv": 0.264,
+"v": "SV 07 Elversberg"
+},
+"bundesliga|2026-10-24|mainz|werder bremen": {
+"btts": 0.5208,
+"clave_l": "1. FSV Mainz 05",
+"clave_liga": "bundesliga",
+"clave_v": "Werder Bremen",
+"fecha": "2026-10-24",
+"l": "1. FSV Mainz 05",
+"liga": "Bundesliga",
+"marcador": "1-1",
+"o15": 0.7275,
+"o25": 0.4574,
+"o35": 0.2434,
+"p_marcador": 0.1411,
+"pe": 0.2957,
+"pl": 0.4015,
+"publicado": "2026-08-24T13:20Z",
+"pv": 0.3028,
+"v": "Werder Bremen"
+},
+"bundesliga|2026-10-24|paderborn|hamburger": {
+"btts": 0.5402,
+"clave_l": "SC Paderborn 07",
+"clave_liga": "bundesliga",
+"clave_v": "Hamburger SV",
+"fecha": "2026-10-24",
+"l": "SC Paderborn 07",
+"liga": "Bundesliga",
+"marcador": "1-1",
+"o15": 0.751,
+"o25": 0.4881,
+"o35": 0.2697,
+"p_marcador": 0.1361,
+"pe": 0.2848,
+"pl": 0.4352,
+"publicado": "2026-08-24T13:20Z",
+"pv": 0.28,
+"v": "Hamburger SV"
+},
+"bundesliga|2026-10-24|rasenballsport leipzig|elversberg": {
+"btts": 0.5528,
+"clave_l": "RasenBallsport Leipzig",
+"clave_liga": "bundesliga",
+"clave_v": "SV 07 Elversberg",
+"fecha": "2026-10-24",
+"l": "RB Leipzig",
+"liga": "Bundesliga",
+"marcador": "2-0",
+"o15": 0.8649,
+"o25": 0.6666,
+"o35": 0.4486,
+"p_marcador": 0.1041,
+"pe": 0.1755,
+"pl": 0.7214,
+"publicado": "2026-09-01T18:59Z",
+"pv": 0.103,
+"v": "SV 07 Elversberg"
+},
+"bundesliga|2026-10-24|stuttgart|borussia gladbach": {
 "btts": 0.5243,
 "clave_l": "VfB Stuttgart",
 "clave_liga": "bundesliga",
@@ -2847,7 +2695,7 @@
 "pv": 0.3071,
 "v": "Freiburg"
 },
-"bundesliga|2026-10-31|borussia mönchengladbach|paderborn 07": {
+"bundesliga|2026-10-31|borussia gladbach|paderborn": {
 "btts": 0.5267,
 "clave_l": "Borussia Mönchengladbach",
 "clave_liga": "bundesliga",
@@ -2885,7 +2733,7 @@
 "pv": 0.176,
 "v": "Hamburger SV"
 },
-"bundesliga|2026-10-31|schalke 04|rb leipzig": {
+"bundesliga|2026-10-31|schalke|leipzig": {
 "btts": 0.5267,
 "clave_l": "FC Schalke 04",
 "clave_liga": "bundesliga",
@@ -2904,7 +2752,26 @@
 "pv": 0.264,
 "v": "RB Leipzig"
 },
-"bundesliga|2026-10-31|union berlin|köln": {
+"bundesliga|2026-10-31|schalke|rasenballsport leipzig": {
+"btts": 0.6072,
+"clave_l": "FC Schalke 04",
+"clave_liga": "bundesliga",
+"clave_v": "RasenBallsport Leipzig",
+"fecha": "2026-10-31",
+"l": "FC Schalke 04",
+"liga": "Bundesliga",
+"marcador": "1-1",
+"o15": 0.824,
+"o25": 0.5948,
+"o35": 0.3709,
+"p_marcador": 0.1157,
+"pe": 0.2497,
+"pl": 0.2399,
+"publicado": "2026-09-01T18:59Z",
+"pv": 0.5104,
+"v": "RB Leipzig"
+},
+"bundesliga|2026-10-31|union berlin|cologne": {
 "btts": 0.4713,
 "clave_l": "Union Berlin",
 "clave_liga": "bundesliga",
@@ -2923,7 +2790,7 @@
 "pv": 0.1974,
 "v": "1. FC Köln"
 },
-"bundesliga|2026-10-31|werder bremen|tsg hoffenheim": {
+"bundesliga|2026-10-31|werder bremen|hoffenheim": {
 "btts": 0.5131,
 "clave_l": "Werder Bremen",
 "clave_liga": "bundesliga",
@@ -4588,7 +4455,7 @@
 "pv": 0.0512,
 "v": "Feyenoord"
 },
-"champions|2026-09-09|liverpool|atletico de madrid": {
+"champions|2026-09-09|liverpool|atletico madrid": {
 "btts": 0.223,
 "clave_l": "Liverpool FC",
 "clave_liga": "champions",
@@ -4626,7 +4493,7 @@
 "pv": 0.8467,
 "v": "Arsenal"
 },
-"champions|2026-09-09|paris saint germain|šk slovan bratislava": {
+"champions|2026-09-09|paris saint germain|slovan bratislava": {
 "btts": 0.3111,
 "clave_l": "Paris Saint-Germain FC",
 "clave_liga": "champions",
@@ -4645,7 +4512,7 @@
 "pv": 0.0009,
 "v": "ŠK Slovan Bratislava"
 },
-"champions|2026-09-09|sporting clube de portugal|galatasaray sk": {
+"champions|2026-09-09|sporting clube portugal|galatasaray": {
 "btts": 0.1771,
 "clave_l": "Sporting Clube de Portugal",
 "clave_liga": "champions",
@@ -4664,7 +4531,7 @@
 "pv": 0.09,
 "v": "Galatasaray SK"
 },
-"champions|2026-09-09|vfb stuttgart|viking fk": {
+"champions|2026-09-09|stuttgart|viking": {
 "btts": 0.5782,
 "clave_l": "VfB Stuttgart",
 "clave_liga": "champions",
@@ -4683,7 +4550,7 @@
 "pv": 0.2262,
 "v": "Viking FK"
 },
-"champions|2026-09-10|bayern munchen|fk bodø/glimt": {
+"champions|2026-09-10|bayern munich|bodø/glimt": {
 "btts": 0.6014,
 "clave_l": "FC Bayern München",
 "clave_liga": "champions",
@@ -4702,7 +4569,7 @@
 "pv": 0.0254,
 "v": "FK Bodø/Glimt"
 },
-"champions|2026-09-10|como 1907|rb leipzig": {
+"champions|2026-09-10|como|leipzig": {
 "btts": 0.5782,
 "clave_l": "Como 1907",
 "clave_liga": "champions",
@@ -4721,7 +4588,7 @@
 "pv": 0.2262,
 "v": "RB Leipzig"
 },
-"champions|2026-09-10|fenerbahçe sk|roma": {
+"champions|2026-09-10|fenerbahce|roma": {
 "btts": 0.5782,
 "clave_l": "Fenerbahçe SK",
 "clave_liga": "champions",
@@ -4740,7 +4607,7 @@
 "pv": 0.2262,
 "v": "AS Roma"
 },
-"champions|2026-09-10|manchester city|sabah fk": {
+"champions|2026-09-10|manchester city|sabah": {
 "btts": 0.3379,
 "clave_l": "Manchester City FC",
 "clave_liga": "champions",
@@ -4759,7 +4626,7 @@
 "pv": 0.0876,
 "v": "Sabah FK"
 },
-"champions|2026-09-10|psv|fk shakhtar donetsk": {
+"champions|2026-09-10|psv|shakhtar donetsk": {
 "btts": 0.7092,
 "clave_l": "PSV",
 "clave_liga": "champions",
@@ -4778,7 +4645,7 @@
 "pv": 0.0799,
 "v": "FK Shakhtar Donetsk"
 },
-"champions|2026-09-10|sk slavia praha|racing de lens": {
+"champions|2026-09-10|slavia praha|racing lens": {
 "btts": 0.5782,
 "clave_l": "SK Slavia Praha",
 "clave_liga": "champions",
@@ -4816,7 +4683,7 @@
 "pv": 0.003,
 "v": "Lille OSC"
 },
-"champions|2026-10-13|atletico de madrid|manchester city": {
+"champions|2026-10-13|atletico madrid|manchester city": {
 "btts": 0.4386,
 "clave_l": "Club Atlético de Madrid",
 "clave_liga": "champions",
@@ -4835,7 +4702,7 @@
 "pv": 0.145,
 "v": "Manchester City"
 },
-"champions|2026-10-13|galatasaray sk|barcelona": {
+"champions|2026-10-13|galatasaray|barcelona": {
 "btts": 0.5299,
 "clave_l": "Galatasaray SK",
 "clave_liga": "champions",
@@ -4873,26 +4740,7 @@
 "pv": 0.0541,
 "v": "Club Brugge KV"
 },
-"champions|2026-10-13|racing de lens|sporting clube de portugal": {
-"btts": 0.3014,
-"clave_l": "Racing Club de Lens",
-"clave_liga": "champions",
-"clave_v": "Sporting Clube de Portugal",
-"fecha": "2026-10-13",
-"l": "Racing Club de Lens",
-"liga": "Champions League",
-"marcador": "0-0",
-"o15": 0.5055,
-"o25": 0.2309,
-"o35": 0.0866,
-"p_marcador": 0.204,
-"pe": 0.3552,
-"pl": 0.1811,
-"publicado": "2026-09-01T12:50Z",
-"pv": 0.4637,
-"v": "Sporting de Lisboa"
-},
-"champions|2026-10-13|rb leipzig|psv": {
+"champions|2026-10-13|leipzig|psv": {
 "btts": 0.7951,
 "clave_l": "RB Leipzig",
 "clave_liga": "champions",
@@ -4911,7 +4759,26 @@
 "pv": 0.4558,
 "v": "PSV"
 },
-"champions|2026-10-13|sabah fk|sk slavia praha": {
+"champions|2026-10-13|racing lens|sporting clube portugal": {
+"btts": 0.3014,
+"clave_l": "Racing Club de Lens",
+"clave_liga": "champions",
+"clave_v": "Sporting Clube de Portugal",
+"fecha": "2026-10-13",
+"l": "Racing Club de Lens",
+"liga": "Champions League",
+"marcador": "0-0",
+"o15": 0.5055,
+"o25": 0.2309,
+"o35": 0.0866,
+"p_marcador": 0.204,
+"pe": 0.3552,
+"pl": 0.1811,
+"publicado": "2026-09-01T12:50Z",
+"pv": 0.4637,
+"v": "Sporting de Lisboa"
+},
+"champions|2026-10-13|sabah|slavia praha": {
 "btts": 0.5782,
 "clave_l": "Sabah FK",
 "clave_liga": "champions",
@@ -4930,7 +4797,7 @@
 "pv": 0.2262,
 "v": "SK Slavia Praha"
 },
-"champions|2026-10-13|viking fk|bayern munchen": {
+"champions|2026-10-13|viking|bayern munich": {
 "btts": 0.5218,
 "clave_l": "Viking FK",
 "clave_liga": "champions",
@@ -4968,7 +4835,7 @@
 "pv": 0.2262,
 "v": "SSC Napoli"
 },
-"champions|2026-10-14|aston villa|fenerbahçe sk": {
+"champions|2026-10-14|aston villa|fenerbahce": {
 "btts": 0.5782,
 "clave_l": "Aston Villa FC",
 "clave_liga": "champions",
@@ -4987,26 +4854,7 @@
 "pv": 0.2262,
 "v": "Fenerbahçe SK"
 },
-"champions|2026-10-14|feyenoord rotterdam|como 1907": {
-"btts": 0.5782,
-"clave_l": "Feyenoord Rotterdam",
-"clave_liga": "champions",
-"clave_v": "Como 1907",
-"fecha": "2026-10-14",
-"l": "Feyenoord",
-"liga": "Champions League",
-"marcador": "1-1",
-"o15": 0.8031,
-"o25": 0.5626,
-"o35": 0.3387,
-"p_marcador": 0.1202,
-"pe": 0.2547,
-"pl": 0.519,
-"publicado": "2026-09-01T12:50Z",
-"pv": 0.2262,
-"v": "Como 1907"
-},
-"champions|2026-10-14|fk bodø/glimt|borussia dortmund": {
+"champions|2026-10-14|bodø/glimt|borussia dortmund": {
 "btts": 0.589,
 "clave_l": "FK Bodø/Glimt",
 "clave_liga": "champions",
@@ -5025,13 +4873,13 @@
 "pv": 0.1575,
 "v": "Dortmund"
 },
-"champions|2026-10-14|fk shakhtar donetsk|pae aek": {
+"champions|2026-10-14|feyenoord rotterdam|como": {
 "btts": 0.5782,
-"clave_l": "FK Shakhtar Donetsk",
+"clave_l": "Feyenoord Rotterdam",
 "clave_liga": "champions",
-"clave_v": "PAE AEK",
+"clave_v": "Como 1907",
 "fecha": "2026-10-14",
-"l": "FK Shakhtar Donetsk",
+"l": "Feyenoord",
 "liga": "Champions League",
 "marcador": "1-1",
 "o15": 0.8031,
@@ -5042,7 +4890,7 @@
 "pl": 0.519,
 "publicado": "2026-09-01T12:50Z",
 "pv": 0.2262,
-"v": "PAE AEK"
+"v": "Como 1907"
 },
 "champions|2026-10-14|lask linz|liverpool": {
 "btts": 0.1704,
@@ -5120,7 +4968,26 @@
 "pv": 0.7206,
 "v": "Real Madrid"
 },
-"champions|2026-10-14|šk slovan bratislava|vfb stuttgart": {
+"champions|2026-10-14|shakhtar donetsk|pae aek": {
+"btts": 0.5782,
+"clave_l": "FK Shakhtar Donetsk",
+"clave_liga": "champions",
+"clave_v": "PAE AEK",
+"fecha": "2026-10-14",
+"l": "FK Shakhtar Donetsk",
+"liga": "Champions League",
+"marcador": "1-1",
+"o15": 0.8031,
+"o25": 0.5626,
+"o35": 0.3387,
+"p_marcador": 0.1202,
+"pe": 0.2547,
+"pl": 0.519,
+"publicado": "2026-09-01T12:50Z",
+"pv": 0.2262,
+"v": "PAE AEK"
+},
+"champions|2026-10-14|slovan bratislava|stuttgart": {
 "btts": 0.5782,
 "clave_l": "ŠK Slovan Bratislava",
 "clave_liga": "champions",
@@ -5139,7 +5006,7 @@
 "pv": 0.2262,
 "v": "Stuttgart"
 },
-"champions|2026-10-20|fenerbahçe sk|sk slavia praha": {
+"champions|2026-10-20|fenerbahce|slavia praha": {
 "btts": 0.5782,
 "clave_l": "Fenerbahçe SK",
 "clave_liga": "champions",
@@ -5196,7 +5063,7 @@
 "pv": 0.0876,
 "v": "PAE AEK"
 },
-"champions|2026-10-20|napoli|fk bodø/glimt": {
+"champions|2026-10-20|napoli|bodø/glimt": {
 "btts": 0.6747,
 "clave_l": "SSC Napoli",
 "clave_liga": "champions",
@@ -5253,7 +5120,7 @@
 "pv": 0.4558,
 "v": "PSV"
 },
-"champions|2026-10-20|roma|šk slovan bratislava": {
+"champions|2026-10-20|roma|slovan bratislava": {
 "btts": 0.5782,
 "clave_l": "AS Roma",
 "clave_liga": "champions",
@@ -5272,7 +5139,7 @@
 "pv": 0.2262,
 "v": "ŠK Slovan Bratislava"
 },
-"champions|2026-10-20|sabah fk|borussia dortmund": {
+"champions|2026-10-20|sabah|borussia dortmund": {
 "btts": 0.5211,
 "clave_l": "Sabah FK",
 "clave_liga": "champions",
@@ -5291,7 +5158,7 @@
 "pv": 0.4112,
 "v": "Dortmund"
 },
-"champions|2026-10-20|vfb stuttgart|atletico de madrid": {
+"champions|2026-10-20|stuttgart|atletico madrid": {
 "btts": 0.6414,
 "clave_l": "VfB Stuttgart",
 "clave_liga": "champions",
@@ -5310,7 +5177,7 @@
 "pv": 0.6399,
 "v": "Club Atlético de Madrid"
 },
-"champions|2026-10-21|aston villa|viking fk": {
+"champions|2026-10-21|aston villa|viking": {
 "btts": 0.5782,
 "clave_l": "Aston Villa FC",
 "clave_liga": "champions",
@@ -5329,7 +5196,7 @@
 "pv": 0.2262,
 "v": "Viking FK"
 },
-"champions|2026-10-21|bayern munchen|arsenal": {
+"champions|2026-10-21|bayern munich|arsenal": {
 "btts": 0.3633,
 "clave_l": "FC Bayern München",
 "clave_liga": "champions",
@@ -5348,7 +5215,7 @@
 "pv": 0.3696,
 "v": "Arsenal"
 },
-"champions|2026-10-21|brugge kv|racing de lens": {
+"champions|2026-10-21|brugge kv|racing lens": {
 "btts": 0.4939,
 "clave_l": "Club Brugge KV",
 "clave_liga": "champions",
@@ -5367,7 +5234,7 @@
 "pv": 0.1591,
 "v": "Racing Club de Lens"
 },
-"champions|2026-10-21|como 1907|manchester city": {
+"champions|2026-10-21|como|manchester city": {
 "btts": 0.3848,
 "clave_l": "Como 1907",
 "clave_liga": "champions",
@@ -5386,7 +5253,7 @@
 "pv": 0.4157,
 "v": "Manchester City"
 },
-"champions|2026-10-21|internazionale milano|fk shakhtar donetsk": {
+"champions|2026-10-21|internazionale milano|shakhtar donetsk": {
 "btts": 0.2487,
 "clave_l": "FC Internazionale Milano",
 "clave_liga": "champions",
@@ -5405,7 +5272,7 @@
 "pv": 0.0315,
 "v": "FK Shakhtar Donetsk"
 },
-"champions|2026-10-21|lille osc|galatasaray sk": {
+"champions|2026-10-21|lille osc|galatasaray": {
 "btts": 0.4242,
 "clave_l": "Lille OSC",
 "clave_liga": "champions",
@@ -5443,7 +5310,7 @@
 "pv": 0.017,
 "v": "Feyenoord"
 },
-"champions|2026-10-21|real madrid|rb leipzig": {
+"champions|2026-10-21|real madrid|leipzig": {
 "btts": 0.4724,
 "clave_l": "Real Madrid CF",
 "clave_liga": "champions",
@@ -5462,7 +5329,7 @@
 "pv": 0.017,
 "v": "RB Leipzig"
 },
-"champions|2026-10-21|sporting clube de portugal|lask linz": {
+"champions|2026-10-21|sporting clube portugal|lask linz": {
 "btts": 0.2569,
 "clave_l": "Sporting Clube de Portugal",
 "clave_liga": "champions",
@@ -5481,7 +5348,7 @@
 "pv": 0.0631,
 "v": "LASK Linz"
 },
-"champions|2026-11-03|atletico de madrid|bayern munchen": {
+"champions|2026-11-03|atletico madrid|bayern munich": {
 "btts": 0.7455,
 "clave_l": "Club Atlético de Madrid",
 "clave_liga": "champions",
@@ -5538,26 +5405,7 @@
 "pv": 0.5956,
 "v": "FC Internazionale Milano"
 },
-"champions|2026-11-03|fk shakhtar donetsk|sporting clube de portugal": {
-"btts": 0.3014,
-"clave_l": "FK Shakhtar Donetsk",
-"clave_liga": "champions",
-"clave_v": "Sporting Clube de Portugal",
-"fecha": "2026-11-03",
-"l": "FK Shakhtar Donetsk",
-"liga": "Champions League",
-"marcador": "0-0",
-"o15": 0.5055,
-"o25": 0.2309,
-"o35": 0.0866,
-"p_marcador": 0.204,
-"pe": 0.3552,
-"pl": 0.1811,
-"publicado": "2026-09-01T12:50Z",
-"pv": 0.4637,
-"v": "Sporting de Lisboa"
-},
-"champions|2026-11-03|galatasaray sk|vfb stuttgart": {
+"champions|2026-11-03|galatasaray|stuttgart": {
 "btts": 0.4068,
 "clave_l": "Galatasaray SK",
 "clave_liga": "champions",
@@ -5575,6 +5423,25 @@
 "publicado": "2026-09-01T12:50Z",
 "pv": 0.1703,
 "v": "Stuttgart"
+},
+"champions|2026-11-03|shakhtar donetsk|sporting clube portugal": {
+"btts": 0.3014,
+"clave_l": "FK Shakhtar Donetsk",
+"clave_liga": "champions",
+"clave_v": "Sporting Clube de Portugal",
+"fecha": "2026-11-03",
+"l": "FK Shakhtar Donetsk",
+"liga": "Champions League",
+"marcador": "0-0",
+"o15": 0.5055,
+"o25": 0.2309,
+"o35": 0.0866,
+"p_marcador": 0.204,
+"pe": 0.3552,
+"pl": 0.1811,
+"publicado": "2026-09-01T12:50Z",
+"pv": 0.4637,
+"v": "Sporting de Lisboa"
 },
 "champions|2026-11-03|villarreal|paris saint germain": {
 "btts": 0.444,
@@ -5742,7 +5609,7 @@
 "real": "E",
 "v": "ADO Den Haag"
 },
-"eredivisie|2026-08-30|telstar 1963|ajax": {
+"eredivisie|2026-08-30|telstar|ajax": {
 "clave_l": "Telstar 1963",
 "clave_liga": "eredivisie",
 "clave_v": "AFC Ajax",
@@ -5883,7 +5750,7 @@
 "pv": 0.355,
 "v": "Fortuna Sittard"
 },
-"eredivisie|2026-09-06|telstar 1963|cambuur leeuwarden": {
+"eredivisie|2026-09-06|telstar|cambuur leeuwarden": {
 "clave_l": "Telstar 1963",
 "clave_liga": "eredivisie",
 "clave_v": "SC Cambuur-Leeuwarden",
@@ -5960,7 +5827,7 @@
 "pv": 0.1898,
 "v": "FC Groningen"
 },
-"eredivisie|2026-09-12|twente '65|ado den haag": {
+"eredivisie|2026-09-12|twente|ado den haag": {
 "clave_l": "FC Twente '65",
 "clave_liga": "eredivisie",
 "clave_v": "ADO Den Haag",
@@ -6155,7 +6022,7 @@
 "pv": 0.1651,
 "v": "Go Ahead Eagles"
 },
-"eredivisie|2026-09-20|twente '65|psv": {
+"eredivisie|2026-09-20|twente|psv": {
 "clave_l": "FC Twente '65",
 "clave_liga": "eredivisie",
 "clave_v": "PSV",
@@ -6233,7 +6100,7 @@
 "pv": 0.2764,
 "v": "FC Groningen"
 },
-"eredivisie|2026-10-11|telstar 1963|ado den haag": {
+"eredivisie|2026-10-11|telstar|ado den haag": {
 "clave_l": "Telstar 1963",
 "clave_liga": "eredivisie",
 "clave_v": "ADO Den Haag",
@@ -6311,7 +6178,7 @@
 "pv": 0.0838,
 "v": "Willem II Tilburg"
 },
-"eredivisie|2026-10-17|telstar 1963|feyenoord rotterdam": {
+"eredivisie|2026-10-17|telstar|feyenoord rotterdam": {
 "clave_l": "Telstar 1963",
 "clave_liga": "eredivisie",
 "clave_v": "Feyenoord Rotterdam",
@@ -6369,7 +6236,7 @@
 "pv": 0.3307,
 "v": "Go Ahead Eagles"
 },
-"eredivisie|2026-10-18|twente '65|utrecht": {
+"eredivisie|2026-10-18|twente|utrecht": {
 "clave_l": "FC Twente '65",
 "clave_liga": "eredivisie",
 "clave_v": "FC Utrecht",
@@ -6557,7 +6424,7 @@
 "pv": 0.1054,
 "v": "ADO Den Haag"
 },
-"eredivisie|2026-11-01|telstar 1963|utrecht": {
+"eredivisie|2026-11-01|telstar|utrecht": {
 "btts": 0.3777,
 "clave_l": "Telstar 1963",
 "clave_liga": "eredivisie",
@@ -6671,7 +6538,7 @@
 "pv": 0.4438,
 "v": "Feyenoord"
 },
-"eredivisie|2026-11-08|twente '65|ajax": {
+"eredivisie|2026-11-08|twente|ajax": {
 "btts": 0.3119,
 "clave_l": "FC Twente '65",
 "clave_liga": "eredivisie",
@@ -6709,7 +6576,7 @@
 "pv": 0.2627,
 "v": "NEC"
 },
-"eredivisie|2026-11-21|twente '65|willem ii tilburg": {
+"eredivisie|2026-11-21|twente|willem ii tilburg": {
 "btts": 0.1897,
 "clave_l": "FC Twente '65",
 "clave_liga": "eredivisie",
@@ -6778,25 +6645,6 @@
 "pv": 0.2592,
 "v": "Racing Sant"
 },
-"laliga|2026-08-24|ca osasuna|levante": {
-"btts": 0.5612,
-"clave_l": "CA Osasuna",
-"clave_liga": "laliga",
-"clave_v": "Levante",
-"fecha": "2026-08-24",
-"l": "CA Osasuna",
-"liga": "LaLiga",
-"marcador": "1-1",
-"o15": 0.7713,
-"o25": 0.5159,
-"o35": 0.2945,
-"p_marcador": 0.1322,
-"pe": 0.2775,
-"pl": 0.4418,
-"publicado": "2026-08-24T13:19Z",
-"pv": 0.2807,
-"v": "Levante"
-},
 "laliga|2026-08-24|malaga|dep coruna": {
 "clave_l": "Málaga",
 "clave_liga": "laliga",
@@ -6810,7 +6658,7 @@
 "pv": 0.2472,
 "v": "Dep. A Coruña"
 },
-"laliga|2026-08-24|malaga|deportivo la coruna": {
+"laliga|2026-08-24|malaga|deportivo coruna": {
 "btts": 0.5331,
 "clave_l": "Málaga CF",
 "clave_liga": "laliga",
@@ -6921,25 +6769,6 @@
 "real": "L",
 "v": "Athletic Club"
 },
-"laliga|2026-08-27|celta vigo|ca osasuna": {
-"btts": 0.4737,
-"clave_l": "Celta Vigo",
-"clave_liga": "laliga",
-"clave_v": "CA Osasuna",
-"fecha": "2026-08-27",
-"l": "Celta Vigo",
-"liga": "LaLiga",
-"marcador": "1-1",
-"o15": 0.7251,
-"o25": 0.4561,
-"o35": 0.2423,
-"p_marcador": 0.1273,
-"pe": 0.2688,
-"pl": 0.5535,
-"publicado": "2026-08-24T13:19Z",
-"pv": 0.1777,
-"v": "CA Osasuna"
-},
 "laliga|2026-08-27|celta vigo|osasuna": {
 "clave_l": "Celta Vigo",
 "clave_liga": "laliga",
@@ -7014,7 +6843,7 @@
 "pv": 0.2386,
 "v": "Elche"
 },
-"laliga|2026-08-28|real racing de santander|elche": {
+"laliga|2026-08-28|real racing santander|elche": {
 "btts": 0.5169,
 "clave_l": "Real Racing Club de Santander",
 "clave_liga": "laliga",
@@ -7130,7 +6959,7 @@
 "pv": 0.3061,
 "v": "Valencia"
 },
-"laliga|2026-08-30|deportivo la coruna|valencia": {
+"laliga|2026-08-30|deportivo coruna|valencia": {
 "btts": 0.4951,
 "clave_l": "RC Deportivo La Coruña",
 "clave_liga": "laliga",
@@ -7198,25 +7027,6 @@
 "pv": 0.081,
 "real": "L",
 "v": "Rayo Vallecano"
-},
-"laliga|2026-08-31|ca osasuna|getafe": {
-"btts": 0.3658,
-"clave_l": "CA Osasuna",
-"clave_liga": "laliga",
-"clave_v": "Getafe",
-"fecha": "2026-08-31",
-"l": "CA Osasuna",
-"liga": "LaLiga",
-"marcador": "0-0",
-"o15": 0.5735,
-"o25": 0.29,
-"o35": 0.1213,
-"p_marcador": 0.167,
-"pe": 0.3376,
-"pl": 0.4471,
-"publicado": "2026-08-24T13:19Z",
-"pv": 0.2153,
-"v": "Getafe"
 },
 "laliga|2026-08-31|osasuna|getafe": {
 "clave_l": "Osasuna",
@@ -7296,7 +7106,7 @@
 "pv": 0.2754,
 "v": "Atlético Madrid"
 },
-"laliga|2026-09-05|rayo vallecano|real racing de santander": {
+"laliga|2026-09-05|rayo vallecano|real racing santander": {
 "btts": 0.5399,
 "clave_l": "Rayo Vallecano",
 "clave_liga": "laliga",
@@ -7315,7 +7125,7 @@
 "pv": 0.1945,
 "v": "Real Racing Club de Santander"
 },
-"laliga|2026-09-05|villarreal|deportivo la coruna": {
+"laliga|2026-09-05|villarreal|deportivo coruna": {
 "btts": 0.5415,
 "clave_l": "Villarreal",
 "clave_liga": "laliga",
@@ -7334,7 +7144,26 @@
 "pv": 0.1221,
 "v": "RC Deportivo La Coruña"
 },
-"laliga|2026-09-06|deportivo alaves|ca osasuna": {
+"laliga|2026-09-06|alaves|osasuna": {
+"btts": 0.4391,
+"clave_l": "Alaves",
+"clave_liga": "laliga",
+"clave_v": "Osasuna",
+"fecha": "2026-09-06",
+"l": "Alavés",
+"liga": "LaLiga",
+"marcador": "1-1",
+"o15": 0.6548,
+"o25": 0.3722,
+"o35": 0.1769,
+"p_marcador": 0.1431,
+"pe": 0.312,
+"pl": 0.4523,
+"publicado": "2026-09-01T18:58Z",
+"pv": 0.2358,
+"v": "Osasuna"
+},
+"laliga|2026-09-06|deportivo alaves|osasuna": {
 "btts": 0.5331,
 "clave_l": "Deportivo Alavés",
 "clave_liga": "laliga",
@@ -7467,25 +7296,6 @@
 "pv": 0.1371,
 "v": "Elche"
 },
-"laliga|2026-09-13|ca osasuna|espanyol": {
-"btts": 0.515,
-"clave_l": "CA Osasuna",
-"clave_liga": "laliga",
-"clave_v": "Espanyol",
-"fecha": "2026-09-13",
-"l": "CA Osasuna",
-"liga": "LaLiga",
-"marcador": "1-1",
-"o15": 0.7328,
-"o25": 0.4646,
-"o35": 0.2494,
-"p_marcador": 0.1369,
-"pe": 0.2868,
-"pl": 0.4619,
-"publicado": "2026-08-24T13:19Z",
-"pv": 0.2513,
-"v": "Espanyol"
-},
 "laliga|2026-09-13|celta vigo|malaga": {
 "btts": 0.4737,
 "clave_l": "Celta Vigo",
@@ -7505,7 +7315,7 @@
 "pv": 0.1777,
 "v": "Málaga CF"
 },
-"laliga|2026-09-13|getafe|deportivo la coruna": {
+"laliga|2026-09-13|getafe|deportivo coruna": {
 "btts": 0.3706,
 "clave_l": "Getafe",
 "clave_liga": "laliga",
@@ -7543,6 +7353,25 @@
 "pv": 0.5738,
 "v": "Barcelona"
 },
+"laliga|2026-09-13|osasuna|espanyol": {
+"btts": 0.515,
+"clave_l": "CA Osasuna",
+"clave_liga": "laliga",
+"clave_v": "Espanyol",
+"fecha": "2026-09-13",
+"l": "CA Osasuna",
+"liga": "LaLiga",
+"marcador": "1-1",
+"o15": 0.7328,
+"o25": 0.4646,
+"o35": 0.2494,
+"p_marcador": 0.1369,
+"pe": 0.2868,
+"pl": 0.4619,
+"publicado": "2026-08-24T13:19Z",
+"pv": 0.2513,
+"v": "Espanyol"
+},
 "laliga|2026-09-13|real madrid|rayo vallecano": {
 "btts": 0.5497,
 "clave_l": "Real Madrid",
@@ -7562,7 +7391,26 @@
 "pv": 0.103,
 "v": "Rayo Vallecano"
 },
-"laliga|2026-09-13|real racing de santander|deportivo alaves": {
+"laliga|2026-09-13|real racing santander|alaves": {
+"btts": 0.5038,
+"clave_l": "Real Racing Club de Santander",
+"clave_liga": "laliga",
+"clave_v": "Alaves",
+"fecha": "2026-09-13",
+"l": "Real Racing Club de Santander",
+"liga": "LaLiga",
+"marcador": "1-1",
+"o15": 0.7072,
+"o25": 0.432,
+"o35": 0.2226,
+"p_marcador": 0.1447,
+"pe": 0.3046,
+"pl": 0.3568,
+"publicado": "2026-09-01T18:58Z",
+"pv": 0.3386,
+"v": "Alavés"
+},
+"laliga|2026-09-13|real racing santander|deportivo alaves": {
 "btts": 0.5331,
 "clave_l": "Real Racing Club de Santander",
 "clave_liga": "laliga",
@@ -7638,7 +7486,26 @@
 "pv": 0.221,
 "v": "Real Betis"
 },
-"laliga|2026-09-16|atletico madrid|ca osasuna": {
+"laliga|2026-09-16|alaves|valencia": {
+"btts": 0.4471,
+"clave_l": "Alaves",
+"clave_liga": "laliga",
+"clave_v": "Valencia",
+"fecha": "2026-09-16",
+"l": "Alavés",
+"liga": "LaLiga",
+"marcador": "1-1",
+"o15": 0.6737,
+"o25": 0.3936,
+"o35": 0.1928,
+"p_marcador": 0.1388,
+"pe": 0.2997,
+"pl": 0.4864,
+"publicado": "2026-09-01T18:58Z",
+"pv": 0.2139,
+"v": "Valencia"
+},
+"laliga|2026-09-16|atletico madrid|osasuna": {
 "btts": 0.5053,
 "clave_l": "Atletico Madrid",
 "clave_liga": "laliga",
@@ -7657,7 +7524,7 @@
 "pv": 0.1221,
 "v": "CA Osasuna"
 },
-"laliga|2026-09-16|barcelona|real racing de santander": {
+"laliga|2026-09-16|barcelona|real racing santander": {
 "btts": 0.5297,
 "clave_l": "Barcelona",
 "clave_liga": "laliga",
@@ -7695,7 +7562,7 @@
 "pv": 0.3077,
 "v": "Valencia"
 },
-"laliga|2026-09-16|deportivo la coruna|sevilla": {
+"laliga|2026-09-16|deportivo coruna|sevilla": {
 "btts": 0.4631,
 "clave_l": "RC Deportivo La Coruña",
 "clave_liga": "laliga",
@@ -7809,6 +7676,25 @@
 "pv": 0.1343,
 "v": "Getafe"
 },
+"laliga|2026-09-20|athletic|alaves": {
+"btts": 0.4323,
+"clave_l": "Athletic Club",
+"clave_liga": "laliga",
+"clave_v": "Alaves",
+"fecha": "2026-09-20",
+"l": "Athletic Club",
+"liga": "LaLiga",
+"marcador": "1-1",
+"o15": 0.6517,
+"o25": 0.3689,
+"o35": 0.1745,
+"p_marcador": 0.1417,
+"pe": 0.3104,
+"pl": 0.4655,
+"publicado": "2026-09-01T18:58Z",
+"pv": 0.224,
+"v": "Alavés"
+},
 "laliga|2026-09-20|athletic|deportivo alaves": {
 "btts": 0.4441,
 "clave_l": "Athletic Club",
@@ -7847,26 +7733,7 @@
 "pv": 0.3459,
 "v": "Real Madrid"
 },
-"laliga|2026-09-20|ca osasuna|rayo vallecano": {
-"btts": 0.5585,
-"clave_l": "CA Osasuna",
-"clave_liga": "laliga",
-"clave_v": "Rayo Vallecano",
-"fecha": "2026-09-20",
-"l": "CA Osasuna",
-"liga": "LaLiga",
-"marcador": "1-1",
-"o15": 0.7637,
-"o25": 0.5051,
-"o35": 0.2848,
-"p_marcador": 0.1353,
-"pe": 0.2836,
-"pl": 0.4042,
-"publicado": "2026-08-24T13:19Z",
-"pv": 0.3122,
-"v": "Rayo Vallecano"
-},
-"laliga|2026-09-20|celta vigo|real racing de santander": {
+"laliga|2026-09-20|celta vigo|real racing santander": {
 "btts": 0.4737,
 "clave_l": "Celta Vigo",
 "clave_liga": "laliga",
@@ -7885,7 +7752,7 @@
 "pv": 0.1777,
 "v": "Real Racing Club de Santander"
 },
-"laliga|2026-09-20|deportivo la coruna|real betis": {
+"laliga|2026-09-20|deportivo coruna|real betis": {
 "btts": 0.5443,
 "clave_l": "RC Deportivo La Coruña",
 "clave_liga": "laliga",
@@ -7941,6 +7808,25 @@
 "publicado": "2026-08-24T13:19Z",
 "pv": 0.2584,
 "v": "Málaga CF"
+},
+"laliga|2026-09-20|osasuna|rayo vallecano": {
+"btts": 0.5585,
+"clave_l": "CA Osasuna",
+"clave_liga": "laliga",
+"clave_v": "Rayo Vallecano",
+"fecha": "2026-09-20",
+"l": "CA Osasuna",
+"liga": "LaLiga",
+"marcador": "1-1",
+"o15": 0.7637,
+"o25": 0.5051,
+"o35": 0.2848,
+"p_marcador": 0.1353,
+"pe": 0.2836,
+"pl": 0.4042,
+"publicado": "2026-08-24T13:19Z",
+"pv": 0.3122,
+"v": "Rayo Vallecano"
 },
 "laliga|2026-09-20|sevilla|barcelona": {
 "btts": 0.5496,
@@ -7998,6 +7884,25 @@
 "publicado": "2026-08-24T13:19Z",
 "pv": 0.1417,
 "v": "Levante"
+},
+"laliga|2026-10-11|alaves|atletico madrid": {
+"btts": 0.5043,
+"clave_l": "Alaves",
+"clave_liga": "laliga",
+"clave_v": "Atletico Madrid",
+"fecha": "2026-10-11",
+"l": "Alavés",
+"liga": "LaLiga",
+"marcador": "1-1",
+"o15": 0.7091,
+"o25": 0.4344,
+"o35": 0.2246,
+"p_marcador": 0.144,
+"pe": 0.303,
+"pl": 0.382,
+"publicado": "2026-09-01T18:58Z",
+"pv": 0.3149,
+"v": "Atlético Madrid"
 },
 "laliga|2026-10-11|barcelona|getafe": {
 "btts": 0.3812,
@@ -8113,7 +8018,7 @@
 "pv": 0.3098,
 "v": "Athletic Club"
 },
-"laliga|2026-10-11|real betis|ca osasuna": {
+"laliga|2026-10-11|real betis|osasuna": {
 "btts": 0.5085,
 "clave_l": "Real Betis",
 "clave_liga": "laliga",
@@ -8151,7 +8056,7 @@
 "pv": 0.1698,
 "v": "Villarreal"
 },
-"laliga|2026-10-11|real racing de santander|valencia": {
+"laliga|2026-10-11|real racing santander|valencia": {
 "btts": 0.4943,
 "clave_l": "Real Racing Club de Santander",
 "clave_liga": "laliga",
@@ -8170,7 +8075,7 @@
 "pv": 0.3064,
 "v": "Valencia"
 },
-"laliga|2026-10-11|real sociedad|deportivo la coruna": {
+"laliga|2026-10-11|real sociedad|deportivo coruna": {
 "btts": 0.5101,
 "clave_l": "Real Sociedad",
 "clave_liga": "laliga",
@@ -8189,24 +8094,24 @@
 "pv": 0.1966,
 "v": "RC Deportivo La Coruña"
 },
-"laliga|2026-10-18|ca osasuna|real racing de santander": {
-"btts": 0.5409,
-"clave_l": "CA Osasuna",
+"laliga|2026-10-18|celta vigo|alaves": {
+"btts": 0.4511,
+"clave_l": "Celta Vigo",
 "clave_liga": "laliga",
-"clave_v": "Real Racing Club de Santander",
+"clave_v": "Alaves",
 "fecha": "2026-10-18",
-"l": "CA Osasuna",
+"l": "Celta Vigo",
 "liga": "LaLiga",
 "marcador": "1-1",
-"o15": 0.7589,
-"o25": 0.499,
-"o35": 0.2793,
-"p_marcador": 0.1325,
-"pe": 0.2773,
-"pl": 0.471,
-"publicado": "2026-08-30T23:36Z",
-"pv": 0.2517,
-"v": "Real Racing Club de Santander"
+"o15": 0.654,
+"o25": 0.3708,
+"o35": 0.1759,
+"p_marcador": 0.1478,
+"pe": 0.3205,
+"pl": 0.3885,
+"publicado": "2026-09-01T18:58Z",
+"pv": 0.291,
+"v": "Alavés"
 },
 "laliga|2026-10-18|celta vigo|deportivo alaves": {
 "btts": 0.4723,
@@ -8227,7 +8132,7 @@
 "pv": 0.2052,
 "v": "Deportivo Alavés"
 },
-"laliga|2026-10-18|deportivo la coruna|levante": {
+"laliga|2026-10-18|deportivo coruna|levante": {
 "btts": 0.5752,
 "clave_l": "RC Deportivo La Coruña",
 "clave_liga": "laliga",
@@ -8302,6 +8207,25 @@
 "publicado": "2026-08-30T21:14Z",
 "pv": 0.3138,
 "v": "Real Sociedad"
+},
+"laliga|2026-10-18|osasuna|real racing santander": {
+"btts": 0.5409,
+"clave_l": "CA Osasuna",
+"clave_liga": "laliga",
+"clave_v": "Real Racing Club de Santander",
+"fecha": "2026-10-18",
+"l": "CA Osasuna",
+"liga": "LaLiga",
+"marcador": "1-1",
+"o15": 0.7589,
+"o25": 0.499,
+"o35": 0.2793,
+"p_marcador": 0.1325,
+"pe": 0.2773,
+"pl": 0.471,
+"publicado": "2026-08-30T23:36Z",
+"pv": 0.2517,
+"v": "Real Racing Club de Santander"
 },
 "laliga|2026-10-18|real betis|barcelona": {
 "btts": 0.648,
@@ -8379,7 +8303,7 @@
 "pv": 0.1186,
 "v": "Elche"
 },
-"libertadores|2026-08-26|car independiente del valle|tolima": {
+"libertadores|2026-08-26|car independiente valle|tolima": {
 "btts": 0.0918,
 "clave_l": "CAR Independiente del Valle",
 "clave_liga": "libertadores",
@@ -8414,7 +8338,7 @@
 "real": "V",
 "v": "Lille"
 },
-"ligue1|2026-08-23|le havre|monaco": {
+"ligue1|2026-08-23|havre|monaco": {
 "clave_l": "Le Havre",
 "clave_liga": "ligue1",
 "clave_v": "Monaco",
@@ -8472,25 +8396,6 @@
 "real": "E",
 "v": "PSG"
 },
-"ligue1|2026-08-29|aj auxerre|angers": {
-"btts": 0.4275,
-"clave_l": "AJ Auxerre",
-"clave_liga": "ligue1",
-"clave_v": "Angers",
-"fecha": "2026-08-29",
-"l": "AJ Auxerre",
-"liga": "Ligue 1",
-"marcador": "1-1",
-"o15": 0.6401,
-"o25": 0.3562,
-"o35": 0.1654,
-"p_marcador": 0.1442,
-"pe": 0.318,
-"pl": 0.4432,
-"publicado": "2026-08-24T13:22Z",
-"pv": 0.2389,
-"v": "Angers"
-},
 "ligue1|2026-08-29|auxerre|angers": {
 "clave_l": "Auxerre",
 "clave_liga": "ligue1",
@@ -8511,6 +8416,25 @@
 "pv": 0.2075,
 "real": "V",
 "v": "Angers"
+},
+"ligue1|2026-08-29|brestois|toulouse": {
+"btts": 0.4011,
+"clave_l": "Stade Brestois 29",
+"clave_liga": "ligue1",
+"clave_v": "Toulouse",
+"fecha": "2026-08-29",
+"l": "Stade Brestois 29",
+"liga": "Ligue 1",
+"marcador": "0-0",
+"o15": 0.6053,
+"o25": 0.3203,
+"o35": 0.1409,
+"p_marcador": 0.1512,
+"pe": 0.3323,
+"pl": 0.2471,
+"publicado": "2026-08-24T13:22Z",
+"pv": 0.4206,
+"v": "Toulouse"
 },
 "ligue1|2026-08-29|brest|toulouse": {
 "clave_l": "Brest",
@@ -8533,25 +8457,6 @@
 "real": "E",
 "v": "Toulouse"
 },
-"ligue1|2026-08-29|lorient|es troyes": {
-"btts": 0.4756,
-"clave_l": "Lorient",
-"clave_liga": "ligue1",
-"clave_v": "ES Troyes AC",
-"fecha": "2026-08-29",
-"l": "Lorient",
-"liga": "Ligue 1",
-"marcador": "1-1",
-"o15": 0.7171,
-"o25": 0.4456,
-"o35": 0.2337,
-"p_marcador": 0.1312,
-"pe": 0.2774,
-"pl": 0.5296,
-"publicado": "2026-08-24T13:22Z",
-"pv": 0.1931,
-"v": "ES Troyes AC"
-},
 "ligue1|2026-08-29|lorient|troyes": {
 "clave_l": "Lorient",
 "clave_liga": "ligue1",
@@ -8573,7 +8478,26 @@
 "real": "V",
 "v": "Troyes"
 },
-"ligue1|2026-08-29|lyon|le havre": {
+"ligue1|2026-08-29|lyonnais|havre": {
+"btts": 0.4602,
+"clave_l": "Olympique Lyonnais",
+"clave_liga": "ligue1",
+"clave_v": "Le Havre",
+"fecha": "2026-08-29",
+"l": "Olympique Lyonnais",
+"liga": "Ligue 1",
+"marcador": "1-1",
+"o15": 0.6688,
+"o25": 0.3873,
+"o35": 0.1881,
+"p_marcador": 0.1454,
+"pe": 0.3127,
+"pl": 0.4188,
+"publicado": "2026-08-24T13:22Z",
+"pv": 0.2685,
+"v": "Le Havre"
+},
+"ligue1|2026-08-29|lyon|havre": {
 "clave_l": "Lyon",
 "clave_liga": "ligue1",
 "clave_v": "Le Havre",
@@ -8593,44 +8517,6 @@
 "pv": 0.1613,
 "real": "E",
 "v": "Le Havre"
-},
-"ligue1|2026-08-29|olympique lyonnais|le havre": {
-"btts": 0.4602,
-"clave_l": "Olympique Lyonnais",
-"clave_liga": "ligue1",
-"clave_v": "Le Havre",
-"fecha": "2026-08-29",
-"l": "Olympique Lyonnais",
-"liga": "Ligue 1",
-"marcador": "1-1",
-"o15": 0.6688,
-"o25": 0.3873,
-"o35": 0.1881,
-"p_marcador": 0.1454,
-"pe": 0.3127,
-"pl": 0.4188,
-"publicado": "2026-08-24T13:22Z",
-"pv": 0.2685,
-"v": "Le Havre"
-},
-"ligue1|2026-08-29|stade brestois 29|toulouse": {
-"btts": 0.4011,
-"clave_l": "Stade Brestois 29",
-"clave_liga": "ligue1",
-"clave_v": "Toulouse",
-"fecha": "2026-08-29",
-"l": "Stade Brestois 29",
-"liga": "Ligue 1",
-"marcador": "0-0",
-"o15": 0.6053,
-"o25": 0.3203,
-"o35": 0.1409,
-"p_marcador": 0.1512,
-"pe": 0.3323,
-"pl": 0.2471,
-"publicado": "2026-08-24T13:22Z",
-"pv": 0.4206,
-"v": "Toulouse"
 },
 "ligue1|2026-08-29|strasbourg|lens": {
 "clave_l": "Strasbourg",
@@ -8653,7 +8539,7 @@
 "real": "L",
 "v": "Lens"
 },
-"ligue1|2026-08-29|strasbourg|racing de lens": {
+"ligue1|2026-08-29|strasbourg|racing lens": {
 "btts": 0.4661,
 "clave_l": "Strasbourg",
 "clave_liga": "ligue1",
@@ -8693,25 +8579,6 @@
 "real": "L",
 "v": "Marseille"
 },
-"ligue1|2026-08-30|monaco|olympique de marseille": {
-"btts": 0.473,
-"clave_l": "Monaco",
-"clave_liga": "ligue1",
-"clave_v": "Olympique de Marseille",
-"fecha": "2026-08-30",
-"l": "Monaco",
-"liga": "Ligue 1",
-"marcador": "2-0",
-"o15": 0.7894,
-"o25": 0.5456,
-"o35": 0.3222,
-"p_marcador": 0.1277,
-"pe": 0.2097,
-"pl": 0.6803,
-"publicado": "2026-08-24T13:22Z",
-"pv": 0.11,
-"v": "Olympique de Marseille"
-},
 "ligue1|2026-08-30|paris|nice": {
 "clave_l": "Paris FC",
 "clave_liga": "ligue1",
@@ -8733,26 +8600,7 @@
 "real": "L",
 "v": "Nice"
 },
-"ligue1|2026-08-30|paris|ogc nice": {
-"btts": 0.5134,
-"clave_l": "Paris FC",
-"clave_liga": "ligue1",
-"clave_v": "OGC Nice",
-"fecha": "2026-08-30",
-"l": "Paris FC",
-"liga": "Ligue 1",
-"marcador": "1-1",
-"o15": 0.7564,
-"o25": 0.4965,
-"o35": 0.2771,
-"p_marcador": 0.1256,
-"pe": 0.263,
-"pl": 0.5433,
-"publicado": "2026-08-24T13:22Z",
-"pv": 0.1937,
-"v": "OGC Nice"
-},
-"ligue1|2026-08-30|rennes|le mans": {
+"ligue1|2026-08-30|rennes|mans": {
 "clave_l": "Rennes",
 "clave_liga": "ligue1",
 "clave_v": "Le Mans",
@@ -8773,25 +8621,6 @@
 "real": "L",
 "v": "Le Mans"
 },
-"ligue1|2026-08-30|stade rennais 1901|le mans": {
-"btts": 0.4455,
-"clave_l": "Stade Rennais FC 1901",
-"clave_liga": "ligue1",
-"clave_v": "Le Mans FC",
-"fecha": "2026-08-30",
-"l": "Stade Rennais FC 1901",
-"liga": "Ligue 1",
-"marcador": "1-1",
-"o15": 0.6525,
-"o25": 0.3693,
-"o35": 0.1748,
-"p_marcador": 0.1463,
-"pe": 0.3182,
-"pl": 0.4152,
-"publicado": "2026-08-24T13:22Z",
-"pv": 0.2666,
-"v": "Le Mans FC"
-},
 "ligue1|2026-09-03|toulouse|lille": {
 "clave_l": "Toulouse",
 "clave_liga": "ligue1",
@@ -8805,20 +8634,7 @@
 "pv": 0.3061,
 "v": "Lille"
 },
-"ligue1|2026-09-04|lyon|auxerre": {
-"clave_l": "Lyon",
-"clave_liga": "ligue1",
-"clave_v": "Auxerre",
-"fecha": "2026-09-04",
-"l": "Lyon",
-"liga": "Ligue 1",
-"pe": 0.2535,
-"pl": 0.5685,
-"publicado": "2026-08-22T22:06Z",
-"pv": 0.1779,
-"v": "Auxerre"
-},
-"ligue1|2026-09-04|olympique lyonnais|aj auxerre": {
+"ligue1|2026-09-04|lyonnais|auxerre": {
 "btts": 0.4455,
 "clave_l": "Olympique Lyonnais",
 "clave_liga": "ligue1",
@@ -8837,6 +8653,19 @@
 "pv": 0.2666,
 "v": "AJ Auxerre"
 },
+"ligue1|2026-09-04|lyon|auxerre": {
+"clave_l": "Lyon",
+"clave_liga": "ligue1",
+"clave_v": "Auxerre",
+"fecha": "2026-09-04",
+"l": "Lyon",
+"liga": "Ligue 1",
+"pe": 0.2535,
+"pl": 0.5685,
+"publicado": "2026-08-22T22:06Z",
+"pv": 0.1779,
+"v": "Auxerre"
+},
 "ligue1|2026-09-04|paris saint germain|monaco": {
 "clave_l": "Paris Saint Germain",
 "clave_liga": "ligue1",
@@ -8850,7 +8679,7 @@
 "pv": 0.1231,
 "v": "Monaco"
 },
-"ligue1|2026-09-05|le havre|brest": {
+"ligue1|2026-09-05|havre|brest": {
 "clave_l": "Le Havre",
 "clave_liga": "ligue1",
 "clave_v": "Brest",
@@ -8863,7 +8692,7 @@
 "pv": 0.3278,
 "v": "Brest"
 },
-"ligue1|2026-09-05|le havre|stade brestois 29": {
+"ligue1|2026-09-05|havre|brestois": {
 "btts": 0.4601,
 "clave_l": "Le Havre",
 "clave_liga": "ligue1",
@@ -8895,7 +8724,7 @@
 "pv": 0.1433,
 "v": "Lorient"
 },
-"ligue1|2026-09-05|nice|le mans": {
+"ligue1|2026-09-05|nice|mans": {
 "clave_l": "Nice",
 "clave_liga": "ligue1",
 "clave_v": "Le Mans",
@@ -8908,26 +8737,7 @@
 "pv": 0.2004,
 "v": "Le Mans"
 },
-"ligue1|2026-09-05|ogc nice|le mans": {
-"btts": 0.4455,
-"clave_l": "OGC Nice",
-"clave_liga": "ligue1",
-"clave_v": "Le Mans FC",
-"fecha": "2026-09-05",
-"l": "OGC Nice",
-"liga": "Ligue 1",
-"marcador": "1-1",
-"o15": 0.6525,
-"o25": 0.3693,
-"o35": 0.1748,
-"p_marcador": 0.1463,
-"pe": 0.3182,
-"pl": 0.4152,
-"publicado": "2026-08-24T13:22Z",
-"pv": 0.2666,
-"v": "Le Mans FC"
-},
-"ligue1|2026-09-05|racing de lens|lorient": {
+"ligue1|2026-09-05|racing lens|lorient": {
 "btts": 0.4924,
 "clave_l": "Racing Club de Lens",
 "clave_liga": "ligue1",
@@ -8959,44 +8769,6 @@
 "pv": 0.4308,
 "v": "Rennes"
 },
-"ligue1|2026-09-06|angers|stade rennais 1901": {
-"btts": 0.4324,
-"clave_l": "Angers",
-"clave_liga": "ligue1",
-"clave_v": "Stade Rennais FC 1901",
-"fecha": "2026-09-06",
-"l": "Angers",
-"liga": "Ligue 1",
-"marcador": "1-1",
-"o15": 0.6324,
-"o25": 0.3476,
-"o35": 0.1594,
-"p_marcador": 0.1488,
-"pe": 0.3282,
-"pl": 0.3792,
-"publicado": "2026-08-24T13:22Z",
-"pv": 0.2925,
-"v": "Stade Rennais FC 1901"
-},
-"ligue1|2026-09-06|es troyes|strasbourg": {
-"btts": 0.4852,
-"clave_l": "ES Troyes AC",
-"clave_liga": "ligue1",
-"clave_v": "Strasbourg",
-"fecha": "2026-09-06",
-"l": "ES Troyes AC",
-"liga": "Ligue 1",
-"marcador": "1-1",
-"o15": 0.6889,
-"o25": 0.4101,
-"o35": 0.2054,
-"p_marcador": 0.1462,
-"pe": 0.31,
-"pl": 0.3145,
-"publicado": "2026-08-24T13:22Z",
-"pv": 0.3754,
-"v": "Strasbourg"
-},
 "ligue1|2026-09-06|marseille|paris": {
 "clave_l": "Marseille",
 "clave_liga": "ligue1",
@@ -9008,25 +8780,6 @@
 "pl": 0.6389,
 "publicado": "2026-08-22T22:06Z",
 "pv": 0.1541,
-"v": "Paris FC"
-},
-"ligue1|2026-09-06|olympique de marseille|paris": {
-"btts": 0.532,
-"clave_l": "Olympique de Marseille",
-"clave_liga": "ligue1",
-"clave_v": "Paris FC",
-"fecha": "2026-09-06",
-"l": "Olympique de Marseille",
-"liga": "Ligue 1",
-"marcador": "1-1",
-"o15": 0.7359,
-"o25": 0.468,
-"o35": 0.2524,
-"p_marcador": 0.1408,
-"pe": 0.2947,
-"pl": 0.3371,
-"publicado": "2026-08-24T13:22Z",
-"pv": 0.3683,
 "v": "Paris FC"
 },
 "ligue1|2026-09-06|troyes|strasbourg": {
@@ -9042,7 +8795,7 @@
 "pv": 0.374,
 "v": "Strasbourg"
 },
-"ligue1|2026-09-11|stade rennais 1901|olympique de marseille": {
+"ligue1|2026-09-11|rennes|marseille": {
 "btts": 0.4455,
 "clave_l": "Stade Rennais FC 1901",
 "clave_liga": "ligue1",
@@ -9061,7 +8814,7 @@
 "pv": 0.2666,
 "v": "Olympique de Marseille"
 },
-"ligue1|2026-09-12|aj auxerre|ogc nice": {
+"ligue1|2026-09-12|auxerre|nice": {
 "btts": 0.4455,
 "clave_l": "AJ Auxerre",
 "clave_liga": "ligue1",
@@ -9080,7 +8833,7 @@
 "pv": 0.2666,
 "v": "OGC Nice"
 },
-"ligue1|2026-09-12|le havre|angers": {
+"ligue1|2026-09-12|havre|angers": {
 "btts": 0.4418,
 "clave_l": "Le Havre",
 "clave_liga": "ligue1",
@@ -9118,7 +8871,26 @@
 "pv": 0.3401,
 "v": "Toulouse"
 },
-"ligue1|2026-09-12|paris|olympique lyonnais": {
+"ligue1|2026-09-12|paris|lyon": {
+"btts": 0.586,
+"clave_l": "Paris FC",
+"clave_liga": "ligue1",
+"clave_v": "Lyon",
+"fecha": "2026-09-12",
+"l": "Paris FC",
+"liga": "Ligue 1",
+"marcador": "1-1",
+"o15": 0.7926,
+"o25": 0.5462,
+"o35": 0.3228,
+"p_marcador": 0.1279,
+"pe": 0.2709,
+"pl": 0.4375,
+"publicado": "2026-09-01T19:01Z",
+"pv": 0.2916,
+"v": "Lyon"
+},
+"ligue1|2026-09-12|paris|lyonnais": {
 "btts": 0.5134,
 "clave_l": "Paris FC",
 "clave_liga": "ligue1",
@@ -9156,45 +8928,7 @@
 "pv": 0.3942,
 "v": "Monaco"
 },
-"ligue1|2026-09-13|le mans|racing de lens": {
-"btts": 0.4455,
-"clave_l": "Le Mans FC",
-"clave_liga": "ligue1",
-"clave_v": "Racing Club de Lens",
-"fecha": "2026-09-13",
-"l": "Le Mans FC",
-"liga": "Ligue 1",
-"marcador": "1-1",
-"o15": 0.6525,
-"o25": 0.3693,
-"o35": 0.1748,
-"p_marcador": 0.1463,
-"pe": 0.3182,
-"pl": 0.4152,
-"publicado": "2026-08-24T13:22Z",
-"pv": 0.2666,
-"v": "Racing Club de Lens"
-},
-"ligue1|2026-09-13|lille|es troyes": {
-"btts": 0.3781,
-"clave_l": "Lille",
-"clave_liga": "ligue1",
-"clave_v": "ES Troyes AC",
-"fecha": "2026-09-13",
-"l": "Lille",
-"liga": "Ligue 1",
-"marcador": "1-0",
-"o15": 0.6819,
-"o25": 0.4059,
-"o35": 0.2021,
-"p_marcador": 0.1595,
-"pe": 0.2517,
-"pl": 0.6351,
-"publicado": "2026-08-24T13:22Z",
-"pv": 0.1132,
-"v": "ES Troyes AC"
-},
-"ligue1|2026-09-13|stade brestois 29|paris saint germain": {
+"ligue1|2026-09-13|brestois|paris saint germain": {
 "btts": 0.4302,
 "clave_l": "Stade Brestois 29",
 "clave_liga": "ligue1",
@@ -9213,13 +8947,70 @@
 "pv": 0.6732,
 "v": "PSG"
 },
-"ligue1|2026-09-19|aj auxerre|stade brestois 29": {
-"btts": 0.4455,
-"clave_l": "AJ Auxerre",
+"ligue1|2026-09-13|brest|paris saint germain": {
+"btts": 0.5039,
+"clave_l": "Brest",
 "clave_liga": "ligue1",
-"clave_v": "Stade Brestois 29",
-"fecha": "2026-09-19",
-"l": "AJ Auxerre",
+"clave_v": "Paris Saint Germain",
+"fecha": "2026-09-13",
+"l": "Brest",
+"liga": "Ligue 1",
+"marcador": "0-2",
+"o15": 0.7785,
+"o25": 0.5285,
+"o35": 0.3061,
+"p_marcador": 0.1146,
+"pe": 0.2362,
+"pl": 0.1491,
+"publicado": "2026-09-01T19:01Z",
+"pv": 0.6147,
+"v": "PSG"
+},
+"ligue1|2026-09-13|lille|troyes": {
+"btts": 0.3781,
+"clave_l": "Lille",
+"clave_liga": "ligue1",
+"clave_v": "ES Troyes AC",
+"fecha": "2026-09-13",
+"l": "Lille",
+"liga": "Ligue 1",
+"marcador": "1-0",
+"o15": 0.6819,
+"o25": 0.4059,
+"o35": 0.2021,
+"p_marcador": 0.1595,
+"pe": 0.2517,
+"pl": 0.6351,
+"publicado": "2026-08-24T13:22Z",
+"pv": 0.1132,
+"v": "ES Troyes AC"
+},
+"ligue1|2026-09-13|mans|lens": {
+"btts": 0.5291,
+"clave_l": "Le Mans FC",
+"clave_liga": "ligue1",
+"clave_v": "Lens",
+"fecha": "2026-09-13",
+"l": "Le Mans FC",
+"liga": "Ligue 1",
+"marcador": "1-1",
+"o15": 0.7774,
+"o25": 0.5259,
+"o35": 0.3037,
+"p_marcador": 0.1202,
+"pe": 0.2517,
+"pl": 0.1844,
+"publicado": "2026-09-01T19:01Z",
+"pv": 0.5639,
+"v": "Lens"
+},
+"ligue1|2026-09-13|mans|racing lens": {
+"btts": 0.4455,
+"clave_l": "Le Mans FC",
+"clave_liga": "ligue1",
+"clave_v": "Racing Club de Lens",
+"fecha": "2026-09-13",
+"l": "Le Mans FC",
 "liga": "Ligue 1",
 "marcador": "1-1",
 "o15": 0.6525,
@@ -9230,9 +9021,9 @@
 "pl": 0.4152,
 "publicado": "2026-08-24T13:22Z",
 "pv": 0.2666,
-"v": "Stade Brestois 29"
+"v": "Racing Club de Lens"
 },
-"ligue1|2026-09-19|angers|es troyes": {
+"ligue1|2026-09-19|angers|troyes": {
 "btts": 0.4324,
 "clave_l": "Angers",
 "clave_liga": "ligue1",
@@ -9251,7 +9042,83 @@
 "pv": 0.2925,
 "v": "ES Troyes AC"
 },
-"ligue1|2026-09-19|le mans|lorient": {
+"ligue1|2026-09-19|auxerre|brest": {
+"btts": 0.5303,
+"clave_l": "Auxerre",
+"clave_liga": "ligue1",
+"clave_v": "Brest",
+"fecha": "2026-09-19",
+"l": "Auxerre",
+"liga": "Ligue 1",
+"marcador": "1-1",
+"o15": 0.7342,
+"o25": 0.4659,
+"o35": 0.2505,
+"p_marcador": 0.141,
+"pe": 0.2952,
+"pl": 0.3683,
+"publicado": "2026-09-01T19:01Z",
+"pv": 0.3365,
+"v": "Brest"
+},
+"ligue1|2026-09-19|auxerre|brestois": {
+"btts": 0.4455,
+"clave_l": "AJ Auxerre",
+"clave_liga": "ligue1",
+"clave_v": "Stade Brestois 29",
+"fecha": "2026-09-19",
+"l": "AJ Auxerre",
+"liga": "Ligue 1",
+"marcador": "1-1",
+"o15": 0.6525,
+"o25": 0.3693,
+"o35": 0.1748,
+"p_marcador": 0.1463,
+"pe": 0.3182,
+"pl": 0.4152,
+"publicado": "2026-08-24T13:22Z",
+"pv": 0.2666,
+"v": "Stade Brestois 29"
+},
+"ligue1|2026-09-19|lyonnais|rennes": {
+"btts": 0.4455,
+"clave_l": "Olympique Lyonnais",
+"clave_liga": "ligue1",
+"clave_v": "Stade Rennais FC 1901",
+"fecha": "2026-09-19",
+"l": "Olympique Lyonnais",
+"liga": "Ligue 1",
+"marcador": "1-1",
+"o15": 0.6525,
+"o25": 0.3693,
+"o35": 0.1748,
+"p_marcador": 0.1463,
+"pe": 0.3182,
+"pl": 0.4152,
+"publicado": "2026-08-24T13:22Z",
+"pv": 0.2666,
+"v": "Stade Rennais FC 1901"
+},
+"ligue1|2026-09-19|lyon|rennes": {
+"btts": 0.5961,
+"clave_l": "Lyon",
+"clave_liga": "ligue1",
+"clave_v": "Rennes",
+"fecha": "2026-09-19",
+"l": "Lyon",
+"liga": "Ligue 1",
+"marcador": "1-1",
+"o15": 0.8076,
+"o25": 0.569,
+"o35": 0.345,
+"p_marcador": 0.1223,
+"pe": 0.261,
+"pl": 0.4755,
+"publicado": "2026-09-01T19:01Z",
+"pv": 0.2635,
+"v": "Rennes"
+},
+"ligue1|2026-09-19|mans|lorient": {
 "btts": 0.4924,
 "clave_l": "Le Mans FC",
 "clave_liga": "ligue1",
@@ -9270,7 +9137,26 @@
 "pv": 0.3614,
 "v": "Lorient"
 },
-"ligue1|2026-09-19|monaco|racing de lens": {
+"ligue1|2026-09-19|monaco|lens": {
+"btts": 0.6291,
+"clave_l": "Monaco",
+"clave_liga": "ligue1",
+"clave_v": "Lens",
+"fecha": "2026-09-19",
+"l": "Monaco",
+"liga": "Ligue 1",
+"marcador": "1-1",
+"o15": 0.8266,
+"o25": 0.5981,
+"o35": 0.3744,
+"p_marcador": 0.1196,
+"pe": 0.2606,
+"pl": 0.4178,
+"publicado": "2026-09-01T19:01Z",
+"pv": 0.3215,
+"v": "Lens"
+},
+"ligue1|2026-09-19|monaco|racing lens": {
 "btts": 0.473,
 "clave_l": "Monaco",
 "clave_liga": "ligue1",
@@ -9289,7 +9175,7 @@
 "pv": 0.11,
 "v": "Racing Club de Lens"
 },
-"ligue1|2026-09-19|ogc nice|lille": {
+"ligue1|2026-09-19|nice|lille": {
 "btts": 0.4085,
 "clave_l": "OGC Nice",
 "clave_liga": "ligue1",
@@ -9307,25 +9193,6 @@
 "publicado": "2026-08-24T13:22Z",
 "pv": 0.4757,
 "v": "Lille"
-},
-"ligue1|2026-09-19|olympique lyonnais|stade rennais 1901": {
-"btts": 0.4455,
-"clave_l": "Olympique Lyonnais",
-"clave_liga": "ligue1",
-"clave_v": "Stade Rennais FC 1901",
-"fecha": "2026-09-19",
-"l": "Olympique Lyonnais",
-"liga": "Ligue 1",
-"marcador": "1-1",
-"o15": 0.6525,
-"o25": 0.3693,
-"o35": 0.1748,
-"p_marcador": 0.1463,
-"pe": 0.3182,
-"pl": 0.4152,
-"publicado": "2026-08-24T13:22Z",
-"pv": 0.2666,
-"v": "Stade Rennais FC 1901"
 },
 "ligue1|2026-09-19|paris|strasbourg": {
 "btts": 0.568,
@@ -9346,7 +9213,7 @@
 "pv": 0.293,
 "v": "Strasbourg"
 },
-"ligue1|2026-09-19|toulouse|le havre": {
+"ligue1|2026-09-19|toulouse|havre": {
 "btts": 0.3909,
 "clave_l": "Toulouse",
 "clave_liga": "ligue1",
@@ -9365,7 +9232,7 @@
 "pv": 0.1405,
 "v": "Le Havre"
 },
-"ligue1|2026-09-20|olympique de marseille|paris saint germain": {
+"ligue1|2026-09-20|marseille|paris saint germain": {
 "btts": 0.4302,
 "clave_l": "Olympique de Marseille",
 "clave_liga": "ligue1",
@@ -9384,26 +9251,64 @@
 "pv": 0.6732,
 "v": "PSG"
 },
-"ligue1|2026-10-10|es troyes|olympique de marseille": {
-"btts": 0.4455,
-"clave_l": "ES Troyes AC",
+"ligue1|2026-10-10|brestois|angers": {
+"btts": 0.4275,
+"clave_l": "Stade Brestois 29",
 "clave_liga": "ligue1",
-"clave_v": "Olympique de Marseille",
+"clave_v": "Angers",
 "fecha": "2026-10-10",
-"l": "ES Troyes AC",
+"l": "Stade Brestois 29",
 "liga": "Ligue 1",
 "marcador": "1-1",
-"o15": 0.6525,
-"o25": 0.3693,
-"o35": 0.1748,
-"p_marcador": 0.1463,
-"pe": 0.3182,
-"pl": 0.4152,
+"o15": 0.6401,
+"o25": 0.3562,
+"o35": 0.1654,
+"p_marcador": 0.1442,
+"pe": 0.318,
+"pl": 0.4432,
 "publicado": "2026-08-24T13:22Z",
-"pv": 0.2666,
-"v": "Olympique de Marseille"
+"pv": 0.2389,
+"v": "Angers"
 },
-"ligue1|2026-10-10|lille|le havre": {
+"ligue1|2026-10-10|brest|angers": {
+"btts": 0.4732,
+"clave_l": "Brest",
+"clave_liga": "ligue1",
+"clave_v": "Angers",
+"fecha": "2026-10-10",
+"l": "Brest",
+"liga": "Ligue 1",
+"marcador": "1-1",
+"o15": 0.7206,
+"o25": 0.4502,
+"o35": 0.2375,
+"p_marcador": 0.129,
+"pe": 0.2727,
+"pl": 0.5438,
+"publicado": "2026-09-01T19:01Z",
+"pv": 0.1835,
+"v": "Angers"
+},
+"ligue1|2026-10-10|lens|lyon": {
+"btts": 0.5975,
+"clave_l": "Lens",
+"clave_liga": "ligue1",
+"clave_v": "Lyon",
+"fecha": "2026-10-10",
+"l": "Lens",
+"liga": "Ligue 1",
+"marcador": "1-1",
+"o15": 0.8423,
+"o25": 0.6255,
+"o35": 0.4032,
+"p_marcador": 0.103,
+"pe": 0.2235,
+"pl": 0.5986,
+"publicado": "2026-09-01T19:01Z",
+"pv": 0.1779,
+"v": "Lyon"
+},
+"ligue1|2026-10-10|lille|havre": {
 "btts": 0.3907,
 "clave_l": "Lille",
 "clave_liga": "ligue1",
@@ -9460,7 +9365,7 @@
 "pv": 0.2313,
 "v": "Toulouse"
 },
-"ligue1|2026-10-10|ogc nice|strasbourg": {
+"ligue1|2026-10-10|nice|strasbourg": {
 "btts": 0.4852,
 "clave_l": "OGC Nice",
 "clave_liga": "ligue1",
@@ -9479,7 +9384,7 @@
 "pv": 0.3754,
 "v": "Strasbourg"
 },
-"ligue1|2026-10-10|paris saint germain|le mans": {
+"ligue1|2026-10-10|paris saint germain|mans": {
 "btts": 0.3754,
 "clave_l": "Paris Saint Germain",
 "clave_liga": "ligue1",
@@ -9498,7 +9403,7 @@
 "pv": 0.0453,
 "v": "Le Mans FC"
 },
-"ligue1|2026-10-10|racing de lens|olympique lyonnais": {
+"ligue1|2026-10-10|racing lens|lyonnais": {
 "btts": 0.4455,
 "clave_l": "Racing Club de Lens",
 "clave_liga": "ligue1",
@@ -9517,26 +9422,7 @@
 "pv": 0.2666,
 "v": "Olympique Lyonnais"
 },
-"ligue1|2026-10-10|stade brestois 29|angers": {
-"btts": 0.4275,
-"clave_l": "Stade Brestois 29",
-"clave_liga": "ligue1",
-"clave_v": "Angers",
-"fecha": "2026-10-10",
-"l": "Stade Brestois 29",
-"liga": "Ligue 1",
-"marcador": "1-1",
-"o15": 0.6401,
-"o25": 0.3562,
-"o35": 0.1654,
-"p_marcador": 0.1442,
-"pe": 0.318,
-"pl": 0.4432,
-"publicado": "2026-08-24T13:22Z",
-"pv": 0.2389,
-"v": "Angers"
-},
-"ligue1|2026-10-10|stade rennais 1901|aj auxerre": {
+"ligue1|2026-10-10|rennes|auxerre": {
 "btts": 0.4455,
 "clave_l": "Stade Rennais FC 1901",
 "clave_liga": "ligue1",
@@ -9555,7 +9441,26 @@
 "pv": 0.2666,
 "v": "AJ Auxerre"
 },
-"ligue1|2026-10-17|angers|olympique de marseille": {
+"ligue1|2026-10-10|troyes|marseille": {
+"btts": 0.4455,
+"clave_l": "ES Troyes AC",
+"clave_liga": "ligue1",
+"clave_v": "Olympique de Marseille",
+"fecha": "2026-10-10",
+"l": "ES Troyes AC",
+"liga": "Ligue 1",
+"marcador": "1-1",
+"o15": 0.6525,
+"o25": 0.3693,
+"o35": 0.1748,
+"p_marcador": 0.1463,
+"pe": 0.3182,
+"pl": 0.4152,
+"publicado": "2026-08-24T13:22Z",
+"pv": 0.2666,
+"v": "Olympique de Marseille"
+},
+"ligue1|2026-10-17|angers|marseille": {
 "btts": 0.4324,
 "clave_l": "Angers",
 "clave_liga": "ligue1",
@@ -9574,26 +9479,7 @@
 "pv": 0.2925,
 "v": "Olympique de Marseille"
 },
-"ligue1|2026-10-17|es troyes|racing de lens": {
-"btts": 0.4455,
-"clave_l": "ES Troyes AC",
-"clave_liga": "ligue1",
-"clave_v": "Racing Club de Lens",
-"fecha": "2026-10-17",
-"l": "ES Troyes AC",
-"liga": "Ligue 1",
-"marcador": "1-1",
-"o15": 0.6525,
-"o25": 0.3693,
-"o35": 0.1748,
-"p_marcador": 0.1463,
-"pe": 0.3182,
-"pl": 0.4152,
-"publicado": "2026-08-24T13:22Z",
-"pv": 0.2666,
-"v": "Racing Club de Lens"
-},
-"ligue1|2026-10-17|le havre|aj auxerre": {
+"ligue1|2026-10-17|havre|auxerre": {
 "btts": 0.4601,
 "clave_l": "Le Havre",
 "clave_liga": "ligue1",
@@ -9612,26 +9498,26 @@
 "pv": 0.2677,
 "v": "AJ Auxerre"
 },
-"ligue1|2026-10-17|le mans|toulouse": {
-"btts": 0.4011,
-"clave_l": "Le Mans FC",
+"ligue1|2026-10-17|lille|brest": {
+"btts": 0.4477,
+"clave_l": "Lille",
 "clave_liga": "ligue1",
-"clave_v": "Toulouse",
+"clave_v": "Brest",
 "fecha": "2026-10-17",
-"l": "Le Mans FC",
+"l": "Lille",
 "liga": "Ligue 1",
-"marcador": "0-0",
-"o15": 0.6053,
-"o25": 0.3203,
-"o35": 0.1409,
-"p_marcador": 0.1512,
-"pe": 0.3323,
-"pl": 0.2471,
-"publicado": "2026-08-24T13:22Z",
-"pv": 0.4206,
-"v": "Toulouse"
+"marcador": "1-0",
+"o15": 0.7088,
+"o25": 0.4362,
+"o35": 0.226,
+"p_marcador": 0.1338,
+"pe": 0.2682,
+"pl": 0.5699,
+"publicado": "2026-09-01T19:01Z",
+"pv": 0.1618,
+"v": "Brest"
 },
-"ligue1|2026-10-17|lille|stade brestois 29": {
+"ligue1|2026-10-17|lille|brestois": {
 "btts": 0.3781,
 "clave_l": "Lille",
 "clave_liga": "ligue1",
@@ -9669,7 +9555,7 @@
 "pv": 0.4127,
 "v": "Monaco"
 },
-"ligue1|2026-10-17|olympique lyonnais|ogc nice": {
+"ligue1|2026-10-17|lyonnais|nice": {
 "btts": 0.4455,
 "clave_l": "Olympique Lyonnais",
 "clave_liga": "ligue1",
@@ -9688,7 +9574,45 @@
 "pv": 0.2666,
 "v": "OGC Nice"
 },
-"ligue1|2026-10-17|paris|stade rennais 1901": {
+"ligue1|2026-10-17|lyon|nice": {
+"btts": 0.5699,
+"clave_l": "Lyon",
+"clave_liga": "ligue1",
+"clave_v": "Nice",
+"fecha": "2026-10-17",
+"l": "Lyon",
+"liga": "Ligue 1",
+"marcador": "1-1",
+"o15": 0.7995,
+"o25": 0.5573,
+"o35": 0.3335,
+"p_marcador": 0.12,
+"pe": 0.2535,
+"pl": 0.5301,
+"publicado": "2026-09-01T19:01Z",
+"pv": 0.2164,
+"v": "Nice"
+},
+"ligue1|2026-10-17|mans|toulouse": {
+"btts": 0.4011,
+"clave_l": "Le Mans FC",
+"clave_liga": "ligue1",
+"clave_v": "Toulouse",
+"fecha": "2026-10-17",
+"l": "Le Mans FC",
+"liga": "Ligue 1",
+"marcador": "0-0",
+"o15": 0.6053,
+"o25": 0.3203,
+"o35": 0.1409,
+"p_marcador": 0.1512,
+"pe": 0.3323,
+"pl": 0.2471,
+"publicado": "2026-08-24T13:22Z",
+"pv": 0.4206,
+"v": "Toulouse"
+},
+"ligue1|2026-10-17|paris|rennes": {
 "btts": 0.5134,
 "clave_l": "Paris FC",
 "clave_liga": "ligue1",
@@ -9726,24 +9650,43 @@
 "pv": 0.5733,
 "v": "PSG"
 },
-"ligue1|2026-10-24|aj auxerre|le mans": {
-"btts": 0.4409,
-"clave_l": "AJ Auxerre",
+"ligue1|2026-10-17|troyes|lens": {
+"btts": 0.5291,
+"clave_l": "ES Troyes AC",
 "clave_liga": "ligue1",
-"clave_v": "Le Mans FC",
-"fecha": "2026-10-24",
-"l": "AJ Auxerre",
+"clave_v": "Lens",
+"fecha": "2026-10-17",
+"l": "ES Troyes AC",
 "liga": "Ligue 1",
 "marcador": "1-1",
-"o15": 0.6468,
-"o25": 0.3631,
-"o35": 0.1703,
-"p_marcador": 0.1468,
-"pe": 0.3205,
-"pl": 0.411,
-"publicado": "2026-08-30T00:28Z",
-"pv": 0.2684,
-"v": "Le Mans FC"
+"o15": 0.7774,
+"o25": 0.5259,
+"o35": 0.3037,
+"p_marcador": 0.1202,
+"pe": 0.2517,
+"pl": 0.1844,
+"publicado": "2026-09-01T19:01Z",
+"pv": 0.5639,
+"v": "Lens"
+},
+"ligue1|2026-10-17|troyes|racing lens": {
+"btts": 0.4455,
+"clave_l": "ES Troyes AC",
+"clave_liga": "ligue1",
+"clave_v": "Racing Club de Lens",
+"fecha": "2026-10-17",
+"l": "ES Troyes AC",
+"liga": "Ligue 1",
+"marcador": "1-1",
+"o15": 0.6525,
+"o25": 0.3693,
+"o35": 0.1748,
+"p_marcador": 0.1463,
+"pe": 0.3182,
+"pl": 0.4152,
+"publicado": "2026-08-24T13:22Z",
+"pv": 0.2666,
+"v": "Racing Club de Lens"
 },
 "ligue1|2026-10-24|angers|lorient": {
 "btts": 0.4756,
@@ -9764,6 +9707,101 @@
 "pv": 0.3908,
 "v": "Lorient"
 },
+"ligue1|2026-10-24|auxerre|mans": {
+"btts": 0.4409,
+"clave_l": "AJ Auxerre",
+"clave_liga": "ligue1",
+"clave_v": "Le Mans FC",
+"fecha": "2026-10-24",
+"l": "AJ Auxerre",
+"liga": "Ligue 1",
+"marcador": "1-1",
+"o15": 0.6468,
+"o25": 0.3631,
+"o35": 0.1703,
+"p_marcador": 0.1468,
+"pe": 0.3205,
+"pl": 0.411,
+"publicado": "2026-08-30T00:28Z",
+"pv": 0.2684,
+"v": "Le Mans FC"
+},
+"ligue1|2026-10-24|brestois|nice": {
+"btts": 0.4455,
+"clave_l": "Stade Brestois 29",
+"clave_liga": "ligue1",
+"clave_v": "OGC Nice",
+"fecha": "2026-10-24",
+"l": "Stade Brestois 29",
+"liga": "Ligue 1",
+"marcador": "1-1",
+"o15": 0.6525,
+"o25": 0.3693,
+"o35": 0.1748,
+"p_marcador": 0.1463,
+"pe": 0.3182,
+"pl": 0.4152,
+"publicado": "2026-08-24T13:22Z",
+"pv": 0.2666,
+"v": "OGC Nice"
+},
+"ligue1|2026-10-24|brest|nice": {
+"btts": 0.5628,
+"clave_l": "Brest",
+"clave_liga": "ligue1",
+"clave_v": "Nice",
+"fecha": "2026-10-24",
+"l": "Brest",
+"liga": "Ligue 1",
+"marcador": "1-1",
+"o15": 0.7757,
+"o25": 0.5221,
+"o35": 0.3002,
+"p_marcador": 0.1304,
+"pe": 0.274,
+"pl": 0.4578,
+"publicado": "2026-09-01T19:01Z",
+"pv": 0.2682,
+"v": "Nice"
+},
+"ligue1|2026-10-24|lens|paris": {
+"btts": 0.5953,
+"clave_l": "Lens",
+"clave_liga": "ligue1",
+"clave_v": "Paris FC",
+"fecha": "2026-10-24",
+"l": "Lens",
+"liga": "Ligue 1",
+"marcador": "1-1",
+"o15": 0.8448,
+"o25": 0.6298,
+"o35": 0.4079,
+"p_marcador": 0.1011,
+"pe": 0.2194,
+"pl": 0.6103,
+"publicado": "2026-09-01T19:01Z",
+"pv": 0.1703,
+"v": "Paris FC"
+},
+"ligue1|2026-10-24|marseille|havre": {
+"btts": 0.4602,
+"clave_l": "Olympique de Marseille",
+"clave_liga": "ligue1",
+"clave_v": "Le Havre",
+"fecha": "2026-10-24",
+"l": "Olympique de Marseille",
+"liga": "Ligue 1",
+"marcador": "1-1",
+"o15": 0.6688,
+"o25": 0.3873,
+"o35": 0.1881,
+"p_marcador": 0.1454,
+"pe": 0.3127,
+"pl": 0.4188,
+"publicado": "2026-08-24T13:22Z",
+"pv": 0.2685,
+"v": "Le Havre"
+},
 "ligue1|2026-10-24|monaco|lille": {
 "btts": 0.4913,
 "clave_l": "Monaco",
@@ -9783,26 +9821,7 @@
 "pv": 0.2761,
 "v": "Lille"
 },
-"ligue1|2026-10-24|olympique de marseille|le havre": {
-"btts": 0.4602,
-"clave_l": "Olympique de Marseille",
-"clave_liga": "ligue1",
-"clave_v": "Le Havre",
-"fecha": "2026-10-24",
-"l": "Olympique de Marseille",
-"liga": "Ligue 1",
-"marcador": "1-1",
-"o15": 0.6688,
-"o25": 0.3873,
-"o35": 0.1881,
-"p_marcador": 0.1454,
-"pe": 0.3127,
-"pl": 0.4188,
-"publicado": "2026-08-24T13:22Z",
-"pv": 0.2685,
-"v": "Le Havre"
-},
-"ligue1|2026-10-24|racing de lens|paris": {
+"ligue1|2026-10-24|racing lens|paris": {
 "btts": 0.532,
 "clave_l": "Racing Club de Lens",
 "clave_liga": "ligue1",
@@ -9821,26 +9840,7 @@
 "pv": 0.3683,
 "v": "Paris FC"
 },
-"ligue1|2026-10-24|stade brestois 29|ogc nice": {
-"btts": 0.4455,
-"clave_l": "Stade Brestois 29",
-"clave_liga": "ligue1",
-"clave_v": "OGC Nice",
-"fecha": "2026-10-24",
-"l": "Stade Brestois 29",
-"liga": "Ligue 1",
-"marcador": "1-1",
-"o15": 0.6525,
-"o25": 0.3693,
-"o35": 0.1748,
-"p_marcador": 0.1463,
-"pe": 0.3182,
-"pl": 0.4152,
-"publicado": "2026-08-24T13:22Z",
-"pv": 0.2666,
-"v": "OGC Nice"
-},
-"ligue1|2026-10-24|stade rennais 1901|strasbourg": {
+"ligue1|2026-10-24|rennes|strasbourg": {
 "btts": 0.4852,
 "clave_l": "Stade Rennais FC 1901",
 "clave_liga": "ligue1",
@@ -9859,7 +9859,7 @@
 "pv": 0.3754,
 "v": "Strasbourg"
 },
-"ligue1|2026-10-24|toulouse|es troyes": {
+"ligue1|2026-10-24|toulouse|troyes": {
 "btts": 0.3775,
 "clave_l": "Toulouse",
 "clave_liga": "ligue1",
@@ -9878,7 +9878,26 @@
 "pv": 0.1407,
 "v": "ES Troyes AC"
 },
-"ligue1|2026-10-25|paris saint germain|olympique lyonnais": {
+"ligue1|2026-10-25|paris saint germain|lyon": {
+"btts": 0.4877,
+"clave_l": "Paris Saint Germain",
+"clave_liga": "ligue1",
+"clave_v": "Lyon",
+"fecha": "2026-10-25",
+"l": "PSG",
+"liga": "Ligue 1",
+"marcador": "2-0",
+"o15": 0.8245,
+"o25": 0.5997,
+"o35": 0.3758,
+"p_marcador": 0.124,
+"pe": 0.1847,
+"pl": 0.7218,
+"publicado": "2026-09-01T19:01Z",
+"pv": 0.0935,
+"v": "Lyon"
+},
+"ligue1|2026-10-25|paris saint germain|lyonnais": {
 "btts": 0.3764,
 "clave_l": "Paris Saint Germain",
 "clave_liga": "ligue1",
@@ -9897,26 +9916,7 @@
 "pv": 0.0456,
 "v": "Olympique Lyonnais"
 },
-"ligue1|2026-10-31|es troyes|le mans": {
-"btts": 0.4404,
-"clave_l": "ES Troyes AC",
-"clave_liga": "ligue1",
-"clave_v": "Le Mans FC",
-"fecha": "2026-10-31",
-"l": "ES Troyes AC",
-"liga": "Ligue 1",
-"marcador": "1-1",
-"o15": 0.6462,
-"o25": 0.3624,
-"o35": 0.1699,
-"p_marcador": 0.1468,
-"pe": 0.3208,
-"pl": 0.4104,
-"publicado": "2026-08-31T05:48Z",
-"pv": 0.2688,
-"v": "Le Mans FC"
-},
-"ligue1|2026-10-31|le havre|paris saint germain": {
+"ligue1|2026-10-31|havre|paris saint germain": {
 "btts": 0.4469,
 "clave_l": "Le Havre",
 "clave_liga": "ligue1",
@@ -9935,7 +9935,26 @@
 "pv": 0.6867,
 "v": "PSG"
 },
-"ligue1|2026-10-31|lille|racing de lens": {
+"ligue1|2026-10-31|lille|lens": {
+"btts": 0.5239,
+"clave_l": "Lille",
+"clave_liga": "ligue1",
+"clave_v": "Lens",
+"fecha": "2026-10-31",
+"l": "Lille",
+"liga": "Ligue 1",
+"marcador": "1-1",
+"o15": 0.7304,
+"o25": 0.461,
+"o35": 0.2465,
+"p_marcador": 0.1408,
+"pe": 0.2949,
+"pl": 0.3999,
+"publicado": "2026-09-01T19:01Z",
+"pv": 0.3052,
+"v": "Lens"
+},
+"ligue1|2026-10-31|lille|racing lens": {
 "btts": 0.3794,
 "clave_l": "Lille",
 "clave_liga": "ligue1",
@@ -9954,7 +9973,26 @@
 "pv": 0.1149,
 "v": "Racing Club de Lens"
 },
-"ligue1|2026-10-31|lorient|stade brestois 29": {
+"ligue1|2026-10-31|lorient|brest": {
+"btts": 0.5494,
+"clave_l": "Lorient",
+"clave_liga": "ligue1",
+"clave_v": "Brest",
+"fecha": "2026-10-31",
+"l": "Lorient",
+"liga": "Ligue 1",
+"marcador": "1-1",
+"o15": 0.7592,
+"o25": 0.4991,
+"o35": 0.2794,
+"p_marcador": 0.1349,
+"pe": 0.2824,
+"pl": 0.4332,
+"publicado": "2026-09-01T19:01Z",
+"pv": 0.2844,
+"v": "Brest"
+},
+"ligue1|2026-10-31|lorient|brestois": {
 "btts": 0.4824,
 "clave_l": "Lorient",
 "clave_liga": "ligue1",
@@ -9973,7 +10011,7 @@
 "pv": 0.2076,
 "v": "Stade Brestois 29"
 },
-"ligue1|2026-10-31|olympique lyonnais|angers": {
+"ligue1|2026-10-31|lyonnais|angers": {
 "btts": 0.4329,
 "clave_l": "Olympique Lyonnais",
 "clave_liga": "ligue1",
@@ -9990,6 +10028,25 @@
 "pl": 0.4363,
 "publicado": "2026-08-30T00:28Z",
 "pv": 0.2457,
+"v": "Angers"
+},
+"ligue1|2026-10-31|lyon|angers": {
+"btts": 0.4749,
+"clave_l": "Lyon",
+"clave_liga": "ligue1",
+"clave_v": "Angers",
+"fecha": "2026-10-31",
+"l": "Lyon",
+"liga": "Ligue 1",
+"marcador": "2-0",
+"o15": 0.7538,
+"o25": 0.4944,
+"o35": 0.2752,
+"p_marcador": 0.1213,
+"pe": 0.2431,
+"pl": 0.6127,
+"publicado": "2026-09-01T19:01Z",
+"pv": 0.1442,
 "v": "Angers"
 },
 "ligue1|2026-10-31|paris|monaco": {
@@ -10010,6 +10067,25 @@
 "publicado": "2026-08-31T05:48Z",
 "pv": 0.3794,
 "v": "Monaco"
+},
+"ligue1|2026-10-31|troyes|mans": {
+"btts": 0.4404,
+"clave_l": "ES Troyes AC",
+"clave_liga": "ligue1",
+"clave_v": "Le Mans FC",
+"fecha": "2026-10-31",
+"l": "ES Troyes AC",
+"liga": "Ligue 1",
+"marcador": "1-1",
+"o15": 0.6462,
+"o25": 0.3624,
+"o35": 0.1699,
+"p_marcador": 0.1468,
+"pe": 0.3208,
+"pl": 0.4104,
+"publicado": "2026-08-31T05:48Z",
+"pv": 0.2688,
+"v": "Le Mans FC"
 },
 "premier|2026-08-23|brighton|aston villa": {
 "clave_l": "Brighton",
@@ -11592,7 +11668,7 @@
 "pv": 0.3402,
 "v": "Leeds United"
 },
-"primeira|2026-08-23|cs maritimo|academico de viseu": {
+"primeira|2026-08-23|cs maritimo|academico viseu": {
 "clave_l": "CS Marítimo",
 "clave_liga": "primeira",
 "clave_v": "Académico de Viseu FC",
@@ -11605,7 +11681,7 @@
 "pv": 0.1914,
 "v": "Académico de Viseu FC"
 },
-"primeira|2026-08-23|estrela da amadora|sporting clube de braga": {
+"primeira|2026-08-23|estrela da amadora|sporting clube braga": {
 "clave_l": "CF Estrela da Amadora",
 "clave_liga": "primeira",
 "clave_v": "Sporting Clube de Braga",
@@ -11678,7 +11754,7 @@
 "real": "L",
 "v": "FC Arouca"
 },
-"primeira|2026-08-23|santa clara|famalicão": {
+"primeira|2026-08-23|santa clara|famalicao": {
 "clave_l": "CD Santa Clara",
 "clave_liga": "primeira",
 "clave_v": "FC Famalicão",
@@ -11699,7 +11775,7 @@
 "real": "L",
 "v": "FC Famalicão"
 },
-"primeira|2026-08-23|sporting clube de portugal|alverca": {
+"primeira|2026-08-23|sporting clube portugal|alverca": {
 "clave_l": "Sporting Clube de Portugal",
 "clave_liga": "primeira",
 "clave_v": "FC Alverca",
@@ -11712,7 +11788,7 @@
 "pv": 0.008,
 "v": "FC Alverca"
 },
-"primeira|2026-08-23|vitoria guimarães|nacional": {
+"primeira|2026-08-23|vitoria guimaraes|nacional": {
 "clave_l": "Vitória Guimarães",
 "clave_liga": "primeira",
 "clave_v": "CD Nacional",
@@ -11754,7 +11830,7 @@
 "real": "L",
 "v": "Casa Pia AC"
 },
-"primeira|2026-08-28|rio ave|sporting clube de portugal": {
+"primeira|2026-08-28|rio ave|sporting clube portugal": {
 "clave_l": "Rio Ave FC",
 "clave_liga": "primeira",
 "clave_v": "Sporting Clube de Portugal",
@@ -11775,7 +11851,7 @@
 "real": "V",
 "v": "Sporting Clube de Portugal"
 },
-"primeira|2026-08-29|academico de viseu|porto": {
+"primeira|2026-08-29|academico viseu|porto": {
 "clave_l": "Académico de Viseu FC",
 "clave_liga": "primeira",
 "clave_v": "FC Porto",
@@ -11838,7 +11914,7 @@
 "real": "L",
 "v": "CS Marítimo"
 },
-"primeira|2026-08-30|academico de viseu|porto": {
+"primeira|2026-08-30|academico viseu|porto": {
 "clave_l": "Académico de Viseu FC",
 "clave_liga": "primeira",
 "clave_v": "FC Porto",
@@ -11898,7 +11974,7 @@
 "real": "V",
 "v": "Moreirense FC"
 },
-"primeira|2026-08-30|famalicão|gil vicente": {
+"primeira|2026-08-30|famalicao|gil vicente": {
 "clave_l": "FC Famalicão",
 "clave_liga": "primeira",
 "clave_v": "Gil Vicente FC",
@@ -11940,7 +12016,7 @@
 "real": "V",
 "v": "CF Estrela da Amadora"
 },
-"primeira|2026-08-30|rio ave|sporting clube de portugal": {
+"primeira|2026-08-30|rio ave|sporting clube portugal": {
 "clave_l": "Rio Ave FC",
 "clave_liga": "primeira",
 "clave_v": "Sporting Clube de Portugal",
@@ -11966,7 +12042,7 @@
 "pv": 0.0163,
 "v": "GD Estoril Praia"
 },
-"primeira|2026-08-30|sporting clube de braga|vitoria guimarães": {
+"primeira|2026-08-30|sporting clube braga|vitoria guimaraes": {
 "clave_l": "Sporting Clube de Braga",
 "clave_liga": "primeira",
 "clave_v": "Vitória Guimarães",
@@ -12000,7 +12076,7 @@
 "real": "L",
 "v": "GD Estoril Praia"
 },
-"primeira|2026-08-31|sporting clube de braga|vitoria guimarães": {
+"primeira|2026-08-31|sporting clube braga|vitoria guimaraes": {
 "clave_l": "Sporting Clube de Braga",
 "clave_liga": "primeira",
 "clave_v": "Vitória Guimarães",
@@ -12040,7 +12116,7 @@
 "pv": 0.018,
 "v": "Moreirense"
 },
-"primeira|2026-09-05|alverca|sporting clube de braga": {
+"primeira|2026-09-05|alverca|sporting clube braga": {
 "clave_l": "FC Alverca",
 "clave_liga": "primeira",
 "clave_v": "Sporting Clube de Braga",
@@ -12066,7 +12142,7 @@
 "pv": 0.8177,
 "v": "Sport Lisboa e Benfica"
 },
-"primeira|2026-09-05|estrela da amadora|famalicão": {
+"primeira|2026-09-05|estrela da amadora|famalicao": {
 "clave_l": "CF Estrela da Amadora",
 "clave_liga": "primeira",
 "clave_v": "FC Famalicão",
@@ -12092,7 +12168,7 @@
 "pv": 0.402,
 "v": "FC Arouca"
 },
-"primeira|2026-09-05|gil vicente|academico de viseu": {
+"primeira|2026-09-05|gil vicente|academico viseu": {
 "clave_l": "Gil Vicente FC",
 "clave_liga": "primeira",
 "clave_v": "Académico de Viseu FC",
@@ -12131,7 +12207,7 @@
 "pv": 0.1249,
 "v": "Rio Ave FC"
 },
-"primeira|2026-09-05|sporting clube de portugal|nacional": {
+"primeira|2026-09-05|sporting clube portugal|nacional": {
 "clave_l": "Sporting Clube de Portugal",
 "clave_liga": "primeira",
 "clave_v": "CD Nacional",
@@ -12144,7 +12220,7 @@
 "pv": 0.022,
 "v": "CD Nacional"
 },
-"primeira|2026-09-05|vitoria guimarães|casa pia": {
+"primeira|2026-09-05|vitoria guimaraes|casa pia": {
 "clave_l": "Vitória Guimarães",
 "clave_liga": "primeira",
 "clave_v": "Casa Pia AC",
@@ -12157,7 +12233,7 @@
 "pv": 0.1191,
 "v": "Casa Pia AC"
 },
-"primeira|2026-09-06|alverca|sporting clube de braga": {
+"primeira|2026-09-06|alverca|sporting clube braga": {
 "clave_l": "FC Alverca",
 "clave_liga": "primeira",
 "clave_v": "Sporting Clube de Braga",
@@ -12183,7 +12259,7 @@
 "pv": 0.8012,
 "v": "Sport Lisboa e Benfica"
 },
-"primeira|2026-09-06|estrela da amadora|famalicão": {
+"primeira|2026-09-06|estrela da amadora|famalicao": {
 "clave_l": "CF Estrela da Amadora",
 "clave_liga": "primeira",
 "clave_v": "FC Famalicão",
@@ -12209,7 +12285,7 @@
 "pv": 0.2822,
 "v": "FC Arouca"
 },
-"primeira|2026-09-06|gil vicente|academico de viseu": {
+"primeira|2026-09-06|gil vicente|academico viseu": {
 "clave_l": "Gil Vicente FC",
 "clave_liga": "primeira",
 "clave_v": "Académico de Viseu FC",
@@ -12248,7 +12324,7 @@
 "pv": 0.139,
 "v": "Rio Ave FC"
 },
-"primeira|2026-09-06|sporting clube de portugal|nacional": {
+"primeira|2026-09-06|sporting clube portugal|nacional": {
 "clave_l": "Sporting Clube de Portugal",
 "clave_liga": "primeira",
 "clave_v": "CD Nacional",
@@ -12261,7 +12337,7 @@
 "pv": 0.0128,
 "v": "CD Nacional"
 },
-"primeira|2026-09-06|vitoria guimarães|casa pia": {
+"primeira|2026-09-06|vitoria guimaraes|casa pia": {
 "clave_l": "Vitória Guimarães",
 "clave_liga": "primeira",
 "clave_v": "Casa Pia AC",
@@ -12306,7 +12382,7 @@
 "pv": 0.7668,
 "v": "Sport Lisboa e Benfica"
 },
-"primeira|2026-09-10|estrela da amadora|sporting clube de braga": {
+"primeira|2026-09-10|estrela da amadora|sporting clube braga": {
 "clave_l": "CF Estrela da Amadora",
 "clave_liga": "primeira",
 "clave_v": "Sporting Clube de Braga",
@@ -12319,7 +12395,7 @@
 "pv": 0.6462,
 "v": "Sporting Clube de Braga"
 },
-"primeira|2026-09-12|academico de viseu|vitoria guimarães": {
+"primeira|2026-09-12|academico viseu|vitoria guimaraes": {
 "clave_l": "Académico de Viseu FC",
 "clave_liga": "primeira",
 "clave_v": "Vitória Guimarães",
@@ -12358,7 +12434,7 @@
 "pv": 0.727,
 "v": "FC Porto"
 },
-"primeira|2026-09-12|famalicão|sporting clube de portugal": {
+"primeira|2026-09-12|famalicao|sporting clube portugal": {
 "clave_l": "FC Famalicão",
 "clave_liga": "primeira",
 "clave_v": "Sporting Clube de Portugal",
@@ -12423,7 +12499,7 @@
 "pv": 0.0391,
 "v": "Gil Vicente FC"
 },
-"primeira|2026-09-12|sporting clube de braga|gd estoril praia": {
+"primeira|2026-09-12|sporting clube braga|gd estoril praia": {
 "clave_l": "Sporting Clube de Braga",
 "clave_liga": "primeira",
 "clave_v": "GD Estoril Praia",
@@ -12436,7 +12512,7 @@
 "pv": 0.0368,
 "v": "GD Estoril Praia"
 },
-"primeira|2026-09-13|academico de viseu|vitoria guimarães": {
+"primeira|2026-09-13|academico viseu|vitoria guimaraes": {
 "clave_l": "Académico de Viseu FC",
 "clave_liga": "primeira",
 "clave_v": "Vitória Guimarães",
@@ -12475,7 +12551,7 @@
 "pv": 0.703,
 "v": "FC Porto"
 },
-"primeira|2026-09-13|famalicão|sporting clube de portugal": {
+"primeira|2026-09-13|famalicao|sporting clube portugal": {
 "clave_l": "FC Famalicão",
 "clave_liga": "primeira",
 "clave_v": "Sporting Clube de Portugal",
@@ -12540,7 +12616,7 @@
 "pv": 0.0339,
 "v": "Gil Vicente FC"
 },
-"primeira|2026-09-13|sporting clube de braga|gd estoril praia": {
+"primeira|2026-09-13|sporting clube braga|gd estoril praia": {
 "clave_l": "Sporting Clube de Braga",
 "clave_liga": "primeira",
 "clave_v": "GD Estoril Praia",
@@ -12572,7 +12648,7 @@
 "pv": 0.1954,
 "v": "Rio Ave"
 },
-"primeira|2026-09-19|estrela da amadora|academico de viseu": {
+"primeira|2026-09-19|estrela da amadora|academico viseu": {
 "btts": 0.1716,
 "clave_l": "CF Estrela da Amadora",
 "clave_liga": "primeira",
@@ -12629,7 +12705,7 @@
 "pv": 0.0908,
 "v": "Marítimo"
 },
-"primeira|2026-09-19|nacional|famalicão": {
+"primeira|2026-09-19|nacional|famalicao": {
 "btts": 0.124,
 "clave_l": "CD Nacional",
 "clave_liga": "primeira",
@@ -12667,7 +12743,7 @@
 "pv": 0.1685,
 "v": "Benfica"
 },
-"primeira|2026-09-19|santa clara|sporting clube de braga": {
+"primeira|2026-09-19|santa clara|sporting clube braga": {
 "btts": 0.218,
 "clave_l": "CD Santa Clara",
 "clave_liga": "primeira",
@@ -12686,7 +12762,7 @@
 "pv": 0.4293,
 "v": "Braga"
 },
-"primeira|2026-09-19|sporting clube de portugal|arouca": {
+"primeira|2026-09-19|sporting clube portugal|arouca": {
 "btts": 0.3194,
 "clave_l": "Sporting Clube de Portugal",
 "clave_liga": "primeira",
@@ -12705,7 +12781,7 @@
 "pv": 0.0264,
 "v": "Arouca"
 },
-"primeira|2026-09-19|vitoria guimarães|moreirense": {
+"primeira|2026-09-19|vitoria guimaraes|moreirense": {
 "btts": 0.1636,
 "clave_l": "Vitória Guimarães",
 "clave_liga": "primeira",
@@ -12737,7 +12813,7 @@
 "pv": 0.2021,
 "v": "Rio Ave FC"
 },
-"primeira|2026-09-20|estrela da amadora|academico de viseu": {
+"primeira|2026-09-20|estrela da amadora|academico viseu": {
 "clave_l": "CF Estrela da Amadora",
 "clave_liga": "primeira",
 "clave_v": "Académico de Viseu FC",
@@ -12776,7 +12852,7 @@
 "pv": 0.1004,
 "v": "CS Marítimo"
 },
-"primeira|2026-09-20|nacional|famalicão": {
+"primeira|2026-09-20|nacional|famalicao": {
 "clave_l": "CD Nacional",
 "clave_liga": "primeira",
 "clave_v": "FC Famalicão",
@@ -12802,7 +12878,7 @@
 "pv": 0.2105,
 "v": "Sport Lisboa e Benfica"
 },
-"primeira|2026-09-20|santa clara|sporting clube de braga": {
+"primeira|2026-09-20|santa clara|sporting clube braga": {
 "clave_l": "CD Santa Clara",
 "clave_liga": "primeira",
 "clave_v": "Sporting Clube de Braga",
@@ -12815,7 +12891,7 @@
 "pv": 0.4618,
 "v": "Sporting Clube de Braga"
 },
-"primeira|2026-09-20|sporting clube de portugal|arouca": {
+"primeira|2026-09-20|sporting clube portugal|arouca": {
 "clave_l": "Sporting Clube de Portugal",
 "clave_liga": "primeira",
 "clave_v": "FC Arouca",
@@ -12828,7 +12904,7 @@
 "pv": 0.0135,
 "v": "FC Arouca"
 },
-"primeira|2026-09-20|vitoria guimarães|moreirense": {
+"primeira|2026-09-20|vitoria guimaraes|moreirense": {
 "clave_l": "Vitória Guimarães",
 "clave_liga": "primeira",
 "clave_v": "Moreirense FC",
@@ -12841,7 +12917,7 @@
 "pv": 0.1595,
 "v": "Moreirense FC"
 },
-"primeira|2026-10-11|academico de viseu|gd estoril praia": {
+"primeira|2026-10-11|academico viseu|gd estoril praia": {
 "clave_l": "Académico de Viseu FC",
 "clave_liga": "primeira",
 "clave_v": "GD Estoril Praia",
@@ -12893,7 +12969,7 @@
 "pv": 0.7421,
 "v": "FC Porto"
 },
-"primeira|2026-10-11|famalicão|alverca": {
+"primeira|2026-10-11|famalicao|alverca": {
 "clave_l": "FC Famalicão",
 "clave_liga": "primeira",
 "clave_v": "FC Alverca",
@@ -12932,7 +13008,7 @@
 "pv": 0.2553,
 "v": "CD Nacional"
 },
-"primeira|2026-10-11|sport lisboa benfica|vitoria guimarães": {
+"primeira|2026-10-11|sport lisboa benfica|vitoria guimaraes": {
 "clave_l": "Sport Lisboa e Benfica",
 "clave_liga": "primeira",
 "clave_v": "Vitória Guimarães",
@@ -12945,7 +13021,7 @@
 "pv": 0.038,
 "v": "Vitória Guimarães"
 },
-"primeira|2026-10-11|sporting clube de braga|sporting clube de portugal": {
+"primeira|2026-10-11|sporting clube braga|sporting clube portugal": {
 "clave_l": "Sporting Clube de Braga",
 "clave_liga": "primeira",
 "clave_v": "Sporting Clube de Portugal",
@@ -13010,7 +13086,7 @@
 "pv": 0.5903,
 "v": "FC Porto"
 },
-"primeira|2026-10-25|nacional|sporting clube de braga": {
+"primeira|2026-10-25|nacional|sporting clube braga": {
 "clave_l": "CD Nacional",
 "clave_liga": "primeira",
 "clave_v": "Sporting Clube de Braga",
@@ -13023,7 +13099,7 @@
 "pv": 0.5628,
 "v": "Sporting Clube de Braga"
 },
-"primeira|2026-10-25|rio ave|famalicão": {
+"primeira|2026-10-25|rio ave|famalicao": {
 "clave_l": "Rio Ave FC",
 "clave_liga": "primeira",
 "clave_v": "FC Famalicão",
@@ -13049,7 +13125,7 @@
 "pv": 0.6006,
 "v": "Sport Lisboa e Benfica"
 },
-"primeira|2026-10-25|sporting clube de portugal|academico de viseu": {
+"primeira|2026-10-25|sporting clube portugal|academico viseu": {
 "clave_l": "Sporting Clube de Portugal",
 "clave_liga": "primeira",
 "clave_v": "Académico de Viseu FC",
@@ -13062,7 +13138,7 @@
 "pv": 0.0047,
 "v": "Académico de Viseu FC"
 },
-"primeira|2026-10-25|vitoria guimarães|cs maritimo": {
+"primeira|2026-10-25|vitoria guimaraes|cs maritimo": {
 "clave_l": "Vitória Guimarães",
 "clave_liga": "primeira",
 "clave_v": "CS Marítimo",
@@ -13075,7 +13151,7 @@
 "pv": 0.1069,
 "v": "CS Marítimo"
 },
-"primeira|2026-11-01|academico de viseu|rio ave": {
+"primeira|2026-11-01|academico viseu|rio ave": {
 "btts": 0.1686,
 "clave_l": "Académico de Viseu FC",
 "clave_liga": "primeira",
@@ -13113,7 +13189,7 @@
 "pv": 0.1763,
 "v": "CD Nacional"
 },
-"primeira|2026-11-01|casa pia|sporting clube de portugal": {
+"primeira|2026-11-01|casa pia|sporting clube portugal": {
 "btts": 0.2174,
 "clave_l": "Casa Pia AC",
 "clave_liga": "primeira",
@@ -13151,7 +13227,7 @@
 "pv": 0.3324,
 "v": "CD Santa Clara"
 },
-"primeira|2026-11-01|gil vicente|vitoria guimarães": {
+"primeira|2026-11-01|gil vicente|vitoria guimaraes": {
 "btts": 0.1573,
 "clave_l": "Gil Vicente FC",
 "clave_liga": "primeira",
@@ -13227,7 +13303,7 @@
 "pv": 0.0118,
 "v": "Alverca"
 },
-"primeira|2026-11-01|sporting clube de braga|famalicão": {
+"primeira|2026-11-01|sporting clube braga|famalicao": {
 "btts": 0.2271,
 "clave_l": "Sporting Clube de Braga",
 "clave_liga": "primeira",
@@ -13284,7 +13360,7 @@
 "pv": 0.1656,
 "v": "Marítimo"
 },
-"primeira|2026-11-08|sporting clube de portugal|moreirense": {
+"primeira|2026-11-08|sporting clube portugal|moreirense": {
 "btts": 0.2344,
 "clave_l": "Sporting Clube de Portugal",
 "clave_liga": "primeira",
@@ -13303,7 +13379,7 @@
 "pv": 0.0118,
 "v": "Moreirense"
 },
-"primeira|2026-11-08|vitoria guimarães|porto": {
+"primeira|2026-11-08|vitoria guimaraes|porto": {
 "btts": 0.135,
 "clave_l": "Vitória Guimarães",
 "clave_liga": "primeira",
@@ -13417,25 +13493,6 @@
 "real": "V",
 "v": "Lazio"
 },
-"seriea|2026-08-24|roma|acf fiorentina": {
-"btts": 0.3794,
-"clave_l": "Roma",
-"clave_liga": "seriea",
-"clave_v": "ACF Fiorentina",
-"fecha": "2026-08-24",
-"l": "Roma",
-"liga": "Serie A",
-"marcador": "1-0",
-"o15": 0.7009,
-"o25": 0.4289,
-"o35": 0.2201,
-"p_marcador": 0.1549,
-"pe": 0.2368,
-"pl": 0.6614,
-"publicado": "2026-08-24T13:21Z",
-"pv": 0.1019,
-"v": "ACF Fiorentina"
-},
 "seriea|2026-08-24|roma|fiorentina": {
 "clave_l": "Roma",
 "clave_liga": "seriea",
@@ -13477,25 +13534,6 @@
 "pv": 0.112,
 "real": "L",
 "v": "Venezia"
-},
-"seriea|2026-08-29|acf fiorentina|frosinone": {
-"btts": 0.3752,
-"clave_l": "ACF Fiorentina",
-"clave_liga": "seriea",
-"clave_v": "Frosinone Calcio",
-"fecha": "2026-08-29",
-"l": "ACF Fiorentina",
-"liga": "Serie A",
-"marcador": "0-0",
-"o15": 0.5654,
-"o25": 0.2819,
-"o35": 0.1163,
-"p_marcador": 0.1723,
-"pe": 0.3513,
-"pl": 0.3691,
-"publicado": "2026-08-24T13:21Z",
-"pv": 0.2796,
-"v": "Frosinone Calcio"
 },
 "seriea|2026-08-29|fiorentina|frosinone": {
 "clave_l": "Fiorentina",
@@ -13579,25 +13617,6 @@
 "publicado": "2026-08-22T22:05Z",
 "pv": 0.3015,
 "real": "L",
-"v": "Torino"
-},
-"seriea|2026-08-29|us sassuolo|torino": {
-"btts": 0.4341,
-"clave_l": "US Sassuolo Calcio",
-"clave_liga": "seriea",
-"clave_v": "Torino",
-"fecha": "2026-08-29",
-"l": "US Sassuolo Calcio",
-"liga": "Serie A",
-"marcador": "1-1",
-"o15": 0.6326,
-"o25": 0.3478,
-"o35": 0.1596,
-"p_marcador": 0.1494,
-"pe": 0.3292,
-"pl": 0.3079,
-"publicado": "2026-08-24T13:21Z",
-"pv": 0.3629,
 "v": "Torino"
 },
 "seriea|2026-08-30|cagliari|inter": {
@@ -13705,25 +13724,6 @@
 "real": "V",
 "v": "Roma"
 },
-"seriea|2026-08-31|us lecce|roma": {
-"btts": 0.4037,
-"clave_l": "US Lecce",
-"clave_liga": "seriea",
-"clave_v": "Roma",
-"fecha": "2026-08-31",
-"l": "US Lecce",
-"liga": "Serie A",
-"marcador": "0-1",
-"o15": 0.6606,
-"o25": 0.3801,
-"o35": 0.1827,
-"p_marcador": 0.1535,
-"pe": 0.2846,
-"pl": 0.1582,
-"publicado": "2026-08-24T13:21Z",
-"pv": 0.5571,
-"v": "Roma"
-},
 "seriea|2026-09-04|genoa|como": {
 "clave_l": "Genoa",
 "clave_liga": "seriea",
@@ -13736,25 +13736,6 @@
 "publicado": "2026-08-22T22:05Z",
 "pv": 0.4588,
 "v": "Como"
-},
-"seriea|2026-09-05|acf fiorentina|torino": {
-"btts": 0.4341,
-"clave_l": "ACF Fiorentina",
-"clave_liga": "seriea",
-"clave_v": "Torino",
-"fecha": "2026-09-05",
-"l": "ACF Fiorentina",
-"liga": "Serie A",
-"marcador": "1-1",
-"o15": 0.6326,
-"o25": 0.3478,
-"o35": 0.1596,
-"p_marcador": 0.1494,
-"pe": 0.3292,
-"pl": 0.3079,
-"publicado": "2026-08-24T13:21Z",
-"pv": 0.3629,
-"v": "Torino"
 },
 "seriea|2026-09-05|fiorentina|torino": {
 "clave_l": "Fiorentina",
@@ -13808,25 +13789,6 @@
 "pv": 0.2062,
 "v": "Sassuolo"
 },
-"seriea|2026-09-06|bologna|us sassuolo": {
-"btts": 0.3706,
-"clave_l": "Bologna",
-"clave_liga": "seriea",
-"clave_v": "US Sassuolo Calcio",
-"fecha": "2026-09-06",
-"l": "Bologna",
-"liga": "Serie A",
-"marcador": "1-0",
-"o15": 0.6213,
-"o25": 0.3382,
-"o35": 0.1529,
-"p_marcador": 0.1686,
-"pe": 0.2985,
-"pl": 0.5456,
-"publicado": "2026-08-24T13:21Z",
-"pv": 0.1559,
-"v": "US Sassuolo Calcio"
-},
 "seriea|2026-09-06|frosinone|venezia": {
 "clave_l": "Frosinone",
 "clave_liga": "seriea",
@@ -13879,25 +13841,6 @@
 "pv": 0.2361,
 "v": "Lecce"
 },
-"seriea|2026-09-07|cagliari|us lecce": {
-"btts": 0.4165,
-"clave_l": "Cagliari",
-"clave_liga": "seriea",
-"clave_v": "US Lecce",
-"fecha": "2026-09-07",
-"l": "Cagliari",
-"liga": "Serie A",
-"marcador": "1-1",
-"o15": 0.6257,
-"o25": 0.3411,
-"o35": 0.1549,
-"p_marcador": 0.145,
-"pe": 0.3239,
-"pl": 0.4339,
-"publicado": "2026-08-24T13:21Z",
-"pv": 0.2422,
-"v": "US Lecce"
-},
 "seriea|2026-09-07|udinese|lazio": {
 "clave_l": "Udinese",
 "clave_liga": "seriea",
@@ -13911,7 +13854,7 @@
 "pv": 0.3514,
 "v": "Lazio"
 },
-"seriea|2026-09-11|venezia|acf fiorentina": {
+"seriea|2026-09-11|venezia|fiorentina": {
 "btts": 0.3752,
 "clave_l": "Venezia FC",
 "clave_liga": "seriea",
@@ -13968,7 +13911,7 @@
 "pv": 0.212,
 "v": "Frosinone Calcio"
 },
-"seriea|2026-09-12|us sassuolo|juventus": {
+"seriea|2026-09-12|sassuolo|juventus": {
 "btts": 0.3658,
 "clave_l": "US Sassuolo Calcio",
 "clave_liga": "seriea",
@@ -14025,6 +13968,25 @@
 "pv": 0.3955,
 "v": "AC Milan"
 },
+"seriea|2026-09-13|lecce|monza": {
+"btts": 0.3752,
+"clave_l": "US Lecce",
+"clave_liga": "seriea",
+"clave_v": "AC Monza",
+"fecha": "2026-09-13",
+"l": "US Lecce",
+"liga": "Serie A",
+"marcador": "0-0",
+"o15": 0.5654,
+"o25": 0.2819,
+"o35": 0.1163,
+"p_marcador": 0.1723,
+"pe": 0.3513,
+"pl": 0.3691,
+"publicado": "2026-08-24T13:21Z",
+"pv": 0.2796,
+"v": "AC Monza"
+},
 "seriea|2026-09-13|napoli|bologna": {
 "btts": 0.3816,
 "clave_l": "Napoli",
@@ -14063,25 +14025,6 @@
 "pv": 0.495,
 "v": "Roma"
 },
-"seriea|2026-09-13|us lecce|monza": {
-"btts": 0.3752,
-"clave_l": "US Lecce",
-"clave_liga": "seriea",
-"clave_v": "AC Monza",
-"fecha": "2026-09-13",
-"l": "US Lecce",
-"liga": "Serie A",
-"marcador": "0-0",
-"o15": 0.5654,
-"o25": 0.2819,
-"o35": 0.1163,
-"p_marcador": 0.1723,
-"pe": 0.3513,
-"pl": 0.3691,
-"publicado": "2026-08-24T13:21Z",
-"pv": 0.2796,
-"v": "AC Monza"
-},
 "seriea|2026-09-14|inter|udinese": {
 "btts": 0.4698,
 "clave_l": "Inter",
@@ -14101,7 +14044,7 @@
 "pv": 0.0816,
 "v": "Udinese"
 },
-"seriea|2026-09-18|monza|us sassuolo": {
+"seriea|2026-09-18|monza|sassuolo": {
 "btts": 0.3752,
 "clave_l": "AC Monza",
 "clave_liga": "seriea",
@@ -14196,7 +14139,7 @@
 "pv": 0.4117,
 "v": "Lazio"
 },
-"seriea|2026-09-20|acf fiorentina|napoli": {
+"seriea|2026-09-20|fiorentina|napoli": {
 "btts": 0.3564,
 "clave_l": "ACF Fiorentina",
 "clave_liga": "seriea",
@@ -14253,7 +14196,7 @@
 "pv": 0.1966,
 "v": "Atalanta"
 },
-"seriea|2026-09-20|milan|us lecce": {
+"seriea|2026-09-20|milan|lecce": {
 "btts": 0.4266,
 "clave_l": "AC Milan",
 "clave_liga": "seriea",
@@ -14348,7 +14291,7 @@
 "pv": 0.3147,
 "v": "Roma"
 },
-"seriea|2026-10-11|genoa|acf fiorentina": {
+"seriea|2026-10-11|genoa|fiorentina": {
 "btts": 0.387,
 "clave_l": "Genoa",
 "clave_liga": "seriea",
@@ -14405,6 +14348,25 @@
 "pv": 0.175,
 "v": "AC Monza"
 },
+"seriea|2026-10-11|lecce|bologna": {
+"btts": 0.3852,
+"clave_l": "US Lecce",
+"clave_liga": "seriea",
+"clave_v": "Bologna",
+"fecha": "2026-10-11",
+"l": "US Lecce",
+"liga": "Serie A",
+"marcador": "0-0",
+"o15": 0.5939,
+"o25": 0.3093,
+"o35": 0.1336,
+"p_marcador": 0.1566,
+"pe": 0.3321,
+"pl": 0.225,
+"publicado": "2026-08-24T13:21Z",
+"pv": 0.4429,
+"v": "Bologna"
+},
 "seriea|2026-10-11|napoli|frosinone": {
 "btts": 0.3359,
 "clave_l": "Napoli",
@@ -14423,6 +14385,25 @@
 "publicado": "2026-08-24T13:21Z",
 "pv": 0.1038,
 "v": "Frosinone Calcio"
+},
+"seriea|2026-10-11|sassuolo|milan": {
+"btts": 0.4523,
+"clave_l": "US Sassuolo Calcio",
+"clave_liga": "seriea",
+"clave_v": "AC Milan",
+"fecha": "2026-10-11",
+"l": "US Sassuolo Calcio",
+"liga": "Serie A",
+"marcador": "0-1",
+"o15": 0.7023,
+"o25": 0.4279,
+"o35": 0.2194,
+"p_marcador": 0.1325,
+"pe": 0.2768,
+"pl": 0.1766,
+"publicado": "2026-08-24T13:21Z",
+"pv": 0.5466,
+"v": "AC Milan"
 },
 "seriea|2026-10-11|torino|udinese": {
 "btts": 0.4971,
@@ -14443,63 +14424,6 @@
 "pv": 0.2924,
 "v": "Udinese"
 },
-"seriea|2026-10-11|us lecce|bologna": {
-"btts": 0.3852,
-"clave_l": "US Lecce",
-"clave_liga": "seriea",
-"clave_v": "Bologna",
-"fecha": "2026-10-11",
-"l": "US Lecce",
-"liga": "Serie A",
-"marcador": "0-0",
-"o15": 0.5939,
-"o25": 0.3093,
-"o35": 0.1336,
-"p_marcador": 0.1566,
-"pe": 0.3321,
-"pl": 0.225,
-"publicado": "2026-08-24T13:21Z",
-"pv": 0.4429,
-"v": "Bologna"
-},
-"seriea|2026-10-11|us sassuolo|milan": {
-"btts": 0.4523,
-"clave_l": "US Sassuolo Calcio",
-"clave_liga": "seriea",
-"clave_v": "AC Milan",
-"fecha": "2026-10-11",
-"l": "US Sassuolo Calcio",
-"liga": "Serie A",
-"marcador": "0-1",
-"o15": 0.7023,
-"o25": 0.4279,
-"o35": 0.2194,
-"p_marcador": 0.1325,
-"pe": 0.2768,
-"pl": 0.1766,
-"publicado": "2026-08-24T13:21Z",
-"pv": 0.5466,
-"v": "AC Milan"
-},
-"seriea|2026-10-18|acf fiorentina|como": {
-"btts": 0.4342,
-"clave_l": "ACF Fiorentina",
-"clave_liga": "seriea",
-"clave_v": "Como",
-"fecha": "2026-10-18",
-"l": "ACF Fiorentina",
-"liga": "Serie A",
-"marcador": "0-1",
-"o15": 0.686,
-"o25": 0.4087,
-"o35": 0.2043,
-"p_marcador": 0.1402,
-"pe": 0.2806,
-"pl": 0.1709,
-"publicado": "2026-08-25T01:06Z",
-"pv": 0.5485,
-"v": "Como"
-},
 "seriea|2026-10-18|bologna|inter": {
 "btts": 0.4834,
 "clave_l": "Bologna",
@@ -14519,7 +14443,26 @@
 "pv": 0.5072,
 "v": "Inter"
 },
-"seriea|2026-10-18|frosinone|us sassuolo": {
+"seriea|2026-10-18|fiorentina|como": {
+"btts": 0.4342,
+"clave_l": "ACF Fiorentina",
+"clave_liga": "seriea",
+"clave_v": "Como",
+"fecha": "2026-10-18",
+"l": "ACF Fiorentina",
+"liga": "Serie A",
+"marcador": "0-1",
+"o15": 0.686,
+"o25": 0.4087,
+"o35": 0.2043,
+"p_marcador": 0.1402,
+"pe": 0.2806,
+"pl": 0.1709,
+"publicado": "2026-08-25T01:06Z",
+"pv": 0.5485,
+"v": "Como"
+},
+"seriea|2026-10-18|frosinone|sassuolo": {
 "btts": 0.3752,
 "clave_l": "Frosinone Calcio",
 "clave_liga": "seriea",
@@ -14633,7 +14576,7 @@
 "pv": 0.1501,
 "v": "Genoa"
 },
-"seriea|2026-10-18|udinese|us lecce": {
+"seriea|2026-10-18|udinese|lecce": {
 "btts": 0.4289,
 "clave_l": "Udinese",
 "clave_liga": "seriea",
@@ -14709,7 +14652,7 @@
 "pv": 0.408,
 "v": "Bologna"
 },
-"seriea|2026-10-25|como|us sassuolo": {
+"seriea|2026-10-25|como|sassuolo": {
 "btts": 0.4078,
 "clave_l": "Como",
 "clave_liga": "seriea",
@@ -14747,7 +14690,7 @@
 "pv": 0.2167,
 "v": "Venezia FC"
 },
-"seriea|2026-10-25|inter|acf fiorentina": {
+"seriea|2026-10-25|inter|fiorentina": {
 "btts": 0.3865,
 "clave_l": "Inter",
 "clave_liga": "seriea",
@@ -14784,6 +14727,25 @@
 "publicado": "2026-08-30T21:16Z",
 "pv": 0.1634,
 "v": "Parma"
+},
+"seriea|2026-10-25|lecce|juventus": {
+"btts": 0.3563,
+"clave_l": "US Lecce",
+"clave_liga": "seriea",
+"clave_v": "Juventus",
+"fecha": "2026-10-25",
+"l": "US Lecce",
+"liga": "Serie A",
+"marcador": "0-1",
+"o15": 0.6569,
+"o25": 0.3777,
+"o35": 0.1809,
+"p_marcador": 0.1707,
+"pe": 0.2601,
+"pl": 0.1116,
+"publicado": "2026-08-30T21:16Z",
+"pv": 0.6283,
+"v": "Juventus"
 },
 "seriea|2026-10-25|napoli|roma": {
 "btts": 0.4224,
@@ -14841,24 +14803,5 @@
 "publicado": "2026-08-29T02:19Z",
 "pv": 0.4878,
 "v": "AC Milan"
-},
-"seriea|2026-10-25|us lecce|juventus": {
-"btts": 0.3563,
-"clave_l": "US Lecce",
-"clave_liga": "seriea",
-"clave_v": "Juventus",
-"fecha": "2026-10-25",
-"l": "US Lecce",
-"liga": "Serie A",
-"marcador": "0-1",
-"o15": 0.6569,
-"o25": 0.3777,
-"o35": 0.1809,
-"p_marcador": 0.1707,
-"pe": 0.2601,
-"pl": 0.1116,
-"publicado": "2026-08-30T21:16Z",
-"pv": 0.6283,
-"v": "Juventus"
 }
 }
