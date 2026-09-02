@@ -53,6 +53,8 @@ subir.bat
 # La biblioteca de vídeos se acumula ejecución a ejecución: el RSS sólo da los
 # quince últimos de cada canal, así que si no se guarda no hay biblioteca.
 !datos/videos.json
+!datos/videos_clubes.json
+!datos/canales_clubes.json
 !datos/football_data_ids.json
 !datos/football_data_jugadores.json
 !datos/football_data_plantillas.json

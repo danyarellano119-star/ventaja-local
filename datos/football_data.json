@@ -1024,62 +1024,6 @@
 "pais": "Inglaterra",
 "partidos": [
 {
-"fecha": "2026-09-01",
-"hora": "18:45",
-"local": "Preston North End FC",
-"utc": "2026-09-01T18:45Z",
-"visita": "Bristol City FC"
-},
-{
-"fecha": "2026-09-01",
-"hora": "18:45",
-"local": "West Ham United FC",
-"utc": "2026-09-01T18:45Z",
-"visita": "Wolverhampton Wanderers FC"
-},
-{
-"fecha": "2026-09-01",
-"hora": "18:45",
-"local": "Lincoln City FC",
-"utc": "2026-09-01T18:45Z",
-"visita": "Blackburn Rovers FC"
-},
-{
-"fecha": "2026-09-01",
-"hora": "18:45",
-"local": "Sheffield United FC",
-"utc": "2026-09-01T18:45Z",
-"visita": "Bolton Wanderers FC"
-},
-{
-"fecha": "2026-09-01",
-"hora": "18:45",
-"local": "Portsmouth FC",
-"utc": "2026-09-01T18:45Z",
-"visita": "Derby County FC"
-},
-{
-"fecha": "2026-09-01",
-"hora": "18:45",
-"local": "Swansea City AFC",
-"utc": "2026-09-01T18:45Z",
-"visita": "Watford FC"
-},
-{
-"fecha": "2026-09-01",
-"hora": "19:00",
-"local": "Stoke City FC",
-"utc": "2026-09-01T19:00Z",
-"visita": "Norwich City FC"
-},
-{
-"fecha": "2026-09-01",
-"hora": "19:00",
-"local": "Birmingham City FC",
-"utc": "2026-09-01T19:00Z",
-"visita": "Southampton FC"
-},
-{
 "fecha": "2026-09-02",
 "hora": "18:45",
 "local": "Millwall FC",

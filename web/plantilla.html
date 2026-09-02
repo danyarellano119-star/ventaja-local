@@ -3828,11 +3828,19 @@ function abrirDetalle(ligaKey, p, desdeRuta = false) {
         </div>`).join("");
     [a, b].forEach((eq, i) => {
       const suyos = videosDe(ligaKey, [eq], 6);
-      pintarVideos(`d-videos-${i}`, suyos);
+      // Si de este equipo no hay nada, se pone lo último de la competición.
+      // La idea es que siempre haya algo que ver aquí dentro: mandar a la
+      // gente a YouTube era justo lo que no queríamos.
+      const mostrar = suyos.length ? suyos : ultimosDe(ligaKey, 4);
+      pintarVideos(`d-videos-${i}`, mostrar);
       document.getElementById(`d-vacio-${i}`).innerHTML = suyos.length
-        ? enlaceBusqueda(`${eq.nombre} resumen último partido`, "Ver más de este equipo en YouTube ↗")
-        : `Todavía no hay nada de ${eq.nombre} en el canal oficial. ` +
-          enlaceBusqueda(`${eq.nombre} resumen último partido`, "Buscarlo en YouTube ↗");
+        ? enlaceBusqueda(`${eq.nombre} resumen último partido`, "Más de este equipo en YouTube ↗")
+        : (mostrar.length
+            ? `Del ${eq.nombre} aún no hay vídeo propio: esto es lo último de
+               <b>${lg.nombre}</b>. ` +
+              enlaceBusqueda(`${eq.nombre} resumen último partido`, "Buscar los suyos ↗")
+            : `Todavía no hay vídeos de esta competición. ` +
+              enlaceBusqueda(`${eq.nombre} resumen último partido`, "Buscarlo en YouTube ↗"));
     });
     document.getElementById("d-video-buscar").innerHTML =
       `¿Prefieres el cruce entre los dos? ` +
@@ -5827,12 +5835,25 @@ function tituloMenciona(titulo, equipo) {
   });
 }
 
-/** Vídeos de una competición que mencionan a todos los equipos que se le pidan. */
+/** Vídeos de un equipo o de un cruce.
+ *
+ *  Se mira primero el canal del propio club, que es el que habla de él todos
+ *  los días; el de la competición publica quince cosas y casi ninguna es de tu
+ *  equipo. Si el club no tiene canal verificado, se cae al de la liga. */
 function videosDe(ligaKey, equipos, tope = 6) {
+  if (equipos.length === 1 && typeof equipos[0] === "object") {
+    const suyos = (D.videos_club || {})[equipos[0].nombre];
+    if (suyos && suyos.length) return suyos.slice(0, tope);
+  }
   const biblio = (D.videos || {})[ligaKey] || [];
   return biblio
     .filter(v => equipos.every(e => tituloMenciona(v.t, e)))
     .slice(0, tope);
+}
+
+/** Lo último publicado en la competición, sin filtrar por equipo. */
+function ultimosDe(ligaKey, tope = 4) {
+  return ((D.videos || {})[ligaKey] || []).slice(0, tope);
 }
 
 /** Enlace al buscador de YouTube, para que cada uno mire lo que quiera. */
@@ -6021,15 +6042,16 @@ function abrirEquipo(ligaKey, clave) {
 
   // ── Vídeos del equipo ───────────────────────────────────────────────── //
   const susVideos = videosDe(ligaKey, [eq], 8);
-  const hayCanal = !!(D.videos || {})[ligaKey];
+  const deLaLiga = ultimosDe(ligaKey, 6);
+  const verVideos = susVideos.length ? susVideos : deLaLiga;
   document.getElementById("eq-bloque-video").classList
-    .toggle("oculto", !susVideos.length && !hayCanal);
+    .toggle("oculto", !verVideos.length);
   document.getElementById("eq-video-sub").innerHTML = susVideos.length
     ? `Lo último que ha publicado el canal oficial de ${lg.nombre} sobre
-       ${eq.nombre}.`
-    : `El canal oficial de ${lg.nombre} no ha publicado nada de ${eq.nombre}
-       últimamente. Se revisa cada hora.`;
-  pintarVideos("eq-videos", susVideos);
+       ${eq.nombre}. Se ve aquí mismo.`
+    : `De ${eq.nombre} todavía no hay vídeo propio, así que aquí va lo último
+       de <b>${lg.nombre}</b>. La lista crece cada hora.`;
+  pintarVideos("eq-videos", verVideos);
   document.getElementById("eq-video-buscar").innerHTML =
     `¿Buscas otra cosa? ` +
     enlaceBusqueda(`${eq.nombre} resumen ${T(op.act || lg.temp_hist || "")}`,

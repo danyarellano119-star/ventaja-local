@@ -38,6 +38,12 @@ CANALES = {
     "bundesliga": ("UC6UL29enLNe4mqwTfAyeNuw", "Bundesliga"),
     "seriea":     ("UCBJeMCIeLQos7wacox4hmLQ", "Serie A"),
     "ligue1":     ("UCQsH5XtIc9hONE1BQjucM0g", "Ligue 1"),
+    # Estas tres no tienen canal de la propia liga con vida, así que se usa el
+    # de quien tiene los derechos y emite la competición. Sigue siendo material
+    # oficial y sigue siendo su dueño quien decide si permite incrustarlo.
+    "champions":   ("UCyGa1YEx9ST66rYrJTGIKOw", "UEFA"),
+    "eredivisie":  ("UCXnPiEv1DoUCDAqDUXT9shQ", "ESPN NL"),
+    "brasileirao": ("UCZiYbVptd3PVPf4f6eR6UaQ", "CazéTV"),
 }
 
 RSS = "https://www.youtube.com/feeds/videos.xml?channel_id={}"
@@ -78,6 +84,63 @@ def _leer_canal(cid: str) -> list[dict]:
         fuera.append({"id": vid.group(1), "t": _texto(tit.group(1)),
                       "f": pub.group(1)[:10]})
     return fuera
+
+
+CANALES_CLUBES = ARCHIVO.with_name("canales_clubes.json")
+ARCHIVO_CLUBES = ARCHIVO.with_name("videos_clubes.json")
+TOPE_CLUB = 40      # por club basta con lo reciente
+
+
+def _clubes_verificados() -> dict:
+    """Canal de cada club, de los que se pudieron verificar uno a uno.
+
+    La lista se hizo con una pasada aparte que, para cada club, probaba unos
+    pocos nombres de usuario, leía el canal al que llevaba y sólo lo aceptaba
+    si el nombre del canal compartía una palabra distintiva con el del club
+    **y** había publicado algo en las últimas semanas. Un canal de aficionados
+    con el escudo puesto no pasa ese filtro.
+    """
+    try:
+        return {k: v for k, v in
+                json.loads(CANALES_CLUBES.read_text(encoding="utf-8")).items() if v}
+    except Exception:
+        return {}
+
+
+def recolectar_clubes(hoy: date | None = None) -> dict:
+    """Vídeos del canal propio de cada club.
+
+    Es lo que de verdad da cobertura: el canal de la liga publica quince cosas
+    y casi ninguna es de tu equipo, pero el del club habla de él siempre.
+    """
+    hoy = hoy or datetime.now(timezone.utc).date()
+    corte = (hoy - timedelta(days=DIAS)).isoformat()
+    canales = _clubes_verificados()
+    if not canales:
+        return {}
+
+    try:
+        guardado = json.loads(ARCHIVO_CLUBES.read_text(encoding="utf-8"))             if ARCHIVO_CLUBES.exists() else {}
+    except Exception:
+        guardado = {}
+
+    nuevos = 0
+    for club, info in canales.items():
+        por_id = {v["id"]: v for v in guardado.get(club, [])}
+        for v in _leer_canal(info["id"]):
+            if v["id"] not in por_id:
+                nuevos += 1
+            por_id[v["id"]] = {**v, "c": info.get("canal") or club}
+        vivos = [v for v in por_id.values() if v["f"] >= corte]
+        vivos.sort(key=lambda v: v["f"], reverse=True)
+        guardado[club] = vivos[:TOPE_CLUB]
+
+    ARCHIVO_CLUBES.parent.mkdir(parents=True, exist_ok=True)
+    ARCHIVO_CLUBES.write_text(json.dumps(guardado, ensure_ascii=False, indent=0,
+                                         sort_keys=True), encoding="utf-8")
+    total = sum(len(v) for v in guardado.values())
+    print(f"    {total} vídeos de {len(canales)} canales de club ({nuevos} nuevos)")
+    return guardado
 
 
 def recolectar(hoy: date | None = None) -> dict:

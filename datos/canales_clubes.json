@@ -1,0 +1,529 @@
+{
+"AC Milan": {
+"canal": "AC Milan",
+"id": "UCKcx1uK38H4AOkmfv4ywlrg",
+"liga": "seriea",
+"ultimo": "2026-09-02"
+},
+"AC Monza": {
+"canal": "AC Monza",
+"id": "UCgFNZmFK4tLKPpXpvJGS9dQ",
+"liga": "seriea",
+"ultimo": "2026-09-02"
+},
+"AS Monaco": {
+"canal": "AS MONACO",
+"id": "UCHy548EHHX9f-ETJlm18Jiw",
+"liga": "champions",
+"ultimo": "2026-09-02"
+},
+"AS Roma": {
+"canal": "AS Roma",
+"id": "UCLttSYJ6kPtlcurY96kXkQw",
+"liga": "",
+"ultimo": "2026-08-31"
+},
+"AVS": null,
+"AZ": null,
+"Académico de Viseu": null,
+"Ajax": null,
+"Alavés": null,
+"Alverca": null,
+"Angers": null,
+"Arouca": null,
+"Arsenal": {
+"canal": "Arsenal",
+"id": "UCpryVRk_VDudG8SHXgWcG0w",
+"liga": "premier",
+"ultimo": "2026-09-01"
+},
+"Aston Villa": null,
+"Atalanta": null,
+"Atalanta BC": {
+"canal": "Atalanta Bergamasca Calcio",
+"id": "UC0R-isVeRhMDe3vFTWP5Spg",
+"liga": "champions",
+"ultimo": "2026-09-02"
+},
+"Athletic Club": null,
+"Athletico Paranaense": {
+"canal": "Athletico Paranaense",
+"id": "UCUN1ASH969TSwnuUUU56TmA",
+"liga": "brasileirao",
+"ultimo": "2026-09-01"
+},
+"Atlético Madrid": null,
+"Atlético Mineiro": null,
+"Augsburg": null,
+"Auxerre": null,
+"Bahía": null,
+"Barcelona": null,
+"Bayer 04 Leverkusen": null,
+"Bayern Munich": {
+"canal": "Bayern",
+"id": "UCfdT0WlvDerbcQ5E0CjJAZA",
+"liga": "bundesliga",
+"ultimo": "2026-09-02"
+},
+"Benfica": null,
+"Birmingham City": null,
+"Blackburn Rovers": {
+"canal": "Blackburn Rovers Football Club",
+"id": "UCg4185wSpo9swSCSUEYUGTg",
+"liga": "championship",
+"ultimo": "2026-09-02"
+},
+"Bologna": null,
+"Bolton Wanderers": null,
+"Botafogo": null,
+"Bournemouth": null,
+"Braga": null,
+"Bragantino": null,
+"Brentford": {
+"canal": "Brentford Football Club",
+"id": "UCAalMUm3LIf504ItA3rqfug",
+"liga": "premier",
+"ultimo": "2026-09-01"
+},
+"Brest": null,
+"Brighton": null,
+"Bristol City": null,
+"Burnley": {
+"canal": "Burnley Football Club",
+"id": "UChvUXuSDeEFSQZS8GcPMtkg",
+"liga": "premier",
+"ultimo": "2026-09-02"
+},
+"Cagliari": null,
+"Cambuur": null,
+"Cardiff City": {
+"canal": "Cardiff City FC",
+"id": "UCfBVy8PAMwyNbac6D0Mk8gQ",
+"liga": "championship",
+"ultimo": "2026-09-01"
+},
+"Casa Pia": null,
+"Celta Vigo": null,
+"Chapecoense": null,
+"Charlton Athletic": null,
+"Chelsea": {
+"canal": "Chelsea Football Club",
+"id": "UCU2PacFf99vhb3hNiYDmxww",
+"liga": "premier",
+"ultimo": "2026-09-02"
+},
+"Club Atlético de Madrid": null,
+"Club Brugge KV": null,
+"Clube do Remo": null,
+"Colonia": null,
+"Como": null,
+"Como 1907": null,
+"Corinthians": {
+"canal": "Corinthians TV",
+"id": "UCqRraVICLr0asn90cAvkIZQ",
+"liga": "brasileirao",
+"ultimo": "2026-09-01"
+},
+"Coritiba": null,
+"Coventry City": {
+"canal": "Coventry City FC",
+"id": "UCch_NWdo3JWKngAyO9XlycA",
+"liga": "championship",
+"ultimo": "2026-08-30"
+},
+"Coventry City FC": {
+"canal": "Coventry City FC",
+"id": "UCch_NWdo3JWKngAyO9XlycA",
+"liga": "premier",
+"ultimo": "2026-08-30"
+},
+"Cremonese": null,
+"Cruzeiro": {
+"canal": "TV CRUZEIRO | Cruzeiro Esporte Clube",
+"id": "UCqifkpdmE1z3VhfQoJzwpJQ",
+"liga": "brasileirao",
+"ultimo": "2026-09-02"
+},
+"Crystal Palace": null,
+"Den Haag": null,
+"Derby County": null,
+"Dortmund": null,
+"ES Troyes AC": null,
+"Elche": null,
+"Espanyol": null,
+"Estoril": null,
+"Estrela da Amadora": null,
+"Everton": {
+"canal": "Everton Football Club",
+"id": "UCtK4QAczAN2mt2ow_jlGinQ",
+"liga": "premier",
+"ultimo": "2026-09-01"
+},
+"Excelsior": null,
+"FC Barcelona": {
+"canal": "FC Barcelona",
+"id": "UC14UlmYlSNiQCBe9Eookf_A",
+"liga": "champions",
+"ultimo": "2026-09-02"
+},
+"FC Bayern München": null,
+"FC Internazionale Milano": null,
+"FC Schalke 04": null,
+"FK Bodø/Glimt": null,
+"FK Shakhtar Donetsk": null,
+"Famalicão": null,
+"Fenerbahçe SK": {
+"canal": "Fenerbahçe SK",
+"id": "UCgqlho3-8a6FmDqQm7Q6gJw",
+"liga": "champions",
+"ultimo": "2026-09-01"
+},
+"Feyenoord": {
+"canal": "Feyenoord",
+"id": "UCg_DGzRRIQlXpHxCrMMiAIQ",
+"liga": "eredivisie",
+"ultimo": "2026-08-31"
+},
+"Fiorentina": {
+"canal": "ACF Fiorentina",
+"id": "UC9nwpWq73kl4e2a51d1aCog",
+"liga": "seriea",
+"ultimo": "2026-09-02"
+},
+"Flamengo": {
+"canal": "Flamengo TV",
+"id": "UCOa-WaNwQaoyFHLCDk7qKIw",
+"liga": "brasileirao",
+"ultimo": "2026-09-01"
+},
+"Fluminense": {
+"canal": "Fluminense Football Club",
+"id": "UCAAPXtnzlg9krw6MtNbfR-g",
+"liga": "brasileirao",
+"ultimo": "2026-08-30"
+},
+"Fortuna Sittard": null,
+"Frankfurt": null,
+"Freiburg": null,
+"Frosinone Calcio": null,
+"Fulham": {
+"canal": "Fulham Football Club",
+"id": "UC2VLfz92cTT8jHIFOecC-LA",
+"liga": "premier",
+"ultimo": "2026-09-02"
+},
+"Galatasaray SK": {
+"canal": "Galatasaray",
+"id": "UCQpeujIamj2ZOKXZnrxTRhA",
+"liga": "champions",
+"ultimo": "2026-09-02"
+},
+"Genoa": null,
+"Getafe": null,
+"Gil Vicente": null,
+"Girona": {
+"canal": "Girona FC",
+"id": "UC6x5gKUZpXuKDujmaHc3Xhg",
+"liga": "laliga",
+"ultimo": "2026-09-02"
+},
+"Go Ahead Eagles": null,
+"Gremio": {
+"canal": "Grêmio FBPA",
+"id": "UCHKbUAiKHsWCCZrkDY_PZ8Q",
+"liga": "brasileirao",
+"ultimo": "2026-09-01"
+},
+"Groningen": null,
+"Hamburger SV": null,
+"Heerenveen": null,
+"Heidenheim": null,
+"Heracles": null,
+"Hoffenheim": null,
+"Hull City": null,
+"Hull City AFC": null,
+"Inter": {
+"canal": "Inter",
+"id": "UCvXzEblUa0cfny4HAJ_ZOWw",
+"liga": "seriea",
+"ultimo": "2026-09-02"
+},
+"Internacional": null,
+"Ipswich Town": {
+"canal": "Ipswich Town FC",
+"id": "UCjNwxJec96lMWgCXjEDhXgQ",
+"liga": "championship",
+"ultimo": "2026-08-30"
+},
+"Ipswich Town FC": null,
+"Juventus": {
+"canal": "Juventus",
+"id": "UCLzKhsxrExAC6yAdtZ-BOWw",
+"liga": "seriea",
+"ultimo": "2026-09-02"
+},
+"LASK Linz": null,
+"Lazio": null,
+"Le Havre": null,
+"Le Mans FC": null,
+"Lecce": null,
+"Leeds United": {
+"canal": "Leeds United Official",
+"id": "UCyQcJHDN4uYfPa1DHzKVSnw",
+"liga": "premier",
+"ultimo": "2026-09-02"
+},
+"Leicester City": null,
+"Lens": null,
+"Levante": null,
+"Leverkusen": null,
+"Lille": null,
+"Lille OSC": null,
+"Lincoln City": {
+"canal": "Lincoln",
+"id": "UCZ_rMh5GlBHjjw3vLh1Xqvg",
+"liga": "championship",
+"ultimo": "2026-08-28"
+},
+"Liverpool": {
+"canal": "Liverpool FC",
+"id": "UC9LQwHZoucFT94I2h6JOcjw",
+"liga": "premier",
+"ultimo": "2026-09-02"
+},
+"Lorient": null,
+"Lyon": null,
+"M'gladbach": null,
+"Mainz 05": null,
+"Mallorca": null,
+"Manchester City": null,
+"Manchester Utd": null,
+"Marseille": null,
+"Marítimo": null,
+"Metz": {
+"canal": "Metz",
+"id": "UC4zbhyvNx-ljj_cJycsJDOw",
+"liga": "",
+"ultimo": "2026-07-18"
+},
+"Middlesbrough": {
+"canal": "Middlesbrough FC",
+"id": "UCdXWsJhkXzx5hFJGcxjy_5Q",
+"liga": "championship",
+"ultimo": "2026-09-01"
+},
+"Millwall": {
+"canal": "Millwall",
+"id": "UCjjeK2_3vGROrlLp0OdMlHQ",
+"liga": "championship",
+"ultimo": "2026-07-20"
+},
+"Mirassol": null,
+"Monaco": null,
+"Moreirense": null,
+"Málaga CF": {
+"canal": "Málaga CF",
+"id": "UCo_PhWZulZooYfQRo00vU-Q",
+"liga": "laliga",
+"ultimo": "2026-09-02"
+},
+"NAC Breda": null,
+"NEC": null,
+"Nacional": null,
+"Nantes": null,
+"Napoli": null,
+"Newcastle": null,
+"Newcastle United": null,
+"Nice": null,
+"Norwich City": null,
+"Nottingham": null,
+"Oporto": null,
+"Osasuna": null,
+"Oxford United": {
+"canal": "Oxford United Official",
+"id": "UCuLAsHtoOl-GF33JKmo8kzA",
+"liga": "championship",
+"ultimo": "2026-09-02"
+},
+"PAE AEK": null,
+"PAE Olympiakos SFP": null,
+"PSG": null,
+"PSV": null,
+"Palmeiras": {
+"canal": "TV Palmeiras Sportingbet",
+"id": "UCBKc-rPDivvwFiWdG-81wxw",
+"liga": "brasileirao",
+"ultimo": "2026-09-02"
+},
+"Paris FC": {
+"canal": "Paris FC",
+"id": "UCYh5fX_dsAbmpoh5Ihee45A",
+"liga": "ligue1",
+"ultimo": "2026-09-01"
+},
+"Paris Saint-Germain": null,
+"Parma": null,
+"Pisa": null,
+"Portsmouth": null,
+"Preston North End": null,
+"Qarabağ Ağdam FK": {
+"canal": "QARABAG",
+"id": "UCU10o3xGQg7Akzj4f2VhXmQ",
+"liga": "champions",
+"ultimo": "2026-07-15"
+},
+"Queens Park Rangers": null,
+"RB Leipzig": {
+"canal": "RB Leipzig",
+"id": "UCkZwB4IGoNBvRmVT2gaO4XA",
+"liga": "bundesliga",
+"ultimo": "2026-09-01"
+},
+"RC Deportivo La Coruña": null,
+"Racing Club de Lens": null,
+"Rayo Vallecano": null,
+"Real Betis": {
+"canal": "Real Betis Balompié",
+"id": "UCeB7JZwcar2fVoK2w2f9OwA",
+"liga": "laliga",
+"ultimo": "2026-09-02"
+},
+"Real Madrid": {
+"canal": "Real Madrid",
+"id": "UCWV3obpZVGgJ3j9FVhEjF2Q",
+"liga": "laliga",
+"ultimo": "2026-09-02"
+},
+"Real Oviedo": null,
+"Real Racing Club de Santander": null,
+"Real Sociedad": null,
+"Rennes": null,
+"Rio Ave": null,
+"Roma": null,
+"SC Paderborn 07": {
+"canal": "SC Paderborn 07 TV (official)",
+"id": "UC-7BCMDgIT65THho_ZBXtTw",
+"liga": "bundesliga",
+"ultimo": "2026-09-02"
+},
+"SK Slavia Praha": null,
+"SSC Napoli": null,
+"SV 07 Elversberg": {
+"canal": "SV Elversberg",
+"id": "UCCKh_CjS8h8LoisKS-AIehQ",
+"liga": "bundesliga",
+"ultimo": "2026-08-31"
+},
+"Sabah FK": {
+"canal": "Sabah",
+"id": "UCGgVyu1fB_NblkfsYR-eEjg",
+"liga": "champions",
+"ultimo": "2026-09-01"
+},
+"Santa Clara": null,
+"Santos": null,
+"Sassuolo": null,
+"Sevilla": {
+"canal": "Sevilla FC",
+"id": "UCLy9lmj_0cqffXUzbGHNmYA",
+"liga": "laliga",
+"ultimo": "2026-09-02"
+},
+"Sheffield United": {
+"canal": "Sheffield United FC",
+"id": "UCVER_UoBt84YUrA6s402Q-g",
+"liga": "championship",
+"ultimo": "2026-09-01"
+},
+"Sheffield Wednesday": null,
+"Southampton": {
+"canal": "Southampton FC",
+"id": "UCxvXjfiIHQ2O6saVx_ZFqnw",
+"liga": "championship",
+"ultimo": "2026-09-02"
+},
+"Sparta Rotterdam": {
+"canal": "Sparta Rotterdam",
+"id": "UC8jk5fdSMwHt6-cLYXTAYuA",
+"liga": "eredivisie",
+"ultimo": "2026-09-01"
+},
+"Sporting de Lisboa": null,
+"St. Pauli": null,
+"Stoke City": {
+"canal": "Stoke City FC",
+"id": "UCmFPjHUFr0hyE6eFGvCm7IA",
+"liga": "championship",
+"ultimo": "2026-09-01"
+},
+"Strasbourg": null,
+"Stuttgart": null,
+"Sunderland": null,
+"Swansea City": {
+"canal": "Swansea City AFC",
+"id": "UCSMZZFBE92Yn-_XYdDiiANA",
+"liga": "championship",
+"ultimo": "2026-09-02"
+},
+"São Paulo": {
+"canal": "São Paulo FC",
+"id": "UCX3zTAsEoZ61rQMYb_08Tow",
+"liga": "brasileirao",
+"ultimo": "2026-09-01"
+},
+"Telstar": null,
+"Tondela": null,
+"Torino": null,
+"Tottenham": null,
+"Tottenham Hotspur": {
+"canal": "Tottenham Hotspur",
+"id": "UCEg25rdRZXg32iwai6N6l0w",
+"liga": "champions",
+"ultimo": "2026-09-02"
+},
+"Toulouse": {
+"canal": "Toulouse Football Club",
+"id": "UCYXs6c0q6Fdlltd5SyrQnjw",
+"liga": "ligue1",
+"ultimo": "2026-08-31"
+},
+"Twente": null,
+"Udinese": null,
+"Union Berlin": null,
+"Utrecht": null,
+"Valencia": null,
+"Vasco da Gama": null,
+"Venezia FC": null,
+"Verona": null,
+"Viking FK": null,
+"Villarreal": null,
+"Vitória": null,
+"Vitória de Guimarães": null,
+"Volendam": null,
+"Watford": null,
+"Werder Bremen": {
+"canal": "Werder Bremen",
+"id": "UCdjedrfgyFQEkqbkq1DJf3w",
+"liga": "bundesliga",
+"ultimo": "2026-09-01"
+},
+"West Bromwich Albion": null,
+"West Ham": null,
+"Willem II": {
+"canal": "Willem II",
+"id": "UCl4YVKOIdzEMHymvgtdk96w",
+"liga": "eredivisie",
+"ultimo": "2026-07-26"
+},
+"Wolfsburg": null,
+"Wolverhampton Wanderers": null,
+"Wolves": null,
+"Wrexham": null,
+"Zwolle": null,
+"ŠK Slovan Bratislava": {
+"canal": "ŠK Slovan Bratislava",
+"id": "UC7ldMqVVX6CD6NMZaqsihTw",
+"liga": "champions",
+"ultimo": "2026-09-01"
+}
+}

@@ -1507,6 +1507,7 @@ def main() -> None:
     print("")
     print("Vídeos oficiales")
     salida["videos"] = mod_videos.recolectar(hoy)
+    salida["videos_club"] = mod_videos.recolectar_clubes(hoy)
 
     for lg in salida["ligas"].values():
         for eq in lg["equipos"].values():
