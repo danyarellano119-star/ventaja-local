@@ -18,7 +18,7 @@
 <meta name="twitter:description" content="Probabilidades, cuotas y estadísticas de cada partido de la Premier League, LaLiga, Serie A, Bundesliga y Ligue 1. Análisis por equipo y por jugador, con datos actualizados.">
 </head>
 <body>
-
+<title>Ventaja Local</title>
 <style>
 :root {
   --ground:      #EDEFF2;
@@ -565,8 +565,11 @@ table.matriz td.top { outline: 2px solid var(--visita); outline-offset: -2px; fo
 .escudo-caja .escudo { position: absolute; inset: 0; width: 100%; height: 100%; }
 .escudo-caja img {
   position: absolute; inset: 0; width: 100%; height: 100%;
-  object-fit: contain; background: var(--surface); border-radius: 7px;
-  padding: 1px;
+  object-fit: contain; border-radius: 7px; padding: 1px;
+  /* Fondo claro fijo, no el de la tarjeta. Muchos escudos son línea negra
+     sobre transparente —la Juventus, el Newcastle— y sobre el fondo oscuro
+     del modo noche se volvían una mancha negra. */
+  background: #FBFCFD;
 }
 .escudo-caja.grande img { border-radius: 9px; padding: 2px; }
 
@@ -991,6 +994,61 @@ table.tabla-liga tbody tr:hover td { background: var(--surface-2); }
 .video-mini:hover span { color: var(--ink); }
 .video-mini:focus-visible { outline: 2px solid var(--acento); outline-offset: 2px; }
 .video-mini.activo img { outline: 2px solid var(--acento); outline-offset: 2px; }
+/* ── Último partido: la imagen del resultado y el enlace ──────────────── */
+.ultimo-partido { margin: 4px 0 0; }
+.up-imagen {
+  position: relative; width: 100%; aspect-ratio: 16 / 9; overflow: hidden;
+  border-radius: 10px; background: var(--fondo-2, #131922);
+  display: flex; align-items: center; justify-content: center;
+}
+.up-imagen img { width: 100%; height: 100%; object-fit: cover; display: block; }
+/* La tarjeta de marcador no necesita el formato de una carátula de vídeo:
+   con 16/9 a todo lo ancho quedaban seiscientos píxeles de hueco. */
+.up-imagen.sin-video { aspect-ratio: auto; height: clamp(170px, 22vw, 240px); }
+.up-imagen iframe { width: 100%; height: 100%; border: 0; display: block; }
+/* El botón de reproducir, sólo cuando tenemos el vídeo de ese partido */
+.up-play {
+  position: absolute; inset: 0; margin: auto; width: 62px; height: 62px;
+  border-radius: 50%; border: none; cursor: pointer; font-size: 22px;
+  color: #fff; background: rgba(10,12,16,.72); backdrop-filter: blur(2px);
+  display: flex; align-items: center; justify-content: center;
+  transition: transform .12s ease, background .12s ease;
+}
+.up-imagen.con-video:hover .up-play { transform: scale(1.08); background: #e02f2f; }
+.up-play:focus-visible { outline: 3px solid #fff; outline-offset: 3px; }
+
+/* Cuando no hay resumen, se dibuja el marcador: los dos escudos y el tanteo */
+.up-marcador {
+  display: flex; align-items: center; justify-content: center; gap: 22px;
+  width: 100%; height: 100%; padding: 14px;
+  background: linear-gradient(150deg,
+    color-mix(in srgb, var(--acento) 14%, transparent), transparent 62%);
+}
+.up-marcador .up-lado {
+  display: flex; flex-direction: column; align-items: center; gap: 8px;
+  flex: 1; min-width: 0; text-align: center;
+}
+.up-marcador .up-lado span {
+  font-family: var(--sans); font-size: 13px; color: var(--ink-2);
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 100%;
+}
+.up-marcador .escudo, .up-marcador .escudo-caja {
+  width: 54px !important; height: 54px !important; font-size: 17px !important;
+}
+.up-cifras {
+  display: flex; align-items: center; gap: 9px; flex: none;
+  font-family: var(--mono); font-size: 40px; font-weight: 600; color: var(--ink);
+}
+.up-cifras i { font-style: normal; color: var(--ink-3); font-size: 26px; }
+
+.up-datos { margin: 12px 0 2px; font-family: var(--sans); line-height: 1.45; }
+.up-datos b { font-size: 15px; display: block; }
+.up-datos span { font-size: 13px; color: var(--ink-2); }
+.up-enlace { margin: 6px 0 0; font-family: var(--sans); font-size: 13px; }
+.up-enlace .video-canal { margin-left: 6px; }
+.up-nada { font-family: var(--sans); font-size: 13.5px; color: var(--ink-2); }
+@media print { .up-imagen { display: none; } }
+
 .video-equipo { margin-bottom: 26px; }
 .video-equipo h3 {
   display: flex; align-items: center; gap: 9px; margin: 0 0 10px;
@@ -1075,7 +1133,10 @@ table.tabla-liga tbody tr:hover td { background: var(--surface-2); }
 }
 .ficha-cresta img.sello {
   width: 92px; height: 92px; object-fit: contain; flex: none;
-  filter: drop-shadow(0 3px 10px rgba(0,0,0,.55));
+  /* Sobre la foto de la portada, que es oscura, un escudo de línea negra
+     desaparecía. Va sobre una pastilla clara, como los demás. */
+  background: #FBFCFD; border-radius: 14px; padding: 7px;
+  box-shadow: 0 3px 14px rgba(0,0,0,.45);
 }
 /* Cuando no hay escudo se pinta el distintivo de colores: al mismo tamaño,
    para que la portada no cambie de composición según el equipo. */
@@ -1226,6 +1287,11 @@ tr.eq-destacado > td:first-child { box-shadow: inset 3px 0 0 var(--acento); }
 .dest-titulo .escudo-caja, .dest-titulo .escudo { width: 52px; height: 52px; }
 .dest-titulo .escudo-caja.con-img .escudo { display: none; }
 .dest-titulo .escudo-caja img { background: none; border-radius: 0; padding: 0; }
+/* Lo mismo en la portada: sin halo, un escudo negro no se ve sobre la foto */
+.dest-titulo .escudo-caja, .dest-titulo .escudo-caja img {
+  filter: drop-shadow(0 0 1.5px rgba(255,255,255,.95))
+          drop-shadow(0 0 6px rgba(255,255,255,.4));
+}
 .dest-titulo .dest-vs {
   font-family: var(--sans); font-size: 16px; font-weight: 400;
   color: #b9c1cc; letter-spacing: .06em; text-transform: uppercase;
@@ -1311,7 +1377,12 @@ tr.eq-destacado > td:first-child { box-shadow: inset 3px 0 0 var(--acento); }
   /* 48 y no 54: los escudos del repositorio miden 139x181, y a mayor tamaño
      las pantallas de alta densidad tienen que ampliarlos. */
   width: 48px; height: 48px;
-  filter: drop-shadow(0 3px 10px rgba(0,0,0,.6));
+  /* Halo blanco además de la sombra: los escudos de línea negra —Juventus,
+     Newcastle— se perdían del todo contra la foto oscura de la tarjeta. El
+     contorno los despega sin devolverles el recuadro, que quedaba peor. */
+  filter: drop-shadow(0 0 1.5px rgba(255,255,255,.95))
+          drop-shadow(0 0 5px rgba(255,255,255,.45))
+          drop-shadow(0 3px 10px rgba(0,0,0,.6));
 }
 /* Sin recuadro ni relleno: el marco claro que llevan en las listas hacía que
    sobre la tarjeta oscura parecieran pegotes borrosos. */
@@ -3832,12 +3903,13 @@ function abrirDetalle(ligaKey, p, desdeRuta = false) {
   // Un bloque por equipo, con lo último suyo. Buscar «PSG - Mónaco» devuelve
   // los duelos entre ellos de años pasados, que no dicen nada de cómo llegan
   // hoy; lo que interesa es el último partido de cada uno por separado.
-  const canal = (D.videos || {})[ligaKey];
-  document.getElementById("d-bloque-video").classList.toggle("oculto", !canal);
-  if (canal) {
+  const hayHistorial = (a.hist || []).length || (b.hist || []).length;
+  document.getElementById("d-bloque-video").classList.toggle("oculto", !hayHistorial);
+  if (hayHistorial) {
     document.getElementById("d-video-sub").innerHTML =
-      `Lo último de cada uno en el canal oficial de <b>${lg.nombre}</b>. Puedes ` +
-      `verlo aquí mismo o abrirlo en YouTube, como prefieras.`;
+      `El último partido de cada uno, con el resultado. Donde tenemos el ` +
+      `resumen, la carátula se puede pulsar para verlo aquí mismo; y en todos ` +
+      `los casos está el enlace a YouTube.`;
     document.getElementById("d-videos").innerHTML =
       [a, b].map((eq, i) => `
         <div class="video-equipo">
@@ -3847,20 +3919,8 @@ function abrirDetalle(ligaKey, p, desdeRuta = false) {
           <p class="video-vacio" id="d-vacio-${i}"></p>
         </div>`).join("");
     [a, b].forEach((eq, i) => {
-      const suyos = videosDe(ligaKey, [eq], 6);
-      // Si de este equipo no hay nada, se pone lo último de la competición.
-      // La idea es que siempre haya algo que ver aquí dentro: mandar a la
-      // gente a YouTube era justo lo que no queríamos.
-      const mostrar = suyos.length ? suyos : ultimosDe(ligaKey, 4);
-      pintarVideos(`d-videos-${i}`, mostrar);
-      document.getElementById(`d-vacio-${i}`).innerHTML = suyos.length
-        ? enlaceBusqueda(`${eq.nombre} resumen último partido`, "Más de este equipo en YouTube ↗")
-        : (mostrar.length
-            ? `Del ${eq.nombre} aún no hay vídeo propio: esto es lo último de
-               <b>${lg.nombre}</b>. ` +
-              enlaceBusqueda(`${eq.nombre} resumen último partido`, "Buscar los suyos ↗")
-            : `Todavía no hay vídeos de esta competición. ` +
-              enlaceBusqueda(`${eq.nombre} resumen último partido`, "Buscarlo en YouTube ↗"));
+      pintarUltimoPartido(`d-videos-${i}`, ligaKey, eq);
+      document.getElementById(`d-vacio-${i}`).innerHTML = "";
     });
     document.getElementById("d-video-buscar").innerHTML =
       `¿Prefieres el cruce entre los dos? ` +
@@ -5883,6 +5943,95 @@ function enlaceBusqueda(texto, etiqueta) {
      target="_blank" rel="noopener noreferrer">${etiqueta}</a>`;
 }
 
+/** El último partido que jugó un equipo, con su resultado. */
+function ultimoPartido(lg, eq) {
+  const h = (eq.hist || []);
+  if (!h.length) return null;
+  const m = h[h.length - 1];
+  // El historial guarda el rival por su clave; aquí interesa cómo se escribe
+  const rival = Object.values(lg.equipos).find(e => e.clave === m.r) || { nombre: m.r };
+  return {
+    fecha: m.f, local: m.c === "L", rival,
+    gf: m.gf, gc: m.gc,
+    signo: m.gf > m.gc ? "gano" : m.gf < m.gc ? "perdio" : "empato",
+  };
+}
+
+/** Tarjeta con el marcador, para cuando no hay vídeo del partido.
+ *  Es la «imagen del resultado»: los dos escudos y el marcador, nada más. */
+function tarjetaResultado(u, eq) {
+  const izq = u.local ? eq : u.rival;
+  const der = u.local ? u.rival : eq;
+  const gi = u.local ? u.gf : u.gc;
+  const gd = u.local ? u.gc : u.gf;
+  return `<div class="up-marcador">
+      <div class="up-lado">${escudo(izq.nombre, true)}<span>${izq.nombre}</span></div>
+      <div class="up-cifras"><b>${gi}</b><i>–</i><b>${gd}</b></div>
+      <div class="up-lado">${escudo(der.nombre, true)}<span>${der.nombre}</span></div>
+    </div>`;
+}
+
+/** Bloque «último partido»: la imagen del resultado y el enlace a YouTube.
+ *
+ *  Si tenemos el vídeo de ese partido se enseña su carátula y se puede
+ *  reproducir aquí mismo al pulsarla; si no, se dibuja el marcador y el enlace
+ *  lleva a buscarlo. En los dos casos se ve el resultado sin salir de la web.
+ */
+function pintarUltimoPartido(idCaja, ligaKey, eq) {
+  const caja = document.getElementById(idCaja);
+  const lg = D.ligas[ligaKey];
+  const u = ultimoPartido(lg, eq);
+  if (!u) {
+    caja.innerHTML = `<p class="up-nada">Todavía no hay ningún partido jugado
+      de ${eq.nombre} en nuestros datos.</p>`;
+    return;
+  }
+
+  const marcador = `${u.local ? eq.nombre : u.rival.nombre} ` +
+    `${u.local ? u.gf : u.gc}–${u.local ? u.gc : u.gf} ` +
+    `${u.local ? u.rival.nombre : eq.nombre}`;
+  const busqueda = `${eq.nombre} ${u.rival.nombre} resumen`;
+  // Vídeo de ese partido concreto: tiene que nombrar a los dos
+  const suyos = videosDe(ligaKey, [eq], 12);
+  const delPartido = suyos.find(v => tituloMenciona(v.t, u.rival)) || null;
+
+  const RESULTADO = { gano: "Ganó", perdio: "Perdió", empato: "Empató" };
+  caja.innerHTML = `
+    <div class="ultimo-partido">
+      <div class="up-imagen ${delPartido ? "con-video" : "sin-video"}">
+        ${delPartido
+          ? `<img src="https://i.ytimg.com/vi/${delPartido.id}/hqdefault.jpg"
+                 alt="Carátula del resumen de ${marcador}" loading="lazy">
+             <button class="up-play" type="button"
+                     aria-label="Reproducir el resumen aquí mismo">▶</button>`
+          : tarjetaResultado(u, eq)}
+      </div>
+      <p class="up-datos">
+        <b>${marcador}</b>
+        <span>${RESULTADO[u.signo]} ${u.local ? "en casa" : "fuera"} ·
+              ${fechaLarga(u.fecha)}</span>
+      </p>
+      <p class="up-enlace">
+        ${delPartido
+          ? `<a href="https://www.youtube.com/watch?v=${delPartido.id}"
+                target="_blank" rel="noopener noreferrer">Ver el resumen en
+                YouTube ↗</a> <span class="video-canal">${delPartido.c}</span>`
+          : enlaceBusqueda(busqueda, "Buscar el resumen en YouTube ↗")}
+      </p>
+    </div>`;
+
+  const boton = caja.querySelector(".up-play");
+  if (boton) {
+    boton.addEventListener("click", () => {
+      caja.querySelector(".up-imagen").innerHTML =
+        `<iframe src="https://www.youtube-nocookie.com/embed/${delPartido.id}?autoplay=1"
+           title="${delPartido.t.replace(/"/g, "&quot;")}"
+           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+           referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
+    });
+  }
+}
+
 /** Pinta un bloque de vídeos: el primero incrustado y el resto en miniaturas. */
 function pintarVideos(idCaja, videos) {
   const caja = document.getElementById(idCaja);
@@ -6061,21 +6210,16 @@ function abrirEquipo(ligaKey, clave) {
     `<div class="cifra"><b>${v}</b><span>${l}</span></div>`).join("");
 
   // ── Vídeos del equipo ───────────────────────────────────────────────── //
-  const susVideos = videosDe(ligaKey, [eq], 8);
-  const deLaLiga = ultimosDe(ligaKey, 6);
-  const verVideos = susVideos.length ? susVideos : deLaLiga;
   document.getElementById("eq-bloque-video").classList
-    .toggle("oculto", !verVideos.length);
-  document.getElementById("eq-video-sub").innerHTML = susVideos.length
-    ? `Lo último que ha publicado el canal oficial de ${lg.nombre} sobre
-       ${eq.nombre}. Se ve aquí mismo.`
-    : `De ${eq.nombre} todavía no hay vídeo propio, así que aquí va lo último
-       de <b>${lg.nombre}</b>. La lista crece cada hora.`;
-  pintarVideos("eq-videos", verVideos);
+    .toggle("oculto", !(eq.hist || []).length);
+  document.getElementById("eq-video-sub").innerHTML =
+    `Cómo acabó su último partido. Si tenemos el resumen, la carátula se puede
+     pulsar para verlo aquí mismo.`;
+  pintarUltimoPartido("eq-videos", ligaKey, eq);
   document.getElementById("eq-video-buscar").innerHTML =
     `¿Buscas otra cosa? ` +
     enlaceBusqueda(`${eq.nombre} resumen ${T(op.act || lg.temp_hist || "")}`,
-                   "Búscalo tú en YouTube") + ` — se abre en otra pestaña.`;
+                   "Búscalo tú en YouTube ↗") + ` — se abre en otra pestaña.`;
 
   // ── La tabla de su liga, con él resaltado ────────────────────────────── //
   // Ver el puesto suelto no dice gran cosa: lo que importa es quién tiene
