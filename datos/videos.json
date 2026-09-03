@@ -32,6 +32,36 @@
 },
 {
 "c": "CazéTV",
+"f": "2026-09-03",
+"id": "44En7SSpO2Y",
+"t": "JOGO COMPLETO: TOULOUSE X LILLE | LIGUE 1 26/27 | 3ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-03",
+"id": "X4eN6dTFUCE",
+"t": "MELHORES MOMENTOS: REAL SOCIEDAD 0 X 0 CELTA | LALIGA 26/27 | 6ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-03",
+"id": "Rl4YVgTQwH0",
+"t": "MELHORES MOMENTOS: TOULOUSE 0 X 1 LILLE | LIGUE 1 26/27 | 3ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-03",
+"id": "IXhYYlwGSkQ",
+"t": "FALAMOS COM BRAD GILBERT, LENDA DO TÊNIS E TREINADOR DE ANDRE AGASSI, COCO GAUFF E ANDY MURRAY"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-03",
+"id": "Z84I1_QW6Qs",
+"t": "AO VIVO (SOM AMBIENTE) : TÊNIS DE MESA | WTT CONTENDER ALMATY | FINAIS"
+},
+{
+"c": "CazéTV",
 "f": "2026-09-02",
 "id": "kuX_0LvJ28M",
 "t": "SIMPLESMENTE KAIO JORGE X ALEXSANDER: CLIMINHA GOSTOSO EM MINAS 🤯"
@@ -77,6 +107,12 @@
 "f": "2026-09-02",
 "id": "-slpCly9ol4",
 "t": "BALANÇA O OMBRIN, VAI, VAI! QUEBRA TUDO, PAQUETÁ! 🕺🔴⚫"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-02",
+"id": "wymDa5wAnTo",
+"t": "AO VIVO (SOM AMBIENTE): ANGERS X RENNES | LIGUE 1 26/27 | 3ª RODADA"
 },
 {
 "c": "CazéTV",
@@ -153,14 +189,14 @@
 {
 "c": "CazéTV",
 "f": "2026-08-24",
-"id": "44En7SSpO2Y",
-"t": "AO VIVO: TOULOUSE X LILLE | LIGUE 1 26/27 | 3ª RODADA"
+"id": "SmUoJxrZkYk",
+"t": "COMPACTO: BRASIL X MÉXICO | ELIMINATÓRIAS PARA A COPA DO MUNDO DE BASQUETE"
 },
 {
 "c": "CazéTV",
 "f": "2026-08-24",
-"id": "SmUoJxrZkYk",
-"t": "AO VIVO: REAL SOCIEDAD X CELTA | LALIGA 26/27 | 6ª RODADA"
+"id": "bETGueMONLQ",
+"t": "GRENAL DECISIVO! GRÊMIO X INTER DECIDEM O ÚLTIMO SEMIFINALISTA DA COPA | GERAL CAZÉTV"
 }
 ],
 "bundesliga": [
@@ -748,6 +784,24 @@
 },
 {
 "c": "LALIGA EA SPORTS",
+"f": "2026-09-03",
+"id": "XHTMNe4PGrc",
+"t": "REAL SOCIEDAD vs CELTA | RUEDA DE PRENSA"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-03",
+"id": "jmrGAcizaCk",
+"t": "REAL SOCIEDAD 0 - 0 CELTA | RESUMEN LALIGA EA SPORTS"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-03",
+"id": "HFD-3IOcfH8",
+"t": "TURRIENTES😱"
+},
+{
+"c": "LALIGA EA SPORTS",
 "f": "2026-09-02",
 "id": "Td5WepstIAw",
 "t": "Todos felicitan a LAMINE YAMAL"
@@ -787,12 +841,6 @@
 "f": "2026-09-02",
 "id": "zgNHNzDgFEs",
 "t": "El DOBLETE de BAENA"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-09-02",
-"id": "XHTMNe4PGrc",
-"t": "REAL SOCIEDAD vs CELTA | RUEDA DE PRENSA"
 },
 {
 "c": "LALIGA EA SPORTS",
@@ -1243,6 +1291,18 @@
 "f": "2026-09-03",
 "id": "XuZV-prt8WU",
 "t": "Goalfest in Sicily! | PALERMO-MANTOVA | HIGHLIGHTS | Coppa Italia Frecciarossa 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-09-03",
+"id": "y17cTXIYu1A",
+"t": "Il Verona Passa all’Ultimo! | CAGLIARI-VERONA | HIGHLIGHTS | COPPA ITALIA FRECCIAROSSA 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-09-03",
+"id": "1VTR7Vtuf64",
+"t": "Mulattieri Sends Verona Through! | CAGLIARI-VERONA | HIGHLIGHTS | Coppa Italia Frecciarossa 2026/27"
 },
 {
 "c": "Serie A",
