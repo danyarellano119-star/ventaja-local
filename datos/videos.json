@@ -62,6 +62,18 @@
 },
 {
 "c": "CazéTV",
+"f": "2026-09-03",
+"id": "SmUoJxrZkYk",
+"t": "JOGO COMPLETO: REAL SOCIEDAD X CELTA | LALIGA 26/27 | 6ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-03",
+"id": "bETGueMONLQ",
+"t": "GRENAL DECISIVO! GRÊMIO X INTER DECIDEM O ÚLTIMO SEMIFINALISTA DA COPA | GERAL CAZÉTV"
+},
+{
+"c": "CazéTV",
 "f": "2026-09-02",
 "id": "kuX_0LvJ28M",
 "t": "SIMPLESMENTE KAIO JORGE X ALEXSANDER: CLIMINHA GOSTOSO EM MINAS 🤯"
@@ -185,18 +197,6 @@
 "f": "2026-08-31",
 "id": "v-GtI-cN3-I",
 "t": "ADMITA: VOCÊ FICOU IGUAL AO CAZÉ! QUE GOLAÇO ABSURDO DO YAMAL, PQP! ✋😨🤚🎙️ @luisinho"
-},
-{
-"c": "CazéTV",
-"f": "2026-08-24",
-"id": "SmUoJxrZkYk",
-"t": "COMPACTO: BRASIL X MÉXICO | ELIMINATÓRIAS PARA A COPA DO MUNDO DE BASQUETE"
-},
-{
-"c": "CazéTV",
-"f": "2026-08-24",
-"id": "bETGueMONLQ",
-"t": "GRENAL DECISIVO! GRÊMIO X INTER DECIDEM O ÚLTIMO SEMIFINALISTA DA COPA | GERAL CAZÉTV"
 }
 ],
 "bundesliga": [
@@ -1258,6 +1258,12 @@
 "seriea": [
 {
 "c": "Serie A",
+"f": "2026-09-04",
+"id": "y17cTXIYu1A",
+"t": "Il Verona Passa all’Ultimo! | CAGLIARI-VERONA | HIGHLIGHTS | COPPA ITALIA FRECCIAROSSA 2026/27"
+},
+{
+"c": "Serie A",
 "f": "2026-09-03",
 "id": "merBjbkMTP0",
 "t": "DANY MOTA decide #TorinoMonza 🎯 #CoppaItaliaFrecciarossa"
@@ -1291,12 +1297,6 @@
 "f": "2026-09-03",
 "id": "XuZV-prt8WU",
 "t": "Goalfest in Sicily! | PALERMO-MANTOVA | HIGHLIGHTS | Coppa Italia Frecciarossa 2026/27"
-},
-{
-"c": "Serie A",
-"f": "2026-09-03",
-"id": "y17cTXIYu1A",
-"t": "Il Verona Passa all’Ultimo! | CAGLIARI-VERONA | HIGHLIGHTS | COPPA ITALIA FRECCIAROSSA 2026/27"
 },
 {
 "c": "Serie A",
