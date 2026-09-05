@@ -62,6 +62,36 @@
 },
 {
 "c": "CazéTV",
+"f": "2026-09-05",
+"id": "ZpTlZlUVxv4",
+"t": "EVENTO COMPLETO: TIME BRASIL NA COPA DO MUNDO DE CANOAGEM SLALOM | ETAPA DA FRANÇA | DIA 3"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-05",
+"id": "T-1xNilI2y0",
+"t": "JOGO COMPLETO: WERDER BREMEN X RB LEIPZIG | BUNDESLIGA 26/27 | 2ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-05",
+"id": "U7DhW3r6kLc",
+"t": "JOGO COMPLETO:  BRASIL X TANZÂNIA | COPA DO MUNDO FIFA FEMININA SUB-20 2026 | 1ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-05",
+"id": "XmxzmhkfX-Q",
+"t": "MELHORES MOMENTOS: WERDER BREMEN 3 X 1 RB LEIPZIG | BUNDESLIGA 26/27 | 2ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-05",
+"id": "RMeqPocmmnM",
+"t": "MELHORES MOMENTOS: BRASIL 4 X 1 TANZÂNIA  | COPA DO MUNDO FIFA FEMININA SUB-20 2026 | 1ª RODADA"
+},
+{
+"c": "CazéTV",
 "f": "2026-09-04",
 "id": "Q5l2-lFzdPI",
 "t": "EVENTO COMPLETO: TIME BRASIL NA COPA DO MUNDO DE CANOAGEM SLALOM | ETAPA DA FRANÇA | DIA 2"
@@ -404,21 +434,21 @@
 },
 {
 "c": "CazéTV",
-"f": "2026-08-31",
-"id": "ZpTlZlUVxv4",
-"t": "AO VIVO: TIME BRASIL NA COPA DO MUNDO DE CANOAGEM SLALOM | ETAPA DA FRANÇA | DIA 3"
+"f": "2026-08-26",
+"id": "hDvSD2MPTc4",
+"t": "AO VIVO: RAYO VALLECANO X RACING CLUB (ESP) | LALIGA 26/27 | 4ª RODADA"
 },
 {
 "c": "CazéTV",
 "f": "2026-08-26",
-"id": "T-1xNilI2y0",
-"t": "AO VIVO: WERDER BREMEN X RB LEIPZIG | BUNDESLIGA 26/27 | 2ª RODADA"
+"id": "tBofULFzz1A",
+"t": "AO VIVO: SCHALKE 04 X BAYERN DE MUNIQUE | BUNDESLIGA 26/27 | 2ª RODADA"
 },
 {
 "c": "CazéTV",
 "f": "2026-08-26",
-"id": "U7DhW3r6kLc",
-"t": "AO VIVO: BRASIL X TANZÂNIA | COPA DO MUNDO FIFA FEMININA SUB-20 2026 | 1ª RODADA"
+"id": "RNErqAA2y2s",
+"t": "AO VIVO: LENS X LORIENT | LIGUE 1 26/27 | 3ª RODADA"
 }
 ],
 "bundesliga": [
@@ -457,6 +487,66 @@
 "f": "2026-09-05",
 "id": "WPf6VSGw4iM",
 "t": "From 3-0 To Collapse! | VFL WOLFSBURG - ENERGIE COTTBUS | Highlights | Matchday 4 – Bundesliga 2"
+},
+{
+"c": "Bundesliga",
+"f": "2026-09-05",
+"id": "tKmUJ0P6pFk",
+"t": "SC Paderborn 07 vs. Sport-Club Freiburg | Matchday 2 - Bundesliga 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-09-05",
+"id": "AtpIGD_KFKI",
+"t": "SV Werder Bremen vs. RB Leipzig | Matchday 2 - Bundesliga 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-09-05",
+"id": "lp-BicvJRCw",
+"t": "Borussia Mönchengladbach vs. SV Elversberg | Matchday 2 - Bundesliga 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-09-05",
+"id": "KYD5BjuB4s0",
+"t": "Bayer 04 Leverkusen vs. 1. FC Union Berlin | Matchday 2 - Bundesliga 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-09-05",
+"id": "27qVvtOaAlw",
+"t": "TSG Hoffenheim vs. Borussia Dortmund | Matchday 2 - Bundesliga 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-09-05",
+"id": "a1G192Nwu8M",
+"t": "Guirassy trying the bicycle kick 🤯"
+},
+{
+"c": "Bundesliga",
+"f": "2026-09-05",
+"id": "d4k2QNxPL68",
+"t": "They Just Do It Again! | BORUSSIA M'GLADBACH - SV ELVERSBERG | Highlights | Matchday 2 – Bundesliga"
+},
+{
+"c": "Bundesliga",
+"f": "2026-09-05",
+"id": "_j1pAiHma34",
+"t": "Comeback Complete! | HOFFENHEIM - BORUSSIA DORTMUND | Highlights | Matchday 2 – Bundesliga 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-09-05",
+"id": "PacVy1uW1C4",
+"t": "Three-Goal Lead Gone! | VFL WOLFSBURG - ENERGIE COTTBUS | Highlights | Matchday 4 – Bundesliga 2"
+},
+{
+"c": "Bundesliga",
+"f": "2026-09-05",
+"id": "jcb7Nj9vjiw",
+"t": "Perfect Run Ended! | HOLSTEIN KIEL - 1. FC NÜRNBERG | Highlights | Matchday 4 – Bundesliga 2 2026/27"
 },
 {
 "c": "Bundesliga",
@@ -547,36 +637,6 @@
 "f": "2026-09-03",
 "id": "5dVtG1gQyQA",
 "t": "LIVE 🔴 FC Schalke 04 vs. FC Bayern München | Matchday 2 - Bundesliga 2026/27"
-},
-{
-"c": "Bundesliga",
-"f": "2026-09-03",
-"id": "tKmUJ0P6pFk",
-"t": "LIVE 🔴 SC Paderborn 07 vs. Sport-Club Freiburg | Matchday 2 - Bundesliga 2026/27"
-},
-{
-"c": "Bundesliga",
-"f": "2026-09-03",
-"id": "AtpIGD_KFKI",
-"t": "LIVE 🔴 SV Werder Bremen vs. RB Leipzig | Matchday 2 - Bundesliga 2026/27"
-},
-{
-"c": "Bundesliga",
-"f": "2026-09-03",
-"id": "lp-BicvJRCw",
-"t": "LIVE 🔴 Borussia Mönchengladbach vs. SV Elversberg | Matchday 2 - Bundesliga 2026/27"
-},
-{
-"c": "Bundesliga",
-"f": "2026-09-03",
-"id": "KYD5BjuB4s0",
-"t": "LIVE 🔴 Bayer 04 Leverkusen vs. 1. FC Union Berlin | Matchday 2 - Bundesliga 2026/27"
-},
-{
-"c": "Bundesliga",
-"f": "2026-09-03",
-"id": "27qVvtOaAlw",
-"t": "LIVE 🔴 TSG Hoffenheim vs. Borussia Dortmund | Matchday 2 - Bundesliga 2026/27"
 },
 {
 "c": "Bundesliga",
@@ -857,6 +917,42 @@
 "f": "2026-09-05",
 "id": "S23hQfC9HQw",
 "t": "De vorige editie van Ajax - PSV 🔙🥵"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-05",
+"id": "T9NLEgCU9Wc",
+"t": "𝐀𝐬𝐬𝐢𝐬𝐭😍 𝐆𝐨𝐚𝐥 💥"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-05",
+"id": "Qe4GycD1U7w",
+"t": "Jerayno Schaken heeft slechts vijf minuten nodig voor zijn eerste Feyenoord-goal 🤯🔥"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-05",
+"id": "sV_gmegz1_k",
+"t": "Darko Nejašmić haalt even uit! 🤩"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-05",
+"id": "Icdnr3YBaQs",
+"t": "🫣🫣"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-05",
+"id": "9smBMFIqJks",
+"t": "Ondanks transferperikelen gaat Anis Hadj Moussa 'absoluut niet weg' ❌👀"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-05",
+"id": "keOg8i5cK2Y",
+"t": "Kenneth PEREZ over ONTBREKEN Anis HADJ MOUSSA: \"Heb VEEL BEGRIP voor de SPELER\""
 },
 {
 "c": "ESPN NL",
@@ -1360,6 +1456,54 @@
 },
 {
 "c": "LALIGA EA SPORTS",
+"f": "2026-09-05",
+"id": "fPL7Sixhm0A",
+"t": "🔴 ATHLETIC CLUB vs ATLÉTICO DE MADRID - PREVIA DEL PARTIDO"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-05",
+"id": "yHUyAODuKt4",
+"t": "SERGIO CANALES ES ETERNO. 💚🌟"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-05",
+"id": "OTrMEj--_Mw",
+"t": "El rugido del león. 🦁"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-05",
+"id": "Epl_xx2zb8Q",
+"t": "🔴 RAYO VALLECANO vs R. RACING CLUB - PREVIA DEL PARTIDO"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-05",
+"id": "zajs7NPb070",
+"t": "ATHLETIC CLUB 3 - 0 ATLÉTICO DE MADRID | RESUMEN LALIGA EA SPORTS"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-05",
+"id": "LmLqSS84R5U",
+"t": "UNAI SIMÓN! 😮✨"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-05",
+"id": "UO4_8vfJIno",
+"t": "Es el 2-0! 💥🤯"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-05",
+"id": "hxjnAR0hCAE",
+"t": "Por qué poco, Kang-in! 🇰🇷"
+},
+{
+"c": "LALIGA EA SPORTS",
 "f": "2026-09-04",
 "id": "zaD7JQVK3F0",
 "t": "Cuando MESSI Decidió un PARTIDAZO en MESTALLA 🔵🔴 | LALIGA EA SPORTS"
@@ -1565,8 +1709,8 @@
 {
 "c": "LALIGA EA SPORTS",
 "f": "2026-09-02",
-"id": "fPL7Sixhm0A",
-"t": "🔴 ATHLETIC CLUB vs ATLÉTICO DE MADRID - PREVIA DEL PARTIDO"
+"id": "E54XFkevJUQ",
+"t": "ATHLETIC CLUB vs ATLÉTICO DE MADRID | RUEDA DE PRENSA"
 },
 {
 "c": "LALIGA EA SPORTS",
@@ -2086,6 +2230,36 @@
 },
 {
 "c": "Serie A",
+"f": "2026-09-05",
+"id": "WnuXhz-A52g",
+"t": "🔴 PRE-MATCH LIVE | INTER-NAPOLI | Serie A Enilive 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-09-05",
+"id": "mYJ8c86JYBo",
+"t": "Super Rimonta Granata! | FIORENTINA-TORINO | HIGHLIGHTS | SERIE A ENILIVE 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-09-05",
+"id": "WNE05r5SA3k",
+"t": "Crazy Comeback at the Franchi! | FIORENTINA-TORINO | HIGHLIGHTS | Serie A 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-09-05",
+"id": "Q3riQkg9BUI",
+"t": "LOOK AT BATURINA 🔥 #Baturina #Como #SerieA"
+},
+{
+"c": "Serie A",
+"f": "2026-09-05",
+"id": "J3tKgvkh9Bg",
+"t": "KEAN'S FIRST ASSIST FOR COMO 🤩👌 #Kean #Diao #Como #SerieA"
+},
+{
+"c": "Serie A",
 "f": "2026-09-04",
 "id": "y17cTXIYu1A",
 "t": "Il Verona Passa all’Ultimo! | CAGLIARI-VERONA | HIGHLIGHTS | COPPA ITALIA FRECCIAROSSA 2026/27"
@@ -2281,12 +2455,6 @@
 "f": "2026-09-01",
 "id": "ntr8I6lv2Qw",
 "t": "🔴 PRE-MATCH LIVE | ROMA-ATALANTA | Serie A Enilive 2026/27"
-},
-{
-"c": "Serie A",
-"f": "2026-09-01",
-"id": "WnuXhz-A52g",
-"t": "🔴 PRE-MATCH LIVE | INTER-NAPOLI | Serie A Enilive 2026/27"
 },
 {
 "c": "Serie A",
