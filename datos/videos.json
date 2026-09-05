@@ -94,7 +94,7 @@
 "c": "CazéTV",
 "f": "2026-09-05",
 "id": "hDvSD2MPTc4",
-"t": "AO VIVO: RAYO VALLECANO X RACING CLUB (ESP) | LALIGA 26/27 | 4ª RODADA"
+"t": "JOGO COMPLETO: RAYO VALLECANO X RACING CLUB (ESP) | LALIGA 26/27 | 4ª RODADA"
 },
 {
 "c": "CazéTV",
@@ -125,6 +125,36 @@
 "f": "2026-09-05",
 "id": "Sh8gKXmIw0E",
 "t": "MELHORES MOMENTOS: LENS 0 X 1 LORIENT | LIGUE 1 26/27 | 3ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-05",
+"id": "4doFeBXGvbw",
+"t": "(SOM AMBIENTE) JOGO COMPLETO: LE HAVRE X STADE BRESTOIS | LIGUE 1 26/27 | 3ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-05",
+"id": "AS9ADhobslo",
+"t": "(SOM AMBIENTE) JOGO COMPLETO: NICE X LE MANS | LIGUE 1 26/27 | 3ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-05",
+"id": "BV4caxO0u4o",
+"t": "FRANÇA X COREIA DO SUL | COPA DO MUNDO DE BASQUETE FEMININO 2026 | 2ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-05",
+"id": "0jb3S8EIXyk",
+"t": "JOGO COMPLETO: ROMA X ATALANTA | SÉRIE A ITALIANA 26/27 | 3ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-05",
+"id": "gUsgIb39XvE",
+"t": "MELHORES MOMENTOS: ROMA 2 X 1 ATALANTA | SERIE A ITALIANA 2026/27"
 },
 {
 "c": "CazéTV",
@@ -446,12 +476,6 @@
 },
 {
 "c": "CazéTV",
-"f": "2026-09-01",
-"id": "4doFeBXGvbw",
-"t": "AO VIVO (SOM AMBIENTE): LE HAVRE X STADE BRESTOIS | LIGUE 1 26/27 | 3ª RODADA"
-},
-{
-"c": "CazéTV",
 "f": "2026-08-31",
 "id": "cOs2EcjYQMQ",
 "t": "MESSI ANUNCIA APOSENTADORIA DA SELEÇÃO ARGENTINA E A RODADA DO BRASILEIRÃO | GERAL CAZÉTV"
@@ -476,21 +500,9 @@
 },
 {
 "c": "CazéTV",
-"f": "2026-08-31",
-"id": "AS9ADhobslo",
-"t": "AO VIVO (SOM AMBIENTE): LIGUE 1 | NICE X LE MANS | LIGUE 1 26/27 | 3ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-08-28",
-"id": "BV4caxO0u4o",
-"t": "AO VIVO: FRANÇA X COREIA DO SUL | COPA DO MUNDO DE BASQUETE FEMININO 2026 | 2ª RODADA"
-},
-{
-"c": "CazéTV",
 "f": "2026-08-26",
 "id": "tBofULFzz1A",
-"t": "AO VIVO: ROMA X ATALANTA | SÉRIE A ITALIANA 26/27 | 3ª RODADA"
+"t": "AO VIVO: NINGUÉM PARA A ROMA! ÉDERSON MARCA PRA ATALANTA, MAS A LOBA VIRA NA RETA FINAL | SEIS EM UM"
 }
 ],
 "bundesliga": [
@@ -610,6 +622,18 @@
 },
 {
 "c": "Bundesliga",
+"f": "2026-09-05",
+"id": "u9ubPTQK8a0",
+"t": "SG Dynamo Dresden vs. VfL Bochum 1848 | Matchday 4 - Bundesliga 2 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-09-05",
+"id": "EaftSAd8cAM",
+"t": "Early Brace Gets The Win! | DYNAMO DRESDEN - VFL BOCHUM | Highlights | Matchday 4 – Bundesliga 2"
+},
+{
+"c": "Bundesliga",
 "f": "2026-09-04",
 "id": "sfZDJxu_C5k",
 "t": "Harry Kane back to his quarterback best 🎯"
@@ -673,12 +697,6 @@
 "f": "2026-09-03",
 "id": "7fKTm4e4kS4",
 "t": "LIVE 🔴 Hertha BSC vs. 1. FC Magdeburg | Matchday 4 - Bundesliga 2 2026/27"
-},
-{
-"c": "Bundesliga",
-"f": "2026-09-03",
-"id": "u9ubPTQK8a0",
-"t": "LIVE 🔴 SG Dynamo Dresden vs. VfL Bochum 1848 | Matchday 4 - Bundesliga 2 2026/27"
 },
 {
 "c": "Bundesliga",
@@ -1073,6 +1091,66 @@
 "f": "2026-09-05",
 "id": "j8xNtsQkJYc",
 "t": "Gjivai Zechiël laat zichzelf in de steek 🫣😔 \"Dit is gewoon geen kwaliteit\""
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-05",
+"id": "oi-1hduhMQo",
+"t": "ARMANDO OBISPO geniet van 'ZWARE DUELS' met TOLU 💪 | Interview"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-05",
+"id": "3Z9nuI0D7Qw",
+"t": "Voor Davy Klaassen was er geen andere mogelijkheid dan een rode kaart 🟥"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-05",
+"id": "F5cSw9GtFwM",
+"t": "YOURI BAAS voelt WAARDERING vanuit AJAX | Interview"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-05",
+"id": "jU8L1L00UMo",
+"t": "🅰️ Van Gassel met de assist 😮‍💨 Yegoian met een fraaie afronding"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-05",
+"id": "j1urgBmC7Og",
+"t": "ESMIR BAJRAKTAREVIĆ blijft RUSTIG ondanks INTERESSE 👀 | Interview"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-05",
+"id": "qGooRGyK5uA",
+"t": "🆕 Een DUBBEL GEVOEL voor SOFYAN AMRABAT na zijn DEBUUT | Interview"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-05",
+"id": "K6r-UIu7ZCw",
+"t": "🤨 ONBEGRIP over actie RUBEN VAN BOMMEL: \"Als DIT GEEN ROOD is...\" | VriendenLoterij Eretribune"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-05",
+"id": "S0hndhJRrH8",
+"t": "GUUS TIL GENIET van ZEGE in EERSTE TOPPER | Interview"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-05",
+"id": "yTfCpuH8l2o",
+"t": "🗣️ DAVY KLAASSEN: ‘We laten het in de EERSTE HELFT liggen’ | Interview"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-05",
+"id": "-Kb2dJ3qbJ8",
+"t": "Martin van den Kerkhof geeft tekst en uitleg over de staking 🗣️🎆"
 },
 {
 "c": "ESPN NL",
@@ -1660,6 +1738,42 @@
 },
 {
 "c": "LALIGA EA SPORTS",
+"f": "2026-09-05",
+"id": "NggZrbHhiuo",
+"t": "RAYO VALLECANO vs R. RACING CLUB | RUEDA DE PRENSA"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-05",
+"id": "g-X47GOLG5U",
+"t": "VILLARREAL CF 2 - 3 RC DEPORTIVO | RESUMEN LALIGA EA SPORTS"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-05",
+"id": "hYn0ATQo8hQ",
+"t": "AUBA. OTRA VEZ. SIEMPRE. 🌟"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-05",
+"id": "Wns3V-HBDRs",
+"t": "EDDACHOURI 🌟"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-05",
+"id": "uUwNzjyJsbI",
+"t": "👉 LUISMI CRUZ 👈"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-05",
+"id": "38kE_huMpJg",
+"t": "PÉPÉ 🇨🇮"
+},
+{
+"c": "LALIGA EA SPORTS",
 "f": "2026-09-04",
 "id": "zaD7JQVK3F0",
 "t": "Cuando MESSI Decidió un PARTIDAZO en MESTALLA 🔵🔴 | LALIGA EA SPORTS"
@@ -1865,8 +1979,8 @@
 {
 "c": "LALIGA EA SPORTS",
 "f": "2026-09-02",
-"id": "NggZrbHhiuo",
-"t": "RAYO VALLECANO vs R. RACING CLUB | RUEDA DE PRENSA"
+"id": "ow0MawfV57E",
+"t": "VILLARREAL CF vs RC DEPORTIVO | RUEDA DE PRENSA"
 },
 {
 "c": "LALIGA EA SPORTS",
@@ -2195,6 +2309,12 @@
 "f": "2026-09-05",
 "id": "fdtrzQUY5AY",
 "t": "INCREDIBLE Trivela Assist From Gakpo 🤯"
+},
+{
+"c": "Premier League",
+"f": "2026-09-05",
+"id": "SQwVgJOYCL4",
+"t": "Haaland Really Said “You Good?” 😅"
 },
 {
 "c": "Premier League",
