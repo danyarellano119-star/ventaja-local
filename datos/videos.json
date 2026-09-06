@@ -20,6 +20,18 @@
 },
 {
 "c": "CazéTV",
+"f": "2026-09-06",
+"id": "iDio6kL2v1o",
+"t": "TAEKWONDO | TIME BRASIL NO GRAND PRIX DE MUJU | 2º DIA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-06",
+"id": "Qx5PaKNz2mw",
+"t": "DIEGO ALVES RELEMBRA DUELOS PELO VALÊNCIA CONTRA MESSI E O BARCELONA: \"ERA SEMPRE MUITO ESPECIAL\"!"
+},
+{
+"c": "CazéTV",
 "f": "2026-09-05",
 "id": "XtnH-Tv5VlQ",
 "t": "FILIPE LUÍS VENCE PSG, MBAPPÉ PERDE PÊNALTI E BETIS DERROTA O REAL MADRID | QUEM FEZ, FEZ"
@@ -392,6 +404,12 @@
 },
 {
 "c": "CazéTV",
+"f": "2026-09-03",
+"id": "ek9nKYQ50Z0",
+"t": "AO VIVO (SOM AMBIENTE): TROYES X STRASBOURG | LIGUE 1 26/27 | 3ª RODADA"
+},
+{
+"c": "CazéTV",
 "f": "2026-09-02",
 "id": "kuX_0LvJ28M",
 "t": "SIMPLESMENTE KAIO JORGE X ALEXSANDER: CLIMINHA GOSTOSO EM MINAS 🤯"
@@ -482,12 +500,6 @@
 },
 {
 "c": "CazéTV",
-"f": "2026-09-01",
-"id": "iDio6kL2v1o",
-"t": "AO VIVO: TAEKWONDO | TIME BRASIL NO GRAND PRIX DE MUJU | 2º DIA"
-},
-{
-"c": "CazéTV",
 "f": "2026-08-31",
 "id": "cOs2EcjYQMQ",
 "t": "MESSI ANUNCIA APOSENTADORIA DA SELEÇÃO ARGENTINA E A RODADA DO BRASILEIRÃO | GERAL CAZÉTV"
@@ -509,9 +521,45 @@
 "f": "2026-08-31",
 "id": "v-GtI-cN3-I",
 "t": "ADMITA: VOCÊ FICOU IGUAL AO CAZÉ! QUE GOLAÇO ABSURDO DO YAMAL, PQP! ✋😨🤚🎙️ @luisinho"
+},
+{
+"c": "CazéTV",
+"f": "2026-08-27",
+"id": "agMkdOcLkcI",
+"t": "AO VIVO: VALENCIA X BARCELONA | LALIGA 26/27 | 4ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-08-27",
+"id": "8Gg04eqb2cg",
+"t": "AO VIVO: EVERTON X MANCHESTER UNITED | PREMIER LEAGUE 26/27 | 3ª RODADA"
 }
 ],
 "bundesliga": [
+{
+"c": "Bundesliga",
+"f": "2026-09-06",
+"id": "wAwIPjApJ7M",
+"t": "VfL Osnabrück vs. Eintracht Braunschweig | Matchday 4 - Bundesliga 2 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-09-06",
+"id": "mmT0oykSzGk",
+"t": "SpVgg Greuther Fürth vs. 1. FC Heidenheim 1846 | Matchday 4 - Bundesliga 2 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-09-06",
+"id": "7fKTm4e4kS4",
+"t": "Hertha BSC vs. 1. FC Magdeburg | Matchday 4 - Bundesliga 2 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-09-06",
+"id": "OCniUs478Jk",
+"t": "Said El Mala and Luca Waldschmidt in the 3-2-1-Challenge 😂🤩"
+},
 {
 "c": "Bundesliga",
 "f": "2026-09-05",
@@ -689,24 +737,6 @@
 {
 "c": "Bundesliga",
 "f": "2026-09-03",
-"id": "wAwIPjApJ7M",
-"t": "LIVE 🔴 VfL Osnabrück vs. Eintracht Braunschweig | Matchday 4 - Bundesliga 2 2026/27"
-},
-{
-"c": "Bundesliga",
-"f": "2026-09-03",
-"id": "mmT0oykSzGk",
-"t": "LIVE 🔴 SpVgg Greuther Fürth vs. 1. FC Heidenheim 1846 | Matchday 4 - Bundesliga 2 2026/27"
-},
-{
-"c": "Bundesliga",
-"f": "2026-09-03",
-"id": "7fKTm4e4kS4",
-"t": "LIVE 🔴 Hertha BSC vs. 1. FC Magdeburg | Matchday 4 - Bundesliga 2 2026/27"
-},
-{
-"c": "Bundesliga",
-"f": "2026-09-03",
 "id": "7jp1kIRTaes",
 "t": "LIVE 🔴 Eintracht Frankfurt vs. FC Augsburg | Matchday 2 - Bundesliga 2026/27"
 },
@@ -814,6 +844,12 @@
 }
 ],
 "champions": [
+{
+"c": "UEFA",
+"f": "2026-09-06",
+"id": "zW0cMA9W2D4",
+"t": "Incredible save!"
+},
 {
 "c": "UEFA",
 "f": "2026-09-05",
@@ -995,6 +1031,66 @@
 "f": "2026-09-06",
 "id": "A0RNocMdrwM",
 "t": "Irakli Yegoian 🤝 Stijn van Gassel"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-06",
+"id": "NiNi31UpM2k",
+"t": "'De witte Usain Bolt' gespot in Heerenveen 🏃💨"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-06",
+"id": "ikxFZcyOi9w",
+"t": "Ro-Zangelo Daal laat er geen gras over groeien dit seizoen 😮‍💨👏"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-06",
+"id": "dnwUeVgOppQ",
+"t": "Wout Weghorst rondt op knappe wijze af 👏"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-06",
+"id": "GNOflySn-Ik",
+"t": "🎥 𝗘𝗫𝗧𝗥𝗔 𝗕𝗘𝗘𝗟𝗗𝗘𝗡: HERBELEEF DE VERHITTE TOPPER ⚔️🍿 | Meer Dan 90 Minuten"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-06",
+"id": "azfEKlLqf7M",
+"t": "Wanneer je Fantasy-aanvoerder scoort ©️🫡"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-06",
+"id": "QSyVmJuVbPA",
+"t": "Chimera Ripa met een 𝙊𝙇𝙄𝙈𝙋𝙄𝘾𝙊 💫"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-06",
+"id": "35kA0glXt54",
+"t": "Ruben Schaken trots op scorende én debuterende zoon 🙏"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-06",
+"id": "VzDE4pgcxys",
+"t": "Fout Etienne Vaessen wordt genadeloos afgestraft  😬"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-06",
+"id": "HLTT2NoKfm4",
+"t": "💪 Schaken TROTS op SCORENDE zoon: \"EINDELIJK heeft hij zijn PODIUM\" 🙏 | Goedemorgen Eredivisie"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-06",
+"id": "OFSx0d0x5Cc",
+"t": "Hans Kraay jr. is kritisch op Anis Hadj Moussa richting de uitwedstrijd tegen N.E.C. 🗣️"
 },
 {
 "c": "ESPN NL",
@@ -2092,6 +2188,12 @@
 },
 {
 "c": "LALIGA EA SPORTS",
+"f": "2026-09-02",
+"id": "O16AiRKimL0",
+"t": "🔴 VALENCIA CF vs FC BARCELONA - PREVIA DEL PARTIDO"
+},
+{
+"c": "LALIGA EA SPORTS",
 "f": "2026-09-01",
 "id": "GeY2pSVQ8EY",
 "t": "Tres palos del Villarreal CF"
@@ -2205,6 +2307,12 @@
 "f": "2026-09-06",
 "id": "hQTVVz21-QQ",
 "t": "Cherki understands the game 🧠⚽  #ligue1 #football #sports #foot #footballshorts #shorts #soccer"
+},
+{
+"c": "Ligue 1",
+"f": "2026-09-06",
+"id": "Ky4aHCH8Aio",
+"t": "Mbwana Ally Samatta. 💎🇹🇿 #football #ligue1 #sports #ligue1 #soccer #footballshorts #foot #shorts"
 },
 {
 "c": "Ligue 1",
@@ -2647,6 +2755,18 @@
 "f": "2026-09-06",
 "id": "Nn8LhqTb3bQ",
 "t": "Soule Mantiene Imbattuta la Roma! | ROMA-ATALANTA | HIGHLIGHTS | SERIE A ENILIVE 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-09-06",
+"id": "wRwhDEQgmng",
+"t": "SOULÉ sends the Olimpico into RAPTURES 🫨 #RomaAtalanta #SerieA"
+},
+{
+"c": "Serie A",
+"f": "2026-09-06",
+"id": "fZwH4P3x_0U",
+"t": "POV admin: LAUTARO celebration! 🤯 #InterNapoli #SerieA"
 },
 {
 "c": "Serie A",
