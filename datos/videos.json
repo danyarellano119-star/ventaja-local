@@ -122,6 +122,48 @@
 },
 {
 "c": "CazéTV",
+"f": "2026-09-06",
+"id": "EV3RTWGlkyo",
+"t": "JOGO COMPLETO: ITÁLIA X ESTADOS UNIDOS | COPA DO MUNDO DE BASQUETE FEMININO 2026 | 2ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-06",
+"id": "IErjEcOdg60",
+"t": "SKATE VERTICAL | PRO TOUR STU | ETAPA DE BRASÍLIA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-06",
+"id": "VmozUUwkGqs",
+"t": "JOGO COMPLETO: OLYMPIQUE MARSEILLE X PARIS FC | LIGUE 1 26/27 | 3ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-06",
+"id": "7Juidyj2mvc",
+"t": "JOGO COMPLETO: ESPANYOL X SEVILLA | LA LIGA 26/27 | 4ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-06",
+"id": "ICpi0PIJ-S0",
+"t": "MELHORES MOMENTOS: ESPANYOL 1 x 1 SEVILLA | LA LIGA 26/27 | 4ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-06",
+"id": "A_mhSQQfuis",
+"t": "MELHORES MOMENTOS: OLYMPIQUE MARSEILLE 2 X 3 PARIS FC | LIGUE 1 26/27 | 3ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-06",
+"id": "L-zMYDRGW30",
+"t": "A CONFUSÃO ACONTECEU NA MINHA FRENTE! FLU VENCE E AFUNDA VASCO NO Z-4 l CazéTV no Estádio"
+},
+{
+"c": "CazéTV",
 "f": "2026-09-05",
 "id": "XtnH-Tv5VlQ",
 "t": "FILIPE LUÍS VENCE PSG, MBAPPÉ PERDE PÊNALTI E BETIS DERROTA O REAL MADRID | QUEM FEZ, FEZ"
@@ -602,27 +644,15 @@
 },
 {
 "c": "CazéTV",
-"f": "2026-08-28",
-"id": "EV3RTWGlkyo",
-"t": "AO VIVO: ITÁLIA X ESTADOS UNIDOS | COPA DO MUNDO DE BASQUETE FEMININO 2026 | 2ª RODADA"
-},
-{
-"c": "CazéTV",
 "f": "2026-08-27",
 "id": "agMkdOcLkcI",
-"t": "AO VIVO:  MÁLAGA X LEVANTE | LA LIGA 26/27 | 4ª RODADA"
+"t": "JOGO COMPLETO: VALENCIA X BARCELONA | LALIGA 26/27 | 4ª RODADA"
 },
 {
 "c": "CazéTV",
-"f": "2026-08-27",
-"id": "IErjEcOdg60",
-"t": "AO VIVO: SKATE VERTICAL | PRO TOUR STU | ETAPA DE BRASÍLIA"
-},
-{
-"c": "CazéTV",
-"f": "2026-08-27",
-"id": "VmozUUwkGqs",
-"t": "AO VIVO: OLYMPIQUE MARSEILLE X PARIS FC | LIGUE 1 26/27 | 3ª RODADA"
+"f": "2026-08-17",
+"id": "Er4OSInPkl4",
+"t": "AO VIVO: BOTAFOGO X PALMEIRAS | BRASILEIRÃO 2026 | 26ª RODADA"
 }
 ],
 "bundesliga": [
@@ -1325,6 +1355,30 @@
 "f": "2026-09-06",
 "id": "Q8oeaGJrXyE",
 "t": "Danny Buijs neemt Mohamed Ihattaren in bescherming met een interviewverbod 🎥❌"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-06",
+"id": "-WzVhJmK2_M",
+"t": "Hands op de lijn of voor de lijn? 🖐️🧐  Johan Plat moet even heel goed kijken 🔎"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-06",
+"id": "BxYxxr13iLQ",
+"t": "Kees Kwakman en Kenneth Perez genieten van Feyenoord-middenveld 🤩 | Dit Was Het Weekend"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-06",
+"id": "3eNsi_qvUpQ",
+"t": "💫 Analyse: Luciano Valente blinkt uit en Gjivai Zechiël loopt N.E.C. KAPOT 🥵 | Dit Was Het Weekend"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-06",
+"id": "RZJ1JcHZ4qM",
+"t": "Kees Kwakman en Kenneth Perez over de beuk van Ruben van Bommel 💥 | Dit Was Het Weekend"
 },
 {
 "c": "ESPN NL",
@@ -2170,6 +2224,30 @@
 },
 {
 "c": "LALIGA EA SPORTS",
+"f": "2026-09-06",
+"id": "Sn6DKAtinG8",
+"t": "MÁLAGA CF vs LEVANTE UD | RUEDA DE PRENSA"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-06",
+"id": "HQ3VUht4ug0",
+"t": "DEPORTIVO ALAVÉS vs CA OSASUNA | RUEDA DE PRENSA"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-06",
+"id": "9ehmqgtVgEA",
+"t": "Qué debut, Stassin! 🥵"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-06",
+"id": "iuaHc8Yz204",
+"t": "DMITROVIC. ❌"
+},
+{
+"c": "LALIGA EA SPORTS",
 "f": "2026-09-05",
 "id": "zKOft4fUBuc",
 "t": "Fran García saluda a sus ex compañeros 💚🤍"
@@ -2530,18 +2608,6 @@
 },
 {
 "c": "LALIGA EA SPORTS",
-"f": "2026-09-02",
-"id": "Sn6DKAtinG8",
-"t": "MÁLAGA CF vs LEVANTE UD | RUEDA DE PRENSA"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-09-02",
-"id": "HQ3VUht4ug0",
-"t": "DEPORTIVO ALAVÉS vs CA OSASUNA | RUEDA DE PRENSA"
-},
-{
-"c": "LALIGA EA SPORTS",
 "f": "2026-09-01",
 "id": "GeY2pSVQ8EY",
 "t": "Tres palos del Villarreal CF"
@@ -2897,6 +2963,18 @@
 "f": "2026-09-06",
 "id": "atnLyiN0s-Y",
 "t": "Zion Suzuki’s Distribution Is Something Else 🇯🇵👏"
+},
+{
+"c": "Premier League",
+"f": "2026-09-06",
+"id": "6WIes81gR5M",
+"t": "EVERY Weekend Goal | Matchweek 3 | 2026/27 Premier League Highlights"
+},
+{
+"c": "Premier League",
+"f": "2026-09-06",
+"id": "KU9xR2-sSKY",
+"t": "Jordan Pickford Is Pure Passion! 💯"
 },
 {
 "c": "Premier League",
