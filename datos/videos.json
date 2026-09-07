@@ -106,7 +106,7 @@
 "c": "CazéTV",
 "f": "2026-09-06",
 "id": "h2dHR6Y5ass",
-"t": "MELHORES MOMENTOS: MÁLAGA 0 X 0 LEVANTE | LA LIGA 26/27 | 4ª RODADA"
+"t": "MELHORES MOMENTOS: MÁLAGA 0 X 0 LEVANTE | LALIGA 26/27 | 4ª RODADA"
 },
 {
 "c": "CazéTV",
@@ -148,7 +148,7 @@
 "c": "CazéTV",
 "f": "2026-09-06",
 "id": "ICpi0PIJ-S0",
-"t": "MELHORES MOMENTOS: ESPANYOL 1 x 1 SEVILLA | LA LIGA 26/27 | 4ª RODADA"
+"t": "MELHORES MOMENTOS: ESPANYOL 1 x 1 SEVILLA | LALIGA 26/27 | 4ª RODADA"
 },
 {
 "c": "CazéTV",
@@ -161,6 +161,42 @@
 "f": "2026-09-06",
 "id": "L-zMYDRGW30",
 "t": "A CONFUSÃO ACONTECEU NA MINHA FRENTE! FLU VENCE E AFUNDA VASCO NO Z-4 l CazéTV no Estádio"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-06",
+"id": "agMkdOcLkcI",
+"t": "JOGO COMPLETO: VALENCIA X BARCELONA | LALIGA 26/27 | 4ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-06",
+"id": "ntHjooqZUxM",
+"t": "MELHORES MOMENTOS: BOTAFOGO 0 X 0 PALMEIRAS | BRASILEIRÃO 2026 | 26ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-06",
+"id": "4Sy1pz91Ypo",
+"t": "O MARCELO RANGEL OPEROU UM MIRÁCULO ABSOLUTAMENTE BIZARRO! ABSOLUTE CINEMA! ✋🤯🤚"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-06",
+"id": "5ko-F4_203g",
+"t": "MELHORES MOMENTOS: CORITIBA X MIRASSOL | BRASILEIRÃO 2026 | 26ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-06",
+"id": "H1R6zMyQZKI",
+"t": "MELHORES MOMENTOS: INTERNACIONAL 2 X 3 SANTOS | BRASILEIRÃO 2026 | 26ª RODADA | 06/09/26"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-06",
+"id": "HoeWyW20iRs",
+"t": "ESSA DUPLA TÁ JOGANDO MUITO! PQP! 🇺🇾🤝🇧🇷"
 },
 {
 "c": "CazéTV",
@@ -644,15 +680,9 @@
 },
 {
 "c": "CazéTV",
-"f": "2026-08-27",
-"id": "agMkdOcLkcI",
-"t": "JOGO COMPLETO: VALENCIA X BARCELONA | LALIGA 26/27 | 4ª RODADA"
-},
-{
-"c": "CazéTV",
 "f": "2026-08-17",
 "id": "Er4OSInPkl4",
-"t": "AO VIVO: BOTAFOGO X PALMEIRAS | BRASILEIRÃO 2026 | 26ª RODADA"
+"t": "AO VIVO: BOTAFOGO X PALMEIRAS! EMPATE E REENCONTROS QUE DERAM O QUE FALAR! | RODA DE BOBO"
 }
 ],
 "bundesliga": [
@@ -721,6 +751,66 @@
 "f": "2026-09-06",
 "id": "oOLJvh7ZQ-s",
 "t": "VFL OSNABRÜCK - EINTRACHT BRAUNSCHWEIG | Highlights | Matchday 4 – Bundesliga 2 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-09-06",
+"id": "zaivTrVc3B4",
+"t": "On Top of the League | EINTRACHT FRANKFURT - FC AUGSBURG | Highlights | Matchday 2 – Bundesliga"
+},
+{
+"c": "Bundesliga",
+"f": "2026-09-06",
+"id": "eaezZE4BJXs",
+"t": "ALL HIGHLIGHTS | BUNDESLIGA | MATCHDAY 02"
+},
+{
+"c": "Bundesliga",
+"f": "2026-09-06",
+"id": "ijK7-NuPkzk",
+"t": "Bremen Pull Off Upset! | WERDER BREMEN - RB LEIPZIG | Highlights | Matchday 2 – Bundesliga 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-09-06",
+"id": "iQon9XWacy4",
+"t": "No Chance for HSV | HAMBURGER SV - MAINZ 05 | Highlights | Matchday 2 – Bundesliga 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-09-06",
+"id": "CO3gLYi3ncw",
+"t": "Amazing Goals! | VFB STUTTGART - 1. FC KÖLN | Highlights | Matchday 2 – Bundesliga 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-09-06",
+"id": "MaGriXVuyY8",
+"t": "SC PADERBORN - SC FREIBURG | Highlights | Matchday 2 – Bundesliga 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-09-06",
+"id": "kyR5xXLDUwk",
+"t": "Goal After 43 Seconds! | BAYER 04 LEVERKUSEN - UNION BERLIN | Highlights | Matchday 2 – Bundesliga"
+},
+{
+"c": "Bundesliga",
+"f": "2026-09-06",
+"id": "G_jKROGpWHM",
+"t": "UNBELIEVABLE Comeback! | BORUSSIA M'GLADBACH - SV ELVERSBERG | Highlights | Matchday 2 – Bundesliga"
+},
+{
+"c": "Bundesliga",
+"f": "2026-09-06",
+"id": "JuMDTiNZLVU",
+"t": "What A Fight! S04 Draw At Home | SCHALKE 04 - FC BAYERN | Highlights | Matchday 2 – Bundesliga 26/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-09-06",
+"id": "bpC3DSulZAw",
+"t": "Guirassy Gets It Done! | HOFFENHEIM - BORUSSIA DORTMUND | Highlights | Matchday 2 – Bundesliga"
 },
 {
 "c": "Bundesliga",
@@ -1379,6 +1469,12 @@
 "f": "2026-09-06",
 "id": "RZJ1JcHZ4qM",
 "t": "Kees Kwakman en Kenneth Perez over de beuk van Ruben van Bommel 💥 | Dit Was Het Weekend"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-06",
+"id": "CbGDSXE8rBM",
+"t": "Ronald Koeman Jr. = Penaltyspecialist 🅿️🧤"
 },
 {
 "c": "ESPN NL",
@@ -2248,6 +2344,30 @@
 },
 {
 "c": "LALIGA EA SPORTS",
+"f": "2026-09-06",
+"id": "X7GbgS8ZlaA",
+"t": "VALENCIA CF 0 - 5 FC BARCELONA | RESUMEN LALIGA EA SPORTS"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-06",
+"id": "J0Oc0xJ61D0",
+"t": "DEPORTIVO ALAVÉS 5 - 2 CA OSASUNA | RESUMEN LALIGA EA SPORTS"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-06",
+"id": "SZY4t7T_dmM",
+"t": "RCD ESPANYOL vs SEVILLA FC | RUEDA DE PRENSA"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-06",
+"id": "56-xUqjHv-I",
+"t": "RCD ESPANYOL 1 - 1 SEVILLA FC | RESUMEN LALIGA EA SPORTS"
+},
+{
+"c": "LALIGA EA SPORTS",
 "f": "2026-09-05",
 "id": "zKOft4fUBuc",
 "t": "Fran García saluda a sus ex compañeros 💚🤍"
@@ -2736,6 +2856,96 @@
 },
 {
 "c": "Ligue 1",
+"f": "2026-09-06",
+"id": "78CfgkD721Q",
+"t": "OLYMPIQUE DE MARSEILLE - PARIS FC (2-3) | Week 3 - Ligue 1 McDonald's 26/27"
+},
+{
+"c": "Ligue 1",
+"f": "2026-09-06",
+"id": "ESh_Y7XY4Hs",
+"t": "TOUS LES BUTS de la 3ème journée | Ligue 1 McDonald's 26/27"
+},
+{
+"c": "Ligue 1",
+"f": "2026-09-06",
+"id": "WSB78iiUp8U",
+"t": "DOUBLÉ de Doumbia : 1ÈRE VICTOIRE pour Brest au Havre | 3ème journée - Ligue 1 McDonald's 26/27"
+},
+{
+"c": "Ligue 1",
+"f": "2026-09-06",
+"id": "iVYHfuTdj-M",
+"t": "OLYMPIQUE LYONNAIS - AJ AUXERRE (3-1) | Week 3 - Ligue 1 McDonald's 26/27"
+},
+{
+"c": "Ligue 1",
+"f": "2026-09-06",
+"id": "1PrVqHg9RgI",
+"t": "Strasbourg CONFIRME avec un FESTIVAL OFFENSIF à Troyes | 3ème journée - Ligue 1 McDonald's 26/27"
+},
+{
+"c": "Ligue 1",
+"f": "2026-09-06",
+"id": "1YN0cVMzvhA",
+"t": "TOULOUSE FC - LOSC LILLE (0-1) | Week 3 - Ligue 1 McDonald's 26/27"
+},
+{
+"c": "Ligue 1",
+"f": "2026-09-06",
+"id": "zRfePSHQQyk",
+"t": "ONE TWO THREE ⚽️⚽️⚽️ #football #ligue1 #soccershorts #parisfc"
+},
+{
+"c": "Ligue 1",
+"f": "2026-09-06",
+"id": "Fdc9KUxxbw8",
+"t": "Wahi RÉPOND à Bourabaa, Nice ENCORE ACCROCHÉ par Le Mans | 3ème journée - Ligue 1 McDonald's 26/27"
+},
+{
+"c": "Ligue 1",
+"f": "2026-09-06",
+"id": "90mamjgtLN8",
+"t": "Sinayoko EN FEU, Gouri XXL, match FOU entre l'OM et le PFC | 3ème journée - Ligue 1 McDonald's 26/27"
+},
+{
+"c": "Ligue 1",
+"f": "2026-09-06",
+"id": "OjCiGSqDVwA",
+"t": "HAVRE AC - STADE BRESTOIS 29 (1-2) | Week 3 - Ligue 1 McDonald's 26/27"
+},
+{
+"c": "Ligue 1",
+"f": "2026-09-06",
+"id": "NlzTP_sJeyk",
+"t": "ESTAC TROYES - RC STRASBOURG ALSACE (2-6) | Week 3 - Ligue 1 McDonald's 26/27"
+},
+{
+"c": "Ligue 1",
+"f": "2026-09-06",
+"id": "5eGu_nmrdLs",
+"t": "Özer et Ueda ÉCOEURENT Toulouse : le HOLD-UP de Lille | 3ème journée - Ligue 1 McDonald's 26/27"
+},
+{
+"c": "Ligue 1",
+"f": "2026-09-06",
+"id": "LZ35Rcuqmyg",
+"t": "Nuamah RÉGALE, l'OL CONVAINCANT contre Auxerre | 3ème journée - Ligue 1 McDonald's 26/27"
+},
+{
+"c": "Ligue 1",
+"f": "2026-09-06",
+"id": "vhZuUl8ckpI",
+"t": "Koné SURGIT, Lens SURPRIS par Lorient à Bollaert | 3ème journée - Ligue 1 McDonald's 26/27"
+},
+{
+"c": "Ligue 1",
+"f": "2026-09-06",
+"id": "_ysN0q5IsZM",
+"t": "3 SUR 3 pour Monaco en RENVERSANT le PSG au Parc | 3ème journée - Ligue 1 McDonald's 26/27"
+},
+{
+"c": "Ligue 1",
 "f": "2026-09-05",
 "id": "ljaFoNAL2jk",
 "t": "JENS BERTHEL ASKOU : LE COACH QUI VEUT RÉVOLUTIONNER TOULOUSE"
@@ -2975,6 +3185,12 @@
 "f": "2026-09-06",
 "id": "KU9xR2-sSKY",
 "t": "Jordan Pickford Is Pure Passion! 💯"
+},
+{
+"c": "Premier League",
+"f": "2026-09-06",
+"id": "GMb58DbbdNc",
+"t": "Ezri Konsa Said No. 🙅‍♂️"
 },
 {
 "c": "Premier League",
@@ -3241,6 +3457,18 @@
 "f": "2026-09-06",
 "id": "CDVRijNA8Vs",
 "t": "Dovbyk Saves Bologna! | BOLOGNA-SASSUOLO | HIGHLIGHTS | Serie A 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-09-06",
+"id": "HIOOI3bOIAw",
+"t": "Gatti Salva la Juve | JUVENTUS-MILAN | HIGHLIGHTS | SERIE A ENILIVE 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-09-06",
+"id": "QWDVyr-HzHU",
+"t": "Dramatic Late Equaliser | JUVENTUS-MILAN | HIGHLIGHTS | Serie A 2026/27"
 },
 {
 "c": "Serie A",
