@@ -1626,6 +1626,25 @@
 "pv": 0.3256,
 "v": "Corinthians"
 },
+"brasileirao|2026-10-24|vitoria|paranaense": {
+"btts": 0.1336,
+"clave_l": "EC Vitória",
+"clave_liga": "brasileirao",
+"clave_v": "CA Paranaense",
+"fecha": "2026-10-24",
+"l": "Vitória",
+"liga": "Brasileirão",
+"marcador": "0-0",
+"o15": 0.2264,
+"o25": 0.0585,
+"o35": 0.0122,
+"p_marcador": 0.4263,
+"pe": 0.5182,
+"pl": 0.227,
+"publicado": "2026-09-08T04:52Z",
+"pv": 0.2547,
+"v": "Athletico Paranaense"
+},
 "bundesliga|2026-08-28|bayern munich|stuttgart": {
 "clave_l": "Bayern Munich",
 "clave_liga": "bundesliga",
@@ -15354,6 +15373,25 @@
 "publicado": "2026-09-01T05:21Z",
 "pv": 0.5644,
 "v": "Oporto"
+},
+"primeira|2026-11-29|casa pia|sporting clube braga": {
+"btts": 0.1909,
+"clave_l": "Casa Pia AC",
+"clave_liga": "primeira",
+"clave_v": "Sporting Clube de Braga",
+"fecha": "2026-11-29",
+"l": "Casa Pia",
+"liga": "Primeira Liga",
+"marcador": "0-1",
+"o15": 0.5428,
+"o25": 0.2678,
+"o35": 0.1078,
+"p_marcador": 0.2465,
+"pe": 0.2561,
+"pl": 0.0541,
+"publicado": "2026-09-08T04:52Z",
+"pv": 0.6898,
+"v": "Braga"
 },
 "primeira|2026-11-29|moreirense|santa clara": {
 "btts": 0.1509,
