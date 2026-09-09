@@ -7354,6 +7354,25 @@
 "pv": 0.2627,
 "v": "NEC"
 },
+"eredivisie|2026-11-21|ajax|ado den haag": {
+"btts": 0.1575,
+"clave_l": "AFC Ajax",
+"clave_liga": "eredivisie",
+"clave_v": "ADO Den Haag",
+"fecha": "2026-11-21",
+"l": "Ajax",
+"liga": "Eredivisie",
+"marcador": "2-0",
+"o15": 0.6812,
+"o25": 0.4129,
+"o35": 0.2074,
+"p_marcador": 0.2227,
+"pe": 0.1493,
+"pl": 0.8304,
+"publicado": "2026-09-09T00:24Z",
+"pv": 0.0203,
+"v": "Den Haag"
+},
 "eredivisie|2026-11-21|feyenoord rotterdam|sbv excelsior": {
 "btts": 0.3147,
 "clave_l": "Feyenoord Rotterdam",
