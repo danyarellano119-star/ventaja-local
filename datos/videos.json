@@ -8,6 +8,36 @@
 },
 {
 "c": "CazéTV",
+"f": "2026-09-09",
+"id": "kAeTANPxKg4",
+"t": "FLUMINENSE LARGA BEM NA LIBERTA E O VASCO EMPATA FORA DE CASA NA SULA! | GERAL CAZÉTV"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-09",
+"id": "vg5Ro6MeyaY",
+"t": "FLUMINENSE X PLATENSE E SANTA FÉ X VASCO | LIBERTADORES E SUL-AMERICANA | NARRAÇÃO AO VIVO"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-09",
+"id": "1AzaX8v85-Q",
+"t": "PEP GUARDIOLA ESTARIA ORGULHOSO VENDO ISSO! 🤯🇭🇺"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-09",
+"id": "lZiHMw-hX-c",
+"t": "JOGA NO 7, JOGA 7️⃣🇭🇺FALA DO HULK! O HOMEM METEU UM GOL E UMA ASSISTÊNCIA CONTRA O PLATENSE! 💪😮‍💨"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-09",
+"id": "PQcfV2tnBsU",
+"t": "MELHORES MOMENTOS: INDEPENDIENTE SANTA FÉ 0 X 0 VASCO | QUARTAS (IDA) | CONMEBOL SULAMERICANA 2026"
+},
+{
+"c": "CazéTV",
 "f": "2026-09-08",
 "id": "jwLqkdr8RcA",
 "t": "JOGO COMPLETO: ELCHE X REAL SOCIEDAD | LALIGA 26/27 | 4ª RODADA"
@@ -87,12 +117,6 @@
 {
 "c": "CazéTV",
 "f": "2026-09-08",
-"id": "kAeTANPxKg4",
-"t": "AO VIVO: FLUMINENSE E VASCO ENTRAM EM CAMPO PELOS GRAMADOS DA AMÉRICA! | GERAL CAZÉTV"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-08",
 "id": "GJ892Jm2jXs",
 "t": "Paulo Henrique de Chagas Lima é um futebolista brasileiro que atualmente joga pelo Fluminense. 🇭🇺🪄"
 },
@@ -143,12 +167,6 @@
 "f": "2026-09-07",
 "id": "gzC3i-IGksU",
 "t": "PALMEIRAS X LDU E SANTOS X ATLÉTICO-MG | LIBERTADORES E SUL-AMERICANA | NARRAÇÃO AO VIVO"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-07",
-"id": "vg5Ro6MeyaY",
-"t": "AO VIVO: FLUMINENSE LARGA BEM NA LIBERTA E O VASCO EMPATA FORA DE CASA NA SULA! | GERAL CAZÉTV"
 },
 {
 "c": "CazéTV",
@@ -916,6 +934,12 @@
 "bundesliga": [
 {
 "c": "Bundesliga",
+"f": "2026-09-09",
+"id": "t8LaLYyWSUw",
+"t": "Michael Olise answers random questions 👀🥶"
+},
+{
+"c": "Bundesliga",
 "f": "2026-09-08",
 "id": "Y7PHmNZ-Njg",
 "t": "This moment from Loris Karius ❌👏💪😲"
@@ -1326,6 +1350,18 @@
 "champions": [
 {
 "c": "UEFA",
+"f": "2026-09-09",
+"id": "3iekg1KgZ8E",
+"t": "EVERY Champions League Opening Goal"
+},
+{
+"c": "UEFA",
+"f": "2026-09-09",
+"id": "E4xaD4D7kes",
+"t": "Răzvan Marin take a bow! 👏"
+},
+{
+"c": "UEFA",
 "f": "2026-09-08",
 "id": "LaADHznVSNg",
 "t": "Official UEFA Champions League Anthem"
@@ -1554,6 +1590,36 @@
 }
 ],
 "eredivisie": [
+{
+"c": "ESPN NL",
+"f": "2026-09-09",
+"id": "GYwsSz-wo6M",
+"t": "Ivan Perišić vond Ajax - PSV van 'Champions League-niveau' 🤩💪"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-09",
+"id": "xkdmV95YUfI",
+"t": "Irakli Yegoian maakt een top 5 van Georgische topvoetballers🔥🇬🇪"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-09",
+"id": "YH5K83ywHqE",
+"t": "FC Utrecht 'PROFITEERT' van STAKING: \"Voelt een beetje alsof het ONRECHT WINT\" 🫣 | Voetbalpraat"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-09",
+"id": "cnBm0DLy0mQ",
+"t": "Tijjani Reijnders is los in Saudi-Arabië ⚽️⚽️"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-09",
+"id": "gZqSF2Ac1q0",
+"t": "Waar liggen de kansen voor FEYENOORD tegen FC BARCELONA? 🤔🏆 | Voetbalpraat"
+},
 {
 "c": "ESPN NL",
 "f": "2026-09-08",
@@ -2698,6 +2764,24 @@
 "laliga": [
 {
 "c": "LALIGA EA SPORTS",
+"f": "2026-09-09",
+"id": "GfTOEW26lRc",
+"t": "Ordenamos los 15 GOLES de AUBAMEYANG en LALIGA ⚡"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-09",
+"id": "_yvbesNh1GE",
+"t": "El HAT-TRICK de LUCAS BOYÉ"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-09",
+"id": "6WRQExuNk8M",
+"t": "Qué golazo de Boyé 🚀⚽"
+},
+{
+"c": "LALIGA EA SPORTS",
 "f": "2026-09-08",
 "id": "CjbePWyygBc",
 "t": "LAMINE YAMAL y otro GOLAZO para el recuerdo 🤩"
@@ -3486,6 +3570,24 @@
 "ligue1": [
 {
 "c": "Ligue 1",
+"f": "2026-09-09",
+"id": "efsQs76bjfw",
+"t": "Instant débat : plutôt Gims ou Dembélé ? 😅 #football #ligue1 #sports #psg #footballshorts #foot"
+},
+{
+"c": "Ligue 1",
+"f": "2026-09-09",
+"id": "cR9UYDajC2M",
+"t": "Nuamah having a walk in the park 🚶‍♂️😮‍💨 #ligue1 #ligue1mcdonalds #footballshorts #soccer #lyon"
+},
+{
+"c": "Ligue 1",
+"f": "2026-09-09",
+"id": "pGJzXou-few",
+"t": "Pure class.🤯 #football #ligue1 #sports #psg #ligue1mcdonalds #soccer #footballshorts #skills #shorts"
+},
+{
+"c": "Ligue 1",
 "f": "2026-09-08",
 "id": "xjo-uw6_wyc",
 "t": "Szymanski X Frankowski 🇵🇱🔥#ligue1 #football #sports #footballshorts #foot #shorts #soccer #skills"
@@ -3513,6 +3615,12 @@
 "f": "2026-09-08",
 "id": "zt41YoQzyKQ",
 "t": "Rasmus Nicolaisen se prend pour un acteur de cinéma ! 🎁 | | Ma Super Ligue 1 - Saison 2, épisode 2"
+},
+{
+"c": "Ligue 1",
+"f": "2026-09-08",
+"id": "9WjMvLu9xm8",
+"t": "Big stage for Nuamah 🇬🇭🏆 #football #ligue1 #lyon #soccer #footballhighlights"
 },
 {
 "c": "Ligue 1",
@@ -3902,6 +4010,18 @@
 "premier": [
 {
 "c": "Premier League",
+"f": "2026-09-09",
+"id": "PUTMugSfY3g",
+"t": "Adel Taarabt Always Leaves You Speechless 💫"
+},
+{
+"c": "Premier League",
+"f": "2026-09-09",
+"id": "im7x_C0daFA",
+"t": "Why The Streets Won't Forget Adel Taarabt"
+},
+{
+"c": "Premier League",
 "f": "2026-09-08",
 "id": "wR1PZ_h1GFk",
 "t": "Pure Class The Best Premier League Debut Goals"
@@ -4178,6 +4298,24 @@
 }
 ],
 "seriea": [
+{
+"c": "Serie A",
+"f": "2026-09-09",
+"id": "Gp-JJpArjVs",
+"t": "TOP GOALS ⚽️ From Serie A Round 3 | 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-09-09",
+"id": "RxZuo8wlFo4",
+"t": "Behind the Scenes of Inter-Napoli | Inside the Match | Serie A 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-09-09",
+"id": "vaxTZUiDX2s",
+"t": "👀 FIVE GOALS From The Ref's Eyes! | Inter-Napoli 3-2 | Serie A Enilive 2026/27"
+},
 {
 "c": "Serie A",
 "f": "2026-09-08",

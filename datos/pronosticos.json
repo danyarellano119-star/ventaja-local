@@ -8876,6 +8876,25 @@
 "pv": 0.1395,
 "v": "Getafe"
 },
+"laliga|2026-09-18|espanyol|elche": {
+"btts": 0.4995,
+"clave_l": "Espanyol",
+"clave_liga": "laliga",
+"clave_v": "Elche",
+"fecha": "2026-09-18",
+"l": "Espanyol",
+"liga": "LaLiga",
+"marcador": "1-1",
+"o15": 0.7152,
+"o25": 0.4423,
+"o35": 0.231,
+"p_marcador": 0.1397,
+"pe": 0.294,
+"pl": 0.4503,
+"publicado": "2026-09-09T11:34Z",
+"pv": 0.2557,
+"v": "Elche"
+},
 "laliga|2026-09-19|athletic|alaves": {
 "btts": 0.4323,
 "clave_l": "Athletic Club",
