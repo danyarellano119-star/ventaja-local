@@ -12925,6 +12925,25 @@
 "pv": 0.3811,
 "v": "Manchester Utd"
 },
+"premier|2026-09-20|leeds|crystal palace": {
+"btts": 0.5516,
+"clave_l": "Leeds",
+"clave_liga": "premier",
+"clave_v": "Crystal Palace",
+"fecha": "2026-09-20",
+"l": "Leeds United",
+"liga": "Premier League",
+"marcador": "1-1",
+"o15": 0.7629,
+"o25": 0.5042,
+"o35": 0.284,
+"p_marcador": 0.1337,
+"pe": 0.28,
+"pl": 0.4434,
+"publicado": "2026-09-09T16:45Z",
+"pv": 0.2766,
+"v": "Crystal Palace"
+},
 "premier|2026-09-20|manchester city|sunderland": {
 "btts": 0.4712,
 "clave_l": "Manchester City",
@@ -13533,6 +13552,25 @@
 "pv": 0.4924,
 "v": "Brentford"
 },
+"premier|2026-10-25|liverpool|brighton": {
+"btts": 0.5736,
+"clave_l": "Liverpool",
+"clave_liga": "premier",
+"clave_v": "Brighton",
+"fecha": "2026-10-25",
+"l": "Liverpool",
+"liga": "Premier League",
+"marcador": "1-1",
+"o15": 0.7947,
+"o25": 0.5499,
+"o35": 0.3264,
+"p_marcador": 0.1235,
+"pe": 0.2609,
+"pl": 0.5011,
+"publicado": "2026-09-09T16:45Z",
+"pv": 0.238,
+"v": "Brighton"
+},
 "premier|2026-10-25|manchester united|bournemouth": {
 "btts": 0.6166,
 "clave_l": "Manchester United",
@@ -13570,6 +13608,25 @@
 "publicado": "2026-08-31T23:55Z",
 "pv": 0.3402,
 "v": "Leeds United"
+},
+"premier|2026-10-31|aston villa|fulham": {
+"btts": 0.5257,
+"clave_l": "Aston Villa",
+"clave_liga": "premier",
+"clave_v": "Fulham",
+"fecha": "2026-10-31",
+"l": "Aston Villa",
+"liga": "Premier League",
+"marcador": "1-1",
+"o15": 0.7407,
+"o25": 0.4747,
+"o35": 0.2581,
+"p_marcador": 0.1366,
+"pe": 0.2859,
+"pl": 0.4521,
+"publicado": "2026-09-09T16:45Z",
+"pv": 0.2621,
+"v": "Fulham"
 },
 "premier|2026-10-31|bournemouth|leeds": {
 "btts": 0.541,
