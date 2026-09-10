@@ -14,6 +14,54 @@
 },
 {
 "c": "CazéTV",
+"f": "2026-09-10",
+"id": "gzC3i-IGksU",
+"t": "PALMEIRAS X LDU E SANTOS X ATLÉTICO-MG | LIBERTADORES E SUL-AMERICANA | NARRAÇÃO"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-10",
+"id": "dzryvEFQymg",
+"t": "Hugo de Souza Nogueira é um futebolista brasileiro que atua como goleiro pelo Corinthians. 🧤🦅"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-10",
+"id": "PiT_4GQYtMw",
+"t": "FOI A DEFESA DA CLASSIFICAÇÃO? O HUGO OPEROU UM MILAGRE ABSURDO! 🧤🤯🦅"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-10",
+"id": "FbiYMrhQxRw",
+"t": "A TORCIDA NO FUNDO É SIMPLESMENTE ABSURDO! ✋🤯🤚"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-10",
+"id": "w33XhwKPuHg",
+"t": "E FOI COM ESSE GOL QUE O CORINTHIANS SOBREVIVEU À PRESSÃO DO ESTUDIANTES! CINEMA! 😮‍💨🦅"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-10",
+"id": "pAZng81mI7U",
+"t": "MELHORES MOMENTOS: ESTUDIANTES 1 x 1 CORINTHIANS | QUARTAS (IDA) | CONMEBOL LIBERTADORES 2026"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-10",
+"id": "I95mqBZyzWs",
+"t": "NÃO IMPORTA SE É NO BRASIL OU FORA DELE: A TORCIDA DO CORINTHIANS VAI DAR SHOW SEMPRE!🎥 @ellendafiel"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-10",
+"id": "a4w_THrhRrk",
+"t": "EL MAESTRO, RODRI GARRO! 😮‍💨🇦🇷🦅"
+},
+{
+"c": "CazéTV",
 "f": "2026-09-09",
 "id": "yKEAFHUE0BM",
 "t": "MELHORES MOMENTOS: FLUMINENSE 2 X 0 PLATENSE | QUARTAS (IDA) | CONMEBOL LIBERTADORES 2026"
@@ -130,7 +178,7 @@
 "c": "CazéTV",
 "f": "2026-09-09",
 "id": "ofRYGUVenyU",
-"t": "AO VIVO (SOM AMBIENTE): ESTADOS UNIDOS X HUNGRIA | COPA DO MUNDO DE BASQUETE FEMININO 2026 | QUARTAS"
+"t": "COMPACTO: ALEMANHA X COREIA DO SUL  | COPA DO MUNDO DE BASQUETE FEMININO 2026 | 2ª FASE"
 },
 {
 "c": "CazéTV",
@@ -257,12 +305,6 @@
 "f": "2026-09-07",
 "id": "uvQvOzjlgvg",
 "t": "FLAMENGO X INDEPENDIENTE DEL VALLE | LIBERTADORES | NARRAÇÃO AO VIVO | NOCHE DE COPA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-07",
-"id": "gzC3i-IGksU",
-"t": "COMPACTO: TÊNIS DE MESA | HUGO CALDERANO NO WTT CHAMPIONS DE MACAU"
 },
 {
 "c": "CazéTV",
@@ -1024,6 +1066,12 @@
 "bundesliga": [
 {
 "c": "Bundesliga",
+"f": "2026-09-10",
+"id": "-H6v0oOtgd4",
+"t": "Bilal El Khannouss 🆚 everyone 🔥🇲🇦👏"
+},
+{
+"c": "Bundesliga",
 "f": "2026-09-09",
 "id": "t8LaLYyWSUw",
 "t": "Michael Olise answers random questions 👀🥶"
@@ -1440,6 +1488,12 @@
 "champions": [
 {
 "c": "UEFA",
+"f": "2026-09-10",
+"id": "7q74-tAdGoY",
+"t": "So good from Raphinha 😮‍💨"
+},
+{
+"c": "UEFA",
 "f": "2026-09-09",
 "id": "3iekg1KgZ8E",
 "t": "EVERY Champions League Opening Goal"
@@ -1822,7 +1876,7 @@
 "c": "ESPN NL",
 "f": "2026-09-09",
 "id": "G1j3gJ1Waw0",
-"t": "🆑 ANIS HADJ MOUSSA BLINKT UIT tegen BARCELONA: \"Daar kwam het gevaar vandaan\" | Voetbalpraat"
+"t": "🆑 ANIS HADJ MOUSSA UITBLINKER tegen BARCELONA? \"Daar kwam het gevaar vandaan\" | Voetbalpraat"
 },
 {
 "c": "ESPN NL",
@@ -2968,6 +3022,24 @@
 "laliga": [
 {
 "c": "LALIGA EA SPORTS",
+"f": "2026-09-10",
+"id": "WeJtDLkGRw8",
+"t": "Los 10 ÚLTIMOS MINUTOS de DE JONG salvando al BARÇA | LALIGA EA SPORTS"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-10",
+"id": "j8bCKhZFSyc",
+"t": "Raphinha anota y Lamine Yamal asiste"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-10",
+"id": "t6ni_AX2FBk",
+"t": "Aubameyang ✨"
+},
+{
+"c": "LALIGA EA SPORTS",
 "f": "2026-09-09",
 "id": "GfTOEW26lRc",
 "t": "Ordenamos los 15 GOLES de AUBAMEYANG en LALIGA ⚡"
@@ -3055,6 +3127,12 @@
 "f": "2026-09-08",
 "id": "uyOcDNHahSc",
 "t": "REFCAM POV: Valencia CF vs FC Barcelona 👀"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-08",
+"id": "1yggBI-H9_0",
+"t": "LALIGA EA SPORTS FC27 MATCHDAY"
 },
 {
 "c": "LALIGA EA SPORTS",
@@ -3798,6 +3876,18 @@
 "ligue1": [
 {
 "c": "Ligue 1",
+"f": "2026-09-10",
+"id": "Q05tK6B4blc",
+"t": "Qui est l’employé de la semaine, Berke Özer ou Lassine Sinayoko 🌟 #football #ligue1 #sports #soccer"
+},
+{
+"c": "Ligue 1",
+"f": "2026-09-10",
+"id": "Kao3jbMQ3WM",
+"t": "🇨🇮Zogbé & Doumbia🇲🇱 #football #ligue1 #sports #footballshorts #soccer #skills #shorts #foot"
+},
+{
+"c": "Ligue 1",
 "f": "2026-09-09",
 "id": "efsQs76bjfw",
 "t": "Instant débat : plutôt Gims ou Dembélé ? 😅 #football #ligue1 #sports #psg #footballshorts #foot"
@@ -4250,6 +4340,18 @@
 "premier": [
 {
 "c": "Premier League",
+"f": "2026-09-10",
+"id": "Oncbr6lyaeo",
+"t": "How Newcastle Rebuilt Their Team in Just THREE Games"
+},
+{
+"c": "Premier League",
+"f": "2026-09-10",
+"id": "pw187hzzz54",
+"t": "The Referee Had A Perfect View 😮‍💨"
+},
+{
+"c": "Premier League",
 "f": "2026-09-09",
 "id": "PUTMugSfY3g",
 "t": "Adel Taarabt Always Leaves You Speechless 💫"
@@ -4556,6 +4658,24 @@
 }
 ],
 "seriea": [
+{
+"c": "Serie A",
+"f": "2026-09-10",
+"id": "H0BQm0yKkjY",
+"t": "SASSUOLO-JUVENTUS 0-3 | CLASSIC HIGHLIGHTS SERIE A 2025/26"
+},
+{
+"c": "Serie A",
+"f": "2026-09-10",
+"id": "2ek2fiq_lS8",
+"t": "LAZIO-MILAN 1-0 | CLASSIC HIGHLIGHTS SERIE A 2025/26"
+},
+{
+"c": "Serie A",
+"f": "2026-09-10",
+"id": "oMf2l6lZMG0",
+"t": "5 COSE Che Ti Sei PERSO Nella Terza Giornata Di Serie A 📝 | TATTICAMENTE S1 E3"
+},
 {
 "c": "Serie A",
 "f": "2026-09-09",
