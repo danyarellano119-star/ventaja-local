@@ -16722,6 +16722,25 @@
 "pv": 0.2985,
 "v": "Santa Clara"
 },
+"primeira|2026-11-28|vitoria guimaraes|estrela da amadora": {
+"btts": 0.1578,
+"clave_l": "Vitória Guimarães",
+"clave_liga": "primeira",
+"clave_v": "CF Estrela da Amadora",
+"fecha": "2026-11-28",
+"l": "Vitória de Guimarães",
+"liga": "Primeira Liga",
+"marcador": "0-0",
+"o15": 0.3048,
+"o25": 0.0967,
+"o35": 0.0247,
+"p_marcador": 0.3469,
+"pe": 0.4454,
+"pl": 0.4164,
+"publicado": "2026-09-10T01:13Z",
+"pv": 0.1382,
+"v": "Estrela da Amadora"
+},
 "primeira|2026-11-29|casa pia|sporting clube braga": {
 "btts": 0.1909,
 "clave_l": "Casa Pia AC",
