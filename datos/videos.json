@@ -74,6 +74,36 @@
 },
 {
 "c": "CazéTV",
+"f": "2026-09-11",
+"id": "tNHq3BbrGwU",
+"t": "JOGO COMPLETO: RENNES X MARSEILLE | LIGUE 1 26/27 | 4ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-11",
+"id": "7-eI1CZXhWk",
+"t": "MELHORES MOMENTOS: SEVILLA 1 X 0 VALENCIA | LALIGA 26/27 | 5ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-11",
+"id": "psIMXqfV3y8",
+"t": "MELHORES MOMENTOS: RENNES 1 X 0 MARSEILLE | LIGUE 1 26/27 | 4ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-11",
+"id": "XiPW6devQ04",
+"t": "AO VIVO: ESPANHA X ESTADOS UNIDOS | COPA DO MUNDO DE BASQUETE FEMININO | SEMIFINAL"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-11",
+"id": "X6KCpfHkGoA",
+"t": "AO VIVO: FRANÇA X ALEMANHA | COPA DO MUNDO DE BASQUETE FEMININO | SEMIFINAL"
+},
+{
+"c": "CazéTV",
 "f": "2026-09-10",
 "id": "lMjYdla3I4I",
 "t": "MELHORES MOMENTOS: PALMEIRAS 1 x 0 LDU | QUARTAS (IDA) | CONMEBOL LIBERTADORES 2026"
@@ -1102,7 +1132,7 @@
 "c": "CazéTV",
 "f": "2026-09-02",
 "id": "eOHqq0wlhBo",
-"t": "AO VIVO: SEVILLA X VALENCIA | LALIGA 26/27 | 5ª RODADA"
+"t": "AO VIVO: LIVERPOOL NA PREMIER LEAGUE E A BRIGA CONTRA O REBAIXAMENTO NO BRASILEIRÃO | QUEM FEZ, FEZ"
 },
 {
 "c": "CazéTV",
@@ -1139,12 +1169,6 @@
 "f": "2026-09-01",
 "id": "u-3XdQbV8ow",
 "t": "ADMITA: VOCÊ TAMBÉM JÁ PASSOU POR ISSO 🫥"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-01",
-"id": "tNHq3BbrGwU",
-"t": "AO VIVO: RENNES X MARSEILLE | LIGUE 1 26/27 | 4ª RODADA"
 },
 {
 "c": "CazéTV",
@@ -1189,6 +1213,18 @@
 "f": "2026-09-11",
 "id": "lXFoREqOF8c",
 "t": "SV Darmstadt 98 vs. DSC Arminia Bielefeld | Matchday 5 - Bundesliga 2 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-09-11",
+"id": "Ou2EIG9r0fY",
+"t": "1. FC Union Berlin vs. FC Schalke 04 | Matchday 3 - Bundesliga 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-09-11",
+"id": "jc7yZJThVnU",
+"t": "Wonderful Volley from Gosens | UNION BERLIN - SCHALKE 04 | Highlights | Matchday 3 – Bundesliga"
 },
 {
 "c": "Bundesliga",
@@ -1249,12 +1285,6 @@
 "f": "2026-09-10",
 "id": "OtlVmJGBSEM",
 "t": "LIVE 🔴 Borussia Dortmund vs. SC Paderborn 07 | Matchday 3 - Bundesliga 2026/27"
-},
-{
-"c": "Bundesliga",
-"f": "2026-09-10",
-"id": "Ou2EIG9r0fY",
-"t": "LIVE 🔴 1. FC Union Berlin vs. FC Schalke 04 | Matchday 3 - Bundesliga 2026/27"
 },
 {
 "c": "Bundesliga",
@@ -2069,6 +2099,72 @@
 "f": "2026-09-11",
 "id": "M_mERjy8RDI",
 "t": "Jong AZ weer naast Heracles door tweelingbroers De Wit 🔗⚡️"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-11",
+"id": "ZaZvDuJcy80",
+"t": "Jordy CLASIE BEKROONT zijn 350e EREDIVISIE-WEDSTRIJD met DOELPUNT 👑 | Samenvatting AZ - Willem II"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-11",
+"id": "ICaualp54ZM",
+"t": "Donny WARMERDAM BELANGRIJK voor DE GRAAFSCHAP 😮‍💨 | Samenvatting FC Emmen - De Graafschap"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-11",
+"id": "2Woe8vPbsn4",
+"t": "👀 TWEELINGEN-GOAL & JEAN-PAUL N'DJOLI BLIJFT MAAR SCOREN 🔥 | Samenvatting Heracles - Jong AZ"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-11",
+"id": "Qkiup3etfaY",
+"t": "Paul GLADON SCOORT binnen 2️⃣ MINUTEN na INVALBEURT 😎 | Samenvatting NAC - Jong FC Utrecht"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-11",
+"id": "RGVEFrGMbm8",
+"t": "V̷i̷r̷g̷i̷l̷ ̷M̷i̷s̷i̷d̷j̷a̷n̷ 𝐕𝐮𝐫𝐫𝐚 zag op LiveScore dat het doelpunt op zijn naam staat 😜"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-11",
+"id": "RjVahio1_xg",
+"t": "Tweelingbroers De Wit maakten bijzondere avond mee 👏"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-11",
+"id": "TCWYAjxFUi0",
+"t": "Hartverscheurende woorden van Mark Verkuijl over het overlijden van zijn vriendin Elisa 🥺❤️"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-11",
+"id": "3P_1ZR82oRc",
+"t": "Calvin Stengs zal vannacht nog een keer wakker schrikken 🫣"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-11",
+"id": "GF4HEosYxFo",
+"t": "Jordy Clasie baalt van onnodig puntverlies 😟"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-11",
+"id": "tYYqHEPAR-U",
+"t": "Devin Haen gooit roet in het eten bij AZ 😲"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-11",
+"id": "sbLuFJpR5HA",
+"t": "De bank warmhouden wordt wel heel letterlijk genomen bij Jong Ajax 💨😷"
 },
 {
 "c": "ESPN NL",
@@ -3444,7 +3540,37 @@
 "c": "LALIGA EA SPORTS",
 "f": "2026-09-11",
 "id": "1bCp8uyaOuk",
-"t": "🤝 ¡Así ha sido el saludo entre jugadores de Sevilla y Valencia a través de los ojos de la #RefCam!"
+"t": "🤝 ¡Así ha sido el saludo entre jugadores de Sevilla y Valencia a través de la #RefCam!"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-11",
+"id": "iBgeZcXv-Wg",
+"t": "SEVILLA FC vs VALENCIA CF | RUEDA DE PRENSA"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-11",
+"id": "G1DAYWMXstc",
+"t": "SEVILLA FC 1 - 0 VALENCIA CF | RESUMEN LALIGA EA SPORTS"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-11",
+"id": "DlFB5oujL80",
+"t": "𝗝𝗨𝗔𝗡 𝗜𝗚𝗟𝗘𝗦𝗜𝗔𝗦. ❤️"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-11",
+"id": "E5al6rhy5s8",
+"t": "¡Por muy pocooo! 👀"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-11",
+"id": "zTwzRNMb6n8",
+"t": "𝗗𝗜𝗠𝗜𝗧𝗥𝗜𝗘𝗩𝗦𝗞𝗜. 🧤"
 },
 {
 "c": "LALIGA EA SPORTS",
@@ -3487,12 +3613,6 @@
 "f": "2026-09-10",
 "id": "4PuHi40a7xc",
 "t": "Yosgart Gutiérrez: \"Apoyo al Madrid por Hugo Sánchez\" | Con los Tacos x Delante"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-09-10",
-"id": "iBgeZcXv-Wg",
-"t": "SEVILLA FC vs VALENCIA CF | RUEDA DE PRENSA"
 },
 {
 "c": "LALIGA EA SPORTS",
@@ -5221,6 +5341,18 @@
 "f": "2026-09-11",
 "id": "zCMfysEiJEg",
 "t": "Why Is Roma Playing With NO MIDFIELDERS... And Is It Working? 👀 | Serie A Enilive 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-09-11",
+"id": "OM7O3M--gto",
+"t": "Gol E Spettacolo Al Penzo | VENEZIA-FIORENTINA | HIGHLIGHTS | SERIE A ENILIVE 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-09-11",
+"id": "0roH3ja-QZU",
+"t": "Goal-fest In Venice! | VENEZIA-FIORENTINA | HIGHLIGHTS | Serie A 2026/27"
 },
 {
 "c": "Serie A",

@@ -1292,6 +1292,24 @@
 },
 {
 "c": "Athletico Paranaense",
+"f": "2026-09-11",
+"id": "65bb0rHmAOg",
+"t": "PRÉ-JOGO | FC CASCAVEL X ATHLETICO | COPA PARANÁ 2026"
+},
+{
+"c": "Athletico Paranaense",
+"f": "2026-09-11",
+"id": "h3oHvqxQDh4",
+"t": "FURACÃO NEWS EM 1 MINUTO - 11/09"
+},
+{
+"c": "Athletico Paranaense",
+"f": "2026-09-11",
+"id": "RHqsQ1EfW5M",
+"t": "SEXTA-FEIRA DE ATHLETIBA PELO BRASILEIRÃO | FURACÃO NEWS - 11/09"
+},
+{
+"c": "Athletico Paranaense",
 "f": "2026-09-10",
 "id": "yCj-0hvxXFI",
 "t": "NOVO CARREGAMENTO DE MÓDULOS DA ARQUIBANCADA RETRÁTIL"
@@ -1499,24 +1517,6 @@
 "f": "2026-09-04",
 "id": "IuXq5DLgUZA",
 "t": "TREINO NO CAT ALFREDO GOTTARDI | POR DENTRO DO CAP - 04/09"
-},
-{
-"c": "Athletico Paranaense",
-"f": "2026-09-03",
-"id": "KgexQ5gah58",
-"t": "REAL MADRID X ATHLETICO PARANAENSE | MUNDIAL JUVENIL SUB-17 2026 | TRANSMISSÃO EM ÁUDIO"
-},
-{
-"c": "Athletico Paranaense",
-"f": "2026-09-03",
-"id": "9oMYvqVExuM",
-"t": "QUINTA-FEIRA DE TREINAMENTO NO CAT CAJU | POR DENTRO DO CAP - 03/09"
-},
-{
-"c": "Athletico Paranaense",
-"f": "2026-09-03",
-"id": "AWkaersdTVo",
-"t": "VITÓRIA SOBRE O REAL MADRID NO MUNDIAL JUVENIL SUB-17 | FURACÃO NEWS - 03/09"
 }
 ],
 "Bayern Munich": [
@@ -2632,6 +2632,12 @@
 },
 {
 "c": "Corinthians TV",
+"f": "2026-09-11",
+"id": "Iv4H8hTDppA",
+"t": "TREINO DAS BRABAS: SEXTA-FEIRA DE TRABALHO PARA AS GOLEIRAS DO CORINTHIANS"
+},
+{
+"c": "Corinthians TV",
 "f": "2026-09-10",
 "id": "-vLBh7QCUhg",
 "t": "COLETIVA PÓS-JOGO | ESTUDIANTES 1 X 1 CORINTHIANS | CONMEBOL LIBERTADORES 2026 | QUARTAS - IDA"
@@ -2845,12 +2851,6 @@
 "f": "2026-09-08",
 "id": "Dw9wQ2BS_uA",
 "t": "🇧🇷➡️🇦🇷 #Shorts #VaiCorinthians"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-09-08",
-"id": "ezEsstMLvx0",
-"t": "CONHEÇA NOVA SALA DE RECOVERY FAIBERPLAS EXCLUSIVA CONSTRUÇÕES QUE MODERNIZA O CT DR. JOAQUIM GRAVA"
 }
 ],
 "Coventry City": [
@@ -4016,6 +4016,30 @@
 },
 {
 "c": "ACF Fiorentina",
+"f": "2026-09-11",
+"id": "MZBOhXIS7_g",
+"t": "Conferenza stampa di mister Vanoli dopo Venezia - Fiorentina"
+},
+{
+"c": "ACF Fiorentina",
+"f": "2026-09-11",
+"id": "568xzYX0xEs",
+"t": "Le parole di Nicolò Fagioli al termine di Venezia - Fiorentina"
+},
+{
+"c": "ACF Fiorentina",
+"f": "2026-09-11",
+"id": "9Y4JhQdEuNY",
+"t": "Conferenza stampa di Nicolò Fagioli dopo Venezia - Fiorentina"
+},
+{
+"c": "ACF Fiorentina",
+"f": "2026-09-11",
+"id": "nUTs4m16kPY",
+"t": "Highlights: Venezia - Fiorentina  2 - 4"
+},
+{
+"c": "ACF Fiorentina",
 "f": "2026-09-10",
 "id": "mKFFbnVCzsY",
 "t": "VIOLA DAILY LIVE - 10 SETTEMBRE 2026"
@@ -4223,30 +4247,6 @@
 "f": "2026-09-02",
 "id": "DAaPSX93cM8",
 "t": "Adrian Mutu: \"Ho giocato il mio miglior calcio qui, è una cosa piena di emozioni\""
-},
-{
-"c": "ACF Fiorentina",
-"f": "2026-09-02",
-"id": "JHJlecWV3qQ",
-"t": "Parola all'Imperatore, Fatih Terim"
-},
-{
-"c": "ACF Fiorentina",
-"f": "2026-09-02",
-"id": "YjaXUgm0W5Q",
-"t": "L’abbraccio dei tifosi al Presidente Commisso"
-},
-{
-"c": "ACF Fiorentina",
-"f": "2026-09-02",
-"id": "BTtOw2rnUiU",
-"t": "Mareggini: \"Grazie di cuore, sento sempre il calore della gente\""
-},
-{
-"c": "ACF Fiorentina",
-"f": "2026-09-02",
-"id": "3fNEd3cBs4k",
-"t": "Pasqual: \"Tanta emozione, grazie ai tifosi\""
 }
 ],
 "Flamengo": [
@@ -4314,7 +4314,7 @@
 "c": "Flamengo TV",
 "f": "2026-09-11",
 "id": "PvUc_iYt9SI",
-"t": "🔴 AO VIVO: FLAMENGO x CORINTHIANS | COM IMAGENS PARA FORA DO BRASIL | BRASILEIRÃO (13/09/26)"
+"t": "🔴 AO VIVO: FLAMENGO x CORINTHIANS | COM IMAGENS E NARRAÇÃO EM PORTUGUÊS | BRASILEIRÃO (13/09/26)"
 },
 {
 "c": "Flamengo TV",
@@ -4327,6 +4327,12 @@
 "f": "2026-09-11",
 "id": "jbUCTgKZr4U",
 "t": "𝐋𝐞́𝐨 𝐏𝐞𝐫𝐞𝐢𝐫𝐚! Nosso zagueiro artilheiro! ❤️🖤"
+},
+{
+"c": "Flamengo TV",
+"f": "2026-09-11",
+"id": "UAVk0_oGVV4",
+"t": "🔴 AO VIVO: FLAMENGO x VOLTA REDONDA | CAMPEONATO CARIOCA SUB-20 (12/09/26)"
 },
 {
 "c": "Flamengo TV",
@@ -4483,15 +4489,15 @@
 "f": "2026-09-07",
 "id": "T0cnWh_MJTQ",
 "t": "EM NOME DO JOGO | FAIR PLAY FINANCEIRO -  BRUNO CHATACK E ALEXANDRE RANGEL"
-},
-{
-"c": "Flamengo TV",
-"f": "2026-09-07",
-"id": "IY7KBTv6WyQ",
-"t": "VAMOS DEBATER O FAIR PLAY FINANCEIRO NO FUTEBOL BRASILEIRO. VENHA CONFERIR O \"EM NOME DO JOGO\""
 }
 ],
 "Fluminense": [
+{
+"c": "Fluminense Football Club",
+"f": "2026-09-11",
+"id": "RrWiMJuXYto",
+"t": "AO VIVO - ATLÉTICO-MG X FLUMINENSE | CAMPEONATO BRASILEIRO 2026 | 27ª RODADA"
+},
 {
 "c": "Fluminense Football Club",
 "f": "2026-09-10",
@@ -5225,6 +5231,12 @@
 "f": "2026-09-11",
 "id": "cO2_1IpSPZc",
 "t": "GABRIEL MENEGON É CHAMADO PARA TREINOS COM A SELEÇÃO BRASILEIRA"
+},
+{
+"c": "Grêmio FBPA",
+"f": "2026-09-11",
+"id": "vmhdwOxTKIA",
+"t": "BEM-VINDA, LAÍS GIACOMEL!"
 },
 {
 "c": "Grêmio FBPA",
@@ -7304,6 +7316,48 @@
 },
 {
 "c": "TV Palmeiras Sportingbet",
+"f": "2026-09-11",
+"id": "NxZRhZU5bxQ",
+"t": "BANHEIRISTAS | PALMEIRAS CAST BY SPORTINGBET #203"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-09-11",
+"id": "MWaH73UxJU8",
+"t": "COMO NASCEU OS BANHEIRISTAS? 🤔⚽"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-09-11",
+"id": "UMc1REQU1DU",
+"t": "A IDA DOS BANHEIRISTAS A DUBAI DE CHINELO NA FINAL DO MUNDIAL 🤣"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-09-11",
+"id": "-o5MWMUX-Rc",
+"t": "BANHEIRISTAS JOGARAM E FORAM CAMPEÕS EM ESTÁDIO DA COPA⚽🤯"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-09-11",
+"id": "juhe9kBxilI",
+"t": "QUEM DO ELENCO DO PALMEIRAS DARIA UM BOM YOUTUBER? 🤳🎥"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-09-11",
+"id": "nVgMHI4BxEM",
+"t": "ANDREAS PEREIRA PROJETA CHOQUE-REI E RESSALTA A IMPORTÂNCIA DO ELENCO"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-09-11",
+"id": "lwhCWo4MVlo",
+"t": "\"É LIBERTADORES?\" BANHEIRISTAS COMENTAM SOBRE TORNEIO INTERNACIONAL NA ARGENTINA 🤣🇦🇷"
+},
+{
+"c": "TV Palmeiras Sportingbet",
 "f": "2026-09-10",
 "id": "3lpoqzTD0BI",
 "t": "AO VIVO | PALMEIRAS X LDU | PRÉ-JOGO E NARRAÇÃO"
@@ -7379,12 +7433,6 @@
 "f": "2026-09-10",
 "id": "RckqWjwhyMU",
 "t": "BASTIDORES | OS PRIMEIROS 90 MINUTOS | PALMEIRAS X LDU | CONMEBOL LIBERTADORES 2026"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-09-10",
-"id": "NxZRhZU5bxQ",
-"t": "BANHEIRISTAS | PALMEIRAS CAST BY SPORTINGBET #203"
 },
 {
 "c": "TV Palmeiras Sportingbet",
@@ -7475,42 +7523,6 @@
 "f": "2026-09-07",
 "id": "Nc2PXWKIz4Y",
 "t": "TODO LUGAR ERA ''COÉ, JUSTIN''"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-09-07",
-"id": "NGu-bdSaF5Q",
-"t": "JESUS RECEBE CONSELHO DO EGÍDIO"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-09-06",
-"id": "RPcwOrtewQ4",
-"t": "O CAMINHO DO VERDÃO ATÉ O RIO DE JANEIRO!"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-09-06",
-"id": "DWoULFWyGZE",
-"t": "MEUS GOLEIROS JÁ ESTÃO ENTROSADOS! 🧤"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-09-06",
-"id": "Kc2fn0eSCJA",
-"t": "SE TEM ANIVERSÁRIO NA ACADEMIA DE FUTEBOL, TEM O CARINHO DE TODOS! 💚"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-09-06",
-"id": "Y7DigkG3cmg",
-"t": "ABEL FERREIRA COM MEDO DE AVIÃO? 🤯"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-09-06",
-"id": "rqjwd_Tc3iI",
-"t": "NEM SÓ DE FUTEBOL VIVEM OS GREENGOS NÉ 🤣"
 }
 ],
 "Paris FC": [
@@ -8846,6 +8858,36 @@
 },
 {
 "c": "Sevilla FC",
+"f": "2026-09-11",
+"id": "9h5UgEUaPQE",
+"t": "Sevilla FC - Valencia CF (1-0) LALIGA | Resumen"
+},
+{
+"c": "Sevilla FC",
+"f": "2026-09-11",
+"id": "gdoECAmYDyw",
+"t": "Las reacciones de los protagonistas tras el Sevilla FC - Valencia CF"
+},
+{
+"c": "Sevilla FC",
+"f": "2026-09-11",
+"id": "YIe05-58dv0",
+"t": "+𝟑 𝐄𝐐𝐔𝐈𝐏𝐎 🤍❤️𝟏𝟎/𝟏𝟓 ✨#SevillaValencia"
+},
+{
+"c": "Sevilla FC",
+"f": "2026-09-11",
+"id": "t55Pk3Q1ymA",
+"t": "Juanito te quiero ❤️❤️❤️ #laligahighlights"
+},
+{
+"c": "Sevilla FC",
+"f": "2026-09-11",
+"id": "sNW5SXh_biA",
+"t": "😱 STASSIN #sevillavalencia #laligahighlights"
+},
+{
+"c": "Sevilla FC",
 "f": "2026-09-10",
 "id": "es3jo1R4x7U",
 "t": "Rueda de prensa de Luis García Plaza en la previa del #SevillaValencia 📡 EN DIRECTO"
@@ -9035,24 +9077,6 @@
 "f": "2026-08-26",
 "id": "1clni0CQgqA",
 "t": "🙃🫠🤷🏼 #sevillafc"
-},
-{
-"c": "Sevilla FC",
-"f": "2026-08-26",
-"id": "Zj8hOuELdso",
-"t": "The baddest b*** están en Sevilla 🩷😮‍💨#sevillafc #aintinla"
-},
-{
-"c": "Sevilla FC",
-"f": "2026-08-25",
-"id": "BdBDXk6Sd8E",
-"t": "Presentación oficial de Robbie Ure y Giorgi Kochorashvili l 📡 EN DIRECTO"
-},
-{
-"c": "Sevilla FC",
-"f": "2026-08-25",
-"id": "IgHKtw7yfiY",
-"t": "20 años de Mónaco 2006: el límite es el cielo"
 }
 ],
 "Sheffield United": [
@@ -9315,6 +9339,12 @@
 "f": "2026-09-11",
 "id": "XkbiO8LCjxA",
 "t": "Back to work. 😤"
+},
+{
+"c": "Southampton FC",
+"f": "2026-09-11",
+"id": "gB7jy1hCdd8",
+"t": "PRESS CONFERENCE: Eckert previews Bristol City | Championship"
 },
 {
 "c": "Southampton FC",
@@ -10016,6 +10046,12 @@
 "São Paulo": [
 {
 "c": "São Paulo FC",
+"f": "2026-09-11",
+"id": "CbiDbM9BKBE",
+"t": "𝐁𝐞𝐦-𝐯𝐢𝐧𝐝𝐨, 𝐏𝐞𝐝𝐫𝐨 𝐋𝐢𝐦𝐚!"
+},
+{
+"c": "São Paulo FC",
 "f": "2026-09-10",
 "id": "QwvFfoWly2A",
 "t": "PAULISTA SUB-17 2026: SÃO PAULO X INTER DE LIMEIRA | SPFC PLAY"
@@ -10247,12 +10283,6 @@
 "f": "2026-08-30",
 "id": "L1G7S8BlpBE",
 "t": "GOLS: SÃO PAULO 2X1 RED BULL BRAGANTINO | BRASILEIRÃO 2026"
-},
-{
-"c": "São Paulo FC",
-"f": "2026-08-30",
-"id": "9EEMCejhlxo",
-"t": "COLETIVA PÓS-JOGO: SÃO PAULO X RED BULL BRAGANTINO | BRASILEIRÃO 2026"
 }
 ],
 "Tottenham Hotspur": [
