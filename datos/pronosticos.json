@@ -16760,6 +16760,25 @@
 "pv": 0.6898,
 "v": "Braga"
 },
+"primeira|2026-11-29|gil vicente|gd estoril praia": {
+"btts": 0.199,
+"clave_l": "Gil Vicente FC",
+"clave_liga": "primeira",
+"clave_v": "GD Estoril Praia",
+"fecha": "2026-11-29",
+"l": "Gil Vicente",
+"liga": "Primeira Liga",
+"marcador": "0-0",
+"o15": 0.3645,
+"o25": 0.1306,
+"o35": 0.0379,
+"p_marcador": 0.2983,
+"pe": 0.4149,
+"pl": 0.4301,
+"publicado": "2026-09-11T01:14Z",
+"pv": 0.1549,
+"v": "Estoril"
+},
 "primeira|2026-11-29|moreirense|santa clara": {
 "btts": 0.1509,
 "clave_l": "Moreirense FC",
