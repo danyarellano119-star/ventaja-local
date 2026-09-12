@@ -2414,6 +2414,12 @@
 "Chelsea": [
 {
 "c": "Chelsea Football Club",
+"f": "2026-09-12",
+"id": "ZsMOTkXRWBg",
+"t": "Exclusive Interview | Pedro Neto ✍️"
+},
+{
+"c": "Chelsea Football Club",
 "f": "2026-09-11",
 "id": "gwcpZtZvNG0",
 "t": "Alonso Press Conference | 11/09/26 | Chelsea vs Hull City | CFC 26/27"
@@ -4036,7 +4042,7 @@
 "c": "ACF Fiorentina",
 "f": "2026-09-11",
 "id": "nUTs4m16kPY",
-"t": "Highlights: Venezia - Fiorentina  2 - 4"
+"t": "Highlights: Venezia - Fiorentina  2 - 4 (Adams, Mastantuono 3, Pellegrino, Hainault)"
 },
 {
 "c": "ACF Fiorentina",
@@ -4250,6 +4256,12 @@
 }
 ],
 "Flamengo": [
+{
+"c": "Flamengo TV",
+"f": "2026-09-12",
+"id": "qmAKC9eLNwM",
+"t": "ISSO AQUI É FLAMENGO | INDEPENDIENTE DEL VALLE 0 X 2 FLAMENGO | LIBERTADORES (10.09.26)"
+},
 {
 "c": "Flamengo TV",
 "f": "2026-09-11",
@@ -4483,12 +4495,6 @@
 "f": "2026-09-07",
 "id": "skwiWidjdfM",
 "t": "PLATA SE REAPRESENTA E JÁ TREINA COM O GRUPO."
-},
-{
-"c": "Flamengo TV",
-"f": "2026-09-07",
-"id": "T0cnWh_MJTQ",
-"t": "EM NOME DO JOGO | FAIR PLAY FINANCEIRO -  BRUNO CHATACK E ALEXANDRE RANGEL"
 }
 ],
 "Fluminense": [
@@ -4497,6 +4503,18 @@
 "f": "2026-09-11",
 "id": "RrWiMJuXYto",
 "t": "AO VIVO - ATLÉTICO-MG X FLUMINENSE | CAMPEONATO BRASILEIRO 2026 | 27ª RODADA"
+},
+{
+"c": "Fluminense Football Club",
+"f": "2026-09-11",
+"id": "TKNAmQEiaS0",
+"t": "PARTIU BELO HORIZONTE! ✈️ ELENCO EMBARCA PARA ENFRENTAR O ATLÉTICO/MG!"
+},
+{
+"c": "Fluminense Football Club",
+"f": "2026-09-11",
+"id": "Ar7wq6z61nQ",
+"t": "FLUTV NEWS: FLUMINENSE VIAJA PARA ENFRENTAR O ATLÉTICO-MG E SEGUIR NO G4"
 },
 {
 "c": "Fluminense Football Club",
@@ -8888,15 +8906,15 @@
 },
 {
 "c": "Sevilla FC",
-"f": "2026-09-10",
-"id": "es3jo1R4x7U",
-"t": "Rueda de prensa de Luis García Plaza en la previa del #SevillaValencia 📡 EN DIRECTO"
+"f": "2026-09-11",
+"id": "Cl6ieEygb50",
+"t": "'El Partido' #SevillaValencia | 📡 EN DIRECTO"
 },
 {
 "c": "Sevilla FC",
 "f": "2026-09-10",
-"id": "Cl6ieEygb50",
-"t": "'El Partido' #SevillaValencia | 📡 EN DIRECTO"
+"id": "es3jo1R4x7U",
+"t": "Rueda de prensa de Luis García Plaza en la previa del #SevillaValencia 📡 EN DIRECTO"
 },
 {
 "c": "Sevilla FC",
@@ -10046,6 +10064,12 @@
 "São Paulo": [
 {
 "c": "São Paulo FC",
+"f": "2026-09-12",
+"id": "cSU8eEZ1xDY",
+"t": "DIRETO DO SUPERCT: 11/09/2026 | SPFC PLAY"
+},
+{
+"c": "São Paulo FC",
 "f": "2026-09-11",
 "id": "CbiDbM9BKBE",
 "t": "𝐁𝐞𝐦-𝐯𝐢𝐧𝐝𝐨, 𝐏𝐞𝐝𝐫𝐨 𝐋𝐢𝐦𝐚!"
@@ -10277,12 +10301,6 @@
 "f": "2026-08-31",
 "id": "rfA1BRLe8cs",
 "t": "SUPER BASTIDORES: SÃO PAULO 2 X 1 RED BULL BRAGANTINO | SPFC PLAY"
-},
-{
-"c": "São Paulo FC",
-"f": "2026-08-30",
-"id": "L1G7S8BlpBE",
-"t": "GOLS: SÃO PAULO 2X1 RED BULL BRAGANTINO | BRASILEIRÃO 2026"
 }
 ],
 "Tottenham Hotspur": [
