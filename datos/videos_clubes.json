@@ -8,6 +8,12 @@
 },
 {
 "c": "AC Milan",
+"f": "2026-09-12",
+"id": "VwncMXe346c",
+"t": "Da Milanello all'Olimpico: il terzo kit debutta 🔜"
+},
+{
+"c": "AC Milan",
 "f": "2026-09-11",
 "id": "-P0Jivaqjhg",
 "t": "Indovina il marcatore | #LazioMilan | Quante risposte giuste darai?"
@@ -233,12 +239,6 @@
 "f": "2026-08-30",
 "id": "4dw6rrWwijM",
 "t": "La seconda Supercoppa, firmata Van Basten e Massaro 🏆 | Milan 2-1 Parma | 1992"
-},
-{
-"c": "AC Milan",
-"f": "2026-08-29",
-"id": "kwNjID4onSE",
-"t": "Mario Gila, un anno in più. Sempre d’acciaio 🎂❤️‍🔥"
 }
 ],
 "AC Monza": [
@@ -644,6 +644,12 @@
 },
 {
 "c": "AS Roma",
+"f": "2026-09-12",
+"id": "JA9FfMaKOLE",
+"t": "INTERVISTA PIOVANI | PRE Match | Sassuolo-Roma | Serie A Women's Cup"
+},
+{
+"c": "AS Roma",
 "f": "2026-09-09",
 "id": "NkKAQ-jbc9Y",
 "t": "🟨🟥 LA CONFERENZA STAMPA DI GIAN PIERO GASPERINI E MARIO HERMOSO | FENERBAHCE-ROMA"
@@ -811,6 +817,12 @@
 "f": "2026-09-12",
 "id": "GFqz4Fs6yl4",
 "t": "THE BRILLIANCE OF ALEXIS SANCHEZ"
+},
+{
+"c": "Arsenal",
+"f": "2026-09-12",
+"id": "5ou1eSux6QE",
+"t": "GETTING SET FOR SUNDERLAND ✊ | Inside Training | EPL"
 },
 {
 "c": "Arsenal",
@@ -1039,12 +1051,6 @@
 "f": "2026-09-04",
 "id": "wnW1pI0Nvxc",
 "t": "GEARING UP FOR CHELSEA ✊ | Inside Training | EPL"
-},
-{
-"c": "Arsenal",
-"f": "2026-09-04",
-"id": "jV3mnrF7pg0",
-"t": "Eight sublime strikes! 🎯 | Emirates August Goal of the Month"
 }
 ],
 "Atalanta BC": [
@@ -2056,6 +2062,18 @@
 "Burnley": [
 {
 "c": "Burnley Football Club",
+"f": "2026-09-12",
+"id": "9bIQ6lA1diU",
+"t": "Around the ground 🏟️ #burnleyfc #football #efl"
+},
+{
+"c": "Burnley Football Club",
+"f": "2026-09-12",
+"id": "wCRXS6K8C8U",
+"t": "Arriving and ready for the action 🤝 #BurnleyFC #Football #efl"
+},
+{
+"c": "Burnley Football Club",
 "f": "2026-09-11",
 "id": "ngWt_lvTJR4",
 "t": "(1) new message from Jamie Vardy 🤝 #BurnleyFC #Football #efl"
@@ -2281,18 +2299,6 @@
 "f": "2026-09-01",
 "id": "hKf9-UTSnBU",
 "t": "Get to know our new addition to the backline 🇧🇷  #burnleyfc #football #efl"
-},
-{
-"c": "Burnley Football Club",
-"f": "2026-09-01",
-"id": "yRAmvkLYgUI",
-"t": "Max Alleyne Speaks Ahead of Turf Moor Fixture Against Boro | PREVIEW | Burnley v Middlesbrough"
-},
-{
-"c": "Burnley Football Club",
-"f": "2026-09-01",
-"id": "eQYzZCKjYsI",
-"t": "Largie names his ultimate 5-a-side team 💬 #burnleyfc #football #efl"
 }
 ],
 "Cardiff City": [
@@ -3500,6 +3506,12 @@
 },
 {
 "c": "FC Barcelona",
+"f": "2026-09-12",
+"id": "wMP2J4mKc2I",
+"t": "Adeyemi's backflip 🔄  #fcbarcelona #football #adeyemi #shorts"
+},
+{
+"c": "FC Barcelona",
 "f": "2026-09-11",
 "id": "gqzh-ZWvWiU",
 "t": "New celebration unlocked 🔓 #fcbarcelona #football #shorts"
@@ -3719,15 +3731,15 @@
 "f": "2026-09-05",
 "id": "mU5PArpZfdc",
 "t": "Déjà vu, Rapha? 👀🪞 #LaLigaHighlights #fcbarcelona #shorts"
-},
-{
-"c": "FC Barcelona",
-"f": "2026-09-05",
-"id": "L4uZ4_Lg9XI",
-"t": "Pedri + Gavi = pure technique 🤌 #fcbarcelona #shorts"
 }
 ],
 "Fenerbahçe SK": [
+{
+"c": "Fenerbahçe SK",
+"f": "2026-09-12",
+"id": "XjszU2Z6YH4",
+"t": "🔵 CANLI | Fenerbahçe arsaVev - Şile Bilgidoğa Sportif Yatırım Hizmetleri A.Ş."
+},
 {
 "c": "Fenerbahçe SK",
 "f": "2026-09-11",
@@ -4034,6 +4046,12 @@
 "Fiorentina": [
 {
 "c": "ACF Fiorentina",
+"f": "2026-09-12",
+"id": "jQD4OMVTDRk",
+"t": "Primavera, Andreazzoli: \"sorpreso dalla maturità della squadra\"."
+},
+{
+"c": "ACF Fiorentina",
 "f": "2026-09-11",
 "id": "YY9DI68CsDQ",
 "t": "VIOLA DAILY - 11 Settembre"
@@ -4265,12 +4283,6 @@
 "f": "2026-09-02",
 "id": "4AftuRebiV4",
 "t": "Luca Toni: \"E' fantastico! Vedi tante generazioni, con un'unica passione: la Viola\""
-},
-{
-"c": "ACF Fiorentina",
-"f": "2026-09-02",
-"id": "DAaPSX93cM8",
-"t": "Adrian Mutu: \"Ho giocato il mio miglior calcio qui, è una cosa piena di emozioni\""
 }
 ],
 "Flamengo": [
@@ -4518,6 +4530,12 @@
 "Fluminense": [
 {
 "c": "Fluminense Football Club",
+"f": "2026-09-12",
+"id": "zFGlUJaSe1A",
+"t": "TUDO SOBRE O FLUZÃO!"
+},
+{
+"c": "Fluminense Football Club",
 "f": "2026-09-11",
 "id": "RrWiMJuXYto",
 "t": "AO VIVO - ATLÉTICO-MG X FLUMINENSE | CAMPEONATO BRASILEIRO 2026 | 27ª RODADA"
@@ -4749,12 +4767,6 @@
 "f": "2026-08-29",
 "id": "Vp1pjDJ63yM",
 "t": "CORREDOR PARA O GUGA NÃO TEM? TEM SIM!"
-},
-{
-"c": "Fluminense Football Club",
-"f": "2026-08-28",
-"id": "7ydUzeQgEhM",
-"t": "“DE PRIMEIRA” COM A MEIA-ATACANTE RAQUEL FERNANDES! #50Jogos #BateBota #FutebolFeminino"
 }
 ],
 "Fulham": [
@@ -5470,6 +5482,24 @@
 },
 {
 "c": "Inter",
+"f": "2026-09-12",
+"id": "eKiOqWQ7UaY",
+"t": "Focus. Work. Breathe. Repeat. 🔁"
+},
+{
+"c": "Inter",
+"f": "2026-09-12",
+"id": "I-Ms6Qk6xVM",
+"t": "QUANDO STANKOVIĆ E SNEIJDER FIRMANO LA VITTORIA 👀 | INTER 2-1 UDINESE 2009-10 | EXTENDED HIGHLIGHTS"
+},
+{
+"c": "Inter",
+"f": "2026-09-12",
+"id": "NN3lc1d5RVI",
+"t": "EP. 5 | Yuto - L'inchino"
+},
+{
+"c": "Inter",
 "f": "2026-09-11",
 "id": "w8qc-Mfr2YA",
 "t": "Our coach 🖤💙"
@@ -5503,6 +5533,12 @@
 "f": "2026-09-11",
 "id": "XBIINlbRt9g",
 "t": "More wheels or doors? 🤔🚪🛞"
+},
+{
+"c": "Inter",
+"f": "2026-09-11",
+"id": "2udIThpXHTc",
+"t": "EP. 4 | Dejan - Il drago"
 },
 {
 "c": "Inter",
@@ -5653,30 +5689,6 @@
 "f": "2026-09-07",
 "id": "tqIY5RYZytA",
 "t": "Leaving our signature ✍️"
-},
-{
-"c": "Inter",
-"f": "2026-09-07",
-"id": "kpelssYmdyg",
-"t": "From Doha to Milano 🇶🇦✈️🇮🇹 A new UCL Training Kit has landed 🖤💙"
-},
-{
-"c": "Inter",
-"f": "2026-09-07",
-"id": "X8gM2Hoiyuw",
-"t": "INTERNATIONAL CORNER S.4️⃣ | EPISODIO 1 – LA CHAMPIONS RIPARTE DA MADRID🖤💙"
-},
-{
-"c": "Inter",
-"f": "2026-09-07",
-"id": "3GnRetNWCsk",
-"t": "Madrid, see you soon ✈️🇪🇸"
-},
-{
-"c": "Inter",
-"f": "2026-09-07",
-"id": "P6uZ7w4eUSM",
-"t": "VERSO MADRID: L’ALLENAMENTO PRIMA DI REAL MADRID-INTER 🔜 | TRAINING SESSION"
 }
 ],
 "Ipswich Town": [
@@ -5691,6 +5703,12 @@
 "f": "2026-09-12",
 "id": "Wkw8G8oFWF0",
 "t": "GARY O'NEIL'S PRE-PALACE PRESS CONFERENCE"
+},
+{
+"c": "Ipswich Town FC",
+"f": "2026-09-12",
+"id": "Q_G1D21PJjM",
+"t": "MATCHDAY LIVE | CRYSTAL PALACE v TOWN ▶️"
 },
 {
 "c": "Ipswich Town FC",
@@ -5837,6 +5855,18 @@
 "f": "2026-09-12",
 "id": "yfLY1gVEyV0",
 "t": "JUVE DEFEND IT TWICE! 💥"
+},
+{
+"c": "Juventus",
+"f": "2026-09-12",
+"id": "jkIqsl0jWo8",
+"t": "A ROCKET AGAINST SASSUOLO!"
+},
+{
+"c": "Juventus",
+"f": "2026-09-12",
+"id": "lnqsynMeKO8",
+"t": "CR7 WITH THE COLD FINISH! 🎯"
 },
 {
 "c": "Juventus",
@@ -6053,18 +6083,6 @@
 "f": "2026-09-06",
 "id": "x0JhR-Ihv9c",
 "t": "JUVENTUS vs MILAN: here we are 🔥"
-},
-{
-"c": "Juventus",
-"f": "2026-09-06",
-"id": "Jut4HJHLtQI",
-"t": "Federico GATTI scores! Juventus 1 - 1 Milan"
-},
-{
-"c": "Juventus",
-"f": "2026-09-06",
-"id": "sLk4Rjepkx8",
-"t": "Francisco CONCEIÇÃO is the MVP of Juventus-Milan 🤍🖤"
 }
 ],
 "Leeds United": [
@@ -6374,6 +6392,12 @@
 },
 {
 "c": "Liverpool FC",
+"f": "2026-09-12",
+"id": "VkSRNQ4bp-4",
+"t": "Matchday Live: Liverpool vs Fulham | Team news, build-up and more! | Premier League"
+},
+{
+"c": "Liverpool FC",
 "f": "2026-09-11",
 "id": "XEgAoJwvPt8",
 "t": "Press Conference: Liverpool vs Fulham | Andoni Iraola's Premier League Preview"
@@ -6431,12 +6455,6 @@
 "f": "2026-09-10",
 "id": "hsxi0QmlY74",
 "t": "From Isak 🇸🇪  to a lucky Red 🔴 A special Anfield delivery courtesy of @UPS  📦"
-},
-{
-"c": "Liverpool FC",
-"f": "2026-09-10",
-"id": "VkSRNQ4bp-4",
-"t": "Matchday Live: Liverpool vs Fulham | Team news, build-up and more! | Premier League"
 },
 {
 "c": "Liverpool FC",
@@ -7346,6 +7364,24 @@
 },
 {
 "c": "TV Palmeiras Sportingbet",
+"f": "2026-09-12",
+"id": "jHGFULYwgTk",
+"t": "AO VIVO COM IMAGENS | PALMEIRAS X PONTE PRETA | PAULISTA SUB-15 2026"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-09-12",
+"id": "d1ABSgcpYhA",
+"t": "CONFIRA O BOLETIM PRÉ-JOGO SPORTINGBET DO CHOQUE REI!"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-09-12",
+"id": "aILyouLcjSU",
+"t": "BOLETIM PRÉ-JOGO | PALMEIRAS X SÃO PAULO | BRASILEIRÃO 2026"
+},
+{
+"c": "TV Palmeiras Sportingbet",
 "f": "2026-09-11",
 "id": "HOxgBEzI6-c",
 "t": "A PRELEÇÃO DE ABEL FERREIRA!"
@@ -7559,24 +7595,6 @@
 "f": "2026-09-07",
 "id": "foLeAgU-Irs",
 "t": "FOI EXPULSO E VOLTOU CONTRA A CHAPE"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-09-07",
-"id": "E4jVqX25_0E",
-"t": "SEGUNDA-FEIRA DE TREINO INTENSO!"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-09-07",
-"id": "5lbr8bkumuE",
-"t": "PALMEIRAS SE REAPRESENTA E INICIA PREPARAÇÃO PARA JOGO CONTRA LDU"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-09-07",
-"id": "nzFTfTZ5TKw",
-"t": "COÉ, JUSTIN!"
 }
 ],
 "Paris FC": [
@@ -8906,6 +8924,12 @@
 "Sevilla": [
 {
 "c": "Sevilla FC",
+"f": "2026-09-12",
+"id": "q_SWLB6lRG8",
+"t": "𝗝𝗨𝗡𝗧𝗢𝗦 🤍❤️ #sevillafc #sevillavalencia"
+},
+{
+"c": "Sevilla FC",
 "f": "2026-09-11",
 "id": "FtynRSK9BoM",
 "t": "Nos vemos a las 20:00 🫵🏼 #sevillafc"
@@ -9137,12 +9161,6 @@
 "f": "2026-08-26",
 "id": "QQC5bt60riQ",
 "t": "𝐓𝐡𝐢𝐬 𝐨𝐫 𝐓𝐡𝐚𝐭 con Kocho y Robbie 👀 #sevillafc"
-},
-{
-"c": "Sevilla FC",
-"f": "2026-08-26",
-"id": "1clni0CQgqA",
-"t": "🙃🫠🤷🏼 #sevillafc"
 }
 ],
 "Sheffield United": [
@@ -9151,6 +9169,12 @@
 "f": "2026-09-12",
 "id": "MdCExjMbW5o",
 "t": "Tom Cannon: keen for more"
+},
+{
+"c": "Sheffield United FC",
+"f": "2026-09-12",
+"id": "zb8ncZg4Mgw",
+"t": "Final preparations. ⚡️"
 },
 {
 "c": "Sheffield United FC",
@@ -9379,12 +9403,6 @@
 "f": "2026-09-01",
 "id": "TPn6O1YuAfw",
 "t": "Chris Wilder | Sheffield United 3-2 Bolton Wanderers | Post Match Reaction"
-},
-{
-"c": "Sheffield United FC",
-"f": "2026-09-01",
-"id": "J-CEKE05Lns",
-"t": "Hamza Choudhury debrief after first game back. 🇧🇩"
 }
 ],
 "Southampton": [
@@ -10366,6 +10384,18 @@
 },
 {
 "c": "Tottenham Hotspur",
+"f": "2026-09-12",
+"id": "i44tprv2AMY",
+"t": "Our home 🫶"
+},
+{
+"c": "Tottenham Hotspur",
+"f": "2026-09-12",
+"id": "LtWMYlIYLWc",
+"t": "⏪ Last time we faced Everton at Tottenham Hotspur Stadium..."
+},
+{
+"c": "Tottenham Hotspur",
 "f": "2026-09-11",
 "id": "ZvjiDVuKGmM",
 "t": "Here at Tottenham 🤍"
@@ -10585,12 +10615,6 @@
 "f": "2026-08-28",
 "id": "_sjGJjimSMs",
 "t": "Quickfire with Omar ⚡️"
-},
-{
-"c": "Tottenham Hotspur",
-"f": "2026-08-27",
-"id": "RrcW4gc_paM",
-"t": "Omar Marmoush signs for Spurs! ✍️"
 }
 ],
 "Toulouse": [
