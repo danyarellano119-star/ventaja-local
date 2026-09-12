@@ -122,6 +122,90 @@
 },
 {
 "c": "CazéTV",
+"f": "2026-09-12",
+"id": "XiPW6devQ04",
+"t": "AO VIVO: ESPANHA X ESTADOS UNIDOS | COPA DO MUNDO DE BASQUETE FEMININO | SEMIFINAL"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-12",
+"id": "0y8X_7dOaTY",
+"t": "AO VIVO (SOM AMBIENTE): PARIS FC X LYON | LIGUE 1 26/27 | 4ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-12",
+"id": "91pX2Qg0KcE",
+"t": "AO VIVO (SOM AMBIENTE): FC LORIENT X TOULOUSE | LIGUE 1 26/27 | 4ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-12",
+"id": "YZMJixyygbw",
+"t": "AO VIVO (SOM AMBIENTE): LE HAVRE X ANGERS | LIGUE 1 26/27 | 4ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-12",
+"id": "qf9E5VgbE8A",
+"t": "AO VIVO (SOM AMBIENTE): AUXERRE X NICE | LIGUE 1 26/27 | 4ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-12",
+"id": "6gIOGJMvp4s",
+"t": "AO VIVO: REAL MADRID X RAYO VALLECANO | LALIGA 26/27 | 5ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-12",
+"id": "mXg6p1xptjI",
+"t": "GOL DO INTER! CARBONERO VAI PRA DENTRO E COLOCA O COLORADO NA FRENTE CONTRA A CHAPE!"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-12",
+"id": "uw00oXI4_4s",
+"t": "COMPACTO: REAL MADRID 4 X 1 RAYO VALLECANO | LALIGA 26/27 | 5ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-12",
+"id": "jetrxmTaTy8",
+"t": "MELHORES MOMENTOS: REAL MADRID 4 X 1 RAYO VALLECANO | LALIGA 26/27 | 5ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-12",
+"id": "A2CGKJZo3Jo",
+"t": "ELE NÃO PERDE! MBAPPÉ FAZ MAIS UM GOL E O REAL MADRID FAZ O 4º CONTRA O RAYO"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-12",
+"id": "kJorZueH2Fg",
+"t": "GOL DA CHAPE! GARCEZ SOBE DE CABEÇA E EMPATA O JOGO CONTRA O INTER!"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-12",
+"id": "QfvHbmL5w4Y",
+"t": "GOL DO INTERNACIONAL! BRUNO HENRIQUE CHUTA FORTE E ABRE O PLACAR CONTRA A CHAPE!"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-12",
+"id": "YUvi-ZoxYGY",
+"t": "GOOOOL DO RAYO VALLECANO! CAMELLO MARCA DE BIQUINHO CONTRA O REAL!"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-12",
+"id": "kUBB_B3x0ws",
+"t": "GOOOOL DO REAL! BELLINGHAM RECEBE DE VINI E FAZ 3 A 0"
+},
+{
+"c": "CazéTV",
 "f": "2026-09-11",
 "id": "uvQvOzjlgvg",
 "t": "FLAMENGO X INDEPENDIENTE DEL VALLE | LIBERTADORES | NARRAÇÃO | NOCHE DE COPA"
@@ -209,12 +293,6 @@
 "f": "2026-09-11",
 "id": "psIMXqfV3y8",
 "t": "MELHORES MOMENTOS: RENNES 1 X 0 MARSEILLE | LIGUE 1 26/27 | 4ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-11",
-"id": "XiPW6devQ04",
-"t": "AO VIVO: ESPANHA X ESTADOS UNIDOS | COPA DO MUNDO DE BASQUETE FEMININO | SEMIFINAL"
 },
 {
 "c": "CazéTV",
@@ -341,30 +419,6 @@
 "f": "2026-09-10",
 "id": "yeYmlsq10Aw",
 "t": "AO VIVO: PSG ENTRA EM CAMPO NA LIGUE 1 E O BARCELONA SEGUE VOANDO NA LALIGA | SEIS EM UM"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-10",
-"id": "0y8X_7dOaTY",
-"t": "AO VIVO (SOM AMBIENTE): PARIS FC X LYON | LIGUE 1 26/27 | 4ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-10",
-"id": "91pX2Qg0KcE",
-"t": "AO VIVO (SOM AMBIENTE): FC LORIENT X TOULOUSE | LIGUE 1 26/27 | 4ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-10",
-"id": "YZMJixyygbw",
-"t": "AO VIVO (SOM AMBIENTE): LE HAVRE X ANGERS | LIGUE 1 26/27 | 4ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-10",
-"id": "qf9E5VgbE8A",
-"t": "AO VIVO (SOM AMBIENTE): AUXERRE X NICE | LIGUE 1 26/27 | 4ª RODADA"
 },
 {
 "c": "CazéTV",
@@ -1268,12 +1322,6 @@
 },
 {
 "c": "CazéTV",
-"f": "2026-09-02",
-"id": "6gIOGJMvp4s",
-"t": "AO VIVO: REAL MADRID X RAYO VALLECANO | LALIGA 26/27 | 5ª RODADA"
-},
-{
-"c": "CazéTV",
 "f": "2026-09-01",
 "id": "E7YHQeujYcI",
 "t": "KKKKKKKKKKKKK OS CARAS SÃO FOD* 🤣🔴⚫"
@@ -1438,6 +1486,12 @@
 },
 {
 "c": "Bundesliga",
+"f": "2026-09-12",
+"id": "zuGQmUW1li4",
+"t": "FC St. Pauli vs. VfL Wolfsburg | Matchday 5 - Bundesliga 2 2026/27"
+},
+{
+"c": "Bundesliga",
 "f": "2026-09-11",
 "id": "VHcgpNQknas",
 "t": "Some of the hardest names to pronounce this season in the Bundesliga 🗣️"
@@ -1501,12 +1555,6 @@
 "f": "2026-09-10",
 "id": "mOMofCdPL2o",
 "t": "LIVE 🔴 VfL Osnabrück vs. Hertha BSC | Matchday 5 - Bundesliga 2 2026/27"
-},
-{
-"c": "Bundesliga",
-"f": "2026-09-10",
-"id": "zuGQmUW1li4",
-"t": "LIVE 🔴 FC St. Pauli vs. VfL Wolfsburg | Matchday 5 - Bundesliga 2 2026/27"
 },
 {
 "c": "Bundesliga",
@@ -2303,6 +2351,78 @@
 "f": "2026-09-12",
 "id": "W_yDcx1GK2M",
 "t": "𝙏𝙤𝙡𝙪 𝘼𝙧𝙤𝙠𝙤𝙙𝙖𝙧𝙚, de publiekslieveling van Ajax🤳"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-12",
+"id": "sK13VVqQ1og",
+"t": "FRIESE INVALLER TREFZEKER in BLESSURETIJD! ⏳ | Samenvatting SC Cambuur - N.E.C."
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-12",
+"id": "ngO89yF6B48",
+"t": "WEGHORST GEËMOTIONEERD NA EERSTE THUISGOAL VOOR FC TWENTE 🥹 | Samenvatting FC Twente - ADO Den Haag"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-12",
+"id": "Hmt4csV7EM0",
+"t": "THILO KEHRER SCOORT ÉN GEEFT EEN ASSIST bij BASISDEBUUT! 🔥 | Samenvatting Fortuna Sittard - Ajax"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-12",
+"id": "L-GOA3aasgs",
+"t": "GUILHERME PEIXOTO maakt EERSTE PROFGOAL 🔥 | Samenvatting Roda JC - Vitesse"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-12",
+"id": "-VLP9NTst4g",
+"t": "SIGURDARSON MIST EEN MEGAKANS IN LAATSTE MINUUT 😱 | Samenvatting Go Ahead Eagles - FC Groningen"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-12",
+"id": "KJruKumuVQ8",
+"t": "Míchel Sánchez heeft vertrouwen in Marcos Leonardo: \"Deze wedstrijd was beter voor Kasper Dolberg\""
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-12",
+"id": "ebds14fDOc8",
+"t": "\"Veruit de slechtste wedstrijd die ik ooit heb gecoacht en gezien\" 😳"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-12",
+"id": "yCzYagrwhzQ",
+"t": "Julian Brandt kon niet écht juichen na zijn goal 😅⚽️"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-12",
+"id": "ClbbZQr1Hf8",
+"t": "JULIAN BRANDT ZELFKRITISCH: \"Was niet tevreden over mijn spel\" 😤 | Interview"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-12",
+"id": "DjnYP_x9L40",
+"t": "THILO KEHRER blij na 'LASTIG DUEL': \"We moesten er hard voor werken\"🥵 | Interview"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-12",
+"id": "IMuBEgFr0xI",
+"t": "STEVEN BERGHUIS ziet PROGRESSIE bij AJAX: \"We zijn weer stapje verder in onze reis\" 📈 | Interview"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-12",
+"id": "A1Y-UwAyEik",
+"t": "Thilo Kehrer is bij zijn basisdebuut voor Ajax direct goed voor een doelpunt! ⚽🇩🇪"
 },
 {
 "c": "ESPN NL",
@@ -3910,6 +4030,48 @@
 },
 {
 "c": "LALIGA EA SPORTS",
+"f": "2026-09-12",
+"id": "ZBxvhF8OV0s",
+"t": "REAL MADRID 4 - 1 RAYO VALLECANO | RESUMEN LALIGA EA SPORTS"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-12",
+"id": "h-i2bmvJMOk",
+"t": "REAL MADRID vs RAYO VALLECANO | RUEDA DE PRENSA"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-12",
+"id": "f7Tv5u_pXD0",
+"t": "REAL MADRID 4 - 1 RAYO VALLECANO | RESUMEN LALIGA EA SPORTS"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-12",
+"id": "fOW9qoC2s4I",
+"t": "Este pase de Güler… 💫"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-12",
+"id": "WwL9yDQRRe8",
+"t": "⛔️ AUDERO dice que NO! ⛔️"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-12",
+"id": "ALjmpe0TFHI",
+"t": "🫲BELLINGHAM🫱"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-12",
+"id": "IzHF531PU0Q",
+"t": "🚀 ¡Su primer gol de la temporada!"
+},
+{
+"c": "LALIGA EA SPORTS",
 "f": "2026-09-11",
 "id": "uXM_IHfMiKY",
 "t": "Cuando RODRYGO salvó al REAL MADRID  ⚪🔥 | LALIGA EA SPORTS"
@@ -5408,6 +5570,18 @@
 },
 {
 "c": "Premier League",
+"f": "2026-09-12",
+"id": "at6bUJ9iZ7g",
+"t": "Cole Palmer In Full Flow 🪄"
+},
+{
+"c": "Premier League",
+"f": "2026-09-12",
+"id": "F66JXoGoxKI",
+"t": "Jeremy Jacquet Is One Step Ahead 🧠"
+},
+{
+"c": "Premier League",
 "f": "2026-09-11",
 "id": "1kD7JTZP_Xk",
 "t": "One Touch Liquid Football ⚽️"
@@ -5827,6 +6001,24 @@
 "f": "2026-09-12",
 "id": "APXDuovx_QY",
 "t": "Moreira Stars In Four-Goal Thriller! | LAZIO-MILAN | HIGHLIGHTS | Serie A 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-09-12",
+"id": "1ChBYnX471g",
+"t": "THAT LEFT FOOT 😮‍💨"
+},
+{
+"c": "Serie A",
+"f": "2026-09-12",
+"id": "B8Z0ie4lzYE",
+"t": "Maldini Fa Volare Il Cagliari! | ATALANTA-CAGLIARI | HIGHLIGHTS | SERIE A ENILIVE 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-09-12",
+"id": "IXxBoMpwGUU",
+"t": "Cagliari Cause Huge Upset | ATALANTA-CAGIARI | HIGHLIGHTS | Serie A 2026/27"
 },
 {
 "c": "Serie A",
