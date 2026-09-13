@@ -2,6 +2,12 @@
 "AC Milan": [
 {
 "c": "AC Milan",
+"f": "2026-09-13",
+"id": "9vrXTJ9hJCs",
+"t": "Highlights | La doppietta di DIEGO MOREIRA | Lazio 2-2 Milan"
+},
+{
+"c": "AC Milan",
 "f": "2026-09-12",
 "id": "QUsZq6dUEGI",
 "t": "#LazioMilan | I gol che hanno scritto la sfida ⚽🔥"
@@ -233,12 +239,6 @@
 "f": "2026-08-31",
 "id": "ukeYf45u_Fk",
 "t": "Ciao, Rossoneri! | Omari Hutchinson 👋"
-},
-{
-"c": "AC Milan",
-"f": "2026-08-31",
-"id": "CA2kzZ8IiXc",
-"t": "Highlights Primavera | Nolli regala un punto ai Rossoneri | Cesena-Milan 1-1"
 }
 ],
 "AC Monza": [
@@ -844,6 +844,36 @@
 },
 {
 "c": "Arsenal",
+"f": "2026-09-12",
+"id": "chgZUIe8914",
+"t": "BUKAYO SAKA STRIKES FROM THE SPOT!"
+},
+{
+"c": "Arsenal",
+"f": "2026-09-12",
+"id": "pV7h2JYiPYM",
+"t": "STUNNING BRUNO GUIMARAES GOAL!"
+},
+{
+"c": "Arsenal",
+"f": "2026-09-12",
+"id": "HDy5BXCsvhs",
+"t": "DAVID RAYA PENALTY SAVE VS SUNDERLAND"
+},
+{
+"c": "Arsenal",
+"f": "2026-09-12",
+"id": "5tznQTug9jA",
+"t": "BRUNO GUIMAERES SCREAMER & DAVID RAYA HEROICS | HIGHLIGHTS | Sunderland vs Arsenal (0-2) | PL"
+},
+{
+"c": "Arsenal",
+"f": "2026-09-12",
+"id": "GxSWAqONsVI",
+"t": "A MESSAGE FROM BRUNO GUIMARAES"
+},
+{
+"c": "Arsenal",
 "f": "2026-09-11",
 "id": "h4GklkaErj8",
 "t": "SUPER STRIKES In Off The Post & Crossbar | Arsenal Goals & Highlights"
@@ -1039,39 +1069,15 @@
 "f": "2026-09-05",
 "id": "RRTVuMY2o7Y",
 "t": "PLACED TO PERFECTION VS CHELSEA! 🎯"
-},
-{
-"c": "Arsenal",
-"f": "2026-09-04",
-"id": "CmUppLEE5fA",
-"t": "1 MATCH VS CHELSEA. 2 ODEGAARD GOALS!"
-},
-{
-"c": "Arsenal",
-"f": "2026-09-04",
-"id": "XJsTW81j9M8",
-"t": "PRESS CONFERENCE 🎙️ | Mikel Arteta previews Chelsea | EPL"
-},
-{
-"c": "Arsenal",
-"f": "2026-09-04",
-"id": "Xm_CEXNmIww",
-"t": "PRESS CONFERENCE 🎙️ | Renée previews season opener against Brighton | WSL"
-},
-{
-"c": "Arsenal",
-"f": "2026-09-04",
-"id": "kWUMoLTba_Q",
-"t": "PRESS CONFERENCE 🎙️ | Mikel Arteta previews Chelsea | EPL"
-},
-{
-"c": "Arsenal",
-"f": "2026-09-04",
-"id": "wnW1pI0Nvxc",
-"t": "GEARING UP FOR CHELSEA ✊ | Inside Training | EPL"
 }
 ],
 "Atalanta BC": [
+{
+"c": "Atalanta Bergamasca Calcio",
+"f": "2026-09-13",
+"id": "YdkfMtxVcLE",
+"t": "Atalanta-Cagliari 1-2 | Highlights 4ª Serie A 2026/27"
+},
 {
 "c": "Atalanta Bergamasca Calcio",
 "f": "2026-09-12",
@@ -1089,6 +1095,18 @@
 "f": "2026-09-12",
 "id": "SQGKNRgj3Gc",
 "t": "Atalanta-Cagliari | Our Starting XI | 4ª Serie A Enilive 2026/27"
+},
+{
+"c": "Atalanta Bergamasca Calcio",
+"f": "2026-09-12",
+"id": "qvy7M46F9sQ",
+"t": "Maurizio Sarri: \"Mi dispiace per i ragazzi\" | Atalanta-Cagliari 1-2 | 4ª Serie A 2026/27 - ENG SUBs"
+},
+{
+"c": "Atalanta Bergamasca Calcio",
+"f": "2026-09-12",
+"id": "q6ywZwqtIVc",
+"t": "Lazar Samardžić: \"Dobbiamo guardare avanti\" | Atalanta-Cagliari 1-2 | 4ª Serie A 2026/27 - ENG SUBs"
 },
 {
 "c": "Atalanta Bergamasca Calcio",
@@ -1293,27 +1311,15 @@
 "f": "2026-08-31",
 "id": "tdnGmb8lk3g",
 "t": "Éderson: \"Siamo una squadra che non molla mai\" | Atalanta-Bologna 1-0 | 2ª Serie A 2026/27 -ENG SUBs"
-},
-{
-"c": "Atalanta Bergamasca Calcio",
-"f": "2026-08-31",
-"id": "-C9ZAkwrE1I",
-"t": "Atalanta-Bologna | Our Starting XI | 2ª Serie A Enilive 2026/27"
-},
-{
-"c": "Atalanta Bergamasca Calcio",
-"f": "2026-08-30",
-"id": "J4sYuRuhthM",
-"t": "L'UNDER 23 VINCE! 🔥 | Atalanta U23-Guidonia 2-1 | 2ª Serie C Sky Wifi 2026/27"
-},
-{
-"c": "Atalanta Bergamasca Calcio",
-"f": "2026-08-30",
-"id": "67flS-uzQpg",
-"t": "Beati: \"Una vittoria che ripaga la squadra\" | Atalanta U23-Guidonia 2-1 | MD2 Serie C 2026/27-SUBs"
 }
 ],
 "Athletico Paranaense": [
+{
+"c": "Athletico Paranaense",
+"f": "2026-09-13",
+"id": "djwoBUOgFMc",
+"t": "FC CASCAVEL 2 X 3 ATHLETICO | MELHORES MOMENTOS | COPA PARANÁ 2026"
+},
 {
 "c": "Athletico Paranaense",
 "f": "2026-09-12",
@@ -1547,12 +1553,6 @@
 "f": "2026-09-06",
 "id": "6soTzzsCYOg",
 "t": "CRUZEIRO x ATHLETICO PARANAENSE | BRASILEIRÃO 2026 | TRANSMISSÃO EM ÁUDIO"
-},
-{
-"c": "Athletico Paranaense",
-"f": "2026-09-06",
-"id": "QXUJgw3pQxk",
-"t": "ZONA MISTA | GILBERTO MORAES E JOÃO CRUZ | CRUZEIRO 3 X 1 ATHLETICO | BRASILEIRÃO 2026"
 }
 ],
 "Bayern Munich": [
@@ -1731,6 +1731,12 @@
 "f": "2026-09-12",
 "id": "cOLJOs3ZfVI",
 "t": "Tony Mowbray post-match interview | Millwall (H)"
+},
+{
+"c": "Blackburn Rovers Football Club",
+"f": "2026-09-12",
+"id": "RlgPzFCqtnI",
+"t": "Extended Highlights: Rovers 3-1 Millwall"
 },
 {
 "c": "Blackburn Rovers Football Club",
@@ -2358,6 +2364,12 @@
 "Cardiff City": [
 {
 "c": "Cardiff City FC",
+"f": "2026-09-12",
+"id": "7QZiMqdFdnU",
+"t": "HIGHLIGHTS | BOLTON WANDERERS vs CARDIFF CITY"
+},
+{
+"c": "Cardiff City FC",
 "f": "2026-09-11",
 "id": "oqrmBQonQ-Y",
 "t": "MATCH PREVIEW | BOLTON WANDERERS vs CARDIFF CITY"
@@ -2513,6 +2525,12 @@
 "f": "2026-09-12",
 "id": "J42n6v_Nhac",
 "t": "Chelsea 2-2 Hull City | HIGHLIGHTS | Premier League 2026/27"
+},
+{
+"c": "Chelsea Football Club",
+"f": "2026-09-12",
+"id": "n4w1csZpocc",
+"t": "Rogers 🤝 Palmer"
 },
 {
 "c": "Chelsea Football Club",
@@ -5856,6 +5874,18 @@
 },
 {
 "c": "Ipswich Town FC",
+"f": "2026-09-12",
+"id": "pV10nIjzKlM",
+"t": "HIGHLIGHTS | CRYSTAL PALACE 2 TOWN 3"
+},
+{
+"c": "Ipswich Town FC",
+"f": "2026-09-12",
+"id": "DGZd3GMqTbo",
+"t": "ZIAN FLEMMING AFTER LATE WINNER"
+},
+{
+"c": "Ipswich Town FC",
 "f": "2026-09-04",
 "id": "o6yU0GZ99YY",
 "t": "MATCHDAY LIVE | TOWN v LIVERPOOL ▶️"
@@ -5882,7 +5912,7 @@
 "c": "Ipswich Town FC",
 "f": "2026-09-03",
 "id": "q-C1snisjR4",
-"t": "Our deadline day arrival. 🤝"
+"t": "WELCOME TO IPSWICH TOWN, ZIAN FLEMMING! 🤝"
 },
 {
 "c": "Ipswich Town FC",
@@ -6864,6 +6894,12 @@
 },
 {
 "c": "Middlesbrough FC",
+"f": "2026-09-12",
+"id": "RF6Z5CiPBj8",
+"t": "Phillips Wins It Late | Extended Highlights | Boro 4 Norwich 3 | Matchday 6"
+},
+{
+"c": "Middlesbrough FC",
 "f": "2026-09-11",
 "id": "HalsbNtRd-M",
 "t": "Press Conference | Norwich City"
@@ -7526,6 +7562,18 @@
 "Palmeiras": [
 {
 "c": "TV Palmeiras Sportingbet",
+"f": "2026-09-13",
+"id": "MYLjMA54_b8",
+"t": "SOLTA O GRITO! 🗣️💚"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-09-13",
+"id": "zfbq3WJ40ZI",
+"t": "COLETIVA JOÃO MARTINS | PALMEIRAS X SÃO PAULO | BRASILEIRÃO 2026"
+},
+{
+"c": "TV Palmeiras Sportingbet",
 "f": "2026-09-12",
 "id": "jH5IbxofeuE",
 "t": "CHOQUE-REI! PALMEIRAS FAZ ÚLTIMOS AJUSTES ANTES DO CLÁSSICO"
@@ -7553,6 +7601,12 @@
 "f": "2026-09-12",
 "id": "wKlwZBhd0o4",
 "t": "AO VIVO COM IMAGENS | PALMEIRAS X PONTE PRETA | PAULISTA SUB-17 2026"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-09-12",
+"id": "r10dQQ-BwZc",
+"t": "AO VIVO | PALMEIRAS X SÃO PAULO | PRÉ-JOGO E NARRAÇÃO"
 },
 {
 "c": "TV Palmeiras Sportingbet",
@@ -7745,24 +7799,6 @@
 "f": "2026-09-08",
 "id": "Cafy4gU0SCQ",
 "t": "BOLETIM PRÉ-JOGO SPORTINGBET DE LIBERTADORES! ⚔️"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-09-08",
-"id": "khmug-6U0-c",
-"t": "BOLETIM PRÉ-JOGO | PALMEIRAS X LDU | LIBERTADORES 2026"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-09-08",
-"id": "xpPPgnJz9AY",
-"t": "PALMEIRAS FAZ AJUSTES FINAIS ANTES DE DECISÃO NA LIBERTADORES"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-09-07",
-"id": "kz25Ggn9roQ",
-"t": "COLETIVA ABEL FERREIRA | BOTAFOGO X PALMEIRAS | BRASILEIRÃO 2026"
 }
 ],
 "Paris FC": [
@@ -8430,6 +8466,18 @@
 },
 {
 "c": "Real Madrid",
+"f": "2026-09-12",
+"id": "IkHcvTHYVOg",
+"t": "GOALS | Real Madrid 4-1 Rayo Vallecano | LaLiga"
+},
+{
+"c": "Real Madrid",
+"f": "2026-09-12",
+"id": "xoungdAL15U",
+"t": "HIGHLIGHTS | Real Madrid 4-1 Rayo Vallecano | LaLiga"
+},
+{
+"c": "Real Madrid",
 "f": "2026-09-11",
 "id": "tbZaIIfSIdY",
 "t": "🔛 Work, work, work! #RMCity"
@@ -8631,18 +8679,6 @@
 "f": "2026-09-06",
 "id": "MrI1KGKcUKA",
 "t": "👀 Something’s coming tomorrow… STAY TUNED. #ViniJr #RealMadrid"
-},
-{
-"c": "Real Madrid",
-"f": "2026-09-04",
-"id": "Bog62RgDaRM",
-"t": "☄️ Free-kick perfection! 📐 GarethBale vs Betis #RealBetisRealMadrid #RealMadrid"
-},
-{
-"c": "Real Madrid",
-"f": "2026-09-04",
-"id": "PgUJjNEt-AA",
-"t": "💜🤝🤳 #realmadrid #madridistas"
 }
 ],
 "SC Paderborn 07": [
@@ -9600,6 +9636,12 @@
 },
 {
 "c": "Southampton FC",
+"f": "2026-09-12",
+"id": "6Dr9C0WrRak",
+"t": "EXTENDED HIGHLIGHTS: Southampton 4-1 Bristol City | Championship"
+},
+{
+"c": "Southampton FC",
 "f": "2026-09-11",
 "id": "NUdiSIMkHnk",
 "t": "\"Schlotterbeck is a WINNER!\" 🇩🇪"
@@ -9940,6 +9982,12 @@
 },
 {
 "c": "Stoke City FC",
+"f": "2026-09-12",
+"id": "M1DMRfcHv3s",
+"t": "Jack McGlynn scores a GOLAZO! 🇺🇸🔥 Watford 1-2 Stoke City | Extended Highlights 📺"
+},
+{
+"c": "Stoke City FC",
 "f": "2026-09-11",
 "id": "-bznka_Il88",
 "t": "🎙️ 'I want to show my quality and play with freedom' | Justin Devenny Press Conference"
@@ -10141,12 +10189,6 @@
 "f": "2026-08-25",
 "id": "xUvlfI9FdCE",
 "t": "Bozenik on target in Cup exit | Stoke City 1-1 Hull City (4-5 on penalties) | Highlights"
-},
-{
-"c": "Stoke City FC",
-"f": "2026-08-25",
-"id": "LrG_Bn5Fv04",
-"t": "Ben's firm belief ahead of Molineux match-up | Wilmot reacts to defeat on penalties"
 }
 ],
 "Swansea City": [

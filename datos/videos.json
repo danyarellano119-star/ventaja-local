@@ -124,37 +124,37 @@
 "c": "CazéTV",
 "f": "2026-09-12",
 "id": "XiPW6devQ04",
-"t": "AO VIVO: ESPANHA X ESTADOS UNIDOS | COPA DO MUNDO DE BASQUETE FEMININO | SEMIFINAL"
+"t": "ESPANHA X ESTADOS UNIDOS | COPA DO MUNDO DE BASQUETE FEMININO | SEMIFINAL"
 },
 {
 "c": "CazéTV",
 "f": "2026-09-12",
 "id": "0y8X_7dOaTY",
-"t": "AO VIVO (SOM AMBIENTE): PARIS FC X LYON | LIGUE 1 26/27 | 4ª RODADA"
+"t": "JOGO COMPLETO (SOM AMBIENTE): PARIS FC X LYON | LIGUE 1 26/27 | 4ª RODADA"
 },
 {
 "c": "CazéTV",
 "f": "2026-09-12",
 "id": "91pX2Qg0KcE",
-"t": "AO VIVO (SOM AMBIENTE): FC LORIENT X TOULOUSE | LIGUE 1 26/27 | 4ª RODADA"
+"t": "JOGO COMPLETO (SOM AMBIENTE): FC LORIENT X TOULOUSE | LIGUE 1 26/27 | 4ª RODADA"
 },
 {
 "c": "CazéTV",
 "f": "2026-09-12",
 "id": "YZMJixyygbw",
-"t": "AO VIVO (SOM AMBIENTE): LE HAVRE X ANGERS | LIGUE 1 26/27 | 4ª RODADA"
+"t": "JOGO COMPLETO (SOM AMBIENTE): LE HAVRE X ANGERS | LIGUE 1 26/27 | 4ª RODADA"
 },
 {
 "c": "CazéTV",
 "f": "2026-09-12",
 "id": "qf9E5VgbE8A",
-"t": "AO VIVO (SOM AMBIENTE): AUXERRE X NICE | LIGUE 1 26/27 | 4ª RODADA"
+"t": "JOGO COMPLETO (SOM AMBIENTE): AUXERRE X NICE | LIGUE 1 26/27 | 4ª RODADA"
 },
 {
 "c": "CazéTV",
 "f": "2026-09-12",
 "id": "6gIOGJMvp4s",
-"t": "AO VIVO: REAL MADRID X RAYO VALLECANO | LALIGA 26/27 | 5ª RODADA"
+"t": "JOGO COMPLETO: REAL MADRID X RAYO VALLECANO | LALIGA 26/27 | 5ª RODADA"
 },
 {
 "c": "CazéTV",
@@ -203,6 +203,18 @@
 "f": "2026-09-12",
 "id": "kUBB_B3x0ws",
 "t": "GOOOOL DO REAL! BELLINGHAM RECEBE DE VINI E FAZ 3 A 0"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-12",
+"id": "0yxdrt1C_kM",
+"t": "REACT DA FINAL FEMININA DO US OPEN | ARYNA SABALENKA X ELENA RYBAKINA | ESPECIAL US OPEN"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-12",
+"id": "2yI-YnMO1v0",
+"t": "MELHORES MOMENTOS: CHAPECOENSE 1 X 2 INTERNACIONAL | BRASILEIRÃO 2026 | 27ª RODADA | 12/09/26"
 },
 {
 "c": "CazéTV",
@@ -257,12 +269,6 @@
 "f": "2026-09-11",
 "id": "zTY_1NaDD2E",
 "t": "MELHORES MOMENTOS: INGLATERRA 1 X 2 BRASIL | COPA DO MUNDO FIFA FEMININA SUB-20 2026 | 3ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-11",
-"id": "0yxdrt1C_kM",
-"t": "AO VIVO: REACT DA FINAL FEMININA DO US OPEN | ARYNA SABALENKA X ELENA RYBAKINA | ESPECIAL US OPEN"
 },
 {
 "c": "CazéTV",
@@ -2404,7 +2410,7 @@
 "c": "ESPN NL",
 "f": "2026-09-12",
 "id": "ClbbZQr1Hf8",
-"t": "JULIAN BRANDT ZELFKRITISCH: \"Was niet tevreden over mijn spel\" 😤 | Interview"
+"t": "JULIAN BRANDT blijft ZELFKRITISCH😤 \"Was niet tevreden over mijn spel\" | Interview"
 },
 {
 "c": "ESPN NL",
@@ -5950,6 +5956,12 @@
 "seriea": [
 {
 "c": "Serie A",
+"f": "2026-09-13",
+"id": "B8Z0ie4lzYE",
+"t": "Maldini Fa Volare Il Cagliari! | ATALANTA-CAGLIARI | HIGHLIGHTS | SERIE A ENILIVE 2026/27"
+},
+{
+"c": "Serie A",
 "f": "2026-09-12",
 "id": "OM7O3M--gto",
 "t": "Gol E Spettacolo Al Penzo | VENEZIA-FIORENTINA | HIGHLIGHTS | SERIE A ENILIVE 2026/27"
@@ -6007,12 +6019,6 @@
 "f": "2026-09-12",
 "id": "1ChBYnX471g",
 "t": "THAT LEFT FOOT 😮‍💨"
-},
-{
-"c": "Serie A",
-"f": "2026-09-12",
-"id": "B8Z0ie4lzYE",
-"t": "Maldini Fa Volare Il Cagliari! | ATALANTA-CAGLIARI | HIGHLIGHTS | SERIE A ENILIVE 2026/27"
 },
 {
 "c": "Serie A",
