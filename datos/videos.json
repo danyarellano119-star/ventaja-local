@@ -2,6 +2,42 @@
 "brasileirao": [
 {
 "c": "CazéTV",
+"f": "2026-09-13",
+"id": "2OWPaTGkLRQ",
+"t": "AO VIVO: INTER VENCE O DUELO DOS DESESPERADOS, MAS SEGUE NA ZONA | RODA DE BOBO"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-13",
+"id": "XBQnGKkz3Q0",
+"t": "JOGO COMPLETO: CHAPECOENSE X INTERNACIONAL | BRASILEIRÃO 2026 | 27ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-13",
+"id": "auPYcbwqeZo",
+"t": "TÊNIS DE MESA | HUGO CALDERANO NO WTT CHAMPIONS DE MACAU | SEMIFINAL"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-13",
+"id": "BZtv8UwRfz4",
+"t": "VEJA COMO FOI: LIVERPOOL X FULHAM | PREMIER LEAGUE 26/27 | 4ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-13",
+"id": "99lLO_8-_Io",
+"t": "MELHORES MOMENTOS: BOTAFOGO 1 X 1 RED BULL BRAGANTINO | BRASILEIRÃO 2026 | 27ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-13",
+"id": "9tzeBB-VZGI",
+"t": "JOGO DO LIMITE! CAZÉ, IGOR, LUISINHO E DONAN COM UM SHOW DE ABSURDOS! | RODA DE BOBO"
+},
+{
+"c": "CazéTV",
 "f": "2026-09-12",
 "id": "zxhmOLmR10M",
 "t": "MELHORES MOMENTOS: CAZÉTV FC 5 X 1 JORNADA 1902 | 2ª RODADA | COPA ACERJ 2026"
@@ -218,6 +254,12 @@
 },
 {
 "c": "CazéTV",
+"f": "2026-09-12",
+"id": "kiG17DBwdK8",
+"t": "AO VIVO: HUGO CALDERANO X TRULS MOREGARD | FINAL DO WTT CHAMPIONS DE MACAU | TÊNIS DE MESA"
+},
+{
+"c": "CazéTV",
 "f": "2026-09-11",
 "id": "uvQvOzjlgvg",
 "t": "FLAMENGO X INDEPENDIENTE DEL VALLE | LIBERTADORES | NARRAÇÃO | NOCHE DE COPA"
@@ -413,12 +455,6 @@
 "f": "2026-09-10",
 "id": "jEYwLzuNUus",
 "t": "JOGO COMPLETO: COLÔMBIA X PORTUGAL | COPA DO MUNDO FIFA FEMININA SUB-20 2026 | 2ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-10",
-"id": "2OWPaTGkLRQ",
-"t": "AO VIVO: PÓS-JOGO CHAPECOENSE X INTERNACIONAL | RODA DE BOBO"
 },
 {
 "c": "CazéTV",
@@ -1286,6 +1322,12 @@
 },
 {
 "c": "CazéTV",
+"f": "2026-09-03",
+"id": "MyNhRc9pZ4w",
+"t": "AO VIVO: CELTA X MÁLAGA | LALIGA 26/27 | 5ª RODADA"
+},
+{
+"c": "CazéTV",
 "f": "2026-09-02",
 "id": "kuX_0LvJ28M",
 "t": "SIMPLESMENTE KAIO JORGE X ALEXSANDER: CLIMINHA GOSTOSO EM MINAS 🤯"
@@ -1385,15 +1427,15 @@
 "f": "2026-08-31",
 "id": "v-GtI-cN3-I",
 "t": "ADMITA: VOCÊ FICOU IGUAL AO CAZÉ! QUE GOLAÇO ABSURDO DO YAMAL, PQP! ✋😨🤚🎙️ @luisinho"
-},
-{
-"c": "CazéTV",
-"f": "2026-08-30",
-"id": "XBQnGKkz3Q0",
-"t": "AO VIVO: CHAPECOENSE X INTERNACIONAL | BRASILEIRÃO 2026 | 27ª RODADA"
 }
 ],
 "bundesliga": [
+{
+"c": "Bundesliga",
+"f": "2026-09-13",
+"id": "Qf1G6Zv3r9c",
+"t": "Such a moving choreo from Schalke 04 ahead of kick-off against FC Bayern 😍🥹"
+},
 {
 "c": "Bundesliga",
 "f": "2026-09-12",
@@ -1561,6 +1603,18 @@
 "f": "2026-09-10",
 "id": "mOMofCdPL2o",
 "t": "LIVE 🔴 VfL Osnabrück vs. Hertha BSC | Matchday 5 - Bundesliga 2 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-09-10",
+"id": "FOzecTXwfxA",
+"t": "LIVE 🔴 1. FC Heidenheim 1846 vs. Holstein Kiel | Matchday 5 - Bundesliga 2 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-09-10",
+"id": "6GrXnbfw4SU",
+"t": "LIVE 🔴 Karlsruher SC vs. FC Energie Cottbus | Matchday 5 - Bundesliga 2 2026/27"
 },
 {
 "c": "Bundesliga",
@@ -1980,6 +2034,12 @@
 "champions": [
 {
 "c": "UEFA",
+"f": "2026-09-13",
+"id": "Gbc9JDSP5cY",
+"t": "Raphinha sits down two!"
+},
+{
+"c": "UEFA",
 "f": "2026-09-12",
 "id": "6RBkmsacNH4",
 "t": "BEST Champions League Saves From Matchday 1! | Highlights"
@@ -2292,6 +2352,24 @@
 }
 ],
 "eredivisie": [
+{
+"c": "ESPN NL",
+"f": "2026-09-13",
+"id": "PqsqerRjCwo",
+"t": "DAAN ROTS staat pal achter WEGHORST💪 \"Als hij dat had gedaan, was heel Nederland erover gevallen\""
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-13",
+"id": "Q4seO304oAY",
+"t": "Andries Jonker verbaasd over de KNVB🧐 \"De tweede keer ook mislukt\""
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-13",
+"id": "5ZARsHwoF7A",
+"t": "Een bijzondere assist voor de familie Van Duijl ❤️"
+},
 {
 "c": "ESPN NL",
 "f": "2026-09-12",
@@ -3928,6 +4006,18 @@
 "laliga": [
 {
 "c": "LALIGA EA SPORTS",
+"f": "2026-09-13",
+"id": "ER7fUKMJb0Q",
+"t": "🔴 CELTA vs MÁLAGA CF - PREVIA DEL PARTIDO"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-13",
+"id": "dE3oY28RoRI",
+"t": "Jude Bellingham 🌪"
+},
+{
+"c": "LALIGA EA SPORTS",
 "f": "2026-09-12",
 "id": "FFkdFu1CwbQ",
 "t": "Rodrygo ✨"
@@ -5040,6 +5130,24 @@
 "ligue1": [
 {
 "c": "Ligue 1",
+"f": "2026-09-13",
+"id": "geRx636Rrdw",
+"t": "LOÏS OPENDA : SON HISTOIRE À TRAVERS SON INSTAGRAM 📲​"
+},
+{
+"c": "Ligue 1",
+"f": "2026-09-13",
+"id": "Tq-PPS_Fti0",
+"t": "Mezian Mesloub’s first match in #Ligue1 🥰 #football #ligue1 #sports #lens #footballshorts #soccer"
+},
+{
+"c": "Ligue 1",
+"f": "2026-09-13",
+"id": "MT1Ek5EZJMY",
+"t": "MVO’NO ✋#ligue1mcdonalds  #football #ligue1 #sports #footballshorts #shorts #soccer #skills #goal"
+},
+{
+"c": "Ligue 1",
 "f": "2026-09-12",
 "id": "3ATyHzW_Xcg",
 "t": "C’est quoi le GOAT de la patisserie ?🍰  #football #ligue1 #sports #footballshorts #soccer #foot"
@@ -5570,6 +5678,12 @@
 "premier": [
 {
 "c": "Premier League",
+"f": "2026-09-13",
+"id": "E_vY2BIPafA",
+"t": "Xabi Alonso Loved This Goal ❤️"
+},
+{
+"c": "Premier League",
 "f": "2026-09-12",
 "id": "iMxvcI_lh2c",
 "t": "Together Against Suicide | Premier League"
@@ -6024,7 +6138,7 @@
 "c": "Serie A",
 "f": "2026-09-12",
 "id": "IXxBoMpwGUU",
-"t": "Cagliari Cause Huge Upset | ATALANTA-CAGIARI | HIGHLIGHTS | Serie A 2026/27"
+"t": "Cagliari Cause Huge Upset | ATALANTA-CAGLIARI | HIGHLIGHTS | Serie A 2026/27"
 },
 {
 "c": "Serie A",
