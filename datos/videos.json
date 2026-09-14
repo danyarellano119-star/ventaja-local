@@ -2,6 +2,12 @@
 "brasileirao": [
 {
 "c": "CazéTV",
+"f": "2026-09-14",
+"id": "D_uFri7TFaI",
+"t": "JOGO COMPLETO: STADE BRESTOIS X PSG | LIGUE 1 26/27 | 4ª RODADA"
+},
+{
+"c": "CazéTV",
 "f": "2026-09-13",
 "id": "2OWPaTGkLRQ",
 "t": "AO VIVO: INTER VENCE O DUELO DOS DESESPERADOS, MAS SEGUE NA ZONA | RODA DE BOBO"
@@ -118,7 +124,7 @@
 "c": "CazéTV",
 "f": "2026-09-13",
 "id": "iqSOyFt4BNE",
-"t": "AO VIVO: LEVANTE X BARCELONA | LALIGA 26/27 | 5ª RODADA"
+"t": "JOGO COMPLETO: LEVANTE X BARCELONA | LALIGA 26/27 | 5ª RODADA"
 },
 {
 "c": "CazéTV",
@@ -130,19 +136,19 @@
 "c": "CazéTV",
 "f": "2026-09-13",
 "id": "BAxm0GVjddE",
-"t": "AO VIVO: REACT DA FINAL MASCULINA DO US OPEN | ALEXANDER ZVEREV X BEN SHELTON | ESPECIAL US OPEN"
+"t": "REACT DA FINAL MASCULINA DO US OPEN | ALEXANDER ZVEREV X BEN SHELTON | ESPECIAL US OPEN"
 },
 {
 "c": "CazéTV",
 "f": "2026-09-13",
 "id": "yeYmlsq10Aw",
-"t": "AO VIVO: PSG VENCE A PRIMEIRA NA LIGUE 1 E O BARCELONA SEGUE VOANDO NA LALIGA | SEIS EM UM"
+"t": "PSG VENCE A PRIMEIRA NA LIGUE 1 E O BARCELONA SEGUE VOANDO NA LALIGA | SEIS EM UM"
 },
 {
 "c": "CazéTV",
 "f": "2026-09-13",
 "id": "G5p6ysqfW2Y",
-"t": "AO VIVO: FINAL DA COPA DO MUNDO DE BASQUETE FEMININO | FRANÇA X ESTADOS UNIDOS"
+"t": "JUDÔ | TIME BRASIL NO GRAND SLAM DE BUDAPESTE | DIA 3"
 },
 {
 "c": "CazéTV",
@@ -173,6 +179,18 @@
 "f": "2026-09-13",
 "id": "ZEMaKted2UI",
 "t": "MELHORES MOMENTOS: GETAFE 1 x 1 A CORUÑA | LALIGA 26/27 | 5ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-13",
+"id": "QlQZRU-zk_U",
+"t": "FINAL DA COPA DO MUNDO DE BASQUETE FEMININO | FRANÇA X ESTADOS UNIDOS"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-13",
+"id": "oOZpSavNs78",
+"t": "MELHORES MOMENTOS: MIRASSOL 2 X 2 VITÓRIA | BRASILEIRÃO 2026 | 27ª RODADA"
 },
 {
 "c": "CazéTV",
@@ -1460,12 +1478,6 @@
 },
 {
 "c": "CazéTV",
-"f": "2026-09-03",
-"id": "D_uFri7TFaI",
-"t": "REPRISE: REAL MADRID X RAYO VALLECANO | LALIGA 26/27 | 5ª RODADA"
-},
-{
-"c": "CazéTV",
 "f": "2026-09-02",
 "id": "kuX_0LvJ28M",
 "t": "SIMPLESMENTE KAIO JORGE X ALEXSANDER: CLIMINHA GOSTOSO EM MINAS 🤯"
@@ -1638,7 +1650,7 @@
 "c": "Bundesliga",
 "f": "2026-09-13",
 "id": "X_p818BPjZ8",
-"t": "Goal Festival for RB | RB LEIPZIG - HAMBURGER SV | Highlights | Matchday 3 – Bundesliga 2026/27"
+"t": "Goalfest for RB Leipzig! | RB LEIPZIG - HAMBURGER SV | Highlights | Matchday 3 – Bundesliga 2026/27"
 },
 {
 "c": "Bundesliga",
@@ -5688,6 +5700,12 @@
 "ligue1": [
 {
 "c": "Ligue 1",
+"f": "2026-09-14",
+"id": "557u2nfDeEw",
+"t": "Résumé 4ème journée | Ligue 1 McDonald's 26/27"
+},
+{
+"c": "Ligue 1",
 "f": "2026-09-13",
 "id": "geRx636Rrdw",
 "t": "LOÏS OPENDA : SON HISTOIRE À TRAVERS SON INSTAGRAM 📲​"
@@ -5805,6 +5823,12 @@
 "f": "2026-09-13",
 "id": "Cqtf-MCLzaA",
 "t": "RC STRASBOURG ALSACE - AS MONACO (1-1) | Week 4 - Ligue 1 McDonald's 26/27"
+},
+{
+"c": "Ligue 1",
+"f": "2026-09-13",
+"id": "taBlamKslbE",
+"t": "STADE BRESTOIS 29 - PARIS SAINT-GERMAIN (0-1) | Week 4 - Ligue 1 McDonald's 26/27"
 },
 {
 "c": "Ligue 1",
@@ -6748,6 +6772,12 @@
 "seriea": [
 {
 "c": "Serie A",
+"f": "2026-09-14",
+"id": "KnylNdBWOJY",
+"t": "Adzic Allo Scadere! | SASSUOLO-JUVENTUS | HIGHLIGHTS | SERIE A ENILIVE 2026/27"
+},
+{
+"c": "Serie A",
 "f": "2026-09-13",
 "id": "B8Z0ie4lzYE",
 "t": "Maldini Fa Volare Il Cagliari! | ATALANTA-CAGLIARI | HIGHLIGHTS | SERIE A ENILIVE 2026/27"
@@ -6781,12 +6811,6 @@
 "f": "2026-09-13",
 "id": "ouVacPrwPuk",
 "t": "Lobotka Edges Bologna | NAPOLI-BOLOGNA | HIGHLIGHTS | Serie A 2026/27"
-},
-{
-"c": "Serie A",
-"f": "2026-09-13",
-"id": "KnylNdBWOJY",
-"t": "Adzic Allo Scadere! | SASSUOLO-JUVENTUS | HIGHLIGHTS | SERIE A ENILIVE 2026/27"
 },
 {
 "c": "Serie A",
