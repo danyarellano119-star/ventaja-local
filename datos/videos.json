@@ -2,6 +2,60 @@
 "brasileirao": [
 {
 "c": "CazéTV",
+"f": "2026-09-17",
+"id": "dTnAnbIOwOI",
+"t": "PALMEIRAS PASSA NOS PÊNALTIS CONTRA A LDU E CORINTHIANS ENTRA EM CAMPO JÁ JÁ | GERAL CAZÉTV"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-17",
+"id": "F5ETwTcA0cY",
+"t": "PALMEIRAS X LDU E ATLÉTICO-MG X SANTOS | LIBERTADORES E SUL-AMERICANA | NARRAÇÃO AO VIVO"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-17",
+"id": "1QMyDw_DwkQ",
+"t": "JOGO COMPLETO: ATLÉTICO DE MADRID X OSASUNA | LALIGA 26/27 | 6ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-17",
+"id": "WjmoZ_-xxus",
+"t": "MELHORES MOMENTOS: BOTAFOGO 3 X 2 GRÊMIO | BRASILEIRÃO 2026 | 21ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-17",
+"id": "f-G2OpMzy8Q",
+"t": "MELHORES MOMENTOS: CORINTHIANS 0 X 1 ESTUDIANTES | QUARTAS (VOLTA) | CONMEBOL LIBERTADORES 2026"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-17",
+"id": "BpKPLVbSaYk",
+"t": "DISPUTA DE PÊNALTIS: ATLÉTICO-MG 4(3) X 2(1) SANTOS | QUARTAS (VOLTA) | CONMEBOL SULAMERICANA 2026"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-17",
+"id": "CXpqVV9sGfQ",
+"t": "MELHORES MOMENTOS: ATLÉTICO-MG 4(3) X 2(1) SANTOS | QUARTAS (VOLTA) | CONMEBOL SULAMERICANA 2026"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-17",
+"id": "hD_RPgyUrBg",
+"t": "DISPUTA DE PÊNALTIS: LDU 3(3) X (4)2 PALMEIRAS | QUARTAS (VOLTA) | CONMEBOL LIBERTADORES 2026"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-17",
+"id": "-P08XdIjaGQ",
+"t": "MELHORES MOMENTOS: LDU 3(3) X (4)2 PALMEIRAS | QUARTAS (VOLTA) | CONMEBOL LIBERTADORES 2026"
+},
+{
+"c": "CazéTV",
 "f": "2026-09-16",
 "id": "nX1Tz7Ptrq8",
 "t": "FLUMINENSE X PLATENSE E VASCO X SANTA FÉ | LIBERTADORES E SUL-AMERICANA | NARRAÇÃO AO VIVO"
@@ -29,12 +83,6 @@
 "f": "2026-09-16",
 "id": "Thzek_fzDVc",
 "t": "MELHORES MOMENTOS: SÃO PAULO 1 X 1 BOCA JUNIORS | QUARTAS (VOLTA) | CONMEBOL SULAMERICANA 2026"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-16",
-"id": "dTnAnbIOwOI",
-"t": "AO VIVO: PÓS-LIBERTADORES E SUL-AMERICANA | GERAL CAZÉTV"
 },
 {
 "c": "CazéTV",
@@ -287,12 +335,6 @@
 "f": "2026-09-14",
 "id": "E4Ilm886VgI",
 "t": "FLAMENGO X INDEPENDIENTE DEL VALLE | LIBERTADORES | NARRAÇÃO AO VIVO | NOCHE DE COPA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-14",
-"id": "F5ETwTcA0cY",
-"t": "PALMEIRAS X LDU E ATLÉTICO-MG X SANTOS | LIBERTADORES E SUL-AMERICANA | NARRAÇÃO AO VIVO"
 },
 {
 "c": "CazéTV",
@@ -1433,12 +1475,6 @@
 "f": "2026-09-06",
 "id": "HoeWyW20iRs",
 "t": "ESSA DUPLA TÁ JOGANDO MUITO! PQP! 🇺🇾🤝🇧🇷"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-06",
-"id": "1QMyDw_DwkQ",
-"t": "AO VIVO: ATLÉTICO DE MADRID X OSASUNA | LALIGA 26/27 | 6ª RODADA"
 },
 {
 "c": "CazéTV",
@@ -3116,6 +3152,30 @@
 "eredivisie": [
 {
 "c": "ESPN NL",
+"f": "2026-09-17",
+"id": "B1FHcFZguRs",
+"t": "📉 SFEER binnen N.E.C. VERSLECHTERD? \"Heb het idee dat de BALANS uit de PLOEG is\" | Voetbalpraat"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-17",
+"id": "0ajUxT9RfHY",
+"t": "OEI: MEMPHIS MIST cruciale PENALTY in KWARTFINALE COPA LIBERTADORES 🫣"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-17",
+"id": "Djkqv7f9590",
+"t": "👏 LOF voor AZ na NEDERLAAG tegen SUNDERLAND: \"Verschil NIET eens zo GROOT\" | Voetbalpraat"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-17",
+"id": "ooDmpAEtXlM",
+"t": "AJAX harkt FANTASY-punten & it’s EAGLES-TIME! 🦅⏰ | ESPN Fantasy Voetbal Show"
+},
+{
+"c": "ESPN NL",
 "f": "2026-09-16",
 "id": "SxtBLQSESdA",
 "t": "Abdellah OUAZANE passeert ook BUITEN het veld 🎁😢"
@@ -3160,7 +3220,7 @@
 "c": "ESPN NL",
 "f": "2026-09-16",
 "id": "udvI7vrbOo4",
-"t": "Alle LOF voor DIES JANSE 👏 | Voetbalpraat"
+"t": "DIES JANSE valt al VROEG in de SMAAK: \"Hij legt ze overal waar hij hebben wil\" 👀 | Voetbalpraat"
 },
 {
 "c": "ESPN NL",
@@ -5188,6 +5248,12 @@
 "laliga": [
 {
 "c": "LALIGA EA SPORTS",
+"f": "2026-09-17",
+"id": "hiU0T_i72ps",
+"t": "Bellingham y Vinícius"
+},
+{
+"c": "LALIGA EA SPORTS",
 "f": "2026-09-16",
 "id": "i9cX-1dCLs4",
 "t": "Lamine Yamal y Mbappé brillan; Aubameyang 5 de 5 | JORNADA DE TRES"
@@ -6904,6 +6970,12 @@
 }
 ],
 "ligue1": [
+{
+"c": "Ligue 1",
+"f": "2026-09-17",
+"id": "O3vqt1JG8oo",
+"t": "What a nutmeg! 😳 #football #ligue1 #sports #psg #footballshorts #soccer #foot #shorts #skills"
+},
 {
 "c": "Ligue 1",
 "f": "2026-09-16",
