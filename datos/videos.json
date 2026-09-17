@@ -74,6 +74,84 @@
 },
 {
 "c": "CazéTV",
+"f": "2026-09-17",
+"id": "OfxVU_xLCco",
+"t": "JOGO COMPLETO (SOM AMBIENTE): LEVSKI SOFIA X FC SALZBURG | EUROPA LEAGUE 26/27 | 1ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-17",
+"id": "CwfSNkwowzw",
+"t": "JOGO COMPLETO (SOM AMBIENTE): OFI X HOFFENHEIM | EUROPA LEAGUE 26/27 | 1ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-17",
+"id": "mJRl1XVq4Fo",
+"t": "JOGO COMPLETO: REAL SOCIEDAD X BOURNEMOUTH | EUROPA LEAGUE 26/27 | 1ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-17",
+"id": "5VTY1Pp43Ks",
+"t": "JOGO COMPLETO: BEŞIKTAŞ X OLYMPIQUE MARSEILLE | EUROPA LEAGUE 26/27 | 1ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-17",
+"id": "hy1RIIN7q7Q",
+"t": "JOGO COMPLETO: JUVENTUS X NEC NIJMEGEN | EUROPA LEAGUE 26/27 | 1ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-17",
+"id": "GcCcyu3ORIE",
+"t": "JOGO COMPLETO (SOM AMBIENTE): LILLESTROM X TORREENSE | EUROPA LEAGUE 26/27 | 1ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-17",
+"id": "-A2QQmmBijY",
+"t": "MELHORES MOMENTOS: REAL SOCIEDAD 1 X 2 BOURNEMOUTH | EUROPA LEAGUE 26/27 | 1ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-17",
+"id": "HVzaY_ht_PQ",
+"t": "JOGO COMPLETO (SOM AMBIENTE): VIKTORIA PLZEŇ X UNION SAINT-GILLOISE | EUROPA LEAGUE 26/27| 1ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-17",
+"id": "th0JC76LafQ",
+"t": "JOGO COMPLETO (SOM AMBIENTE): CRYSTAL PALACE X LECH POZNAŃ | EUROPA LEAGUE 26/27 | 1ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-17",
+"id": "BdTU64EwnxU",
+"t": "JOGO COMPLETO (SOM AMBIENTE): CELTIC X FERENCVÁROSI | EUROPA LEAGUE 26/27 | 1ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-17",
+"id": "eNQ6Y_1oZXw",
+"t": "MELHORES MOMENTOS: REAL BETIS 1 X 0 GETAFE | LALIGA 26/27 | 6ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-17",
+"id": "HZJrOjwVD4E",
+"t": "AO VIVO: A ESTREIA DE TITE PELO FOGÃO! LOGO APÓS MIRASSOL X BOTAFOGO TEM RODA DE BOBO"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-17",
+"id": "Ulfsb7eMw2Q",
+"t": "AO VIVO: FILIPE LUÍS NO TOPO DA TABELA, CLÁSSICO DE MADRID E O ARSENAL VOANDO! | QUEM FEZ, FEZ"
+},
+{
+"c": "CazéTV",
 "f": "2026-09-16",
 "id": "nX1Tz7Ptrq8",
 "t": "FLUMINENSE X PLATENSE E VASCO X SANTA FÉ | LIBERTADORES E SUL-AMERICANA | NARRAÇÃO AO VIVO"
@@ -1004,18 +1082,6 @@
 },
 {
 "c": "CazéTV",
-"f": "2026-09-10",
-"id": "OfxVU_xLCco",
-"t": "AO VIVO (SOM AMBIENTE): LEVSKI SOFIA X FC SALZBURG | EUROPA LEAGUE 26/27 | 1ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-10",
-"id": "CwfSNkwowzw",
-"t": "AO VIVO (SOM AMBIENTE): OFI X HOFFENHEIM | EUROPA LEAGUE 26/27 | 1ª RODADA"
-},
-{
-"c": "CazéTV",
 "f": "2026-09-09",
 "id": "yKEAFHUE0BM",
 "t": "MELHORES MOMENTOS: FLUMINENSE 2 X 0 PLATENSE | QUARTAS (IDA) | CONMEBOL LIBERTADORES 2026"
@@ -1307,24 +1373,6 @@
 "f": "2026-09-07",
 "id": "ykaYioGtUNU",
 "t": "MELHORES MOMENTOS: ELCHE 2 X 3 REAL SOCIEDAD | LALIGA 26/27 | 4ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-07",
-"id": "mJRl1XVq4Fo",
-"t": "AO VIVO: REAL SOCIEDAD X BOURNEMOUTH | EUROPA LEAGUE 26/27 | 1ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-07",
-"id": "5VTY1Pp43Ks",
-"t": "AO VIVO: BEŞIKTAŞ X OLYMPIQUE MARSEILLE | EUROPA LEAGUE 26/27 | 1ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-07",
-"id": "hy1RIIN7q7Q",
-"t": "AO VIVO: JUVENTUS X NEC NIJMEGEN | EUROPA LEAGUE 26/27 | 1ª RODADA"
 },
 {
 "c": "CazéTV",
@@ -5533,6 +5581,54 @@
 "f": "2026-09-17",
 "id": "9wmWKNiXn1s",
 "t": "Lamine Yamal: TOP 1 pases en zona de ataque"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-17",
+"id": "hNxM5Or_WJc",
+"t": "⚔️ ¡Aparece Recio y evita el gol!"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-17",
+"id": "Xt0mYA3fNdY",
+"t": "💛 ¡LA REMONTADA del Villarreal!"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-17",
+"id": "0qLf251r490",
+"t": "🇮🇨💛💎"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-17",
+"id": "vpsB5CygSBE",
+"t": "REAL BETIS vs GETAFE CF | RUEDA DE PRENSA"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-17",
+"id": "c_OMWC7k4sQ",
+"t": "🔴 MÁLAGA CF vs VILLARREAL CF - PREVIA DEL PARTIDO"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-17",
+"id": "CsZpc8JbxOk",
+"t": "REAL BETIS 1 - 0 GETAFE CF | RESUMEN LALIGA EA SPORTS"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-17",
+"id": "KxfcfAp7hAU",
+"t": "❌ ZAID ROMERO ❌"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-17",
+"id": "A-jVJfu2Lk0",
+"t": "¡Dani Ceballos HA VUELTO a casa! 💚🔙🤍"
 },
 {
 "c": "LALIGA EA SPORTS",
