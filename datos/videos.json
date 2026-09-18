@@ -2,6 +2,24 @@
 "brasileirao": [
 {
 "c": "CazéTV",
+"f": "2026-09-18",
+"id": "E4Ilm886VgI",
+"t": "FLAMENGO X INDEPENDIENTE DEL VALLE | LIBERTADORES | NARRAÇÃO | NOCHE DE COPA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-18",
+"id": "mCA596MP7ic",
+"t": "MELHORES MOMENTOS: FLAMENGO 1 X 1 IND. DEL VALLE | QUARTAS (VOLTA) | CONMEBOL LIBERTADORES 2026"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-18",
+"id": "qJwx5LJZUTc",
+"t": "ORLANDINHO EM FAMÍLIA! OS PAIS CONTAM A HISTÓRIA DO CRAQUE DA COPA DAVIS"
+},
+{
+"c": "CazéTV",
 "f": "2026-09-17",
 "id": "dTnAnbIOwOI",
 "t": "PALMEIRAS PASSA NOS PÊNALTIS CONTRA A LDU E CORINTHIANS ENTRA EM CAMPO JÁ JÁ | GERAL CAZÉTV"
@@ -449,12 +467,6 @@
 "f": "2026-09-14",
 "id": "D_uFri7TFaI",
 "t": "JOGO COMPLETO: STADE BRESTOIS X PSG | LIGUE 1 26/27 | 4ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-14",
-"id": "E4Ilm886VgI",
-"t": "FLAMENGO X INDEPENDIENTE DEL VALLE | LIBERTADORES | NARRAÇÃO AO VIVO | NOCHE DE COPA"
 },
 {
 "c": "CazéTV",
@@ -2080,6 +2092,12 @@
 "bundesliga": [
 {
 "c": "Bundesliga",
+"f": "2026-09-18",
+"id": "6_yAehg756w",
+"t": "Ref substitution turns into Bundesliga debut 👏😱"
+},
+{
+"c": "Bundesliga",
 "f": "2026-09-17",
 "id": "og8LvU992Kc",
 "t": "Deniz Undav picks his GOATs 🐐"
@@ -2850,6 +2868,12 @@
 "champions": [
 {
 "c": "UEFA",
+"f": "2026-09-18",
+"id": "mGJ0PT4HlZI",
+"t": "How?! 🤯"
+},
+{
+"c": "UEFA",
 "f": "2026-09-17",
 "id": "Y7xoYTpKwLs",
 "t": "Sunderland holding on to that lead"
@@ -3368,6 +3392,24 @@
 "eredivisie": [
 {
 "c": "ESPN NL",
+"f": "2026-09-18",
+"id": "HPsUchwe9XY",
+"t": "🦁🔶 GJIVAI ZECHIËL voor het EERST OPGEROEPEN voor ORANJE 🪄🎩 | COMPILATIE"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-18",
+"id": "VummoTuDMsc",
+"t": "Dick Schreuder eerlijk over verdediger Kabar: \"Hij heeft het heel erg lastig, dat zien we allemaal\""
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-18",
+"id": "1r0VLKLmd9o",
+"t": "VERBAZING over N.E.C.: \"Het was SUPERNAÏEF, ik zag OPGEEFGEDRAG\" 😳 | Voetbalpraat"
+},
+{
+"c": "ESPN NL",
 "f": "2026-09-17",
 "id": "B1FHcFZguRs",
 "t": "📉 SFEER binnen N.E.C. VERSLECHTERD? \"Heb het idee dat de BALANS uit de PLOEG is\" | Voetbalpraat"
@@ -3460,7 +3502,7 @@
 "c": "ESPN NL",
 "f": "2026-09-17",
 "id": "0_8N2SOT_i0",
-"t": "Kritiek op instelling N.E.C.-spelers: ‘Ik zie opgeefgedrag’ 🫣 | Voetbalpraat"
+"t": "Kritiek op instelling N.E.C.-spelers: \"Ik zie opgeefgedrag\" 🫣 | Voetbalpraat"
 },
 {
 "c": "ESPN NL",
@@ -5542,6 +5584,42 @@
 "laliga": [
 {
 "c": "LALIGA EA SPORTS",
+"f": "2026-09-18",
+"id": "X8g_1DKKuco",
+"t": "Can they beat them? ⚽️🏆 GOALITOS"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-18",
+"id": "Rup-A10oyiw",
+"t": "TODOS los GOLES de la JORNADA 6 de LALIGA EA SPORTS 2026/27"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-18",
+"id": "-m1_l-80m34",
+"t": "Dos GOLAZOS idénticos, un solo culpable: CANCELO"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-18",
+"id": "S0M0VY4gXhs",
+"t": "Jornada 1: Arranca una nueva temporada de LALIGA"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-18",
+"id": "Ewo6FRqlOX4",
+"t": "Jornada 1: Comienza la acción en LALIGA"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-18",
+"id": "GZFWNw6BnwE",
+"t": "CR7 vs Atlético de Madrid"
+},
+{
+"c": "LALIGA EA SPORTS",
 "f": "2026-09-17",
 "id": "hiU0T_i72ps",
 "t": "Bellingham y Vinícius"
@@ -5646,7 +5724,7 @@
 "c": "LALIGA EA SPORTS",
 "f": "2026-09-17",
 "id": "vpsB5CygSBE",
-"t": "REAL BETIS vs GETAFE CF | RUEDA DE PRENSA"
+"t": "Pellegrini: \"Era el partido que esperábamos\""
 },
 {
 "c": "LALIGA EA SPORTS",
@@ -5676,7 +5754,7 @@
 "c": "LALIGA EA SPORTS",
 "f": "2026-09-17",
 "id": "IKmakhedfsc",
-"t": "MÁLAGA CF vs VILLARREAL CF | RUEDA DE PRENSA"
+"t": "Iñigo Pérez: \"Por fin hemos obtenido lo que veníamos mereciendo\""
 },
 {
 "c": "LALIGA EA SPORTS",
@@ -7404,6 +7482,18 @@
 "ligue1": [
 {
 "c": "Ligue 1",
+"f": "2026-09-18",
+"id": "Jkh1BpHSCXA",
+"t": "Le Stade Rennais est-il le RC Lens de cette saison de Ligue 1 ?🤔 @THOMASPARLEFOOT  #football #ligue1"
+},
+{
+"c": "Ligue 1",
+"f": "2026-09-18",
+"id": "vC2sQ3oPQRM",
+"t": "Tout était calculé 🤝 #football #ligue1 #sports #footballshorts #foot #soccer #skills #goal #shorts"
+},
+{
+"c": "Ligue 1",
 "f": "2026-09-17",
 "id": "O3vqt1JG8oo",
 "t": "What a nutmeg! 😳 #football #ligue1 #sports #psg #footballshorts #soccer #foot #shorts #skills"
@@ -8192,6 +8282,12 @@
 "premier": [
 {
 "c": "Premier League",
+"f": "2026-09-18",
+"id": "-nvmMadRKPQ",
+"t": "Arsenal’s NEW Tactics Explained 🧠"
+},
+{
+"c": "Premier League",
 "f": "2026-09-17",
 "id": "UBXNv0ufgV4",
 "t": "This Rooney Celebration 😂"
@@ -8714,6 +8810,24 @@
 }
 ],
 "seriea": [
+{
+"c": "Serie A",
+"f": "2026-09-18",
+"id": "g7iV6c9X3Qo",
+"t": "REMEMBER THIS ONE? 👀 #RomaInter #SerieA"
+},
+{
+"c": "Serie A",
+"f": "2026-09-18",
+"id": "V8JPdSASyR8",
+"t": "FIORENTINA-NAPOLI 1-3 | CLASSIC HIGHLIGHTS SERIE A 2025/26"
+},
+{
+"c": "Serie A",
+"f": "2026-09-18",
+"id": "ciNPe8EJID0",
+"t": "Playing Roma? Watch your BACK 👀🐺 #SerieA"
+},
 {
 "c": "Serie A",
 "f": "2026-09-17",
