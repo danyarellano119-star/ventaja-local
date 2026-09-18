@@ -1430,9 +1430,27 @@
 "Athletico Paranaense": [
 {
 "c": "Athletico Paranaense",
+"f": "2026-09-18",
+"id": "K6nH47-P7po",
+"t": "EL TREN É SELEÇÃO! | KEVIN VIVEROS FALA SOBRE CONVOCAÇÃO"
+},
+{
+"c": "Athletico Paranaense",
 "f": "2026-09-17",
 "id": "na_YjA8mSsk",
 "t": "TREINO DE FINALIZAÇÃO NO CAT CAJU | POR DENTRO DO CAP 17/09"
+},
+{
+"c": "Athletico Paranaense",
+"f": "2026-09-17",
+"id": "ODX1NRTmK10",
+"t": "FURACÃO NEWS EM 1 MINUTO - 17/09"
+},
+{
+"c": "Athletico Paranaense",
+"f": "2026-09-17",
+"id": "SmN-0YYepas",
+"t": "EL TREN NA SELEÇÃO COLOMBIANA | FURACÃO NEWS - 17/09"
 },
 {
 "c": "Athletico Paranaense",
@@ -1649,24 +1667,6 @@
 "f": "2026-09-09",
 "id": "_5H4XUHg9Hk",
 "t": "ATHLETICO PARANAENSE X SANTOS - BRASILEIRO SUB-17  2026 | AO VIVO E COM IMAGENS"
-},
-{
-"c": "Athletico Paranaense",
-"f": "2026-09-09",
-"id": "pj5Az_IMg54",
-"t": "PIÁS CAMPEÕES DO MUNDIAL JUVENIL SUB-17 E A DESPEDIDA DE JACKSON NASCIMENTO | FURACÃO NEWS - 09/09"
-},
-{
-"c": "Athletico Paranaense",
-"f": "2026-09-09",
-"id": "bMxRjCYO0qA",
-"t": "ATHLETICO 1 (4) X (3) 1 RACING | GOLS | MUNDIAL JUVENIL SUB-17"
-},
-{
-"c": "Athletico Paranaense",
-"f": "2026-09-09",
-"id": "XVzW5Hqeuvc",
-"t": "FURACÃO NEWS EM 1 MINUTO - 09/09"
 }
 ],
 "Bayern Munich": [
@@ -5100,6 +5100,12 @@
 },
 {
 "c": "Fluminense Football Club",
+"f": "2026-09-17",
+"id": "cbrUmSJqyvE",
+"t": "MARTINELLI CONVOCADO PARA A SELEÇÃO: \"EU ACHAVA QUE ISSO ERA UMA COISA TÃO DISTANTE\""
+},
+{
+"c": "Fluminense Football Club",
 "f": "2026-09-16",
 "id": "PZBLa17sB-Q",
 "t": "AO VIVO - PLATENSE X FLUMINENSE | CONMEBOL LIBERTADORES 2026 | QUARTAS DE FINAL - VOLTA"
@@ -5313,12 +5319,6 @@
 "f": "2026-09-05",
 "id": "QxjHlGth2ug",
 "t": "NOTÍCIAS SOBRE O FLUZÃO EM 1 MINUTO"
-},
-{
-"c": "Fluminense Football Club",
-"f": "2026-09-04",
-"id": "CR_8xLija-w",
-"t": "QUEM É O MAIS CRONICAMENTE ONLINE DO ELENCO? #TimeDeGuerreiros #WhatsApp"
 }
 ],
 "Fulham": [
@@ -6026,6 +6026,12 @@
 },
 {
 "c": "Grêmio FBPA",
+"f": "2026-09-17",
+"id": "ydA6WDzv4Dg",
+"t": "AO VIVO | COLETIVA E RECEPÇÃO I TÉCNICO RENATO PORTALUPPI"
+},
+{
+"c": "Grêmio FBPA",
 "f": "2026-09-16",
 "id": "2izwqCr_9wE",
 "t": "ENERGIA POSITIVA: RENATO PORTALUPPI FALA COM EXCLUSIVIDADE À GRÊMIO TV"
@@ -6035,12 +6041,6 @@
 "f": "2026-09-16",
 "id": "N2rHFMgWLhI",
 "t": "123 ANOS JUNTOS! CONFIRA O RECADO ESPECIAL DO TÉCNICO RENATO PORTALUPPI  #aquiégrêmio #futebol"
-},
-{
-"c": "Grêmio FBPA",
-"f": "2026-09-16",
-"id": "ydA6WDzv4Dg",
-"t": "AO VIVO | COLETIVA E RECEPÇÃO I TÉCNICO RENATO PORTALUPPI"
 },
 {
 "c": "Grêmio FBPA",
@@ -6794,6 +6794,36 @@
 },
 {
 "c": "Juventus",
+"f": "2026-09-17",
+"id": "yzxAUe5ftAA",
+"t": "Nico GONZÁLEZ's first message after the JUVENTUS debut in EUROPA LEAGUE 🗣️"
+},
+{
+"c": "Juventus",
+"f": "2026-09-17",
+"id": "H6I2p6QosXQ",
+"t": "\"CONVINCING WIN. NOW WE HAVE TO RAISE THE BAR\" | SPALLETTI'S Press Conference Post Juventus vs NEC"
+},
+{
+"c": "Juventus",
+"f": "2026-09-17",
+"id": "ZsqeOKESO7o",
+"t": "Randal KOLO MUANI delivers a GOAL vs NEC 🤍🖤"
+},
+{
+"c": "Juventus",
+"f": "2026-09-17",
+"id": "TvUJIjojbOI",
+"t": "A FIVE-STAR DEBUT | Juventus 5-0 NEC | Europa League Highlights"
+},
+{
+"c": "Juventus",
+"f": "2026-09-17",
+"id": "lDA7vlQRr_8",
+"t": "Kerim ALAJBEGOVIĆ scores his FIRST GOAL at JUVENTUS ⚡️"
+},
+{
+"c": "Juventus",
 "f": "2026-09-16",
 "id": "uHYflwZeeSg",
 "t": "DI MARÍA BENDS IT TO PERFECTION! 😮‍💨"
@@ -6941,36 +6971,6 @@
 "f": "2026-09-13",
 "id": "4IecnHIvPRo",
 "t": "SZCZĘSNY WAY OUT OF GOAL! 😱"
-},
-{
-"c": "Juventus",
-"f": "2026-09-13",
-"id": "NvYOltQyC7k",
-"t": "Team has arrived in Reggio Emilia! 😍⚪️⚫️"
-},
-{
-"c": "Juventus",
-"f": "2026-09-13",
-"id": "kcnlHEPBscQ",
-"t": "Final WARM UP: ready for SASSUOLO vs JUVENTUS! 💪"
-},
-{
-"c": "Juventus",
-"f": "2026-09-13",
-"id": "CFuSrm0N3t8",
-"t": "MATCHDAY! ⚡️ JUVENTUS in Reggio Emilia vs SASSUOLO 🤍🖤"
-},
-{
-"c": "Juventus",
-"f": "2026-09-13",
-"id": "9VLTq-V0YQA",
-"t": "“WE LOST WHILE TRYING TO WIN” | Spalletti After Sassuolo-Juventus"
-},
-{
-"c": "Juventus",
-"f": "2026-09-13",
-"id": "vgpunQP8iW8",
-"t": "ZHEGROVA BRACE, THEN LATE HEARTBREAK | Sassuolo 3-2 Juventus Highlights | Serie A"
 }
 ],
 "Leeds United": [
@@ -7918,6 +7918,30 @@
 "Málaga CF": [
 {
 "c": "Málaga CF",
+"f": "2026-09-17",
+"id": "mn2FnGQn3t4",
+"t": "Zona mixta Dani Lorenzo | #MálagaVillarreal"
+},
+{
+"c": "Málaga CF",
+"f": "2026-09-17",
+"id": "q2T0cdF1RaE",
+"t": "Zona mixta Dotor | #MálagaVillarreal"
+},
+{
+"c": "Málaga CF",
+"f": "2026-09-17",
+"id": "eHf4K4aRQ8M",
+"t": "Rueda de prensa Funes | #MálagaVillarreal"
+},
+{
+"c": "Málaga CF",
+"f": "2026-09-17",
+"id": "0LxP7QS96dg",
+"t": "RESUMEN J6 | Málaga CF 1-3 Villarreal CF | Highlights LaLiga EA Sports"
+},
+{
+"c": "Málaga CF",
 "f": "2026-09-16",
 "id": "2DbIaLmrtqc",
 "t": "La Rosaleda prepara al equipo para el partido contra el Villarreal CF"
@@ -7926,7 +7950,7 @@
 "c": "Málaga CF",
 "f": "2026-09-16",
 "id": "xAZrrU7RJTI",
-"t": "RP Funes | Previa #MálagaVillarreal"
+"t": "Rueda de prensa Funes | Previa #MálagaVillarreal"
 },
 {
 "c": "Málaga CF",
@@ -8131,30 +8155,6 @@
 "f": "2026-09-02",
 "id": "8B-Lq6XdLPg",
 "t": "Nivel de español de 𝗖𝗮𝗷𝘂𝘀𝘁𝗲: Málaga"
-},
-{
-"c": "Málaga CF",
-"f": "2026-09-01",
-"id": "756blkVXrJg",
-"t": "Calidad internacional con Cajuste"
-},
-{
-"c": "Málaga CF",
-"f": "2026-09-01",
-"id": "r9ksdVlQIoA",
-"t": "Nuevo jugador desbloqueado 😉"
-},
-{
-"c": "Málaga CF",
-"f": "2026-09-01",
-"id": "2Vx8jRIPPbQ",
-"t": "𝗝𝘂𝗮𝗻 𝗕𝗲𝗿𝗿𝗼𝗰𝗮𝗹l, refuerzo para el centro de la zaga"
-},
-{
-"c": "Málaga CF",
-"f": "2026-09-01",
-"id": "XebSVhR1oEw",
-"t": "¡𝗕𝗘𝗥𝗥𝗢𝗖𝗔𝗟 llega a su nueva ubicación!"
 }
 ],
 "Oxford United": [
@@ -8402,6 +8402,12 @@
 "Palmeiras": [
 {
 "c": "TV Palmeiras Sportingbet",
+"f": "2026-09-18",
+"id": "zjINtWAmezs",
+"t": "FOCO TOTAL! BASTIDORES DO PALMEIRAS NO VESTIÁRIO 💚"
+},
+{
+"c": "TV Palmeiras Sportingbet",
 "f": "2026-09-17",
 "id": "9fia5gMJsqc",
 "t": "COLETIVA VITOR CASTANHEIRA | LDU x PALMEIRAS | CONMEBOL LIBERTADORES 2026"
@@ -8471,6 +8477,36 @@
 "f": "2026-09-17",
 "id": "0q5Bott8SJ8",
 "t": "SEMIFINALISTAS SÃO RECEPCIONADOS POR FUNCIONÁRIOS DO CT"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-09-17",
+"id": "jOuGtRy9R_A",
+"t": "A EMOÇÃO DA CLASSIFICAÇÃO DO PALMEIRAS NA LIBERTADORES! 💚"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-09-17",
+"id": "P1XliDhhBmg",
+"t": "CARLOS MIGUEL PREVÊ O GOL DE VITOR ROQUE 🔮🐯"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-09-17",
+"id": "e8YtaV3uoww",
+"t": "VITOR ROQUE: DA BEIRA DO CAMPO PROS BRAÇOS DA TORCIDA! 🟢🏆"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-09-17",
+"id": "KWu2hmqJOoM",
+"t": "A COMEMORAÇÃO DO PALMEIRAS NO VESTIÁRIO ⚽🎉"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-09-17",
+"id": "Qf9fKDWYT8I",
+"t": "BASTIDORES DA CLASSIFICAÇÃO | LDU x PALMEIRAS | CONMEBOL LIBERTADORES 2026"
 },
 {
 "c": "TV Palmeiras Sportingbet",
@@ -8603,42 +8639,6 @@
 "f": "2026-09-14",
 "id": "FfAMEbCL_Oc",
 "t": "💥DEU VERDÃO NO CHOQUE-REI⚽"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-09-14",
-"id": "iCvG_bkXwmM",
-"t": "PALESTRINA EMOCIONA A TODOS E RECEBE SURPRESA DA UNIASSELVI 🟢✨"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-09-14",
-"id": "uTgMshIshYk",
-"t": "DE ARREPIAR! A SURPRESA ESPECIAL DO PALMEIRAS PARA HÉVINY ✨"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-09-14",
-"id": "pyzuef3k2sA",
-"t": "O ENCONTRO INESQUECÍVEL NO NUBANK PARQUE! 💚"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-09-14",
-"id": "YLLhUUKb9LI",
-"t": "PALESTRINA EMOCIONA MAURICIO E REALIZA SONHO COM APOIO DA UNIASSELVI"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-09-13",
-"id": "MYLjMA54_b8",
-"t": "SOLTA O GRITO! 🗣️💚"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-09-13",
-"id": "zfbq3WJ40ZI",
-"t": "COLETIVA JOÃO MARTINS | PALMEIRAS X SÃO PAULO | BRASILEIRÃO 2026"
 }
 ],
 "Paris FC": [
@@ -11468,6 +11468,12 @@
 },
 {
 "c": "São Paulo FC",
+"f": "2026-09-17",
+"id": "_X6-95reH-o",
+"t": "DIRETO DO SUPERCT: 17/09/2026 | SPFC PLAY"
+},
+{
+"c": "São Paulo FC",
 "f": "2026-09-16",
 "id": "PTl0RXXLMFA",
 "t": "NARRAÇÃO AO VIVO: SÃO PAULO X BOCA JUNIORS - CONMEBOL SUL-AMERICANA"
@@ -11681,12 +11687,6 @@
 "f": "2026-09-05",
 "id": "fdjsKhaInsQ",
 "t": "BRASILEIRO SUB-17: SÃO PAULO X SANTOS | SPFC PLAY"
-},
-{
-"c": "São Paulo FC",
-"f": "2026-09-04",
-"id": "6fOyHkosGK4",
-"t": "BOLETIM DO FEMININO: 04/09/2026 | SPFC PLAY"
 }
 ],
 "Tottenham Hotspur": [
