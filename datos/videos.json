@@ -32,6 +32,30 @@
 },
 {
 "c": "CazéTV",
+"f": "2026-09-19",
+"id": "1T0F68d0Qms",
+"t": "JOGO COMPLETO: BRASIL X ESTADOS UNIDOS | COPA DO MUNDO FEMININA SUB-20 FIFA 2026 | OITAVAS DE FINAL"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-19",
+"id": "sTlPo_ndxIc",
+"t": "MELHORES MOMENTOS: OSASUNA 1 X 1 RAYO VALLECANO | 7ª RODADA | LALIGA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-19",
+"id": "SNw47YNC4S4",
+"t": "JOGO COMPLETO: OSASUNA X RAYO VALLECANO | LALIGA 26/27 | 7ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-19",
+"id": "TOG-vv9zr_Y",
+"t": "Todo atleta tem aquele ritual que não abre mão antes de entrar em quadra…👀🎾"
+},
+{
+"c": "CazéTV",
 "f": "2026-09-18",
 "id": "E4Ilm886VgI",
 "t": "FLAMENGO X INDEPENDIENTE DEL VALLE | LIBERTADORES | NARRAÇÃO | NOCHE DE COPA"
@@ -539,6 +563,12 @@
 "f": "2026-09-16",
 "id": "2E-lI6O6zqI",
 "t": "HAT TRICK DE RAPHINHA! ELE TÁ JOGANDO DEMAIS E FAZ MAIS UM DE PÊNALTI CONTRA O RACING EM LALIGA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-16",
+"id": "PkxFxGRmCak",
+"t": "AO VIVO: COREIA DO SUL X ITÁLIA | COPA DO MUNDO FEMININA SUB-20 FIFA 2026 | QUARTAS DE FINAL"
 },
 {
 "c": "CazéTV",
@@ -1269,8 +1299,20 @@
 {
 "c": "CazéTV",
 "f": "2026-09-10",
-"id": "1T0F68d0Qms",
-"t": "REPRISE: BRASIL X EUA | JÁ JÁ TEM O JOGO OSASUNA X RAYO VALLECANO | LALIGA"
+"id": "Hf0M2Lpami8",
+"t": "AO VIVO: ATHLETIC BILBAO X ALAVÉS | LALIGA 26/27 | 7ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-10",
+"id": "Zm5YJptWpa4",
+"t": "AO VIVO: BRIGHTON X ARSENAL | PREMIER LEAGUE 26/27 | 5ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-10",
+"id": "hK76uv3Q39w",
+"t": "AO VIVO: TÊNIS | PAVLASEK E RIKL x HARRISON E KRAJICEK | TCHÉQUIA X EUA | COPA DO MUNDO DE TÊNIS"
 },
 {
 "c": "CazéTV",
@@ -1457,6 +1499,12 @@
 "f": "2026-09-08",
 "id": "tY7dkvYIUAA",
 "t": "O JUIZÃO FOI DE GARFO EM DIA DE SOPA... 🖊️😅"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-08",
+"id": "GMcZMgBZbYA",
+"t": "AO VIVO: MAMELODI SUNDOWNS X AL AHLI | MUNDIAL DE CLUBES FIFA 2026 | 2ª FASE"
 },
 {
 "c": "CazéTV",
@@ -2266,6 +2314,24 @@
 },
 {
 "c": "Bundesliga",
+"f": "2026-09-19",
+"id": "DJMKw0JQXEI",
+"t": "Holstein Kiel vs. VfL Osnabrück | Matchday 6 - Bundesliga 2 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-09-19",
+"id": "C90wqtWmT-k",
+"t": "Karlsruher SC vs. 1. FC Nürnberg | Matchday 6 - Bundesliga 2 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-09-19",
+"id": "sqt7rSBPRJo",
+"t": "1. FC Kaiserslautern vs. Eintracht Braunschweig | Matchday 6 - Bundesliga 2 2026/27"
+},
+{
+"c": "Bundesliga",
 "f": "2026-09-18",
 "id": "6_yAehg756w",
 "t": "Ref substitution turns into Bundesliga debut 👏😱"
@@ -2369,26 +2435,32 @@
 {
 "c": "Bundesliga",
 "f": "2026-09-14",
-"id": "DJMKw0JQXEI",
-"t": "LIVE 🔴 Holstein Kiel vs. VfL Osnabrück | Matchday 6 - Bundesliga 2 2026/27"
-},
-{
-"c": "Bundesliga",
-"f": "2026-09-14",
-"id": "C90wqtWmT-k",
-"t": "LIVE 🔴 Karlsruher SC vs. 1. FC Nürnberg | Matchday 6 - Bundesliga 2 2026/27"
-},
-{
-"c": "Bundesliga",
-"f": "2026-09-14",
-"id": "sqt7rSBPRJo",
-"t": "LIVE 🔴 1. FC Kaiserslautern vs. Eintracht Braunschweig | Matchday 6 - Bundesliga 2 2026/27"
-},
-{
-"c": "Bundesliga",
-"f": "2026-09-14",
 "id": "GnGvD2lOkuw",
 "t": "LIVE 🔴 SC Paderborn 07 vs. TSG Hoffenheim | Matchday 4 - Bundesliga 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-09-14",
+"id": "s1OAubNj818",
+"t": "LIVE 🔴 Borussia Mönchengladbach vs. 1. FSV Mainz 05 | Matchday 4 - Bundesliga 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-09-14",
+"id": "qVWM-mIaJLM",
+"t": "LIVE 🔴 Eintracht Frankfurt vs. Sport-Club Freiburg | Matchday 4 - Bundesliga 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-09-14",
+"id": "geRQMBNv9Q8",
+"t": "LIVE 🔴 Hamburger SV vs. 1. FC Köln | Matchday 4 - Bundesliga 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-09-14",
+"id": "11Jqit9krLk",
+"t": "LIVE 🔴 SV Werder Bremen vs. FC Augsburg | Matchday 4 - Bundesliga 2026/27"
 },
 {
 "c": "Bundesliga",
@@ -3677,6 +3749,12 @@
 "f": "2026-09-19",
 "id": "-7FdDBOnXZs",
 "t": "Precies 5️⃣ jaar geleden: Tijjani Reijnders met een héérlijke goal 🚀🤤"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-19",
+"id": "5FSN5tD6ed0",
+"t": "Precies 5️⃣ jaar geleden: Feyenoord wint met 0-4 in Eindhoven 😱"
 },
 {
 "c": "ESPN NL",
@@ -6052,6 +6130,36 @@
 "laliga": [
 {
 "c": "LALIGA EA SPORTS",
+"f": "2026-09-19",
+"id": "QDSE0BkdzeE",
+"t": "🔴 CA OSASUNA vs RAYO VALLECANO - PREVIA DEL PARTIDO"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-19",
+"id": "I2n15qIXHzE",
+"t": "🔴 ATHLETIC CLUB vs DEPORTIVO ALAVÉS - PREVIA DEL PARTIDO"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-19",
+"id": "jUh982JYpsM",
+"t": "CA OSASUNA 1 - 1 RAYO VALLECANO | RESUMEN LALIGA EA SPORTS"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-19",
+"id": "p1fabvP3r7E",
+"t": "¡Qué clase! 🤩"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-19",
+"id": "I_Jekl95s-A",
+"t": "⚽⚡"
+},
+{
+"c": "LALIGA EA SPORTS",
 "f": "2026-09-18",
 "id": "X8g_1DKKuco",
 "t": "Can they beat them? ⚽️🏆 GOALITOS"
@@ -6143,12 +6251,6 @@
 {
 "c": "LALIGA EA SPORTS",
 "f": "2026-09-18",
-"id": "QDSE0BkdzeE",
-"t": "🔴 CA OSASUNA vs RAYO VALLECANO - PREVIA DEL PARTIDO"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-09-18",
 "id": "yayyxL-3aD4",
 "t": "SEVILLA FC vs FC BARCELONA | RUEDA DE PRENSA"
 },
@@ -6175,12 +6277,6 @@
 "f": "2026-09-18",
 "id": "3jtnQ5Ilgr4",
 "t": "ATHLETIC CLUB vs DEPORTIVO ALAVÉS | RUEDA DE PRENSA"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-09-18",
-"id": "I2n15qIXHzE",
-"t": "🔴 ATHLETIC CLUB vs DEPORTIVO ALAVÉS - PREVIA DEL PARTIDO"
 },
 {
 "c": "LALIGA EA SPORTS",
@@ -8070,6 +8166,12 @@
 },
 {
 "c": "Ligue 1",
+"f": "2026-09-19",
+"id": "jq81ksldeiQ",
+"t": "Hamari Traoré said NO ⛔️ #ligue1mcdonalds  #football #ligue1 #sports #footballshorts #foot #soccer"
+},
+{
+"c": "Ligue 1",
 "f": "2026-09-18",
 "id": "Jkh1BpHSCXA",
 "t": "Le Stade Rennais est-il le RC Lens de cette saison de Ligue 1 ?🤔 @THOMASPARLEFOOT  #football #ligue1"
@@ -9451,6 +9553,12 @@
 "f": "2026-09-19",
 "id": "KBBTKF9ytl4",
 "t": "Doppio Varela fa Vincere i Biancorossi! | MONZA-SASSUOLO | HIGHLIGHTS | SERIE A ENILIVE 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-09-19",
+"id": "E6dx5f0Po8M",
+"t": "There's a new sheriff in town 🙌🇵🇹 #MonzaSassuolo #SerieA"
 },
 {
 "c": "Serie A",
