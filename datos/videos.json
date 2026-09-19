@@ -116,6 +116,72 @@
 },
 {
 "c": "CazéTV",
+"f": "2026-09-19",
+"id": "xXK4RtT1kVk",
+"t": "JOGO COMPLETO (SOM AMBIENTE): TOULOUSE X LE HAVRE | LIGUE 1 26/27 | 5ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-19",
+"id": "Zm5YJptWpa4",
+"t": "JOGO COMPLETO: BRIGHTON X ARSENAL | PREMIER LEAGUE 26/27 | 5ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-19",
+"id": "hK76uv3Q39w",
+"t": "AO VIVO: TÊNIS | JIRI LEHECKA X LEARNER TIEN | TCHÉQUIA X EUA | COPA DO MUNDO DE TÊNIS"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-19",
+"id": "TmwEk5lnQpo",
+"t": "JOGO COMPLETO: CELTA X RACING CLUB | LALIGA 26/27 | 7ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-19",
+"id": "cDvqBEla-Vc",
+"t": "JOGO COMPLETO: VFB STUTTGART X BORUSSIA DORTMUND | BUNDESLIGA 26/27 | 4ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-19",
+"id": "6t6ELAkFbKo",
+"t": "MELHORES MOMENTOS: MATOS/LUZ X PAUL/STRICKER | BRASIL X SUÍÇA | COPA DAVIS 2026"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-19",
+"id": "_Pb2US6oRUU",
+"t": "A REAÇÃO DE OLISE AO RECEBER A CAMISA DE NEYMAR VAI TE SURPREENDER!"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-19",
+"id": "wyUANGn32NI",
+"t": "MELHORES MOMENTOS: VFB STUTTGART 0 x 1 BORUSSIA DORTMUND | BUNDESLIGA 26/27 | 4ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-19",
+"id": "tYSO1JcRTdQ",
+"t": "MELHORES MOMENTOS: CELTA 5 X 0 RACING | 7ª RODADA | LALIGA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-19",
+"id": "GCAh98Bt2T4",
+"t": "MELHORES MOMENTOS: BRASIL 0 X 1 ESPANHA | COPA DO MUNDO FEMININA SUB-20 FIFA 2026 | QUARTAS DE FINAL"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-19",
+"id": "TsC7k0EIvn8",
+"t": "JOGO COMPLETO: BRASIL X ESPANHA | COPA DO MUNDO FEMININA SUB-20 FIFA 2026 | QUARTAS DE FINAL"
+},
+{
+"c": "CazéTV",
 "f": "2026-09-18",
 "id": "E4Ilm886VgI",
 "t": "FLAMENGO X INDEPENDIENTE DEL VALLE | LIBERTADORES | NARRAÇÃO | NOCHE DE COPA"
@@ -323,12 +389,6 @@
 "f": "2026-09-17",
 "id": "Oy_kJpAnvUM",
 "t": "MELHORES MOMENTOS: BOTAFOGO 3 X 2 GRÊMIO | BRASILEIRÃO 2026 | 21ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-17",
-"id": "xXK4RtT1kVk",
-"t": "AO VIVO (SOM AMBIENTE): TOULOUSE X LE HAVRE | LIGUE 1 26/27 | 5ª RODADA"
 },
 {
 "c": "CazéTV",
@@ -1353,32 +1413,14 @@
 {
 "c": "CazéTV",
 "f": "2026-09-10",
-"id": "Zm5YJptWpa4",
-"t": "AO VIVO: BRIGHTON X ARSENAL | PREMIER LEAGUE 26/27 | 5ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-10",
-"id": "hK76uv3Q39w",
-"t": "AO VIVO: TÊNIS | PAVLASEK E RIKL x HARRISON E KRAJICEK | TCHÉQUIA X EUA | COPA DO MUNDO DE TÊNIS"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-10",
 "id": "w42u2aGp2zs",
 "t": "AO VIVO: SEVILLA X BARCELONA | LALIGA 26/27 | 7ª RODADA"
 },
 {
 "c": "CazéTV",
 "f": "2026-09-10",
-"id": "TmwEk5lnQpo",
-"t": "AO VIVO: CELTA X RACING CLUB | LALIGA 26/27 | 7ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-10",
-"id": "cDvqBEla-Vc",
-"t": "AO VIVO: VFB STUTTGART X BORUSSIA DORTMUND | BUNDESLIGA 26/27 | 4ª RODADA"
+"id": "OYrVnOXHC9g",
+"t": "AO VIVO: LYON X RENNES | LIGUE 1 26/27 | 5ª RODADA"
 },
 {
 "c": "CazéTV",
@@ -2357,6 +2399,12 @@
 "f": "2026-08-31",
 "id": "v-GtI-cN3-I",
 "t": "ADMITA: VOCÊ FICOU IGUAL AO CAZÉ! QUE GOLAÇO ABSURDO DO YAMAL, PQP! ✋😨🤚🎙️ @luisinho"
+},
+{
+"c": "CazéTV",
+"f": "2026-08-30",
+"id": "5tuFjljf3OA",
+"t": "AO VIVO: MIRASSOL X BOTAFOGO | BRASILEIRÃO 2026 | 28ª RODADA"
 }
 ],
 "bundesliga": [
@@ -2425,6 +2473,24 @@
 "f": "2026-09-19",
 "id": "QtcWqas53Iw",
 "t": "Noah Atubolu comes up clutch 😮‍💨"
+},
+{
+"c": "Bundesliga",
+"f": "2026-09-19",
+"id": "q9gH8sLWBJA",
+"t": "SG Dynamo Dresden vs. Hertha BSC | Matchday 6 - Bundesliga 2 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-09-19",
+"id": "n-nT80nGCy4",
+"t": "VfB Stuttgart vs. Borussia Dortmund | Matchday 4 - Bundesliga 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-09-19",
+"id": "dmE_gTw-Ukc",
+"t": "Top Of The Table! | VFB STUTTGART - BORUSSIA DORTMUND | Highlights | Matchday 4 – Bundesliga 2026/27"
 },
 {
 "c": "Bundesliga",
@@ -2525,20 +2591,8 @@
 {
 "c": "Bundesliga",
 "f": "2026-09-14",
-"id": "q9gH8sLWBJA",
-"t": "LIVE 🔴 SG Dynamo Dresden vs. Hertha BSC | Matchday 6 - Bundesliga 2 2026/27"
-},
-{
-"c": "Bundesliga",
-"f": "2026-09-14",
 "id": "GnGvD2lOkuw",
 "t": "LIVE 🔴 SC Paderborn 07 vs. TSG Hoffenheim | Matchday 4 - Bundesliga 2026/27"
-},
-{
-"c": "Bundesliga",
-"f": "2026-09-14",
-"id": "n-nT80nGCy4",
-"t": "LIVE 🔴 VfB Stuttgart vs. Borussia Dortmund | Matchday 4 - Bundesliga 2026/27"
 },
 {
 "c": "Bundesliga",
@@ -3869,6 +3923,60 @@
 "f": "2026-09-19",
 "id": "dkn4D2GHsl4",
 "t": "𝗗𝗲 𝘁𝗿𝗮𝗱𝗶𝘁𝗶𝗼𝗻𝗲𝗹𝗲 𝗔𝗶𝗿𝗯𝗼𝗿𝗻𝗲-𝘄𝗲𝗱𝘀𝘁𝗿𝗶𝗷𝗱"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-19",
+"id": "hebBV_Q-MHk",
+"t": "🤔❌ GEEN PENALTY na trap YOURI BAAS in GEZICHT Irakli YEGOIAN: \"AJAX komt hier gewoon HEEL GOED weg\""
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-19",
+"id": "xPlNrFc_O8I",
+"t": "Tolu AROKODARE 𝐍𝐈𝐄𝐓 100% FIT: “Na 5️⃣ minuten was ik al kapot” 📉🏋 | Interview"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-19",
+"id": "klzZXqRTTqU",
+"t": "Irakli Yegoian is vrij duidelijk over moment in de slotfase🧐"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-19",
+"id": "82D2gLQ-hag",
+"t": "Davy Klaassen BAALT van GELIJKSPEL na ZEE VAN KANSEN 😳 | Interview"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-19",
+"id": "cjkRi39Wnsc",
+"t": "Marc ter Stegen: \"WE GEVEN de tegenstander DE KANS om TERUG TE KOMEN\" 🔙⚖️ | Interview"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-19",
+"id": "tl20n-4vOww",
+"t": "Had EXCELSIOR hier een PENALTY moeten krijgen? 🧐"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-19",
+"id": "Yk52VEjJqdo",
+"t": "FAN heeft wel HEEL VEEL DORST 🤪🎩"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-19",
+"id": "tnf36PmNrrA",
+"t": "Tolu heeft maar 2 minuten nodig om een goal te maken!🔥"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-19",
+"id": "uoqt1JAqJgI",
+"t": "Julian Brandt met zijn vierde van het seizoen in de VriendenLoterij Eredivisie🔥"
 },
 {
 "c": "ESPN NL",
@@ -6316,6 +6424,66 @@
 },
 {
 "c": "LALIGA EA SPORTS",
+"f": "2026-09-19",
+"id": "P-pSKnG34lE",
+"t": "🔴 SEVILLA FC vs FC BARCELONA - PREVIA DEL PARTIDO"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-19",
+"id": "GPW3Wh1KXGg",
+"t": "CELTA vs R. RACING CLUB | RUEDA DE PRENSA"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-19",
+"id": "b-I7tGvCPDU",
+"t": "🤯🤯🤯🤯🤯🤯🤯"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-19",
+"id": "IDsMbidroek",
+"t": "𝑅𝑎𝑝ℎ𝑎𝑒𝑙 𝐷𝑖𝑎𝑠 𝐵𝑒𝑙𝑙𝑜𝑙𝑖. ✍️"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-19",
+"id": "Wf2IlfzyTWA",
+"t": "𝗬𝗢𝗨𝗦𝗦𝗢𝗨𝗙 𝗙𝗢𝗙𝗔𝗡𝗔. ❤️"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-19",
+"id": "Vt6Q59Wdxno",
+"t": "¡Por muy poco! 👀"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-19",
+"id": "NMMhPMePil4",
+"t": "El sorteo inicial entre los capitanes de Sevilla y FC Barcelona a través de la #𝗥efCam. 👀"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-19",
+"id": "nlmQHFx_AvQ",
+"t": "El saludo inicial del #SevillaBarça, a través de la #RefCam. 👀"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-19",
+"id": "eLQS27LNsBQ",
+"t": "CELTA 5 - 0 R. RACING CLUB | RESUMEN LALIGA EA SPORTS"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-19",
+"id": "YY6RGGQyHx0",
+"t": "𝑀𝑖𝑔𝑢𝑒𝑙 𝑅𝑜𝑚𝑎́𝑛 𝐺𝑜𝑛𝑧𝑎́𝑙𝑒𝑧. ✍️"
+},
+{
+"c": "LALIGA EA SPORTS",
 "f": "2026-09-18",
 "id": "X8g_1DKKuco",
 "t": "Can they beat them? ⚽️🏆 GOALITOS"
@@ -6409,18 +6577,6 @@
 "f": "2026-09-18",
 "id": "yayyxL-3aD4",
 "t": "SEVILLA FC vs FC BARCELONA | RUEDA DE PRENSA"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-09-18",
-"id": "P-pSKnG34lE",
-"t": "🔴 SEVILLA FC vs FC BARCELONA - PREVIA DEL PARTIDO"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-09-18",
-"id": "GPW3Wh1KXGg",
-"t": "CELTA vs R. RACING CLUB | RUEDA DE PRENSA"
 },
 {
 "c": "LALIGA EA SPORTS",
@@ -8316,6 +8472,12 @@
 },
 {
 "c": "Ligue 1",
+"f": "2026-09-19",
+"id": "41YsE0XHmhM",
+"t": "L’affiche du week-end présentée par @remontada_yt : les origines du Classique ! ⚡️ #football #ligue1"
+},
+{
+"c": "Ligue 1",
 "f": "2026-09-18",
 "id": "Jkh1BpHSCXA",
 "t": "Le Stade Rennais est-il le RC Lens de cette saison de Ligue 1 ?🤔 @THOMASPARLEFOOT  #football #ligue1"
@@ -9727,6 +9889,36 @@
 "f": "2026-09-19",
 "id": "klX7Qw6IH0s",
 "t": "Spoils Shared At The Dall’Ara | BOLOGNA-TORINO | HIGHLIGHTS | Serie A 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-09-19",
+"id": "IoGjFzxUOYo",
+"t": "RIGHT PLACE, RIGHT TIME ⏱️"
+},
+{
+"c": "Serie A",
+"f": "2026-09-19",
+"id": "4FqhD5MiieM",
+"t": "HE HAD 0.1 SECONDS TO REACT"
+},
+{
+"c": "Serie A",
+"f": "2026-09-19",
+"id": "I98hFW8stHo",
+"t": "LETHAL FINISHER IN THE BOX 💀"
+},
+{
+"c": "Serie A",
+"f": "2026-09-19",
+"id": "5IYt0F2-u94",
+"t": "Due Doppiette All’Olimpico! | ROMA-INTER | HIGHLIGHTS | SERIE A ENILIVE 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-09-19",
+"id": "sw8FOhBHACc",
+"t": "Absolute BLOCKBUSTER At The Olimpico! | ROMA-INTER | HIGHLIGHTS | Serie A 2026/27"
 },
 {
 "c": "Serie A",
