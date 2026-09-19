@@ -2,6 +2,36 @@
 "brasileirao": [
 {
 "c": "CazéTV",
+"f": "2026-09-19",
+"id": "2Y4_nNPy2VE",
+"t": "BRASIL COMEÇA COM DUAS VITÓRIAS NA COPA DAVIS E ENCAMINHA CLASSIFICAÇÃO! | QUADRA ABERTA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-19",
+"id": "f8D3NeIhah4",
+"t": "EVENTO COMPLETO: BRASIL X SUÍÇA | COPA DO MUNDO DE TÊNIS"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-19",
+"id": "oelDWS-hGyg",
+"t": "VEJA COMO FOI: BRASIL X ESTADOS UNIDOS | COPA DO MUNDO FEMININA SUB-20 FIFA 2026 | OITAVAS DE FINAL"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-19",
+"id": "S3st-yGi8Mo",
+"t": "MELHORES MOMENTOS: GUSTAVO HEIDE X STAN WAWRINKA | BRASIL X SUÍÇA | COPA DAVIS 2026"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-19",
+"id": "FtDAjw2-1PU",
+"t": "ORLANDINHO EM FAMÍLIA! OS PAIS CONTAM A HISTÓRIA DO CRAQUE DA COPA DAVIS"
+},
+{
+"c": "CazéTV",
 "f": "2026-09-18",
 "id": "E4Ilm886VgI",
 "t": "FLAMENGO X INDEPENDIENTE DEL VALLE | LIBERTADORES | NARRAÇÃO | NOCHE DE COPA"
@@ -75,12 +105,6 @@
 {
 "c": "CazéTV",
 "f": "2026-09-18",
-"id": "2Y4_nNPy2VE",
-"t": "AO VIVO: LOGO APÓS A ESTREIA DO BRASIL NA COPA DAVIS | QUADRA ABERTA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-18",
 "id": "eRXQ9v4r6hs",
 "t": "JOGO COMPLETO: ESPANYOL X ELCHE | LALIGA 26/27 | 7ª RODADA"
 },
@@ -137,6 +161,24 @@
 "f": "2026-09-18",
 "id": "EGDBUs41gVI",
 "t": "JOÃO FONSECA SE EMOCIONA COM O HINO MAIS BONITO DO MUNDO NA COPA DAVIS!"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-18",
+"id": "Ulfsb7eMw2Q",
+"t": "FILIPE LUÍS NO TOPO DA TABELA, CLÁSSICO DE MADRID E O ARSENAL VOANDO! | QUEM FEZ, FEZ"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-18",
+"id": "mZfauDMdxq4",
+"t": "JOGO COMPLETO: MÔNACO X LENS | LIGUE 1 26/27 | 5ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-18",
+"id": "xso0Atqb-kg",
+"t": "Tá chegando a hora! 🇧🇷🎾"
 },
 {
 "c": "CazéTV",
@@ -281,12 +323,6 @@
 "f": "2026-09-17",
 "id": "HZJrOjwVD4E",
 "t": "AO VIVO: A ESTREIA DE TITE PELO FOGÃO! LOGO APÓS MIRASSOL X BOTAFOGO TEM RODA DE BOBO"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-17",
-"id": "Ulfsb7eMw2Q",
-"t": "AO VIVO: FILIPE LUÍS NO TOPO DA TABELA, CLÁSSICO DE MADRID E O ARSENAL VOANDO! | QUEM FEZ, FEZ"
 },
 {
 "c": "CazéTV",
@@ -1232,6 +1268,12 @@
 },
 {
 "c": "CazéTV",
+"f": "2026-09-10",
+"id": "1T0F68d0Qms",
+"t": "REPRISE: BRASIL X EUA | JÁ JÁ TEM O JOGO OSASUNA X RAYO VALLECANO | LALIGA"
+},
+{
+"c": "CazéTV",
 "f": "2026-09-09",
 "id": "yKEAFHUE0BM",
 "t": "MELHORES MOMENTOS: FLUMINENSE 2 X 0 PLATENSE | QUARTAS (IDA) | CONMEBOL LIBERTADORES 2026"
@@ -1415,18 +1457,6 @@
 "f": "2026-09-08",
 "id": "tY7dkvYIUAA",
 "t": "O JUIZÃO FOI DE GARFO EM DIA DE SOPA... 🖊️😅"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-08",
-"id": "mZfauDMdxq4",
-"t": "JOGO COMPLETO: MÔNACO X LENS | LIGUE 1 26/27 | 5ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-08",
-"id": "f8D3NeIhah4",
-"t": "AO VIVO: TÊNIS | JOÃO FONSECA X DOMINIC STRICKER | BRASIL X SUÍÇA | COPA DO MUNDO DE TÊNIS"
 },
 {
 "c": "CazéTV",
@@ -2222,6 +2252,18 @@
 }
 ],
 "bundesliga": [
+{
+"c": "Bundesliga",
+"f": "2026-09-19",
+"id": "eWI4GHAT-c4",
+"t": "Michael Olise fell for the feint! 😅"
+},
+{
+"c": "Bundesliga",
+"f": "2026-09-19",
+"id": "nhU20eKnsM8",
+"t": "Harry Kane - The Fastest Player To Score 100 Bundesliga Goals ⚽️🔥"
+},
 {
 "c": "Bundesliga",
 "f": "2026-09-18",
@@ -3024,6 +3066,12 @@
 "champions": [
 {
 "c": "UEFA",
+"f": "2026-09-19",
+"id": "Km98B9EAo9A",
+"t": "Paris pressure"
+},
+{
+"c": "UEFA",
 "f": "2026-09-18",
 "id": "mGJ0PT4HlZI",
 "t": "How?! 🤯"
@@ -3590,6 +3638,48 @@
 "eredivisie": [
 {
 "c": "ESPN NL",
+"f": "2026-09-19",
+"id": "O12gxaXIZLs",
+"t": "Deze rode kaart doet terugdenken aan 27 juni 2021 🇳🇱🆚🇨🇿 🫣"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-19",
+"id": "ihwBAiyP1mE",
+"t": "Sofyan Amrabat sprak in juni al met trainer Míchel Sánchez ☎️"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-19",
+"id": "duC2bVOb2xo",
+"t": "Willemsen 🆚 Meerdink: Zo gaat het eraan toe in het hoofd van de verdediger 🧠"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-19",
+"id": "_FVa1JynS5I",
+"t": "Zelfkritische sc Heerenveen-captain Willemsen mikt op het allerhoogste 🆑📈"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-19",
+"id": "UnQblmKK9gY",
+"t": "📈🔍 Zelfkritische Maas Willemsen mikt op het allerhoogste: \"🆑-niveau kan haalbaar zijn\" | Spelinzicht"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-19",
+"id": "M1X9L0OEypU",
+"t": "Kevin van Veen 😮‍💨"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-19",
+"id": "-7FdDBOnXZs",
+"t": "Precies 5️⃣ jaar geleden: Tijjani Reijnders met een héérlijke goal 🚀🤤"
+},
+{
+"c": "ESPN NL",
 "f": "2026-09-18",
 "id": "HPsUchwe9XY",
 "t": "🦁🔶 GJIVAI ZECHIËL voor het EERST OPGEROEPEN voor ORANJE 🪄🎩 | COMPILATIE"
@@ -3755,6 +3845,36 @@
 "f": "2026-09-18",
 "id": "LJ-5vK0sT1s",
 "t": "Hugo Wentges snapt he-le-maal niets van gegeven strafschop 😤"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-18",
+"id": "UmIni0Q6QNE",
+"t": "✨ Nassim AIT MOUHOU laat zich ZIEN bij VVV 👏 | Samenvatting Jong FC Utrecht - VVV-Venlo"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-18",
+"id": "IJGmq4Stmmc",
+"t": "💪 Franslyn Nsingi GOUD waard voor TOP OSS 🎯 | Samenvatting TOP Oss - FC Dordrecht"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-18",
+"id": "gYYyHt_OZSM",
+"t": "PRACHTIGE VRIJE TRAP VAN KEVIN VAN VEEN 🤩 | Samenvatting FC Eindhoven - FC Emmen"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-18",
+"id": "l4pEybISYbc",
+"t": "Mokrane BENTOUMI raakt SNOEIHARD de LAT 💥 | Samenvatting Jong Ajax - Roda JC"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-18",
+"id": "d9R7I2UpJyU",
+"t": "TWEE EIGEN DOELPUNTEN binnen DRIE minuten 😳 | Samenvatting FC Den Bosch - Helmond Sport"
 },
 {
 "c": "ESPN NL",
@@ -6022,6 +6142,54 @@
 },
 {
 "c": "LALIGA EA SPORTS",
+"f": "2026-09-18",
+"id": "QDSE0BkdzeE",
+"t": "🔴 CA OSASUNA vs RAYO VALLECANO - PREVIA DEL PARTIDO"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-18",
+"id": "yayyxL-3aD4",
+"t": "SEVILLA FC vs FC BARCELONA | RUEDA DE PRENSA"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-18",
+"id": "P-pSKnG34lE",
+"t": "🔴 SEVILLA FC vs FC BARCELONA - PREVIA DEL PARTIDO"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-18",
+"id": "GPW3Wh1KXGg",
+"t": "CELTA vs R. RACING CLUB | RUEDA DE PRENSA"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-18",
+"id": "v5b_WOrq8Ck",
+"t": "🔴 CELTA vs R. RACING CLUB - PREVIA DEL PARTIDO"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-18",
+"id": "3jtnQ5Ilgr4",
+"t": "ATHLETIC CLUB vs DEPORTIVO ALAVÉS | RUEDA DE PRENSA"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-18",
+"id": "I2n15qIXHzE",
+"t": "🔴 ATHLETIC CLUB vs DEPORTIVO ALAVÉS - PREVIA DEL PARTIDO"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-18",
+"id": "xPVX8FJHVwY",
+"t": "CA OSASUNA vs RAYO VALLECANO | RUEDA DE PRENSA"
+},
+{
+"c": "LALIGA EA SPORTS",
 "f": "2026-09-17",
 "id": "hiU0T_i72ps",
 "t": "Bellingham y Vinícius"
@@ -7884,6 +8052,24 @@
 "ligue1": [
 {
 "c": "Ligue 1",
+"f": "2026-09-19",
+"id": "1RHDpwYkdyk",
+"t": "ILS RACONTENT LEUR CLASSIQUE OM-PSG"
+},
+{
+"c": "Ligue 1",
+"f": "2026-09-19",
+"id": "Pgq0BMrjyB0",
+"t": "Être parisien et être triste pour l’OM, est-ce possible ? 👀 #football #ligue1 #sports #psg #soccer"
+},
+{
+"c": "Ligue 1",
+"f": "2026-09-19",
+"id": "ULuny30YpyU",
+"t": "Franek cooking 🔥✨🇵🇱 #football #ligue1 #sports #footballshorts #foot #soccer #skills #shorts"
+},
+{
+"c": "Ligue 1",
 "f": "2026-09-18",
 "id": "Jkh1BpHSCXA",
 "t": "Le Stade Rennais est-il le RC Lens de cette saison de Ligue 1 ?🤔 @THOMASPARLEFOOT  #football #ligue1"
@@ -8702,6 +8888,12 @@
 "premier": [
 {
 "c": "Premier League",
+"f": "2026-09-19",
+"id": "PX-Wxr45AHI",
+"t": "Igor Thiago Gifts His Shirt To A Young Fan 🥰"
+},
+{
+"c": "Premier League",
 "f": "2026-09-18",
 "id": "-nvmMadRKPQ",
 "t": "Arsenal’s NEW Tactics Explained 🧠"
@@ -8723,6 +8915,12 @@
 "f": "2026-09-18",
 "id": "HxgFa7oxtVo",
 "t": "Cherki's OUTRAGEOUS Assist 🥶"
+},
+{
+"c": "Premier League",
+"f": "2026-09-18",
+"id": "17a3BCj5UY0",
+"t": "Manager Goes CRAZY Celebrating Brentford’s 3-0 Win Over Chelsea 🤪"
 },
 {
 "c": "Premier League",
@@ -9250,6 +9448,12 @@
 "seriea": [
 {
 "c": "Serie A",
+"f": "2026-09-19",
+"id": "KBBTKF9ytl4",
+"t": "Doppio Varela fa Vincere i Biancorossi! | MONZA-SASSUOLO | HIGHLIGHTS | SERIE A ENILIVE 2026/27"
+},
+{
+"c": "Serie A",
 "f": "2026-09-18",
 "id": "g7iV6c9X3Qo",
 "t": "REMEMBER THIS ONE? 👀 #RomaInter #SerieA"
@@ -9277,12 +9481,6 @@
 "f": "2026-09-18",
 "id": "TntkscCdaL8",
 "t": "MAXI SINTESI INTER-UDINESE 5-3 | EXTENDED HIGHLIGHTS | SERIE A ENILIVE 2026/27"
-},
-{
-"c": "Serie A",
-"f": "2026-09-18",
-"id": "KBBTKF9ytl4",
-"t": "Doppio Varela fa Vincere i Biancorossi! | MONZA-SASSUOLO | HIGHLIGHTS | SERIE A ENILIVE 2026/27"
 },
 {
 "c": "Serie A",
