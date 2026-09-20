@@ -2,6 +2,36 @@
 "brasileirao": [
 {
 "c": "CazéTV",
+"f": "2026-09-20",
+"id": "HZJrOjwVD4E",
+"t": "BOTAFOGO PERDE PARA O MIRASSOL NA ESTREIA DE TITE E ZIYECH | RODA DE BOBO"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-20",
+"id": "5tuFjljf3OA",
+"t": "JOGO COMPLETO: MIRASSOL X BOTAFOGO | BRASILEIRÃO 2026 | 28ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-20",
+"id": "1inrHmQ6eqM",
+"t": "MELHORES MOMENTOS: VASCO 5 X 0 CORITIBA | BRASILEIRÃO 2026 | RODADA 28"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-20",
+"id": "p1YG6fxcbgo",
+"t": "MELHORES MOMENTOS: MATHEUS PUCINELLI X REMY BERTOLA | BRASIL X SUÍÇA | COPA DAVIS 2026"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-20",
+"id": "4mPuaMRZKqA",
+"t": "DESAFIO DO PROIBIDO! CAZÉ E LUÍS X DONAN E IGOR RODRIGUES NUM JOGO CHEIO DE REVIRAVOLTAS E POLÊMICAS"
+},
+{
+"c": "CazéTV",
 "f": "2026-09-19",
 "id": "2Y4_nNPy2VE",
 "t": "BRASIL COMEÇA COM DUAS VITÓRIAS NA COPA DAVIS E ENCAMINHA CLASSIFICAÇÃO! | QUADRA ABERTA"
@@ -404,6 +434,12 @@
 },
 {
 "c": "CazéTV",
+"f": "2026-09-18",
+"id": "bYKfH0AzBO8",
+"t": "AO VIVO (SOM AMBIENTE): TÊNIS DE MESA | FINAIS DO WTT STAR CONTENDER DE ASTANA"
+},
+{
+"c": "CazéTV",
 "f": "2026-09-17",
 "id": "dTnAnbIOwOI",
 "t": "PALMEIRAS PASSA NOS PÊNALTIS CONTRA A LDU E CORINTHIANS ENTRA EM CAMPO JÁ JÁ | GERAL CAZÉTV"
@@ -537,12 +573,6 @@
 {
 "c": "CazéTV",
 "f": "2026-09-17",
-"id": "HZJrOjwVD4E",
-"t": "AO VIVO: A ESTREIA DE TITE PELO FOGÃO! LOGO APÓS MIRASSOL X BOTAFOGO TEM RODA DE BOBO"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-17",
 "id": "B-HPksUoZYI",
 "t": "JOGO COMPLETO: FRANÇA X CANADÁ | COPA DO MUNDO FEMININA SUB-20 FIFA 2026 | OITAVAS DE FINAL"
 },
@@ -557,6 +587,12 @@
 "f": "2026-09-17",
 "id": "Mqwv-4LMcYA",
 "t": "MELHORES MOMENTOS: BEŞIKTAŞ 4 X 1 OLYMPIQUE MARSEILLE | EUROPA LEAGUE 26/27 | 1ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-17",
+"id": "te7S-a11k1I",
+"t": "AO VIVO: COLÔMBIA X NIGÉRIA | COPA DO MUNDO FEMININA SUB-20 FIFA 2026 | QUARTAS DE FINAL"
 },
 {
 "c": "CazéTV",
@@ -1475,6 +1511,18 @@
 "f": "2026-09-10",
 "id": "KfwFmyhne_M",
 "t": "AO VIVO (SOM AMBIENTE): OLYMPIAKOS X JAGIELLONIA | EUROPA LEAGUE 26/27 | 1ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-10",
+"id": "4RwtDrpVoSs",
+"t": "AO VIVO: ATLÉTICO DE MADRID X REAL MADRID | LALIGA 26/27 | 7ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-10",
+"id": "MLK8nR630jo",
+"t": "AO VIVO: GETAFE X MÁLAGA | LALIGA 26/27 | 7ª RODADA"
 },
 {
 "c": "CazéTV",
@@ -2453,15 +2501,15 @@
 "f": "2026-08-31",
 "id": "v-GtI-cN3-I",
 "t": "ADMITA: VOCÊ FICOU IGUAL AO CAZÉ! QUE GOLAÇO ABSURDO DO YAMAL, PQP! ✋😨🤚🎙️ @luisinho"
-},
-{
-"c": "CazéTV",
-"f": "2026-08-30",
-"id": "5tuFjljf3OA",
-"t": "AO VIVO: MIRASSOL X BOTAFOGO | BRASILEIRÃO 2026 | 28ª RODADA"
 }
 ],
 "bundesliga": [
+{
+"c": "Bundesliga",
+"f": "2026-09-20",
+"id": "Lo4yNSqK7Ys",
+"t": "If you don‘t know Opa Gerd, now you know him 😁👴"
+},
 {
 "c": "Bundesliga",
 "f": "2026-09-19",
@@ -3324,6 +3372,18 @@
 "champions": [
 {
 "c": "UEFA",
+"f": "2026-09-20",
+"id": "R_oGkHmxvms",
+"t": "BEST Europa League Saves From Matchday 1!"
+},
+{
+"c": "UEFA",
+"f": "2026-09-20",
+"id": "YiSt0EvsZQg",
+"t": "Which was better?"
+},
+{
+"c": "UEFA",
 "f": "2026-09-19",
 "id": "Km98B9EAo9A",
 "t": "Paris pressure"
@@ -3398,7 +3458,7 @@
 "c": "UEFA",
 "f": "2026-09-17",
 "id": "lqJN9sz-JwU",
-"t": "BEST Juventus Goals Of All Time?! 😱"
+"t": "Are These The BEST Juventus Goals EVER?! 😱"
 },
 {
 "c": "UEFA",
@@ -3906,6 +3966,72 @@
 }
 ],
 "eredivisie": [
+{
+"c": "ESPN NL",
+"f": "2026-09-20",
+"id": "JxxzJ30cYS0",
+"t": "Gaoussou Diarra maakt zijn eerste officiële doelpunt voor Feyenoord 🇲🇱🎯"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-20",
+"id": "l4ealhtFFFk",
+"t": "Geen beste stemming in het uitvak van FC Utrecht 😩"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-20",
+"id": "4KDb0FNQ2Qg",
+"t": "Anis Hadj Moussa gaat maar eens op avontuur vanaf de middenlijn 😮‍💨"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-20",
+"id": "XC3dxzdGMZk",
+"t": "Rondje langs de velden gaat vrolijk verder voor bondscoach Xavi 🇳🇱👀"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-20",
+"id": "n547dlTAM7M",
+"t": "Noah Ohio blikt terug op de afgelopen seizoenen bij FC Utrecht 🔙"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-20",
+"id": "y0-Y9Rrm1VY",
+"t": "Noah Ohio over FC UTRECHT, JULIAN NAGELSMANN & zijn REVALIDATIE 🗣️ | Goedemorgen Eredivisie"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-20",
+"id": "CtWhcEzRfuE",
+"t": "Hans Kraay jr. vindt het een gemiste kans dat Oranje achter gesloten deuren gaat trainen 🚪❌"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-20",
+"id": "abArYaRze-U",
+"t": "HANS KRAAY JR. ZAG een KANSENREGEN van AJAX 👀⚽️ | Goedemorgen Eredivisie"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-20",
+"id": "RjdVkJL8r_o",
+"t": "Ismael Saibari opent zijn rekening voor Bayern 💪🫡"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-20",
+"id": "Mxy5mPlPGEM",
+"t": "'Cheatcode' Tolu maakt indruk op Excelsior-trainer Ruben den Uil 👀😂"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-20",
+"id": "lzyJYLWUF-k",
+"t": "𝐓𝐇𝐑𝐎𝐖𝐁𝐀𝐂𝐊 naar deze krankzinnige editie van FC Twente - PSV 🔙🥵"
+},
 {
 "c": "ESPN NL",
 "f": "2026-09-19",
@@ -6442,6 +6568,30 @@
 "laliga": [
 {
 "c": "LALIGA EA SPORTS",
+"f": "2026-09-20",
+"id": "RwSaYpa1eRo",
+"t": "🧤💙 ¡Increíble parada de David Soria en el #GetafeMálaga!"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-20",
+"id": "h6DG-0bcKmU",
+"t": "🔴 GETAFE CF vs MÁLAGA CF - PREVIA DEL PARTIDO"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-20",
+"id": "CcmWMO3Ltyk",
+"t": "Are you ready for the final showdown? ⚡ GOALITOS"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-20",
+"id": "5yBUV1Qi6dc",
+"t": "Raphinha no para 🔥"
+},
+{
+"c": "LALIGA EA SPORTS",
 "f": "2026-09-19",
 "id": "QDSE0BkdzeE",
 "t": "🔴 CA OSASUNA vs RAYO VALLECANO - PREVIA DEL PARTIDO"
@@ -6829,6 +6979,12 @@
 "f": "2026-09-17",
 "id": "BJc1O4T2a0E",
 "t": "MÁLAGA CF 1 - 3 VILLARREAL CF | RESUMEN LALIGA EA SPORTS"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-17",
+"id": "fRCt1y9ktSk",
+"t": "🔴 ATLETI v REAL MADRID en DIRECTO desde el Riyadh Air Metropolitano"
 },
 {
 "c": "LALIGA EA SPORTS",
@@ -8550,6 +8706,24 @@
 "ligue1": [
 {
 "c": "Ligue 1",
+"f": "2026-09-20",
+"id": "Xf3XOkmjTiQ",
+"t": "UN CLASSIQUE AU CINÉMA : PASTORE x Cheyrou"
+},
+{
+"c": "Ligue 1",
+"f": "2026-09-20",
+"id": "6ASt1w1vNos",
+"t": "C’est qui votre joueur pois chiche de Ligue 1 ?  #ligue1 #football #sports #footballshorts #shorts"
+},
+{
+"c": "Ligue 1",
+"f": "2026-09-20",
+"id": "1sYCaWHSXI4",
+"t": "Be ready ⚔️  #football #ligue1 #sports #psg #footballshorts #soccer #ligue1mcdonalds #om #shorts"
+},
+{
+"c": "Ligue 1",
 "f": "2026-09-19",
 "id": "1RHDpwYkdyk",
 "t": "ILS RACONTENT LEUR CLASSIQUE OM-PSG"
@@ -9404,6 +9578,12 @@
 "premier": [
 {
 "c": "Premier League",
+"f": "2026-09-20",
+"id": "4eYMSW5-f10",
+"t": "Football Made To Look Easy 🥵"
+},
+{
+"c": "Premier League",
 "f": "2026-09-19",
 "id": "PX-Wxr45AHI",
 "t": "Igor Thiago Gifts His Shirt To A Young Fan 🥰"
@@ -9418,7 +9598,7 @@
 "c": "Premier League",
 "f": "2026-09-19",
 "id": "rPf7Hl67iGY",
-"t": "The Match Changed THAT Fast 😳"
+"t": "Life Comes At You Fast 😳"
 },
 {
 "c": "Premier League",
@@ -9976,6 +10156,18 @@
 "seriea": [
 {
 "c": "Serie A",
+"f": "2026-09-20",
+"id": "947qx7HT-uY",
+"t": "La Lazio Tiene Il Passo In Vetta | VENEZIA-LAZIO | HIGHLIGHTS | SERIE A ENILIVE 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-09-20",
+"id": "AAKd1Q6ad0k",
+"t": "WAIT FOR IT… 👀😅 #RomaInter #Kone #SerieA"
+},
+{
+"c": "Serie A",
 "f": "2026-09-19",
 "id": "KBBTKF9ytl4",
 "t": "Doppio Varela fa Vincere i Biancorossi! | MONZA-SASSUOLO | HIGHLIGHTS | SERIE A ENILIVE 2026/27"
@@ -10039,12 +10231,6 @@
 "f": "2026-09-19",
 "id": "sw8FOhBHACc",
 "t": "Absolute BLOCKBUSTER At The Olimpico! | ROMA-INTER | HIGHLIGHTS | Serie A 2026/27"
-},
-{
-"c": "Serie A",
-"f": "2026-09-19",
-"id": "947qx7HT-uY",
-"t": "La Lazio Tiene Il Passo In Vetta | VENEZIA-LAZIO | HIGHLIGHTS | SERIE A ENILIVE 2026/27"
 },
 {
 "c": "Serie A",
