@@ -8,6 +8,24 @@
 },
 {
 "c": "AC Milan",
+"f": "2026-09-20",
+"id": "MyaJDcnAweQ",
+"t": "Un secolo di storia ✨"
+},
+{
+"c": "AC Milan",
+"f": "2026-09-20",
+"id": "9kb5nYojkk8",
+"t": "Che bello averti a San Siro, Aryna! 🎾"
+},
+{
+"c": "AC Milan",
+"f": "2026-09-20",
+"id": "ye6WrPNT2BQ",
+"t": "San Siro, iconico da ogni prospettiva 🏟️"
+},
+{
+"c": "AC Milan",
 "f": "2026-09-19",
 "id": "02fw4NNvh34",
 "t": "Le magie di Ronaldinho contro il Lecce 🧙‍♂️✨"
@@ -221,24 +239,6 @@
 "f": "2026-09-10",
 "id": "Mw3ZmfvdEqQ",
 "t": "Ricordate chi ha segnato questo gol? 🤔​| #shorts"
-},
-{
-"c": "AC Milan",
-"f": "2026-09-10",
-"id": "bLXSzs4AJtk",
-"t": "Dentro Milanello | Intensità, gol e partitella | Allenamento | #LazioMilan"
-},
-{
-"c": "AC Milan",
-"f": "2026-09-09",
-"id": "IZrFbCBRIck",
-"t": "L'inizio di qualcosa di speciale⚡️"
-},
-{
-"c": "AC Milan",
-"f": "2026-09-09",
-"id": "hszRS1GExEE",
-"t": "Il Maestro compie 41 anni! Buon compleanno, Luka Modrić 😍"
 }
 ],
 "AC Monza": [
@@ -1218,6 +1218,12 @@
 },
 {
 "c": "Atalanta Bergamasca Calcio",
+"f": "2026-09-20",
+"id": "FUSQxh36WuU",
+"t": "Highlights Genoa-Atalanta 3-1 | 5ª Primavera 1 2026/27"
+},
+{
+"c": "Atalanta Bergamasca Calcio",
 "f": "2026-09-19",
 "id": "sqfnPpqXCQ0",
 "t": "Juventus-Atalanta | La conferenza stampa di Maurizio Sarri 📹🎙️ | MD5 Serie A Enilive 2026/27"
@@ -1437,12 +1443,6 @@
 "f": "2026-09-04",
 "id": "AMIR8FCI5yk",
 "t": "🔴 LIVE 🔴 La conferenza stampa di mister Sarri alla vigilia di Roma-Atalanta"
-},
-{
-"c": "Atalanta Bergamasca Calcio",
-"f": "2026-09-04",
-"id": "A7x9olMxdvw",
-"t": "Q&A con Davide Ghislandi 🎙️🖤💙"
 }
 ],
 "Athletico Paranaense": [
@@ -3052,6 +3052,18 @@
 },
 {
 "c": "Corinthians TV",
+"f": "2026-09-20",
+"id": "QqeNo3sois8",
+"t": "A entrada em campo do #TimeDoPovo. 🏴🏳️"
+},
+{
+"c": "Corinthians TV",
+"f": "2026-09-20",
+"id": "q7WcQDtt54w",
+"t": "Timão em casa! 👊🏽"
+},
+{
+"c": "Corinthians TV",
 "f": "2026-09-19",
 "id": "2Uucqu6eh94",
 "t": "TREINO DO TIMÃO: ELENCO ENCERRA PREPARAÇÃO PARA CONFRONTO CONTRA O FLUMINENSE"
@@ -3265,18 +3277,6 @@
 "f": "2026-09-15",
 "id": "1C3tIGvMN1s",
 "t": "Treino do Timão! ⚫⚪"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-09-15",
-"id": "VxV_GF4yd_Y",
-"t": "É dia de guerra na Arena Fonte Nova. 🔥"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-09-15",
-"id": "DvjXYCHnuJM",
-"t": "Fala, Thais Regina! 🗣️🎙️"
 }
 ],
 "Coventry City": [
@@ -4423,6 +4423,12 @@
 "f": "2026-09-20",
 "id": "XU-xEVd-6y0",
 "t": "🔵 CANLI | Fenerbahçe - Eyüpspor"
+},
+{
+"c": "Fenerbahçe SK",
+"f": "2026-09-20",
+"id": "Krz-VMHiVpc",
+"t": "Teknik Direktörümüz İsmail Kartal'ın Maç Sonu Basın Toplantısı | Fenerbahçe 8-0 Eyüpspor"
 },
 {
 "c": "Fenerbahçe SK",
@@ -6260,6 +6266,12 @@
 },
 {
 "c": "Grêmio FBPA",
+"f": "2026-09-20",
+"id": "-DtAsIs2nvM",
+"t": "🧤🧤🧤 Weverton, Weverton, Weverton!  #aquiégrêmio #futebol #gremio #grêmiotv"
+},
+{
+"c": "Grêmio FBPA",
 "f": "2026-09-19",
 "id": "Qv3tRpGpvhs",
 "t": "GRÊMIO FEMININO PREPARADO PARA A ESTREIA NO GAUCHÃO"
@@ -6485,12 +6497,6 @@
 "f": "2026-08-26",
 "id": "VfGTd47Kc_Q",
 "t": "ISSO É GRÊMIO!!! 🇪🇪 Não existe descrição melhor pra explicar como foi esta classificação."
-},
-{
-"c": "Grêmio FBPA",
-"f": "2026-08-25",
-"id": "6w1SeyKrHug",
-"t": "BASTIDORES | GREMIO 1 X 0 BOTAFOGO (CAMPEONATO BRASILEIRO FEMININO A1)"
 }
 ],
 "Inter": [
@@ -7010,6 +7016,30 @@
 },
 {
 "c": "Juventus",
+"f": "2026-09-20",
+"id": "Ra8L_qFHua0",
+"t": "“WE COULD HAVE HURT THEM EVEN MORE” | Spalletti After Juventus-Atalanta"
+},
+{
+"c": "Juventus",
+"f": "2026-09-20",
+"id": "8k36osfPfWA",
+"t": "CONCEIÇÃO & BREMER SEAL THE WIN! 🔥 | Juventus 2-0 Atalanta Highlights | Serie A"
+},
+{
+"c": "Juventus",
+"f": "2026-09-20",
+"id": "nH03YNxfrvQ",
+"t": "Celebrations after the win against Atalanta!"
+},
+{
+"c": "Juventus",
+"f": "2026-09-20",
+"id": "GfD_5B2gA8c",
+"t": "Gleison BREMER DOUBLES! Juventus 2 - 0 Atalanta 🔥"
+},
+{
+"c": "Juventus",
 "f": "2026-09-19",
 "id": "VwjN1oYgL6Q",
 "t": "DEL PIERO’S LAST DANCE WITH JUVENTUS 🥹 | Juventus-Atalanta 2012"
@@ -7193,30 +7223,6 @@
 "f": "2026-09-17",
 "id": "lDA7vlQRr_8",
 "t": "Kerim ALAJBEGOVIĆ scores his FIRST GOAL at JUVENTUS ⚡️"
-},
-{
-"c": "Juventus",
-"f": "2026-09-16",
-"id": "uHYflwZeeSg",
-"t": "DI MARÍA BENDS IT TO PERFECTION! 😮‍💨"
-},
-{
-"c": "Juventus",
-"f": "2026-09-16",
-"id": "-uORC_Z8fpc",
-"t": "ONE OF JUVENTUS’ GREAT EUROPA LEAGUE NIGHTS! ⭐ | Di María Hat-Trick vs Nantes!"
-},
-{
-"c": "Juventus",
-"f": "2026-09-16",
-"id": "MBd4miM1fJg",
-"t": "WHAT A TOUCH FROM PAPE SARR! 🤯"
-},
-{
-"c": "Juventus",
-"f": "2026-09-16",
-"id": "UsWZHexoRMI",
-"t": "READY FOR THE EUROPA LEAGUE OPENER! | Juventus' Training before NEC Nijmegen!"
 }
 ],
 "Leeds United": [
@@ -9388,6 +9394,30 @@
 },
 {
 "c": "Real Betis Balompié",
+"f": "2026-09-20",
+"id": "AlwJA4OjLso",
+"t": "🚨 DIRECTO | RC Deportivo de A Coruña - Real Betis Balompié  ⚽💚 | VÍVELO CON NOSOTROS"
+},
+{
+"c": "Real Betis Balompié",
+"f": "2026-09-20",
+"id": "I71SZEU92Mk",
+"t": "¡SALVADOR ÁLVARO VALLES! ⛔ #LALIGAHighlights"
+},
+{
+"c": "Real Betis Balompié",
+"f": "2026-09-20",
+"id": "ERQBltrIQ-g",
+"t": "¡Qué GOLAZO de nuestro parcero Cucho Hernández! 🇨🇴💥 #LALIGAHighlights"
+},
+{
+"c": "Real Betis Balompié",
+"f": "2026-09-20",
+"id": "ub3ICRTc-GI",
+"t": "¡Faltó muy poco para que entrara esta chilena de MARC BARTRA! 😱 #LALIGAHighlights"
+},
+{
+"c": "Real Betis Balompié",
 "f": "2026-09-19",
 "id": "OSZ4Rsg6j08",
 "t": "🚨 DIRECTO | Rueda de prensa de Manuel Pellegrini previa al #DéporRealBetis ⚽💚"
@@ -9403,12 +9433,6 @@
 "f": "2026-09-19",
 "id": "P93dTSVBBUc",
 "t": "Rueda de prensa de Manuel Pellegrini previa al #DéporRealBetis ⚽💚"
-},
-{
-"c": "Real Betis Balompié",
-"f": "2026-09-18",
-"id": "AlwJA4OjLso",
-"t": "🚨 DIRECTO | RC Deportivo de A Coruña - Real Betis Balompié  ⚽💚 | VÍVELO CON NOSOTROS"
 },
 {
 "c": "Real Betis Balompié",
@@ -9589,24 +9613,6 @@
 "f": "2026-09-14",
 "id": "sDekh-gxGvs",
 "t": "¡Ya está de vuelta Ceballos! 🦖🔙 #LaLigaHighlights"
-},
-{
-"c": "Real Betis Balompié",
-"f": "2026-09-14",
-"id": "cYsdz3hNMgU",
-"t": "¡Qué manera de empezar la semana! 🤩"
-},
-{
-"c": "Real Betis Balompié",
-"f": "2026-09-14",
-"id": "JltKzdvfY2s",
-"t": "El BAILE de NATAN 🕺 #LALIGAHighlights"
-},
-{
-"c": "Real Betis Balompié",
-"f": "2026-09-13",
-"id": "t3-dsdZ7k0U",
-"t": "🚨 DIRECTO | Betis Deportivo - CA Antoniano | CANTERA"
 }
 ],
 "Real Madrid": [
@@ -10442,6 +10448,12 @@
 },
 {
 "c": "Sevilla FC",
+"f": "2026-09-20",
+"id": "h52HTlbHjGE",
+"t": "CD Tenerife - Sevilla FC Femenino (1-3) Liga F Moeve | Resumen"
+},
+{
+"c": "Sevilla FC",
 "f": "2026-09-19",
 "id": "lT5sepNBrd0",
 "t": "HOY VOLVEMOS A NUESTRA CASA 💪🏽😍 #shorts #sevillafc #laliga"
@@ -10655,12 +10667,6 @@
 "f": "2026-09-07",
 "id": "hrj5j9iqlso",
 "t": "'El Partido' #EspanyolSevilla | 📡 EN DIRECTO"
-},
-{
-"c": "Sevilla FC",
-"f": "2026-09-07",
-"id": "6bB68i1dpaw",
-"t": "Espíritu de equipo. SEGUIMOS JUNTOS. 🤍❤️ #sevillafc #laliga #shorts"
 }
 ],
 "Sheffield United": [
