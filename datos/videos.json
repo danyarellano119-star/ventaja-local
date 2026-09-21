@@ -2,6 +2,12 @@
 "brasileirao": [
 {
 "c": "CazéTV",
+"f": "2026-09-21",
+"id": "WKLPcazDBMI",
+"t": "JOGO COMPLETO: JUVENTUS X ATALANTA | SÉRIE A ITALIANA 26/27 | 5ª RODADA"
+},
+{
+"c": "CazéTV",
 "f": "2026-09-20",
 "id": "HZJrOjwVD4E",
 "t": "BOTAFOGO PERDE PARA O MIRASSOL NA ESTREIA DE TITE E ZIYECH | RODA DE BOBO"
@@ -1628,12 +1634,6 @@
 },
 {
 "c": "CazéTV",
-"f": "2026-09-10",
-"id": "WKLPcazDBMI",
-"t": "JOGO COMPLETO: JUVENTUS X ATALANTA | SÉRIE A ITALIANA 26/27 | 5ª RODADA"
-},
-{
-"c": "CazéTV",
 "f": "2026-09-09",
 "id": "yKEAFHUE0BM",
 "t": "MELHORES MOMENTOS: FLUMINENSE 2 X 0 PLATENSE | QUARTAS (IDA) | CONMEBOL LIBERTADORES 2026"
@@ -2614,6 +2614,12 @@
 "bundesliga": [
 {
 "c": "Bundesliga",
+"f": "2026-09-21",
+"id": "rgngjWaLS04",
+"t": "The perfect hat-trick doesn‘t exi… 😱🔥"
+},
+{
+"c": "Bundesliga",
 "f": "2026-09-20",
 "id": "Lo4yNSqK7Ys",
 "t": "If you don‘t know Opa Gerd, now you know him 😁👴"
@@ -3570,6 +3576,18 @@
 "champions": [
 {
 "c": "UEFA",
+"f": "2026-09-21",
+"id": "PCnZ6UB3nbc",
+"t": "Iconic Beckham 😮‍💨"
+},
+{
+"c": "UEFA",
+"f": "2026-09-21",
+"id": "Bxo9yshy7VU",
+"t": "Paris link-up 🔗"
+},
+{
+"c": "UEFA",
 "f": "2026-09-20",
 "id": "R_oGkHmxvms",
 "t": "BEST Europa League Saves From Matchday 1!"
@@ -4176,6 +4194,72 @@
 }
 ],
 "eredivisie": [
+{
+"c": "ESPN NL",
+"f": "2026-09-21",
+"id": "3hsjOBPqHWE",
+"t": "🦁🆕 XAVI HERNÁNDEZ licht EERSTE ORANJE-SELECTIE toe 🧡 | Persconferentie"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-21",
+"id": "t3upOPTS8FA",
+"t": "De 10 MEEST BIJZONDERE MOMENTEN van afgelopen maand 🤯🔥"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-21",
+"id": "iwaLCAY_lj8",
+"t": "Twee identieke goals van Anis Hadj Moussa 😳"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-21",
+"id": "r8Agx9i7hcw",
+"t": "Xavi houdt Luciano Valente in de gaten:  \"Een goede speler met potentie\" 📈"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-21",
+"id": "B5wJyFR372Q",
+"t": "Xavi legt uit waarom hij 'maar' 26 spelers heeft opgeroepen 🟠"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-21",
+"id": "l2IwbMwuNGY",
+"t": "Xavi 🤝 Van Dijk"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-21",
+"id": "GkJrAwMAR3U",
+"t": "Xavi noemt het niet-selecteren van Memphis Depay zijn moeilijkste beslissing ❌"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-21",
+"id": "HcuXW5HAuv0",
+"t": "Ivan Perišić 🆚 Robin Pröpper 😳"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-21",
+"id": "tB50RATyZ_s",
+"t": "Zeg dat je Mourinho bent zonder te zeggen dat je Mourinho bent 🫣"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-21",
+"id": "bEjx30i8viU",
+"t": "Lovende woorden voor Abdellah Ouazane 🇲🇦✨"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-21",
+"id": "gaMKwQ65W_8",
+"t": "Doelpunt nummer 7️⃣5️⃣ uit een vrije trap voor Messi zal niet de boeken ingaan als de mooiste 🫣"
+},
 {
 "c": "ESPN NL",
 "f": "2026-09-20",
@@ -4799,12 +4883,6 @@
 "f": "2026-09-17",
 "id": "TpT9Zs7kSDE",
 "t": "🇳🇱🇩🇪 ORANJE-BONDSCOACH Xavi Hernández blikt vooruit op NEDERLAND - DUITSLAND 🎙️ | Persconferentie"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-17",
-"id": "3hsjOBPqHWE",
-"t": "🦁🆕 XAVI HERNÁNDEZ licht EERSTE ORANJE-SELECTIE toe 🧡 | Persconferentie"
 },
 {
 "c": "ESPN NL",
@@ -6920,6 +6998,24 @@
 }
 ],
 "laliga": [
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-21",
+"id": "gCC7I4g_NXE",
+"t": "1 GOLAZO de CADA EQUIPO de LALIGA hasta ahora ⚽ | LALIGA EA SPORTS 2026/27"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-21",
+"id": "UYa7jFqCFB0",
+"t": "La felicidad de GIULIANO tras la victoria en el derbi"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-21",
+"id": "7VRdxpA7aXc",
+"t": "Un golpeo para recordar 💥"
+},
 {
 "c": "LALIGA EA SPORTS",
 "f": "2026-09-20",
@@ -9270,6 +9366,30 @@
 },
 {
 "c": "Ligue 1",
+"f": "2026-09-21",
+"id": "rCHtPVQdUfo",
+"t": "An emotional moment for Dimitri Payet 🥹⭐️ #football #ligue1 #sports #soccer #footballshorts #shorts"
+},
+{
+"c": "Ligue 1",
+"f": "2026-09-21",
+"id": "MLVVifXtRuY",
+"t": "LIVE - Le SAV de la Ligue 1 | J5 - saison 2026/2027"
+},
+{
+"c": "Ligue 1",
+"f": "2026-09-21",
+"id": "FYWGunJ0Ln8",
+"t": "This should be illegal 🤭  #football #ligue1 #sports"
+},
+{
+"c": "Ligue 1",
+"f": "2026-09-21",
+"id": "MiI5KrgKQz4",
+"t": "FERRAN. TORRES. 🦈🇪🇸  #football #ligue1 #sports #psg"
+},
+{
+"c": "Ligue 1",
 "f": "2026-09-20",
 "id": "Xf3XOkmjTiQ",
 "t": "UN CLASSIQUE AU CINÉMA : PASTORE x Cheyrou"
@@ -10256,6 +10376,18 @@
 "premier": [
 {
 "c": "Premier League",
+"f": "2026-09-21",
+"id": "_Pdsyd9E-8s",
+"t": "This Young Fan Can’t Believe It 🤯"
+},
+{
+"c": "Premier League",
+"f": "2026-09-21",
+"id": "k4kFwK0Jju4",
+"t": "Bradley Barcola With An Immaculate First Touch ✨"
+},
+{
+"c": "Premier League",
 "f": "2026-09-20",
 "id": "4eYMSW5-f10",
 "t": "Football Made To Look Easy 🥵"
@@ -10855,6 +10987,30 @@
 "f": "2026-09-21",
 "id": "wWBCxYHi21E",
 "t": "Moreira Non Si Ferma Piú! | MILAN-LECCE | HIGHLIGHTS | SERIE A ENILIVE 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-09-21",
+"id": "jbkByYMeuAs",
+"t": "👀 GASPERINI'S Reactions Say it ALL | COACH CAM: Roma-Inter | Serie A 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-09-21",
+"id": "G3PPtTdBVd4",
+"t": "MAXI SINTESI ROMA-INTER 2-2 | EXTENDED HIGHLIGHTS | SERIE A ENILIVE 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-09-21",
+"id": "8UThxV3IHh4",
+"t": "ROMA-INTER 2-2 | EXTENDED HIGHLIGHTS | SERIE A 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-09-21",
+"id": "GJeCNDnnAwM",
+"t": "THAT WAS SMOOTH 😮‍💨✨ #MilanLecce #SerieA"
 },
 {
 "c": "Serie A",
