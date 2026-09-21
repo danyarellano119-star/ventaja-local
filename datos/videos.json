@@ -158,6 +158,12 @@
 },
 {
 "c": "CazéTV",
+"f": "2026-09-20",
+"id": "18aItYft-kU",
+"t": "FLAMENGO PODE DISPARAR NA LIDERANÇA DEPOIS DO TROPEÇO DO PALMEIRAS! | SEIS EM UM"
+},
+{
+"c": "CazéTV",
 "f": "2026-09-19",
 "id": "2Y4_nNPy2VE",
 "t": "BRASIL COMEÇA COM DUAS VITÓRIAS NA COPA DAVIS E ENCAMINHA CLASSIFICAÇÃO! | QUADRA ABERTA"
@@ -467,12 +473,6 @@
 "f": "2026-09-18",
 "id": "0h9oFPNiN4Q",
 "t": "AO VIVO (SOM AMBIENTE): SKATE VERTICAL | PRO TOUR STU | ETAPA DE SÃO PAULO"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-18",
-"id": "18aItYft-kU",
-"t": "AO VIVO: ATLÉTICO DE MADRID X REAL MADRID E MARSEILLE X PSG! DOMINGO DE CLÁSSICOS! | SEIS EM UM"
 },
 {
 "c": "CazéTV",
@@ -1630,7 +1630,7 @@
 "c": "CazéTV",
 "f": "2026-09-10",
 "id": "WKLPcazDBMI",
-"t": "AO VIVO: OLYMPIQUE MARSEILLE X PSG | LIGUE 1 26/27 | 5ª RODADA"
+"t": "JOGO COMPLETO: JUVENTUS X ATALANTA | SÉRIE A ITALIANA 26/27 | 5ª RODADA"
 },
 {
 "c": "CazéTV",
@@ -2725,6 +2725,12 @@
 "f": "2026-09-20",
 "id": "geNPXDBioSI",
 "t": "First Goals Of The Season | SC PADERBORN - HOFFENHEIM | Highlights | Matchday 4 – Bundesliga 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-09-20",
+"id": "pylM06MXxRw",
+"t": "ALL HIGHLIGHTS | BUNDESLIGA | MATCHDAY 04"
 },
 {
 "c": "Bundesliga",
@@ -9252,6 +9258,18 @@
 "ligue1": [
 {
 "c": "Ligue 1",
+"f": "2026-09-21",
+"id": "l-r3vwq-o4o",
+"t": "Résumé 5ème journée | Ligue 1 McDonald's 26/27"
+},
+{
+"c": "Ligue 1",
+"f": "2026-09-21",
+"id": "G_cQy-bcaRg",
+"t": "OLYMPIQUE DE MARSEILLE - PARIS SAINT-GERMAIN (1-2) | Week 5 - Ligue 1 McDonald's 26/27"
+},
+{
+"c": "Ligue 1",
 "f": "2026-09-20",
 "id": "Xf3XOkmjTiQ",
 "t": "UN CLASSIQUE AU CINÉMA : PASTORE x Cheyrou"
@@ -9369,6 +9387,18 @@
 "f": "2026-09-20",
 "id": "HHZtt4VRoIQ",
 "t": "Nuamah DÉCHAINÉ, l'OL BALAYE Rennes et monte à la 2e place | 5ème journée - Ligue 1 McDonald's 26/27"
+},
+{
+"c": "Ligue 1",
+"f": "2026-09-20",
+"id": "eqH3RsWGw1k",
+"t": "OGC NICE - LOSC LILLE (2-1) | Week 5 - Ligue 1 McDonald's 26/27"
+},
+{
+"c": "Ligue 1",
+"f": "2026-09-20",
+"id": "sjipJ5Oz9lc",
+"t": "TOUS LES BUTS de la 5ème journée | Ligue 1 McDonald's 26/27"
 },
 {
 "c": "Ligue 1",
@@ -10822,6 +10852,12 @@
 "seriea": [
 {
 "c": "Serie A",
+"f": "2026-09-21",
+"id": "wWBCxYHi21E",
+"t": "Moreira Non Si Ferma Piú! | MILAN-LECCE | HIGHLIGHTS | SERIE A ENILIVE 2026/27"
+},
+{
+"c": "Serie A",
 "f": "2026-09-20",
 "id": "947qx7HT-uY",
 "t": "La Lazio Tiene Il Passo In Vetta | VENEZIA-LAZIO | HIGHLIGHTS | SERIE A ENILIVE 2026/27"
@@ -10885,12 +10921,6 @@
 "f": "2026-09-20",
 "id": "3h4PItU2hLw",
 "t": "Juve Back To Winning Ways! | JUVENTUS-ATALANTA | HIGHLIGHTS | Serie A 2026/27"
-},
-{
-"c": "Serie A",
-"f": "2026-09-20",
-"id": "wWBCxYHi21E",
-"t": "Moreira Non Si Ferma Piú! | MILAN-LECCE | HIGHLIGHTS | SERIE A ENILIVE 2026/27"
 },
 {
 "c": "Serie A",
