@@ -12407,6 +12407,25 @@
 "pv": 0.3423,
 "v": "Rayo Vallecano"
 },
+"laliga|2026-10-21|levante|athletic": {
+"btts": 0.511,
+"clave_l": "Levante",
+"clave_liga": "laliga",
+"clave_v": "Athletic Club",
+"fecha": "2026-10-21",
+"l": "Levante",
+"liga": "LaLiga",
+"marcador": "1-1",
+"o15": 0.715,
+"o25": 0.4415,
+"o35": 0.2303,
+"p_marcador": 0.1436,
+"pe": 0.3017,
+"pl": 0.329,
+"publicado": "2026-09-22T15:03Z",
+"pv": 0.3694,
+"v": "Athletic Club"
+},
 "laliga|2026-10-25|alaves|malaga": {
 "btts": 0.4813,
 "clave_l": "Alaves",
