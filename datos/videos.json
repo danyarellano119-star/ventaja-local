@@ -10,7 +10,7 @@
 "c": "CazéTV",
 "f": "2026-09-22",
 "id": "M7HKbmjhyP4",
-"t": "AO VIVO: CONVOCAÇÃO DA SELEÇÃO BRASILEIRA FEMININA PARA AMISTOSOS CONTRA A ARGENTINA"
+"t": "CONVOCAÇÃO DA SELEÇÃO BRASILEIRA FEMININA PARA AMISTOSOS CONTRA A ARGENTINA"
 },
 {
 "c": "CazéTV",
@@ -23,6 +23,12 @@
 "f": "2026-09-22",
 "id": "IjV9UGfH0Ys",
 "t": "AO VIVO: ITÁLIA X ESPANHA | COPA DO MUNDO FEMININA SUB-20 FIFA 2026 | SEMIFINAL"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-22",
+"id": "fhkYsSUJf0o",
+"t": "JOGO COMPLETO: RAYO VALLECANO X ESPANYOL | LALIGA 26/27 | 6ª RODADA"
 },
 {
 "c": "CazéTV",
@@ -2330,12 +2336,6 @@
 },
 {
 "c": "CazéTV",
-"f": "2026-09-05",
-"id": "fhkYsSUJf0o",
-"t": "AO VIVO: RAYO VALLECANO X ESPANYOL | LALIGA 26/27 | 6ª RODADA"
-},
-{
-"c": "CazéTV",
 "f": "2026-09-04",
 "id": "Q5l2-lFzdPI",
 "t": "EVENTO COMPLETO: TIME BRASIL NA COPA DO MUNDO DE CANOAGEM SLALOM | ETAPA DA FRANÇA | DIA 2"
@@ -4360,7 +4360,13 @@
 "c": "ESPN NL",
 "f": "2026-09-22",
 "id": "Yb2qsr4Lk8w",
-"t": "Michael REIZIGER over MISLOPEN BONDSCOACHSCHAP: \"Ik was er dicht bij\" 🤏 | Interview Jong Oranje"
+"t": "Michael REIZIGER over MISLOPEN BONDSCOACHSCHAP: \"Ik was dicht bij\" 🤏 | Interview Jong Oranje"
+},
+{
+"c": "ESPN NL",
+"f": "2026-09-22",
+"id": "c6sWcM43_G8",
+"t": "Marit Bratberg Lund passeert de Nederlandse keeper Daniëlle de Jong met een prachtige vrije trap! 💫"
 },
 {
 "c": "ESPN NL",
@@ -7231,6 +7237,12 @@
 "f": "2026-09-22",
 "id": "SvDQwmZlXRA",
 "t": "REFCAM POV: Atlético de Madrid vs Real Madrid 👀"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-09-22",
+"id": "BsZuZonxwdY",
+"t": "Los mejores momentos de los FICHAJES del Atlético de Madrid en LALIGA 2026/27"
 },
 {
 "c": "LALIGA EA SPORTS",
