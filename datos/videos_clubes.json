@@ -734,6 +734,18 @@
 },
 {
 "c": "AS Roma",
+"f": "2026-09-23",
+"id": "SaNPrpMztpw",
+"t": "INTERVISTA PIOVANI | Post Match | OH Leuven Roma | Uefa Women's Champions League"
+},
+{
+"c": "AS Roma",
+"f": "2026-09-23",
+"id": "Mp6UHwkq0os",
+"t": "INTERVISTA GIUGLIANO | Post Match | OH Leuven Roma | Uefa Women's Champions League"
+},
+{
+"c": "AS Roma",
 "f": "2026-09-22",
 "id": "XCIbgxRv5hM",
 "t": "INTERVISTA PIOVANI | Pre Match | OH Leuven-Roma | Uefa Women's Champions League"
@@ -953,18 +965,6 @@
 "f": "2026-08-22",
 "id": "vhOuJCwKEz8",
 "t": "TERNANA 0-2 ROMA | Serie A Women's Cup 2026-27"
-},
-{
-"c": "AS Roma",
-"f": "2026-08-22",
-"id": "E3K5xXYfRF8",
-"t": "INTERVISTA PIOVANI | Post Match | Ternana-Roma 0-2 | Serie A Women's Cup"
-},
-{
-"c": "AS Roma",
-"f": "2026-08-22",
-"id": "PU5Gk_FfggA",
-"t": "INTERVISTA PILGRIM | Post Match | Ternana-Roma 0-2 | Serie A Women's Cup"
 }
 ],
 "Arsenal": [
@@ -1944,6 +1944,12 @@
 },
 {
 "c": "Blackburn Rovers Football Club",
+"f": "2026-09-23",
+"id": "Rb0up0eYmus",
+"t": "👁️ Admin's POV - Portsmouth (A)"
+},
+{
+"c": "Blackburn Rovers Football Club",
 "f": "2026-09-21",
 "id": "ZjPDW9RVC7U",
 "t": "Ryoya Morishita post-match interview (A) Portsmouth"
@@ -2163,12 +2169,6 @@
 "f": "2026-08-31",
 "id": "OOra057lM00",
 "t": "MORI WITH THE VOLLEY | Highlights: Rovers v Queens Park Rangers"
-},
-{
-"c": "Blackburn Rovers Football Club",
-"f": "2026-08-29",
-"id": "qX57KIFomIs",
-"t": "Tony Mowbray post-match interview - QPR (H)"
 }
 ],
 "Brentford": [
@@ -3070,6 +3070,84 @@
 },
 {
 "c": "Corinthians TV",
+"f": "2026-09-23",
+"id": "WSFEeER8r-8",
+"t": "A ADM DAS BRABINHAS TAVA ONDE? NO MEIO DA FIEL! 💜🔥"
+},
+{
+"c": "Corinthians TV",
+"f": "2026-09-23",
+"id": "6Kqb2SerC0g",
+"t": "Um cenário único para transformar cada encontro em uma experiência memorável."
+},
+{
+"c": "Corinthians TV",
+"f": "2026-09-23",
+"id": "Na_PGvCI76s",
+"t": "Se existe passeio perfeito, a Fiel já sabe onde encontrar. 🖤🤍"
+},
+{
+"c": "Corinthians TV",
+"f": "2026-09-23",
+"id": "YNnmXTz-xIc",
+"t": "Conforto, vista privilegiada e toda estrutura pra você curtir o jogo como manda a Fiel."
+},
+{
+"c": "Corinthians TV",
+"f": "2026-09-23",
+"id": "TOnF2x3n7dI",
+"t": "Fala, Leal! 🗣️🎙️"
+},
+{
+"c": "Corinthians TV",
+"f": "2026-09-23",
+"id": "yZDgmPu7blU",
+"t": "Caio Rabisco decolando com o manto alvinegro! ⚫⚪"
+},
+{
+"c": "Corinthians TV",
+"f": "2026-09-23",
+"id": "CjVqWxJfYw4",
+"t": "FIEL CONVOCADA! 🏴🏳️"
+},
+{
+"c": "Corinthians TV",
+"f": "2026-09-23",
+"id": "UvtzQ7W0qsM",
+"t": "Fala, Kaleb! 🗣️"
+},
+{
+"c": "Corinthians TV",
+"f": "2026-09-23",
+"id": "tBLCCYZ5u7E",
+"t": "Washington Silva na voz! 🗣️"
+},
+{
+"c": "Corinthians TV",
+"f": "2026-09-23",
+"id": "1HSqlS4PbKM",
+"t": "Fala, Rhyan Ladeira! 🗣🎙"
+},
+{
+"c": "Corinthians TV",
+"f": "2026-09-23",
+"id": "77yOhrBMBrc",
+"t": "Os gols que garantiram a classificação do Timão para a próxima fase do Brasileirão Sub-17! ⚽️"
+},
+{
+"c": "Corinthians TV",
+"f": "2026-09-23",
+"id": "HGYVJ6VHulg",
+"t": "Todos os olhos na minha goleira. 💜"
+},
+{
+"c": "Corinthians TV",
+"f": "2026-09-23",
+"id": "UY9xs3Xhx7s",
+"t": "Fala, Duda! 🗣️🎙️"
+},
+{
+"c": "Corinthians TV",
 "f": "2026-09-22",
 "id": "0fsg0DGtJ6g",
 "t": "COLETIVA PÓS-JOGO | CORINTHIANS X BAHIA | EMILY LIMA | BRASILEIRÃO FEMININO 2026 | SEMIFINAL - VOLTA"
@@ -3223,84 +3301,6 @@
 "f": "2026-09-21",
 "id": "B8chqdFywZI",
 "t": "O kit do jogo de hoje em homenagem ao ídolo Tobias! 💜⚽️"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-09-21",
-"id": "nDMPU_bW-2I",
-"t": "Fala, Tamires! 🗣️🎙️"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-09-21",
-"id": "u9wTiG05_aA",
-"t": "⚽️🔥"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-09-21",
-"id": "dmSsAsiOg14",
-"t": "Elas estão em casa! 🏠🏟️"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-09-20",
-"id": "IpR134Pg88o",
-"t": "Vamos em busca de 3 pontos ao lado da Fiel! 🚀"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-09-20",
-"id": "rR9yZeGFBNI",
-"t": "BASTIDORES FUTSAL | BOCA JUNIORS 0 X 1 CORINTHIANS | DESAFIO INTERNACIONAL DE FUTSAL | SEMIFINAL"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-09-20",
-"id": "QqeNo3sois8",
-"t": "A entrada em campo do #TimeDoPovo. 🏴🏳️"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-09-20",
-"id": "q7WcQDtt54w",
-"t": "Timão em casa! 👊🏽"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-09-20",
-"id": "MS-XTuiDLDE",
-"t": "CORINTHIANS X FLUMINENSE | BRASILEIRÃO 2026 | 28ª RODADA | DIA DE CORINTHIANS"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-09-20",
-"id": "biZYYkaNCPk",
-"t": "EMPATE DO TIMÃO!!!"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-09-20",
-"id": "6s-p33fv4IU",
-"t": "FALA, THAIS: A ZAGUEIRA DAS BRABAS CONTA SOBRE A PREPARAÇÃO PARA A SEMIFINAL DO BRASILEIRÃO FEMININO"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-09-20",
-"id": "D3VTQuS2eAE",
-"t": "COLETIVA PÓS-JOGO | FERNANDO DINIZ | CORINTHIANS 1 X 3 FLUMINENSE | BRASILEIRÃO 2026 | 28ª RODADA"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-09-19",
-"id": "2Uucqu6eh94",
-"t": "TREINO DO TIMÃO: ELENCO ENCERRA PREPARAÇÃO PARA CONFRONTO CONTRA O FLUMINENSE"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-09-19",
-"id": "XZGgfq61SVE",
-"t": "Atividade de hoje antes do confronto contra o Fluminense."
 }
 ],
 "Coventry City": [
@@ -4220,6 +4220,12 @@
 },
 {
 "c": "FC Barcelona",
+"f": "2026-09-23",
+"id": "m529ZD8Y3w8",
+"t": "🍿 ENJOY XAVI ESPART's PERFORMANCE AT LA MASIA SUB 11 | FULL MATCH 💎 | FC Barcelona"
+},
+{
+"c": "FC Barcelona",
 "f": "2026-09-22",
 "id": "QyStFrQ2jDs",
 "t": "Tuesday goals from Balde ⚡️  #fcbarcelona #football #shorts"
@@ -4439,12 +4445,6 @@
 "f": "2026-09-15",
 "id": "TU8Yv5wLdHY",
 "t": "HAMZA ABDELKARIM EXTENDS his CONTRACT with FC BARCELONA & EXCLUSIVE Q&A 🔵🔴"
-},
-{
-"c": "FC Barcelona",
-"f": "2026-09-15",
-"id": "3Wvucf8XHzI",
-"t": "Lamine or Fermín? That is the question 📖 #fcbarcelona #shorts"
 }
 ],
 "Fenerbahçe SK": [
@@ -5158,6 +5158,12 @@
 },
 {
 "c": "Flamengo TV",
+"f": "2026-09-23",
+"id": "xZYQDQ9-Hdc",
+"t": "SERÁ QUE A #FlaGinástica SE SAIU BEM NESSE DESAFIO? 😂"
+},
+{
+"c": "Flamengo TV",
 "f": "2026-09-22",
 "id": "-8XWPIriKN0",
 "t": "ISSO AQUI É FLAMENGO | FLAMENGO 2 X 1 BRAGANTINO| BRASILEIRÃO (20/09/2026)"
@@ -5371,12 +5377,6 @@
 "f": "2026-09-18",
 "id": "eF42kyeHLJc",
 "t": "JULIANA KNUST - MENGOCAST #64"
-},
-{
-"c": "Flamengo TV",
-"f": "2026-09-18",
-"id": "tYG5YSvUu3c",
-"t": "QUE FESTA, NAÇÃO! ❤️🖤"
 }
 ],
 "Fluminense": [
@@ -5385,6 +5385,12 @@
 "f": "2026-09-23",
 "id": "AEbGlX-YLyM",
 "t": "MINI TRICOLOR FÃ DO THIAGO SILVA! 🥰"
+},
+{
+"c": "Fluminense Football Club",
+"f": "2026-09-23",
+"id": "8CHYDwtJZqk",
+"t": "“O QUE REPRESENTA O FLUMINENSE NA TUA VIDA?” 💬 ANDERSON JR RESPONDE NO PAPO DE GUERREIRO"
 },
 {
 "c": "Fluminense Football Club",
@@ -5613,12 +5619,6 @@
 "f": "2026-09-09",
 "id": "Nur26enJm1E",
 "t": "AO VIVO - FLUMINENSE X PLATENSE | CONMEBOL LIBERTADORES 2026 | QUARTAS DE FINAL - IDA"
-},
-{
-"c": "Fluminense Football Club",
-"f": "2026-09-09",
-"id": "o7NAURKr--U",
-"t": "AONDE O FLU JOGAR… É PRA LÁ QUE VOU! 🇭🇺 #Libertadores #Platense #Maracanã"
 }
 ],
 "Fulham": [
@@ -6356,6 +6356,12 @@
 },
 {
 "c": "Grêmio FBPA",
+"f": "2026-09-23",
+"id": "vkGfZ_BkBeg",
+"t": "AO VIVO E COM IMAGENS | GRÊMIO X UNIÃO FORQUETENSE (CAMPEONATO GAÚCHO FEMININO I 2026)"
+},
+{
+"c": "Grêmio FBPA",
 "f": "2026-09-21",
 "id": "q1Dr-Ootgwk",
 "t": "CAMAROTE NEW BALANCE: GRÊMIO X PALMEIRAS"
@@ -6581,12 +6587,6 @@
 "f": "2026-08-28",
 "id": "0NtbVf-OiyQ",
 "t": "AO VIVO | COLETIVA PÓS-JOGO I INTERNACIONAL X GRÊMIO (COPA DO BRASIL 2026)"
-},
-{
-"c": "Grêmio FBPA",
-"f": "2026-08-28",
-"id": "_VmKn91yU6c",
-"t": "AO VIVO | INTERNACIONAL X GRÊMIO (COPA DO BRASIL 2026)"
 }
 ],
 "Inter": [
@@ -7558,6 +7558,12 @@
 }
 ],
 "Lincoln City": [
+{
+"c": "Lincoln",
+"f": "2026-09-23",
+"id": "1S4oKFsz7HM",
+"t": "The ultimate blind Lincoln Digital Scent smell test. How do you think you would do? | Lincoln"
+},
 {
 "c": "Lincoln",
 "f": "2026-09-22",
@@ -10580,6 +10586,12 @@
 },
 {
 "c": "Sevilla FC",
+"f": "2026-09-23",
+"id": "8520Cf-yu3c",
+"t": "🚀 CHIDERA EJUKE 😱 #training #sevillafc #shorts #goal"
+},
+{
+"c": "Sevilla FC",
 "f": "2026-09-22",
 "id": "Jv0wBLn4ZDg",
 "t": "⚪🔴 Alejandro y Belén: de Jaén a Triana por el Sevilla FC y la Esperanza ✨"
@@ -10799,12 +10811,6 @@
 "f": "2026-09-11",
 "id": "Cl6ieEygb50",
 "t": "'El Partido' #SevillaValencia | 📡 EN DIRECTO"
-},
-{
-"c": "Sevilla FC",
-"f": "2026-09-10",
-"id": "es3jo1R4x7U",
-"t": "Rueda de prensa de Luis García Plaza en la previa del #SevillaValencia 📡 EN DIRECTO"
 }
 ],
 "Sheffield United": [
@@ -11688,6 +11694,12 @@
 "Swansea City": [
 {
 "c": "Swansea City AFC",
+"f": "2026-09-23",
+"id": "2jcyQHrPV18",
+"t": "Lincoln City v Swansea city | An Alternative View"
+},
+{
+"c": "Swansea City AFC",
 "f": "2026-09-22",
 "id": "vH9_RHpaJ7s",
 "t": "The Life of an Academy Scholar | Carter Heywood | EFL Youth Development Week"
@@ -11919,12 +11931,6 @@
 "f": "2026-09-02",
 "id": "UsAlnr7tRI4",
 "t": "Stephen Eustaquio on Watford | Reaction"
-},
-{
-"c": "Swansea City AFC",
-"f": "2026-09-02",
-"id": "FXhX3QJJHdw",
-"t": "Swansea City v Watford | Full Match"
 }
 ],
 "São Paulo": [
