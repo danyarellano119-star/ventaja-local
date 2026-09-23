@@ -58,7 +58,7 @@
 "c": "AC Milan",
 "f": "2026-09-21",
 "id": "iR8QyxUXo0U",
-"t": "Highlights Serie D | Milan Futuro, vittoria e tre punti al Chinetti: 2-1 al Brusaporto ⚽️✅"
+"t": "Milan Futuro, il Chinetti sorride ancora: 2-1 al Brusaporto 🏟️ | Highlights Serie D 💪⚽️"
 },
 {
 "c": "AC Milan",
@@ -1460,6 +1460,18 @@
 },
 {
 "c": "Athletico Paranaense",
+"f": "2026-09-23",
+"id": "1j2VCQTo3Nw",
+"t": "FURACÃO NEWS EM 1 MINUTO - 23/09"
+},
+{
+"c": "Athletico Paranaense",
+"f": "2026-09-23",
+"id": "F4mueUfxCSg",
+"t": "ARTHUR DIAS E KEVIN VIVEROS NA DATA FIFA | FURACÃO NEWS - 23/09"
+},
+{
+"c": "Athletico Paranaense",
 "f": "2026-09-22",
 "id": "n2K8pUJ6vz0",
 "t": "NA RAÇA! BASTIDORES DE ATHLETICO 2 X 1 BAHIA"
@@ -1679,18 +1691,6 @@
 "f": "2026-09-17",
 "id": "na_YjA8mSsk",
 "t": "TREINO DE FINALIZAÇÃO NO CAT CAJU | POR DENTRO DO CAP 17/09"
-},
-{
-"c": "Athletico Paranaense",
-"f": "2026-09-17",
-"id": "ODX1NRTmK10",
-"t": "FURACÃO NEWS EM 1 MINUTO - 17/09"
-},
-{
-"c": "Athletico Paranaense",
-"f": "2026-09-17",
-"id": "SmN-0YYepas",
-"t": "EL TREN NA SELEÇÃO COLOMBIANA | FURACÃO NEWS - 17/09"
 }
 ],
 "Bayern Munich": [
@@ -4226,6 +4226,18 @@
 },
 {
 "c": "FC Barcelona",
+"f": "2026-09-23",
+"id": "QzXZOBYg9fo",
+"t": "HIGHLIGHTS | FC BARCELONA 5 vs 2 PARIS FC | UEFA WOMEN'S CHAMPIONS LEAGUE FINAL 🔵🔴"
+},
+{
+"c": "FC Barcelona",
+"f": "2026-09-23",
+"id": "SRFVhJkcOUM",
+"t": "FC Barcelona x Alpha Drive One 💙❤️🎤"
+},
+{
+"c": "FC Barcelona",
 "f": "2026-09-22",
 "id": "QyStFrQ2jDs",
 "t": "Tuesday goals from Balde ⚡️  #fcbarcelona #football #shorts"
@@ -4433,18 +4445,6 @@
 "f": "2026-09-16",
 "id": "7aNAuc4zKA4",
 "t": "CANCELO IS SIMPLY AMAZING 🤯 #LaLigaHighlights #fcbarcelona #shorts"
-},
-{
-"c": "FC Barcelona",
-"f": "2026-09-16",
-"id": "iQHxQFpVga4",
-"t": "We’re going for it all! 🤳 @madebygoogle #shorts #fcbarcelona"
-},
-{
-"c": "FC Barcelona",
-"f": "2026-09-15",
-"id": "TU8Yv5wLdHY",
-"t": "HAMZA ABDELKARIM EXTENDS his CONTRACT with FC BARCELONA & EXCLUSIVE Q&A 🔵🔴"
 }
 ],
 "Fenerbahçe SK": [
@@ -5164,6 +5164,24 @@
 },
 {
 "c": "Flamengo TV",
+"f": "2026-09-23",
+"id": "kh0Ve6IGPgw",
+"t": "COM FORTE CHUVA, FLAMENGO INTENSIFICA A PREPARAÇÃO DURANTE A DATA FIFA"
+},
+{
+"c": "Flamengo TV",
+"f": "2026-09-23",
+"id": "GzN4fzUI2Xg",
+"t": "🔴AO VIVO: COPA SUPERVÔLEI FEMININO - SESC FLAMENGO x PRAIA CLUBE | 26/09/26"
+},
+{
+"c": "Flamengo TV",
+"f": "2026-09-23",
+"id": "2fBMTleUg-g",
+"t": "🔴AO VIVO: COPA SUPERVÔLEI FEMININO - SESC FLAMENGO x FLUMINENSE | 24/09/26"
+},
+{
+"c": "Flamengo TV",
 "f": "2026-09-22",
 "id": "-8XWPIriKN0",
 "t": "ISSO AQUI É FLAMENGO | FLAMENGO 2 X 1 BRAGANTINO| BRASILEIRÃO (20/09/2026)"
@@ -5202,7 +5220,7 @@
 "c": "Flamengo TV",
 "f": "2026-09-22",
 "id": "5qANjfDiWDQ",
-"t": "🔴AO VIVO: CAMPEONATO CARIOCA DE BASQUETE - BOTAFOGO x FLAMENGO | 23/09/26"
+"t": "🔴 AO VIVO: CAMPEONATO CARIOCA DE BASQUETE - BOTAFOGO x FLAMENGO | 23/09/26"
 },
 {
 "c": "Flamengo TV",
@@ -5359,24 +5377,6 @@
 "f": "2026-09-18",
 "id": "1BlNnVhW0MY",
 "t": "LEONARDO JARDIM | COLETIVA PÓS-JOGO | FLAMENGO 1 X 1 IND. DEL VALLE | LIBERTADORES (17/09/26)"
-},
-{
-"c": "Flamengo TV",
-"f": "2026-09-18",
-"id": "kjcpxaFZcuc",
-"t": "PARRRRTIUUUU SEMIIIIII, MENGÃO! 🟥⬛️"
-},
-{
-"c": "Flamengo TV",
-"f": "2026-09-18",
-"id": "GjWVK6FKbKs",
-"t": "🔴 AO VIVO: TREINO DO FLAMENGO DIRETO DO NINHO | 18/09/26"
-},
-{
-"c": "Flamengo TV",
-"f": "2026-09-18",
-"id": "eF42kyeHLJc",
-"t": "JULIANA KNUST - MENGOCAST #64"
 }
 ],
 "Fluminense": [
@@ -11948,6 +11948,12 @@
 },
 {
 "c": "São Paulo FC",
+"f": "2026-09-23",
+"id": "oYmbnrmyihU",
+"t": "DIRETO DO SUPERCT: 23/09/2026 | SPFC PLAY"
+},
+{
+"c": "São Paulo FC",
 "f": "2026-09-22",
 "id": "bjvY61M7QZo",
 "t": "MADE IN COTIA - EP. 39 - ALÉM DO FUTEBOL: A IMPORTÂNCIA DA RECREAÇÃO NA FORMAÇÃO DE JOGADORES"
@@ -12167,12 +12173,6 @@
 "f": "2026-09-07",
 "id": "0VGGnyUGm4A",
 "t": "Agora é foco total no Boca Juniors #spfc #bastidores"
-},
-{
-"c": "São Paulo FC",
-"f": "2026-09-07",
-"id": "JquwAf7h2tI",
-"t": "Vitória importante no MorumBIS! #spfc #bastidores"
 }
 ],
 "Tottenham Hotspur": [
