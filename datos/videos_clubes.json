@@ -1460,6 +1460,12 @@
 },
 {
 "c": "Athletico Paranaense",
+"f": "2026-09-24",
+"id": "uRIEXW6Hr2I",
+"t": "AS NOTÍCIAS DE QUINTA-FEIRA | FURACÃO NEWS - 24/09"
+},
+{
+"c": "Athletico Paranaense",
 "f": "2026-09-23",
 "id": "EbqzGlM-f7M",
 "t": "CARONA COM EL TREN! EP.01"
@@ -1685,12 +1691,6 @@
 "f": "2026-09-18",
 "id": "u0ZMOEhgTrU",
 "t": "A AGENDA RUBRO-NEGRA DESTE FIM DE SEMANA | FURACÃO NEWS - 18/09"
-},
-{
-"c": "Athletico Paranaense",
-"f": "2026-09-18",
-"id": "_MPw6iv8aq8",
-"t": "TREINO DE ORGANIZAÇÃO OFENSIVA | POR DENTRO DO CAP - 18/09"
 }
 ],
 "Bayern Munich": [
@@ -3076,6 +3076,18 @@
 },
 {
 "c": "Corinthians TV",
+"f": "2026-09-24",
+"id": "8i1arwIpMm4",
+"t": "TREINO DAS BRABAS: QUINTA-FEIRA NO CT DR. JOAQUIM GRAVA."
+},
+{
+"c": "Corinthians TV",
+"f": "2026-09-24",
+"id": "0IE1ayEz7ZQ",
+"t": "Sábado é dia de Neo Química Arena, pela ida da final do Brasileirão Feminino! 💜Garanta seu ingresso"
+},
+{
+"c": "Corinthians TV",
 "f": "2026-09-23",
 "id": "ONDBmbXwET0",
 "t": "BASTIDORES DAS BRABAS | CORINTHIANS 1(2) X (0) 0 BAHIA | BRASILEIRÃO FEMININO 2026 | SEMIFINAL"
@@ -3289,18 +3301,6 @@
 "f": "2026-09-21",
 "id": "h-r9mDpCXWM",
 "t": "FALTA POUCO! Dia de #AsBrabas pelo jogo de volta da semifinal do Brasileirão Feminino! 🔥"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-09-21",
-"id": "E3n7TH13apI",
-"t": "No jogo de hoje, as minhas goleiras farão a estreia do uniforme em homenagem ao goleiro Tobias. 🥅"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-09-21",
-"id": "4Ezov_7bVD4",
-"t": "Fala, professora! 🗣️🎙️"
 }
 ],
 "Coventry City": [
@@ -5170,6 +5170,18 @@
 },
 {
 "c": "Flamengo TV",
+"f": "2026-09-24",
+"id": "eRa3tss-p4U",
+"t": "TREINO DE FINALIZAÇÕES E MUITOS GOLS! QUINTA-FEIRA DE TRABALHO NO NINHO"
+},
+{
+"c": "Flamengo TV",
+"f": "2026-09-24",
+"id": "oQVyLTCXtIg",
+"t": "QUE SAUDADE DE OUVIR A NAÇÃO SOLTANDO A VOZ NO MARACA! 😮‍💨❤️🖤"
+},
+{
+"c": "Flamengo TV",
 "f": "2026-09-23",
 "id": "Xf7PnRFRSao",
 "t": "FLAMENGO RETOMA TRABALHOS NO NINHO DO URUBU"
@@ -5377,18 +5389,6 @@
 "f": "2026-09-19",
 "id": "VeWTnpbylZ8",
 "t": "A PRIMEIRA LEMBRANÇA DO MARACA A GENTE NÃO ESQUECE! ❤️🖤"
-},
-{
-"c": "Flamengo TV",
-"f": "2026-09-19",
-"id": "JEOhSpWPB-w",
-"t": "A TORCIDA ENTROU EM CAMPO! FLAMENGO NA SEMIFINAL DA LIBERTADORES - MEMENGO #72"
-},
-{
-"c": "Flamengo TV",
-"f": "2026-09-19",
-"id": "XmO-LI8zSeI",
-"t": "SÁBADO DE TREINO! FLAMENGO BUSCA MANTER A LIDERANÇA"
 }
 ],
 "Fluminense": [
@@ -11966,6 +11966,24 @@
 "São Paulo": [
 {
 "c": "São Paulo FC",
+"f": "2026-09-24",
+"id": "zwKSZTKWGHo",
+"t": "SANTO PAPO - EP. 21 - TAYLA | SPFC PLAY"
+},
+{
+"c": "São Paulo FC",
+"f": "2026-09-24",
+"id": "82DNaNzfs3k",
+"t": "DIRETO DO SUPERCT: 24/09/2026 | SPFC PLAY"
+},
+{
+"c": "São Paulo FC",
+"f": "2026-09-24",
+"id": "vIa0BgdOU3c",
+"t": "BOLETIM DO FEMININO: 24/09/2026 | SPFC PLAY"
+},
+{
+"c": "São Paulo FC",
 "f": "2026-09-23",
 "id": "ZwyLDh9ETRc",
 "t": "PAULISTA SUB-17 2026: SÃO PAULO X SALTO | SPFC PLAY"
@@ -12185,24 +12203,6 @@
 "f": "2026-09-09",
 "id": "qe2LscBcMc4",
 "t": "COLETIVA PÓS-JOGO: BOCA JUNIORS x SÃO PAULO | CONMEBOL SUL-AMERICANA"
-},
-{
-"c": "São Paulo FC",
-"f": "2026-09-08",
-"id": "V_wG6cTZ-AY",
-"t": "DIRETO DO SUPERCT: 07/09/2026 | SPFC PLAY"
-},
-{
-"c": "São Paulo FC",
-"f": "2026-09-07",
-"id": "Uo1Gs3_wzzA",
-"t": "SUPER BASTIDORES: SÃO PAULO 2 x 0 ATLÉTICO-MG | SPFC PLAY"
-},
-{
-"c": "São Paulo FC",
-"f": "2026-09-07",
-"id": "0VGGnyUGm4A",
-"t": "Agora é foco total no Boca Juniors #spfc #bastidores"
 }
 ],
 "Tottenham Hotspur": [
