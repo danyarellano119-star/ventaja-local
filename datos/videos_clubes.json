@@ -1466,6 +1466,12 @@
 },
 {
 "c": "Athletico Paranaense",
+"f": "2026-09-24",
+"id": "l7xRcsfCgXY",
+"t": "FURACÃO NEWS EM 1 MINUTO - 24/09"
+},
+{
+"c": "Athletico Paranaense",
 "f": "2026-09-23",
 "id": "EbqzGlM-f7M",
 "t": "CARONA COM EL TREN! EP.01"
@@ -1685,12 +1691,6 @@
 "f": "2026-09-18",
 "id": "XNeCe8ZBZug",
 "t": "FURACÃO NEWS EM 1 MINUTO - 18/09"
-},
-{
-"c": "Athletico Paranaense",
-"f": "2026-09-18",
-"id": "u0ZMOEhgTrU",
-"t": "A AGENDA RUBRO-NEGRA DESTE FIM DE SEMANA | FURACÃO NEWS - 18/09"
 }
 ],
 "Bayern Munich": [
@@ -5152,6 +5152,12 @@
 "Flamengo": [
 {
 "c": "Flamengo TV",
+"f": "2026-09-25",
+"id": "2fBMTleUg-g",
+"t": "🔴AO VIVO: COPA SUPERVÔLEI FEMININO - SESC FLAMENGO x FLUMINENSE | 24/09/26"
+},
+{
+"c": "Flamengo TV",
 "f": "2026-09-24",
 "id": "5qANjfDiWDQ",
 "t": "🔴 AO VIVO: CAMPEONATO CARIOCA DE BASQUETE - BOTAFOGO x FLAMENGO | 23/09/26"
@@ -5215,12 +5221,6 @@
 "f": "2026-09-23",
 "id": "GzN4fzUI2Xg",
 "t": "🔴AO VIVO: COPA SUPERVÔLEI FEMININO - SESC FLAMENGO x PRAIA CLUBE | 26/09/26"
-},
-{
-"c": "Flamengo TV",
-"f": "2026-09-23",
-"id": "2fBMTleUg-g",
-"t": "🔴AO VIVO: COPA SUPERVÔLEI FEMININO - SESC FLAMENGO x FLUMINENSE | 24/09/26"
 },
 {
 "c": "Flamengo TV",
@@ -5392,6 +5392,12 @@
 }
 ],
 "Fluminense": [
+{
+"c": "Fluminense Football Club",
+"f": "2026-09-25",
+"id": "Zh2WB3Ku1w8",
+"t": "FLUTV NEWS: PREPARAÇÃO NA DATA FIFA E ENTREVISTA COM MARCÃO"
+},
 {
 "c": "Fluminense Football Club",
 "f": "2026-09-24",
@@ -5625,12 +5631,6 @@
 "f": "2026-09-11",
 "id": "TKNAmQEiaS0",
 "t": "PARTIU BELO HORIZONTE! ✈️ ELENCO EMBARCA PARA ENFRENTAR O ATLÉTICO/MG!"
-},
-{
-"c": "Fluminense Football Club",
-"f": "2026-09-11",
-"id": "Ar7wq6z61nQ",
-"t": "FLUTV NEWS: FLUMINENSE VIAJA PARA ENFRENTAR O ATLÉTICO-MG E SEGUIR NO G4"
 }
 ],
 "Fulham": [
