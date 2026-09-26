@@ -1454,9 +1454,27 @@
 "Athletico Paranaense": [
 {
 "c": "Athletico Paranaense",
+"f": "2026-09-26",
+"id": "UD8BJF8Vx6Y",
+"t": "FURACÃO NEWS EM 1 MINUTO - 25/09"
+},
+{
+"c": "Athletico Paranaense",
 "f": "2026-09-25",
 "id": "BKz_aG4B76o",
 "t": "CARONA COM EL TREN! EP.03"
+},
+{
+"c": "Athletico Paranaense",
+"f": "2026-09-25",
+"id": "5XRNNFI671c",
+"t": "A AGENDA DE TRANSMISSÕES DA REDE FURACÃO"
+},
+{
+"c": "Athletico Paranaense",
+"f": "2026-09-25",
+"id": "sm34kJbZdm4",
+"t": "RUBRO-NEGRO INICIA PREPARAÇÃO PARA SEQUÊNCIA DA TEMPORADA | FURACÃO NEWS - 25/09"
 },
 {
 "c": "Athletico Paranaense",
@@ -1673,24 +1691,6 @@
 "f": "2026-09-18",
 "id": "K6nH47-P7po",
 "t": "EL TREN É SELEÇÃO! | KEVIN VIVEROS FALA SOBRE CONVOCAÇÃO"
-},
-{
-"c": "Athletico Paranaense",
-"f": "2026-09-18",
-"id": "FWeqZzv8SUg",
-"t": "FALA, EL TREN!"
-},
-{
-"c": "Athletico Paranaense",
-"f": "2026-09-18",
-"id": "pC4GRsj18hU",
-"t": "COMEMORA, VIVEROS!"
-},
-{
-"c": "Athletico Paranaense",
-"f": "2026-09-18",
-"id": "5p9Z-QPqvjk",
-"t": "PRÉ-JOGO | ATHLETICO X AZURIZ | COPA PARANÁ 2026"
 }
 ],
 "Bayern Munich": [
@@ -2840,6 +2840,12 @@
 "Chelsea": [
 {
 "c": "Chelsea Football Club",
+"f": "2026-09-25",
+"id": "_1de51C9dDQ",
+"t": "Ultimate Goal Of the Season - Group B Vote ⭐️ | Chelsea FC"
+},
+{
+"c": "Chelsea Football Club",
 "f": "2026-09-24",
 "id": "9Adtw0N1qwQ",
 "t": "Ultimate Goal Of the Season - Group A Vote ⭐️ | Chelsea FC"
@@ -3071,15 +3077,21 @@
 "f": "2026-09-01",
 "id": "4g6qOaiYmbE",
 "t": "Phenomenal, Cole 🪄"
-},
-{
-"c": "Chelsea Football Club",
-"f": "2026-08-31",
-"id": "Lk2SR87K8ss",
-"t": "Chelsea 4-3 Brighton | HIGHLIGHTS - Extended | Premier League 2026/27"
 }
 ],
 "Corinthians": [
+{
+"c": "Corinthians TV",
+"f": "2026-09-26",
+"id": "G_u6Lax5x80",
+"t": "HOJE TEM FINAL DO BRASILEIRÃO FEMININO PARA #ASBRABAS!"
+},
+{
+"c": "Corinthians TV",
+"f": "2026-09-26",
+"id": "mZgLdwDflBQ",
+"t": "AS BRABAS: A DINÂMICA DE PSICOLOGIA PARA UMA GRANDE DECISÃO"
+},
 {
 "c": "Corinthians TV",
 "f": "2026-09-25",
@@ -3163,6 +3175,12 @@
 "f": "2026-09-25",
 "id": "G2Y5-fBSnyI",
 "t": "TREINO DO TIMÃO: CORINTHIANS SE REAPRESENTA NESTA SEXTA-FEIRA NO CT DR. JOAQUIM GRAVA"
+},
+{
+"c": "Corinthians TV",
+"f": "2026-09-25",
+"id": "ELoHjxbPj7o",
+"t": "JOGO COMPLETO: CORINTHIANS 68 X 70 MOGI | PAULISTA DE BASQUETE 2026 | SEMIFINAL - JOGO 3"
 },
 {
 "c": "Corinthians TV",
@@ -3301,24 +3319,6 @@
 "f": "2026-09-22",
 "id": "-NYm0db_atE",
 "t": "Pré-jogo finalizado. Vamos à guerra. ⚔️"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-09-22",
-"id": "1-pA_CSLZsk",
-"t": "5️⃣0️⃣ anos do Fenômeno! #CulturalDoCorinthians#ParabénsRonaldo#VaiCorinthians"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-09-22",
-"id": "SvHL99i78c0",
-"t": "🌟"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-09-22",
-"id": "5NUu0M0rnXk",
-"t": "VAI CORINTHIANS!!!!!!! 🔥🔥🔥🔥🔥"
 }
 ],
 "Coventry City": [
@@ -6622,6 +6622,12 @@
 "Inter": [
 {
 "c": "Inter",
+"f": "2026-09-26",
+"id": "jNog2qFMjDg",
+"t": "EP. 19 | Helenio - La bacchetta"
+},
+{
+"c": "Inter",
 "f": "2026-09-25",
 "id": "FUvRQuc99h0",
 "t": "EP. 18 | Kalle - Le cosce"
@@ -6853,12 +6859,6 @@
 "f": "2026-09-19",
 "id": "ICJzVACE_-I",
 "t": "Away Kit takes the stage 🤍🖌️"
-},
-{
-"c": "Inter",
-"f": "2026-09-19",
-"id": "onk0LbGKHHM",
-"t": "Coach Chivu 🖤💙"
 }
 ],
 "Ipswich Town": [
@@ -8550,6 +8550,12 @@
 "Oxford United": [
 {
 "c": "Oxford United Official",
+"f": "2026-09-26",
+"id": "AJUape2jKjI",
+"t": "What is the name of your boys group chat? 📲"
+},
+{
+"c": "Oxford United Official",
 "f": "2026-09-25",
 "id": "sPFXxeDjkJ0",
 "t": "Derek Fazackerley Leaves Oxford United"
@@ -8781,12 +8787,6 @@
 "f": "2026-09-05",
 "id": "pHB8zhx_g34",
 "t": "Mo Missanga is just getting started! 🤩"
-},
-{
-"c": "Oxford United Official",
-"f": "2026-09-04",
-"id": "rw_yeRtMTUU",
-"t": "Luka Lynch Speaks to Press Ahead of His First Game at Oxford United | Press Conference"
 }
 ],
 "Palmeiras": [
@@ -8819,6 +8819,30 @@
 "f": "2026-09-25",
 "id": "E9x86tM9S7Q",
 "t": "QUIZ QUEM FEZ O GOL? - TEMPORADA 2026 #08"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-09-25",
+"id": "PfhI3ej7YSo",
+"t": "QUE CHAPÉU DO BENEDETTI!"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-09-25",
+"id": "gl8pVNm6O4k",
+"t": "QUE FRIEZA DO PACHECO!"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-09-25",
+"id": "WMCIrp79xLo",
+"t": "AO VIVO COM IMAGENS | PALMEIRAS X LG FC | PAULISTA SUB-17 2026"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-09-25",
+"id": "CDl6i3GruoI",
+"t": "AO VIVO COM IMAGENS | PALMEIRAS X UNIÃO SUZANO | PAULISTA SUB-15 2026"
 },
 {
 "c": "TV Palmeiras Sportingbet",
@@ -9005,30 +9029,6 @@
 "f": "2026-09-18",
 "id": "mtvLgsMVOpU",
 "t": "DISCURSO FORTE NO VESTIÁRIO! 🔥💚"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-09-18",
-"id": "HaVwgDABfLU",
-"t": "O HOMEM DO JOGO! CARLOS MIGUEL FAZ A FESTA NO PALMEIRAS! 🏆🟢"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-09-18",
-"id": "QnFq0mNucAE",
-"t": "GÓMEZ COMEMORA COM O ELENCO NO ACESSO AO VESTIÁRIO! 🏆🟢"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-09-18",
-"id": "9ABbIizSWHI",
-"t": "ELENCO DO PALMEIRAS EXALTA CARLOS MIGUEL! 🟢🧤"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-09-18",
-"id": "t6h7uJGlAsU",
-"t": "A EMOÇÃO DO GOL DE MARLON FREITAS NOS BASTIDORES! 🔥🟢"
 }
 ],
 "Paris FC": [
