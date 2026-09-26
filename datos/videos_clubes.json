@@ -3102,7 +3102,7 @@
 "c": "Corinthians TV",
 "f": "2026-09-26",
 "id": "e0qZejjTuVY",
-"t": "COLETIVA PÓS-JOGO | CORINTHIANS X BAHIA | EMILY LIMA | BRASILEIRÃO FEMININO 2026 | FINAL - IDA"
+"t": "COLETIVA PÓS-JOGO | CORINTHIANS X SÃO PAULO | EMILY LIMA | BRASILEIRÃO FEMININO 2026 | FINAL - IDA"
 },
 {
 "c": "Corinthians TV",
@@ -3145,6 +3145,18 @@
 "f": "2026-09-26",
 "id": "b6DZIVDPhnw",
 "t": "Elas estão aqui! 📍#SCCPxSAO#AsBrabas#VaiCorinthians"
+},
+{
+"c": "Corinthians TV",
+"f": "2026-09-26",
+"id": "pPwWwz2-W-g",
+"t": "CORINTHIANS X SÃO PAULO | BRASILEIRÃO FEMININO 2026 | FINAL - IDA | DIA DE CORINTHIANS"
+},
+{
+"c": "Corinthians TV",
+"f": "2026-09-26",
+"id": "24ZaurGPsBw",
+"t": "AO VIVO COM IMAGENS: CORINTHIANS X ATLÉTICO-GO | BRASILEIRÃO SUB-17 2026 | 19ª RODADA"
 },
 {
 "c": "Corinthians TV",
@@ -3307,18 +3319,6 @@
 "f": "2026-09-23",
 "id": "CjVqWxJfYw4",
 "t": "FIEL CONVOCADA! 🏴🏳️"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-09-23",
-"id": "UvtzQ7W0qsM",
-"t": "Fala, Kaleb! 🗣️"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-09-23",
-"id": "tBLCCYZ5u7E",
-"t": "Washington Silva na voz! 🗣️"
 }
 ],
 "Coventry City": [
@@ -8300,6 +8300,12 @@
 "Millwall": [
 {
 "c": "Millwall",
+"f": "2026-09-26",
+"id": "0pngbmi5UlI",
+"t": "Unlocking La Dernière Débauche to 100% GTA Online (again)"
+},
+{
+"c": "Millwall",
 "f": "2026-07-20",
 "id": "94K4WKbTObU",
 "t": "Kortz Center Heist Laser Fast Award"
@@ -8816,6 +8822,12 @@
 },
 {
 "c": "TV Palmeiras Sportingbet",
+"f": "2026-09-26",
+"id": "5FNLYVeU8_A",
+"t": "QUIZ QUEM FEZ O GOL? - TEMPORADA 2026 #10"
+},
+{
+"c": "TV Palmeiras Sportingbet",
 "f": "2026-09-25",
 "id": "HstF3dwUxMw",
 "t": "QUIZ QUEM FEZ O GOL? - TEMPORADA 2026 #07"
@@ -9023,12 +9035,6 @@
 "f": "2026-09-19",
 "id": "86nkXqlgXIY",
 "t": "BOLETIM PRÉ-JOGO | GRÊMIO X PALMEIRAS | BRASILEIRÃO 2026"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-09-18",
-"id": "zjINtWAmezs",
-"t": "FOCO TOTAL! BASTIDORES DO PALMEIRAS NO VESTIÁRIO 💚"
 }
 ],
 "Paris FC": [
@@ -9526,6 +9532,12 @@
 },
 {
 "c": "Real Betis Balompié",
+"f": "2026-09-26",
+"id": "q-U57iFTJnw",
+"t": "Resumen del partido Betis Deportivo - Linares Deportivo (4-0) | CANTERA"
+},
+{
+"c": "Real Betis Balompié",
 "f": "2026-09-25",
 "id": "mj3knCzJ78Q",
 "t": "El trío calabaza 🎃🕺"
@@ -9745,12 +9757,6 @@
 "f": "2026-09-17",
 "id": "yRoZ9QQaIQ4",
 "t": "Ez Abde pone el primero en La Cartuja 🦁#LaLigaHighlights"
-},
-{
-"c": "Real Betis Balompié",
-"f": "2026-09-16",
-"id": "CwlHtXIWP5Q",
-"t": "🚨 DIRECTO | Rueda de prensa de Manuel Pellegrini previa al #RealBetisGetafe ⚽💚"
 }
 ],
 "Real Madrid": [
@@ -12654,6 +12660,18 @@
 }
 ],
 "Werder Bremen": [
+{
+"c": "Werder Bremen",
+"f": "2026-09-26",
+"id": "KjxMNR1kYuc",
+"t": "Werder Legenden - Real Madrid Leyendas (HL)"
+},
+{
+"c": "Werder Bremen",
+"f": "2026-09-26",
+"id": "oHTuyyP0gI8",
+"t": "100 JAHRE WESERSTADION! I AFTER-MATCH-SHOW"
+},
 {
 "c": "Werder Bremen",
 "f": "2026-09-23",
