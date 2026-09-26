@@ -244,6 +244,12 @@
 "AC Monza": [
 {
 "c": "AC Monza",
+"f": "2026-09-26",
+"id": "T-KVhSKZWZs",
+"t": "BIG ONE 🎙️⚪🎪 #HotelLobby #Mota #Folorunsho #migos #shorts"
+},
+{
+"c": "AC Monza",
 "f": "2026-09-25",
 "id": "n6BVfWs_rBM",
 "t": "🧱🇸🇪 #Tornqvist #turnitup #MonzaSassuolo #gk #shorts"
@@ -475,12 +481,6 @@
 "f": "2026-09-02",
 "id": "qrupGCARfrQ",
 "t": "TORINO 0 - 1 MONZA | HIGHLIGHTS COPPA ITALIA FRECCIAROSSA"
-},
-{
-"c": "AC Monza",
-"f": "2026-09-01",
-"id": "0YMupeL03Ic",
-"t": "CONFERENZA STAMPA | Le parole di Michael Folorunsho dopo Torino - Monza"
 }
 ],
 "AS Monaco": [
@@ -1460,6 +1460,24 @@
 },
 {
 "c": "Athletico Paranaense",
+"f": "2026-09-26",
+"id": "r87eEWYXDcI",
+"t": "RODADA DUPLA - ATHLETICO X CORITIBA | COPA SUL SUB-15 E SUB-17 - 2026 | AO VIVO E COM IMAGENS"
+},
+{
+"c": "Athletico Paranaense",
+"f": "2026-09-26",
+"id": "OSf3WyQuixI",
+"t": "ATHLETICO 0 X 0 CORITIBA | MELHORES MOMENTOS | COPA SUL SUB-15 2026"
+},
+{
+"c": "Athletico Paranaense",
+"f": "2026-09-26",
+"id": "RE5tH8gHVXo",
+"t": "NOVOS CARREGAMENTOS DE MÓDULOS DA ARQUIBANCADA RETRÁTIL"
+},
+{
+"c": "Athletico Paranaense",
 "f": "2026-09-25",
 "id": "BKz_aG4B76o",
 "t": "CARONA COM EL TREN! EP.03"
@@ -1529,12 +1547,6 @@
 "f": "2026-09-22",
 "id": "-bJuupDlIkU",
 "t": "FURACÃO NEWS EM 1 MINUTO - 22/09"
-},
-{
-"c": "Athletico Paranaense",
-"f": "2026-09-22",
-"id": "r87eEWYXDcI",
-"t": "RODADA DUPLA - ATHLETICO X CORITIBA | COPA SUL SUB-15 E SUB-17 - 2026 | AO VIVO E COM IMAGENS"
 },
 {
 "c": "Athletico Paranaense",
@@ -1679,21 +1691,15 @@
 "f": "2026-09-19",
 "id": "L4uc5rx8aq8",
 "t": "ATHLETICO 3 X 0 CRICIÚMA | MELHORES MOMENTOS | COPA SUL SUB-17 2026"
-},
-{
-"c": "Athletico Paranaense",
-"f": "2026-09-19",
-"id": "dDAKP85QNjk",
-"t": "ATHLETICO 5 X 1 CRICIÚMA | MELHORES MOMENTOS | COPA SUL SUB-15 2026"
-},
-{
-"c": "Athletico Paranaense",
-"f": "2026-09-18",
-"id": "K6nH47-P7po",
-"t": "EL TREN É SELEÇÃO! | KEVIN VIVEROS FALA SOBRE CONVOCAÇÃO"
 }
 ],
 "Bayern Munich": [
+{
+"c": "Bayern",
+"f": "2026-09-26",
+"id": "El_hDK8L2lk",
+"t": "München macht’s! Gemeinsam für Olympische und Paralympische Spiele in Deutschland - Bayern"
+},
 {
 "c": "Bayern",
 "f": "2026-09-25",
@@ -1927,12 +1933,6 @@
 "f": "2026-07-30",
 "id": "hnXq1fykTuQ",
 "t": "Zweite Station der zweitägigen Südosteuropa-Tour: Athen - Bayern"
-},
-{
-"c": "Bayern",
-"f": "2026-07-30",
-"id": "rACizV-bQIo",
-"t": "Erste Station der Südosteuropa-Tour: Budapest"
 }
 ],
 "Blackburn Rovers": [
@@ -3094,6 +3094,24 @@
 },
 {
 "c": "Corinthians TV",
+"f": "2026-09-26",
+"id": "YsXMfNu8Oz0",
+"t": "É dia de Majestoso pelo jogo de ida da final do Brasileirão Feminino. ❤️‍🔥"
+},
+{
+"c": "Corinthians TV",
+"f": "2026-09-26",
+"id": "e0qZejjTuVY",
+"t": "COLETIVA PÓS-JOGO | CORINTHIANS X BAHIA | EMILY LIMA | BRASILEIRÃO FEMININO 2026 | FINAL - IDA"
+},
+{
+"c": "Corinthians TV",
+"f": "2026-09-26",
+"id": "FA4bnCgDucg",
+"t": "TREINO DO TIMÃO: CORINTHIANS TEM MANHÃ DE TREINO NO CT DR. JOAQUIM GRAVA."
+},
+{
+"c": "Corinthians TV",
 "f": "2026-09-25",
 "id": "RtRkzWWjs1k",
 "t": "É PAREDÃO ATRÁS DE PAREDÃO! 🔥"
@@ -3301,24 +3319,6 @@
 "f": "2026-09-22",
 "id": "XeR7R4vMRNo",
 "t": "CORINTHIANS 1 X 0 BAHIA | BRASILEIRÃO FEMININO 2026 | SEMIFINAL - VOLTA | DIA DE CORINTHIANS"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-09-22",
-"id": "GutrM91ONwg",
-"t": "MELHORES MOMENTOS: CORINTHIANS 1 X 0 BAHIA | BRASILEIRÃO FEMININO 2026 | SEMIFINAL - VOLTA"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-09-22",
-"id": "gqT3vAFrzIw",
-"t": "JOGO COMPLETO: MOGI 94 X 63 CORINTHIANS | PAULISTA DE BASQUETE 2026 | SEMIFINAL - JOGO 1"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-09-22",
-"id": "-NYm0db_atE",
-"t": "Pré-jogo finalizado. Vamos à guerra. ⚔️"
 }
 ],
 "Coventry City": [
@@ -4474,6 +4474,12 @@
 "Fenerbahçe SK": [
 {
 "c": "Fenerbahçe SK",
+"f": "2026-09-26",
+"id": "KwmBlwuPDgc",
+"t": "Minsk 1-4 Fenerbahçe arsaVev | UEFA Kadınlar Avrupa Kupası 2. Ön Eleme Turu İlk Maçı"
+},
+{
+"c": "Fenerbahçe SK",
 "f": "2026-09-25",
 "id": "svYrSnD2NO4",
 "t": "Fenerbahçe Tarfin 78-68 Virtus Bologna"
@@ -4705,12 +4711,6 @@
 "f": "2026-08-30",
 "id": "Qw-iu72Q_-Y",
 "t": "Teknik Direktörümüz İsmail Kartal'ın Maç Sonu Basın Toplantısı | Samsunspor 0-2 Fenerbahçe"
-},
-{
-"c": "Fenerbahçe SK",
-"f": "2026-08-29",
-"id": "AmuXOf6LZEs",
-"t": "Yeni Transferimiz Kojo Peprah Oppong'un İlk Günü"
 }
 ],
 "Feyenoord": [
@@ -5182,6 +5182,18 @@
 },
 {
 "c": "Flamengo TV",
+"f": "2026-09-26",
+"id": "2wfS-VcMp3w",
+"t": "🔴 AO VIVO: FLAMENGO x FLUMINENSE | CAMPEONATO CARIOCA SUB-20 (26/09/26)"
+},
+{
+"c": "Flamengo TV",
+"f": "2026-09-26",
+"id": "giiECKJCNn0",
+"t": "QUANDO TUDO ESTÁ INDO AO NOSSO FAVOR… VEM MAIS UMA DATA FIFA - MEMENGO #73"
+},
+{
+"c": "Flamengo TV",
 "f": "2026-09-25",
 "id": "2fBMTleUg-g",
 "t": "🔴AO VIVO: COPA SUPERVÔLEI FEMININO - SESC FLAMENGO x FLUMINENSE | 24/09/26"
@@ -5233,12 +5245,6 @@
 "f": "2026-09-25",
 "id": "-aWUf94bXRw",
 "t": "🔴 AO VIVO: AMISTOSO DO FLABASQUETE - PEÑAROL x FLAMENGO | 28/09/26"
-},
-{
-"c": "Flamengo TV",
-"f": "2026-09-25",
-"id": "2wfS-VcMp3w",
-"t": "🔴 AO VIVO: FLAMENGO x FLUMINENSE | CAMPEONATO CARIOCA SUB-20 (26/09/26)"
 },
 {
 "c": "Flamengo TV",
@@ -5401,12 +5407,6 @@
 "f": "2026-09-21",
 "id": "VKNfBlqDwWI",
 "t": "COMEMORA, ARTILHEIRO! PEDROOOOO! ⚽️🟥⬛️"
-},
-{
-"c": "Flamengo TV",
-"f": "2026-09-21",
-"id": "IY2HMp7oaOo",
-"t": "BRILHAAAA, VARELAAAA! 🇺🇾🤩"
 }
 ],
 "Fluminense": [
@@ -5896,14 +5896,20 @@
 "Galatasaray SK": [
 {
 "c": "Galatasaray",
-"f": "2026-09-25",
-"id": "i-ZrChOk_zY",
-"t": "🔴 Kulübümüz ile 1905 GSYİAD arasında gerçekleştirilen sponsorluk anlaşmasının imza töreni"
+"f": "2026-09-26",
+"id": "B03OcZAc_wo",
+"t": "🔴 Galatasaray - Amed S. F. (Suwen Kadın Futbol Süper Ligi 5. Hafta)"
+},
+{
+"c": "Galatasaray",
+"f": "2026-09-26",
+"id": "7wSNrrdFk_I",
+"t": "🔴 Galatasaray - Amed S. F. (Suwen Kadın Futbol Süper Ligi 5. Hafta)"
 },
 {
 "c": "Galatasaray",
 "f": "2026-09-25",
-"id": "B03OcZAc_wo",
+"id": "i-ZrChOk_zY",
 "t": "🔴 Kulübümüz ile 1905 GSYİAD arasında gerçekleştirilen sponsorluk anlaşmasının imza töreni"
 },
 {
@@ -6127,12 +6133,6 @@
 "f": "2026-08-27",
 "id": "TAdqEv73am0",
 "t": "🔴 UEFA Şampiyonlar Ligi 2026/27 Sezonu Kura Çekimi Yayını #UCLdraw"
-},
-{
-"c": "Galatasaray",
-"f": "2026-08-27",
-"id": "nk5vzwe-_Sk",
-"t": "🔴 Galatasaray SK Başkanı Dursun Aydın Özbek'in, Şampiyonlar Ligi Kura Çekimi Sonrası Açıklamaları"
 }
 ],
 "Girona": [
@@ -6380,6 +6380,12 @@
 "Gremio": [
 {
 "c": "Grêmio FBPA",
+"f": "2026-09-26",
+"id": "yBHtVTTavsI",
+"t": "91º JANTAR FARROUPILHA DO IMORTAL TRICOLOR"
+},
+{
+"c": "Grêmio FBPA",
 "f": "2026-09-25",
 "id": "MDCieNWFWa4",
 "t": "AO VIVO E COM IMAGENS | GRÊMIO X SÃO JOSÉ I MASC (COPA SUL SUB-20 I 2026)"
@@ -6611,12 +6617,6 @@
 "f": "2026-08-31",
 "id": "TRR4r3o95n8",
 "t": "GOLS | GRÊMIO 3X1 CHAPECOENSE (CAMPEONATO BRASILEIRO 2026)"
-},
-{
-"c": "Grêmio FBPA",
-"f": "2026-08-31",
-"id": "3JToJnBu0Bg",
-"t": "AO VIVO | GRÊMIO X CHAPECOENSE (CAMPEONATO BRASILEIRO 2026)"
 }
 ],
 "Inter": [
@@ -6625,6 +6625,12 @@
 "f": "2026-09-26",
 "id": "jNog2qFMjDg",
 "t": "EP. 19 | Helenio - La bacchetta"
+},
+{
+"c": "Inter",
+"f": "2026-09-26",
+"id": "5meVE7lHEOc",
+"t": "Andy - The rifle"
 },
 {
 "c": "Inter",
@@ -6853,12 +6859,6 @@
 "f": "2026-09-19",
 "id": "x6hk0zt8e6o",
 "t": "Ready. Set. Showtime 🎬🔥 @qatarairways"
-},
-{
-"c": "Inter",
-"f": "2026-09-19",
-"id": "ICJzVACE_-I",
-"t": "Away Kit takes the stage 🤍🖌️"
 }
 ],
 "Ipswich Town": [
@@ -7124,6 +7124,12 @@
 },
 {
 "c": "Juventus",
+"f": "2026-09-26",
+"id": "5CsGyIVCAS8",
+"t": "FRANCESCA MICHIELIN IS SCARED TO MEET DEL PIERO 😱😂"
+},
+{
+"c": "Juventus",
 "f": "2026-09-25",
 "id": "ubWwxTrfLyw",
 "t": "Juventus U20 vs Al Ain U23 | Friendly | International Break"
@@ -7337,12 +7343,6 @@
 "f": "2026-09-20",
 "id": "GpRV5llxDYs",
 "t": "Del Piero at the Allianz Stadium for Juventus-Atalanta 🔟🌟"
-},
-{
-"c": "Juventus",
-"f": "2026-09-20",
-"id": "Ra8L_qFHua0",
-"t": "“WE COULD HAVE HURT THEM EVEN MORE” | Spalletti After Juventus-Atalanta"
 }
 ],
 "Leeds United": [
@@ -7742,6 +7742,18 @@
 "Liverpool": [
 {
 "c": "Liverpool FC",
+"f": "2026-09-26",
+"id": "S2IY-U3sj5I",
+"t": "Top five long range goals!"
+},
+{
+"c": "Liverpool FC",
+"f": "2026-09-26",
+"id": "ZAYg6s0h-7A",
+"t": "Liverpool's Top 20 Long-Range Goals in the Premier League"
+},
+{
+"c": "Liverpool FC",
 "f": "2026-09-25",
 "id": "8fax21W54xM",
 "t": "Which free-kick would you add? 🚀🤔"
@@ -7967,18 +7979,6 @@
 "f": "2026-09-16",
 "id": "D_gUsgh0Uxo",
 "t": "Jacquet 💪"
-},
-{
-"c": "Liverpool FC",
-"f": "2026-09-15",
-"id": "js_gXCZlvNA",
-"t": "Pre-Match Live: Liverpool vs Tottenham | Team news and more for Carabao Cup"
-},
-{
-"c": "Liverpool FC",
-"f": "2026-09-15",
-"id": "EHMd8SYID1E",
-"t": "Tunnel Reaction! Into the fourth round 🙌"
 }
 ],
 "Metz": [
@@ -8326,6 +8326,12 @@
 },
 {
 "c": "Málaga CF",
+"f": "2026-09-25",
+"id": "AgtdBEdmQlk",
+"t": "🔴 EN DIRECTO | Atlético Malagueño - Atlético Marbella Paraíso (Tercera Federación)"
+},
+{
+"c": "Málaga CF",
 "f": "2026-09-24",
 "id": "JFAdHMzKVS4",
 "t": "El Club de Empresas MCF da la bienvenida a la campaña 26/27"
@@ -8539,12 +8545,6 @@
 "f": "2026-09-06",
 "id": "Afadb551X-I",
 "t": "Zona mixta Recio | #MálagaLevanteUD"
-},
-{
-"c": "Málaga CF",
-"f": "2026-09-06",
-"id": "58bKcZpjRLo",
-"t": "Zona mixta Martínez | #MálagaLevanteUD"
 }
 ],
 "Oxford United": [
@@ -8792,6 +8792,24 @@
 "Palmeiras": [
 {
 "c": "TV Palmeiras Sportingbet",
+"f": "2026-09-26",
+"id": "WMCIrp79xLo",
+"t": "JOGO COMPLETO | PALMEIRAS 8 X 0 LG FC | PAULISTA SUB-17 2026"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-09-26",
+"id": "CDl6i3GruoI",
+"t": "JOGO COMPLETO | PALMEIRAS 10 X 0 UNIÃO SUZANO | PAULISTA SUB-15 2026"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-09-26",
+"id": "qNGdBVA-jyk",
+"t": "QUIZ QUEM FEZ O GOL? - TEMPORADA 2026 #09"
+},
+{
+"c": "TV Palmeiras Sportingbet",
 "f": "2026-09-25",
 "id": "HstF3dwUxMw",
 "t": "QUIZ QUEM FEZ O GOL? - TEMPORADA 2026 #07"
@@ -8831,18 +8849,6 @@
 "f": "2026-09-25",
 "id": "gl8pVNm6O4k",
 "t": "QUE FRIEZA DO PACHECO!"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-09-25",
-"id": "WMCIrp79xLo",
-"t": "AO VIVO COM IMAGENS | PALMEIRAS X LG FC | PAULISTA SUB-17 2026"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-09-25",
-"id": "CDl6i3GruoI",
-"t": "AO VIVO COM IMAGENS | PALMEIRAS X UNIÃO SUZANO | PAULISTA SUB-15 2026"
 },
 {
 "c": "TV Palmeiras Sportingbet",
@@ -9023,15 +9029,15 @@
 "f": "2026-09-18",
 "id": "iaPtIW2zHHI",
 "t": "A FALA EMOCIONANTE DE ABEL FERREIRA NO VESTIÁRIO CONTRA A LDU! 🟢🔥"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-09-18",
-"id": "mtvLgsMVOpU",
-"t": "DISCURSO FORTE NO VESTIÁRIO! 🔥💚"
 }
 ],
 "Paris FC": [
+{
+"c": "Paris FC",
+"f": "2026-09-26",
+"id": "Z-XfWoB2jK4",
+"t": "🌟 CAP SUR L'EUROPE : au coeur de la rencontre face à Barcelone"
+},
 {
 "c": "Paris FC",
 "f": "2026-09-22",
@@ -9265,12 +9271,6 @@
 "f": "2026-08-28",
 "id": "TD0i37rz2qc",
 "t": "Le point presse avant Nice (J2) ! En entier sur notre chaîne 📺"
-},
-{
-"c": "Paris FC",
-"f": "2026-08-28",
-"id": "3qKCPxTDu5Y",
-"t": "La conférence de presse avant la première à domicile, face à Nice !"
 }
 ],
 "Qarabağ Ağdam FK": [
@@ -10404,6 +10404,12 @@
 "Sabah FK": [
 {
 "c": "Sabah",
+"f": "2026-09-26",
+"id": "q8B1a_S2utU",
+"t": "🇹🇷 İLK SIRAYA TÜRKİYE’Yİ YAZ!"
+},
+{
+"c": "Sabah",
 "f": "2026-09-24",
 "id": "3m2vmy5rzSg",
 "t": "Gençlere sorduk: Bir seyahati unutulmaz kılan ne? Yeni şehirler, yeni insanlar ve yeni deneyimler…"
@@ -10860,7 +10866,7 @@
 "c": "Sheffield United FC",
 "f": "2026-09-26",
 "id": "4tNrrQpop8c",
-"t": "Inside Training | Preparations looking ahead to Durham at home | Sheffield United Women"
+"t": "🎬 Inside Training | Preparing for a return to Bramall Lane to take on Durham 💪 | Sheffield Utd Women"
 },
 {
 "c": "Sheffield United FC",
@@ -11984,6 +11990,18 @@
 "São Paulo": [
 {
 "c": "São Paulo FC",
+"f": "2026-09-26",
+"id": "ZwyLDh9ETRc",
+"t": "PAULISTA SUB-17 2026: SÃO PAULO X SALTO | SPFC PLAY"
+},
+{
+"c": "São Paulo FC",
+"f": "2026-09-26",
+"id": "5pxG-OZ3X3Q",
+"t": "PAULISTA SUB-15 2026: SÃO PAULO X MONTE AZUL | SPFC PLAY"
+},
+{
+"c": "São Paulo FC",
 "f": "2026-09-25",
 "id": "LtbnEVtgNJE",
 "t": "DIRETO DO SUPERCT: 25/09/2026 | SPFC PLAY"
@@ -12005,18 +12023,6 @@
 "f": "2026-09-24",
 "id": "vIa0BgdOU3c",
 "t": "BOLETIM DO FEMININO: 24/09/2026 | SPFC PLAY"
-},
-{
-"c": "São Paulo FC",
-"f": "2026-09-23",
-"id": "ZwyLDh9ETRc",
-"t": "PAULISTA SUB-17 2026: SÃO PAULO X SALTO | SPFC PLAY"
-},
-{
-"c": "São Paulo FC",
-"f": "2026-09-23",
-"id": "5pxG-OZ3X3Q",
-"t": "PAULISTA SUB-15 2026: SÃO PAULO X MONTE AZUL | SPFC PLAY"
 },
 {
 "c": "São Paulo FC",
