@@ -728,6 +728,24 @@
 "AS Roma": [
 {
 "c": "AS Roma",
+"f": "2026-09-27",
+"id": "B0psMrdp5t4",
+"t": "SASSUOLO 1-3 ROMA | Serie A Women 2026-27"
+},
+{
+"c": "AS Roma",
+"f": "2026-09-27",
+"id": "gq0BuJVMo6w",
+"t": "INTERVISTA PIOVANI | Post Match | Sassuolo-Roma | Serie A Women"
+},
+{
+"c": "AS Roma",
+"f": "2026-09-27",
+"id": "L8GkldHPbMk",
+"t": "INTERVISTA PIEMONTE | Post Match | Sassuolo-Roma | Serie A Women"
+},
+{
+"c": "AS Roma",
 "f": "2026-09-24",
 "id": "NAWbmhP9Vhw",
 "t": "OH LEUVEN 0-0 ROMA | Uefa Women's Champions League 2026-27"
@@ -947,24 +965,6 @@
 "f": "2026-08-28",
 "id": "s8A9zdnrEh8",
 "t": "✍️ BENVENUTA KAYLEIGH! | La prima intervista di van Dooren in giallorosso 🎙️"
-},
-{
-"c": "AS Roma",
-"f": "2026-08-26",
-"id": "NSKUjWwTVIE",
-"t": "🎥 TUNNEL CAM | ROMA 4-0 FIORENTINA"
-},
-{
-"c": "AS Roma",
-"f": "2026-08-25",
-"id": "u74JF-lG7nY",
-"t": "ROMA 4-0 FIORENTINA | SERIE A HIGHLIGHTS 2026-27"
-},
-{
-"c": "AS Roma",
-"f": "2026-08-23",
-"id": "1rip-JuG_yo",
-"t": "🖼️ Dipingiamo il nostro futuro 💛❤️"
 }
 ],
 "Arsenal": [
@@ -1454,6 +1454,12 @@
 "Athletico Paranaense": [
 {
 "c": "Athletico Paranaense",
+"f": "2026-09-27",
+"id": "772Y3sOzwFY",
+"t": "TREINAMENTO DE CONFRONTO | POR DENTRO DO CAP - 27/09"
+},
+{
+"c": "Athletico Paranaense",
 "f": "2026-09-26",
 "id": "UD8BJF8Vx6Y",
 "t": "FURACÃO NEWS EM 1 MINUTO - 25/09"
@@ -1685,12 +1691,6 @@
 "f": "2026-09-19",
 "id": "gZDO3J-EZgg",
 "t": "RODADA DUPLA - ATHLETICO X CRICIÚMA | COPA SUL SUB-15 E SUB-17 - 2026 | AO VIVO E COM IMAGENS"
-},
-{
-"c": "Athletico Paranaense",
-"f": "2026-09-19",
-"id": "67p4Sm14VFA",
-"t": "ATHLETICO PARANAENSE X AZURIZ - COPA PARANÁ 2026 | AO VIVO E COM IMAGENS"
 }
 ],
 "Bayern Munich": [
@@ -3084,7 +3084,13 @@
 "c": "Corinthians TV",
 "f": "2026-09-27",
 "id": "CkGsE__Wsfc",
-"t": "BASTIDORES DA BASE | CORINTHIANS 5 x 2 XV DE JAÚ | Paulistão Sub-20"
+"t": "BASTIDORES DA BASE | CORINTHIANS 5 x 2 XV DE JAÚ | PAULISTÃO SUB-20 2026 | 2ª FASE  -  VOLTA"
+},
+{
+"c": "Corinthians TV",
+"f": "2026-09-27",
+"id": "jdCvUGYBDQk",
+"t": "TREINO DO TIMÃO: A MANHÃ DO CORINTHIANS NO CT DR. JOAQUIM GRAVA."
 },
 {
 "c": "Corinthians TV",
@@ -3120,7 +3126,7 @@
 "c": "Corinthians TV",
 "f": "2026-09-26",
 "id": "YmiQiYJqZYY",
-"t": "GABI ZANOTII ABRE O PLACAR PARA O CORINGÃO!!"
+"t": "GABI ZANOTTI ABRE O PLACAR PARA O CORINGÃO!!"
 },
 {
 "c": "Corinthians TV",
@@ -3313,12 +3319,6 @@
 "f": "2026-09-23",
 "id": "TOnF2x3n7dI",
 "t": "Fala, Leal! 🗣️🎙️"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-09-23",
-"id": "yZDgmPu7blU",
-"t": "Caio Rabisco decolando com o manto alvinegro! ⚫⚪"
 }
 ],
 "Coventry City": [
@@ -5188,6 +5188,12 @@
 },
 {
 "c": "Flamengo TV",
+"f": "2026-09-27",
+"id": "Vibk2aBQLic",
+"t": "TRAGAM UM CPF PARA O HOMEM??😱😱STEPHEN A. PARTICIPA DE UM QUIZ ESPECIAL SOBRE BRASIL, RJ E FLAMENGO"
+},
+{
+"c": "Flamengo TV",
 "f": "2026-09-26",
 "id": "wa0xCgP34Hk",
 "t": "NO CLIMA DO NFL RIO GAME 🏈🔴⚫️"
@@ -5407,12 +5413,6 @@
 "f": "2026-09-21",
 "id": "an_yeqqUpCw",
 "t": "+3 PONTOS DO LÍDER! MENGOOOO! ❤️🖤"
-},
-{
-"c": "Flamengo TV",
-"f": "2026-09-21",
-"id": "KvoGr27mJAE",
-"t": "PRIMEIRO GOL DO MENGÃO NO CONFRONTA CONTRA O BRAGANTINO! 🔴⚫"
 }
 ],
 "Fluminense": [
@@ -6646,6 +6646,24 @@
 },
 {
 "c": "Inter",
+"f": "2026-09-27",
+"id": "pMp8Hhcpu64",
+"t": "PARTENZA VINCENTE | INTER 2-0 FIORENTINA | SERIE A WOMEN"
+},
+{
+"c": "Inter",
+"f": "2026-09-27",
+"id": "7SbagjR_eBk",
+"t": "San Siro - 100"
+},
+{
+"c": "Inter",
+"f": "2026-09-27",
+"id": "GgLAcjZhuFc",
+"t": "We pushed, we scored 💪⚽️"
+},
+{
+"c": "Inter",
 "f": "2026-09-26",
 "id": "jNog2qFMjDg",
 "t": "EP. 19 | Helenio - La bacchetta"
@@ -6847,24 +6865,6 @@
 "f": "2026-09-19",
 "id": "8owsp8Uz-Q8",
 "t": "𝓢𝓪𝓷𝓭𝓻𝓸 - Per sempre 🖤💙"
-},
-{
-"c": "Inter",
-"f": "2026-09-19",
-"id": "n_1qlTh7iCg",
-"t": "𝑪𝑰𝑨𝑶 𝑺𝑨𝑵𝑫𝑹𝑶 🖤💙 | MAZZOLA - Nerazzurro Forever ♾️"
-},
-{
-"c": "Inter",
-"f": "2026-09-19",
-"id": "Ia863yjQDIU",
-"t": "DA ZAMORANO A STANKOVIĆ: CHE PERLE CONTRO LA ROMA! 🤩 | TOP 5 GOL VS ROMA | PRESENTED BY PIRELLI"
-},
-{
-"c": "Inter",
-"f": "2026-09-19",
-"id": "oD5lBMz61Qo",
-"t": "He watched. He learned. He became one of the greats.Sandro Mazzola, forever Nerazzurro 🖤💙"
 }
 ],
 "Ipswich Town": [
@@ -7136,6 +7136,18 @@
 },
 {
 "c": "Juventus",
+"f": "2026-09-27",
+"id": "IxuZO2Z1xiU",
+"t": "LICHTSTEINER’S HEROIC GOAL-LINE SAVE! 🛑🇨🇭"
+},
+{
+"c": "Juventus",
+"f": "2026-09-27",
+"id": "pOaGxb5eT7g",
+"t": "Will WESTON keep the TOWER from FALLING? 🧱"
+},
+{
+"c": "Juventus",
 "f": "2026-09-26",
 "id": "KE-OCiW-8Yg",
 "t": "CONCEIÇÃO’S PASSION IN SLOW MOTION 🎬⚪️⚫️"
@@ -7337,18 +7349,6 @@
 "f": "2026-09-21",
 "id": "XXy1EU8q1P4",
 "t": "ALL THE MATCH ACTION | Lazio-Juventus U20 | Primavera 1"
-},
-{
-"c": "Juventus",
-"f": "2026-09-21",
-"id": "787agp9N7HY",
-"t": "KOLO MUANI WINS IT BACK, THEN SHOWS THE SKILL!"
-},
-{
-"c": "Juventus",
-"f": "2026-09-20",
-"id": "Bq9CYbljcUU",
-"t": "That was unexpected. Hey, Celik 👋​🇹🇷​"
 }
 ],
 "Leeds United": [
@@ -8580,6 +8580,12 @@
 },
 {
 "c": "Oxford United Official",
+"f": "2026-09-27",
+"id": "UnqtBmmFsUQ",
+"t": "Liam Gilbert and Maddie Brant React to 1-1 Draw With Arsenal PGA | Post-Match Interviews"
+},
+{
+"c": "Oxford United Official",
 "f": "2026-09-26",
 "id": "AJUape2jKjI",
 "t": "What is the name of your boys group chat? 📲"
@@ -8793,15 +8799,21 @@
 "f": "2026-09-06",
 "id": "W72fQgD8S64",
 "t": "First professional goal for Mo Missanga! 🤩"
-},
-{
-"c": "Oxford United Official",
-"f": "2026-09-06",
-"id": "Ae1OXBD9CJk",
-"t": "Jamie McDonnell makes it four against Leicester City! 👏"
 }
 ],
 "Palmeiras": [
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-09-27",
+"id": "tgXQWLXj2z0",
+"t": "TODO ESFORÇO DO CARLOS MIGUEL NO TREINO DO VERDÃO 💚🐷"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-09-27",
+"id": "jWPx2yzdxdI",
+"t": "FIM DE SEMANA DE SOL E TREINO NA ACADEMIA DE FUTEBOL 🔥💚"
+},
 {
 "c": "TV Palmeiras Sportingbet",
 "f": "2026-09-26",
@@ -9029,18 +9041,6 @@
 "f": "2026-09-19",
 "id": "3eTp34IRzZI",
 "t": "NA CHEGADA AO HOTEL, A RECEPÇÃO DA #FAMÍLIAPALMEIRAS 💚"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-09-19",
-"id": "JIXkpohmWnE",
-"t": "NOSSO CAMINHO ATÉ POA! ✈️"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-09-19",
-"id": "86nkXqlgXIY",
-"t": "BOLETIM PRÉ-JOGO | GRÊMIO X PALMEIRAS | BRASILEIRÃO 2026"
 }
 ],
 "Paris FC": [
@@ -9532,6 +9532,12 @@
 },
 {
 "c": "Real Betis Balompié",
+"f": "2026-09-27",
+"id": "ZMbTzEEfUkg",
+"t": "🚨 DIRECTO | Betis C - Xerez Deportivo FC | CANTERA"
+},
+{
+"c": "Real Betis Balompié",
 "f": "2026-09-26",
 "id": "_83EtMOushY",
 "t": "Brasil 🇧🇷 vs Colombia 🇨🇴 en estos retos de la NFL 🏈 | CHALLENGE | Real BETIS Balompié"
@@ -9757,12 +9763,6 @@
 "f": "2026-09-17",
 "id": "apucuTIC44U",
 "t": "Que el ritmo no pare, no pare no."
-},
-{
-"c": "Real Betis Balompié",
-"f": "2026-09-17",
-"id": "x4A3786MfJo",
-"t": "Declarado el estado de 𝒃𝒆𝒕𝒊𝒄𝒊𝒅𝒂𝒅."
 }
 ],
 "Real Madrid": [
@@ -10016,6 +10016,12 @@
 },
 {
 "c": "SC Paderborn 07 TV (official)",
+"f": "2026-09-27",
+"id": "OejhrWGFsHE",
+"t": "𝑹𝒆𝒂𝒅𝒚 𝒇𝒐𝒓 𝒕𝒐𝒅𝒂𝒚'𝒔 𝒇𝒐𝒐𝒕𝒃𝒂𝒍𝒍 𝒈𝒂𝒎𝒆 🏈😅"
+},
+{
+"c": "SC Paderborn 07 TV (official)",
 "f": "2026-09-25",
 "id": "o8Q4UWvl5dU",
 "t": "Unsere USA-Tour startet 🤩🇺🇸"
@@ -10241,12 +10247,6 @@
 "f": "2026-09-07",
 "id": "iHMwboxbQGA",
 "t": "Reklamieren auf ostwestfälisch! 🫂😂"
-},
-{
-"c": "SC Paderborn 07 TV (official)",
-"f": "2026-09-06",
-"id": "xCNFgeZKcb0",
-"t": "\"Euphorie war da\" | Steffen Tigges nach der 0:1-Heimniederlage gegen den SC Freiburg"
 }
 ],
 "SV 07 Elversberg": [
@@ -10640,6 +10640,12 @@
 "Sevilla": [
 {
 "c": "Sevilla FC",
+"f": "2026-09-27",
+"id": "AdCi5IegX0k",
+"t": "Sevilla FC - SD Eibar (0-1) | Liga F Moeve | Resumen"
+},
+{
+"c": "Sevilla FC",
 "f": "2026-09-25",
 "id": "CcUjFuZSndw",
 "t": "🥹 Rakitic recuerda cómo vivió la noche del Sevilla FC - Manchester… 🏆❤️‍🔥  #sevillafc #uel"
@@ -10871,15 +10877,21 @@
 "f": "2026-09-11",
 "id": "gdoECAmYDyw",
 "t": "Las reacciones de los protagonistas tras el Sevilla FC - Valencia CF"
-},
-{
-"c": "Sevilla FC",
-"f": "2026-09-11",
-"id": "YIe05-58dv0",
-"t": "+𝟑 𝐄𝐐𝐔𝐈𝐏𝐎 🤍❤️𝟏𝟎/𝟏𝟓 ✨#SevillaValencia"
 }
 ],
 "Sheffield United": [
+{
+"c": "Sheffield United FC",
+"f": "2026-09-27",
+"id": "k9JH1YVO2YE",
+"t": "Stephen Healy | Sheffield United 4-1 Durham Women | Match reaction"
+},
+{
+"c": "Sheffield United FC",
+"f": "2026-09-27",
+"id": "sjibi8JQl0o",
+"t": "Amy Andrews | Sheffield United 4-1 Durham | Match reaction"
+},
 {
 "c": "Sheffield United FC",
 "f": "2026-09-26",
@@ -11107,18 +11119,6 @@
 "f": "2026-09-08",
 "id": "4ll_PqwCs8E",
 "t": "Sydie Peck | Blackburn Rovers 1-2 Sheffield United | Post Match Reaction"
-},
-{
-"c": "Sheffield United FC",
-"f": "2026-09-07",
-"id": "Ll5_DQ_vhTc",
-"t": "Chris Wilder: We're striving for consistency"
-},
-{
-"c": "Sheffield United FC",
-"f": "2026-09-07",
-"id": "UZ-JzgsVFS0",
-"t": "Sheffield United Women 0-1 Leicester City Women | Barclays WSL2 highlights"
 }
 ],
 "Southampton": [
