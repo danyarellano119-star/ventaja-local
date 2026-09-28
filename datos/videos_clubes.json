@@ -4488,7 +4488,7 @@
 "c": "Fenerbahçe SK",
 "f": "2026-09-27",
 "id": "NwRs9SKgPQs",
-"t": "🔵 CANLI | Kulübümüzün Olağan Genel Kurul Toplantısı"
+"t": "Kulübümüzün Olağan Genel Kurul Toplantısı"
 },
 {
 "c": "Fenerbahçe SK",
@@ -6640,6 +6640,12 @@
 "Inter": [
 {
 "c": "Inter",
+"f": "2026-09-28",
+"id": "r4kxhU4EoI8",
+"t": "EP. 21 | Alessandro - L'esordio"
+},
+{
+"c": "Inter",
 "f": "2026-09-27",
 "id": "Ud2Pt8aWOjY",
 "t": "We already knew everything from Lautaro’s pass 🖤💙"
@@ -6871,12 +6877,6 @@
 "f": "2026-09-20",
 "id": "7stp6WkZWho",
 "t": "𝐶𝑖𝑛𝑒𝑚𝑎 🍿"
-},
-{
-"c": "Inter",
-"f": "2026-09-19",
-"id": "8owsp8Uz-Q8",
-"t": "𝓢𝓪𝓷𝓭𝓻𝓸 - Per sempre 🖤💙"
 }
 ],
 "Ipswich Town": [
@@ -10016,6 +10016,12 @@
 "SC Paderborn 07": [
 {
 "c": "SC Paderborn 07 TV (official)",
+"f": "2026-09-28",
+"id": "K_As8MReeIk",
+"t": "Dürfen wir vorstellen? Das ist der SC Ponchoborn 07 😅🏈🏟️"
+},
+{
+"c": "SC Paderborn 07 TV (official)",
 "f": "2026-09-27",
 "id": "8vIbbUuuRW4",
 "t": "\"Spielen abends gerne Wizard!\" | Gabriel Vidović im Interview"
@@ -10247,12 +10253,6 @@
 "f": "2026-09-10",
 "id": "Uo5dRjiJAwQ",
 "t": "Pressekonferenz vor unserem Auswärtsspiel bei Borussia Dortmund"
-},
-{
-"c": "SC Paderborn 07 TV (official)",
-"f": "2026-09-09",
-"id": "7RfyUO7SeVk",
-"t": "\"Vorfreude könnte nicht größer sein!\" | Felix Götze vor dem Auswärtsspiel bei Borussia Dortmund"
 }
 ],
 "SV 07 Elversberg": [
