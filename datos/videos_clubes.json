@@ -2,6 +2,12 @@
 "AC Milan": [
 {
 "c": "AC Milan",
+"f": "2026-09-29",
+"id": "hVvKKzEcEbk",
+"t": "Il momento di Sheva. Manchester, 2003 ❤️‍🔥"
+},
+{
+"c": "AC Milan",
 "f": "2026-09-28",
 "id": "OHcOFkpQTm4",
 "t": "Extended Highlights 2008/09 | Milan 1-0 Inter | Il primo gol di Ronaldinho decide il Derby di Milano"
@@ -233,12 +239,6 @@
 "f": "2026-09-18",
 "id": "an0XKAkfqt4",
 "t": "Auguri Chris!"
-},
-{
-"c": "AC Milan",
-"f": "2026-09-16",
-"id": "zP7MSIA6VVE",
-"t": "Bentornato a casa, Manuel Rui Costa 🪄"
 }
 ],
 "AC Monza": [
@@ -970,6 +970,12 @@
 "Arsenal": [
 {
 "c": "Arsenal",
+"f": "2026-09-29",
+"id": "ZGaVYyYDF_8",
+"t": "UNBELIEVABLE GOAL LINE CLEARANCE!"
+},
+{
+"c": "Arsenal",
 "f": "2026-09-28",
 "id": "bXG6yHROEms",
 "t": "SERGE GNABRY FINISHES ARSENAL MOVE!"
@@ -1201,12 +1207,6 @@
 "f": "2026-09-14",
 "id": "Z773A3Xqsec",
 "t": "Arteta reacts to Guimaraes and Saka's strikes 🙌 | Bench Cam | Sunderland 0-2 Arsenal | EPL"
-},
-{
-"c": "Arsenal",
-"f": "2026-09-13",
-"id": "Enz18pdQMoI",
-"t": "JUST DAVID RAYA THINGS!"
 }
 ],
 "Atalanta BC": [
@@ -1466,6 +1466,18 @@
 },
 {
 "c": "Athletico Paranaense",
+"f": "2026-09-28",
+"id": "Z2l6Bi3G__A",
+"t": "FURACAO NEWS  EM 1 MINUTO - 28/09"
+},
+{
+"c": "Athletico Paranaense",
+"f": "2026-09-28",
+"id": "D7q91f76evI",
+"t": "AS NOTÍCIAS DE SEGUNDA-FEIRA | FURACÃO NEWS - 28/09"
+},
+{
+"c": "Athletico Paranaense",
 "f": "2026-09-27",
 "id": "772Y3sOzwFY",
 "t": "TREINAMENTO DE CONFRONTO | POR DENTRO DO CAP - 27/09"
@@ -1679,18 +1691,6 @@
 "f": "2026-09-21",
 "id": "Reff9gArsD8",
 "t": "ENTREVISTA | ARTHUR DIAS EMBARCA PARA SE APRESENTAR À SELEÇÃO BRASILEIRA"
-},
-{
-"c": "Athletico Paranaense",
-"f": "2026-09-21",
-"id": "_t6pdaYbW0E",
-"t": "BORA PRA SELEÇÃO, ARTHUR!"
-},
-{
-"c": "Athletico Paranaense",
-"f": "2026-09-21",
-"id": "HzFe8SCunKA",
-"t": "PARTIU, SELEÇÃO COLOMBIANA!"
 }
 ],
 "Bayern Munich": [
@@ -3082,6 +3082,12 @@
 "Corinthians": [
 {
 "c": "Corinthians TV",
+"f": "2026-09-29",
+"id": "ym2h6cjD2SA",
+"t": "MELHORES MOMENTOS: CORINTHIANS 1 X 1 PATO FUTSAL | LNF 2026 | OITAVAS DE FINAL - IDA"
+},
+{
+"c": "Corinthians TV",
 "f": "2026-09-28",
 "id": "1FScFaZHmt8",
 "t": "TREINO DO TIMÃO: INÍCIO DA SEMANA NO CT DR. JOAQUIM GRAVA"
@@ -3313,12 +3319,6 @@
 "f": "2026-09-23",
 "id": "6Kqb2SerC0g",
 "t": "Um cenário único para transformar cada encontro em uma experiência memorável."
-},
-{
-"c": "Corinthians TV",
-"f": "2026-09-23",
-"id": "Na_PGvCI76s",
-"t": "Se existe passeio perfeito, a Fiel já sabe onde encontrar. 🖤🤍"
 }
 ],
 "Coventry City": [
@@ -5194,6 +5194,36 @@
 "Flamengo": [
 {
 "c": "Flamengo TV",
+"f": "2026-09-29",
+"id": "c7bGAeiMdAg",
+"t": "🔴 AO VIVO: AMISTOSO DO FLABASQUETE - PEÑAROL x FLAMENGO | 28/09/26"
+},
+{
+"c": "Flamengo TV",
+"f": "2026-09-29",
+"id": "Xn0lTh9EsHo",
+"t": "BAP CRITICOU A MUDANÇA REPENTINA DE POSTURA DO GOVERNO - MENGOCAST #66"
+},
+{
+"c": "Flamengo TV",
+"f": "2026-09-29",
+"id": "aEneHn71oAQ",
+"t": "O FLAMENGO AGE ESTRITAMENTE DENTRO DA LEI - MENGOCAST #66"
+},
+{
+"c": "Flamengo TV",
+"f": "2026-09-29",
+"id": "BI9OkyUpcFA",
+"t": "BAP EXPLICA O VERDADEIRO IMPACTO DO BANIMENTO DAS CASAS DE APOSTAS - MENGOCAST #66"
+},
+{
+"c": "Flamengo TV",
+"f": "2026-09-29",
+"id": "yIUZneKs0ds",
+"t": "BAP ANALISA IMPACTOS DA PROIBIÇÃO DAS BETS NO BRASIL - MENGOCAST #66"
+},
+{
+"c": "Flamengo TV",
 "f": "2026-09-28",
 "id": "-8C5hub1KIc",
 "t": "Vem aí o Miniestádio do Ninho!"
@@ -5203,12 +5233,6 @@
 "f": "2026-09-28",
 "id": "9hdbQ08qPGs",
 "t": "QUEM DO ELENCO DO MENGÃO DE DARIA BEM JOGANDO FUTEBOL AMERICANO? 🏈⚽️"
-},
-{
-"c": "Flamengo TV",
-"f": "2026-09-28",
-"id": "c7bGAeiMdAg",
-"t": "🔴 AO VIVO: AMISTOSO DO FLABASQUETE - PEÑAROL x FLAMENGO | 28/09/26"
 },
 {
 "c": "Flamengo TV",
@@ -5407,30 +5431,6 @@
 "f": "2026-09-22",
 "id": "wOU15Wojio0",
 "t": "FLAPRESS NO AR, NAÇÃO! VEM CONHECER AS NOVAS CONTRATAÇÕES DO VÔLEI DO MENGÃO!"
-},
-{
-"c": "Flamengo TV",
-"f": "2026-09-21",
-"id": "FxjoNP8ZL4M",
-"t": "🔴 AO VIVO: FLAMENGO x RB BRAGANTINO | COM IMAGENS E NARRAÇÃO EM PORTUGUÊS | BRASILEIRÃO (20/09/26)"
-},
-{
-"c": "Flamengo TV",
-"f": "2026-09-21",
-"id": "vHtxgPT3NDE",
-"t": "🔴 AO VIVO: FLAMENGO x RB BRAGANTINO | PRÉ-JOGO + NARRAÇÃO | BRASILEIRÃO (20/09/26)"
-},
-{
-"c": "Flamengo TV",
-"f": "2026-09-21",
-"id": "Cu_pxMWLV9g",
-"t": "¡EL GOLEADOR DEL MENGÃO DEJÓ SU MARCA UNA VEZ MÁS! ⚽🔴⚫"
-},
-{
-"c": "Flamengo TV",
-"f": "2026-09-21",
-"id": "xw3YxD4tcHs",
-"t": "PEDRO AMPLIA O PLACAR NO MARACA! ❤️🖤"
 }
 ],
 "Fluminense": [
@@ -6646,6 +6646,12 @@
 "Inter": [
 {
 "c": "Inter",
+"f": "2026-09-29",
+"id": "hltVpuhgl14",
+"t": "EP. 22 | Lautaro - Il primo"
+},
+{
+"c": "Inter",
 "f": "2026-09-28",
 "id": "r4kxhU4EoI8",
 "t": "EP. 21 | Alessandro - L'esordio"
@@ -6877,12 +6883,6 @@
 "f": "2026-09-20",
 "id": "B-5cuWTT55w",
 "t": "When it matters, the Captain always delivers 🐂🔥"
-},
-{
-"c": "Inter",
-"f": "2026-09-20",
-"id": "1JclKwUvFX0",
-"t": "His timing is everything 🎯"
 }
 ],
 "Ipswich Town": [
@@ -8580,6 +8580,12 @@
 "Oxford United": [
 {
 "c": "Oxford United Official",
+"f": "2026-09-29",
+"id": "vh-9AAIV0Xk",
+"t": "Magic in the middle, Tyler Goodrham! 🪄"
+},
+{
+"c": "Oxford United Official",
 "f": "2026-09-27",
 "id": "TwgM07hIkw0",
 "t": "It’s a team sport! 🤝"
@@ -8811,12 +8817,6 @@
 "f": "2026-09-06",
 "id": "yMvU5osrEz8",
 "t": "Mark Harris puts two past Leicester City!"
-},
-{
-"c": "Oxford United Official",
-"f": "2026-09-06",
-"id": "W72fQgD8S64",
-"t": "First professional goal for Mo Missanga! 🤩"
 }
 ],
 "Palmeiras": [
@@ -8855,6 +8855,12 @@
 "f": "2026-09-28",
 "id": "wYZSQ04kjrA",
 "t": "#SHOWDASCRIAS GOLEADA E VAGA PARA O MATA-MATA NO PAULISTA SUB-15"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-09-28",
+"id": "ARymt2rgF0Q",
+"t": "CRIA SENDO INSPIRAÇÃO DE CRIA, ESSA É A BASE DO PALMEIRAS! 💚"
 },
 {
 "c": "TV Palmeiras Sportingbet",
@@ -9053,15 +9059,15 @@
 "f": "2026-09-20",
 "id": "AbjCgY97_JM",
 "t": "GOLAÇO COM PASSE FENOMENAL DO MARLON 🤯🎩"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-09-20",
-"id": "4gZqVI1zMxQ",
-"t": "DIA DE VIAGEM! A PREPARAÇÃO E O EMBARQUE DO PALMEIRAS PARA PORTO ALEGRE! ✈️🟢"
 }
 ],
 "Paris FC": [
+{
+"c": "Paris FC",
+"f": "2026-09-29",
+"id": "Eqlg-ZKt4Sk",
+"t": "JP KRASSO en feu sur le toro 🔥🇨🇮  #parisfc #Krasso #toro #ligue1"
+},
 {
 "c": "Paris FC",
 "f": "2026-09-28",
@@ -9295,12 +9301,6 @@
 "f": "2026-08-29",
 "id": "mdBeybwQ-ms",
 "t": "À demain. Jean Bouin. 15h00 🎶"
-},
-{
-"c": "Paris FC",
-"f": "2026-08-28",
-"id": "Ole0k3Xn-uY",
-"t": "𝐼𝑛𝑠𝑖𝑑𝑒 𝐴𝑟𝑠𝑒𝑛𝑎𝑙 💪"
 }
 ],
 "Qarabağ Ağdam FK": [
