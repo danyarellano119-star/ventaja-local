@@ -492,6 +492,12 @@
 },
 {
 "c": "AS MONACO",
+"f": "2026-10-02",
+"id": "KsrJ-Amtmw4",
+"t": "Match amical : AS Monaco vs Pise SC"
+},
+{
+"c": "AS MONACO",
 "f": "2026-10-01",
 "id": "8KR-l0e_3rw",
 "t": "GEORGE WEAH. LE BALLON D’OR EN ACTION. 🥵🏆 Joyeux anniversaire"
@@ -717,12 +723,6 @@
 "f": "2026-09-11",
 "id": "NFBrRk_zrcU",
 "t": "LAMINE CAMARA GARDIEN ?! IL EST PAS MAL LE GARS 😭🧤"
-},
-{
-"c": "AS MONACO",
-"f": "2026-09-11",
-"id": "YWCrZeIoP7A",
-"t": "FILIPE LUÍS | COLETIVA PRÉ-JOGO 🇧🇷 | STRASBOURG - AS MONACO"
 }
 ],
 "AS Roma": [
@@ -1230,6 +1230,12 @@
 },
 {
 "c": "Atalanta Bergamasca Calcio",
+"f": "2026-10-02",
+"id": "8IO_UjAIJMI",
+"t": "Gaetano ed Éderson, bagno di folla all’Atalanta Store!-ENG SUBs"
+},
+{
+"c": "Atalanta Bergamasca Calcio",
 "f": "2026-09-28",
 "id": "9e3Z9b2gGHM",
 "t": "Free-kick perfection 🎯 #Cakolli"
@@ -1443,12 +1449,6 @@
 "f": "2026-09-09",
 "id": "Albz0a3PGqE",
 "t": "Supercoppa Primavera Fiorentina-Atalanta 3-4 | Le interviste a mister Bosi, Isoa, Rinaldi e Colombo"
-},
-{
-"c": "Atalanta Bergamasca Calcio",
-"f": "2026-09-08",
-"id": "ZCSxaIUzz_Q",
-"t": "Primavera, Giovanni Bosi: “Le finali sono sempre belle da giocare” - SUB EN"
 }
 ],
 "Athletico Paranaense": [
@@ -1463,6 +1463,12 @@
 "f": "2026-10-02",
 "id": "VlfbBbXcwpk",
 "t": "TREINO DE SEXTA-FEIRA NO CAT CAJU"
+},
+{
+"c": "Athletico Paranaense",
+"f": "2026-10-02",
+"id": "TI9I8p-fas8",
+"t": "AS ÚLTIMAS INFORMAÇÕES DE ATHLETICO X SÃO JOSEENSE PELA COPA PARANÁ | FURACÃO NEWS - 02/10"
 },
 {
 "c": "Athletico Paranaense",
@@ -1685,12 +1691,6 @@
 "f": "2026-09-23",
 "id": "F4mueUfxCSg",
 "t": "ARTHUR DIAS E KEVIN VIVEROS NA DATA FIFA | FURACÃO NEWS - 23/09"
-},
-{
-"c": "Athletico Paranaense",
-"f": "2026-09-22",
-"id": "n2K8pUJ6vz0",
-"t": "NA RAÇA! BASTIDORES DE ATHLETICO 2 X 1 BAHIA"
 }
 ],
 "Bayern Munich": [
@@ -4518,7 +4518,7 @@
 "c": "Fenerbahçe SK",
 "f": "2026-10-02",
 "id": "1cBh7MDY2fE",
-"t": "🔵 CANLI | Fenerbahçe Tarfin - Dubai Basketball | EuroLeague 3. hafta"
+"t": "Fenerbahçe Tarfin 76-66 Dubai Basketball | EuroLeague 3. hafta"
 },
 {
 "c": "Fenerbahçe SK",
@@ -5260,6 +5260,36 @@
 },
 {
 "c": "Flamengo TV",
+"f": "2026-10-02",
+"id": "iero6J3njnI",
+"t": "🔴 AO VIVO: FLAMENGO x SAMPAIO CORRÊA  | CAMPEONATO CARIOCA SUB-20 (02/10/26)"
+},
+{
+"c": "Flamengo TV",
+"f": "2026-10-02",
+"id": "SuNQQ4GORIU",
+"t": "PAULINHO SERRA - MENGOCAST #67"
+},
+{
+"c": "Flamengo TV",
+"f": "2026-10-02",
+"id": "hoHUV5B2rVU",
+"t": "Que resenha esse futevôlei! 🤣"
+},
+{
+"c": "Flamengo TV",
+"f": "2026-10-02",
+"id": "QwXCZpfi7lg",
+"t": "O @lazlodalfovo na FlamengoTV flagrou e o conteúdo no #treino veio 🙌"
+},
+{
+"c": "Flamengo TV",
+"f": "2026-10-02",
+"id": "UnhUTabWPUQ",
+"t": "Nem o adm conseguiu escapar do Yago! 😂 #FlaBasquete"
+},
+{
+"c": "Flamengo TV",
 "f": "2026-10-01",
 "id": "NgiIXPDFWhU",
 "t": "🔴 AO VIVO: TREINO DO FLAMENGO DIRETO DO NINHO | 01/10/26"
@@ -5311,12 +5341,6 @@
 "f": "2026-10-01",
 "id": "gWasjXXEmQY",
 "t": "UMA TRAVESSIA EM NOME DO FLAMENGO - RAID 1932 | CORRE O TEMPO NO OLHAR #6"
-},
-{
-"c": "Flamengo TV",
-"f": "2026-10-01",
-"id": "iero6J3njnI",
-"t": "🔴 AO VIVO: FLAMENGO x SAMPAIO CORRÊA  | CAMPEONATO CARIOCA SUB-20 (02/10/26)"
 },
 {
 "c": "Flamengo TV",
@@ -5443,30 +5467,6 @@
 "f": "2026-09-29",
 "id": "r40EPGtl8j4",
 "t": "QUEM É MAIS PROVÁVEL COM A #FlaGinástica ✨"
-},
-{
-"c": "Flamengo TV",
-"f": "2026-09-29",
-"id": "Deg_3fv5k5g",
-"t": "\"NÃO VAMOS BUSCAR NENHUM OUTRO PATROCINADOR\". BAP DEFENDE RESPEITO E APRECIAÇÃO PELA PARCERIA."
-},
-{
-"c": "Flamengo TV",
-"f": "2026-09-29",
-"id": "TJlKu3-7EUs",
-"t": "BAP ALERTOU NO MENGOCAST PARA O NÚMERO RECORDE DE EMPRESAS EM RECUPERAÇÃO JUDICIAL NO PAÍS."
-},
-{
-"c": "Flamengo TV",
-"f": "2026-09-29",
-"id": "N9WOJU_l1AQ",
-"t": "AJUSTES DRÁSTICOS E QUEDA NA QUALIDADE DO ESPETÁCULO. QUAL SERÁ O IMPACTO MATERIAL DA MEDIDA?"
-},
-{
-"c": "Flamengo TV",
-"f": "2026-09-28",
-"id": "-8C5hub1KIc",
-"t": "Vem aí o Miniestádio do Ninho!"
 }
 ],
 "Fluminense": [
@@ -6440,6 +6440,18 @@
 "Gremio": [
 {
 "c": "Grêmio FBPA",
+"f": "2026-10-02",
+"id": "Jh5uzcd_HVI",
+"t": "PRIMEIROS TREINAMENTOS DO FEMININO NA NOVA SEDE"
+},
+{
+"c": "Grêmio FBPA",
+"f": "2026-10-02",
+"id": "Ov7MZ4Pb-vY",
+"t": "AO VIVO E COM IMAGENS | GRÊMIO X INTERNACIONAL (CAMPEONATO GAÚCHO FEMININO I 2026)"
+},
+{
+"c": "Grêmio FBPA",
 "f": "2026-10-01",
 "id": "_JT1HiQ_AIg",
 "t": "O NOVO CT, PELO OLHAR DAS GURIAS"
@@ -6665,18 +6677,6 @@
 "f": "2026-09-04",
 "id": "ZGs3ya2b24I",
 "t": "OS GOLS DO BAILE DA CLASSIFICAÇÃO | GRÊMIO 3X1 INTERNACIONAL (COPA DO BRASIL 2026)"
-},
-{
-"c": "Grêmio FBPA",
-"f": "2026-09-04",
-"id": "Ad5y7OJpWs0",
-"t": "HUUMMM… QUE DELÍCIA DE CLASSIFICAÇÃO. 🍓🇪🇪#CopaDoBrasil2026 #Grenal454 #OSulTemDono"
-},
-{
-"c": "Grêmio FBPA",
-"f": "2026-09-04",
-"id": "M0srRDSrL8E",
-"t": "ESTÁ PASSANDO O AVIÃOZINHO! ✈️🇪🇪#CopaDoBrasil2026 #Grenal454 #OSulTemDono  #futebol  #grêmiotv"
 }
 ],
 "Inter": [
@@ -8882,6 +8882,36 @@
 },
 {
 "c": "TV Palmeiras Sportingbet",
+"f": "2026-10-02",
+"id": "xNtqsHmZ8xk",
+"t": "A ANSIEDADE ANTES DA FINAL DA LIBERTADORES DE 2021 😳"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-10-02",
+"id": "kAg4ZZNpX_Q",
+"t": "A UNIÃO DO GRUPO E O EFEITO ABEL FERREIRA 🇵🇹"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-10-02",
+"id": "Fmucsk5rNtk",
+"t": "A DECISÃO DIFICIL DA CIRURGIA PARA A FINAL DA LIBERTADORES EM 2021 🏆"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-10-02",
+"id": "y6mqlT62SpQ",
+"t": "O PESO DA CAMISA 12 DO PALMEIRAS 🟢"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-10-02",
+"id": "2lJaZdOWUyE",
+"t": "MAYKE | PALMEIRAS CAST #206"
+},
+{
+"c": "TV Palmeiras Sportingbet",
 "f": "2026-10-01",
 "id": "gpSkVIj31oA",
 "t": "NOVA CAMISA APROVADA PELO MEU ELENCO!"
@@ -9083,36 +9113,6 @@
 "f": "2026-09-26",
 "id": "CDl6i3GruoI",
 "t": "JOGO COMPLETO | PALMEIRAS 10 X 0 UNIÃO SUZANO | PAULISTA SUB-15 2026"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-09-26",
-"id": "qNGdBVA-jyk",
-"t": "QUIZ QUEM FEZ O GOL? - TEMPORADA 2026 #09"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-09-26",
-"id": "z9q7o-nhE9I",
-"t": "SÁBADO DE SOL E TREINAMENTO NA ACADEMIA DE FUTEBOL"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-09-26",
-"id": "5FNLYVeU8_A",
-"t": "QUIZ QUEM FEZ O GOL? - TEMPORADA 2026 #10"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-09-25",
-"id": "HstF3dwUxMw",
-"t": "QUIZ QUEM FEZ O GOL? - TEMPORADA 2026 #07"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-09-25",
-"id": "SG7kJK8m4q4",
-"t": "MARLON FREITAS VALORIZA PAUSA E PROJETA RETA FINAL NAS TRÊS COMPETIÇÕES"
 }
 ],
 "Paris FC": [
@@ -10748,6 +10748,30 @@
 },
 {
 "c": "Sevilla FC",
+"f": "2026-10-02",
+"id": "Uk0QbUV7MDA",
+"t": "Sevilla FC - Aston Villa FC (1-3) XV Trofeo Antonio Puerta | Resumen"
+},
+{
+"c": "Sevilla FC",
+"f": "2026-10-02",
+"id": "rXLyhuJJuO4",
+"t": "⚽️ Gol de nuestro 16 con dedicatoria muy especial 💫❤️‍🩹"
+},
+{
+"c": "Sevilla FC",
+"f": "2026-10-02",
+"id": "6_KOjqoEN4c",
+"t": "Unai Emery, de vuelta en Nervión y muy bien acompañado 🤍❤️ #unaiemery #sevillafc"
+},
+{
+"c": "Sevilla FC",
+"f": "2026-10-02",
+"id": "7m7Ghxxafuk",
+"t": "Tuvimos sueños y fuimos a por ellos ​​​​💫¡Qué grandes momentos vivimos juntos, Unai! 🤍❤️"
+},
+{
+"c": "Sevilla FC",
 "f": "2026-10-01",
 "id": "LJMU70YFsEk",
 "t": "Ohhh Ruben ohhh Ruben #sevillafc"
@@ -10949,30 +10973,6 @@
 "f": "2026-09-15",
 "id": "VNdnRWSCMas",
 "t": "Rueda de prensa de Luis García Plaza en la previa del #DéporSevilla 📡 EN DIRECTO"
-},
-{
-"c": "Sevilla FC",
-"f": "2026-09-14",
-"id": "GVc5LHv8x8M",
-"t": "🗣️ Las voces del vestuario antes del #SevillaValencia 🤍❤️"
-},
-{
-"c": "Sevilla FC",
-"f": "2026-09-14",
-"id": "r5wEz7shydo",
-"t": "Soledad y Franlu cumplieron el sueño en una mañana muy especial junto al primer equipo ✨ #sevillafc"
-},
-{
-"c": "Sevilla FC",
-"f": "2026-09-13",
-"id": "tmcECEDV1zM",
-"t": "El GOLAZO de Nico Guillén con el SAT 🤍❤️ #sevillafc"
-},
-{
-"c": "Sevilla FC",
-"f": "2026-09-13",
-"id": "YFNB3m6GGs0",
-"t": "Sevilla Atlético vs Marbella FC (3-0) Segunda Federación | Resumen"
 }
 ],
 "Sheffield United": [
@@ -12122,6 +12122,12 @@
 "São Paulo": [
 {
 "c": "São Paulo FC",
+"f": "2026-10-02",
+"id": "MWo4UcnN3Iw",
+"t": "NARRAÇÃO AO VIVO: SÃO PAULO X SANTOS | BRASILEIRÃO 2026 - (21ª RODADA)"
+},
+{
+"c": "São Paulo FC",
 "f": "2026-10-01",
 "id": "16t-_FOYg_k",
 "t": "DIRETO DO SUPERCT: 01/10/2026 | SPFC PLAY"
@@ -12353,12 +12359,6 @@
 "f": "2026-09-12",
 "id": "VNhdKgMlEjA",
 "t": "PAULISTA SUB-15 2026: SÃO PAULO X AMPARO | SPFC PLAY"
-},
-{
-"c": "São Paulo FC",
-"f": "2026-09-12",
-"id": "Qpxo6VjMiww",
-"t": "NARRAÇÃO AO VIVO: PALMEIRAS X SÃO PAULO - BRASILEIRÃO (27ª RODADA)"
 }
 ],
 "Tottenham Hotspur": [
