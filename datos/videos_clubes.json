@@ -1460,6 +1460,24 @@
 },
 {
 "c": "Athletico Paranaense",
+"f": "2026-10-01",
+"id": "KH9ncSmYdKA",
+"t": "FURACÃO NEWS EM 1 MINUTO - 01/10"
+},
+{
+"c": "Athletico Paranaense",
+"f": "2026-10-01",
+"id": "BrcTd-dmZEs",
+"t": "PRÉ-JOGO | ATHLETICO X SÃO JOSEENSE | COPA PARANÁ 2026"
+},
+{
+"c": "Athletico Paranaense",
+"f": "2026-10-01",
+"id": "Drl7PTQNRdk",
+"t": "LLÁCER E ALEMÃO PROJETAM JOGO CONTRA SÃO JOSEENSE PELA COPA PARANÁ | FURACÃO NEWS - 01/10"
+},
+{
+"c": "Athletico Paranaense",
 "f": "2026-09-30",
 "id": "eP0_1hfoou8",
 "t": "ACHADOS E PERDIDOS NA ARENA DA BAIXADA | ENTENDA COMO FUNCIONA O SERVIÇO"
@@ -1673,24 +1691,6 @@
 "f": "2026-09-22",
 "id": "-bJuupDlIkU",
 "t": "FURACÃO NEWS EM 1 MINUTO - 22/09"
-},
-{
-"c": "Athletico Paranaense",
-"f": "2026-09-21",
-"id": "5kKX--5nz1I",
-"t": "MYCAEEEEEEEEEL!"
-},
-{
-"c": "Athletico Paranaense",
-"f": "2026-09-21",
-"id": "cBdf7pCUT9c",
-"t": "É, MYCAEEEEEL!"
-},
-{
-"c": "Athletico Paranaense",
-"f": "2026-09-21",
-"id": "RQQfQOxRbHw",
-"t": "A REAÇÃO DO CALDEIRÃO"
 }
 ],
 "Bayern Munich": [
@@ -2848,7 +2848,7 @@
 "c": "Chelsea Football Club",
 "f": "2026-10-01",
 "id": "sTl5cs0KimQ",
-"t": "Can’t Tame Us 🎶"
+"t": "King Promise - Can’t Tame Us (Official Video) 🎶"
 },
 {
 "c": "Chelsea Football Club",
@@ -3094,6 +3094,12 @@
 },
 {
 "c": "Corinthians TV",
+"f": "2026-10-01",
+"id": "Ukfrf3PRpfg",
+"t": "TREINO DAS BRABAS: QUINTA-FEIRA DE PREPARAÇÃO NO CT DO CORINTHIANS."
+},
+{
+"c": "Corinthians TV",
 "f": "2026-09-30",
 "id": "n6P7-F7EZBI",
 "t": "TREINO DO TIMÃO: CORINTHIANS VOLTA A TREINAR PARA DESAFIO CONTRA INTERNACIONAL"
@@ -3319,12 +3325,6 @@
 "f": "2026-09-25",
 "id": "KtfadJz2nIU",
 "t": "FORÇA NA PREPARAÇÃO! 💪🏽⚽️"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-09-25",
-"id": "n5vTLlZXzJs",
-"t": "Fala, Nicollas! 🗣🎙"
 }
 ],
 "Coventry City": [
@@ -3820,6 +3820,12 @@
 },
 {
 "c": "TV CRUZEIRO | Cruzeiro Esporte Clube",
+"f": "2026-10-01",
+"id": "FBE-9gTQwfY",
+"t": "Boletim Cabuloso: Treino intenso na Toca; jogo contra o São Paulo e classificação no Sub-17"
+},
+{
+"c": "TV CRUZEIRO | Cruzeiro Esporte Clube",
 "f": "2026-09-28",
 "id": "wpbTj8L6qRg",
 "t": "🦊🎤 BOLETIM CABULOSO: Artur Jorge comanda mais um treino na Toca 2 de olho na retomada do calendário!"
@@ -4274,6 +4280,12 @@
 },
 {
 "c": "FC Barcelona",
+"f": "2026-10-01",
+"id": "AXejZGPs4yI",
+"t": "And the goal of the month goes to... CANCELO! 🔥 #laligahighlights"
+},
+{
+"c": "FC Barcelona",
 "f": "2026-09-30",
 "id": "CYDcJWuLzgs",
 "t": "This is so satisfying. Like watching Rodri play football 🤤 📲 @alexchipi11 #fcbarcelona #shorts"
@@ -4493,12 +4505,6 @@
 "f": "2026-09-19",
 "id": "bhbRzbav78I",
 "t": "RAPHA SPARKS THE COMEBACK! #laligahighlights"
-},
-{
-"c": "FC Barcelona",
-"f": "2026-09-19",
-"id": "yQSa141FIxk",
-"t": "First warm-up as a starter for Livaković 🇭🇷  #fcbarcelona #shorts #short #football"
 }
 ],
 "Fenerbahçe SK": [
@@ -5278,6 +5284,18 @@
 },
 {
 "c": "Flamengo TV",
+"f": "2026-10-01",
+"id": "cEGSb7l6IrM",
+"t": "FLAMENGO TREINA FORTE NO NINHO DO URUBU"
+},
+{
+"c": "Flamengo TV",
+"f": "2026-10-01",
+"id": "Tz237_gL_0s",
+"t": "🔴 AO VIVO: TORNEIO DE ABERTURA NBB | TATUÍ x FLAMENGO - 07/10"
+},
+{
+"c": "Flamengo TV",
 "f": "2026-09-30",
 "id": "8x2glPIgYu4",
 "t": "OS RECEIOS DE POSSÍVEIS RESTRIÇÕES DA CONMEBOL DEVIDO AOS PATROCÍNIOS DE CASAS DE APOSTAS"
@@ -5443,21 +5461,15 @@
 "f": "2026-09-26",
 "id": "wa0xCgP34Hk",
 "t": "NO CLIMA DO NFL RIO GAME 🏈🔴⚫️"
-},
-{
-"c": "Flamengo TV",
-"f": "2026-09-26",
-"id": "6_VdFLN5dms",
-"t": "LÉO ORTIZ E EMERSON ROYAL ACOMPANHARAM UM DIA DE TREINO DO DALLAS COWBOYS NO NINHO! 🏈"
-},
-{
-"c": "Flamengo TV",
-"f": "2026-09-26",
-"id": "2wfS-VcMp3w",
-"t": "🔴 AO VIVO: FLAMENGO x FLUMINENSE | CAMPEONATO CARIOCA SUB-20 (26/09/26)"
 }
 ],
 "Fluminense": [
+{
+"c": "Fluminense Football Club",
+"f": "2026-10-01",
+"id": "Zh8pVrJ7KWs",
+"t": "CALOR E MUITA INTENSIDADE NO TREINO DO FLUMINENSE NA MANHÃ DESTA QUINTA FEIRA"
+},
 {
 "c": "Fluminense Football Club",
 "f": "2026-09-30",
@@ -5691,12 +5703,6 @@
 "f": "2026-09-15",
 "id": "H8pvV0Imp8c",
 "t": "FLUTV NEWS: APÓS SE DESPEDIR DE ANGIONI ELENCO DO FLU TREINA NA ARGENTINA EM BUSCA DA CLASSIFICAÇÃO"
-},
-{
-"c": "Fluminense Football Club",
-"f": "2026-09-15",
-"id": "mtXaSh7ghv4",
-"t": "FLUTV NEWS EM 1 MINUTO"
 }
 ],
 "Fulham": [
@@ -6694,6 +6700,12 @@
 },
 {
 "c": "Inter",
+"f": "2026-10-01",
+"id": "FohMwtC69v4",
+"t": "PAREGGIO ALL'ULTIMO RESPIRO DI ANDRES | AUSTRIA VIENNA 1-1 INTER | UEFA WOMEN’S CHAMPIONS LEAGUE 🖤💙"
+},
+{
+"c": "Inter",
 "f": "2026-09-30",
 "id": "UjHcWVF2QKc",
 "t": "STOP:🌪️"
@@ -6901,12 +6913,6 @@
 "f": "2026-09-22",
 "id": "LWJ3N-LXfhU",
 "t": "MFW’s biggest stage turned Nerazzurro tonight 💫🖤💙"
-},
-{
-"c": "Inter",
-"f": "2026-09-22",
-"id": "6A2zaU3l_Eo",
-"t": "ESORDIO VINCENTE IN UWCL | INTER 1-0 HÄCKEN | UEFA WOMEN’S CHAMPIONS LEAGUE"
 }
 ],
 "Ipswich Town": [
@@ -8870,6 +8876,48 @@
 },
 {
 "c": "TV Palmeiras Sportingbet",
+"f": "2026-10-01",
+"id": "vE5rDJ8XViY",
+"t": "LITO SOUSA | PARA SEMPRE UM DE NÓS"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-10-01",
+"id": "v8tMpTXSoP8",
+"t": "AS OPINIÕES DO MEU ELENCO SOBRE A NOVA CAMISA DO PALMEIRAS"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-10-01",
+"id": "dWzrp2Mi_3o",
+"t": "OS DETALHES DO SHOOTING DA CAMISA NOVA! 🇮🇹"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-10-01",
+"id": "lIEj3KUWRy8",
+"t": "DIA MUNDIAL DA MÚSICA 🎵🤣💚"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-10-01",
+"id": "ZDpwGN5YS3g",
+"t": "NO AR! CONFIRA O TREINO COMPLETO DE HOJE NA TV PALMEIRAS"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-10-01",
+"id": "MTR7ErGLSU0",
+"t": "PALMEIRAS TREINA NESTA QUINTA COM A PRESENÇA DAS CRIAS DA ACADEMIA 💚🐷"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-10-01",
+"id": "7Y7GCQIbZrc",
+"t": "QUEM SERÁ QUE FOI O ESCOLHIDO DO MAURÍCIO? 🤨"
+},
+{
+"c": "TV Palmeiras Sportingbet",
 "f": "2026-09-30",
 "id": "syxvQHQDIlI",
 "t": "TREINO INTENSO DO VERDÃO E ELENCO A TODO VAPOR!"
@@ -9047,48 +9095,6 @@
 "f": "2026-09-25",
 "id": "4QPscx3PE6o",
 "t": "DE VOLTA! PALMEIRAS SE REAPRESENTA NA ACADEMIA DE FUTEBOL"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-09-25",
-"id": "-T3jjAyW20A",
-"t": "WASHINGTON | PALMEIRAS CAST BY SPORTINGBET #205"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-09-25",
-"id": "E9x86tM9S7Q",
-"t": "QUIZ QUEM FEZ O GOL? - TEMPORADA 2026 #08"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-09-25",
-"id": "PfhI3ej7YSo",
-"t": "QUE CHAPÉU DO BENEDETTI!"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-09-25",
-"id": "gl8pVNm6O4k",
-"t": "QUE FRIEZA DO PACHECO!"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-09-24",
-"id": "4TOZOUBPitE",
-"t": "QUIZ QUEM FEZ O GOL? - TEMPORADA 2026 #06"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-09-24",
-"id": "HUAFNtC3rN0",
-"t": "QUIZ QUEM FEZ O GOL? - TEMPORADA 2026 #05"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-09-23",
-"id": "2u0qQ-JUIDU",
-"t": "QUIZ QUEM FEZ O GOL? - TEMPORADA 2026 #04"
 }
 ],
 "Paris FC": [
@@ -12092,6 +12098,18 @@
 "São Paulo": [
 {
 "c": "São Paulo FC",
+"f": "2026-10-01",
+"id": "16t-_FOYg_k",
+"t": "DIRETO DO SUPERCT: 01/10/2026 | SPFC PLAY"
+},
+{
+"c": "São Paulo FC",
+"f": "2026-10-01",
+"id": "e_Yrd53yXpk",
+"t": "BOLETIM DO FEMININO: 01/10/2026 | SPFC PLAY"
+},
+{
+"c": "São Paulo FC",
 "f": "2026-09-30",
 "id": "chsMw2V-I6A",
 "t": "DIRETO DO SUPERCT: 30/09/2026 | SPFC PLAY"
@@ -12317,18 +12335,6 @@
 "f": "2026-09-12",
 "id": "Qpxo6VjMiww",
 "t": "NARRAÇÃO AO VIVO: PALMEIRAS X SÃO PAULO - BRASILEIRÃO (27ª RODADA)"
-},
-{
-"c": "São Paulo FC",
-"f": "2026-09-11",
-"id": "CbiDbM9BKBE",
-"t": "𝐁𝐞𝐦-𝐯𝐢𝐧𝐝𝐨, 𝐏𝐞𝐝𝐫𝐨 𝐋𝐢𝐦𝐚!"
-},
-{
-"c": "São Paulo FC",
-"f": "2026-09-10",
-"id": "QwvFfoWly2A",
-"t": "PAULISTA SUB-17 2026: SÃO PAULO X INTER DE LIMEIRA | SPFC PLAY"
 }
 ],
 "Tottenham Hotspur": [
