@@ -2,6 +2,12 @@
 "brasileirao": [
 {
 "c": "CazéTV",
+"f": "2026-10-02",
+"id": "rVG83zl3Ch4",
+"t": "SOM AMBIENTE: TÊNIS DE MESA | GIULIA TAKAHASHI NO CHINA SMASH 2026 | QUALIFICATÓRIAS"
+},
+{
+"c": "CazéTV",
 "f": "2026-10-01",
 "id": "JULAbK5otvA",
 "t": "AO VIVO: RACING CLUB X VALENCIA | LaLiga 26/27 | 8ª RODADA"
@@ -93,12 +99,6 @@
 {
 "c": "CazéTV",
 "f": "2026-09-30",
-"id": "rVG83zl3Ch4",
-"t": "AO VIVO: TÊNIS DE MESA | GIULIA TAKAHASHI NO CHINA SMASH 2026 | QUALIFICATÓRIAS"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-30",
 "id": "XSYhg8U0WEM",
 "t": "AO VIVO: REAL MADRID X VILLARREAL | LALIGA 26/27 | 8ª RODADA"
 },
@@ -124,7 +124,7 @@
 "c": "CazéTV",
 "f": "2026-09-29",
 "id": "fPj7jnNsFYY",
-"t": "AO VIVO: TÊNIS DE MESA | TIME BRASIL NO CHINA SMASH 2026 | QUALIFICATÓRIAS"
+"t": "AO VIVO: TÊNIS DE MESA | LEO IIZUKA E LAURA WATANABE NO CHINA SMASH 2026 | QUALIFICATÓRIAS"
 },
 {
 "c": "CazéTV",
@@ -8258,6 +8258,12 @@
 }
 ],
 "laliga": [
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-02",
+"id": "8SurtMBUe3M",
+"t": "Los golazos de Lucas Boyé ✨"
+},
 {
 "c": "LALIGA EA SPORTS",
 "f": "2026-10-01",
