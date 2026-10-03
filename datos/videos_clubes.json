@@ -2,6 +2,12 @@
 "AC Milan": [
 {
 "c": "AC Milan",
+"f": "2026-10-03",
+"id": "fD2yOCV4i04",
+"t": "Tanti auguri a Zlatan Ibrahimović, un’icona del calcio 🎂"
+},
+{
+"c": "AC Milan",
 "f": "2026-10-02",
 "id": "75Pcqd2Uqlg",
 "t": "Cisse fa centro all’esordio, Rabiot chiude i conti | Torino - Milan 1-2 | Full Match"
@@ -233,12 +239,6 @@
 "f": "2026-09-22",
 "id": "nhPVS8YAXmE",
 "t": "Diego Moreira 😘 | #MilanLecce"
-},
-{
-"c": "AC Milan",
-"f": "2026-09-21",
-"id": "3eBg897DQqY",
-"t": "Highlights Serie A | Milan-Lecce 3-0 | Pulisic, Rabiot e Moreira per il tris a San Siro"
 }
 ],
 "AC Monza": [
@@ -486,6 +486,12 @@
 "AS Monaco": [
 {
 "c": "AS MONACO",
+"f": "2026-10-03",
+"id": "wp2wmv-G43Q",
+"t": "LE DÉBUT DE SAISON EN CÉLÉBRATIONS ❤️🤍🔥"
+},
+{
+"c": "AS MONACO",
 "f": "2026-10-02",
 "id": "zfcF0j8cr1c",
 "t": "ANSU FATI : LE RETOUR SE PRÉCISE ❤️🤍"
@@ -717,12 +723,6 @@
 "f": "2026-09-12",
 "id": "RTL3tmqNxpk",
 "t": "La réac' d'Abline après Strasbourg (1-1)"
-},
-{
-"c": "AS MONACO",
-"f": "2026-09-11",
-"id": "NFBrRk_zrcU",
-"t": "LAMINE CAMARA GARDIEN ?! IL EST PAS MAL LE GARS 😭🧤"
 }
 ],
 "AS Roma": [
@@ -1454,6 +1454,24 @@
 "Athletico Paranaense": [
 {
 "c": "Athletico Paranaense",
+"f": "2026-10-03",
+"id": "fc3YS-k_sj0",
+"t": "MELHORES MOMENTOS | ATHLETICO 1 X 0 SÃO JOSEENSE | COPA PARANÁ 2026"
+},
+{
+"c": "Athletico Paranaense",
+"f": "2026-10-03",
+"id": "cHFI9myZso4",
+"t": "CÂMERA FURACÃO: KAUÊ SESTREM FAZ O GOL DA VITÓRIA"
+},
+{
+"c": "Athletico Paranaense",
+"f": "2026-10-03",
+"id": "I0iOE-7Fer8",
+"t": "ATHLETICO PARANAENSE X SÃO JOSEENSE - COPA PARANÁ 2026 | AO VIVO E COM IMAGENS"
+},
+{
+"c": "Athletico Paranaense",
 "f": "2026-10-02",
 "id": "kr-mbkiSm3k",
 "t": "LUIZ GUSTAVO 🎯"
@@ -1673,24 +1691,6 @@
 "f": "2026-09-24",
 "id": "l7xRcsfCgXY",
 "t": "FURACÃO NEWS EM 1 MINUTO - 24/09"
-},
-{
-"c": "Athletico Paranaense",
-"f": "2026-09-23",
-"id": "EbqzGlM-f7M",
-"t": "CARONA COM EL TREN! EP.01"
-},
-{
-"c": "Athletico Paranaense",
-"f": "2026-09-23",
-"id": "1j2VCQTo3Nw",
-"t": "FURACÃO NEWS EM 1 MINUTO - 23/09"
-},
-{
-"c": "Athletico Paranaense",
-"f": "2026-09-23",
-"id": "F4mueUfxCSg",
-"t": "ARTHUR DIAS E KEVIN VIVEROS NA DATA FIFA | FURACÃO NEWS - 23/09"
 }
 ],
 "Bayern Munich": [
@@ -3088,6 +3088,66 @@
 "Corinthians": [
 {
 "c": "Corinthians TV",
+"f": "2026-10-03",
+"id": "HJ3qeN2vH0Y",
+"t": "DIA DE SANGUE NO OLHO NO MORUMBIS! 🩸👀"
+},
+{
+"c": "Corinthians TV",
+"f": "2026-10-03",
+"id": "uua3gbJ7L1E",
+"t": "Mais um Jogo na Arena com o Chute Inicial! 🏟️⚽"
+},
+{
+"c": "Corinthians TV",
+"f": "2026-10-03",
+"id": "eah1Sgd88pg",
+"t": "Espalhem a notícia: AMANHÃ TEM QUARTAS DE FINAL DO SUB-17! 💜"
+},
+{
+"c": "Corinthians TV",
+"f": "2026-10-03",
+"id": "zMnqRE-eN0w",
+"t": "No último sábado, os ídolos Casagrande e Solito participaram do Desafio do Intervalo!"
+},
+{
+"c": "Corinthians TV",
+"f": "2026-10-03",
+"id": "QI17LQD1sbs",
+"t": "Com a palavra, Milani! 🗣🎙"
+},
+{
+"c": "Corinthians TV",
+"f": "2026-10-03",
+"id": "p-vHii-TFDA",
+"t": "Fala, Miguel! 🗣🎙"
+},
+{
+"c": "Corinthians TV",
+"f": "2026-10-03",
+"id": "x6xummTzXqo",
+"t": "Palestra com especialistas na defesa dos direitos das mulheres no CT da Base! 🗣️"
+},
+{
+"c": "Corinthians TV",
+"f": "2026-10-03",
+"id": "ayL61iSUglo",
+"t": "Qual é o segredo para chegar forte na luta: talento, disciplina ou constância?"
+},
+{
+"c": "Corinthians TV",
+"f": "2026-10-03",
+"id": "GLfCAFwSyGA",
+"t": "Um pouco mais do tour realizado pelo #CorinthiansBasquete na Casa do Povo! 👊🏽🏀"
+},
+{
+"c": "Corinthians TV",
+"f": "2026-10-03",
+"id": "RJrsMFIpOoE",
+"t": "Fala, Betinho! 🗣️"
+},
+{
+"c": "Corinthians TV",
 "f": "2026-10-02",
 "id": "buYIeg7f19k",
 "t": "Vem aí mais um daqueles momentos para guardar na memória! ⚽🔥"
@@ -3265,66 +3325,6 @@
 "f": "2026-09-28",
 "id": "JOSSgUaOPW8",
 "t": "Detalhes do treino do Coringão! ⚽️Assista completo na Corinthians TV! #VaiCorinthians"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-09-27",
-"id": "CkGsE__Wsfc",
-"t": "BASTIDORES DA BASE | CORINTHIANS 5 x 2 XV DE JAÚ | PAULISTÃO SUB-20 2026 | 2ª FASE  -  VOLTA"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-09-27",
-"id": "jdCvUGYBDQk",
-"t": "TREINO DO TIMÃO: A MANHÃ DO CORINTHIANS NO CT DR. JOAQUIM GRAVA."
-},
-{
-"c": "Corinthians TV",
-"f": "2026-09-26",
-"id": "G_u6Lax5x80",
-"t": "HOJE TEM FINAL DO BRASILEIRÃO FEMININO PARA #ASBRABAS!"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-09-26",
-"id": "mZgLdwDflBQ",
-"t": "AS BRABAS: A DINÂMICA DE PSICOLOGIA PARA UMA GRANDE DECISÃO"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-09-26",
-"id": "YsXMfNu8Oz0",
-"t": "É dia de Majestoso pelo jogo de ida da final do Brasileirão Feminino. ❤️‍🔥"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-09-26",
-"id": "e0qZejjTuVY",
-"t": "COLETIVA PÓS-JOGO | CORINTHIANS X SÃO PAULO | EMILY LIMA | BRASILEIRÃO FEMININO 2026 | FINAL - IDA"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-09-26",
-"id": "FA4bnCgDucg",
-"t": "TREINO DO TIMÃO: CORINTHIANS TEM MANHÃ DE TREINO NO CT DR. JOAQUIM GRAVA."
-},
-{
-"c": "Corinthians TV",
-"f": "2026-09-26",
-"id": "YmiQiYJqZYY",
-"t": "GABI ZANOTTI ABRE O PLACAR PARA O CORINGÃO!!"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-09-26",
-"id": "LSFbN7kr15Q",
-"t": "POROPÓPÓ DA FIEL NA CASA DO POVO! 🫂 #SCCPxSAO #AsBrabas #VaiCorinthians #Shorts"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-09-26",
-"id": "sjN1SMz6Af4",
-"t": "AS BRABAS ESTÃO EM CAMPO PARA A DECISÃO! 🏴🏳️ #SCCPxSAO #AsBrabas #VaiCorinthians"
 }
 ],
 "Coventry City": [
@@ -4988,6 +4988,18 @@
 "Fiorentina": [
 {
 "c": "ACF Fiorentina",
+"f": "2026-10-03",
+"id": "46yYMOLithI",
+"t": "EUROPEAN BLIND FOOTBALL LEAGUE: DORTMUND BVB - ROYAL NATIONAL COLLEGE"
+},
+{
+"c": "ACF Fiorentina",
+"f": "2026-10-03",
+"id": "Fz1Mgv66vnE",
+"t": "EUROPEAN BLIND FOOTBALL LEAGUE: PIRSOS SALONICCO - BFP TEAM"
+},
+{
+"c": "ACF Fiorentina",
 "f": "2026-10-02",
 "id": "S-rcVXFH8nI",
 "t": "VIOLA DAILY LIVE - 2 OTTOBRE 2026"
@@ -5213,21 +5225,15 @@
 "f": "2026-09-16",
 "id": "IgnafvPsNF0",
 "t": "PRESENTAZIONE GNONTO GONCALVES - 16 SETTEMBRE 2026"
-},
-{
-"c": "ACF Fiorentina",
-"f": "2026-09-16",
-"id": "Rildnycx71Y",
-"t": "VIOLA DAILY 16 SETTEMBRE"
-},
-{
-"c": "ACF Fiorentina",
-"f": "2026-09-15",
-"id": "od4CXhIRP0Y",
-"t": "VIOLA DAILY LIVE - 15 SETTEMBRE 2026"
 }
 ],
 "Flamengo": [
+{
+"c": "Flamengo TV",
+"f": "2026-10-03",
+"id": "UGmkPJDL6ok",
+"t": "FLAMENGO SEGUE TRABALHANDO FORTE NO NINHO DO URUBU"
+},
 {
 "c": "Flamengo TV",
 "f": "2026-10-02",
@@ -5461,15 +5467,15 @@
 "f": "2026-09-29",
 "id": "hU4sSLOqFww",
 "t": "\"EU COMO BRASILEIRO TENHO UMA PREOCUPAÇÃO\". BAP CRITICA A FORMA COMO FOI TOMADA A DECISÃO"
-},
-{
-"c": "Flamengo TV",
-"f": "2026-09-29",
-"id": "r40EPGtl8j4",
-"t": "QUEM É MAIS PROVÁVEL COM A #FlaGinástica ✨"
 }
 ],
 "Fluminense": [
+{
+"c": "Fluminense Football Club",
+"f": "2026-10-03",
+"id": "_IdoAhcVTho",
+"t": "FLUTV NEWS: PREPARAÇÃO DO FLU NA DATA FIFA E ENTREVISTA COM IGNÁCIO"
+},
 {
 "c": "Fluminense Football Club",
 "f": "2026-10-01",
@@ -5703,12 +5709,6 @@
 "f": "2026-09-16",
 "id": "diRDIYnvKcM",
 "t": "“FELIZ POR MAIS UMA SEMIFINAL” 🇺🇾🇭🇺 #Canobbio #Libertadores"
-},
-{
-"c": "Fluminense Football Club",
-"f": "2026-09-15",
-"id": "H8pvV0Imp8c",
-"t": "FLUTV NEWS: APÓS SE DESPEDIR DE ANGIONI ELENCO DO FLU TREINA NA ARGENTINA EM BUSCA DA CLASSIFICAÇÃO"
 }
 ],
 "Fulham": [
@@ -5956,6 +5956,18 @@
 "Galatasaray SK": [
 {
 "c": "Galatasaray",
+"f": "2026-10-03",
+"id": "5Kjk_wmlHUY",
+"t": "🔴 Kurucumuz Ali Sami Yen, kuruluşumuzun 121. yılı kutlamaları kapsamında kabri başında anılıyor"
+},
+{
+"c": "Galatasaray",
+"f": "2026-10-03",
+"id": "S5FNGGUw7SU",
+"t": "🔴 Kulübümüzün 121. kuruluş yıl dönümü töreni"
+},
+{
+"c": "Galatasaray",
 "f": "2026-10-02",
 "id": "J16f-JjPWEM",
 "t": "🔴 O. Y. Pendikspor - Galatasaray (Hazırlık Maçı)"
@@ -5977,12 +5989,6 @@
 "f": "2026-10-02",
 "id": "kChbNqf5Jag",
 "t": "Kazananlar kulübünün bankacılık uygulaması: GSPara!"
-},
-{
-"c": "Galatasaray",
-"f": "2026-10-02",
-"id": "5Kjk_wmlHUY",
-"t": "🔴 O. Y. Pendikspor - Galatasaray (Hazırlık Maçı)"
 },
 {
 "c": "Galatasaray",
@@ -6187,12 +6193,6 @@
 "f": "2026-09-04",
 "id": "dz-xd3vvnm8",
 "t": "🎙️ Gabriel Sara, Uğurcan Çakır ve Lucas Torreira'dan maç sonu açıklamalar #İBFKvGS"
-},
-{
-"c": "Galatasaray",
-"f": "2026-09-02",
-"id": "4uFDEYRKzi8",
-"t": "🔴 CANLI YAYIN  | El Chadaille Bitshiabu, İstanbul'da! 🦁"
 }
 ],
 "Girona": [
@@ -6682,6 +6682,12 @@
 "Inter": [
 {
 "c": "Inter",
+"f": "2026-10-03",
+"id": "vDOu5jv8M_0",
+"t": "EP. 26 | Esteban - Il primo"
+},
+{
+"c": "Inter",
 "f": "2026-10-02",
 "id": "P--d82TY9Dk",
 "t": "EP. 25 | Giuliano - La filastrocca"
@@ -6913,12 +6919,6 @@
 "f": "2026-09-23",
 "id": "JXsoWGH-9UQ",
 "t": "SASSARINI: “SIAMO SULLA STRADA GIUSTA”🎙️ | INTERVIEWS 🖤💙"
-},
-{
-"c": "Inter",
-"f": "2026-09-23",
-"id": "LFRxlR0WGYo",
-"t": "90s vibes for a unique style, no words needed 🤌"
 }
 ],
 "Ipswich Town": [
@@ -8634,6 +8634,12 @@
 "Oxford United": [
 {
 "c": "Oxford United Official",
+"f": "2026-10-03",
+"id": "J_Uk4WZ1BOY",
+"t": "Tripp Hearing Goal of Month | September"
+},
+{
+"c": "Oxford United Official",
 "f": "2026-10-02",
 "id": "fU-YM9LmQfw",
 "t": "Lucy Powis Discusses Her First Few Weeks at Oxford United | Player Interview"
@@ -8865,15 +8871,15 @@
 "f": "2026-09-09",
 "id": "KHthGvc1G94",
 "t": "Aaron Ramsey Previews Our Upcoming Home Fixture Against Burton Albion | Head Coach Interview"
-},
-{
-"c": "Oxford United Official",
-"f": "2026-09-08",
-"id": "mJtpjU5DmrY",
-"t": "Nicola Gibson and Kate Wiseman Guess the Mystery Teammate | Detectives"
 }
 ],
 "Palmeiras": [
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-10-03",
+"id": "D_Hh9C6LVfo",
+"t": "O VERDADEIRO LEGADO DENTRO DO CLUBE 🫡"
+},
 {
 "c": "TV Palmeiras Sportingbet",
 "f": "2026-10-02",
@@ -8909,6 +8915,24 @@
 "f": "2026-10-02",
 "id": "2lJaZdOWUyE",
 "t": "MAYKE | PALMEIRAS CAST #206"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-10-02",
+"id": "4sW3Gh6Up-E",
+"t": "O CARINHO DE MAYKE PELO PALMEIRAS 🐷🥹"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-10-02",
+"id": "VUFR15IZLXw",
+"t": "COMO ABEL EXPLORA O MELHOR DE CADA JOGADOR 🧠💚"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-10-02",
+"id": "54udza_XKBs",
+"t": "RESENHA NO DM ANTES DA FINAL DA LIBERTADORES 🤣"
 },
 {
 "c": "TV Palmeiras Sportingbet",
@@ -9089,30 +9113,6 @@
 "f": "2026-09-28",
 "id": "ARymt2rgF0Q",
 "t": "CRIA SENDO INSPIRAÇÃO DE CRIA, ESSA É A BASE DO PALMEIRAS! 💚"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-09-27",
-"id": "tgXQWLXj2z0",
-"t": "TODO ESFORÇO DO CARLOS MIGUEL NO TREINO DO VERDÃO 💚🐷"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-09-27",
-"id": "jWPx2yzdxdI",
-"t": "FIM DE SEMANA DE SOL E TREINO NA ACADEMIA DE FUTEBOL 🔥💚"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-09-26",
-"id": "WMCIrp79xLo",
-"t": "JOGO COMPLETO | PALMEIRAS 8 X 0 LG FC | PAULISTA SUB-17 2026"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-09-26",
-"id": "CDl6i3GruoI",
-"t": "JOGO COMPLETO | PALMEIRAS 10 X 0 UNIÃO SUZANO | PAULISTA SUB-15 2026"
 }
 ],
 "Paris FC": [
@@ -12122,9 +12122,15 @@
 "São Paulo": [
 {
 "c": "São Paulo FC",
-"f": "2026-10-02",
+"f": "2026-10-03",
 "id": "MWo4UcnN3Iw",
 "t": "NARRAÇÃO AO VIVO: SÃO PAULO X SANTOS | BRASILEIRÃO 2026 - (21ª RODADA)"
+},
+{
+"c": "São Paulo FC",
+"f": "2026-10-03",
+"id": "qv7vVPe2vBk",
+"t": "COLETIVA PÓS-JOGO: SÃO PAULO X SANTOS | BRASILEIRÃO 2026"
 },
 {
 "c": "São Paulo FC",
@@ -12353,12 +12359,6 @@
 "f": "2026-09-12",
 "id": "cSU8eEZ1xDY",
 "t": "DIRETO DO SUPERCT: 11/09/2026 | SPFC PLAY"
-},
-{
-"c": "São Paulo FC",
-"f": "2026-09-12",
-"id": "VNhdKgMlEjA",
-"t": "PAULISTA SUB-15 2026: SÃO PAULO X AMPARO | SPFC PLAY"
 }
 ],
 "Tottenham Hotspur": [
