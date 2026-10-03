@@ -244,6 +244,12 @@
 "AC Monza": [
 {
 "c": "AC Monza",
+"f": "2026-10-03",
+"id": "2lSDXZntx44",
+"t": "BREST 2 - 2 MONZA | HIGHLIGHTS AMICHEVOLE"
+},
+{
+"c": "AC Monza",
 "f": "2026-10-02",
 "id": "OWKkkj8mpPA",
 "t": "🦵👀 #Folorunsho #supercazzola #meme #shorts"
@@ -475,12 +481,6 @@
 "f": "2026-09-06",
 "id": "_LTZ2DCHMfQ",
 "t": "HELLAS VERONA 1 - 2 MONZA I HIGHLIGHTS PRIMAVERA 1"
-},
-{
-"c": "AC Monza",
-"f": "2026-09-05",
-"id": "EHLhGLYHizY",
-"t": "Vieni a trovarci nella Fanzone dell'Autodromo e prova a vincere i gadget in palio 🎁⚪🔴 #ItalianGP #F1"
 }
 ],
 "AS Monaco": [
@@ -728,6 +728,24 @@
 "AS Roma": [
 {
 "c": "AS Roma",
+"f": "2026-10-03",
+"id": "d8jxyuRGGiE",
+"t": "ROMA 3-1 LAZIO | Serie A Women 2026-27"
+},
+{
+"c": "AS Roma",
+"f": "2026-10-03",
+"id": "SiHiD82-r4c",
+"t": "INTERVISTA PIOVANI | Post Match | Roma-Lazio | Serie A Women"
+},
+{
+"c": "AS Roma",
+"f": "2026-10-03",
+"id": "IgoreSgwm5g",
+"t": "INTERVISTA DOMS | Post Match | Roma-Lazio | Serie A Women"
+},
+{
+"c": "AS Roma",
 "f": "2026-09-30",
 "id": "uhHBUGd9kXw",
 "t": "INTERVISTA PIOVANI | Post Match | Roma-Barcellona | Uefa Women's Champions League"
@@ -947,24 +965,6 @@
 "f": "2026-09-02",
 "id": "gE05X4VyULs",
 "t": "🟨  LIVE  🟥  LA CONFERENZA STAMPA DI TONY D'AMICO"
-},
-{
-"c": "AS Roma",
-"f": "2026-08-31",
-"id": "ql2ga4UPtsE",
-"t": "LECCE 0-4 ROMA | SERIE A HIGHLIGHTS 2026-27"
-},
-{
-"c": "AS Roma",
-"f": "2026-08-31",
-"id": "JUchbEFMIXA",
-"t": "✍️ Benvenuto Marten! | La prima intervista di De Roon in giallorosso 🎙️"
-},
-{
-"c": "AS Roma",
-"f": "2026-08-30",
-"id": "nrIxXxOi2kU",
-"t": "INTERVISTA PELLEGRINO CIMÒ | POST Match | Roma-Sassuolo | Serie A Women's Cup"
 }
 ],
 "Arsenal": [
@@ -3172,6 +3172,18 @@
 },
 {
 "c": "Corinthians TV",
+"f": "2026-10-03",
+"id": "CA9P8FQH63A",
+"t": "A segunda parte do treinamento foi no gramado!"
+},
+{
+"c": "Corinthians TV",
+"f": "2026-10-03",
+"id": "4IrsqJAjiIU",
+"t": "ELAS ESTÃO NA ÁREA! 💜🖤🤍 #SAOxSCCP #AsBrabas #VaiCorinthians #Shorts"
+},
+{
+"c": "Corinthians TV",
 "f": "2026-10-02",
 "id": "buYIeg7f19k",
 "t": "Vem aí mais um daqueles momentos para guardar na memória! ⚽🔥"
@@ -3313,18 +3325,6 @@
 "f": "2026-09-30",
 "id": "7Mr2mddcx10",
 "t": "O Timão se prepara para o próximo compromisso, válido pela 29ª rodada do Campeonato Brasileiro"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-09-30",
-"id": "24ZaurGPsBw",
-"t": "JOGO COMPLETO: CORINTHIANS 8 X 0 ATLÉTICO-GO | BRASILEIRÃO SUB-17 2026 | 19ª RODADA"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-09-29",
-"id": "ym2h6cjD2SA",
-"t": "MELHORES MOMENTOS: CORINTHIANS 1 X 1 PATO FUTSAL | LNF 2026 | OITAVAS DE FINAL - IDA"
 }
 ],
 "Coventry City": [
@@ -3820,9 +3820,15 @@
 },
 {
 "c": "TV CRUZEIRO | Cruzeiro Esporte Clube",
-"f": "2026-10-02",
+"f": "2026-10-03",
 "id": "GxpvsbDqDd0",
 "t": "AO VIVO E COM IMAGENS | Cruzeiro x Athletic | Mineiro Sub-20 | Semifinal - Jogo de volta"
+},
+{
+"c": "TV CRUZEIRO | Cruzeiro Esporte Clube",
+"f": "2026-10-03",
+"id": "8ozZi0TdFq4",
+"t": "⚽ DIA NA TOCA | Cruzeiro dá sequência em preparação para o duelo com o São Paulo!"
 },
 {
 "c": "TV CRUZEIRO | Cruzeiro Esporte Clube",
@@ -4524,7 +4530,7 @@
 "c": "Fenerbahçe SK",
 "f": "2026-10-03",
 "id": "hekF_Qa9k6s",
-"t": "🔵 CANLI | Turan Tovuz PFK - Fenerbahçe | Hazırlık Maçı"
+"t": "Turan Tovuz PFK - Fenerbahçe | Hazırlık Maçı"
 },
 {
 "c": "Fenerbahçe SK",
@@ -5266,6 +5272,18 @@
 },
 {
 "c": "Flamengo TV",
+"f": "2026-10-03",
+"id": "EXs2rg9JcYY",
+"t": "O TRABALHO NÃO PARA: SÁBADO DE MUITO TREINO NO NINHO"
+},
+{
+"c": "Flamengo TV",
+"f": "2026-10-03",
+"id": "4Tdmm4rUgHc",
+"t": "A CATEGORIA DO CARRASCAL… 🤌🔥 #flamengo #flamengotv #futebol"
+},
+{
+"c": "Flamengo TV",
 "f": "2026-10-02",
 "id": "5-c-Epa7TK0",
 "t": "As várias camadas que formam o Flamengo! 🔴⚫️"
@@ -5467,18 +5485,6 @@
 "f": "2026-09-29",
 "id": "yIUZneKs0ds",
 "t": "BAP ANALISA IMPACTOS DA PROIBIÇÃO DAS BETS NO BRASIL - MENGOCAST #66"
-},
-{
-"c": "Flamengo TV",
-"f": "2026-09-29",
-"id": "BbLFTN1HYuM",
-"t": "\"VAI AFETAR E VAI AFETAR MUITO!\" UMA FALSA SOLUÇÃO QUE VAI PREJUDICAR O FUTEBOL NACIONAL."
-},
-{
-"c": "Flamengo TV",
-"f": "2026-09-29",
-"id": "WwbECjVoEb0",
-"t": "O MERCADO DE PATROCÍNIOS DOS CLUBES: BAP EXPLICA O POSSÍVEL NOVO CENÁRIO"
 }
 ],
 "Fluminense": [
@@ -5493,6 +5499,18 @@
 "f": "2026-10-03",
 "id": "rbj6AY7W4OU",
 "t": "FLUTV NEWS EM 1 MINUTO: CONFIRA A PREPARAÇÃO DO FLUMINENSE!"
+},
+{
+"c": "Fluminense Football Club",
+"f": "2026-10-03",
+"id": "R5329h4qgwM",
+"t": "COMO ESTÁ O FLU PARA AS DECISÕES DA TEMPORADA? | RAIO-X DA FLUTV NA DATA FIFA"
+},
+{
+"c": "Fluminense Football Club",
+"f": "2026-10-03",
+"id": "H_cW6ZVtxSg",
+"t": "CONFIRA O TREINO DO FLUMINENSE DESTE SÁBADO NO CT CARLOS CASTILHO. SEMANA QUE VEM É BRASILEIRÃO!"
 },
 {
 "c": "Fluminense Football Club",
@@ -5709,18 +5727,6 @@
 "f": "2026-09-16",
 "id": "K4aMBYBgis8",
 "t": "EU VOU FICAR LOUCO DA CABEÇA! 🎶🇭🇺"
-},
-{
-"c": "Fluminense Football Club",
-"f": "2026-09-16",
-"id": "OZrLZGqmHbY",
-"t": "UM GOL E DUAS ASSISTÊNCIAS DO HULK NAS QUARTAS DE FINAL! AVANÇAMOS! 🇭🇺"
-},
-{
-"c": "Fluminense Football Club",
-"f": "2026-09-16",
-"id": "ccAhHEcEwg4",
-"t": "MELHORES MOMENTOS | PLATENSE 2 X 1 FLUMINENSE | CONMEBOL LIBERTADORES 2026 | QUARTAS - VOLTA"
 }
 ],
 "Fulham": [
@@ -6464,15 +6470,15 @@
 },
 {
 "c": "Grêmio FBPA",
-"f": "2026-10-02",
-"id": "Jh5uzcd_HVI",
-"t": "PRIMEIROS TREINAMENTOS DO FEMININO NA NOVA SEDE"
+"f": "2026-10-03",
+"id": "Ov7MZ4Pb-vY",
+"t": "AO VIVO E COM IMAGENS | GRÊMIO X INTERNACIONAL (CAMPEONATO GAÚCHO FEMININO I 2026)"
 },
 {
 "c": "Grêmio FBPA",
 "f": "2026-10-02",
-"id": "Ov7MZ4Pb-vY",
-"t": "AO VIVO E COM IMAGENS | GRÊMIO X INTERNACIONAL (CAMPEONATO GAÚCHO FEMININO I 2026)"
+"id": "Jh5uzcd_HVI",
+"t": "PRIMEIROS TREINAMENTOS DO FEMININO NA NOVA SEDE"
 },
 {
 "c": "Grêmio FBPA",
@@ -6730,6 +6736,12 @@
 },
 {
 "c": "Inter",
+"f": "2026-10-03",
+"id": "pa8yhZ0yFxY",
+"t": "3, 2, 1… Agbonifo 💥"
+},
+{
+"c": "Inter",
 "f": "2026-10-02",
 "id": "P--d82TY9Dk",
 "t": "EP. 25 | Giuliano - La filastrocca"
@@ -6925,12 +6937,6 @@
 "f": "2026-09-25",
 "id": "x6JLZJy2IZM",
 "t": "This is what spending a day with these two means 😂"
-},
-{
-"c": "Inter",
-"f": "2026-09-25",
-"id": "Hvtq_bpMNEA",
-"t": "Memories from our last time at San Siro, but make it a challenge 👀"
 }
 ],
 "Ipswich Town": [
@@ -10748,6 +10754,18 @@
 "Sevilla": [
 {
 "c": "Sevilla FC",
+"f": "2026-10-03",
+"id": "RZevHESlAjQ",
+"t": "😮‍💨 Julio Díaz ⚡️ #sevillafc #futbol #shorts #skills"
+},
+{
+"c": "Sevilla FC",
+"f": "2026-10-03",
+"id": "Pfj7-aC4yTg",
+"t": "Sevilla FC - FC Badalona Women (3-3) | Liga F Moeve | Resumen"
+},
+{
+"c": "Sevilla FC",
 "f": "2026-10-02",
 "id": "QWnlxSCRfJw",
 "t": "🥹 Las palabras de Unai Emery sobre volver a Sevilla para disputar el Trofeo Antonio Puerta 🤍❤️"
@@ -10973,18 +10991,6 @@
 "f": "2026-09-16",
 "id": "gJ9q0oNkQ_0",
 "t": "RC Deportivo - Sevilla FC (0-1) LALIGA | Resumen"
-},
-{
-"c": "Sevilla FC",
-"f": "2026-09-16",
-"id": "NKfR1ICiUvI",
-"t": "Las reacciones de los protagonistas tras el RC Deportivo - Sevilla FC"
-},
-{
-"c": "Sevilla FC",
-"f": "2026-09-15",
-"id": "VNdnRWSCMas",
-"t": "Rueda de prensa de Luis García Plaza en la previa del #DéporSevilla 📡 EN DIRECTO"
 }
 ],
 "Sheffield United": [
