@@ -3088,6 +3088,12 @@
 "Corinthians": [
 {
 "c": "Corinthians TV",
+"f": "2026-10-04",
+"id": "1rBXR0wt5wY",
+"t": "COLETIVA PÓS-JOGO | SÃO PAULO X CORINTHIANS | EMILY LIMA | BRASILEIRÃO FEMININO 2026 | FINAL - VOLTA"
+},
+{
+"c": "Corinthians TV",
 "f": "2026-10-03",
 "id": "HJ3qeN2vH0Y",
 "t": "DIA DE SANGUE NO OLHO NO MORUMBIS! 🩸👀"
@@ -3181,6 +3187,18 @@
 "f": "2026-10-03",
 "id": "4IrsqJAjiIU",
 "t": "ELAS ESTÃO NA ÁREA! 💜🖤🤍 #SAOxSCCP #AsBrabas #VaiCorinthians #Shorts"
+},
+{
+"c": "Corinthians TV",
+"f": "2026-10-03",
+"id": "b3KIaRKe_sM",
+"t": "MELHORES MOMENTOS: PATO FUTSAL 0 X 2 CORINTHIANS | LNF 2026 | OITAVAS DE FINAL - VOLTA"
+},
+{
+"c": "Corinthians TV",
+"f": "2026-10-03",
+"id": "ZF-wLsVcjlY",
+"t": "SÃO PAULO X CORINTHIANS | BRASILEIRÃO FEMININO 2026 | FINAL - VOLTA | DIA DE CORINTHIANS"
 },
 {
 "c": "Corinthians TV",
@@ -3307,24 +3325,6 @@
 "f": "2026-09-30",
 "id": "RR0qVkCy800",
 "t": "Um bate-papo sobre o Corinthians, sua história e sua cultura."
-},
-{
-"c": "Corinthians TV",
-"f": "2026-09-30",
-"id": "wSECg6r8JgE",
-"t": "Fiel, mais uma vez, ter vocês com a gente é indispensável."
-},
-{
-"c": "Corinthians TV",
-"f": "2026-09-30",
-"id": "XwtlOMN2gvc",
-"t": "Jogando rápido com a nossa braba!"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-09-30",
-"id": "7Mr2mddcx10",
-"t": "O Timão se prepara para o próximo compromisso, válido pela 29ª rodada do Campeonato Brasileiro"
 }
 ],
 "Coventry City": [
@@ -5006,6 +5006,24 @@
 "Fiorentina": [
 {
 "c": "ACF Fiorentina",
+"f": "2026-10-04",
+"id": "T_HHXHDozm4",
+"t": "EUROPEAN BLIND FOOTBALL LEAGUE: BFP TEAM - ROYAL NATIONAL COLLEGE"
+},
+{
+"c": "ACF Fiorentina",
+"f": "2026-10-04",
+"id": "Ozb117Jvx_A",
+"t": "EUROPEAN BLIND FOOTBALL LEAGUE: DORTMUND BVB  -  CECIFOOT CHARLEROI"
+},
+{
+"c": "ACF Fiorentina",
+"f": "2026-10-04",
+"id": "WOMp8UHCMsE",
+"t": "EUROPEAN BLIND FOOTBALL LEAGUE: QUARTOTEMPO FIRENZE - PIRSOS SALONICCO"
+},
+{
+"c": "ACF Fiorentina",
 "f": "2026-10-03",
 "id": "46yYMOLithI",
 "t": "EUROPEAN BLIND FOOTBALL LEAGUE: DORTMUND BVB - ROYAL NATIONAL COLLEGE"
@@ -5019,26 +5037,8 @@
 {
 "c": "ACF Fiorentina",
 "f": "2026-10-03",
-"id": "T_HHXHDozm4",
-"t": "EUROPEAN BLIND FOOTBALL LEAGUE: BFP TEAM - ROYAL NATIONAL COLLEGE"
-},
-{
-"c": "ACF Fiorentina",
-"f": "2026-10-03",
 "id": "EZ_Jysh_UoA",
 "t": "EUROPEAN BLIND FOOTBALL LEAGUE: QUARTOTEMPO FIRENZE - CECIFOOT CHARLEROI"
-},
-{
-"c": "ACF Fiorentina",
-"f": "2026-10-03",
-"id": "Ozb117Jvx_A",
-"t": "EUROPEAN BLIND FOOTBALL LEAGUE: DORTMUND BVB  -  CECIFOOT CHARLEROI"
-},
-{
-"c": "ACF Fiorentina",
-"f": "2026-10-03",
-"id": "WOMp8UHCMsE",
-"t": "EUROPEAN BLIND FOOTBALL LEAGUE: QUARTOTEMPO FIRENZE - PIRSOS SALONICCO"
 },
 {
 "c": "ACF Fiorentina",
@@ -5248,6 +5248,12 @@
 "Flamengo": [
 {
 "c": "Flamengo TV",
+"f": "2026-10-04",
+"id": "4UAsj36axUE",
+"t": "🔴AO VIVO: AMISTOSO DO FLAVÔLEI - SESC FLAMENGO x PRAIA CLUBE | 03/10/26"
+},
+{
+"c": "Flamengo TV",
 "f": "2026-10-03",
 "id": "UGmkPJDL6ok",
 "t": "FLAMENGO SEGUE TRABALHANDO FORTE NO NINHO DO URUBU"
@@ -5365,12 +5371,6 @@
 "f": "2026-10-01",
 "id": "tDwTJUdI2AE",
 "t": "METE UM BLOCK NELAS! 🛡️🚫Essa é minha garota: Simone Leeeee! 🗣️ #FlaVôlei"
-},
-{
-"c": "Flamengo TV",
-"f": "2026-10-01",
-"id": "4UAsj36axUE",
-"t": "🔴AO VIVO: AMISTOSO DO FLAVÔLEI - SESC FLAMENGO x PRAIA CLUBE | 03/10/26"
 },
 {
 "c": "Flamengo TV",
@@ -6476,6 +6476,12 @@
 },
 {
 "c": "Grêmio FBPA",
+"f": "2026-10-03",
+"id": "806W153rA1o",
+"t": "COLETIVA PÓS JOGO | GRÊMIO 0 X 0 INTERNACIONAL (CAMPEONATO GAÚCHO FEMININO)"
+},
+{
+"c": "Grêmio FBPA",
 "f": "2026-10-02",
 "id": "Jh5uzcd_HVI",
 "t": "PRIMEIROS TREINAMENTOS DO FEMININO NA NOVA SEDE"
@@ -6689,15 +6695,15 @@
 "f": "2026-09-06",
 "id": "QLNsz30sL2I",
 "t": "COLETIVA PÓS-JOGO SÃO PAULO X GRÊMIO (CAMPEONATO BRASILEIRO FEMININO A1)"
-},
-{
-"c": "Grêmio FBPA",
-"f": "2026-09-05",
-"id": "TkP1sc-Useo",
-"t": "BASTIDORES DA CLASSIFICAÇÃO | GRÊMIO 3x1 INTERNACIONAL (COPA DO BRASIL 2026)"
 }
 ],
 "Inter": [
+{
+"c": "Inter",
+"f": "2026-10-04",
+"id": "vIfDEDxz3Iw",
+"t": "EP. 27 | Hakan - La scintilla"
+},
 {
 "c": "Inter",
 "f": "2026-10-03",
@@ -6931,12 +6937,6 @@
 "f": "2026-09-25",
 "id": "Q8U6IhtIf4g",
 "t": "The third shirt - Vintage"
-},
-{
-"c": "Inter",
-"f": "2026-09-25",
-"id": "x6JLZJy2IZM",
-"t": "This is what spending a day with these two means 😂"
 }
 ],
 "Ipswich Town": [
@@ -8410,6 +8410,12 @@
 "Málaga CF": [
 {
 "c": "Málaga CF",
+"f": "2026-10-04",
+"id": "b8EHHpW1KZk",
+"t": "Atlético Malagueño 2 - 0 Recreativo Granada (Tercera Federación)"
+},
+{
+"c": "Málaga CF",
 "f": "2026-10-03",
 "id": "qrJEHxvU-zc",
 "t": "Los malaguistas de Archidona premian a Juanfran Funes"
@@ -8419,12 +8425,6 @@
 "f": "2026-10-02",
 "id": "OmfXfOHXlXY",
 "t": "Málaga CF - Antequera CF | XXXIV Trofeo Costa del Sol | DIRECTO"
-},
-{
-"c": "Málaga CF",
-"f": "2026-10-02",
-"id": "b8EHHpW1KZk",
-"t": "Atlético Malagueño 2 - 0 Recreativo Granada (Tercera Federación)"
 },
 {
 "c": "Málaga CF",
@@ -12158,6 +12158,12 @@
 },
 {
 "c": "São Paulo FC",
+"f": "2026-10-03",
+"id": "_MhpVpg5O6I",
+"t": "COLETIVA PÓS-JOGO: SÃO PAULO X CORINTHIANS | FINAL BRASILEIRÃO FEMININO 2026"
+},
+{
+"c": "São Paulo FC",
 "f": "2026-10-01",
 "id": "16t-_FOYg_k",
 "t": "DIRETO DO SUPERCT: 01/10/2026 | SPFC PLAY"
@@ -12371,12 +12377,6 @@
 "f": "2026-09-13",
 "id": "do7kU40Obhg",
 "t": "BATE-PAPO COM PEDRO LIMA | SPFC PLAY"
-},
-{
-"c": "São Paulo FC",
-"f": "2026-09-13",
-"id": "QlcbBhzWBUA",
-"t": "DIRETO DO SUPERCT: 13/09/2026 | SPFC PLAY"
 }
 ],
 "Tottenham Hotspur": [
