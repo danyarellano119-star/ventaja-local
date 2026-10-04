@@ -8,6 +8,12 @@
 },
 {
 "c": "CazéTV",
+"f": "2026-10-04",
+"id": "tVj-B1piAaU",
+"t": "JUDÔ | TIME BRASIL NO MUNDIAL DE BAKU 2026 | QUALIFICATÓRIAS"
+},
+{
+"c": "CazéTV",
 "f": "2026-10-03",
 "id": "VAGOuEaUkOI",
 "t": "EVENTO COMPLETO (SOM AMBIENTE): TÊNIS DE MESA | LAURA WATANABE NO CHINA SMASH 2026 | QUALIFICATÓRIAS"
@@ -165,12 +171,6 @@
 {
 "c": "CazéTV",
 "f": "2026-09-30",
-"id": "tVj-B1piAaU",
-"t": "AO VIVO: JUDÔ | TIME BRASIL NO MUNDIAL DE BAKU 2026 | QUALIFICATÓRIAS"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-30",
 "id": "P7_Klko5_os",
 "t": "COMO É FEITO O DRINK OFICIAL DA LAVER CUP? VIMOS DE PERTO E PROVAMOS!"
 },
@@ -220,7 +220,7 @@
 "c": "CazéTV",
 "f": "2026-09-29",
 "id": "wwyKQQu6s-E",
-"t": "AO VIVO: TÊNIS DE MESA | CHINA SMASH 2026"
+"t": "AO VIVO: TÊNIS DE MESA | HUGO CALDERANO E BRUNA TAKAHASHI NO CHINA SMASH 2026 | 32 AVOS DE FINAL"
 },
 {
 "c": "CazéTV",
@@ -3016,6 +3016,12 @@
 "bundesliga": [
 {
 "c": "Bundesliga",
+"f": "2026-10-04",
+"id": "yXDuvCiLEOc",
+"t": "The golden touch of Harry Kane 😮‍💨🌪️"
+},
+{
+"c": "Bundesliga",
 "f": "2026-10-03",
 "id": "6o2RuSR-P_Y",
 "t": "🔴 Light 🟢 Light with Alphonso Davies 👀"
@@ -4860,6 +4866,18 @@
 }
 ],
 "eredivisie": [
+{
+"c": "ESPN NL",
+"f": "2026-10-04",
+"id": "fWgdQKvHO5c",
+"t": "𝐟𝐦𝐣𝐮𝐧𝐤𝐢𝐞 🤝 VVV-Venlo"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-04",
+"id": "D1uT3JuK8MA",
+"t": "Fijne 𝐃𝐈𝐄𝐑𝐄𝐍𝐃𝐀𝐆 ❤️"
+},
 {
 "c": "ESPN NL",
 "f": "2026-10-03",
@@ -8992,6 +9010,12 @@
 },
 {
 "c": "LALIGA EA SPORTS",
+"f": "2026-09-23",
+"id": "mGhLMaYb1TE",
+"t": "LALIGA FC FUTURES | SEMIFINALES y FINAL - X TORNEO INTERNACIONAL"
+},
+{
+"c": "LALIGA EA SPORTS",
 "f": "2026-09-22",
 "id": "MlLC3XBlOqg",
 "t": "El primer gol de JONATHAN DAVID en el DERBI"
@@ -12674,6 +12698,12 @@
 "premier": [
 {
 "c": "Premier League",
+"f": "2026-10-04",
+"id": "qB0OjKa57Jg",
+"t": "Dennis Bergkamp, Poetry In Motion 🤤"
+},
+{
+"c": "Premier League",
 "f": "2026-10-03",
 "id": "77a7sGpeTN4",
 "t": "Bend It Like Trent 🎯"
@@ -12688,7 +12718,7 @@
 "c": "Premier League",
 "f": "2026-10-03",
 "id": "P4McmaGWwUc",
-"t": "GLORIOUS Goals That YOU Need To See 🔥"
+"t": "GLORIOUS Goals That YOU Need To See! 🔥"
 },
 {
 "c": "Premier League",
@@ -13526,6 +13556,24 @@
 }
 ],
 "seriea": [
+{
+"c": "Serie A",
+"f": "2026-10-04",
+"id": "6R4eHAB1u4Q",
+"t": "Best of Hakan Calhanoglu | iliad Goal Of The Month: September 2026 | Serie A 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-10-04",
+"id": "KO8_IHBsgKw",
+"t": "ROMA-FIORENTINA 4-0 | EXTENDED HIGHLIGHTS | SERIE A 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-10-04",
+"id": "Ahq-wB0vfKQ",
+"t": "MAXI SINTESI ROMA-FIORENTINA 4-0 | EXTENDED HIGHLIGHTS | SERIE A ENILIVE 2026/27"
+},
 {
 "c": "Serie A",
 "f": "2026-10-03",
