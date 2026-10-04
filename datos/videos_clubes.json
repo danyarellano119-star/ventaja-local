@@ -14,6 +14,24 @@
 },
 {
 "c": "AC Milan",
+"f": "2026-10-04",
+"id": "WqORpknJTOY",
+"t": "Aggancio spaziale di Sammy 🚀⚽️"
+},
+{
+"c": "AC Milan",
+"f": "2026-10-04",
+"id": "MLQ489me07Y",
+"t": "Cosa rende il calcio speciale? 🎙️⚽️"
+},
+{
+"c": "AC Milan",
+"f": "2026-10-04",
+"id": "gmLMgk5ZYfo",
+"t": "Magic Mike dice NO ❌🧱"
+},
+{
+"c": "AC Milan",
 "f": "2026-10-03",
 "id": "fD2yOCV4i04",
 "t": "Tanti auguri a Zlatan Ibrahimović, un’icona del calcio 🎂"
@@ -221,24 +239,6 @@
 "f": "2026-09-25",
 "id": "6pi1t5eQsJw",
 "t": "La famiglia è tutto 🌍"
-},
-{
-"c": "AC Milan",
-"f": "2026-09-25",
-"id": "P9IaVQ-SINM",
-"t": "Luka fa sembrare tutto semplice 😮‍💨"
-},
-{
-"c": "AC Milan",
-"f": "2026-09-24",
-"id": "cp2uBa2DDTU",
-"t": "L’italiano di Gonçalo procede alla grande 🇮🇹 👀"
-},
-{
-"c": "AC Milan",
-"f": "2026-09-24",
-"id": "YZDULsRFgqc",
-"t": "Gonçalo Ramos, oltre il calcio: Milan, famiglia e passioni 🗣️"
 }
 ],
 "AC Monza": [
@@ -247,6 +247,12 @@
 "f": "2026-10-04",
 "id": "q5FG5Lpy1uY",
 "t": "Don't sleep on Dany 😎⚪🔴 #BrestMonza #Mota #nosleep #shorts"
+},
+{
+"c": "AC Monza",
+"f": "2026-10-04",
+"id": "rboj7CBX4lw",
+"t": "Too fast for the camera 💥#BrestMonza #Forson #dropitlikeitshot #shorts"
 },
 {
 "c": "AC Monza",
@@ -475,12 +481,6 @@
 "f": "2026-09-06",
 "id": "Rxl7R97oyqo",
 "t": "1️⃣ First point of our 2026/27 @seriea campaign, let's keep going 💪"
-},
-{
-"c": "AC Monza",
-"f": "2026-09-06",
-"id": "iGAvn8ks2r4",
-"t": "PARMA 1 - 1 MONZA | HIGHLIGHTS SERIE A ENILIVE"
 }
 ],
 "AS Monaco": [
@@ -489,6 +489,12 @@
 "f": "2026-10-04",
 "id": "KMufSWl-pQY",
 "t": "MINAMINO IS BACK! 🇯🇵🔥 - AS MONACO - PISE"
+},
+{
+"c": "AS MONACO",
+"f": "2026-10-04",
+"id": "N87DwwIZ0R4",
+"t": "LE ZAPPING DU DÉBUT DE SAISON 😂❤️🤍"
 },
 {
 "c": "AS MONACO",
@@ -717,12 +723,6 @@
 "f": "2026-09-14",
 "id": "cXKAAtWtNSM",
 "t": "No Home Ground | Hors Terrain — AS Monaco x Tim Bringer (MTB)"
-},
-{
-"c": "AS MONACO",
-"f": "2026-09-13",
-"id": "yZCo1OHJZ4w",
-"t": "FILIPE LUÍS | CONFÉRENCE D'APRÈS-MATCH 🇫🇷 | COLETIVA PÓS-JOGO 🇧🇷 | STRASBOURG - AS MONACO (1-1)"
 }
 ],
 "AS Roma": [
@@ -5254,6 +5254,18 @@
 },
 {
 "c": "Flamengo TV",
+"f": "2026-10-04",
+"id": "yIONBiK-O40",
+"t": "🔴AO VIVO: CAMPEONATO CARIOCA DE VÔLEI FEMININO - TIJUCA x SESC FLAMENGO | 06/10/26"
+},
+{
+"c": "Flamengo TV",
+"f": "2026-10-04",
+"id": "dgGvSe1_yKw",
+"t": "🔴 AO VIVO: TREINO DO FLAMENGO DIRETO DO NINHO | 05/10/26"
+},
+{
+"c": "Flamengo TV",
 "f": "2026-10-03",
 "id": "UGmkPJDL6ok",
 "t": "FLAMENGO SEGUE TRABALHANDO FORTE NO NINHO DO URUBU"
@@ -5473,21 +5485,15 @@
 "f": "2026-09-29",
 "id": "aEneHn71oAQ",
 "t": "O FLAMENGO AGE ESTRITAMENTE DENTRO DA LEI - MENGOCAST #66"
-},
-{
-"c": "Flamengo TV",
-"f": "2026-09-29",
-"id": "BI9OkyUpcFA",
-"t": "BAP EXPLICA O VERDADEIRO IMPACTO DO BANIMENTO DAS CASAS DE APOSTAS - MENGOCAST #66"
-},
-{
-"c": "Flamengo TV",
-"f": "2026-09-29",
-"id": "yIUZneKs0ds",
-"t": "BAP ANALISA IMPACTOS DA PROIBIÇÃO DAS BETS NO BRASIL - MENGOCAST #66"
 }
 ],
 "Fluminense": [
+{
+"c": "Fluminense Football Club",
+"f": "2026-10-04",
+"id": "4W4fRL4jNDI",
+"t": "“HULK SE PROVA QUE FOI UMA VINDA IMPORTANTE” #EleEsmaga #OIncrívelHulk"
+},
 {
 "c": "Fluminense Football Club",
 "f": "2026-10-03",
@@ -5721,12 +5727,6 @@
 "f": "2026-09-16",
 "id": "QHHWq3uSI3s",
 "t": "TRICOLOR, MINHA PAIXÃO! ♥️🇭🇺 #Libertadores #laranjeiras"
-},
-{
-"c": "Fluminense Football Club",
-"f": "2026-09-16",
-"id": "K4aMBYBgis8",
-"t": "EU VOU FICAR LOUCO DA CABEÇA! 🎶🇭🇺"
 }
 ],
 "Fulham": [
@@ -6718,6 +6718,12 @@
 },
 {
 "c": "Inter",
+"f": "2026-10-04",
+"id": "wknQ0YJz_WY",
+"t": "Mkhitaryan, pure finesse ✨🤌"
+},
+{
+"c": "Inter",
 "f": "2026-10-03",
 "id": "vDOu5jv8M_0",
 "t": "EP. 26 | Esteban - Il primo"
@@ -6931,12 +6937,6 @@
 "f": "2026-09-26",
 "id": "jNog2qFMjDg",
 "t": "EP. 19 | Helenio - La bacchetta"
-},
-{
-"c": "Inter",
-"f": "2026-09-26",
-"id": "5meVE7lHEOc",
-"t": "Andy - The rifle"
 }
 ],
 "Ipswich Town": [
@@ -9622,6 +9622,12 @@
 "Real Betis": [
 {
 "c": "Real Betis Balompié",
+"f": "2026-10-04",
+"id": "9MriGss5SVI",
+"t": "🚨 DIRECTO | Real Betis Féminas - Olympia Las Rozas | SEGUNDA FEDERACIÓN"
+},
+{
+"c": "Real Betis Balompié",
 "f": "2026-10-03",
 "id": "i6KyWQN5XtI",
 "t": "🚨 DIRECTO | Real Betis Juvenil DH - Sevilla FC | CANTERA"
@@ -9637,12 +9643,6 @@
 "f": "2026-10-03",
 "id": "B5MYZ3GnFYM",
 "t": "Reto de las PATADITAS con ANTONY, CUCHO, NELSON, NATAN Y ALEXIS🦵🧻 | VLOG | Real BETIS Balompié"
-},
-{
-"c": "Real Betis Balompié",
-"f": "2026-10-02",
-"id": "9MriGss5SVI",
-"t": "🚨 DIRECTO | Real Betis Féminas - Olympia Las Rozas | SEGUNDA FEDERACIÓN"
 },
 {
 "c": "Real Betis Balompié",
@@ -10512,6 +10512,12 @@
 "Sabah FK": [
 {
 "c": "Sabah",
+"f": "2026-10-04",
+"id": "1EcK5EATCfU",
+"t": "\"Hadisenize açın abi, daha 30 saniye var.\""
+},
+{
+"c": "Sabah",
 "f": "2026-10-03",
 "id": "lGQgqk53Yn4",
 "t": "Babasına gözyaşlarıyla sessizce veda etti"
@@ -10743,15 +10749,21 @@
 "f": "2026-08-18",
 "id": "3du5fZ8qm5A",
 "t": "Dört Yıl Şart mı? Süreden Yetkinliğe Yeni Bir Lisans Eğitimi Modeli I Dr. İpek Coşkun Armağan"
-},
-{
-"c": "Sabah",
-"f": "2026-08-18",
-"id": "jGa3y0A6hB8",
-"t": "Gazzeli doktorlar ölüme terk edildi"
 }
 ],
 "Sevilla": [
+{
+"c": "Sevilla FC",
+"f": "2026-10-04",
+"id": "Ss5jjk_KOPM",
+"t": "Adivina las medias de EA FC27 con Kike Salas 😜❤️ #eafc #fc27 #shorts"
+},
+{
+"c": "Sevilla FC",
+"f": "2026-10-04",
+"id": "ov06wdluB_k",
+"t": "Sevilla Atlético - CD Badajoz (2-2) Segunda Federación | Resumen"
+},
 {
 "c": "Sevilla FC",
 "f": "2026-10-03",
@@ -10979,21 +10991,15 @@
 "f": "2026-09-16",
 "id": "_woL9ln_jRQ",
 "t": "¡SIEEEEERRRA DE MI VIIIIIDA! 💥❤️#DéporSevilla #laligahighlights"
-},
-{
-"c": "Sevilla FC",
-"f": "2026-09-16",
-"id": "luPtl_FAQ4A",
-"t": "'El Partido' #DéporSevilla | 📡 EN DIRECTO"
-},
-{
-"c": "Sevilla FC",
-"f": "2026-09-16",
-"id": "gJ9q0oNkQ_0",
-"t": "RC Deportivo - Sevilla FC (0-1) LALIGA | Resumen"
 }
 ],
 "Sheffield United": [
+{
+"c": "Sheffield United FC",
+"f": "2026-10-04",
+"id": "4mFRGyXqGug",
+"t": "Stephen Healy | Sheffield United Women 1-2 Ipswich Town Women | Match Reaction"
+},
 {
 "c": "Sheffield United FC",
 "f": "2026-09-30",
@@ -11010,13 +11016,13 @@
 "c": "Sheffield United FC",
 "f": "2026-09-27",
 "id": "k9JH1YVO2YE",
-"t": "Stephen Healy | Sheffield United 4-1 Durham Women | Match reaction"
+"t": "Stephen Healy | Sheffield United Women 4-1 Durham Women | Match reaction"
 },
 {
 "c": "Sheffield United FC",
 "f": "2026-09-27",
 "id": "sjibi8JQl0o",
-"t": "Amy Andrews | Sheffield United 4-1 Durham | Match reaction"
+"t": "Amy Andrews | Sheffield United Women 4-1 Durham | Match reaction"
 },
 {
 "c": "Sheffield United FC",
@@ -11028,7 +11034,7 @@
 "c": "Sheffield United FC",
 "f": "2026-09-24",
 "id": "aafWW48z1Sw",
-"t": "Stephen Healy | Manchester United 10-1 Sheffield United | League Cup |  Match reaction"
+"t": "Stephen Healy | Manchester United Women 10-1 Sheffield United Women | League Cup |  Match reaction"
 },
 {
 "c": "Sheffield United FC",
@@ -11227,12 +11233,6 @@
 "f": "2026-09-08",
 "id": "lYOQ99XMo0s",
 "t": "Blackburn Rovers 1-2 Sheffield United | Extended EFL Championship highlights"
-},
-{
-"c": "Sheffield United FC",
-"f": "2026-09-08",
-"id": "LUoTsuff7Pg",
-"t": "aura. 📈"
 }
 ],
 "Southampton": [
@@ -12140,6 +12140,12 @@
 "São Paulo": [
 {
 "c": "São Paulo FC",
+"f": "2026-10-04",
+"id": "QTkQu8N9XQc",
+"t": "GOL: SÃO PAULO 1 x 1 CORINTHIANS | BRASILEIRÃO FEMININO 2026"
+},
+{
+"c": "São Paulo FC",
 "f": "2026-10-03",
 "id": "MWo4UcnN3Iw",
 "t": "NARRAÇÃO AO VIVO: SÃO PAULO X SANTOS | BRASILEIRÃO 2026 - (21ª RODADA)"
@@ -12371,12 +12377,6 @@
 "f": "2026-09-13",
 "id": "0iRQOMa0hBs",
 "t": "COLETIVA PÓS-JOGO: PALMEIRAS X SÃO PAULO | BRASILEIRÃO 2026"
-},
-{
-"c": "São Paulo FC",
-"f": "2026-09-13",
-"id": "do7kU40Obhg",
-"t": "BATE-PAPO COM PEDRO LIMA | SPFC PLAY"
 }
 ],
 "Tottenham Hotspur": [
