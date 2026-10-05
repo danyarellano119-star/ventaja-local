@@ -8,6 +8,48 @@
 },
 {
 "c": "CazéTV",
+"f": "2026-10-05",
+"id": "XQ2CgQtFI_c",
+"t": "EVENTO COMPLETO: JUDÔ | TIME BRASIL NO MUNDIAL DE BAKU 2026 | FINAIS"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-05",
+"id": "uyxWhOp9f-A",
+"t": "JUDÔ | TIME BRASIL NO MUNDIAL DE BAKU 2026 | QUALIFICATÓRIAS"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-05",
+"id": "prQZxanLPgI",
+"t": "AO VIVO: JUDÔ | TIME BRASIL NO MUNDIAL DE BAKU 2026 | FINAIS"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-05",
+"id": "MXU_8ooHO5k",
+"t": "AO VIVO: JUDÔ | TIME BRASIL NO MUNDIAL DE BAKU 2026 | QUALIFICATÓRIAS"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-05",
+"id": "Z2_FqSstJHA",
+"t": "ALCARAZ E LEHECKA VENCEM E VÃO DECIDIR O TÍTULO! | SEMIFINAIS | ATP 500 DE TÓQUIO"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-05",
+"id": "Kd5K7bdZK5s",
+"t": "AO VIVO: TÊNIS DE MESA | HUGO CALDERANO E BRUNA TAKAHASHI NO CHINA SMASH 2026 | OITAVAS DE FINAL"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-05",
+"id": "j9HNBRPKPW0",
+"t": "AO VIVO: TÊNIS DE MESA | HUGO CALDERANO NO CHINA SMASH 2026 | 16 AVOS DE FINAL"
+},
+{
+"c": "CazéTV",
 "f": "2026-10-04",
 "id": "Q-E__9Mq0BQ",
 "t": "DRAFT DAY KINGS LEAGUE 2026/2027"
@@ -195,12 +237,6 @@
 {
 "c": "CazéTV",
 "f": "2026-09-30",
-"id": "XQ2CgQtFI_c",
-"t": "AO VIVO: JUDÔ | TIME BRASIL NO MUNDIAL DE JUDÔ DE BAKU 2026"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-30",
 "id": "P7_Klko5_os",
 "t": "COMO É FEITO O DRINK OFICIAL DA LAVER CUP? VIMOS DE PERTO E PROVAMOS!"
 },
@@ -215,12 +251,6 @@
 "f": "2026-09-30",
 "id": "JdHYSP3z0Mo",
 "t": "AO VIVO: REACT DA LAVER CUP 2026 | RAFAEL JODAR X ALEXANDER BUBLIK | ESPECIAL LAVER CUP"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-30",
-"id": "uyxWhOp9f-A",
-"t": "AO VIVO: JUDÔ | TIME BRASIL NO MUNDIAL DE BAKU 2026 | QUALIFICATÓRIAS"
 },
 {
 "c": "CazéTV",
@@ -3040,6 +3070,12 @@
 "bundesliga": [
 {
 "c": "Bundesliga",
+"f": "2026-10-05",
+"id": "jZVumo7QEqc",
+"t": "Jamal Musiala and Alphonso Davies battle each other in the 3️⃣2️⃣1️⃣-Challenge! 💪"
+},
+{
+"c": "Bundesliga",
 "f": "2026-10-04",
 "id": "yXDuvCiLEOc",
 "t": "The golden touch of Harry Kane 😮‍💨🌪️"
@@ -4086,6 +4122,24 @@
 "champions": [
 {
 "c": "UEFA",
+"f": "2026-10-05",
+"id": "WPo5a28Fvo8",
+"t": "EVERY Edin Džeko Nations League Goal For Bosnia and Herzegovina!"
+},
+{
+"c": "UEFA",
+"f": "2026-10-05",
+"id": "9LpFmgY10Go",
+"t": "Pogba impact from the bench"
+},
+{
+"c": "UEFA",
+"f": "2026-10-05",
+"id": "NnyyId0Gc78",
+"t": "How did this happen? 🤣"
+},
+{
+"c": "UEFA",
 "f": "2026-10-03",
 "id": "JFnAAd68M6g",
 "t": "Colombia - Brazil: UEFA Friendship Cup 2026 ¦ 3rd-4th Place ¦ Match 15"
@@ -4895,6 +4949,18 @@
 "f": "2026-10-05",
 "id": "_2li8dAHuC0",
 "t": "Ole Romeny wil voetbalgek Indonesië eindelijk weer aan prijs helpen 🇮🇩🏆"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-05",
+"id": "nZf9FZe3CwM",
+"t": "Vandaag in 2013: Een bizarre comeback van N.E.C, maar dan...😱😬"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-05",
+"id": "giqY6ezS-P8",
+"t": "Wanneer je ziet dat er weer Eredivisie is dit weekend 😍🔙"
 },
 {
 "c": "ESPN NL",
@@ -8731,6 +8797,24 @@
 "f": "2026-10-05",
 "id": "RinSq-xDEeI",
 "t": "¡Qué disparo de Cancelo! 🚀"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-05",
+"id": "1nUoge0v3H8",
+"t": "ARDA GÜLER y la perfección en sus pases"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-05",
+"id": "HedGrJ7ZE9g",
+"t": "Los MEJORES ASISTENCIAS en LALIGA 2026/27 hasta AHORA"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-05",
+"id": "jlTUMUFfDRg",
+"t": "Todo bajo control con Fermín"
 },
 {
 "c": "LALIGA EA SPORTS",
@@ -12836,6 +12920,30 @@
 "premier": [
 {
 "c": "Premier League",
+"f": "2026-10-05",
+"id": "oDQRKzkmRrs",
+"t": "Papiss Cisse’s Strike Left Alan Pardew SPEECHLESS 😱"
+},
+{
+"c": "Premier League",
+"f": "2026-10-05",
+"id": "k_1j6lFEyT4",
+"t": "The MOST Emotional Moments In Premier League History 🥲"
+},
+{
+"c": "Premier League",
+"f": "2026-10-05",
+"id": "06lazNUNucs",
+"t": "The Art Of The Slide Tackle 🎨"
+},
+{
+"c": "Premier League",
+"f": "2026-10-05",
+"id": "r7RRnW3BaKI",
+"t": "Cristiano Ronaldo Made It Look Easy 🔥"
+},
+{
+"c": "Premier League",
 "f": "2026-10-04",
 "id": "qB0OjKa57Jg",
 "t": "Dennis Bergkamp, Poetry In Motion 🤤"
@@ -12850,7 +12958,7 @@
 "c": "Premier League",
 "f": "2026-10-03",
 "id": "SqggPH_lz6E",
-"t": "Mamadou Sangare Can Do It All 👏"
+"t": "Mamadou Sangare Can Do It All 🇲🇱"
 },
 {
 "c": "Premier League",
@@ -13694,6 +13802,24 @@
 }
 ],
 "seriea": [
+{
+"c": "Serie A",
+"f": "2026-10-05",
+"id": "chP9139RbRU",
+"t": "MAXI SINTESI GENOA-NAPOLI 0-2 | EXTENDED HIGHLIGHTS | SERIE A ENILIVE 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-10-05",
+"id": "6NF0VZyQUfA",
+"t": "GENOA-NAPOLI 0-2 | EXTENDED HIGHLIGHTS | SERIE A 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-10-05",
+"id": "ynhev7nBeVI",
+"t": "EYES ON MOREIRA 👀 #SerieA"
+},
 {
 "c": "Serie A",
 "f": "2026-10-04",
