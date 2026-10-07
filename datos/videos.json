@@ -2,27 +2,39 @@
 "brasileirao": [
 {
 "c": "CazéTV",
+"f": "2026-10-07",
+"id": "prQZxanLPgI",
+"t": "JUDÔ: TIME BRASIL NO MUNDIAL DE BAKU 2026 | FINAIS"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-07",
+"id": "MXU_8ooHO5k",
+"t": "JUDÔ: RAFAELA SILVA NO MUNDIAL DE BAKU 2026 | QUALIFICATÓRIAS | 4º DIA"
+},
+{
+"c": "CazéTV",
 "f": "2026-10-06",
 "id": "j9HNBRPKPW0",
-"t": "EVENTO COMPLETO: TÊNIS DE MESA | HUGO CALDERANO NO CHINA SMASH 2026 | 16 AVOS DE FINAL"
+"t": "TÊNIS DE MESA: HUGO CALDERANO NO CHINA SMASH 2026 | 16 AVOS DE FINAL"
 },
 {
 "c": "CazéTV",
 "f": "2026-10-06",
 "id": "Kd5K7bdZK5s",
-"t": "EVENTO COMPLETO: TÊNIS DE MESA | HUGO CALDERANO E BRUNA TAKAHASHI NO CHINA SMASH 2026 | OITAVAS"
+"t": "TÊNIS DE MESA: HUGO CALDERANO E BRUNA TAKAHASHI NO CHINA SMASH 2026 | OITAVAS DE FINAL"
 },
 {
 "c": "CazéTV",
 "f": "2026-10-06",
 "id": "qIFCVuLPmXo",
-"t": "EVENTO COMPLETO: JUDÔ | TIME BRASIL NO MUNDIAL DE BAKU 2026 | FINAIS"
+"t": "JUDÔ: TIME BRASIL NO MUNDIAL DE BAKU 2026 | FINAIS | 3º DIA"
 },
 {
 "c": "CazéTV",
 "f": "2026-10-06",
 "id": "hRa-iDzn4JU",
-"t": "JUDÔ | TIME BRASIL NO MUNDIAL DE BAKU 2026 | QUALIFICATÓRIAS"
+"t": "JUDÔ: TIME BRASIL NO MUNDIAL DE BAKU 2026 | QUALIFICATÓRIAS | 3º DIA"
 },
 {
 "c": "CazéTV",
@@ -40,7 +52,7 @@
 "c": "CazéTV",
 "f": "2026-10-06",
 "id": "NDTT1r3md9g",
-"t": "AO VIVO: LOGO APÓS O JOGO ENTRE INTERNACIONAL X CORINTHIANS | RODA DE BOBO"
+"t": "AO VIVO: RODA DE BOBO | PÓS-JOGO INTERNACIONAL X CORINTHIANS"
 },
 {
 "c": "CazéTV",
@@ -89,18 +101,6 @@
 "f": "2026-10-05",
 "id": "uyxWhOp9f-A",
 "t": "JUDÔ | TIME BRASIL NO MUNDIAL DE BAKU 2026 | QUALIFICATÓRIAS"
-},
-{
-"c": "CazéTV",
-"f": "2026-10-05",
-"id": "prQZxanLPgI",
-"t": "AO VIVO: JUDÔ | TIME BRASIL NO MUNDIAL DE BAKU 2026 | FINAIS"
-},
-{
-"c": "CazéTV",
-"f": "2026-10-05",
-"id": "MXU_8ooHO5k",
-"t": "AO VIVO: JUDÔ | RAFAELA SILVA NO MUNDIAL DE BAKU 2026 | QUALIFICATÓRIAS"
 },
 {
 "c": "CazéTV",
@@ -3166,6 +3166,12 @@
 "bundesliga": [
 {
 "c": "Bundesliga",
+"f": "2026-10-07",
+"id": "KKyF7x_Kz7s",
+"t": "From a bear-sized duck to Messi: Jamal Musiala answers random questions! 👀😂"
+},
+{
+"c": "Bundesliga",
 "f": "2026-10-06",
 "id": "QFVP2mW3M2Q",
 "t": "\"The whole team thought he will win the Ballon D‘or\" 😳🥇"
@@ -4224,6 +4230,18 @@
 "champions": [
 {
 "c": "UEFA",
+"f": "2026-10-07",
+"id": "elJsDka1ino",
+"t": "BEST GOALS of the Nations League So Far! (Matchdays 1-4) 🤯"
+},
+{
+"c": "UEFA",
+"f": "2026-10-07",
+"id": "I5XdtMxhwY4",
+"t": "99 pace, 99 dribbling"
+},
+{
+"c": "UEFA",
 "f": "2026-10-06",
 "id": "A17QD24HpbU",
 "t": "Switched on 🤝"
@@ -5075,6 +5093,12 @@
 "f": "2026-10-07",
 "id": "2Uqjpa91iAA",
 "t": "MOEILIJKE KEUZE voor XAVI en REIZIGER: \"Moeten zich ook zonder ZECHIËL en VAN BOMMEL kwalificeren\""
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-07",
+"id": "nfy11kAVIdY",
+"t": "Openhartige Victoria Pelova vertelt hoe ze omgaat met het overlijden van haar moeder ❤️"
 },
 {
 "c": "ESPN NL",
@@ -9022,6 +9046,24 @@
 },
 {
 "c": "LALIGA EA SPORTS",
+"f": "2026-10-07",
+"id": "YkV_LOhEgRs",
+"t": "Por esto LALIGA FC FUTURES es el mejor torneo SUB 12 DEL MUNDO"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-07",
+"id": "CCosJuJTyJA",
+"t": "Este momento de MOU con el árbitro:"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-07",
+"id": "ifDgke0q-lU",
+"t": "¡Los 100 GOLES de ANTE BUDIMIR en LALIGA!"
+},
+{
+"c": "LALIGA EA SPORTS",
 "f": "2026-10-06",
 "id": "KWYhEQTWgCg",
 "t": "10 JUGADORES a seguir en LALIGA 2026/27"
@@ -11904,6 +11946,18 @@
 },
 {
 "c": "Ligue 1",
+"f": "2026-10-07",
+"id": "NcSSI29e20Q",
+"t": "One more emotion 🥹🇦🇷  #football #ligue1 #sports #psg #foot #footballshorts #soccer #messi #shorts"
+},
+{
+"c": "Ligue 1",
+"f": "2026-10-07",
+"id": "j4B7o3WVo6M",
+"t": "LIVE - Le SAV de la Ligue 1 | J6 - saison 2026/2027"
+},
+{
+"c": "Ligue 1",
 "f": "2026-10-06",
 "id": "ozfqJei4OaU",
 "t": "Never stop trying 💪⚽️ #football #ligue1 #sports #foot #footballshorts #soccer #shorts #skills #goals"
@@ -13214,6 +13268,30 @@
 },
 {
 "c": "Premier League",
+"f": "2026-10-07",
+"id": "kGH8npD6n8U",
+"t": "Son Heung-min Could Not Stop Smiling 🥹🇰🇷"
+},
+{
+"c": "Premier League",
+"f": "2026-10-07",
+"id": "bYcxD-GbJOI",
+"t": "WILD Final 20 Minutes 😳 | Liverpool v Man City 25/26"
+},
+{
+"c": "Premier League",
+"f": "2026-10-07",
+"id": "e-WJK6Aim4s",
+"t": "Mikel Arteta's Crowning Moment 🏆"
+},
+{
+"c": "Premier League",
+"f": "2026-10-07",
+"id": "eSVRdB59dYQ",
+"t": "Mikel Arteta's BEST Touchline Reactions 🍿"
+},
+{
+"c": "Premier League",
 "f": "2026-10-06",
 "id": "AmM0YWZo72c",
 "t": "Firmino’s Backheels Were PURE MAGIC ✨🇧🇷"
@@ -14114,6 +14192,30 @@
 }
 ],
 "seriea": [
+{
+"c": "Serie A",
+"f": "2026-10-07",
+"id": "dG7SUgtdL30",
+"t": "COMO-INTER 3-4 | FULL MATCH | SERIE A 2025/26"
+},
+{
+"c": "Serie A",
+"f": "2026-10-07",
+"id": "ishTSP_9ZjA",
+"t": "6 Other TOP PERFORMERS So Far In The Serie A 2026/27 Season 🤩"
+},
+{
+"c": "Serie A",
+"f": "2026-10-07",
+"id": "3c0zryxLmpk",
+"t": "PATO has a request for MODRIĆ 🫣😅"
+},
+{
+"c": "Serie A",
+"f": "2026-10-07",
+"id": "fSwrVWk0P0c",
+"t": "🌟 PATO si RACCONTA | Lo SCUDETTO, RONALDINHO, gli anni al MILAN | Storie di Serie A"
+},
 {
 "c": "Serie A",
 "f": "2026-10-06",
