@@ -40,13 +40,61 @@
 "c": "CazéTV",
 "f": "2026-10-08",
 "id": "jlrcMv67IWg",
-"t": "GOL DO CORINTHIANS! ANDRÉ DEIXA O TIMÃO VIVO NA PARTIDA CONTRA O INTER NO BRASILEIRÃO!"
+"t": "GOL DO CORINTHIANS! ANDRÉ DEIXA O TIMÃO VIVO NA PARTIDA CONTRA O INTERNACIONAL NO BRASILEIRÃO!"
 },
 {
 "c": "CazéTV",
 "f": "2026-10-08",
 "id": "XLX-ehGvE3o",
 "t": "GOL DO INTER! ALAN PATRICK AMPLIA CONTRA O CORINTHIANS NO BRASILEIRÃO!"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-08",
+"id": "_Sw3rwGTQXw",
+"t": "TÊNIS DE MESA: HUGO CALDERANO NO CHINA SMASH 2026 | OITAVAS DE FINAL"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-08",
+"id": "JWIASMGb6e0",
+"t": "JUDÔ | TIME BRASIL NO MUNDIAL DE BAKU 2026 | FINAIS"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-08",
+"id": "aV5BSZ3wRVw",
+"t": "JUDÔ: RAFAEL MACEDO E TIME BRASIL NO MUNDIAL DE BAKU 2026 | QUALIFICATÓRIAS | 5º DIA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-08",
+"id": "tp8dV7ZsXlk",
+"t": "AO VIVO: JUDÔ | TIME BRASIL NO MUNDIAL DE BAKU 2026 | FINAIS | 7º DIA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-08",
+"id": "fe3gGc6UD0g",
+"t": "AO VIVO: JUDÔ | BEATRIZ SOUZA E TIME BRASIL NO MUNDIAL DE BAKU 2026 | QUALIFICATÓRIAS | 7º DIA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-08",
+"id": "gGoGNzvqRoA",
+"t": "TSITSIPAS ESTREIA COM VITÓRIA, HURKACZ AVANÇA E NORRIE CAI | DIA 2 | MASTERS 1000 DE XANGAI"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-08",
+"id": "ykl-XVRHMag",
+"t": "AO VIVO: TÊNIS DE MESA | HUGO CALDERANO X FELIX LEBRUM NO CHINA SMASH 2026 | QUARTAS DE FINAL"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-08",
+"id": "tLqBBcDhZx0",
+"t": "O MR RESENHA PRECISA DE AJUDA! IGOR RODRIGUES PROMETE MUDAR O ESTILO! | RODA DE BOBO"
 },
 {
 "c": "CazéTV",
@@ -77,12 +125,6 @@
 "f": "2026-10-07",
 "id": "mX1S2FMDMlM",
 "t": "XANGAI COMEÇOU GRANDES JOGOS! BERRETTINI VENCE E RUNE SE DESPEDE | DIA 1 | MASTERS 1000 DE XANGAI"
-},
-{
-"c": "CazéTV",
-"f": "2026-10-07",
-"id": "_Sw3rwGTQXw",
-"t": "AO VIVO: TÊNIS DE MESA: HUGO CALDERANO NO CHINA SMASH 2026 | OITAVAS DE FINAL"
 },
 {
 "c": "CazéTV",
@@ -202,18 +244,6 @@
 "c": "CazéTV",
 "f": "2026-10-05",
 "id": "MiI-unCfvEw",
-"t": "AO VIVO: JUDÔ | TIME BRASIL NO MUNDIAL DE BAKU 2026 | QUALIFICATÓRIAS"
-},
-{
-"c": "CazéTV",
-"f": "2026-10-05",
-"id": "JWIASMGb6e0",
-"t": "AO VIVO: JUDÔ | TIME BRASIL NO MUNDIAL DE BAKU 2026 | FINAIS"
-},
-{
-"c": "CazéTV",
-"f": "2026-10-05",
-"id": "aV5BSZ3wRVw",
 "t": "AO VIVO: JUDÔ | TIME BRASIL NO MUNDIAL DE BAKU 2026 | QUALIFICATÓRIAS"
 },
 {
@@ -3238,6 +3268,96 @@
 "bundesliga": [
 {
 "c": "Bundesliga",
+"f": "2026-10-08",
+"id": "pS8ykpARF_E",
+"t": "Hit ✅ or Miss ❌ Can you guess the correct answer? 👀"
+},
+{
+"c": "Bundesliga",
+"f": "2026-10-08",
+"id": "P_KpMyM5zto",
+"t": "LIVE 🔴 Borussia Dortmund vs. SV Werder Bremen | Matchday 5 - Bundesliga 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-10-08",
+"id": "jIVO3BcABiQ",
+"t": "LIVE 🔴 VfL Bochum 1848 vs. DSC Arminia Bielefeld | Matchday 7 - Bundesliga 2 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-10-08",
+"id": "8288jDHhg0U",
+"t": "LIVE 🔴 Hertha BSC vs. SpVgg Greuther Fürth | Matchday 7 - Bundesliga 2 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-10-08",
+"id": "3fAuVb7rE1A",
+"t": "LIVE 🔴 FC St. Pauli vs. Karlsruher SC | Matchday 7 - Bundesliga 2 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-10-08",
+"id": "YnBCjKz0m70",
+"t": "LIVE 🔴 1. FC Nürnberg vs. VfL Wolfsburg | Matchday 7 - Bundesliga 2 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-10-08",
+"id": "fTRtswLyazU",
+"t": "LIVE 🔴 VfL Osnabrück vs. SG Dynamo Dresden | Matchday 7 - Bundesliga 2 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-10-08",
+"id": "UaxTPlQJqRA",
+"t": "LIVE 🔴 1. FC Magdeburg vs. Hannover 96 | Matchday 7 - Bundesliga 2 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-10-08",
+"id": "ZG4Dwsrp9iM",
+"t": "LIVE 🔴 SV Darmstadt 98 vs. FC Energie Cottbus | Matchday 7 - Bundesliga 2 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-10-08",
+"id": "hJcjGJzL_hE",
+"t": "LIVE 🔴 Eintracht Braunschweig vs. Holstein Kiel | Matchday 7 - Bundesliga 2 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-10-08",
+"id": "6cjoMnBib4w",
+"t": "LIVE 🔴 1. FC Heidenheim 1846 vs. 1. FC Kaiserslautern | Matchday 7 - Bundesliga 2 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-10-08",
+"id": "Gsp7VlaWTss",
+"t": "LIVE 🔴 Sport-Club Freiburg vs. FC Schalke 04 | Matchday 5 - Bundesliga 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-10-08",
+"id": "LrSA0iJLWGg",
+"t": "LIVE 🔴 1. FC Köln vs. Borussia Mönchengladbach | Matchday 5 - Bundesliga 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-10-08",
+"id": "CWRsnRx0NBI",
+"t": "LIVE 🔴 RB Leipzig vs. Eintracht Frankfurt | Matchday 5 - Bundesliga 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-10-08",
+"id": "M_D3YnYoJKw",
+"t": "LIVE 🔴 SC Paderborn 07 vs. VfB Stuttgart | Matchday 5 - Bundesliga 2026/27"
+},
+{
+"c": "Bundesliga",
 "f": "2026-10-07",
 "id": "KKyF7x_Kz7s",
 "t": "From a bear-sized duck to Messi: Jamal Musiala answers random questions! 👀😂"
@@ -4302,6 +4422,24 @@
 "champions": [
 {
 "c": "UEFA",
+"f": "2026-10-08",
+"id": "gPyrTede5WI",
+"t": "EVERY Erling Haaland Nations League Goal"
+},
+{
+"c": "UEFA",
+"f": "2026-10-08",
+"id": "HBhYSWYCTP4",
+"t": "Trent on goalkeeper duty"
+},
+{
+"c": "UEFA",
+"f": "2026-10-08",
+"id": "BQmi0FOVDv4",
+"t": "Arda Güler free-kick 💫"
+},
+{
+"c": "UEFA",
 "f": "2026-10-07",
 "id": "elJsDka1ino",
 "t": "BEST GOALS of the Nations League So Far! (Matchdays 1-4) 🤯"
@@ -5154,6 +5292,42 @@
 }
 ],
 "eredivisie": [
+{
+"c": "ESPN NL",
+"f": "2026-10-08",
+"id": "Rgp_yHqKnOU",
+"t": "Een ambitieuze Abdellah Ouazane 🏆💭"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-08",
+"id": "lrb3JwfSHjU",
+"t": "ABDELLAH OUAZANE blikt terug op de POTJES UNO en zijn DEBUUT voor MAROKKO 🇲🇦⭐️ | Interview"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-08",
+"id": "ioLkRK9z8Z8",
+"t": "Een potje UNO brak het ijs voor Ouazane bij Marokko 🇲🇦🃏"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-08",
+"id": "8gvYlwfIzp8",
+"t": "Viktor Fischer 🪄"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-08",
+"id": "RMQxT-_8Heg",
+"t": "Pure extase 🤯"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-08",
+"id": "NmGyGQ4_hqA",
+"t": "Mauro Jr. werd weer herenigd met oud-ploeggenoten Vinícius Jr. en Gabriel 🤝🇧🇷"
+},
 {
 "c": "ESPN NL",
 "f": "2026-10-07",
@@ -9154,6 +9328,30 @@
 },
 {
 "c": "LALIGA EA SPORTS",
+"f": "2026-10-08",
+"id": "83tz7Vj7QUE",
+"t": "Alberto Jiménez | La capitanía desde la zaga | CAPITANES #16"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-08",
+"id": "81f46o6xXIM",
+"t": "Anthony Gordon 🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-08",
+"id": "bJw-ySofcfA",
+"t": "RAPHINHA y MBAPPE: ¿rotaciones? | LALIGA FANTASY SHOW #7"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-08",
+"id": "IFZjmLu7zNk",
+"t": "Los 10 ÚLTIMOS MINUTOS de la exhibición de BENZEMA y MODRIĆ en LALIGA"
+},
+{
+"c": "LALIGA EA SPORTS",
 "f": "2026-10-07",
 "id": "Ol4A7TPSxEk",
 "t": "Gran acción defensiva de MARC PUBILL"
@@ -12078,6 +12276,12 @@
 },
 {
 "c": "Ligue 1",
+"f": "2026-10-08",
+"id": "7Ph5-feYV2g",
+"t": "OLIVIER GIROUD : 40 QUESTIONS POUR SES 40 ANS"
+},
+{
+"c": "Ligue 1",
 "f": "2026-10-07",
 "id": "PlRITWXBlRo",
 "t": "Edon Zhegrova 🇽🇰✨ #football #ligue1 #sports #footballshorts #soccer #ligue1mcdonalds #skills #shorts"
@@ -12092,7 +12296,7 @@
 "c": "Ligue 1",
 "f": "2026-10-07",
 "id": "j4B7o3WVo6M",
-"t": "LIVE - Le SAV de la Ligue 1 | J6 - saison 2026/2027"
+"t": "LIVE - Le SAV de la Ligue 1 avec Yacine BAMMOU | J6 - saison 2026/2027"
 },
 {
 "c": "Ligue 1",
@@ -13412,6 +13616,24 @@
 "premier": [
 {
 "c": "Premier League",
+"f": "2026-10-08",
+"id": "-RVMF3phbtA",
+"t": "No One Could Catch Gareth Bale 🏎️"
+},
+{
+"c": "Premier League",
+"f": "2026-10-08",
+"id": "llrbqdpkl0c",
+"t": "Myles Lewis-Skelly Reveals Arsenal Player With CRAZY First Touch"
+},
+{
+"c": "Premier League",
+"f": "2026-10-08",
+"id": "2-ktmTyZjs0",
+"t": "Alexander Isak Has Elite Attacking IQ 🧠"
+},
+{
+"c": "Premier League",
 "f": "2026-10-07",
 "id": "dHLsqNWzVgs",
 "t": "Alisson Is UNBEATABLE 1v1 😤"
@@ -13426,7 +13648,7 @@
 "c": "Premier League",
 "f": "2026-10-07",
 "id": "bYcxD-GbJOI",
-"t": "WILD Final 20 Minutes 😳 | Liverpool v Man City 25/26"
+"t": "WILD Final 20 Minutes In Full 🍿 | Liverpool v Man City 25/26"
 },
 {
 "c": "Premier League",
@@ -14342,6 +14564,24 @@
 }
 ],
 "seriea": [
+{
+"c": "Serie A",
+"f": "2026-10-08",
+"id": "78DMQOAZ7EE",
+"t": "6 Players You Are OVERLOOKING In Serie A 👀"
+},
+{
+"c": "Serie A",
+"f": "2026-10-08",
+"id": "l24ocX-k3ao",
+"t": "COMO Turned THIS Game Around 😮‍💨"
+},
+{
+"c": "Serie A",
+"f": "2026-10-08",
+"id": "rzJd_VJkY3Q",
+"t": "COMO-ROMA 2-1 | CLASSIC HIGHLIGHTS SERIE A 2025/26"
+},
 {
 "c": "Serie A",
 "f": "2026-10-07",
