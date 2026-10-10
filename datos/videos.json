@@ -104,6 +104,90 @@
 },
 {
 "c": "CazéTV",
+"f": "2026-10-10",
+"id": "FUn9SSdz3zY",
+"t": "JOGO COMPLETO (SOM AMBIENTE): LORIENT X PARIS FC | LIGUE 1 26/27 | 6ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-10",
+"id": "0dq7QcW2Fy8",
+"t": "JOGO COMPLETO (SOM AMBIENTE): STADE BRESTOIS X ANGERS | LIGUE 1 26/27 | 6ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-10",
+"id": "lUH5DF_2974",
+"t": "JOGO COMPLETO: PSG X LE MANS | LIGUE 1 26/27 | 6ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-10",
+"id": "C7OF1NJRqws",
+"t": "JOGO COMPLETO: MÔNACO X TOULOUSE | LIGUE 1 26/27 | 6ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-10",
+"id": "q_ugzqXh5NQ",
+"t": "JOGO COMPLETO: BARCELONA X GETAFE | LALIGA 26/27 | 8ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-10",
+"id": "X7wE6AaCB5I",
+"t": "JOGO COMPLETO: REAL MADRID X VILLARREAL | LALIGA 26/27 | 8ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-10",
+"id": "bZqy3Htvypk",
+"t": "MELHORES MOMENTOS: PSG 3 X 1 LE MANS | LIGUE 1 26/27 | 6ª RODADA | 10/10/26"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-10",
+"id": "Pmgv_4Lv13s",
+"t": "MELHORES MOMENTOS: MÔNACO 2 X 2 TOULOUSE | LIGUE 1 26/27 | 6ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-10",
+"id": "NaCE8tY-usg",
+"t": "COMPACTO : REAL MADRID 1 X 0 VILLARREAL | LALIGA 26/27 | 8ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-10",
+"id": "2ca0-Lf8ilA",
+"t": "MELHORES MOMENTOS: REAL MADRID 1 X 0 VILLARREAL | LALIGA 26/27 | 8ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-10",
+"id": "-PxVrFsqOjU",
+"t": "1 HORA DE VINI JR DESTRUINDO EM LA LIGA PELO REAL MADRID!"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-10",
+"id": "n4GbZCU3HCY",
+"t": "GOOOL DO REAL MADRID! DIOMANDE ABRE O PLACAR CONTRA O VILLAREAL!"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-10",
+"id": "FfmxsKUUuGU",
+"t": "AO VIVO: JUDÔ | TIME BRASIL NO MUNDIAL DE BAKU 2026 | FINAIS | 8º DIA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-10",
+"id": "2m4bwQuMZ1w",
+"t": "AO VIVO: TÊNIS DE MESA | FINAIS DO CHINA SMASH 2026"
+},
+{
+"c": "CazéTV",
 "f": "2026-10-09",
 "id": "FFW_JtI8ieM",
 "t": "MELHORES MOMENTOS: FLUMINENSE 4 X 0 CORITIBA | BRASILEIRÃO 2026 | 29ª RODADA"
@@ -387,12 +471,6 @@
 {
 "c": "CazéTV",
 "f": "2026-10-06",
-"id": "FUn9SSdz3zY",
-"t": "AO VIVO (SOM AMBIENTE): LORIENT X PARIS FC | LIGUE 1 26/27 | 6ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-10-06",
 "id": "ZcEtEXIJVH4",
 "t": "ALCARAZ CAMPEÃO! ESPANHOL DERROTA LEHECKA E LEVANTA O TROFÉU | FINAL | ATP 500 DE TÓQUIO"
 },
@@ -443,12 +521,6 @@
 "f": "2026-10-05",
 "id": "t_EFSzt1iM4",
 "t": "MEDVEDEV É DESCLASSIFICADO! DJOKOVIC E DE MINAUR DECIDEM O TÍTULO | SEMIFINAIS | ATP 500 DE PEQUIM"
-},
-{
-"c": "CazéTV",
-"f": "2026-10-05",
-"id": "0dq7QcW2Fy8",
-"t": "AO VIVO (SOM AMBIENTE): STADE BRESTOIS X ANGERS | LIGUE 1 26/27 | 6ª RODADA"
 },
 {
 "c": "CazéTV",
@@ -647,18 +719,6 @@
 "f": "2026-09-30",
 "id": "XSYhg8U0WEM",
 "t": "AO VIVO: REAL MADRID X VILLARREAL | LALIGA 26/27 | 8ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-30",
-"id": "lUH5DF_2974",
-"t": "AO VIVO: PSG X LE MANS | LIGUE 1 26/27 | 6ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-30",
-"id": "C7OF1NJRqws",
-"t": "AO VIVO: MÔNACO X TOULOUSE | LIGUE 1 26/27 | 6ª RODADA"
 },
 {
 "c": "CazéTV",
@@ -3461,6 +3521,12 @@
 "f": "2026-08-31",
 "id": "v-GtI-cN3-I",
 "t": "ADMITA: VOCÊ FICOU IGUAL AO CAZÉ! QUE GOLAÇO ABSURDO DO YAMAL, PQP! ✋😨🤚🎙️ @luisinho"
+},
+{
+"c": "CazéTV",
+"f": "2026-08-30",
+"id": "90fW7TbZ9sg",
+"t": "AO VIVO: VASCO X REMO | BRASILEIRÃO 2026 | 30ª RODADA"
 }
 ],
 "bundesliga": [
@@ -9970,6 +10036,84 @@
 },
 {
 "c": "LALIGA EA SPORTS",
+"f": "2026-10-10",
+"id": "Fp7jOH-ipN4",
+"t": "🔴 REAL MADRID vs VILLARREAL CF - PREVIA DEL PARTIDO"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-10",
+"id": "o6vj18eCB-c",
+"t": "DEPORTIVO ALAVÉS 1 - 2 ATLÉTICO DE MADRID | RESUMEN LALIGA EA SPORTS"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-10",
+"id": "6ozX1G0F9hs",
+"t": "REAL MADRID 1 - 0 VILLARREAL CF | RESUMEN LALIGA EA SPORTS"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-10",
+"id": "G7wv25P8HKQ",
+"t": "FC BARCELONA 3 - 0 GETAFE CF | RESUMEN LALIGA EA SPORTS"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-10",
+"id": "PXz2Tim6m0Q",
+"t": "REAL MADRID vs VILLARREAL CF | RUEDA DE PRENSA"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-10",
+"id": "_sZK1UhrlFI",
+"t": "REAL MADRID 1 - 0 VILLARREAL CF | RESUMEN LALIGA EA SPORTS"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-10",
+"id": "-7FCOCxyvoQ",
+"t": "THIBAUT COURTOIS.🚫"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-10",
+"id": "l78lmZO8dWs",
+"t": "¡PRIMER GOL DE DIOMANDE! 🔥"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-10",
+"id": "GC6NI6FyOJw",
+"t": "Este pase: 🤯🤯🤯"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-10",
+"id": "VhCBVuJ_t0M",
+"t": "FC BARCELONA vs GETAFE CF | RUEDA DE PRENSA"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-10",
+"id": "HrNosPKRuAI",
+"t": "¡Por muy poco! 👀"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-10",
+"id": "jVnZa6eicIU",
+"t": "👀📹"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-10",
+"id": "08RWFNVutzM",
+"t": "FC BARCELONA 3 - 0 GETAFE CF | RESUMEN LALIGA EA SPORTS"
+},
+{
+"c": "LALIGA EA SPORTS",
 "f": "2026-10-09",
 "id": "S1JxX5XFgTo",
 "t": "Budimir ✨ 100"
@@ -10087,12 +10231,6 @@
 "f": "2026-10-08",
 "id": "ViruIEklGaM",
 "t": "🔴 DEPORTIVO ALAVÉS vs ATLÉTICO DE MADRID - PREVIA DEL PARTIDO"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-10-08",
-"id": "Fp7jOH-ipN4",
-"t": "🔴 REAL MADRID vs VILLARREAL CF - PREVIA DEL PARTIDO"
 },
 {
 "c": "LALIGA EA SPORTS",
