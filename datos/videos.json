@@ -26,6 +26,18 @@
 },
 {
 "c": "CazéTV",
+"f": "2026-10-10",
+"id": "fe3gGc6UD0g",
+"t": "JUDÔ | BEATRIZ SOUZA E TIME BRASIL NO MUNDIAL DE BAKU 2026 | QUALIFICATÓRIAS | 7º DIA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-10",
+"id": "ykl-XVRHMag",
+"t": "TÊNIS DE MESA: HUGO CALDERANO X FELIX LEBRUM NO CHINA SMASH 2026 | QUARTAS DE FINAL"
+},
+{
+"c": "CazéTV",
 "f": "2026-10-09",
 "id": "FFW_JtI8ieM",
 "t": "MELHORES MOMENTOS: FLUMINENSE 4 X 0 CORITIBA | BRASILEIRÃO 2026 | 29ª RODADA"
@@ -219,20 +231,8 @@
 {
 "c": "CazéTV",
 "f": "2026-10-08",
-"id": "fe3gGc6UD0g",
-"t": "AO VIVO: JUDÔ | BEATRIZ SOUZA E TIME BRASIL NO MUNDIAL DE BAKU 2026 | QUALIFICATÓRIAS | 7º DIA"
-},
-{
-"c": "CazéTV",
-"f": "2026-10-08",
 "id": "gGoGNzvqRoA",
 "t": "TSITSIPAS ESTREIA COM VITÓRIA, HURKACZ AVANÇA E NORRIE CAI | DIA 2 | MASTERS 1000 DE XANGAI"
-},
-{
-"c": "CazéTV",
-"f": "2026-10-08",
-"id": "ykl-XVRHMag",
-"t": "MELHORES MOMENTOS DE HUGO CALDERANO NO CHINA SMASH E JÁ JÁ TIME BRASIL DE JUDÔ NO MUNDIAL DE BAKU"
 },
 {
 "c": "CazéTV",
@@ -593,6 +593,12 @@
 "f": "2026-09-30",
 "id": "lUH5DF_2974",
 "t": "AO VIVO: PARIS SAINT-GERMAIN X LE MANS | LIGUE 1 26/27 | 6ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-09-30",
+"id": "tHSIAa4kbcc",
+"t": "AO VIVO: CHELSEA X BORNEMOUTH | PREMIER LEAGUE 26/27 | 6ª RODADA"
 },
 {
 "c": "CazéTV",
@@ -3400,6 +3406,30 @@
 "bundesliga": [
 {
 "c": "Bundesliga",
+"f": "2026-10-10",
+"id": "fTRtswLyazU",
+"t": "VfL Osnabrück vs. SG Dynamo Dresden | Matchday 7 - Bundesliga 2 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-10-10",
+"id": "UaxTPlQJqRA",
+"t": "1. FC Magdeburg vs. Hannover 96 | Matchday 7 - Bundesliga 2 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-10-10",
+"id": "ZG4Dwsrp9iM",
+"t": "SV Darmstadt 98 vs. FC Energie Cottbus | Matchday 7 - Bundesliga 2 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-10-10",
+"id": "bHDqqgF1CH0",
+"t": "A free-kick from this close 🤏 what could possibly go wrong? 😅🍿"
+},
+{
+"c": "Bundesliga",
 "f": "2026-10-09",
 "id": "36rzUF1bXQk",
 "t": "Try and match Atubolus penalty saving skills 🧤🔥😮‍💨"
@@ -3467,24 +3497,6 @@
 {
 "c": "Bundesliga",
 "f": "2026-10-08",
-"id": "fTRtswLyazU",
-"t": "LIVE 🔴 VfL Osnabrück vs. SG Dynamo Dresden | Matchday 7 - Bundesliga 2 2026/27"
-},
-{
-"c": "Bundesliga",
-"f": "2026-10-08",
-"id": "UaxTPlQJqRA",
-"t": "LIVE 🔴 1. FC Magdeburg vs. Hannover 96 | Matchday 7 - Bundesliga 2 2026/27"
-},
-{
-"c": "Bundesliga",
-"f": "2026-10-08",
-"id": "ZG4Dwsrp9iM",
-"t": "LIVE 🔴 SV Darmstadt 98 vs. FC Energie Cottbus | Matchday 7 - Bundesliga 2 2026/27"
-},
-{
-"c": "Bundesliga",
-"f": "2026-10-08",
 "id": "Gsp7VlaWTss",
 "t": "LIVE 🔴 Sport-Club Freiburg vs. FC Schalke 04 | Matchday 5 - Bundesliga 2026/27"
 },
@@ -3505,6 +3517,30 @@
 "f": "2026-10-08",
 "id": "M_D3YnYoJKw",
 "t": "LIVE 🔴 SC Paderborn 07 vs. VfB Stuttgart | Matchday 5 - Bundesliga 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-10-08",
+"id": "tUiSEaXW4MI",
+"t": "LIVE 🔴 FC Augsburg vs. FC Bayern München | Matchday 5 - Bundesliga 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-10-08",
+"id": "VIWpx8BferI",
+"t": "LIVE 🔴 1. FSV Mainz 05 vs. Bayer 04 Leverkusen | Matchday 5 - Bundesliga 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-10-08",
+"id": "SWiY_N2EK-I",
+"t": "LIVE 🔴 1. FC Union Berlin vs. SV Elversberg | Matchday 5 - Bundesliga 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-10-08",
+"id": "IvdgFH4eAj0",
+"t": "LIVE 🔴 TSG Hoffenheim vs. Hamburger SV | Matchday 5 - Bundesliga 2026/27"
 },
 {
 "c": "Bundesliga",
@@ -4572,6 +4608,12 @@
 "champions": [
 {
 "c": "UEFA",
+"f": "2026-10-10",
+"id": "dmq7EJz6KoA",
+"t": "Wow 😱"
+},
+{
+"c": "UEFA",
 "f": "2026-10-09",
 "id": "KH-rK7DLDdE",
 "t": "Adama Traore ⚡️⚡️⚡️"
@@ -5465,6 +5507,24 @@
 "f": "2026-10-10",
 "id": "i1068pbQh1o",
 "t": "𝐃𝐨𝐧𝐨𝐯𝐚𝐧 𝐀𝐟𝐫𝐢𝐟𝐚 (15 jaar en 140 dagen) jongste veldspeler ooit in het Nederlandse betaald voetbal 👏"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-10",
+"id": "0C0i9gs9Eww",
+"t": "Deze editie van Feyenoord - AZ in 2017 🔥"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-10",
+"id": "EfrOLfWi8bY",
+"t": "Oussama Tannane, made in the @vriendenloterijeredivisie 😉"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-10",
+"id": "Oyr6dZBJdLw",
+"t": "🗣️ \"Eerste duel is voor ons\" 🫣"
 },
 {
 "c": "ESPN NL",
@@ -9670,6 +9730,12 @@
 "laliga": [
 {
 "c": "LALIGA EA SPORTS",
+"f": "2026-10-10",
+"id": "EfU_2XJI6Wc",
+"t": "🔴 RAYO VALLECANO vs ATHLETIC CLUB - PREVIA DEL PARTIDO"
+},
+{
+"c": "LALIGA EA SPORTS",
 "f": "2026-10-09",
 "id": "S1JxX5XFgTo",
 "t": "Budimir ✨ 100"
@@ -9781,6 +9847,12 @@
 "f": "2026-10-08",
 "id": "60Rgw2rfAiA",
 "t": "Salvada Bartra 🦸"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-08",
+"id": "ViruIEklGaM",
+"t": "🔴 DEPORTIVO ALAVÉS vs ATLÉTICO DE MADRID - PREVIA DEL PARTIDO"
 },
 {
 "c": "LALIGA EA SPORTS",
@@ -14078,6 +14150,18 @@
 "premier": [
 {
 "c": "Premier League",
+"f": "2026-10-10",
+"id": "9njA6FM5RWQ",
+"t": "Thierry Henry Is Inevitable 🔥"
+},
+{
+"c": "Premier League",
+"f": "2026-10-10",
+"id": "QwzNfG9u6-A",
+"t": "When The Crowd Tells You To Shoot 🗣️🇪🇨"
+},
+{
+"c": "Premier League",
 "f": "2026-10-09",
 "id": "Nxfa3eFIR24",
 "t": "Get To Know This Season's NEW Managers 👋"
@@ -15070,6 +15154,12 @@
 "seriea": [
 {
 "c": "Serie A",
+"f": "2026-10-10",
+"id": "nNvUBIVdwhU",
+"t": "Venti e uno, venti e due, venti e tre! 💛💙𝐀 𝐝𝐚𝐲 𝐰𝐢𝐭𝐡 𝐆𝐢𝐚𝐜𝐨𝐦𝐨 𝐂𝐚𝐥ò #seriea"
+},
+{
+"c": "Serie A",
 "f": "2026-10-09",
 "id": "cG8ArQNocbg",
 "t": "CAGLIARI-JUVENTUS 1-0 | CLASSIC HIGHLIGHTS SERIE A 2025/26"
@@ -15103,6 +15193,12 @@
 "f": "2026-10-08",
 "id": "rzJd_VJkY3Q",
 "t": "COMO-ROMA 2-1 | CLASSIC HIGHLIGHTS SERIE A 2025/26"
+},
+{
+"c": "Serie A",
+"f": "2026-10-08",
+"id": "r7OtFvye4ro",
+"t": "🔴 PRE-MATCH LIVE | INTER-PARMA | Serie A Enilive 2026/27"
 },
 {
 "c": "Serie A",
