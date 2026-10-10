@@ -2664,6 +2664,12 @@
 "Cardiff City": [
 {
 "c": "Cardiff City FC",
+"f": "2026-10-10",
+"id": "RGest4xip6o",
+"t": "U21 MATCHDAY LIVE | CARDIFF CITY vs LEICESTER CITY"
+},
+{
+"c": "Cardiff City FC",
 "f": "2026-10-09",
 "id": "UOKrAW-lit0",
 "t": "PREVIEW | BLACKBURN ROVERS vs CARDIFF CITY"
@@ -2678,12 +2684,6 @@
 "c": "Cardiff City FC",
 "f": "2026-10-09",
 "id": "YMYwsOpMiUA",
-"t": "U21 MATCHDAY LIVE | CARDIFF CITY vs LEICESTER CITY"
-},
-{
-"c": "Cardiff City FC",
-"f": "2026-10-09",
-"id": "RGest4xip6o",
 "t": "U21 MATCHDAY LIVE | CARDIFF CITY vs LEICESTER CITY"
 },
 {
@@ -6036,7 +6036,7 @@
 "c": "Galatasaray",
 "f": "2026-10-09",
 "id": "TejSw3pjdlo",
-"t": "🔴 Galatasaray U19 - Kasımpaşa U19 (U19 PAF Ligi 7. Hafta)"
+"t": "🔴 Galatasaray Spor Kulübü Yıllık Olağan Genel Kurul Toplantısı"
 },
 {
 "c": "Galatasaray",
@@ -6754,6 +6754,12 @@
 "Inter": [
 {
 "c": "Inter",
+"f": "2026-10-10",
+"id": "BgH2eE4ue3Q",
+"t": "EP. 33 | Julio - El Jardinero"
+},
+{
+"c": "Inter",
 "f": "2026-10-09",
 "id": "E8Wvx6TzvvA",
 "t": "Change of speed but same quality 🤩"
@@ -6985,12 +6991,6 @@
 "f": "2026-10-06",
 "id": "8Ol5CF7E-Ss",
 "t": "The work never stops 🔁"
-},
-{
-"c": "Inter",
-"f": "2026-10-05",
-"id": "pzHK-dpZ3-s",
-"t": "The week starts, Saturday awaits ⏳"
 }
 ],
 "Ipswich Town": [
@@ -7904,6 +7904,12 @@
 "Liverpool": [
 {
 "c": "Liverpool FC",
+"f": "2026-10-10",
+"id": "A7-jEpAbaFY",
+"t": "Shaqiri at his brilliant best! 🚲"
+},
+{
+"c": "Liverpool FC",
 "f": "2026-10-09",
 "id": "JKxLJIan9Zw",
 "t": "Every angle of Szoboszlai's Goal of the Month!"
@@ -8135,12 +8141,6 @@
 "f": "2026-09-24",
 "id": "jKsJabdW6GQ",
 "t": "'90 PACE!?' 🫨 | Ekitike, Ngumoha & Frimpong Reveal FC 27 Ratings To Liverpool FC Squad"
-},
-{
-"c": "Liverpool FC",
-"f": "2026-09-23",
-"id": "AsCFwrBb5s4",
-"t": "\"We have the team to compete!\" | Szoboszlai, Kerkez & Gravenberch | The Reds Roundtable"
 }
 ],
 "Metz": [
@@ -8960,6 +8960,24 @@
 },
 {
 "c": "TV Palmeiras Sportingbet",
+"f": "2026-10-10",
+"id": "sWCEwJjyppU",
+"t": "AO VIVO COM IMAGENS | PALMEIRAS X FLAMENGO | PAULISTA SUB-17 2026"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-10-10",
+"id": "rtCnfRv-cM8",
+"t": "AO VIVO COM IMAGENS | PALMEIRAS X MONTE AZUL | PAULISTA SUB-15 2026"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-10-10",
+"id": "Fy-Mp9G2DhI",
+"t": "A EMOÇÃO DE ENCONTRAR SEUS ÍDOLOS! 💚"
+},
+{
+"c": "TV Palmeiras Sportingbet",
 "f": "2026-10-09",
 "id": "c-8XOvW5k6w",
 "t": "HIGHLIGHTS | PALMEIRAS 1 X 0 BAHIA | BRASILEIRÃO 2026"
@@ -9173,24 +9191,6 @@
 "f": "2026-10-05",
 "id": "ml7xjxy5bL4",
 "t": "TULINHO TESTANDO A ESTEIRA DA NASA!"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-10-05",
-"id": "840PMLUCSVg",
-"t": "VITOR LO GANHOU DO GOLEIRO ZÉ NO DESAFIO DO SALTO!"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-10-05",
-"id": "tlJvsuq7DAE",
-"t": "OWEN ESTÁ BEM HIDRATADO!"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-10-05",
-"id": "u9yEwh_ug34",
-"t": "VITOR LO FALA DA ESTRUTURA DO VERDÃO!"
 }
 ],
 "Paris FC": [
@@ -11068,6 +11068,12 @@
 "Sheffield United": [
 {
 "c": "Sheffield United FC",
+"f": "2026-10-10",
+"id": "5XRzsdyIydw",
+"t": "Oli Arblaster: We've got a good mix"
+},
+{
+"c": "Sheffield United FC",
 "f": "2026-10-09",
 "id": "djxgzUNdu-4",
 "t": "Chris Wilder | Sheffield United v Lincoln City | Match preview"
@@ -11299,12 +11305,6 @@
 "f": "2026-09-08",
 "id": "F70FQm2l66g",
 "t": "Blackburn Rovers 1-2 Sheffield United | EFL Championship highlights"
-},
-{
-"c": "Sheffield United FC",
-"f": "2026-09-08",
-"id": "YSk1VYXS_Vg",
-"t": "Tom Cannon debrief. 🗣️"
 }
 ],
 "Southampton": [
