@@ -40,7 +40,7 @@
 "c": "CazéTV",
 "f": "2026-10-11",
 "id": "b0qyeJrQWpQ",
-"t": "AO VIVO (SOM AMBIENTE): NICE X STRASBOURG | LIGUE 1 26/27 | 6ª RODADA"
+"t": "JOGO COMPLETO (SOM AMBIENTE): NICE X STRASBOURG | LIGUE 1 26/27 | 6ª RODADA"
 },
 {
 "c": "CazéTV",
@@ -53,6 +53,54 @@
 "f": "2026-10-11",
 "id": "mSBmB38qkTY",
 "t": "MELHORES MOMENTOS: ELCHE 0 X 0 CELTA DE VIGO | LALIGA 26/27 | 8ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-11",
+"id": "FfmxsKUUuGU",
+"t": "JUDÔ | TIME BRASIL NO MUNDIAL DE BAKU 2026 | FINAIS | 8º DIA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-11",
+"id": "8Fqqs66c6ao",
+"t": "JOGO COMPLETO (SOM AMBIENTE): RENNES X AUXERRE | LIGUE 1 26/27 | 6ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-11",
+"id": "pOTUkYLo3RA",
+"t": "TAEKWONDO | HENRIQUE MARQUES E O TIME BRASIL NO GRAND PRIX DE TAEKWONDO | 3º DIA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-11",
+"id": "Tc_-sv1XruA",
+"t": "JOGO COMPLETO: REAL BETIS X OSASUNA | LALIGA 26/27 | 8ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-11",
+"id": "Ipt-IP40GgU",
+"t": "MELHORES MOMENTOS: REAL BETIS 5 X 2 OSASUNA | LALIGA 26/27 | 8ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-11",
+"id": "T2TdIp_qV68",
+"t": "OS GOLAÇOS DE RONALDINHO NA LALIGA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-11",
+"id": "Wjlo_Mn2E7w",
+"t": "MELHORES MOMENTOS: FC KÖLN 2 X 1 BORUSSIA MÖNCHENGLADBACH | BUNDESLIGA 26/27 | 5ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-11",
+"id": "O0A6F53A1WI",
+"t": "SÓ TEVE JOGÃO! ZVEREV EM AÇÃO, SHELTON ELIMINADO E MUITO MAIS | DIA 5 | MASTERS 1000 DE XANGAI"
 },
 {
 "c": "CazéTV",
@@ -227,12 +275,6 @@
 "f": "2026-10-10",
 "id": "n4GbZCU3HCY",
 "t": "GOOOL DO REAL MADRID! DIOMANDE ABRE O PLACAR CONTRA O VILLAREAL!"
-},
-{
-"c": "CazéTV",
-"f": "2026-10-10",
-"id": "FfmxsKUUuGU",
-"t": "AO VIVO: JUDÔ | TIME BRASIL NO MUNDIAL DE BAKU 2026 | FINAIS | 8º DIA"
 },
 {
 "c": "CazéTV",
@@ -688,7 +730,7 @@
 "c": "CazéTV",
 "f": "2026-10-01",
 "id": "JULAbK5otvA",
-"t": "AO VIVO: RACING CLUB X VALENCIA | LaLiga 26/27 | 8ª RODADA"
+"t": "AO VIVO: RACING CLUB X VALENCIA | LALIGA 26/27 | 8ª RODADA"
 },
 {
 "c": "CazéTV",
@@ -705,14 +747,8 @@
 {
 "c": "CazéTV",
 "f": "2026-10-01",
-"id": "8Fqqs66c6ao",
-"t": "AO VIVO (SOM AMBIENTE): RENNES X AUXERRE | LIGUE 1 26/27 | 6ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-10-01",
 "id": "i26YSLGXtBs",
-"t": "AO VIVO: REAL BETIS X OSASUNA | LALIGA 26/27 | 8ª RODADA"
+"t": "AO VIVO: CAGLIARI X JUVENTUS | SÉRIE A ITALIANA 26/27 | 6ª RODADA"
 },
 {
 "c": "CazéTV",
@@ -725,12 +761,6 @@
 "f": "2026-10-01",
 "id": "bq8I8znxbQY",
 "t": "FOMOS TESTAR AS ATRAÇÕES DA LAVER CUP! SERÁ QUE LEVAMOS JEITO?"
-},
-{
-"c": "CazéTV",
-"f": "2026-10-01",
-"id": "pOTUkYLo3RA",
-"t": "AO VIVO: TAEKWONDO | HENRIQUE MARQUES E O TIME BRASIL NO GRAND PRIX DE TAEKWONDO | 3º DIA"
 },
 {
 "c": "CazéTV",
@@ -3586,6 +3616,30 @@
 },
 {
 "c": "Bundesliga",
+"f": "2026-10-11",
+"id": "Gsp7VlaWTss",
+"t": "Sport-Club Freiburg vs. FC Schalke 04 | Matchday 5 - Bundesliga 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-10-11",
+"id": "LrSA0iJLWGg",
+"t": "1. FC Köln vs. Borussia Mönchengladbach | Matchday 5 - Bundesliga 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-10-11",
+"id": "K3vHOfgMeLI",
+"t": "One Man Down! Top Of The Table! | SC FREIBURG - SCHALKE 04 | Highlights | Matchday 5 – Bundesliga"
+},
+{
+"c": "Bundesliga",
+"f": "2026-10-11",
+"id": "lfeWj3FFwgo",
+"t": "1. FC KÖLN - BORUSSIA M'GLADBACH | Highlights | Matchday 5 – Bundesliga 2026/27"
+},
+{
+"c": "Bundesliga",
 "f": "2026-10-10",
 "id": "fTRtswLyazU",
 "t": "VfL Osnabrück vs. SG Dynamo Dresden | Matchday 7 - Bundesliga 2 2026/27"
@@ -3733,18 +3787,6 @@
 "f": "2026-10-08",
 "id": "pS8ykpARF_E",
 "t": "Hit ✅ or Miss ❌ Can you guess the correct answer? 👀"
-},
-{
-"c": "Bundesliga",
-"f": "2026-10-08",
-"id": "Gsp7VlaWTss",
-"t": "LIVE 🔴 Sport-Club Freiburg vs. FC Schalke 04 | Matchday 5 - Bundesliga 2026/27"
-},
-{
-"c": "Bundesliga",
-"f": "2026-10-08",
-"id": "LrSA0iJLWGg",
-"t": "LIVE 🔴 1. FC Köln vs. Borussia Mönchengladbach | Matchday 5 - Bundesliga 2026/27"
 },
 {
 "c": "Bundesliga",
@@ -4818,6 +4860,12 @@
 },
 {
 "c": "UEFA",
+"f": "2026-10-11",
+"id": "YIvXnbgS1fU",
+"t": "Genius"
+},
+{
+"c": "UEFA",
 "f": "2026-10-10",
 "id": "dmq7EJz6KoA",
 "t": "Wow 😱"
@@ -5819,6 +5867,42 @@
 "f": "2026-10-11",
 "id": "IlMhhbesNlo",
 "t": "Raymond VAN MEENEN legt uit: hadden Jorthy MOKIO en Abdellah OUAZANE ROOD moeten krijgen? 🟥"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-11",
+"id": "6AZOw493osg",
+"t": "AANKOPEN AJAX OPNIEUW GEKRAAKT🫣 \"Hoe kom je erbij om die spelers te kopen?\""
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-11",
+"id": "UAr4WOMuKkQ",
+"t": "KENNETH PEREZ VERBAASD DOOR UITSPRAKEN SCHEIDSRECHTERSBAAS🧐 \"Die heeft 0,0 verstand van voetbal\""
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-11",
+"id": "r6faKRpzRO8",
+"t": "Marco Rente SCOORT voor het EERST 2️⃣ KEER in 1️⃣ DUEL 🔥 | Samenvatting Excelsior - FC Groningen"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-11",
+"id": "6_BzSuKk-FQ",
+"t": "Scheidsrechter Richard Martens laat de penalty voor FC Groningen staan🅿"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-11",
+"id": "xah94y0NsUs",
+"t": "BESLISSING VALT IN DE LAATSTE 10 MINUTEN!🤯 | Samenvatting PEC Zwolle - SC Cambuur"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-11",
+"id": "r0PHvhB_kDk",
+"t": "RODE KAART EN RAKE VRIJE TRAP IN EERSTE KWARTIER👀😱 | Samenvatting Telstar - ADO Den Haag"
 },
 {
 "c": "ESPN NL",
@@ -10216,6 +10300,78 @@
 },
 {
 "c": "LALIGA EA SPORTS",
+"f": "2026-10-11",
+"id": "_wmoqxJYJOQ",
+"t": "🔴 REAL BETIS vs CA OSASUNA - PREVIA DEL PARTIDO"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-11",
+"id": "WyQn5XwTARY",
+"t": "𝗬𝗔𝗦𝗦𝗜𝗥 𝗭𝗔𝗕𝗜𝗥𝗜. 🇲🇦💚"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-11",
+"id": "N-o7RrqDB1k",
+"t": "REAL BETIS vs CA OSASUNA | RUEDA DE PRENSA"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-11",
+"id": "5HVPTdkvf1s",
+"t": "🔴 R. RACING CLUB vs VALENCIA CF - PREVIA DEL PARTIDO"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-11",
+"id": "DtqTFZvBsMM",
+"t": "¡Debut y un gol en su primer partido en #LALIGAEASPORTS! 💚✨"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-11",
+"id": "umjSHS0mnVI",
+"t": "REAL BETIS 5 - 2 CA OSASUNA | RESUMEN LALIGA EA SPORTS"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-11",
+"id": "1u9ojDGze3Q",
+"t": "DIEGO LLORENTE. 💚🤍"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-11",
+"id": "5e7Q_Kkr1bU",
+"t": "REAL SOCIEDAD vs RC DEPORTIVO | RUEDA DE PRENSA"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-11",
+"id": "zXAozyPVJm4",
+"t": "Un muro entre los postes. 🧤"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-11",
+"id": "bBvRoXaxkeQ",
+"t": "REAL SOCIEDAD 3 - 2 RC DEPORTIVO | RESUMEN LALIGA EA SPORTS"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-11",
+"id": "IqTTha7kXTo",
+"t": "¡Por muy poco! 🫨"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-11",
+"id": "ubWqTe2wUlY",
+"t": "🧤🧤🧤"
+},
+{
+"c": "LALIGA EA SPORTS",
 "f": "2026-10-10",
 "id": "EfU_2XJI6Wc",
 "t": "🔴 RAYO VALLECANO vs ATHLETIC CLUB - PREVIA DEL PARTIDO"
@@ -10501,12 +10657,6 @@
 "f": "2026-10-08",
 "id": "ViruIEklGaM",
 "t": "🔴 DEPORTIVO ALAVÉS vs ATLÉTICO DE MADRID - PREVIA DEL PARTIDO"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-10-08",
-"id": "_wmoqxJYJOQ",
-"t": "🔴 REAL BETIS vs CA OSASUNA - PREVIA DEL PARTIDO"
 },
 {
 "c": "LALIGA EA SPORTS",
@@ -13434,6 +13584,12 @@
 },
 {
 "c": "Ligue 1",
+"f": "2026-10-11",
+"id": "Lycgi5HENqs",
+"t": "Nobody moves the ball like Rayan Cherki 🥶🔥 #football #ligue1 #sports #footballshorts #foot #shorts"
+},
+{
+"c": "Ligue 1",
 "f": "2026-10-10",
 "id": "6SlkoleEG_k",
 "t": "Patrick B̶e̶r̶g̶ Jane 🧐🇳🇴  #football #ligue1 #sports #footballshorts #foot #soccer #ligue1mcdonalds"
@@ -15898,6 +16054,54 @@
 },
 {
 "c": "Serie A",
+"f": "2026-10-11",
+"id": "jnkiBTyOzdg",
+"t": "🔴 PRE-MATCH LIVE | SASSUOLO-MILAN | Serie A Enilive 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-10-11",
+"id": "uWzvcdbrlqc",
+"t": "Just HOW POWERFUL Was Tavares' Shot?😱💪"
+},
+{
+"c": "Serie A",
+"f": "2026-10-11",
+"id": "mWBwtTFTUgo",
+"t": "Due Gol in Cinque Minuti al Mapei | SASSUOLO-MILAN | HIGHLIGHTS | SERIE A ENILIVE 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-10-11",
+"id": "1nX_hmbN36g",
+"t": "Back to Back Shots at the Mapei | SASSUOLO-MILAN | HIGHLIGHTS | Serie A 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-10-11",
+"id": "YFWSoXd0rrQ",
+"t": "Gattuso Resta in Testa! | LAZIO-MONZA | HIGHLIGHTS | SERIE A ENILIVE 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-10-11",
+"id": "bgOME9OTY9o",
+"t": "Prima Vittoria per Palladino | LECCE-BOLOGNA | HIGHLIGHTS | SERIE A ENILIVE 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-10-11",
+"id": "TbZz6Rq3BPo",
+"t": "Enem Seals Palladino’s First Win | LECCE-BOLOGNA | HIGHLIGHTS | Serie A 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-10-11",
+"id": "CShAJFhPMvo",
+"t": "Lazio Still on Top! | LAZIO-MONZA | HIGHLIGHTS | Serie A 2026/27"
+},
+{
+"c": "Serie A",
 "f": "2026-10-10",
 "id": "nNvUBIVdwhU",
 "t": "Venti e uno, venti e due, venti e tre! 💛💙𝐀 𝐝𝐚𝐲 𝐰𝐢𝐭𝐡 𝐆𝐢𝐚𝐜𝐨𝐦𝐨 𝐂𝐚𝐥ò #seriea"
@@ -15973,12 +16177,6 @@
 "f": "2026-10-08",
 "id": "r7OtFvye4ro",
 "t": "🔴 PRE-MATCH LIVE | INTER-PARMA | Serie A Enilive 2026/27"
-},
-{
-"c": "Serie A",
-"f": "2026-10-08",
-"id": "jnkiBTyOzdg",
-"t": "🔴 PRE-MATCH LIVE | SASSUOLO-MILAN | Serie A Enilive 2026/27"
 },
 {
 "c": "Serie A",
