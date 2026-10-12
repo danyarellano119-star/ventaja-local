@@ -2894,6 +2894,12 @@
 "Chelsea": [
 {
 "c": "Chelsea Football Club",
+"f": "2026-10-11",
+"id": "06dvvp2ORLM",
+"t": "Chelsea 5-1 Bournemouth | HIGHLIGHTS - Extended | Premier League 2026/27"
+},
+{
+"c": "Chelsea Football Club",
 "f": "2026-10-10",
 "id": "QVftJWEhfIs",
 "t": "COLE PALMER | Exclusive Interview ✍️"
@@ -3125,12 +3131,6 @@
 "f": "2026-09-12",
 "id": "n4w1csZpocc",
 "t": "Rogers 🤝 Palmer"
-},
-{
-"c": "Chelsea Football Club",
-"f": "2026-09-11",
-"id": "gwcpZtZvNG0",
-"t": "Alonso Press Conference | 11/09/26 | Chelsea vs Hull City | CFC 26/27"
 }
 ],
 "Corinthians": [
@@ -4104,6 +4104,12 @@
 "Everton": [
 {
 "c": "Everton Football Club",
+"f": "2026-10-11",
+"id": "J1zrWRGNArs",
+"t": "HULL CITY v EVERTON | Premier League highlights"
+},
+{
+"c": "Everton Football Club",
 "f": "2026-10-09",
 "id": "bdusx0-nFtE",
 "t": "HULL CITY V EVERTON | David Moyes' Premier League press conference"
@@ -4335,12 +4341,6 @@
 "f": "2026-09-17",
 "id": "ND5oUZVgSQY",
 "t": "An unreal pass and a vital challenge seconds later. Tyler Dibling. 👏 #everton #tylerdibling"
-},
-{
-"c": "Everton Football Club",
-"f": "2026-09-17",
-"id": "lcfk85KX7gQ",
-"t": "BEHIND THE SCENES AS TWO WORLD LEADERS MEET & EVERTON SEAL CUP PROGRESS! 🫡 | In HD: Everton v Wolves"
 }
 ],
 "FC Barcelona": [
@@ -5314,6 +5314,24 @@
 "Flamengo": [
 {
 "c": "Flamengo TV",
+"f": "2026-10-12",
+"id": "q1IpqH5Et0Y",
+"t": "🔴 AO VIVO: FLAMENGO x FLUMINENSE | PRÉ-JOGO + NARRAÇÃO | BRASILEIRÃO (11/10/26)"
+},
+{
+"c": "Flamengo TV",
+"f": "2026-10-12",
+"id": "fIT6D3fItMw",
+"t": "LEONARDO JARDIM | COLETIVA PÓS-JOGO | FLAMENGO 1x0 FLUMINENSE | BRASILEIRÃO (11/10/26)"
+},
+{
+"c": "Flamengo TV",
+"f": "2026-10-12",
+"id": "aFhr0As0Gjk",
+"t": "🔴 AO VIVO: FLAMENGO x FLUMINENSE | COM IMAGENS E NARRAÇÃO EM PORTUGUÊS | BRASILEIRÃO (11/10/26)"
+},
+{
+"c": "Flamengo TV",
 "f": "2026-10-11",
 "id": "-cDj2CpaMbg",
 "t": "🔴 AO VIVO: FINAL DO TORNEIO DE ABERTURA NBB | BRASÍLIA x FLAMENGO - 10/10"
@@ -5347,6 +5365,54 @@
 "f": "2026-10-11",
 "id": "AgBqDaU7cbI",
 "t": "O FLAMENGO CHEGOU PARA O FLAXFLU! 🟥⬛️"
+},
+{
+"c": "Flamengo TV",
+"f": "2026-10-11",
+"id": "5JD3f6p8RpM",
+"t": "🔴 EN VIVO: FLAMENGO x FLUMINENSE | NARRACIÓN EN ESPAÑOL Y CON IMÁGENES | BRASILEIRÃO (11/10/26)"
+},
+{
+"c": "Flamengo TV",
+"f": "2026-10-11",
+"id": "b462y83XAps",
+"t": "De Paquetá para Carrascal: +3 pontos pro Mengão!"
+},
+{
+"c": "Flamengo TV",
+"f": "2026-10-11",
+"id": "rgA0k5UwasY",
+"t": "Orgulho do professor! 😁"
+},
+{
+"c": "Flamengo TV",
+"f": "2026-10-11",
+"id": "8kDSpdhHUe8",
+"t": "CLÁSSICO EM CASA + 3 CARRASCA! 🇨🇴"
+},
+{
+"c": "Flamengo TV",
+"f": "2026-10-11",
+"id": "9a-OWxXmUVw",
+"t": "Segue quem? 😎 Vem comemorar com o ADM! ♥️🖤"
+},
+{
+"c": "Flamengo TV",
+"f": "2026-10-11",
+"id": "S9EJk90kUx4",
+"t": "FLAMENGO 1 x 0 FLUMINENSE | MELHORES MOMENTOS | BRASILEIRÃO (11/10/26)"
+},
+{
+"c": "Flamengo TV",
+"f": "2026-10-11",
+"id": "Ci5Dh8c30kM",
+"t": "GOL DE CARRASCAL PRA DAR A VITÓRIA AO MENGÃO NO CLÁSSICO CONTRA O FLUMINENSE! MENGOOOOOOO!"
+},
+{
+"c": "Flamengo TV",
+"f": "2026-10-11",
+"id": "CtacS1eade0",
+"t": "CARRASCRAQUE! 🇨🇴🟥⬛️ #FLAxFLU"
 },
 {
 "c": "Flamengo TV",
@@ -5429,18 +5495,6 @@
 {
 "c": "Flamengo TV",
 "f": "2026-10-09",
-"id": "q1IpqH5Et0Y",
-"t": "🔴 AO VIVO: FLAMENGO x FLUMINENSE | PRÉ-JOGO + NARRAÇÃO | BRASILEIRÃO (11/10/26)"
-},
-{
-"c": "Flamengo TV",
-"f": "2026-10-09",
-"id": "5JD3f6p8RpM",
-"t": "🔴 EN VIVO: FLAMENGO x FLUMINENSE | NARRACIÓN EN ESPAÑOL Y CON IMÁGENES | BRASILEIRÃO (11/10/26)"
-},
-{
-"c": "Flamengo TV",
-"f": "2026-10-09",
 "id": "uFK8LfmAWjQ",
 "t": "Jorginho até pra tirar foto é 🧞‍♂️"
 },
@@ -5497,60 +5551,6 @@
 "f": "2026-10-08",
 "id": "1UBWDgoAupc",
 "t": "EVERTTON ARAÚJO COMENTA A LIDERANÇA E A INFLUÊNCIA DO Jorginho DENTRO DE CAMPO."
-},
-{
-"c": "Flamengo TV",
-"f": "2026-10-08",
-"id": "El7-fAEx4Fw",
-"t": "SANTOS x FLAMENGO: OS DESAFIOS DE JARDIM PARA DISPARAR NA LIDERANÇA DO BRASILEIRÃO | EXPOSED TÁTICO"
-},
-{
-"c": "Flamengo TV",
-"f": "2026-10-08",
-"id": "0LX16aOQrJM",
-"t": "MENGÃO RUMO A SANTOS! 🔴⚫️"
-},
-{
-"c": "Flamengo TV",
-"f": "2026-10-08",
-"id": "8q3nYhA0pF8",
-"t": "ENTREVISTA EXCLUSIVA COM JORGINHO! ❤️🖤"
-},
-{
-"c": "Flamengo TV",
-"f": "2026-10-08",
-"id": "vTiY0RzLeGM",
-"t": "O GRINGO QUE SE APAIXONOU PELO MENGÃO: A HISTÓRIA INACREDITÁVEL DE AGUSTÍN VALIDO!"
-},
-{
-"c": "Flamengo TV",
-"f": "2026-10-08",
-"id": "2yaOd6IYcFQ",
-"t": "A MINI RUBRO-NEGRA TODA EMOCIONADA CONHECENDO O BH! 🥹❤️🖤"
-},
-{
-"c": "Flamengo TV",
-"f": "2026-10-08",
-"id": "593qGBqSwh4",
-"t": "SANTOS 4X5 FLAMENGO, QUEM LEMBRA? MARCO VITOR CONVERSOU COM A NAÇÃO SOBRE ESSE JOGO HISTÓRICO"
-},
-{
-"c": "Flamengo TV",
-"f": "2026-10-08",
-"id": "GLgR6bYXlRM",
-"t": "EXPOSED TÁTICO DE SANTOS X FLAMENGO PELO BRASILEIRÃO!"
-},
-{
-"c": "Flamengo TV",
-"f": "2026-10-07",
-"id": "Tz237_gL_0s",
-"t": "🔴 AO VIVO: TORNEIO DE ABERTURA NBB | TATUÍ x FLAMENGO - 07/10"
-},
-{
-"c": "Flamengo TV",
-"f": "2026-10-07",
-"id": "ACQqJ4r8EtY",
-"t": "Criando cumprimentos com os craques do Mengão! 👊"
 }
 ],
 "Fluminense": [
@@ -5565,6 +5565,12 @@
 "f": "2026-10-11",
 "id": "5-bY_wQCTyQ",
 "t": "BASTIDORES | FLUMINENSE 4 x 0 CORITIBA | CAMPEONATO BRASILEIRO 2026 | 29ª RODADA"
+},
+{
+"c": "Fluminense Football Club",
+"f": "2026-10-11",
+"id": "bGx2L_1btD8",
+"t": "COLETIVA MARCÃO - FLAMENGO 1 X 0 FLUMINENSE - CAMPEONATO BRASILEIRO 2026 - 30º RODADA"
 },
 {
 "c": "Fluminense Football Club",
@@ -5787,12 +5793,6 @@
 "f": "2026-09-22",
 "id": "y4uNFSQIMXE",
 "t": "APÓS VITÓRIA CONTRA O CORINTHIANS, FLUMINENSE VOLTA AOS TREINOS NO CT"
-},
-{
-"c": "Fluminense Football Club",
-"f": "2026-09-21",
-"id": "KfNQWlj0Nug",
-"t": "HULK + THIAGO SILVA! 🔥"
 }
 ],
 "Fulham": [
@@ -7934,6 +7934,12 @@
 },
 {
 "c": "Liverpool FC",
+"f": "2026-10-11",
+"id": "E-Rr8TvJSC4",
+"t": "Highlights: Liverpool 0-3 Man City | 10 men Reds defeated"
+},
+{
+"c": "Liverpool FC",
 "f": "2026-10-10",
 "id": "A7-jEpAbaFY",
 "t": "Shaqiri at his brilliant best! 🚲"
@@ -8147,12 +8153,6 @@
 "f": "2026-09-24",
 "id": "iHvRUFDj_fU",
 "t": "There's another Hungarian in the squad that can take free-kicks 👀"
-},
-{
-"c": "Liverpool FC",
-"f": "2026-09-24",
-"id": "ksvaqMHj-Uc",
-"t": "Highlights: Liverpool FC Women 4-2 Sunderland | Höbinger scores two in cup win!"
 }
 ],
 "Metz": [
@@ -9766,6 +9766,30 @@
 },
 {
 "c": "Real Betis Balompié",
+"f": "2026-10-11",
+"id": "LyK_g6Wh7c8",
+"t": "Resumen del partido Real Betis - CA Osasuna | HIGHLIGHTS | Real BETIS Balompié"
+},
+{
+"c": "Real Betis Balompié",
+"f": "2026-10-11",
+"id": "YAC9uN2K0CI",
+"t": "Llamada entrante: ChampionsLeague 📞"
+},
+{
+"c": "Real Betis Balompié",
+"f": "2026-10-11",
+"id": "YMK6ZG0uJ8Y",
+"t": "Último aviso para subirse al carro del Real Betis y de Cruzcampo 🍻"
+},
+{
+"c": "Real Betis Balompié",
+"f": "2026-10-11",
+"id": "PAt7OCzWQlQ",
+"t": "Las reacciones de Pellegrini, Isco, Llorente y Riquelme tras el #RealBetisCAOsasuna 🗣🎙 | Real BETIS"
+},
+{
+"c": "Real Betis Balompié",
 "f": "2026-10-10",
 "id": "6CrdNihsaeo",
 "t": "Rubén Castro y sus clásicos 'nervios' a la hora de definir 😌"
@@ -9919,30 +9943,6 @@
 "f": "2026-10-02",
 "id": "6p1RZfYr1Ig",
 "t": "Aquel golpeo con la zurdita de LO CELSO hace justo un año 🤤"
-},
-{
-"c": "Real Betis Balompié",
-"f": "2026-10-01",
-"id": "AEy0_Y2vP0E",
-"t": "Se cumplen tres años del primer gol de EZ ABDE con el REAL BETIS 🚀🤩"
-},
-{
-"c": "Real Betis Balompié",
-"f": "2026-10-01",
-"id": "RekPJt2kJAk",
-"t": "Empiezo a tener sensaciones extrañas 😵‍💫"
-},
-{
-"c": "Real Betis Balompié",
-"f": "2026-10-01",
-"id": "0PRJHIIOCTU",
-"t": "Un día como hoy, hace tres años, Marc Roca también se estrenaba como goleador con la verdiblanca 💪"
-},
-{
-"c": "Real Betis Balompié",
-"f": "2026-10-01",
-"id": "Yp4b6pORwgY",
-"t": "El Real Betis, anfitrión de la NFL Experience en la CD Luis del Sol 💚🏈"
 }
 ],
 "Real Madrid": [
@@ -11352,6 +11352,12 @@
 },
 {
 "c": "Southampton FC",
+"f": "2026-10-11",
+"id": "3f_DVcdr3pM",
+"t": "Extended Highlights | Southampton 1-0 Portsmouth | Championship"
+},
+{
+"c": "Southampton FC",
 "f": "2026-10-10",
 "id": "cIEYLO3Lek0",
 "t": "Nothing like a goal on derby day 💫"
@@ -11553,12 +11559,6 @@
 "f": "2026-09-10",
 "id": "NRSVkbjDFXE",
 "t": "Let some new admins loose for this one 📲😅"
-},
-{
-"c": "Southampton FC",
-"f": "2026-09-09",
-"id": "Yx5vYoMCEXE",
-"t": "Slow motion Saints 💫"
 }
 ],
 "Sparta Rotterdam": [
@@ -12502,6 +12502,12 @@
 },
 {
 "c": "Tottenham Hotspur",
+"f": "2026-10-11",
+"id": "7rjYwH4YiUA",
+"t": "Man Utd 1-1 Spurs | Extended Premier League Highlights"
+},
+{
+"c": "Tottenham Hotspur",
 "f": "2026-10-10",
 "id": "TNec4xoA3VA",
 "t": "Checking in at Old Trafford 🏟️"
@@ -12715,12 +12721,6 @@
 "f": "2026-09-18",
 "id": "sTt8d6IZ5Sg",
 "t": "This Madders free-kick 🤩 | Previously Against Aston Villa"
-},
-{
-"c": "Tottenham Hotspur",
-"f": "2026-09-18",
-"id": "8BFl0w06xPc",
-"t": "Conor's first Spurs goal 🎯"
 }
 ],
 "Toulouse": [
