@@ -40,7 +40,13 @@
 "c": "AC Milan",
 "f": "2026-10-11",
 "id": "9AhFseDi_Qo",
-"t": "Pitch inspection 👀"
+"t": "Sopralluogo a Reggio 👀"
+},
+{
+"c": "AC Milan",
+"f": "2026-10-11",
+"id": "5tN8UXyQagk",
+"t": "Highlights Serie A | Sassuolo-Milan 1-1 | RABIOT in gol nel pari a Reggio Emilia"
 },
 {
 "c": "AC Milan",
@@ -233,12 +239,6 @@
 "f": "2026-10-05",
 "id": "h5euzzeeMrw",
 "t": "Di qui non si passa 🚫 #football #acmilan"
-},
-{
-"c": "AC Milan",
-"f": "2026-10-05",
-"id": "Ri-e1NMGaQk",
-"t": "Sbloccarsi nella notte del derby 🤩"
 }
 ],
 "AC Monza": [
@@ -982,6 +982,12 @@
 },
 {
 "c": "Arsenal",
+"f": "2026-10-11",
+"id": "F3t5W2-nI1c",
+"t": "THREE BIG POINTS IN N5 | EXTENDED HIGHLIGHTS | Arsenal 2-1 Leeds United | Calafiori, Guimaraes | PL"
+},
+{
+"c": "Arsenal",
 "f": "2026-10-10",
 "id": "QtjLiJ807fg",
 "t": "BACK HOME IN NORTH LONDON! ✊ | Live From N5 | Arsenal v Leeds United | Premier League | EPL"
@@ -1201,12 +1207,6 @@
 "f": "2026-09-29",
 "id": "ZGaVYyYDF_8",
 "t": "UNBELIEVABLE GOAL LINE CLEARANCE!"
-},
-{
-"c": "Arsenal",
-"f": "2026-09-29",
-"id": "Nopsev_7mTM",
-"t": "PRESS CONFERENCE 🎙️ | Renée Slegers and Georgia Stanway preview Paris FC clash"
 }
 ],
 "Atalanta BC": [
@@ -1454,9 +1454,21 @@
 "Athletico Paranaense": [
 {
 "c": "Athletico Paranaense",
+"f": "2026-10-12",
+"id": "sXo19vmGZvI",
+"t": "9 JOGADORES PROFISSIONAIS VS 100 CRIANÇAS"
+},
+{
+"c": "Athletico Paranaense",
 "f": "2026-10-11",
 "id": "S4YGuAghrkM",
 "t": "9 JOGADORES PROFISSIONAIS X 100 CRIANÇAS | DESAFIO DO FURACÃO"
+},
+{
+"c": "Athletico Paranaense",
+"f": "2026-10-11",
+"id": "_C1N4hQO0F4",
+"t": "PRÉ-JOGO | CHAPECOENSE X ATHLETICO | BRASILEIRÃO 2026"
 },
 {
 "c": "Athletico Paranaense",
@@ -1679,21 +1691,15 @@
 "f": "2026-09-30",
 "id": "eP0_1hfoou8",
 "t": "ACHADOS E PERDIDOS NA ARENA DA BAIXADA | ENTENDA COMO FUNCIONA O SERVIÇO"
-},
-{
-"c": "Athletico Paranaense",
-"f": "2026-09-30",
-"id": "ga1mNW3k1-8",
-"t": "ATHLETICO 1 X 2 CRUZEIRO | MELHORES MOMENTOS | BRASILEIRÃO SUB-17"
-},
-{
-"c": "Athletico Paranaense",
-"f": "2026-09-30",
-"id": "vh9rPNKZ8Gk",
-"t": "FURACÃO NEWS EM 1 MINUTO - 30/09"
 }
 ],
 "Bayern Munich": [
+{
+"c": "Bayern",
+"f": "2026-10-12",
+"id": "lVy1gzaMIjY",
+"t": "65. Sitzung der „Denkfabrik Legal Tech“ am 25. September 2026 - Bayern"
+},
 {
 "c": "Bayern",
 "f": "2026-10-11",
@@ -1927,12 +1933,6 @@
 "f": "2026-09-04",
 "id": "m4Z64TTdrsM",
 "t": "\"Auf eine weiß-blaue Tasse\" mit Veronica Ferres: Schauspielerleben - Bayern"
-},
-{
-"c": "Bayern",
-"f": "2026-09-04",
-"id": "21-4yz9BU7A",
-"t": "\"Auf eine weiß-blaue Tasse\" mit Veronica Ferres - Bayern"
 }
 ],
 "Blackburn Rovers": [
@@ -3136,6 +3136,12 @@
 "Corinthians": [
 {
 "c": "Corinthians TV",
+"f": "2026-10-12",
+"id": "U5vWTHeXMaw",
+"t": "AO VIVO: CHUTE CUP 2026 | FINAL OURO | CAMPO 1A"
+},
+{
+"c": "Corinthians TV",
 "f": "2026-10-11",
 "id": "wzoMvVomghQ",
 "t": "Dia de Derby Paulista no Campeonato Brasileiro! 🚀#PALxSCCP#VaiCorinthians"
@@ -3151,6 +3157,24 @@
 "f": "2026-10-11",
 "id": "31sNpNwAODM",
 "t": "SEEDORF MANDA UM RECADO PARA A FIEL TORCIDA!"
+},
+{
+"c": "Corinthians TV",
+"f": "2026-10-11",
+"id": "t6pcG3OLaA8",
+"t": "TREINO DAS BRABAS: DOMINGO DE PREPARAÇÃO PARA A CONMEBOL LIBERTADORES FEMENINA 2026."
+},
+{
+"c": "Corinthians TV",
+"f": "2026-10-11",
+"id": "_Dub_zLGseg",
+"t": "PALMEIRAS X CORINTHIANS | BRASILEIRÃO 2026 | 30ª RODADA | DIA DE CORINTHIANS"
+},
+{
+"c": "Corinthians TV",
+"f": "2026-10-11",
+"id": "GdX_uRPjW-8",
+"t": "BASTIDORES DA BASE | CORINTHIANS 5 X 0 PONTE PRETA | DEZESSEIS AVOS (IDA E VOLTA) | PAULISTÃO SUB-17"
 },
 {
 "c": "Corinthians TV",
@@ -3349,30 +3373,6 @@
 "f": "2026-10-06",
 "id": "beB4sxQBeX4",
 "t": "Com a tradicional recepção da Fiel Torcida, nosso elenco chegou ao hotel em Porto Alegre! 🖤🤍"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-10-05",
-"id": "E4Il2I9gmJc",
-"t": "𝐀𝐪𝐮𝐞𝐜𝐢𝐦𝐞𝐧𝐭𝐨 ☑️🔉Treino completo na Corinthians TV 👉🏽 http://tiny.cc/ixlb101#VaiCorinthians"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-10-05",
-"id": "DIFTQDA7fDA",
-"t": "TREINO DO TIMÃO: ELENCO TRABALHA DE OLHO NA VOLTA DO BRASILEIRÃO"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-10-04",
-"id": "1rBXR0wt5wY",
-"t": "COLETIVA PÓS-JOGO | SÃO PAULO X CORINTHIANS | EMILY LIMA | BRASILEIRÃO FEMININO 2026 | FINAL - VOLTA"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-10-04",
-"id": "1ewr-gXU0vw",
-"t": "EXCLUSIVA CORINTHIANS TV: ZAKARIA LABYAD"
 }
 ],
 "Coventry City": [
@@ -6524,6 +6524,12 @@
 "Gremio": [
 {
 "c": "Grêmio FBPA",
+"f": "2026-10-12",
+"id": "kqZEnHHYfIw",
+"t": "AO VIVO | GRÊMIO X INTERNACIONAL I BRASILEIRÃO 2026"
+},
+{
+"c": "Grêmio FBPA",
 "f": "2026-10-11",
 "id": "hIUbgLVZ9Eo",
 "t": "DO GUIA PARA TV | ENTREVISTA EXCLUSIVA COM DANILO BARBOSA"
@@ -6539,12 +6545,6 @@
 "f": "2026-10-09",
 "id": "uD7Vmu0zB0w",
 "t": "GRÊMIO FEMININO NA SELEÇÃO BRASILEIRA"
-},
-{
-"c": "Grêmio FBPA",
-"f": "2026-10-09",
-"id": "kqZEnHHYfIw",
-"t": "AO VIVO | GRÊMIO X INTERNACIONAL I BRASILEIRÃO 2026"
 },
 {
 "c": "Grêmio FBPA",
@@ -6764,6 +6764,12 @@
 }
 ],
 "Inter": [
+{
+"c": "Inter",
+"f": "2026-10-12",
+"id": "6x1sRb4-lT0",
+"t": "EP. 35 | Wim - L'ambientamento"
+},
 {
 "c": "Inter",
 "f": "2026-10-11",
@@ -6997,12 +7003,6 @@
 "f": "2026-10-09",
 "id": "psVGZ78ISNM",
 "t": "We missed you 🫂🖤💙"
-},
-{
-"c": "Inter",
-"f": "2026-10-09",
-"id": "KRs9Jkfn5YI",
-"t": "INTERNATIONAL CORNER S.4️⃣ | EPISODIO 2 – SI TORNA A SAN SIRO, LA PAUSA È FINITA 🖤💙"
 }
 ],
 "Ipswich Town": [
@@ -7280,6 +7280,24 @@
 },
 {
 "c": "Juventus",
+"f": "2026-10-11",
+"id": "tQsLKUNVROY",
+"t": "KOLO MUANI RESCUES A POINT! 🔥 | Cagliari 1-1 Juventus Highlights | Serie A"
+},
+{
+"c": "Juventus",
+"f": "2026-10-11",
+"id": "6WeiPoXJkYI",
+"t": "“GAMES LIKE THIS HAVE TO BE WON” | Spalletti after Cagliari-Juventus"
+},
+{
+"c": "Juventus",
+"f": "2026-10-11",
+"id": "8UjoGTcbX2w",
+"t": "KOLO MUANI EQUALIZES! ⚡️⚽️ CAGLIARI 1-1 JUVENTUS"
+},
+{
+"c": "Juventus",
 "f": "2026-10-10",
 "id": "_6btELO0ErA",
 "t": "TOO MUCH SKILL FROM DAVIDS 🤯"
@@ -7469,24 +7487,6 @@
 "f": "2026-10-04",
 "id": "9gHhZUL1w50",
 "t": "HE NEVER ARGUED. DEL PIERO JUST SCORED. 🔥"
-},
-{
-"c": "Juventus",
-"f": "2026-10-04",
-"id": "M1Vbbx6hCgY",
-"t": "ONE GOAL DECIDES IT AT THE RIVERSIDE! | Middlesbrough-Juventus Highlights | PL International Cup"
-},
-{
-"c": "Juventus",
-"f": "2026-10-04",
-"id": "XdAhfcVQUTE",
-"t": "100th GOAL IN UWCL by Tatiana PINTO 🔥"
-},
-{
-"c": "Juventus",
-"f": "2026-10-04",
-"id": "-a51bfnbzgA",
-"t": "KHEDIRA'S HEADER AGAINST BOLOGNA 💥"
 }
 ],
 "Leeds United": [
@@ -8724,9 +8724,21 @@
 "Oxford United": [
 {
 "c": "Oxford United Official",
+"f": "2026-10-12",
+"id": "VIzj7y35zW8",
+"t": "Brodie and Jamie go head-to-head 🤔"
+},
+{
+"c": "Oxford United Official",
 "f": "2026-10-11",
 "id": "vqSgCnH0o00",
 "t": "Liam Gilbert & Maisy Barker React to Victory Over Swindon Town | Post-Match Interviews"
+},
+{
+"c": "Oxford United Official",
+"f": "2026-10-11",
+"id": "O5ZbRNY6KxM",
+"t": "Sparky adding to his goal tally 🤫"
 },
 {
 "c": "Oxford United Official",
@@ -8949,21 +8961,93 @@
 "f": "2026-09-18",
 "id": "F8CIIBLEab8",
 "t": "Aaron Ramsey Speaks to Press Ahead of Our Home Fixture Against Cambridge United | Press Conference"
-},
-{
-"c": "Oxford United Official",
-"f": "2026-09-17",
-"id": "B-YGwKiZgT8",
-"t": "Louie Sibley Speaks Ahead of Our Home Fixture Against Cambridge United | Player Interview"
-},
-{
-"c": "Oxford United Official",
-"f": "2026-09-16",
-"id": "x0y3Grn2lmM",
-"t": "How many Maltesers are in the jar? 🤔"
 }
 ],
 "Palmeiras": [
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-10-12",
+"id": "_1N-is0V0Fc",
+"t": "AGUSTÍN GIAY: O NOME DO JOGO! ¡VAMOS, HERMANO! 💚💪"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-10-12",
+"id": "2XKlvuIiR-A",
+"t": "A ALEGRIA DO GRUPO E DE QUEM SABE QUE DECIDIU O CLÁSSICO! 😁💚"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-10-12",
+"id": "6QYosKpBirs",
+"t": "É ESSE O SENTIMENTO, #FAMÍLIAPALMEIRAS! 💚🐷"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-10-12",
+"id": "LrRoQveFDdk",
+"t": "VITÓRIA NO DERBY! 💪🔥💚"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-10-12",
+"id": "wDaidx-WQSI",
+"t": "SE O PIQUE FALOU, TÁ FALADO! ✍️ PRIMEIRO GOL DO MEU ZAGUEIRO"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-10-12",
+"id": "KYsjFjeME_g",
+"t": "PRA CIMA, MEU 8️⃣! MAIS UMA VITÓRIA EM CLÁSSICO PRA CONTA!"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-10-12",
+"id": "M1jvC7ThURA",
+"t": "GOLEADA NO DERBY 400! OS GOLS DE PALMEIRAS 4X1 CORINTHIANS ⚽💚"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-10-12",
+"id": "qWoxVCHAs3o",
+"t": "AUMENTA O VOLUME 🔊⚽💚"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-10-12",
+"id": "bBTDg95kn2I",
+"t": "PATERNIDADE CONFIRMADA! ✅🐷💚"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-10-12",
+"id": "7KIrYc7yrSI",
+"t": "O GOLAÇO DO RIVAL PARA O VERDÃO! 💚"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-10-12",
+"id": "Ig18YyTWVTw",
+"t": "LEITURA DE JOGO DE CRAQUE DO MEU GREENGO! SEGUNDO GOL DO GIAY NO DERBY! 💚⚽🇦🇷"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-10-12",
+"id": "ri744c8KM0Y",
+"t": "O GOLAÇO DO GIAY PELO VERDÃO! 💚⚽"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-10-12",
+"id": "WJ_n4qop9oU",
+"t": "JOGADA ENSAIADA, GOL DO MEU ZAGUEIRO! PRA CIMA, BARBOZA! 💪"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-10-12",
+"id": "lRh3KpHqOoQ",
+"t": "HIGHLIGHTS | PALMEIRAS 4 X 1 CORINTHIANS | BRASILEIRÃO 2026"
+},
 {
 "c": "TV Palmeiras Sportingbet",
 "f": "2026-10-11",
@@ -9023,6 +9107,12 @@
 "f": "2026-10-11",
 "id": "xRqLOPPbA4k",
 "t": "ARIAS CONVOCA A TORCIDA PARA O DERBY"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-10-11",
+"id": "k28_SO2Wxc4",
+"t": "AEROPORCO: PALESTRINAS DESEMBARCAM EM QUITO PARA A DISPUTA DA LIBERTADORES"
 },
 {
 "c": "TV Palmeiras Sportingbet",
@@ -9113,96 +9203,6 @@
 "f": "2026-10-10",
 "id": "nHvRWa8et7Y",
 "t": "COMO SÃO AS VIAGENS DO ELENCO ✈️"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-10-10",
-"id": "YnaJOBLIlgY",
-"t": "A CONSTRUÇÃO DO FUTEBOL FEMINO NO PALMEIRAS 💚"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-10-10",
-"id": "_psYxkpPqd4",
-"t": "PASSE RÁPIDO E MOVIMENTAÇÃO INTENSA! ⚽⚡"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-10-10",
-"id": "9KAoaUCQAkY",
-"t": "CARLOS MIGUEL BUSCA LA EM CIMA!"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-10-10",
-"id": "8zsbZ7v82x8",
-"t": "ARIAS COM A PONTARIA AFIADA NA ACADEMIA DE FUTEBOL! ⚽🎯"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-10-10",
-"id": "YRm50dVsLQA",
-"t": "QUEM GANHOU O RACHÃO DE HOJE? ⚽❓🏆"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-10-10",
-"id": "-fkjNA1M_uk",
-"t": "ÚLTIMO TREINO ANTES DO DERBY! ⚽🔥"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-10-10",
-"id": "6o7aga3Cpk8",
-"t": "ANDREAS E BONFÁ TESTARAM O CONFORTO 🚗🟢"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-10-10",
-"id": "zi34KfuXEwk",
-"t": "ANDREAS DÁ AULA DE INGLÊS 🇬🇧"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-10-10",
-"id": "2cu_CnubVKc",
-"t": "PALMEIRAS E LEAPMOTOR SE REÚNEM PARA LANÇAMENTO DE NOVO CARRO"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-10-10",
-"id": "fxGCAxtPsas",
-"t": "PALMEIRAS E LEAPMOTOR SE REÚNEM PARA LANÇAMENTO DE NOVO CARRO"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-10-10",
-"id": "FN0Oz7l6h8U",
-"t": "TUDO PRONTO! GÓMEZ TREINA E VERDÃO FINALIZA PREPARAÇÃO PARA O DERBY"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-10-09",
-"id": "c-8XOvW5k6w",
-"t": "HIGHLIGHTS | PALMEIRAS 1 X 0 BAHIA | BRASILEIRÃO 2026"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-10-09",
-"id": "b6yXWaU-xcA",
-"t": "NÃO DÁ PRA SEGURAR! O GOL AÉREO DE FLACO LÓPEZ CONTRA O BAHIA"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-10-09",
-"id": "UdG3I_Pwv_Q",
-"t": "PRA CIMA, HERMANO! 🇦🇷"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-10-09",
-"id": "ZpD5iw7zrwI",
-"t": "MAIS UMA BALIZA A ZERO DO CARLOS MIGUEL🧤"
 }
 ],
 "Paris FC": [
@@ -9464,6 +9464,18 @@
 "RB Leipzig": [
 {
 "c": "RB Leipzig",
+"f": "2026-10-11",
+"id": "YX01H0TvQj8",
+"t": "6:0 - Alle Tore | RB Leipzig vs. Eintracht Frankfurt"
+},
+{
+"c": "RB Leipzig",
+"f": "2026-10-11",
+"id": "S4Kpkxe-DZM",
+"t": "NKUNKU LEADS MAGICAL HOME WIN! | RB Leipzig – Eintracht Frankfurt | Bundesliga Highlights"
+},
+{
+"c": "RB Leipzig",
 "f": "2026-10-10",
 "id": "rSnS8Jr6aBM",
 "t": "LIVE 🔴 Pressekonferenz nach RB Leipzig - Eintracht Frankfurt | Bundesliga"
@@ -9491,6 +9503,12 @@
 "f": "2026-10-08",
 "id": "XLGr2JPTiDE",
 "t": "“Wildest side quest I’ve ever done” 😭 | Pro Footballers Take On Red Bull Challenge"
+},
+{
+"c": "RB Leipzig",
+"f": "2026-10-08",
+"id": "xH4kczufIX4",
+"t": "LIVE 🔴 Pressekonferenz vor RB Leipzig - PSV Eindhoven | UEFA Champions League"
 },
 {
 "c": "RB Leipzig",
@@ -9683,24 +9701,6 @@
 "f": "2026-09-01",
 "id": "pRNHeqqgJ8w",
 "t": "A new 𝐒𝐓𝐑𝐈𝐊𝐄𝐑 in town 💥🇪🇸"
-},
-{
-"c": "RB Leipzig",
-"f": "2026-09-01",
-"id": "Z0jTCEPvUN8",
-"t": "From La Masia to Chelsea to Leipzig ✨ | Behind The Scenes with our new signing Marc Guiu 🎬"
-},
-{
-"c": "RB Leipzig",
-"f": "2026-08-31",
-"id": "KJMtIDeVuZQ",
-"t": "Nusa’s signature ✨"
-},
-{
-"c": "RB Leipzig",
-"f": "2026-08-31",
-"id": "EGqLYt_2doM",
-"t": "Leipzig, get ready for... 👀"
 }
 ],
 "Real Betis": [
@@ -12950,6 +12950,12 @@
 "Werder Bremen": [
 {
 "c": "Werder Bremen",
+"f": "2026-10-11",
+"id": "1EMtF6NzjnA",
+"t": "SCHON WIEDER EINE AUFHOLJAGD IN DORTMUND! I HIGHLIGHTS UND STIMMEN I BVB vs. SVW"
+},
+{
+"c": "Werder Bremen",
 "f": "2026-10-09",
 "id": "hXYi5w1Ak1g",
 "t": "BORUSSIA DORTMUND VS. WERDER BREMEN I Pressekonferenz I SV Werder Bremen"
@@ -13181,12 +13187,6 @@
 "f": "2026-08-22",
 "id": "a206FIW7qQA",
 "t": "Lüneburger SK 0:3 Werder Bremen I Pressekonferenz I SV Werder Bremen"
-},
-{
-"c": "Werder Bremen",
-"f": "2026-08-20",
-"id": "tRFxwvckmQo",
-"t": "Pressekonferenz vor der 1. Runde im DFB-Pokal I Lüneburger SK Hansa - SV Werder Bremen"
 }
 ],
 "Willem II": [
