@@ -63,7 +63,7 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add web/datos_ligas.json web/index.html
+          git add web/datos_ligas.json web/index.html web/portada.png
           git add datos/*.json 2>/dev/null || true
           if git diff --staged --quiet; then
             echo "Sin cambios en los datos: no se genera commit."

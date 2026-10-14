@@ -1247,7 +1247,7 @@ tr.eq-destacado > td:first-child { box-shadow: inset 3px 0 0 var(--acento); }
 
 /* ── Bloque de texto, a la izquierda ─────────────────────────────────── */
 .escaparate-texto {
-  position: relative; z-index: 2; max-width: 620px;
+  position: relative; z-index: 2; max-width: min(620px, 40vw);
   padding: 0 42px 40px; margin-top: auto;
 }
 .escaparate-texto .barra-prob { margin: 20px 0 0; max-width: 480px; }
@@ -1381,8 +1381,11 @@ tr.eq-destacado > td:first-child { box-shadow: inset 3px 0 0 var(--acento); }
 .tp-prob { display: flex; gap: 2px; margin-top: 6px; }
 .tp-prob i { height: 3px; border-radius: 2px; display: block; }
 
-/* En pantallas estrechas el carrusel no cabe al lado: pasa debajo del texto */
-@media (max-width: 900px) {
+/* El carrusel va al lado del texto sólo cuando de verdad cabe. El bloque de
+   texto mide 620 px y el carrusel ocupa el 58 % del ancho por la derecha, así
+   que por debajo de ~1180 px se pisaban: el título «Los próximos partidos
+   grandes» aparecía encima del párrafo del partido destacado. */
+@media (max-width: 1180px) {
   .escaparate { min-height: auto; }
   .esc-barra { padding: 14px 18px; gap: 14px; }
   .esc-marca { font-size: 18px; }
@@ -2970,6 +2973,7 @@ function aplicarFiltro() {
   const historial = filtroActivo === "historial";
   const porFilas = filtroActivo === "todos";
 
+  if (historial) pintarRegistroSiHaceFalta();
   document.getElementById("bloque-registro").classList.toggle("oculto", !historial);
   document.getElementById("filas-ligas").classList.toggle("oculto", historial);
   // La lista antigua y el selector de liga ya no se usan: todo son tarjetas
@@ -6717,7 +6721,12 @@ function pintarPortada(lg, p, c) {
     sub.innerHTML = `${escudo(local)} ${sede.nombre || "Estadio del " + local}
       · foto de Wikimedia Commons`;
   } else {
-    fondo.style.backgroundImage = `linear-gradient(120deg, ${c1} 0%, #11151b 55%, ${c2} 100%)`;
+    // Sin foto del estadio, la carátula de un vídeo reciente de alguno de los
+    // dos. Es una imagen de fútbol de verdad, no un degradado.
+    // Aquí no se usa carátula de vídeo: a este tamaño se le ve el botón de
+    // reproducir de YouTube dibujado encima y parece una emisión en directo.
+    fondo.style.backgroundImage =
+      `linear-gradient(120deg, ${c1} 0%, #11151b 55%, ${c2} 100%)`;
     sub.innerHTML = `${escudo(local)} En casa del ${local}`;
   }
 }
@@ -6871,7 +6880,23 @@ function partidosGrandes(dias = 10) {
 }
 
 /** Fondo de un partido: el estadio del local, o los colores de las camisetas. */
-function fondoDe(a, b, pequena = false) {
+/** La carátula de un vídeo reciente de alguno de los dos equipos.
+ *  Sólo tenemos foto de estadio de 41 equipos de 230, así que tres de cada
+ *  cuatro tarjetas salían como un bloque de color. Las carátulas de los
+ *  vídeos que ya descargamos son fotos de fútbol de verdad y las hay de
+ *  muchos más equipos. */
+function caratulaDe(nombreA, nombreB) {
+  const club = D.videos_club || {};
+  for (const n of [nombreA, nombreB]) {
+    const v = (club[n] || [])[0];
+    // mqdefault y no hqdefault: el segundo viene en 4:3 con franjas negras
+    // arriba y abajo, que en una tarjeta apaisada se notan.
+    if (v) return `https://i.ytimg.com/vi/${v.id}/mqdefault.jpg`;
+  }
+  return "";
+}
+
+function fondoDe(a, b, pequena = false, conVideo = null) {
   const sede = (D.estadios || {})[a];
   const col = n => (COLORES[n] || ["#41505f", "#28323d"]);
   const degradado = `linear-gradient(120deg, ${col(a)[0]} 0%, #11151b 55%, ${col(b)[0]} 100%)`;
@@ -6880,9 +6905,14 @@ function fondoDe(a, b, pequena = false) {
   const img = sede && (pequena ? (sede.mini || sede.img) : sede.img);
   // La foto va encima y el degradado debajo: mientras la imagen carga, o si no
   // llega nunca, lo que se ve son los colores y no un hueco vacío.
-  return img
-    ? { css: `url("${img}"), ${degradado}`, sede: sede.nombre || "" }
-    : { css: degradado, sede: "" };
+  if (img) return { css: `url("${img}"), ${degradado}`, sede: sede.nombre || "" };
+  // La carátula de un vídeo sólo sirve en pequeño. A tamaño de portada se le
+  // ve el botón de reproducir de YouTube dibujado dentro y parece una emisión
+  // en directo, que es justo lo que esta web no es.
+  const admiteVideo = conVideo === null ? pequena : conVideo;
+  const cara = admiteVideo ? caratulaDe(a, b) : "";
+  if (cara) return { css: `url("${cara}"), ${degradado}`, sede: "", deVideo: true };
+  return { css: degradado, sede: "" };
 }
 
 /** Una tarjeta vertical de partido, como las carátulas de las plataformas. */
@@ -6899,7 +6929,7 @@ function tarjetaPartido(g) {
   // así la vista previa aparece donde está el partido y no en la cabecera,
   // que es la que anuncia el partido importante del día.
   return `<a class="tarjeta-partido" href="#/partido/${g.k}/${idPartido(g.p)}">
-      <span class="tp-fondo" style="background-image:${f.css}"></span>
+      <span class="tp-fondo" style="background-image:${f.css.replace(/"/g, "&quot;")}"></span>
       <span class="tp-velo"></span>
       <span class="tp-escudos">${escudo(g.a.nombre, true)}${escudo(g.b.nombre, true)}</span>
       <span class="tp-texto">
@@ -7191,6 +7221,23 @@ function pintarDestacado() {
   activarFlechas(carruselCaja.querySelector(".carrusel-pista"));
 }
 
+/** La cifra del chip, que sí se ve desde el primer momento. */
+function etiquetarChipAciertos() {
+  const R = D.registro || {};
+  const chip = document.querySelector('#filtros .filtro[data-f="historial"]');
+  if (!chip) return;
+  chip.classList.toggle("oculto", !R.n && !R.pendientes);
+  if (R.n) chip.textContent = `✓ Nuestros aciertos · ${R.pct} %`;
+}
+
+/** Y el contenido, que se monta la primera vez que alguien lo pide. */
+let registroPintado = false;
+function pintarRegistroSiHaceFalta() {
+  if (registroPintado) return;
+  registroPintado = true;
+  pintarRegistro();
+}
+
 function pintarRegistro() {
   const R = D.registro || {};
   // El bloque lo enseña o esconde el filtro; aquí sólo se rellena. Lo que sí
@@ -7379,7 +7426,10 @@ document.querySelectorAll(".esc-nav button").forEach(b =>
 
 pintarDestacado();
 pintarFilasLigas();
-pintarRegistro();
+// El registro NO se pinta aquí. Son dos tercios de todos los elementos de la
+// página —uno desplegable por partido resuelto— y nadie los ve hasta que abre
+// «Nuestros aciertos». Al arrancar sólo se pone la cifra en el chip.
+etiquetarChipAciertos();
 
 if (location.hash) enrutar();
 </script>

@@ -40,6 +40,7 @@ import fotos as mod_fotos
 import ligas_goles as mod_goles
 import football_data as mod_fd
 import videos as mod_videos
+import portada_social
 import registro as mod_registro
 import estadios as mod_estadios
 
@@ -490,43 +491,89 @@ def bajar_calendario(codigo_of: str, anio: int) -> list[dict]:
 # Modelo
 # --------------------------------------------------------------------------- #
 
-def ajustar_fuerzas(partidos: list[dict], referencia: date, iteraciones: int = 400):
-    """Estima ataque, defensa y ventaja de local sobre log(xG), con decaimiento.
+def calibrar_goles(partidos: list[dict]) -> float:
+    """Cuántos goles se marcan por cada unidad de ocasión en esta competición.
 
-    Resuelve el sistema por iteración alternada (Gauss-Seidel): es equivalente a
-    los mínimos cuadrados ponderados del modelo pero sin montar la matriz, que
-    con varias temporadas sería innecesariamente grande.
+    Las fuerzas se ajustan sobre las ocasiones de gol porque predicen mejor que
+    los goles pasados, que llevan mucho ruido. Pero lo que la web promete son
+    **goles**, y en una liga pueden no coincidir: en la Premier de esta
+    temporada se generan 1,53 ocasiones por equipo y se marcan 1,37. Este
+    factor traduce de una escala a la otra.
+
+    En las competiciones sin ocasiones publicadas los goles ocupan su lugar, así
+    que el factor sale 1 y no cambia nada.
+    """
+    ocasiones = sum(float(m["xG"]["h"]) + float(m["xG"]["a"]) for m in partidos)
+    goles = sum(int(m["goals"]["h"]) + int(m["goals"]["a"]) for m in partidos)
+    if ocasiones <= 0 or goles <= 0:
+        return 1.0
+    # Se deja cerca de 1: un factor extremo sería señal de datos raros, no de
+    # que la liga marque el doble de lo que genera.
+    return max(0.80, min(1.25, goles / ocasiones))
+
+
+def ajustar_fuerzas(partidos: list[dict], referencia: date, iteraciones: int = 200):
+    """Estima ataque, defensa y ventaja de local, con decaimiento en el tiempo.
+
+    Se ajusta por **máxima verosimilitud de Poisson**, que es la distribución
+    que describe un recuento de goles. Antes esto eran mínimos cuadrados sobre
+    ``log(xG)``, y eso tenía dos defectos que hundían todas las previsiones de
+    goles de la web:
+
+    * Promediar logaritmos y luego exponenciar da la **media geométrica**, que
+      siempre queda por debajo de la aritmética (desigualdad de Jensen). En la
+      Premier eso solo ya restaba un 21 %.
+    * Un equipo que no marca entraba como ``log(0,05) = -3``, un disparate que
+      arrastraba la estimación. En la Primeira, donde el 29 % de los equipos se
+      va a cero, el modelo acababa esperando 0,60 goles por equipo cuando se
+      marcan 1,35.
+
+    Con Poisson el cero es un dato normal —aporta 0 al recuento, no menos
+    infinito— y lo que se estima es directamente ``log E[goles]``. Las
+    actualizaciones de abajo son la solución cerrada de cada paso, así que la
+    iteración converge sin montar ninguna matriz.
     """
     obs = []
     for m in partidos:
         dias = (referencia - datetime.strptime(m["datetime"][:10], "%Y-%m-%d").date()).days
         peso = math.exp(-XI * max(dias, 0))
         h, a = m["h"]["title"], m["a"]["title"]
-        obs.append((h, a, 1, math.log(max(float(m["xG"]["h"]), 0.05)), peso))
-        obs.append((a, h, 0, math.log(max(float(m["xG"]["a"]), 0.05)), peso))
+        obs.append((h, a, 1, max(float(m["xG"]["h"]), 0.0), peso))
+        obs.append((a, h, 0, max(float(m["xG"]["a"]), 0.0), peso))
 
     equipos = sorted({o[0] for o in obs})
     atq = {e: 0.0 for e in equipos}
     dfn = {e: 0.0 for e in equipos}
     gamma = 0.25
 
-    # Índices por equipo para no recorrer todas las observaciones en cada paso
-    como_atacante = {e: [] for e in equipos}
-    como_defensor = {e: [] for e in equipos}
+    como_atacante: dict[str, list] = {e: [] for e in equipos}
+    como_defensor: dict[str, list] = {e: [] for e in equipos}
     for o in obs:
         como_atacante[o[0]].append(o)
         como_defensor[o[1]].append(o)
 
+    # Un equipo que no marcó nunca en la ventana daría log(0): se le deja un
+    # resto mínimo para que tenga un número en lugar de romper el ajuste.
+    MINIMO = 1e-4
+    # Y se acota lo que puede moverse en un paso, por si una muestra pequeña
+    # manda la estimación a un extremo.
+    def acotar(x):
+        return max(-3.0, min(3.0, x))
+
+    en_casa = [o for o in obs if o[2]]
     for _ in range(iteraciones):
-        num = sum(p * (y - atq[a] + dfn[d]) for a, d, loc, y, p in obs if loc)
-        den = sum(p for *_, loc, _, p in ((o[0], o[1], o[2], o[3], o[4]) for o in obs) if loc)
-        gamma = num / den if den else gamma
+        # Ventaja de jugar en casa
+        arriba = sum(p * y for *_, y, p in ((o[0], o[1], o[2], o[3], o[4]) for o in en_casa))
+        abajo = sum(p * math.exp(atq[a] - dfn[d]) for a, d, _, _, p in en_casa)
+        if arriba > 0 and abajo > 0:
+            gamma = acotar(math.log(arriba) - math.log(abajo))
 
         for e in equipos:
             ob = como_atacante[e]
-            den2 = sum(p for *_, p in ob)
-            if den2:
-                atq[e] = sum(p * (y + dfn[d] - gamma * loc) for _, d, loc, y, p in ob) / den2
+            arriba = sum(p * y for *_, y, p in ob)
+            abajo = sum(p * math.exp(-dfn[d] + gamma * loc) for _, d, loc, _, p in ob)
+            if abajo > 0:
+                atq[e] = acotar(math.log(max(arriba, MINIMO)) - math.log(abajo))
 
         media = sum(atq.values()) / len(equipos)
         for e in equipos:
@@ -534,9 +581,19 @@ def ajustar_fuerzas(partidos: list[dict], referencia: date, iteraciones: int = 4
 
         for e in equipos:
             ob = como_defensor[e]
-            den3 = sum(p for *_, p in ob)
-            if den3:
-                dfn[e] = sum(p * (atq[a] - y + gamma * loc) for a, _, loc, y, p in ob) / den3
+            arriba = sum(p * y for *_, y, p in ob)
+            abajo = sum(p * math.exp(atq[a] + gamma * loc) for a, _, loc, _, p in ob)
+            if abajo > 0:
+                dfn[e] = acotar(math.log(abajo) - math.log(max(arriba, MINIMO)))
+
+    # Las fuerzas salen en unidades de ocasión de gol; la web promete goles.
+    # El factor se absorbe en el ataque de todos por igual: así ``lam`` y ``mu``
+    # quedan ya en goles en todos los sitios que las usan —la web, la
+    # simulación de la temporada, el histórico de aciertos— sin tener que
+    # acordarse de multiplicar en cada uno.
+    ajuste = math.log(calibrar_goles(partidos))
+    for e in equipos:
+        atq[e] += ajuste
 
     return atq, dfn, gamma
 
@@ -897,7 +954,12 @@ def envolver_html(cuerpo: str, titulo: str) -> str:
 <meta property="og:title" content="{titulo}">
 <meta property="og:description" content="{DESCRIPCION}">
 <meta property="og:url" content="{SITIO}">
-<meta name="twitter:card" content="summary">
+<meta property="og:image" content="{SITIO}portada.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Ventaja Local · probabilidades y estadísticas de fútbol">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="{SITIO}portada.png">
 <meta name="twitter:title" content="{titulo}">
 <meta name="twitter:description" content="{DESCRIPCION}">
 </head>
@@ -1567,6 +1629,15 @@ def main() -> None:
 
     mod_registro.guardar(reg)
     salida["registro"] = mod_registro.resumen(reg)
+
+    # La imagen que ven WhatsApp y las redes al compartir el enlace. Lleva el
+    # acierto acumulado, así que se vuelve a dibujar en cada ejecución; por eso
+    # va aquí y no antes, cuando el registro todavía no está hecho.
+    try:
+        portada_social.generar(salida["registro"], len(salida["ligas"]))
+        print("    portada.png para compartir, al día")
+    except Exception as e:
+        print(f"    [aviso] no se pudo dibujar portada.png: {type(e).__name__}")
     print("")
     print("Registro público de pronósticos")
     print(f"    {reg_nuevos} pronósticos nuevos · {reg_resueltos} resueltos ahora")
