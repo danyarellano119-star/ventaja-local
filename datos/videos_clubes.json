@@ -5380,6 +5380,12 @@
 },
 {
 "c": "Flamengo TV",
+"f": "2026-10-14",
+"id": "7ApXL1MRqV8",
+"t": "Foco na recuperação! 💪🇺🇾"
+},
+{
+"c": "Flamengo TV",
 "f": "2026-10-13",
 "id": "DKUhmeRT0pM",
 "t": "ISSO AQUI É FLAMENGO | FLAMENGO 1 x 0 FLUMINENSE | BRASILEIRÃO (11/10/26)"
@@ -5557,12 +5563,6 @@
 "f": "2026-10-10",
 "id": "DbMBLddU1I4",
 "t": "O MEMENGO VOLTOU CHEIO DE ÓDIO! 😡😂 | MEMENGO #74"
-},
-{
-"c": "Flamengo TV",
-"f": "2026-10-10",
-"id": "9EJiVPte_mE",
-"t": "FLAXFLU: TÁTICAS E FRAGILIDADES NO CLÁSSICO CARIOCA PARA MANTER A LIDERANÇA NO BRASILEIRÃO"
 }
 ],
 "Fluminense": [
@@ -7958,6 +7958,12 @@
 },
 {
 "c": "Liverpool FC",
+"f": "2026-10-14",
+"id": "UM6cgQoRVOs",
+"t": "Hat-trick. POTM. Bradley Barcola 🤩🏆"
+},
+{
+"c": "Liverpool FC",
 "f": "2026-10-13",
 "id": "sY8VMoEFg3M",
 "t": "Champions League Press Conference: LASK vs Liverpool | Milos Kerkez & Andoni Iraola"
@@ -8171,12 +8177,6 @@
 "f": "2026-09-29",
 "id": "Xig0dmOEFCM",
 "t": "Tommy Hilfiger styling session 📹"
-},
-{
-"c": "Liverpool FC",
-"f": "2026-09-29",
-"id": "1aTYx2xB8Lk",
-"t": "'I'm The Cool Girl In New York!?' 🤩 BTS as Tommy Hilfiger Style LFC Women"
 }
 ],
 "Metz": [
@@ -13304,7 +13304,13 @@
 "c": "ŠK Slovan Bratislava",
 "f": "2026-10-14",
 "id": "W_QNNeo3-2Q",
-"t": "LIVE| Pozápasová tlačová konferencia ŠK Slovan Bratislava - VfB Stuttgart"
+"t": "LIVE| Pozápasová tlačová konferencia VfB Stuttgart"
+},
+{
+"c": "ŠK Slovan Bratislava",
+"f": "2026-10-14",
+"id": "B9eIIDFnu1A",
+"t": "LIVE| Pozápasová tlačová konferencia ŠK Slovan Bratislava"
 },
 {
 "c": "ŠK Slovan Bratislava",
@@ -13527,12 +13533,6 @@
 "f": "2026-08-27",
 "id": "10g-lwkg2pw",
 "t": "Reakcia na žreb ligovej fázy Ligy majstrov 2026/27 | Šporar"
-},
-{
-"c": "ŠK Slovan Bratislava",
-"f": "2026-08-27",
-"id": "Z-wELU1nH4U",
-"t": "REVIEW | NK Celje - ŠK Slovan Bratislava | 1:2p | Y. Touré"
 }
 ]
 }
