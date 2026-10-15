@@ -74,6 +74,96 @@
 },
 {
 "c": "CazéTV",
+"f": "2026-10-15",
+"id": "5-QZFGdkVMQ",
+"t": "JOGO COMPLETO (SOM AMBIENTE): HEARTS X NORDSJAELLAND | CONFERENCE LEAGUE 26/27 | 1ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-15",
+"id": "08Fv-bE7RVg",
+"t": "JOGO COMPLETO (SOM AMBIENTE): RENNES X OFI | EUROPA LEAGUE 26/27 | 2ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-15",
+"id": "PAW_4udodmI",
+"t": "JOGO COMPLETO (SOM AMBIENTE): COPENHAGEN X BRAGA | CONFERENCE LEAGUE 26/27 | 1ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-15",
+"id": "Kfig0CDoFjk",
+"t": "JOGO COMPLETO (SOM AMBIENTE): BRIGHTON X KAUNO ŽALGIRIS | CONFERENCE LEAGUE 26/27 | 1ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-15",
+"id": "g8wC2qTaUbs",
+"t": "JOGO COMPLETO (SOM AMBIENTE): ATALANTA X PAFOS | CONFERENCE LEAGUE 26/27 | 1ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-15",
+"id": "nuTwS_HIN-w",
+"t": "JOGO COMPLETO (SOM AMBIENTE): DINAMO ZAGREB X ANDERLECHT | EUROPA LEAGUE 26/27 | 2ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-15",
+"id": "_Hn1KMWlEp4",
+"t": "JOGO COMPLETO (SOM AMBIENTE): MARSEILLE X OLYMPIAKOS | EUROPA LEAGUE 26/27 | 2ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-15",
+"id": "Kba6oh68ziE",
+"t": "JOGO COMPLETO: FC SALZBURG X MILAN | EUROPA LEAGUE 26/27 | 2ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-15",
+"id": "6Y4PPuXFEaw",
+"t": "JOGO COMPLETO: CSKA SOFIA X MÔNACO | CONFERENCE LEAGUE 26/27 | 1ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-15",
+"id": "V-AqPCzJBZM",
+"t": "JOGO COMPLETO: BOURNEMOUTH X STURM GRAZ | EUROPA LEAGUE 26/27 | 2ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-15",
+"id": "TyeXp3yrg_g",
+"t": "JOGO COMPLETO: BENFICA X CELTIC | EUROPA LEAGUE 26/27 | 2ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-15",
+"id": "CcP_GHaXnqc",
+"t": "JOGO COMPLETO: CELTA X JUVENTUS | EUROPA LEAGUE 26/27 | 2ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-15",
+"id": "DeWm7KRx6JY",
+"t": "MELHORES MOMENTOS: CELTA 1 X 2 JUVENTUS | EUROPA LEAGUE 26/27 | 2ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-15",
+"id": "OUCGOS3LJGU",
+"t": "MELHORES MOMENTOS: BOURNEMOUTH 3 X 0 STURM GRAZ | EUROPA LEAGUE 26/27 | 2ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-15",
+"id": "yNuNRHOOcc0",
+"t": "PEDRI: A ARTE DE SER MEIO-CAMPISTA"
+},
+{
+"c": "CazéTV",
 "f": "2026-10-14",
 "id": "gQ_hIEjOcKs",
 "t": "JOGO COMPLETO: VASCO X BOCA JUNIORS | SUL-AMERICANA | NARRAÇÃO | NOCHE DE COPA"
@@ -119,12 +209,6 @@
 "f": "2026-10-14",
 "id": "9Kx1d6wGlfQ",
 "t": "CAMISA 5, FARO DE 9: TODOS OS GOLS DE BELLINGHAM NA LALIGA"
-},
-{
-"c": "CazéTV",
-"f": "2026-10-14",
-"id": "5-QZFGdkVMQ",
-"t": "AO VIVO (SOM AMBIENTE): HEARTS X NORDSJAELLAND | CONFERENCE LEAGUE 26/27 | 1ª RODADA"
 },
 {
 "c": "CazéTV",
@@ -237,18 +321,6 @@
 {
 "c": "CazéTV",
 "f": "2026-10-12",
-"id": "08Fv-bE7RVg",
-"t": "AO VIVO (SOM AMBIENTE): RENNES X OFI | EUROPA LEAGUE 26/27 | 2ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-10-12",
-"id": "PAW_4udodmI",
-"t": "AO VIVO (SOM AMBIENTE): COPENHAGEN X BRAGA | CONFERENCE LEAGUE 26/27 | 1ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-10-12",
 "id": "nYLV7YZh2ik",
 "t": "AO VIVO (SOM AMBIENTE): PANATHINAIKOS X BORAC | CONFERENCE LEAGUE 26/27 | 1ª RODADA"
 },
@@ -269,24 +341,6 @@
 "f": "2026-10-12",
 "id": "U_TdMEk4Kb8",
 "t": "AO VIVO (SOM AMBIENTE): KUPS X TRABZONSPOR | CONFERENCE LEAGUE 26/27 | 2ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-10-12",
-"id": "Kfig0CDoFjk",
-"t": "AO VIVO (SOM AMBIENTE): BRIGHTON X KAUNO ŽALGIRIS | CONFERENCE LEAGUE 26/27 | 1ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-10-12",
-"id": "g8wC2qTaUbs",
-"t": "AO VIVO (SOM AMBIENTE): ATALANTA X PAFOS | CONFERENCE LEAGUE 26/27 | 1ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-10-12",
-"id": "nuTwS_HIN-w",
-"t": "AO VIVO (SOM AMBIENTE): DINAMO ZAGREB X ANDERLECHT | EUROPA LEAGUE 26/27 | 2ª RODADA"
 },
 {
 "c": "CazéTV",
@@ -818,12 +872,6 @@
 },
 {
 "c": "CazéTV",
-"f": "2026-10-07",
-"id": "_Hn1KMWlEp4",
-"t": "AO VIVO (SOM AMBIENTE): MARSEILLE X OLYMPIAKOS | EUROPA LEAGUE 26/27 | 2ª RODADA"
-},
-{
-"c": "CazéTV",
 "f": "2026-10-06",
 "id": "j9HNBRPKPW0",
 "t": "TÊNIS DE MESA: HUGO CALDERANO NO CHINA SMASH 2026 | 16 AVOS DE FINAL"
@@ -909,26 +957,8 @@
 {
 "c": "CazéTV",
 "f": "2026-10-05",
-"id": "Kba6oh68ziE",
-"t": "AO VIVO: FC SALZBURG X MILAN | EUROPA LEAGUE 26/27 | 2ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-10-05",
-"id": "6Y4PPuXFEaw",
-"t": "AO VIVO: CSKA SOFIA X MÔNACO | CONFERENCE LEAGUE 26/27 | 1ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-10-05",
 "id": "HPs_ahJ6ns4",
 "t": "AO VIVO: CORINTHIANS X COLO-COLO | LIBERTADORES FEMININA 2026 | 1ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-10-05",
-"id": "V-AqPCzJBZM",
-"t": "AO VIVO: BOURNEMOUTH X STURM GRAZ | EUROPA LEAGUE 26/27 | 2ª RODADA"
 },
 {
 "c": "CazéTV",
@@ -6332,6 +6362,78 @@
 },
 {
 "c": "ESPN NL",
+"f": "2026-10-15",
+"id": "FFXyAYzQHlo",
+"t": "🙌 LOF voor MEERDINK: \"Hij is de BESTE PENALTYNEMER\" 💪 | Voetbalpraat"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-15",
+"id": "8huYYD_8JF0",
+"t": "🗣️ HARDE woorden voor AJAX na EUROPESE NEDERLAAG: \"HEMELTERGEND SLECHT\" 😳 | Voetbalpraat"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-15",
+"id": "lYOj_tYTvyk",
+"t": "🐁"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-15",
+"id": "dB3pc7w8IWc",
+"t": "Gonzalo Crettaz ziet steeds vaker het N.E.C. van vorig seizoen 🔙👏"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-15",
+"id": "dhCxn2KEPfo",
+"t": "🗣️ VRAAGTEKENS bij niet invallen van SIERHUIS: \"Dat is toch GEK?!\" 🤔 | Voetbalpraat"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-15",
+"id": "j5Td-lEgGIU",
+"t": "Perr Schuurs is kritisch op zijn eigen rol bij het doelpunt van Levski 🫣"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-15",
+"id": "K-z3mZlmfCA",
+"t": "🔎 PIJNPUNT gespot bij FC TWENTE: \"Dat AFWERKEN is ECHT EEN PROBLEEM\" 🎯 | Voetbalpraat"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-15",
+"id": "sAQmZuRj_hA",
+"t": "Perr SCHUURS ZELFKRITISCH na DOELPUNT Levski SOFIA: \"Moet dat DUEL WINNEN\" 💪 | Interviews N.E.C."
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-15",
+"id": "LpeWczg9sFo",
+"t": "Mexx Meerdink\" \"Ik sluit me altijd even af en verwijder social media om niets mee te krijgen\" ❌📱"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-15",
+"id": "RBBA-HWvO9c",
+"t": "Mexx Meerdink geniet van 'OVERTUIGING' in zijn penalty 😁 | Interviews AZ"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-15",
+"id": "Ig61jhgbR6k",
+"t": "🇳🇱 Mexx Meerdink × József Kiprich 🇭🇺  \"Ik denk dat ik hem vandaag iets harder schoot\" 🚀"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-15",
+"id": "V4xRG6HQTP8",
+"t": "🗣️ KLAASSEN na VERLIES: \"VERSCHIL eerste en tweede helft is TE GROOT\" 📊 | Interview"
+},
+{
+"c": "ESPN NL",
 "f": "2026-10-14",
 "id": "giJwI8BPB1w",
 "t": "⚡ Dé wedstrijd van Ahmed Musa ⚽⚽🅰️"
@@ -11059,6 +11161,18 @@
 "f": "2026-10-15",
 "id": "1MkdVDp3_F8",
 "t": "Isco: TOP 1 acciones de alto impacto en el Betis"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-15",
+"id": "wDUu9CDLozA",
+"t": "La #REFCAM lo captó TODO en el #BarçaGetafe"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-15",
+"id": "6rX36F19dLw",
+"t": "REFCAM FC Barcelona vs Getafe CF"
 },
 {
 "c": "LALIGA EA SPORTS",
