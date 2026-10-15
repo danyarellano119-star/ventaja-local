@@ -2,15 +2,45 @@
 "brasileirao": [
 {
 "c": "CazéTV",
-"f": "2026-10-14",
-"id": "gQ_hIEjOcKs",
-"t": "JOGO COMPLETO: VASCO X BOCA JUNIORS | SUL-AMERICANA | NARRAÇÃO | NOCHE DE COPA"
+"f": "2026-10-15",
+"id": "7bNKHtwpU_0",
+"t": "TÊNIS: GUTO MIGUEL X MAXIMO ZEITUNE | ATP CHALLENGER SANTA CRUZ 2 | OITAVAS DE FINAL"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-15",
+"id": "hrAlXOXySic",
+"t": "FLUMINENSE X PALMEIRAS | LIBERTADORES | NARRAÇÃO | NOCHE DE COPA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-15",
+"id": "rOYyBWep6Hg",
+"t": "ATLÉTICO-MG X TORQUE | SUL-AMERICANA | NARRAÇÃO | NOCHE DE COPA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-15",
+"id": "c5J2-ywJ66k",
+"t": "PALMEIRAS VENCE O FLUMINENSE E LARGA NA FRENTE NA SEMIFINAL DA LIBERTADORES | GERAL CAZÉTV"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-15",
+"id": "VzxZtfsRLEo",
+"t": "MELHORES MOMENTOS: FLUMINENSE 1 X 2 PALMEIRAS | SEMIFINAL (IDA) | CONMEBOL LIBERTADORES 2026"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-15",
+"id": "Q-1qXnHDdUw",
+"t": "MELHORES MOMENTOS: ATLÉTICO-MG 3 X 0 TORQUE | SEMIFINAL (IDA) | CONMEBOL SULAMERICANA 2026"
 },
 {
 "c": "CazéTV",
 "f": "2026-10-14",
-"id": "7bNKHtwpU_0",
-"t": "AO VIVO (SOM AMBIENTE): TÊNIS | JÁ JÁ TEM FELIPE MELIGENI NO ATP CHALLENGER SANTA CRUZ DE LA SIERRA"
+"id": "gQ_hIEjOcKs",
+"t": "JOGO COMPLETO: VASCO X BOCA JUNIORS | SUL-AMERICANA | NARRAÇÃO | NOCHE DE COPA"
 },
 {
 "c": "CazéTV",
@@ -59,6 +89,12 @@
 "f": "2026-10-14",
 "id": "5-QZFGdkVMQ",
 "t": "AO VIVO (SOM AMBIENTE): HEARTS X NORDSJAELLAND | CONFERENCE LEAGUE 26/27 | 1ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-14",
+"id": "s3TOs85tWfA",
+"t": "MELHORES MOMENTOS: GUTO MIGUEL 2 X 0 MAXIMO ZEITUNE | ATP CHALLENGER DA BOLÍVIA | OITAVAS DE FINAL"
 },
 {
 "c": "CazéTV",
@@ -611,18 +647,6 @@
 "f": "2026-10-09",
 "id": "EaVa5uzH1Ko",
 "t": "AO VIVO: FLAMENGO X ESTUDIANTES DE LA PLATA | LIBERTADORES | NARRAÇÃO | NOCHE DE COPA"
-},
-{
-"c": "CazéTV",
-"f": "2026-10-09",
-"id": "hrAlXOXySic",
-"t": "AO VIVO: FLUMINENSE X PALMEIRAS | LIBERTADORES | NARRAÇÃO | NOCHE DE COPA"
-},
-{
-"c": "CazéTV",
-"f": "2026-10-09",
-"id": "rOYyBWep6Hg",
-"t": "AO VIVO: ATLÉTICO-MG X TORQUE | SUL-AMERICANA | NARRAÇÃO | NOCHE DE COPA"
 },
 {
 "c": "CazéTV",
@@ -5172,6 +5196,12 @@
 "champions": [
 {
 "c": "UEFA",
+"f": "2026-10-15",
+"id": "SZXmzgE_wrY",
+"t": "Davinson Sanchez pass for Galatasaray!"
+},
+{
+"c": "UEFA",
 "f": "2026-10-14",
 "id": "gDbWwT2XnZc",
 "t": "Can These Champions League Players Win The ULTIMATE Football Quiz?!"
@@ -6164,6 +6194,36 @@
 "eredivisie": [
 {
 "c": "ESPN NL",
+"f": "2026-10-15",
+"id": "-33RX6ekAYQ",
+"t": "We kennen de trainer van N.E.C.-tegenstander Levski Sofia maar al te goed 😅"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-15",
+"id": "5G0cLVSGTBk",
+"t": "🤔 Kan AJAX de CONFERENCE LEAGUE winnen? \"Verdedigend moet het nog wel beter\" | Voetbalpraat"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-15",
+"id": "SEGKDx22LNo",
+"t": "De FEYENOORD-STERREN STAAN OP👏 \"Dat vind ik echt bizar knap\" | Voetbalpraat"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-15",
+"id": "F9yCqzfmjxw",
+"t": "Cesc Fàbregas heeft genoten van Feyenoord, maar in het bijzonder van Anis Hadj Moussa👏"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-15",
+"id": "wzm5Y5fL5Bc",
+"t": "De AS Roma-Malen blijft maar scoren🔥 \"Het lijkt toch een mentaal dingetje bij Oranje\""
+},
+{
+"c": "ESPN NL",
 "f": "2026-10-14",
 "id": "giJwI8BPB1w",
 "t": "⚡ Dé wedstrijd van Ahmed Musa ⚽⚽🅰️"
@@ -6221,6 +6281,18 @@
 "f": "2026-10-14",
 "id": "j4kzMbOHKt0",
 "t": "Julian Brandt wil niet spreken over een favorietenrol in de Conference League ❌"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-14",
+"id": "SL0GSXfsvLA",
+"t": "🙌 LOF voor FEYENOORD na overwinning op COMO: \"Het zit ZO GOED in ELKAAR\" 👏 | Voetbalpraat"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-14",
+"id": "VzLpoGpPVXs",
+"t": "Clarence Seedorf is gepresenteerd bij Corinthians en gaat in op vraag over Memphis 🇧🇷🗣️"
 },
 {
 "c": "ESPN NL",
@@ -10846,6 +10918,18 @@
 },
 {
 "c": "LALIGA EA SPORTS",
+"f": "2026-10-15",
+"id": "azEhuA0aWm0",
+"t": "DIOMANDE y GORDON: compras obligatorias | LALIGA FANTASY SHOW #8"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-15",
+"id": "D9_8hM0xO-w",
+"t": "Velocidad, desborde… ¡Qué jugador es ENDRICK!"
+},
+{
+"c": "LALIGA EA SPORTS",
 "f": "2026-10-14",
 "id": "xtWKnAnnXJY",
 "t": "Así se vio desde la #REFCAM el partido entre Real Madrid y Villarreal"
@@ -14376,6 +14460,24 @@
 "ligue1": [
 {
 "c": "Ligue 1",
+"f": "2026-10-15",
+"id": "MLEQ3_nx9hM",
+"t": "Nianzou x Bakwa 🥶⚡️ #football #ligue1 #sports #footballshorts #foot #soccer #skills #goals #shorts"
+},
+{
+"c": "Ligue 1",
+"f": "2026-10-15",
+"id": "VLQXv3krHKs",
+"t": "« Le Floot », ESSILOR se mobilise à l’occasion de la Journée Mondiale de la Vue"
+},
+{
+"c": "Ligue 1",
+"f": "2026-10-15",
+"id": "WmOQXvspT48",
+"t": "Two referees on the pitch would be different 😂 #football #ligue1 #sports #footballshorts #soccer"
+},
+{
+"c": "Ligue 1",
 "f": "2026-10-14",
 "id": "cxr_4K5y_50",
 "t": "faaaahhh🥀🥀 #football #ligue1 #sports #foot #footballshorts #soccer #skills #goals #ligue1mcdonalds"
@@ -15968,6 +16070,12 @@
 "premier": [
 {
 "c": "Premier League",
+"f": "2026-10-15",
+"id": "y-nW83toqzk",
+"t": "Never In Doubt 😅"
+},
+{
+"c": "Premier League",
 "f": "2026-10-14",
 "id": "dLXbFGr_qAs",
 "t": "Chelsea's New Spanish Star Left-Back?! 🇪🇸⭐️"
@@ -15988,7 +16096,7 @@
 "c": "Premier League",
 "f": "2026-10-14",
 "id": "kIFbjgSzxSI",
-"t": "The Story Behind Leeds and Man Utd's Intense Rivalry"
+"t": "Why Leeds and Man Utd Have An INTENSE Rivalry"
 },
 {
 "c": "Premier League",
@@ -17096,6 +17204,12 @@
 }
 ],
 "seriea": [
+{
+"c": "Serie A",
+"f": "2026-10-15",
+"id": "XL5vfcEh1Lw",
+"t": "BOLOGNA-INTER 3-3 | CLASSIC HIGHLIGHTS SERIE A 2025/26"
+},
 {
 "c": "Serie A",
 "f": "2026-10-14",
