@@ -2013,6 +2013,7 @@ details .cuerpo strong { color: var(--ink); }
       <p class="gr-conclusion" id="reg-texto"></p>
 
       <div id="reg-rendimiento"></div>
+      <div id="reg-mercado" class="oculto"></div>
 
       <h3 style="font-family:var(--serif);font-size:17px;margin:26px 0 6px">
         ¿Cuando decimos «70 %», pasa el 70 % de las veces?</h3>
@@ -7227,7 +7228,7 @@ function etiquetarChipAciertos() {
   const chip = document.querySelector('#filtros .filtro[data-f="historial"]');
   if (!chip) return;
   chip.classList.toggle("oculto", !R.n && !R.pendientes);
-  if (R.n) chip.textContent = `✓ Nuestros aciertos · ${R.pct} %`;
+  if (R.n) chip.textContent = `✓ Nuestros aciertos · ${R.n} comprobados`;
 }
 
 /** Y el contenido, que se monta la primera vez que alguien lo pide. */
@@ -7244,7 +7245,7 @@ function pintarRegistro() {
   // se decide es si el filtro llega a existir: sin nada que contar, sobra.
   const chip = document.getElementById("filtro-historial");
   chip.classList.toggle("oculto", !R.n && !R.pendientes);
-  if (R.n) chip.textContent = `✓ Nuestros aciertos · ${R.pct} %`;
+  if (R.n) chip.textContent = `✓ Nuestros aciertos · ${R.n} comprobados`;
   if (!R.n && !R.pendientes) return;
 
   // Aún no se ha jugado nada de lo apuntado: se explica en qué consiste esto
@@ -7285,21 +7286,63 @@ function pintarRegistro() {
       `en su panorama.`
     : "";
 
+  // Lo primero que se lee no es el porcentaje de acierto. Ese número engaña:
+  // acertar «cuál de tres» en fútbol tiene un techo bajo —el propio modelo
+  // espera un 51 %— y un 54 % se lee como un suspenso cuando no lo es. Lo que
+  // de verdad mide a un pronosticador es si sus porcentajes se cumplen.
+  const mejora = R.rendimiento
+    ? Math.round((1 - R.rendimiento.brier / R.rendimiento.brier_base) * 100) : null;
   document.getElementById("reg-cabecera").innerHTML = [
-    [R.n, "partidos resueltos"],
-    [`${R.pct} %`, "acertados"],
-    [R.aciertos, "aciertos"],
-    [R.n - R.aciertos, "fallos"],
+    [R.desvio_calibracion != null ? `${dec(R.desvio_calibracion, 1)} pts` : "—",
+     "de desvío entre lo que decimos y lo que pasa"],
+    [mejora != null ? `+${mejora} %` : "—", "mejor que pronosticar a ciegas"],
+    [R.n, "partidos comprobados"],
+    [`${dec(R.pct,1)} %`, "acierta cuando señala favorito"],
     [R.pendientes, "por jugarse"],
   ].map(([v, l]) => `<div class="metrica"><span class="metrica-val">${v}</span>
        <span class="metrica-lbl">${l}</span></div>`).join("");
 
   document.getElementById("reg-texto").innerHTML =
-    `Desde el <b>${fechaLarga(R.desde)}</b> se han resuelto <b>${R.n} partidos</b>
-     y el resultado más probable se cumplió en <b>${R.aciertos}</b> de ellos.
-     Conviene leer bien esa cifra: acertar el favorito en un deporte donde el
-     empate es habitual no es lo mismo que acertar siempre, y ningún modelo
-     honesto pasa de cierto punto. Lo que sí se puede exigir es lo de abajo.`;
+    `Desde el <b>${fechaLarga(R.desde)}</b> se han comprobado
+     <b>${R.n} partidos</b>. La cifra que importa es la primera: cuando decimos
+     que algo pasa el 70 % de las veces, pasa el
+     <b>${R.desvio_calibracion != null
+          ? dec(R.desvio_calibracion, 1) + " %" : "—"}</b> arriba o abajo de eso.
+     Eso es lo que distingue a un pronóstico de una corazonada.` +
+    (R.abiertos
+      ? ` En <b>${R.abiertos}</b> partidos no señalamos favorito porque lo más
+          probable era el empate, y decir «empate» no ayuda a nadie: pasa una de
+          cada cuatro veces lo diga quien lo diga. De esos ${R.abiertos},
+          <b>${R.abiertos_empate}</b> acabaron en tablas. Contándolos como
+          fallos, el acierto sería del <b>${dec(R.pct_contando_abiertos,1)} %</b> en
+          lugar del ${dec(R.pct,1)} %; ahí tienes las dos cifras.`
+      : "");
+
+  // Frente al mercado. Es la comparación que de verdad dice si esto sirve:
+  // las casas de apuestas incorporan lesiones, alineaciones y el dinero de
+  // miles de personas. Igualarlas ya es mucho; superarlas, lo que se busca.
+  const fm = (R.rendimiento || {}).frente_al_mercado;
+  const cajaM = document.getElementById("reg-mercado");
+  if (cajaM) {
+    cajaM.classList.toggle("oculto", !fm);
+    if (fm) {
+      const gana = fm.ventaja > 0;
+      cajaM.innerHTML =
+        `<h3 style="font-family:var(--serif);font-size:17px;margin:26px 0 6px">
+           ¿Y comparado con las casas de apuestas?</h3>
+         <p class="sub">Sobre los <b>${fm.n} partidos</b> en los que tenemos
+           las dos cosas, nuestro error medio es <b>${dec(fm.nuestro, 4)}</b> y
+           el que sale de sus cuotas, <b>${dec(fm.mercado, 4)}</b>.
+           ${gana
+             ? `Vamos <b class="mejor">un ${dec(Math.abs(fm.ventaja), 1)} % por
+                delante</b>. Conviene no entusiasmarse: con pocos partidos esa
+                diferencia se mueve mucho.`
+             : `Vamos <b>un ${dec(Math.abs(fm.ventaja), 1)} % por detrás</b>.
+                Es lo normal: ellos ven lesiones y alineaciones que nosotros no,
+                y mueven sus cuotas con el dinero de miles de personas.`}
+           Cuanto más bajo el error, mejor.</p>`;
+    }
+  }
 
   pintarRendimiento(R.rendimiento, R);
 

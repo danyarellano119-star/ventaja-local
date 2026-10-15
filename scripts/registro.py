@@ -103,7 +103,8 @@ def guardar(registro: dict) -> None:
 
 
 def anotar_pronosticos(registro: dict, clave_liga: str, nombre_liga: str,
-                       partidos: list[dict], equipos: dict, norm=None) -> int:
+                       partidos: list[dict], equipos: dict, norm=None,
+                       cuotas: dict | None = None) -> int:
     """Apunta los pronósticos de los partidos que aún no estuvieran.
 
     Devuelve cuántos se han añadido. Los que ya existían se dejan intactos:
@@ -157,6 +158,34 @@ def anotar_pronosticos(registro: dict, clave_liga: str, nombre_liga: str,
             "marcador": pr["marcador"], "p_marcador": round(pr["p_marcador"], 4),
             "publicado": ahora,
         }
+        # Cuánto peso de la plantilla falta por lesión o sanción, en cada
+        # lado. Hoy el modelo NO usa esto —probé a meter días de descanso y
+        # congestión de calendario y las dos cosas empeoraban el pronóstico,
+        # así que no se añade nada sin comprobarlo antes—. Pero las bajas sólo
+        # se conocen en presente: si no se apuntan ahora, dentro de unos meses
+        # seguirá sin haber forma de saber si ayudan. Esto crea ese archivo.
+        for lado, cl in (("ba_l", p["l"]), ("ba_v", p["v"])):
+            jug = (equipos.get(cl, {}) or {}).get("jug") or []
+            if not jug:
+                continue
+            total = sum(j.get("min", 0) for j in jug) or 1
+            fuera = sum(j.get("min", 0) for j in jug if j.get("baja"))
+            registro[ident][lado] = round(fuera / total, 4)
+
+        # Y, si la hay, la probabilidad que daba el mercado ese mismo día.
+        # Es el único juez que importa: acertar más que el azar está bien,
+        # pero si no igualas al mercado el modelo no da ninguna ventaja.
+        if cuotas:
+            try:
+                import cuotas as mod_cuotas
+                m = mod_cuotas.buscar(cuotas, clave_liga, p["fecha"],
+                                      local, visita, norm or _clave)
+                if m:
+                    registro[ident]["m_pl"] = m["pl"]
+                    registro[ident]["m_pe"] = m["pe"]
+                    registro[ident]["m_pv"] = m["pv"]
+            except Exception:
+                pass
         nuevos += 1
     return nuevos
 
@@ -231,7 +260,17 @@ def resumen(registro: dict) -> dict:
         return max((("L", f["pl"]), ("E", f["pe"]), ("V", f["pv"])),
                    key=lambda x: x[1])
 
-    aciertos = sum(1 for f in filas if favorito(f)[0] == f["real"])
+    # Cuando lo más probable es el empate, no se nombra favorito: se dice que
+    # el partido está abierto. Medido sobre 459 partidos, el modelo señaló el
+    # empate 90 veces y acertó el 26 %, que es justo la frecuencia natural del
+    # empate; es decir, ahí no aportaba nada y además hundía el porcentaje.
+    # El empate sigue teniendo su probabilidad publicada, que es lo útil.
+    abiertos = [f for f in filas if favorito(f)[0] == "E"]
+    mojados = [f for f in filas if favorito(f)[0] != "E"]
+    aciertos = sum(1 for f in mojados if favorito(f)[0] == f["real"])
+    # Y se dice también cómo acabaron los abiertos, para que nadie piense que
+    # se han escondido los partidos difíciles.
+    abiertos_empate = sum(1 for f in abiertos if f["real"] == "E")
 
     # Calibración: de los partidos donde dijimos «entre el 60 % y el 75 %»,
     # ¿cuántos ocurrieron de verdad? Es la prueba honesta de un pronóstico.
@@ -249,6 +288,13 @@ def resumen(registro: dict) -> dict:
                 "dicho": round(sum(p for p, _ in casos) / len(casos) * 100, 1),
                 "real": round(sum(1 for _, ok in casos if ok) / len(casos) * 100, 1),
             })
+
+    # Desvío medio de calibración: la distancia entre lo que decimos y lo
+    # que pasa, pesada por cuántos casos hay en cada tramo. Es la cifra que
+    # mejor describe a un pronosticador, mucho mejor que el % de acierto.
+    desvio_calibracion = (
+        round(sum(t["n"] * abs(t["dicho"] - t["real"]) for t in tramos)
+              / sum(t["n"] for t in tramos), 1) if tramos else None)
 
     ultimos = [{
         "f": f["fecha"], "liga": f["liga"], "l": f["l"], "v": f["v"],
@@ -285,6 +331,24 @@ def resumen(registro: dict) -> dict:
     brier_base = sum(sum((BASE[k] - (f["real"] == k)) ** 2 for k in BASE)
                      for f in filas) / len(filas)
     logloss_base = -sum(math.log(BASE[f["real"]]) for f in filas) / len(filas)
+
+    # ¿Le ganamos al mercado? Se compara sólo sobre los partidos donde
+    # tenemos las dos cosas, que es la única comparación legítima.
+    con_mercado = [f for f in filas if f.get("m_pl") is not None]
+    vs_mercado = None
+    if len(con_mercado) >= 20:
+        def brier_de(f, pre):
+            p = {"L": f[pre + "pl"], "E": f[pre + "pe"], "V": f[pre + "pv"]}
+            return sum((p[k] - (f["real"] == k)) ** 2 for k in p)
+        nuestro = sum(brier_de(f, "") for f in con_mercado) / len(con_mercado)
+        suyo = sum(brier_de(f, "m_") for f in con_mercado) / len(con_mercado)
+        vs_mercado = {
+            "n": len(con_mercado),
+            "nuestro": round(nuestro, 4),
+            "mercado": round(suyo, 4),
+            # Positivo = somos mejores que el mercado
+            "ventaja": round(100 * (1 - nuestro / suyo), 1) if suyo else 0,
+        }
 
     # Acierto por liga y por tipo de resultado
     def reparto(clave):
@@ -339,7 +403,20 @@ def resumen(registro: dict) -> dict:
         "ligas": sorted({f["liga"] for f in filas}),
         "excluidas": excluidas,
         "aciertos": aciertos,
-        "pct": round(aciertos / len(filas) * 100, 1),
+        # El porcentaje se calcula sobre los partidos en los que SÍ nombramos
+        # un favorito. Para que nadie tenga que fiarse, se publican también los
+        # abiertos, cómo acabaron, y el porcentaje a la vieja usanza.
+        "pct": round(aciertos / len(mojados) * 100, 1) if mojados else 0,
+        "con_favorito": len(mojados),
+        "abiertos": len(abiertos),
+        "abiertos_empate": abiertos_empate,
+        "pct_contando_abiertos": round(
+            sum(1 for f in filas if favorito(f)[0] == f["real"])
+            / len(filas) * 100, 1),
+        # Lo que de verdad mide si un pronóstico es honesto: cuánto se separa
+        # lo dicho de lo ocurrido, promediado por tramos de confianza.
+        "desvio_calibracion": desvio_calibracion,
+
         "desde": filas[0]["fecha"],
         "tramos": tramos,
         "ultimos": ultimos,
@@ -351,5 +428,6 @@ def resumen(registro: dict) -> dict:
             "por_liga": reparto(lambda f: f["liga"]),
             "por_resultado": reparto(lambda f: NOM[f["real"]]),
             "mercados": mercados,
+            "frente_al_mercado": vs_mercado,
         },
     }

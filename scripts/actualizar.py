@@ -41,6 +41,7 @@ import ligas_goles as mod_goles
 import football_data as mod_fd
 import videos as mod_videos
 import portada_social
+import cuotas as mod_cuotas
 import registro as mod_registro
 import estadios as mod_estadios
 
@@ -1025,6 +1026,11 @@ def main() -> None:
     # Las claves del archivo se recalculan con el normalizador de ahora. Sin
     # esto, cada mejora del emparejado de nombres partía el historial en dos.
     reg, movidas = mod_registro.migrar(reg, normalizar)
+    # Cuotas del mercado, si hay clave. Sin ella esto devuelve lo guardado y
+    # no se pide nada: la web funciona igual, sólo que sin la comparación.
+    cuotas_mercado = mod_cuotas.recoger()
+    if mod_cuotas.disponible():
+        print(f"    cuotas del mercado: {sum(len(v) for v in cuotas_mercado.values())} partidos")
     if movidas:
         print(f"    {movidas} fichas del registro reetiquetadas con la clave nueva")
     reg_nuevos = reg_resueltos = 0
@@ -1228,7 +1234,8 @@ def main() -> None:
             mu = math.exp(ev["atq"] - el["def"])
             pw["prob"] = mercados(lam, mu, RHO)
         reg_nuevos += mod_registro.anotar_pronosticos(
-            reg, clave, nombre, partidos_web, equipos, normalizar)
+            reg, clave, nombre, partidos_web, equipos, normalizar,
+            cuotas_mercado)
         reg_resueltos += mod_registro.resolver(reg, clave, p_act, normalizar, mismo_equipo)
         for pw in partidos_web:
             pw.pop("prob", None)      # sólo hacía falta para el registro
@@ -1347,7 +1354,8 @@ def main() -> None:
             mu = math.exp(ev["atq"] - el["def"])
             pw["prob"] = mercados(lam, mu, RHO)
         reg_nuevos += mod_registro.anotar_pronosticos(
-            reg, clave, nombre, partidos_web, equipos, normalizar)
+            reg, clave, nombre, partidos_web, equipos, normalizar,
+            cuotas_mercado)
         reg_resueltos += mod_registro.resolver(reg, clave, p_act, normalizar, mismo_equipo)
         for pw in partidos_web:
             pw.pop("prob", None)
@@ -1496,7 +1504,8 @@ def main() -> None:
                 mu = math.exp(ev["atq"] - el["def"])
                 pw["prob"] = mercados(lam, mu, RHO)
             reg_nuevos += mod_registro.anotar_pronosticos(
-                reg, clave, info["nombre"], partidos_web, equipos, normalizar)
+                reg, clave, info["nombre"], partidos_web, equipos, normalizar,
+                cuotas_mercado)
             reg_resueltos += mod_registro.resolver(
                 reg, clave, referencia or partidos, normalizar, mismo_equipo)
             for pw in partidos_web:
