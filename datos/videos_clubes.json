@@ -1218,6 +1218,18 @@
 },
 {
 "c": "Atalanta Bergamasca Calcio",
+"f": "2026-10-15",
+"id": "IsEYvsW9BE4",
+"t": "Sarri: \"Abbiamo fatto una buona partita\" | Atalanta-Pafos 3-1 | UECL MD1 League Phase -EN SUBs"
+},
+{
+"c": "Atalanta Bergamasca Calcio",
+"f": "2026-10-15",
+"id": "xFowEzrikyQ",
+"t": "Le interviste a Zalewski, Scamacca e Bernasconi | Atalanta-Pafos 3-1 | UECL MD1 League Phase-EN SUB"
+},
+{
+"c": "Atalanta Bergamasca Calcio",
 "f": "2026-10-14",
 "id": "0F4o_EBtWvU",
 "t": "Atalanta-Pafos | L'allenamento della vigilia | UECL League Phase MD1"
@@ -1437,18 +1449,6 @@
 "f": "2026-09-19",
 "id": "sqfnPpqXCQ0",
 "t": "Juventus-Atalanta | La conferenza stampa di Maurizio Sarri 📹🎙️ | MD5 Serie A Enilive 2026/27"
-},
-{
-"c": "Atalanta Bergamasca Calcio",
-"f": "2026-09-19",
-"id": "0c-oMVN86oA",
-"t": "🔴 LIVE 🔴 | La conferenza stampa di mister Sarri alla vigilia di Juventus-Atalanta"
-},
-{
-"c": "Atalanta Bergamasca Calcio",
-"f": "2026-09-17",
-"id": "fI_r1DVfUUM",
-"t": "Un GOTM al fotofinish 📸⏱️ Powered by Snai Sport"
 }
 ],
 "Athletico Paranaense": [
@@ -2422,15 +2422,15 @@
 "Burnley": [
 {
 "c": "Burnley Football Club",
-"f": "2026-10-15",
-"id": "Yn_dMK9A1_w",
-"t": "Jaguars 🆚 Texans, we ask the players who they think will win 🔜 #burnleyfc #nfl #efl #jaguars #texans"
+"f": "2026-10-16",
+"id": "3f67gdWiWcA",
+"t": "Nicky Hayen's Wolves Press Conference | PRESS | Burnley v Wolves"
 },
 {
 "c": "Burnley Football Club",
 "f": "2026-10-15",
-"id": "3f67gdWiWcA",
-"t": "Nicky Hayen's Wolves Press Conference | PRESS | Burnley v Wolves"
+"id": "Yn_dMK9A1_w",
+"t": "Jaguars 🆚 Texans, we ask the players who they think will win 🔜 #burnleyfc #nfl #efl #jaguars #texans"
 },
 {
 "c": "Burnley Football Club",
@@ -5326,6 +5326,42 @@
 "Flamengo": [
 {
 "c": "Flamengo TV",
+"f": "2026-10-16",
+"id": "FfJ7BMxJlmU",
+"t": "🔴 AO VIVO: FINAL DO CAMPEONATO CARIOCA DE BASQUETE - FLAMENGO x FLUMINENSE | 15/10/26"
+},
+{
+"c": "Flamengo TV",
+"f": "2026-10-16",
+"id": "kPtsS-7Zslk",
+"t": "🔴 AO VIVO: ESTUDIANTES x FLAMENGO | PRÉ-JOGO + NARRAÇÃO | CONMEBOL LIBERTADORES (15/09/26)"
+},
+{
+"c": "Flamengo TV",
+"f": "2026-10-16",
+"id": "7tk_qaeYBHY",
+"t": "🔴 AO VIVO: TREINO DO FLAMENGO DIRETO DO NINHO | 16/10/26"
+},
+{
+"c": "Flamengo TV",
+"f": "2026-10-16",
+"id": "uPE2Dmf3scI",
+"t": "LEONARDO JARDIM | COLETIVA PÓS-JOGO | ESTUDIANTES 0 X 0 FLAMENGO | LIBERTADORES (15/10/26)"
+},
+{
+"c": "Flamengo TV",
+"f": "2026-10-16",
+"id": "sUu4G1ggkv0",
+"t": "50x #FlaBasquete 🏆🏀"
+},
+{
+"c": "Flamengo TV",
+"f": "2026-10-16",
+"id": "5J89CMnsUVQ",
+"t": "O Mengão chegou! 😤"
+},
+{
+"c": "Flamengo TV",
 "f": "2026-10-15",
 "id": "tGA59pnlQY8",
 "t": "Chegou o Comigo Mengão, o Crédito Consignado CLT da Nação."
@@ -5405,12 +5441,6 @@
 {
 "c": "Flamengo TV",
 "f": "2026-10-14",
-"id": "FfJ7BMxJlmU",
-"t": "🔴 AO VIVO: FINAL DO CAMPEONATO CARIOCA DE BASQUETE - FLAMENGO x FLUMINENSE | 15/10/26"
-},
-{
-"c": "Flamengo TV",
-"f": "2026-10-14",
 "id": "hGN2vyiqVSk",
 "t": "ESTUDIANTES x FLAMENGO: FRAGILIDADES E FORÇAS DO RIVAL NA SEMIFINAL DA LIBERTADORES | EXPOSED TÁTICO"
 },
@@ -5443,12 +5473,6 @@
 "f": "2026-10-13",
 "id": "biES6WZjIRg",
 "t": "🔴AO VIVO: CAMPEONATO CARIOCA DE VÔLEI FEMININO - FINAL | FLUMINENSE x SESC FLAMENGO | 13/10/26"
-},
-{
-"c": "Flamengo TV",
-"f": "2026-10-13",
-"id": "kPtsS-7Zslk",
-"t": "🔴 AO VIVO: ESTUDIANTES x FLAMENGO | PRÉ-JOGO + NARRAÇÃO | CONMEBOL LIBERTADORES (15/09/26)"
 },
 {
 "c": "Flamengo TV",
@@ -5539,30 +5563,6 @@
 "f": "2026-10-11",
 "id": "5JD3f6p8RpM",
 "t": "🔴 EN VIVO: FLAMENGO x FLUMINENSE | NARRACIÓN EN ESPAÑOL Y CON IMÁGENES | BRASILEIRÃO (11/10/26)"
-},
-{
-"c": "Flamengo TV",
-"f": "2026-10-11",
-"id": "b462y83XAps",
-"t": "De Paquetá para Carrascal: +3 pontos pro Mengão!"
-},
-{
-"c": "Flamengo TV",
-"f": "2026-10-11",
-"id": "rgA0k5UwasY",
-"t": "Orgulho do professor! 😁"
-},
-{
-"c": "Flamengo TV",
-"f": "2026-10-11",
-"id": "8kDSpdhHUe8",
-"t": "CLÁSSICO EM CASA + 3 CARRASCA! 🇨🇴"
-},
-{
-"c": "Flamengo TV",
-"f": "2026-10-11",
-"id": "9a-OWxXmUVw",
-"t": "Segue quem? 😎 Vem comemorar com o ADM! ♥️🖤"
 }
 ],
 "Fluminense": [
@@ -5577,6 +5577,12 @@
 "f": "2026-10-15",
 "id": "aRUEWGIkcAM",
 "t": "COLETIVA MARCÃO | FLUMINENSE 1 x 2 PALMEIRAS | CONMEBOL LIBERTADORES 2026"
+},
+{
+"c": "Fluminense Football Club",
+"f": "2026-10-15",
+"id": "_HRkIbAJRv8",
+"t": "FLUMINENSE TREINA NESSA QUINTA-FEIRA NO CT CARLOS CASTILHO"
 },
 {
 "c": "Fluminense Football Club",
@@ -5799,12 +5805,6 @@
 "f": "2026-09-25",
 "id": "GNG5OxCeQH4",
 "t": "ABRINDO O JOGO - TREINADOR SAULO SILVA"
-},
-{
-"c": "Fluminense Football Club",
-"f": "2026-09-24",
-"id": "2PiW1fQXZFg",
-"t": "CHUVA, FRIO E TREINO! CONFIRA AS IMAGENS DO TREINAMENTO DO FLUMINENSE NESTA QUARTA-FEIRA!"
 }
 ],
 "Fulham": [
@@ -6778,6 +6778,12 @@
 "Inter": [
 {
 "c": "Inter",
+"f": "2026-10-16",
+"id": "G-zhd6iMGpA",
+"t": "EP. 39 | Giovanni - Il cambio"
+},
+{
+"c": "Inter",
 "f": "2026-10-15",
 "id": "3s1A7mC-odw",
 "t": "Rewinding to Stones' first day as a Nerazzurro 🖤💙🏴󠁧󠁢󠁥󠁮󠁧󠁿"
@@ -7009,12 +7015,6 @@
 "f": "2026-10-11",
 "id": "7laBB53qHCs",
 "t": "Tikus Mania 🤪"
-},
-{
-"c": "Inter",
-"f": "2026-10-11",
-"id": "peSLFpGeNow",
-"t": "ICEMAN IS BACK 🧊🥶"
 }
 ],
 "Ipswich Town": [
@@ -7262,6 +7262,12 @@
 "Juventus": [
 {
 "c": "Juventus",
+"f": "2026-10-16",
+"id": "KYWvpMym8Vk",
+"t": "WOLTEMADE SPARKS THE COMEBACK VS CELTA VIGO! 💥"
+},
+{
+"c": "Juventus",
 "f": "2026-10-15",
 "id": "-ee6XtMyGYs",
 "t": "WHAT A BICYCLE KICK FROM GATTI!"
@@ -7493,12 +7499,6 @@
 "f": "2026-10-10",
 "id": "_6btELO0ErA",
 "t": "TOO MUCH SKILL FROM DAVIDS 🤯"
-},
-{
-"c": "Juventus",
-"f": "2026-10-10",
-"id": "vfBz3DcnX3U",
-"t": "THAT BACKHEEL FROM MARCHISIO 👀"
 }
 ],
 "Leeds United": [
@@ -7958,6 +7958,18 @@
 "Liverpool": [
 {
 "c": "Liverpool FC",
+"f": "2026-10-16",
+"id": "m9vPosmtdxU",
+"t": "Rio Ngumoha 😮‍💨"
+},
+{
+"c": "Liverpool FC",
+"f": "2026-10-16",
+"id": "Y88DrgvFSMQ",
+"t": "Frimpong at the back post 😄⚽️"
+},
+{
+"c": "Liverpool FC",
 "f": "2026-10-15",
 "id": "iPRUSWOZK-o",
 "t": "Highlights: LASK 2-4 Liverpool U19s | Will Wright Hat-Trick! | UEFA Youth League"
@@ -8183,18 +8195,6 @@
 "f": "2026-10-05",
 "id": "dkTx-9-W_gA",
 "t": "James Milner 🥶"
-},
-{
-"c": "Liverpool FC",
-"f": "2026-10-05",
-"id": "tnoTgtw8KDs",
-"t": "Man City 2-3 Liverpool 👊⚽️"
-},
-{
-"c": "Liverpool FC",
-"f": "2026-10-03",
-"id": "r13Y3l0HGqU",
-"t": "The BEST Liverpool free-kicks! Suarez, Coutinho, Gerrard!"
 }
 ],
 "Metz": [
@@ -9020,6 +9020,42 @@
 "Palmeiras": [
 {
 "c": "TV Palmeiras Sportingbet",
+"f": "2026-10-16",
+"id": "uTn3f0Zk-2o",
+"t": "JOGO COMPLETO | UNIVERSITARIO-PER 0 X 1 PALMEIRAS | CONMEBOL LIBERTADORES FEMININA"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-10-16",
+"id": "JXHknSOq6ec",
+"t": "MEU ELENCO VIBROU COM O GOL DE MARLON FREITAS! 🐽💚"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-10-16",
+"id": "yNaMF5E1xUw",
+"t": "LÍDER NATO, MARLON FREITAS! ⚽💚"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-10-16",
+"id": "WQqzrZr4wkQ",
+"t": "CAPITÃO 🫡🇵🇾"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-10-16",
+"id": "gwo6B8Xpvao",
+"t": "NO AR! OS BASTIDORES DO JOGO DE IDA DA SEMIFINAL DA CONMEBOL LIBERTADORES 🐷💚"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-10-16",
+"id": "xMXdZanc2wo",
+"t": "BASTIDORES | FALTAM 90 MINUTOS | FLUMINENSE X PALMEIRAS | CONMEBOL LIBERTADORES 2026"
+},
+{
+"c": "TV Palmeiras Sportingbet",
 "f": "2026-10-15",
 "id": "nvDkixn05tI",
 "t": "COLETIVA VITOR CASTANHEIRA | FLUMINENSE x PALMEIRAS | CONMEBOL LIBERTADORES 2026"
@@ -9089,6 +9125,18 @@
 "f": "2026-10-15",
 "id": "CQtJ1mJLGLg",
 "t": "A FALA DO PROFESSOR ANTES DO DERBY!"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-10-15",
+"id": "hG-oFY-nZsw",
+"t": "QUE CHUTE DO FELIPE ANDERSON! 🚀🚀"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-10-15",
+"id": "efgJKrnen9c",
+"t": "TREINO DE HOJE DO VERDÃO 💪🐷"
 },
 {
 "c": "TV Palmeiras Sportingbet",
@@ -9209,54 +9257,6 @@
 "f": "2026-10-12",
 "id": "_1N-is0V0Fc",
 "t": "AGUSTÍN GIAY: O NOME DO JOGO! ¡VAMOS, HERMANO! 💚💪"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-10-12",
-"id": "2XKlvuIiR-A",
-"t": "A ALEGRIA DO GRUPO E DE QUEM SABE QUE DECIDIU O CLÁSSICO! 😁💚"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-10-12",
-"id": "6QYosKpBirs",
-"t": "É ESSE O SENTIMENTO, #FAMÍLIAPALMEIRAS! 💚🐷"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-10-12",
-"id": "LrRoQveFDdk",
-"t": "VITÓRIA NO DERBY! 💪🔥💚"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-10-12",
-"id": "wDaidx-WQSI",
-"t": "SE O PIQUE FALOU, TÁ FALADO! ✍️ PRIMEIRO GOL DO MEU ZAGUEIRO"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-10-12",
-"id": "KYsjFjeME_g",
-"t": "PRA CIMA, MEU 8️⃣! MAIS UMA VITÓRIA EM CLÁSSICO PRA CONTA!"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-10-12",
-"id": "M1jvC7ThURA",
-"t": "GOLEADA NO DERBY 400! OS GOLS DE PALMEIRAS 4X1 CORINTHIANS ⚽💚"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-10-12",
-"id": "qWoxVCHAs3o",
-"t": "AUMENTA O VOLUME 🔊⚽💚"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-10-12",
-"id": "bBTDg95kn2I",
-"t": "PATERNIDADE CONFIRMADA! ✅🐷💚"
 }
 ],
 "Paris FC": [
@@ -10244,6 +10244,12 @@
 "SC Paderborn 07": [
 {
 "c": "SC Paderborn 07 TV (official)",
+"f": "2026-10-16",
+"id": "sgoLc8fpbUU",
+"t": "Pressekonferenz vor dem Auswärtsspiel bei Werder Bremen"
+},
+{
+"c": "SC Paderborn 07 TV (official)",
 "f": "2026-10-15",
 "id": "nSbOuuBarGQ",
 "t": "Mittendrin bei unserer USA-Reise 🇺🇸 | INSIDE SPORTCLUB #03"
@@ -10265,12 +10271,6 @@
 "f": "2026-10-14",
 "id": "-OwctuQwIRo",
 "t": "\"Aus Fehlern lernen und Positives mitnehmen!\"| Gabriel Vidović vor der Partie bei Werder Bremen"
-},
-{
-"c": "SC Paderborn 07 TV (official)",
-"f": "2026-10-14",
-"id": "sgoLc8fpbUU",
-"t": "Pressekonferenz vor dem Auswärtsspiel bei Werder Bremen"
 },
 {
 "c": "SC Paderborn 07 TV (official)",
