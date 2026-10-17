@@ -2,6 +2,66 @@
 "brasileirao": [
 {
 "c": "CazéTV",
+"f": "2026-10-17",
+"id": "8H3FQsudhmQ",
+"t": "ZVEREV NO TOPO DO RANKING E JODAR DÁ O QUE FALAR! | QUADRA ABERTA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-17",
+"id": "oQMTpEPpa3s",
+"t": "TÊNIS | THIAGO WILD X NICOLAS KICKER | ATP CHALLENGER SANTA CRUZ 2 | QUARTAS DE FINAL"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-17",
+"id": "lTh_EOLyvgQ",
+"t": "JOGO COMPLETO: LE MANS X TOULOUSE | LIGUE 1 26/27 | 7ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-17",
+"id": "1b9WT9yju1U",
+"t": "MELHORES MOMENTOS: CRUZEIRO 2 X 0 LDU | LIBERTADORES FEMININA 2026 | 1ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-17",
+"id": "fzm-CawcBQc",
+"t": "JOGO COMPLETO: CAZÉTV X SINTONIA ESPORTIVA | COPA ACERJ 2026 | FINAL"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-17",
+"id": "oDqCMrfmuJ8",
+"t": "MELHORES MOMENTOS: CAZÉTV FC 5 X 3 SINTONIA ESPORTIVA | FINAL | COPA ACERJ 2026"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-17",
+"id": "p19LrCSs7hk",
+"t": "JOGO COMPLETO: CRUZEIRO X LDU | LIBERTADORES FEMININA 2026 | 1ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-17",
+"id": "KN1EO0C2F10",
+"t": "MELHORES MOMENTOS: MIRASSOL 2 X 0 INTERNACIONAL | BRASILEIRÃO 2026 | 31ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-17",
+"id": "sd6fCIqADmA",
+"t": "DENILSON ENTORTANDO OS ESPANHÓIS NA LALIGA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-17",
+"id": "f8BtR8s-DS4",
+"t": "MELHORES MOMENTOS: THIAGO WILD 2 X 0 NICOLÁS KICKER | ATP CHALLENGER DA BOLÍVIA | QUARTAS DE FINAL"
+},
+{
+"c": "CazéTV",
 "f": "2026-10-16",
 "id": "XmnnrUIBZ-s",
 "t": "MELHORES MOMENTOS: THIAGO WILD 2 X 0 CARLOS ZARATE | ATP CHALLENGER DA BOLÍVIA | OITAVAS DE FINAL"
@@ -76,7 +136,7 @@
 "c": "CazéTV",
 "f": "2026-10-16",
 "id": "avgLKu3gc0g",
-"t": "AO VIVO: FINAL DA COPA ACERJ, VOLTA DE RAPHINHA E IGOR E ISA DIRETO DE SEVILLA | QUEM FEZ, FEZ"
+"t": "FINAL DA COPA ACERJ, VOLTA DE RAPHINHA E IGOR E ISA DIRETO DE SEVILLA | QUEM FEZ, FEZ"
 },
 {
 "c": "CazéTV",
@@ -93,8 +153,14 @@
 {
 "c": "CazéTV",
 "f": "2026-10-16",
-"id": "8H3FQsudhmQ",
-"t": "AO VIVO: ZVEREV NO TOPO DO RANKING E JODAR DÁ O QUE FALAR! | QUADRA ABERTA"
+"id": "lAe0tG4nsBM",
+"t": "MELHORES MOMENTOS: GUTO MIGUEL 0 X 2 HUGO DELLIEN | ATP CHALLENGER DA BOLÍVIA | QUARTAS DE FINAL"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-16",
+"id": "CTj0xQNe7Hg",
+"t": "672 GOLS DE MESSI PELO BARCELONA. É SURREAL!"
 },
 {
 "c": "CazéTV",
@@ -329,12 +395,6 @@
 "f": "2026-10-14",
 "id": "s3TOs85tWfA",
 "t": "MELHORES MOMENTOS: GUTO MIGUEL 2 X 0 MAXIMO ZEITUNE | ATP CHALLENGER DA BOLÍVIA | OITAVAS DE FINAL"
-},
-{
-"c": "CazéTV",
-"f": "2026-10-14",
-"id": "oQMTpEPpa3s",
-"t": "AO VIVO: TÊNIS | GUTO MIGUEL X HUGO DELLIEN | ATP CHALLENGER SANTA CRUZ 2 | QUARTAS DE FINAL"
 },
 {
 "c": "CazéTV",
@@ -1031,12 +1091,6 @@
 "f": "2026-10-06",
 "id": "5xrJVU_erEE",
 "t": "474 VEZES MESSI! VEJA TODOS OS GOLS DE LIONEL MESSI PELO BARCELONA NA LALIGA"
-},
-{
-"c": "CazéTV",
-"f": "2026-10-06",
-"id": "lTh_EOLyvgQ",
-"t": "AO VIVO: FINAL DA COPA ACERJ, VOLTA DE RAPHINHA E IGOR E ISA DIRETO DE SEVILLA | QUEM FEZ, FEZ"
 },
 {
 "c": "CazéTV",
@@ -4054,6 +4108,12 @@
 "bundesliga": [
 {
 "c": "Bundesliga",
+"f": "2026-10-17",
+"id": "4XF0Niw_PeQ",
+"t": "Who'll win the 3,2,1 Challenge? 🏆"
+},
+{
+"c": "Bundesliga",
 "f": "2026-10-16",
 "id": "G-7S3k3pJ1Q",
 "t": "Can you guess which Borussia Dortmund player this is? 🧐"
@@ -4159,6 +4219,12 @@
 "f": "2026-10-13",
 "id": "AA4bNbRulT8",
 "t": "LIVE 🔴 1. FC Kaiserslautern vs. VfL Bochum 1848 | Matchday 8 - Bundesliga 2 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-10-13",
+"id": "q8di-GTcSyk",
+"t": "LIVE 🔴 VfL Wolfsburg vs. 1. FC Heidenheim 1846 | Matchday 8 - Bundesliga 2 2026/27"
 },
 {
 "c": "Bundesliga",
@@ -5496,6 +5562,18 @@
 "champions": [
 {
 "c": "UEFA",
+"f": "2026-10-17",
+"id": "lFoIKtR9VJI",
+"t": "Volnei Feltes wins Goal of the Day!"
+},
+{
+"c": "UEFA",
+"f": "2026-10-17",
+"id": "Pnt020h758E",
+"t": "Doué, Timber, Vitinha ⚽️ POV: Champions League matchday 2"
+},
+{
+"c": "UEFA",
 "f": "2026-10-16",
 "id": "RNtUCQGxvJg",
 "t": "Wait until the end for the fan reaction 🤣"
@@ -6536,6 +6614,30 @@
 "eredivisie": [
 {
 "c": "ESPN NL",
+"f": "2026-10-17",
+"id": "rLDmep6O7jk",
+"t": "ADO Den Haag 🆚 PSV in 2015: “Hansen met de hak”😱💥"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-17",
+"id": "78HAadr7myE",
+"t": "Geen zomertransfer voor Youri Baas, maar 'gewoon' basisspeler bij Ajax 🛫❌"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-17",
+"id": "R1S84a0TJ6Y",
+"t": "💪 YOURI BAAS houdt VERTROUWEN ondanks MINDERE FASE \"We moeten dicht bij onszelf blijven\" | Interview"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-17",
+"id": "0qw4CSEfMhs",
+"t": "Van BALLET naar AJAX: Lina TOUZANI over haar vader en en 'oom' SOUFIANE | Portret"
+},
+{
+"c": "ESPN NL",
 "f": "2026-10-16",
 "id": "KOtLaxVho7I",
 "t": "🫣 Dweilen met de kraan open voor AJAX: \"HEMELTERGEND SLECHT\" | Voetbalpraat"
@@ -6629,6 +6731,42 @@
 "f": "2026-10-16",
 "id": "MUCp8KKn21I",
 "t": "🎹♫ 'Jeremiah op de Piano' brengt binnenkort misschien muziek uit 👀"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-16",
+"id": "ECfxzA_fQU4",
+"t": "Ironie in Helmond: \"Die wedstrijd is saai man!\" 🥱 Nog geen minuut later: goal NAC ⚽🙃"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-16",
+"id": "pLPE_wUIh4U",
+"t": "BLOEDVORM: Brym scoort voor het VIJFDE DUEL OP RIJ ✋︎ | Samenvatting Helmond Sport - NAC Breda"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-16",
+"id": "jd6rdisE8LU",
+"t": "Bal achter het standbeen ➜ voorzet buitenkant voet ➜ GOAL 🥵 | Samenvatting FC Den Bosch - TOP Oss"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-16",
+"id": "vJjSSk_MVCY",
+"t": "OPLUCHTING bij DYLAN VENTE & een POEIER van Oliver Braude 💥 | Samenvatting sc Heerenveen - Excelsior"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-16",
+"id": "J1s6oQDnyO0",
+"t": "Bannis JAAGT de VRIJE TRAP heerlijk in de KRUISING 🎯 | Samenvatting FC Eindhoven - Vitesse"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-16",
+"id": "r1wCIBSbhtw",
+"t": "𝙊𝙉𝙂𝙀𝙆𝙀𝙉𝘿 𝙎𝙋𝙀𝙆𝙏𝘼𝙆𝙀𝙇 IN DE KOEL MET 8️⃣ GOALS 🍿 | Samenvatting VVV-Venlo - Jong AZ"
 },
 {
 "c": "ESPN NL",
@@ -11440,6 +11578,12 @@
 "laliga": [
 {
 "c": "LALIGA EA SPORTS",
+"f": "2026-10-17",
+"id": "_kd0aFDxB_s",
+"t": "Messi vs Betis 😱✨"
+},
+{
+"c": "LALIGA EA SPORTS",
 "f": "2026-10-16",
 "id": "JgOm_jWNpPQ",
 "t": "Roberto Fernández ✨"
@@ -11503,6 +11647,12 @@
 "f": "2026-10-16",
 "id": "mNXRxGowrJw",
 "t": "🔴 RC DEPORTIVO vs LEVANTE UD - PREVIA DEL PARTIDO"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-16",
+"id": "liXUG9Wjd64",
+"t": "RC DEPORTIVO vs LEVANTE UD | RUEDA DE PRENSA"
 },
 {
 "c": "LALIGA EA SPORTS",
@@ -11605,12 +11755,6 @@
 "f": "2026-10-14",
 "id": "ky2Ka2B7DOI",
 "t": "Se busca a DIMITRIEVSKI"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-10-14",
-"id": "liXUG9Wjd64",
-"t": "RC DEPORTIVO vs LEVANTE UD | RUEDA DE PRENSA"
 },
 {
 "c": "LALIGA EA SPORTS",
@@ -15102,6 +15246,18 @@
 "ligue1": [
 {
 "c": "Ligue 1",
+"f": "2026-10-17",
+"id": "8hVf9JDrgj0",
+"t": "Mbappé x Messi 🤩​ #football #ligue1 #sports #psg #shorts #soccer #footballshorts #skills #messi"
+},
+{
+"c": "Ligue 1",
+"f": "2026-10-17",
+"id": "lBc46d9rEpo",
+"t": "What a save by Lucas Hernandez ⚔️😳 #football #ligue1 #sports #footballshorts #soccer #foot #shorts"
+},
+{
+"c": "Ligue 1",
 "f": "2026-10-16",
 "id": "wcgbZToXcXE",
 "t": "On s’est déjà tous fait réinitialiser une fois…😭☠️ #football #ligue1 #sports #footballshorts #soccer"
@@ -16760,6 +16916,18 @@
 "premier": [
 {
 "c": "Premier League",
+"f": "2026-10-17",
+"id": "UVh3pAKtEW4",
+"t": "Countdown To The Deadline | Last-Minute FPL Advice | Gameweek 7 LIVE  🔴"
+},
+{
+"c": "Premier League",
+"f": "2026-10-17",
+"id": "kToUXD0veP8",
+"t": "Access DENIED: Pickford Edition ⛔️"
+},
+{
+"c": "Premier League",
 "f": "2026-10-16",
 "id": "8zSFMqqUwV0",
 "t": "A WILD Game In The Wind And Rain! ⛈️ | Leeds United v Manchester United 2021/22"
@@ -16781,12 +16949,6 @@
 "f": "2026-10-16",
 "id": "HzCY070YNGY",
 "t": "POV: Chelsea’s Attack 🧠"
-},
-{
-"c": "Premier League",
-"f": "2026-10-16",
-"id": "UVh3pAKtEW4",
-"t": "Countdown To The Deadline | Last-Minute FPL Advice | Gameweek 7 LIVE  🔴"
 },
 {
 "c": "Premier League",
@@ -17962,6 +18124,12 @@
 "seriea": [
 {
 "c": "Serie A",
+"f": "2026-10-17",
+"id": "6OciLSOrqZg",
+"t": "È Raimondo SHOW Allo Stirpe | FROSINONE-SASSUOLO | HIGHLIGHTS | SERIE A ENILIVE 2026/27"
+},
+{
+"c": "Serie A",
 "f": "2026-10-16",
 "id": "6Jv-0Rl5uy8",
 "t": "Why LAZIO Are BETTER With LESS POSSESSION?! 🤔"
@@ -17971,6 +18139,12 @@
 "f": "2026-10-16",
 "id": "CLdZ9QgZUtA",
 "t": "JUVENTUS-LAZIO 2-2 | CLASSIC HIGHLIGHTS SERIE A 2025/26"
+},
+{
+"c": "Serie A",
+"f": "2026-10-16",
+"id": "TsJhp3kZolA",
+"t": "Raimondo Hits THREE! | FROSINONE-SASSUOLO | HIGHLIGHTS | Serie A 2026/27"
 },
 {
 "c": "Serie A",
