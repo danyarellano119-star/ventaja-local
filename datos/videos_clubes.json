@@ -728,6 +728,12 @@
 "AS Roma": [
 {
 "c": "AS Roma",
+"f": "2026-10-18",
+"id": "Xu730p7h1tg",
+"t": "ROMA 2-0 GENOA | SERIE A HIGHLIGHTS 2026-27"
+},
+{
+"c": "AS Roma",
 "f": "2026-10-17",
 "id": "Ia7zs176mBg",
 "t": "INTERVISTA PIOVANI | Pre Match | Roma-Milan | Serie A Women"
@@ -959,12 +965,6 @@
 "f": "2026-09-09",
 "id": "7aQTqrZNvqM",
 "t": "Lights, camera and… action! 🎥"
-},
-{
-"c": "AS Roma",
-"f": "2026-09-09",
-"id": "x9DTFg6LcZw",
-"t": "✨ AD ASTRA"
 }
 ],
 "Arsenal": [
@@ -1950,6 +1950,12 @@
 },
 {
 "c": "Blackburn Rovers Football Club",
+"f": "2026-10-17",
+"id": "7hqDSLp1HXg",
+"t": "LATE HEARTBREAK AT THE HAWTHORNS | Extended Highlights: West Bromwich Albion 3-2 Rovers"
+},
+{
+"c": "Blackburn Rovers Football Club",
 "f": "2026-10-16",
 "id": "TbuefBrbkZQ",
 "t": "Tony Mowbray on facing former side West Bromwich Albion"
@@ -2169,12 +2175,6 @@
 "f": "2026-09-18",
 "id": "SNl5ynqAVQg",
 "t": "Tony Mowbray's Pre-Portsmouth Interview"
-},
-{
-"c": "Blackburn Rovers Football Club",
-"f": "2026-09-18",
-"id": "lB3dwhXnHmQ",
-"t": "FC27 Ratings Higher or Lower"
 }
 ],
 "Brentford": [
@@ -2936,6 +2936,12 @@
 },
 {
 "c": "Chelsea Football Club",
+"f": "2026-10-17",
+"id": "E_BtWB5rJe8",
+"t": "NETO pounces to seal the points! ✌️"
+},
+{
+"c": "Chelsea Football Club",
 "f": "2026-10-16",
 "id": "dNQjlVTxyow",
 "t": "Alonso Press Conference | 16/10/26 | Everton vs Chelsea | CFC 26/27"
@@ -3137,15 +3143,15 @@
 "f": "2026-09-18",
 "id": "sXId17-8tzk",
 "t": "ALONSO reacts post-Brentford | Brentford 3-0 Chelsea | Premier League 2026/27"
-},
-{
-"c": "Chelsea Football Club",
-"f": "2026-09-18",
-"id": "gwrydB4FO_Y",
-"t": "Brentford 3-0 Chelsea | HIGHLIGHTS | Premier League 2026/27"
 }
 ],
 "Corinthians": [
+{
+"c": "Corinthians TV",
+"f": "2026-10-18",
+"id": "n1V4G1ZpFc8",
+"t": "BASTIDORES DA BASE | CORINTHIANS 6 X 1 PORTUGUESA SANTISTA | OITAVAS DE FINAL |PAULISTÃO SUB-20"
+},
 {
 "c": "Corinthians TV",
 "f": "2026-10-17",
@@ -3379,12 +3385,6 @@
 "f": "2026-10-14",
 "id": "ISVmp3ceZaw",
 "t": "Hora de revermos os gols da classificação dos #FilhosDoTerrão Sub-17 para a semifinal do Brasileirão"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-10-14",
-"id": "4wuzSbl1P9M",
-"t": "O momento da explosão! 🔥"
 }
 ],
 "Coventry City": [
@@ -8002,7 +8002,7 @@
 "c": "Liverpool FC",
 "f": "2026-10-17",
 "id": "QeVs-m7og9E",
-"t": "Highlights: Brentford 1-2 Liverpool | Munoz & Isak Goals! Premier League"
+"t": "Highlights: Brentford 1-2 Liverpool | Munoz & Isak Goals!"
 },
 {
 "c": "Liverpool FC",
@@ -8286,6 +8286,12 @@
 },
 {
 "c": "Middlesbrough FC",
+"f": "2026-10-17",
+"id": "i-5Kqk0iCO4",
+"t": "Extended Highlights | Boro 2 Cardiff City 2 | Matchday 11"
+},
+{
+"c": "Middlesbrough FC",
 "f": "2026-10-15",
 "id": "fNO7eYa0dOk",
 "t": "Press Conference | Cardiff City"
@@ -8505,12 +8511,6 @@
 "f": "2026-09-05",
 "id": "u3fEgC8m860",
 "t": "Callum and Kim | Post Match Reaction | QPR"
-},
-{
-"c": "Middlesbrough FC",
-"f": "2026-09-05",
-"id": "OSazaQZJGR0",
-"t": "Extended Highlights | QPR 0 Boro 1 | Matchday 5"
 }
 ],
 "Millwall": [
@@ -9014,6 +9014,18 @@
 "Palmeiras": [
 {
 "c": "TV Palmeiras Sportingbet",
+"f": "2026-10-18",
+"id": "B0PUiqWIMx4",
+"t": "COLETIVA ABEL FERREIRA | ATHLETICO-PR X PALMEIRAS | BRASILEIRÃO 2026"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-10-18",
+"id": "e7P9sPygNnY",
+"t": "AO VIVO | ATHLETICO-PR X PALMEIRAS | PRÉ-JOGO E NARRAÇÃO"
+},
+{
+"c": "TV Palmeiras Sportingbet",
 "f": "2026-10-17",
 "id": "hs5q6ODebrc",
 "t": "GANHAR LIBERTADORES"
@@ -9239,18 +9251,6 @@
 "f": "2026-10-15",
 "id": "v0DfpNmEUAU",
 "t": "O RECOVERY DO VERDÃO DE HOJE 🩻"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-10-15",
-"id": "bfJzzG-IDPo",
-"t": "ARTHUR CHAMA PARA O PODCAST DE AMANHÃ 🎙️🤣"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-10-15",
-"id": "rIeVlnc8z1Y",
-"t": "QUE JOGADA FOI ESSA NO TREINO DO PALMEIRAS? 🔥🔥"
 }
 ],
 "Paris FC": [
@@ -10645,12 +10645,6 @@
 "f": "2026-05-22",
 "id": "FRLK3VqVRDk",
 "t": "Emotion trifft Erfolg - Partner-Event im Feierwerk Kaisergarten"
-},
-{
-"c": "SV Elversberg",
-"f": "2026-05-20",
-"id": "iup6GEgBBjo",
-"t": "TVELV // Nachschuss - Aufstieg in die 1. Bundesliga / 3:0 vs. SC Preußen Münster"
 }
 ],
 "Sabah FK": [
@@ -11158,6 +11152,12 @@
 },
 {
 "c": "Sheffield United FC",
+"f": "2026-10-17",
+"id": "OPJ1J_161eI",
+"t": "Bristol City 0-1 Sheffield United | Extended EFL Championship highlights"
+},
+{
+"c": "Sheffield United FC",
 "f": "2026-10-16",
 "id": "SnOL-btCjpo",
 "t": "Chris Wilder | Bristol City v Sheffield United | Match preview"
@@ -11371,12 +11371,6 @@
 "f": "2026-09-15",
 "id": "UdQz3HRHhss",
 "t": "Chris Wilder's injury update"
-},
-{
-"c": "Sheffield United FC",
-"f": "2026-09-14",
-"id": "dWHMVRQnjUo",
-"t": "Liam Kitching. 👏"
 }
 ],
 "Southampton": [
@@ -12084,6 +12078,24 @@
 },
 {
 "c": "Swansea City AFC",
+"f": "2026-10-17",
+"id": "PHnTLiQ3Bi8",
+"t": "Swansea City v West Ham United | Highlights"
+},
+{
+"c": "Swansea City AFC",
+"f": "2026-10-17",
+"id": "chKEZjgSuss",
+"t": "Swansea City v West Ham United | Full Match"
+},
+{
+"c": "Swansea City AFC",
+"f": "2026-10-17",
+"id": "2s5cUmFSDhw",
+"t": "Swansea City v West Ham United | Extended Highlights"
+},
+{
+"c": "Swansea City AFC",
 "f": "2026-10-16",
 "id": "LpAsgw1qi8s",
 "t": "Jay Fulton Before West Ham United | Press Conference"
@@ -12297,24 +12309,6 @@
 "f": "2026-09-14",
 "id": "HV8rlYcminA",
 "t": "Stephen Welsh and Elijah Just | Get to Know"
-},
-{
-"c": "Swansea City AFC",
-"f": "2026-09-14",
-"id": "I9r4oB7_M7I",
-"t": "Swansea City v Huddersfield Town | U21 | Highlights"
-},
-{
-"c": "Swansea City AFC",
-"f": "2026-09-14",
-"id": "x-5ubxuhoqM",
-"t": "Anthony Wright on Huddersfield Town | U21 | Reaction"
-},
-{
-"c": "Swansea City AFC",
-"f": "2026-09-14",
-"id": "9hfQyglI_yI",
-"t": "From back to front | Great team goal against Burnley"
 }
 ],
 "São Paulo": [
