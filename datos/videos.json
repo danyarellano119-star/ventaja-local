@@ -14,6 +14,42 @@
 },
 {
 "c": "CazéTV",
+"f": "2026-10-18",
+"id": "Zw6PS9iDgBk",
+"t": "BOTAFOGO VENCE A CHAPE COM GOL DE TIQUINHO E TITE VENCE A SUA 1ª | RODA DE BOBO"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-18",
+"id": "sqVKVSbJs5w",
+"t": "TÊNIS: THIAGO WILD X FRANCISCO COMESANA | ATP CHALLENGER SANTA CRUZ 2 | SEMIFINAL"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-18",
+"id": "-x1MQjpr02Y",
+"t": "JOGO COMPLETO: BOTAFOGO X CHAPECOENSE | BRASILEIRÃO 2026 | 31ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-18",
+"id": "56glz6hfmno",
+"t": "COMO EU PINTO? CAZÉ E LUIS ENFRENTAM BELT E DONAN EM UM NOVO DESAFIO! | RODA DE BOBO"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-18",
+"id": "N_yN9Kz0W8Y",
+"t": "MELHORES MOMENTOS: MIGUEL/RIBEIRO 1 X 2 HIDALGO/KESTELBOIM | ATP CHALLENGER DA BOLÍVIA | FINAL"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-18",
+"id": "0lWL9RWebYg",
+"t": "MELHORES MOMENTOS: ATHLETICO-PR 0 X 2 PALMEIRAS | BRASILEIRÃO 2026 | 31ª RODADA"
+},
+{
+"c": "CazéTV",
 "f": "2026-10-17",
 "id": "8H3FQsudhmQ",
 "t": "ZVEREV NO TOPO DO RANKING E JODAR DÁ O QUE FALAR! | QUADRA ABERTA"
@@ -339,12 +375,6 @@
 {
 "c": "CazéTV",
 "f": "2026-10-16",
-"id": "Zw6PS9iDgBk",
-"t": "AO VIVO: RESENHA PÓS-JOGO ENTRE BOTAFOGO X CHAPECOENSE | RODA DE BOBO"
-},
-{
-"c": "CazéTV",
-"f": "2026-10-16",
 "id": "avgLKu3gc0g",
 "t": "FINAL DA COPA ACERJ, VOLTA DE RAPHINHA E IGOR E ISA DIRETO DE SEVILLA | QUEM FEZ, FEZ"
 },
@@ -641,12 +671,6 @@
 "f": "2026-10-13",
 "id": "4-aj4cwWaHY",
 "t": "ZVEREV SEGUE FIRME! MENSIK CAI, FOKINA E DE MINAUR AVANÇAM | DIA 7 | MASTERS 1000 DE XANGAI"
-},
-{
-"c": "CazéTV",
-"f": "2026-10-13",
-"id": "sqVKVSbJs5w",
-"t": "AO VIVO: TÊNIS | EDUARDO RIBEIRO E GUTO MIGUEL X HIDALGO E KESTELBOIM | ATP CHALLENGER | FINAL"
 },
 {
 "c": "CazéTV",
@@ -1661,12 +1685,6 @@
 "f": "2026-09-24",
 "id": "Ix-sWy4C9LY",
 "t": "RAYAN MARCA EM VITÓRIA HISTÓRICA E FLAMENGO DECIDE VAGA NA SEMIFINAL! | SEIS EM UM"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-24",
-"id": "-x1MQjpr02Y",
-"t": "AO VIVO: BOTAFOGO VENCE A CHAPE COM GOL DE TIQUINHO E TITE VENCE A SUA 1ª | RODA DE BOBO"
 },
 {
 "c": "CazéTV",
@@ -4330,6 +4348,12 @@
 "bundesliga": [
 {
 "c": "Bundesliga",
+"f": "2026-10-18",
+"id": "mqanSIp3-4A",
+"t": "Cheatcode Michael Olise 😮‍💨🤯"
+},
+{
+"c": "Bundesliga",
 "f": "2026-10-17",
 "id": "4XF0Niw_PeQ",
 "t": "Who'll win the 3,2,1 Challenge? 🏆"
@@ -5844,6 +5868,24 @@
 "champions": [
 {
 "c": "UEFA",
+"f": "2026-10-18",
+"id": "reCiyuS1XxQ",
+"t": "Champions League PRICELESS MOMENTS From Matchday 2"
+},
+{
+"c": "UEFA",
+"f": "2026-10-18",
+"id": "2msU6YGShFw",
+"t": "Special goal 💫"
+},
+{
+"c": "UEFA",
+"f": "2026-10-18",
+"id": "0FIotrUxnBg",
+"t": "Skills, saves, blocks and plenty more! 🤩"
+},
+{
+"c": "UEFA",
 "f": "2026-10-17",
 "id": "lFoIKtR9VJI",
 "t": "Volnei Feltes wins Goal of the Day!"
@@ -6930,6 +6972,36 @@
 }
 ],
 "eredivisie": [
+{
+"c": "ESPN NL",
+"f": "2026-10-18",
+"id": "1XWwit7h2HA",
+"t": "Sigurdarson breekt de ban in de IJsselderby 🫨🔥"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-18",
+"id": "oxEpV9M4N24",
+"t": "Henk Fraser reageert op RACISME-INCIDENT rond SURINAME: \"Wat ga je hiertegen doen?\" 🇸🇷"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-18",
+"id": "qfAngCf6Grs",
+"t": "Ook dit is de IJsselderby 🦷😂"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-18",
+"id": "Okt2cGb08yE",
+"t": "Martín Ojeda doet het met de hak 🤯👏"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-18",
+"id": "TGJR8OMe0gQ",
+"t": "Lionel Messi... 😱⭐️"
+},
 {
 "c": "ESPN NL",
 "f": "2026-10-17",
@@ -12028,6 +12100,12 @@
 "laliga": [
 {
 "c": "LALIGA EA SPORTS",
+"f": "2026-10-18",
+"id": "C6Xkq3Se06E",
+"t": "It’s on!"
+},
+{
+"c": "LALIGA EA SPORTS",
 "f": "2026-10-17",
 "id": "_kd0aFDxB_s",
 "t": "Messi vs Betis 😱✨"
@@ -12337,6 +12415,12 @@
 "f": "2026-10-15",
 "id": "6rX36F19dLw",
 "t": "REFCAM FC Barcelona vs Getafe CF"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-15",
+"id": "qAd-AJZZurk",
+"t": "🔴 CA OSASUNA vs R. RACING CLUB - PREVIA DEL PARTIDO"
 },
 {
 "c": "LALIGA EA SPORTS",
@@ -15870,6 +15954,18 @@
 "ligue1": [
 {
 "c": "Ligue 1",
+"f": "2026-10-18",
+"id": "Z3JNCYrynss",
+"t": "Il est très très fort ​🤣 #football #ligue1 #sports #footballshorts #foot #soccer #mpg #shorts"
+},
+{
+"c": "Ligue 1",
+"f": "2026-10-18",
+"id": "tcBpBCKE6PI",
+"t": "Memphis Depay ⚽​⚽​​⚽​ #football #ligue1 #sports #foot #footballshorts #soccer #skills #goals #shorts"
+},
+{
+"c": "Ligue 1",
 "f": "2026-10-17",
 "id": "8hVf9JDrgj0",
 "t": "Mbappé x Messi 🤩​ #football #ligue1 #sports #psg #shorts #soccer #footballshorts #skills #messi"
@@ -17552,6 +17648,12 @@
 "premier": [
 {
 "c": "Premier League",
+"f": "2026-10-18",
+"id": "Y7kbxJKkiq8",
+"t": "Xabi Alonso's Reaction To Everton 0-2 Chelsea 🤩"
+},
+{
+"c": "Premier League",
 "f": "2026-10-17",
 "id": "UVh3pAKtEW4",
 "t": "Countdown To The Deadline | Last-Minute FPL Advice | Gameweek 7 LIVE  🔴"
@@ -18775,6 +18877,12 @@
 "f": "2026-10-18",
 "id": "290hhaqnSHc",
 "t": "Senza Malen Ci Pensa Santi Castro | ROMA-GENOA | HIGHLIGHTS | SERIE A ENILIVE 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-10-18",
+"id": "37ueHgKukEk",
+"t": "COMEBACK KINGS 👑"
 },
 {
 "c": "Serie A",
