@@ -17314,6 +17314,27 @@
 "pv": 0.2117,
 "v": "Elche"
 },
+"laliga|2026-12-06|rayo vallecano|levante": {
+"ba_l": 0.0,
+"ba_v": 0.0,
+"btts": 0.6194,
+"clave_l": "Rayo Vallecano",
+"clave_liga": "laliga",
+"clave_v": "Levante",
+"fecha": "2026-12-06",
+"l": "Rayo Vallecano",
+"liga": "LaLiga",
+"marcador": "1-1",
+"o15": 0.8361,
+"o25": 0.6143,
+"o35": 0.3913,
+"p_marcador": 0.1115,
+"pe": 0.2435,
+"pl": 0.5219,
+"publicado": "2026-10-22T01:38Z",
+"pv": 0.2346,
+"v": "Levante"
+},
 "laliga|2026-12-06|real racing santander|deportivo coruna": {
 "btts": 0.5837,
 "clave_l": "Real Racing Club de Santander",
