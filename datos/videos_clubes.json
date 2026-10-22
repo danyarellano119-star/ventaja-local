@@ -2,6 +2,12 @@
 "AC Milan": [
 {
 "c": "AC Milan",
+"f": "2026-10-22",
+"id": "sr6YKjBF75w",
+"t": "Buon 20° compleanno, Alfa! ❤️‍🔥"
+},
+{
+"c": "AC Milan",
 "f": "2026-10-21",
 "id": "ZFqR7QAKKNI",
 "t": "Moreira è sempre di buon umore 😅🌧️"
@@ -233,12 +239,6 @@
 "f": "2026-10-17",
 "id": "4vona6Ulhnc",
 "t": "Nessuno sta dietro a Theo ⚡"
-},
-{
-"c": "AC Milan",
-"f": "2026-10-17",
-"id": "WabdkPjhvTI",
-"t": "Rafa Leão vs Atalanta 🏄🏾‍♂️"
 }
 ],
 "AC Monza": [
@@ -994,6 +994,12 @@
 },
 {
 "c": "Arsenal",
+"f": "2026-10-21",
+"id": "dx7x6C5-diY",
+"t": "EZE AND RICE GOALS IN CRAZY GAME 🤯 | Bayern Munich vs Arsenal (2-2) | Champions League"
+},
+{
+"c": "Arsenal",
 "f": "2026-10-20",
 "id": "AI_DD1m51PY",
 "t": "BEST Arsenal Goals vs German Giants Ft. Madueke vs Bayern Munich"
@@ -1201,12 +1207,6 @@
 "f": "2026-10-12",
 "id": "Z51yQl61iOo",
 "t": "EZRI KONSA MAKING IT LOOK EASY!"
-},
-{
-"c": "Arsenal",
-"f": "2026-10-12",
-"id": "CC242vaj41A",
-"t": "DAVID RAYA DOING WHAT HE DOES BEST!"
 }
 ],
 "Atalanta BC": [
@@ -1244,7 +1244,7 @@
 "c": "Atalanta Bergamasca Calcio",
 "f": "2026-10-21",
 "id": "ddSrPNhSVX4",
-"t": "✈️🇳🇱📍 #UECL #AjaxAtalanta"
+"t": "✈️ Off to Amsterdam 🇳🇱📍 #UECL #AjaxAtalanta"
 },
 {
 "c": "Atalanta Bergamasca Calcio",
@@ -5326,6 +5326,12 @@
 "Flamengo": [
 {
 "c": "Flamengo TV",
+"f": "2026-10-22",
+"id": "evC4-fXoqR0",
+"t": "BASTIDORES DO VÔLEI | SESC RJ FLAMENGO 3 X 0 PAULISTANO BARUERI | SUPERLIGA FEMININA (19/10/2026)"
+},
+{
+"c": "Flamengo TV",
 "f": "2026-10-21",
 "id": "6sTH9tBOB4s",
 "t": "TUDO SOBRE FLAMENGO X ESTUDIANTES NO FLAPRESS"
@@ -5557,15 +5563,15 @@
 "f": "2026-10-16",
 "id": "kPtsS-7Zslk",
 "t": "🔴 AO VIVO: ESTUDIANTES x FLAMENGO | PRÉ-JOGO + NARRAÇÃO | CONMEBOL LIBERTADORES (15/09/26)"
-},
-{
-"c": "Flamengo TV",
-"f": "2026-10-16",
-"id": "7tk_qaeYBHY",
-"t": "🔴 AO VIVO: TREINO DO FLAMENGO DIRETO DO NINHO | 16/10/26"
 }
 ],
 "Fluminense": [
+{
+"c": "Fluminense Football Club",
+"f": "2026-10-22",
+"id": "FvUDgFcresc",
+"t": "AO VIVO - PALMEIRAS X FLUMINENSE | CONMEBOL LIBERTADORES 2026 | SEMIFINAL - VOLTA"
+},
 {
 "c": "Fluminense Football Club",
 "f": "2026-10-21",
@@ -5589,12 +5595,6 @@
 "f": "2026-10-19",
 "id": "IrCSqFYXunY",
 "t": "FLUMINENSE INICIA PREPARAÇÃO PARA CONFRONTO DECISIVO CONTRA O PALMEIRAS PELA LIBERTADORES"
-},
-{
-"c": "Fluminense Football Club",
-"f": "2026-10-19",
-"id": "FvUDgFcresc",
-"t": "AO VIVO - PALMEIRAS X FLUMINENSE | CONMEBOL LIBERTADORES 2026 | SEMIFINAL - VOLTA"
 },
 {
 "c": "Fluminense Football Club",
@@ -6778,6 +6778,12 @@
 "Inter": [
 {
 "c": "Inter",
+"f": "2026-10-22",
+"id": "YPDxaFmOlmQ",
+"t": "EP. 45 | Victor - La Moviola"
+},
+{
+"c": "Inter",
 "f": "2026-10-21",
 "id": "bKW0tvO6NbM",
 "t": "EP. 44 | Paul - Il governatore"
@@ -6859,6 +6865,24 @@
 "f": "2026-10-21",
 "id": "l221bZuOx4o",
 "t": "LET'S GOOO @qatarairways"
+},
+{
+"c": "Inter",
+"f": "2026-10-21",
+"id": "p0dGACY2YLg",
+"t": "CARLOS AUGUSTO 💫"
+},
+{
+"c": "Inter",
+"f": "2026-10-21",
+"id": "D5mTMHTOaIg",
+"t": "OUR MVP 🖐🏻👊🏻💫"
+},
+{
+"c": "Inter",
+"f": "2026-10-21",
+"id": "21KXiQCi6Bw",
+"t": "Bisseck 🫶 Carlos"
 },
 {
 "c": "Inter",
@@ -6991,30 +7015,6 @@
 "f": "2026-10-18",
 "id": "5hjo5tp3DAw",
 "t": "Catch him in the 𝒄𝒍𝒐𝒖𝒅𝒔 ☁️"
-},
-{
-"c": "Inter",
-"f": "2026-10-18",
-"id": "UQYhetLwSnM",
-"t": "EP. 41 | Fabio - La telefonata"
-},
-{
-"c": "Inter",
-"f": "2026-10-18",
-"id": "aUVPzjnV27M",
-"t": "Eh, 𝒒𝒖𝒆𝒔𝒕𝒂 coppia qua 😎"
-},
-{
-"c": "Inter",
-"f": "2026-10-18",
-"id": "SIITmFsgVYQ",
-"t": "Every Bonny move comes with a Marcus reaction 😂"
-},
-{
-"c": "Inter",
-"f": "2026-10-18",
-"id": "2Tvt5SQ5JRM",
-"t": "THURAM, CARLOS, BONNY: ESPUGNATO IL DALL'ARA🏟️ ✅ | BOLOGNA 1-3 INTER | EXTENDED HIGHLIGHTS 📹🖤💙"
 }
 ],
 "Ipswich Town": [
@@ -7958,6 +7958,24 @@
 "Liverpool": [
 {
 "c": "Liverpool FC",
+"f": "2026-10-22",
+"id": "cqgcR8LLxmY",
+"t": "Rio magic ✨"
+},
+{
+"c": "Liverpool FC",
+"f": "2026-10-22",
+"id": "5TJh8IhB78k",
+"t": "Araujo joins the fans! 😆"
+},
+{
+"c": "Liverpool FC",
+"f": "2026-10-22",
+"id": "7u1PTyJmgBY",
+"t": "Wirtz scoring in front of the Kop!"
+},
+{
+"c": "Liverpool FC",
 "f": "2026-10-21",
 "id": "KAot6neyRlQ",
 "t": "Matchday Live: Liverpool vs Brighton | Team news, updates & more!"
@@ -7979,6 +7997,24 @@
 "f": "2026-10-21",
 "id": "iSPDVKdWoJU",
 "t": "Highlights: Liverpool 4-3 Villarreal | Champions League comeback win! Mac Allister, Araujo & Wirtz!"
+},
+{
+"c": "Liverpool FC",
+"f": "2026-10-21",
+"id": "cc6W89hLrwg",
+"t": "Brilliant work from Rio to set up Macca 👏"
+},
+{
+"c": "Liverpool FC",
+"f": "2026-10-21",
+"id": "TeCfkE8m6bw",
+"t": "Araujo charging in at the back post!"
+},
+{
+"c": "Liverpool FC",
+"f": "2026-10-21",
+"id": "9fdprHnKtLQ",
+"t": "Mac Allister with the header!!"
 },
 {
 "c": "Liverpool FC",
@@ -8159,42 +8195,6 @@
 "f": "2026-10-16",
 "id": "nyFidTLDnOA",
 "t": "Player of the month 🏆🇫🇷"
-},
-{
-"c": "Liverpool FC",
-"f": "2026-10-16",
-"id": "csmO_I-SYqE",
-"t": "Reaction to Liverpool's Greatest! 📖🌟"
-},
-{
-"c": "Liverpool FC",
-"f": "2026-10-15",
-"id": "iPRUSWOZK-o",
-"t": "Highlights: LASK 2-4 Liverpool U19s | Will Wright Hat-Trick! | UEFA Youth League"
-},
-{
-"c": "Liverpool FC",
-"f": "2026-10-15",
-"id": "87KncWUeBHU",
-"t": "Press Conference: Brentford vs Liverpool | Andoni Iraola"
-},
-{
-"c": "Liverpool FC",
-"f": "2026-10-15",
-"id": "J6AUqK1i4ks",
-"t": "Gakpo, Szoboszlai & Isak update 🗣️"
-},
-{
-"c": "Liverpool FC",
-"f": "2026-10-15",
-"id": "16U-FCaPmDk",
-"t": "Highlights: LASK 3-6 Liverpool"
-},
-{
-"c": "Liverpool FC",
-"f": "2026-10-15",
-"id": "3AaTyye-KAA",
-"t": "Highlights: LASK 3-6 Liverpool | Barcola Hat-Trick in Champions League Win!"
 }
 ],
 "Metz": [
@@ -9014,6 +9014,24 @@
 "Palmeiras": [
 {
 "c": "TV Palmeiras Sportingbet",
+"f": "2026-10-22",
+"id": "Yn731VYCpOI",
+"t": "AO VIVO COM IMAGENS | PALMEIRAS X INDEPENDIENTE DRAGONAS | CONMEBOL LIBERTADORES FEMININA"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-10-22",
+"id": "97w9ZPzVmEY",
+"t": "COLETIVA ABEL FERREIRA | PALMEIRAS X FLUMINENSE | CONMEBOL LIBERTADORES 2026"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-10-22",
+"id": "qvuRXIJNn-k",
+"t": "AO VIVO | PALMEIRAS X FLUMINENSE | PRÉ-JOGO E NARRAÇÃO"
+},
+{
+"c": "TV Palmeiras Sportingbet",
 "f": "2026-10-21",
 "id": "uegHQma1S6A",
 "t": "PALMEIRAS CHEGA AO NUBANK PARQUE PARA ÚLTIMO TREINO ANTES DA DECISÃO"
@@ -9233,24 +9251,6 @@
 "f": "2026-10-18",
 "id": "9sGeFsgjTiI",
 "t": "OLHA QUEM APARECEU NA OLIMPÍADA DAS CRIANÇAS DO PALMEIRAS! 👀🟢"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-10-18",
-"id": "g8U_BAaABYw",
-"t": "CRAQUES DO PALMEIRAS PRESTIGIAM OLIMPÍADA"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-10-18",
-"id": "ZB3v9IOt6UY",
-"t": "INFORMAÇÕES SOBRE AS PALESTRINAS ANTES DO JOGO CONTRA O BELGRANO!"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-10-18",
-"id": "6v1wZDY9fh4",
-"t": "PALMEIRAS TREINA VISANDO VOLTA DA SEMI NA LIBERTADORES!"
 }
 ],
 "Paris FC": [
@@ -9530,6 +9530,12 @@
 },
 {
 "c": "RB Leipzig",
+"f": "2026-10-21",
+"id": "iNOX1R3XLq0",
+"t": "Real Madrid - RB Leipzig | Highlights | UEFA Champions League"
+},
+{
+"c": "RB Leipzig",
 "f": "2026-10-20",
 "id": "wjluioBaZDI",
 "t": "Gruda vs everyone 😮‍💨"
@@ -9743,12 +9749,6 @@
 "f": "2026-09-13",
 "id": "Nu7LMdAc7cw",
 "t": "\"Das einzig Bittere war...\" | PK nach RB Leipzig - Hamburger SV | Bundesliga"
-},
-{
-"c": "RB Leipzig",
-"f": "2026-09-13",
-"id": "3WdnDM0JiSo",
-"t": "RB Leipzig vs Hamburger SV | 5:0 - Alle Tore"
 }
 ],
 "Real Betis": [
@@ -9793,6 +9793,12 @@
 "f": "2026-10-21",
 "id": "tC-oPO9h24E",
 "t": "¡A CALENTAR! 🔥"
+},
+{
+"c": "Real Betis Balompié",
+"f": "2026-10-21",
+"id": "CBhJjwpxzPk",
+"t": "Reacciones de Pellegrini, Isco, Ceballos, Marc Roca y Natan tras el #RealBetisFeyenoord 🗣🎙 | BETIS"
 },
 {
 "c": "Real Betis Balompié",
@@ -9985,12 +9991,6 @@
 "f": "2026-10-16",
 "id": "k5AOfaWHhoA",
 "t": "Aweh, Mzansi! 🇿🇦"
-},
-{
-"c": "Real Betis Balompié",
-"f": "2026-10-16",
-"id": "ucTTL2vI2J0",
-"t": "Resumen del partido Real Betis Juvenil DH - FC Porto (5-0) | CANTERA"
 }
 ],
 "Real Madrid": [
@@ -10035,6 +10035,12 @@
 "f": "2026-10-21",
 "id": "u4MUit7_FZM",
 "t": "No, thank YOU, KM! 😍🏆"
+},
+{
+"c": "Real Madrid",
+"f": "2026-10-21",
+"id": "SbGF1xglHh4",
+"t": "HIGHLIGHTS | Real Madrid 4-1 RB Leipzig | Champions League"
 },
 {
 "c": "Real Madrid",
@@ -10227,12 +10233,6 @@
 "f": "2026-10-15",
 "id": "XTwwWBXVcgg",
 "t": "🚀 Pure instinct!"
-},
-{
-"c": "Real Madrid",
-"f": "2026-10-15",
-"id": "HypVlm9K7Jk",
-"t": "🤌 Epic? EPIC."
 }
 ],
 "SC Paderborn 07": [
