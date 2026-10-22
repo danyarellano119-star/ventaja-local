@@ -8,6 +8,18 @@
 },
 {
 "c": "AC Milan",
+"f": "2026-10-22",
+"id": "ovgciLdl1Nc",
+"t": "Bournemouth, SIAMO ARRIVATI! ✈️🔥🔴⚫"
+},
+{
+"c": "AC Milan",
+"f": "2026-10-22",
+"id": "4LFIWCpMC-g",
+"t": "Bournemouth-Milan: tre minuti di follia al Dean Court! 🤯"
+},
+{
+"c": "AC Milan",
 "f": "2026-10-21",
 "id": "ZFqR7QAKKNI",
 "t": "Moreira è sempre di buon umore 😅🌧️"
@@ -227,21 +239,21 @@
 "f": "2026-10-17",
 "id": "AfYhuXE5Iww",
 "t": "Vi ricordate quando Kaká si inventò QUESTA giocata? 🚀"
-},
-{
-"c": "AC Milan",
-"f": "2026-10-17",
-"id": "qwh0L8vM9-I",
-"t": "Se lo sai, scrivilo nei commenti ⚽"
-},
-{
-"c": "AC Milan",
-"f": "2026-10-17",
-"id": "4vona6Ulhnc",
-"t": "Nessuno sta dietro a Theo ⚡"
 }
 ],
 "AC Monza": [
+{
+"c": "AC Monza",
+"f": "2026-10-22",
+"id": "gWJowWilRSA",
+"t": "Gustavo Varela risponde ai tifosi 🗣️🦍⚪️🔴"
+},
+{
+"c": "AC Monza",
+"f": "2026-10-22",
+"id": "JBKrLHXU8O8",
+"t": "MD7 recap 🗿⚪️🔴"
+},
 {
 "c": "AC Monza",
 "f": "2026-10-21",
@@ -469,21 +481,15 @@
 "f": "2026-09-19",
 "id": "C1-37NpUC2E",
 "t": "You can't hold him 🤯🦍⚪🔴"
-},
-{
-"c": "AC Monza",
-"f": "2026-09-19",
-"id": "HSMkqiloWVo",
-"t": "MONZA 2 - 1 SASSUOLO | HIGHLIGHTS SERIE A ENILIVE"
-},
-{
-"c": "AC Monza",
-"f": "2026-09-19",
-"id": "JKGXSZ1WNc0",
-"t": "MONZA 2 - 3 INTER I HIGHLIGHTS PRIMAVERA 1"
 }
 ],
 "AS Monaco": [
+{
+"c": "AS MONACO",
+"f": "2026-10-22",
+"id": "15KzB3ELVSE",
+"t": "Wenger : \"Monaco, c'est se comporter avec classe et ne pas être médiocre\""
+},
 {
 "c": "AS MONACO",
 "f": "2026-10-21",
@@ -717,12 +723,6 @@
 "f": "2026-09-28",
 "id": "56ZLPoQz51k",
 "t": "ILS DÉCOUVRENT LEURS NOTES FC 27… 👀🎮"
-},
-{
-"c": "AS MONACO",
-"f": "2026-09-27",
-"id": "1YpC0ZZvF_U",
-"t": "1999 → 2026 : MÁRQUEZ, DE MONACO À COACH DU MEXIQUE 🇲🇨🇲🇽 DEL MÓNACO A COACH DE MÉXICO"
 }
 ],
 "AS Roma": [
@@ -970,6 +970,18 @@
 "Arsenal": [
 {
 "c": "Arsenal",
+"f": "2026-10-22",
+"id": "Hvjx7lad24s",
+"t": "DECLAN RICE 🤝 SCORING LATE GOALS!"
+},
+{
+"c": "Arsenal",
+"f": "2026-10-22",
+"id": "mt3imediPVk",
+"t": "AN ARSENE WENGER ERA MASTERPIECE!"
+},
+{
+"c": "Arsenal",
 "f": "2026-10-21",
 "id": "IPvlP0WWPHw",
 "t": "PRESS CONFERENCE | Mikel Arteta previews HUGE Bayern Munich clash | Champions League"
@@ -1195,18 +1207,6 @@
 "f": "2026-10-12",
 "id": "ihIm6g0lv9s",
 "t": "ARTETA REACTS TO CALAFIORI AND BRUNO GOALS 💪 | Bench Cam 🎥 | Arsenal 2-1 Leeds United | EPL"
-},
-{
-"c": "Arsenal",
-"f": "2026-10-12",
-"id": "1Ni3eFVmc4Q",
-"t": "CHEEKY BRUNO G NUTMEG!"
-},
-{
-"c": "Arsenal",
-"f": "2026-10-12",
-"id": "Z51yQl61iOo",
-"t": "EZRI KONSA MAKING IT LOOK EASY!"
 }
 ],
 "Atalanta BC": [
@@ -1454,6 +1454,12 @@
 "Athletico Paranaense": [
 {
 "c": "Athletico Paranaense",
+"f": "2026-10-22",
+"id": "-BpuZxBd6xw",
+"t": "REAL MADRID 0 X 3 ATHLETICO | JOGO COMPLETO | MUNDIAL JUVENIL SUB-17 | 03/09/2026"
+},
+{
+"c": "Athletico Paranaense",
 "f": "2026-10-21",
 "id": "hm7ewt1exOM",
 "t": "VEJA COMO FUNCIONA A ARQUIBANCADA RETRÁTIL DA ARENA DA BAIXADA"
@@ -1685,12 +1691,6 @@
 "f": "2026-10-13",
 "id": "Wkc9xXQbxaA",
 "t": "FURACÃO NEWS EM 1 MINUTO - 13/10"
-},
-{
-"c": "Athletico Paranaense",
-"f": "2026-10-13",
-"id": "faaTxaoANDk",
-"t": "PIÁS DO CAJU | ENTREGA DE PRESENTES DE DIA DAS CRIANÇAS"
 }
 ],
 "Bayern Munich": [
@@ -2422,6 +2422,12 @@
 "Burnley": [
 {
 "c": "Burnley Football Club",
+"f": "2026-10-22",
+"id": "Cg5b1nAweAY",
+"t": "Nicky Hayen's Lincoln City Press Conference | PRESS | Lincoln City V Burnley"
+},
+{
+"c": "Burnley Football Club",
 "f": "2026-10-21",
 "id": "RabXS3Yanlw",
 "t": "Largie in focus 🏃‍♂️  #burnleyfc #football #efl"
@@ -2653,15 +2659,15 @@
 "f": "2026-10-09",
 "id": "YLTPExwADY8",
 "t": "Josh Laurent Ahead Of Away Trip To The Hornets | PREVIEW | Watford v Burnley"
-},
-{
-"c": "Burnley Football Club",
-"f": "2026-10-09",
-"id": "31AussvkhfE",
-"t": "We caught up with some of the lads who were on international duty 🤳 #burnleyfc #football"
 }
 ],
 "Cardiff City": [
+{
+"c": "Cardiff City FC",
+"f": "2026-10-22",
+"id": "6NourGPxxSk",
+"t": "MATCH PREVIEW | CARDIFF CITY vs BIRMINGHAM CITY"
+},
 {
 "c": "Cardiff City FC",
 "f": "2026-10-17",
@@ -2895,12 +2901,6 @@
 "f": "2026-08-23",
 "id": "wkDGxYAfoo4",
 "t": "REACTION | DERBY COUNTY vs CARDIFF CITY"
-},
-{
-"c": "Cardiff City FC",
-"f": "2026-08-22",
-"id": "LQWJ15VE3pc",
-"t": "HIGHLIGHTS | DERBY COUNTY vs CARDIFF CITY"
 }
 ],
 "Chelsea": [
@@ -3390,6 +3390,12 @@
 "Coventry City": [
 {
 "c": "Coventry City FC",
+"f": "2026-10-22",
+"id": "tD63-r-PjBY",
+"t": "Jack Rudoni surprises Coventry City FC fans 💖 | Breast Cancer Awareness Month"
+},
+{
+"c": "Coventry City FC",
 "f": "2026-10-21",
 "id": "QAhQlbULPzQ",
 "t": "Last time out against Saturday's opponents at the Coventry Building Society Arena. 🎬"
@@ -3621,17 +3627,17 @@
 "f": "2026-09-19",
 "id": "r4GJDImO_8Y",
 "t": "Nottingham Forest 0-1 Coventry City | Premier League Highlights"
-},
-{
-"c": "Coventry City FC",
-"f": "2026-09-17",
-"id": "sTXgy2WBMDU",
-"t": "Frank Lampard Pre-Match Press Conference | Nottingham Forest vs Coventry City | Premier League"
 }
 ],
 "Coventry City FC": [
 {
 "c": "Coventry City FC",
+"f": "2026-10-22",
+"id": "tD63-r-PjBY",
+"t": "Jack Rudoni surprises Coventry City FC fans 💖 | Breast Cancer Awareness Month"
+},
+{
+"c": "Coventry City FC",
 "f": "2026-10-21",
 "id": "QAhQlbULPzQ",
 "t": "Last time out against Saturday's opponents at the Coventry Building Society Arena. 🎬"
@@ -3863,12 +3869,6 @@
 "f": "2026-09-19",
 "id": "r4GJDImO_8Y",
 "t": "Nottingham Forest 0-1 Coventry City | Premier League Highlights"
-},
-{
-"c": "Coventry City FC",
-"f": "2026-09-17",
-"id": "sTXgy2WBMDU",
-"t": "Frank Lampard Pre-Match Press Conference | Nottingham Forest vs Coventry City | Premier League"
 }
 ],
 "Cruzeiro": [
@@ -4358,6 +4358,18 @@
 "FC Barcelona": [
 {
 "c": "FC Barcelona",
+"f": "2026-10-22",
+"id": "E8qLFg5r_8Q",
+"t": "LAST TWO HOME CLÁSICOS. TWO WINS | FC Barcelona 🔵🔴"
+},
+{
+"c": "FC Barcelona",
+"f": "2026-10-22",
+"id": "CGF2GhipS94",
+"t": "🔴💬 LIVE Q&A | YOU ASK, KARIM ADEYEMI ANSWERS! (MEMBERS EXCLUSIVE QUESTIONS)"
+},
+{
+"c": "FC Barcelona",
 "f": "2026-10-21",
 "id": "AoqWNdbZ-7Q",
 "t": "It’s a season, not a single game.  #fcbarcelona #football #shorts"
@@ -4583,18 +4595,6 @@
 "f": "2026-10-15",
 "id": "KXvbkIq9Kvo",
 "t": "Sorry, Cancelo can't hear you #fcbarcelona #ucl #shorts"
-},
-{
-"c": "FC Barcelona",
-"f": "2026-10-14",
-"id": "BoWhE5g5lwY",
-"t": "The hell is blaugrana 🔥 #fcbarcelona #shorts"
-},
-{
-"c": "FC Barcelona",
-"f": "2026-10-14",
-"id": "L_K8NODamcQ",
-"t": "HELL OF A COMEBACK | GALATASARAY 1 vs 4 FC BARCELONA | UN DIA DE PARTIT | FC Barcelona 🔵🔴"
 }
 ],
 "Fenerbahçe SK": [
@@ -4608,7 +4608,7 @@
 "c": "Fenerbahçe SK",
 "f": "2026-10-20",
 "id": "V2-PpIInd14",
-"t": "Fenerbahçe - Slavia Prag ( U19 UEFA Youth League )"
+"t": "🔵 Fenerbahçe - Slavia Prag ( U19 UEFA Youth League )"
 },
 {
 "c": "Fenerbahçe SK",
@@ -4626,7 +4626,7 @@
 "c": "Fenerbahçe SK",
 "f": "2026-10-19",
 "id": "fnjWyslLwtQ",
-"t": "Fenerbahçe'mizin, Slavia Prag maçı öncesi son antrenmanı | Yakın Takip"
+"t": "🔵 Fenerbahçe'mizin, Slavia Prag maçı öncesi son antrenmanı | Yakın Takip"
 },
 {
 "c": "Fenerbahçe SK",
@@ -4644,7 +4644,7 @@
 "c": "Fenerbahçe SK",
 "f": "2026-10-19",
 "id": "EkJCw7r-DzM",
-"t": "Teknik Direktörümüz İsmail Kartal ve Futbolcumuz Nathan Ake'nin Basın Toplantısı"
+"t": "🔵 Teknik Direktörümüz İsmail Kartal ve Futbolcumuz Nathan Ake'nin Basın Toplantısı"
 },
 {
 "c": "Fenerbahçe SK",
@@ -4656,13 +4656,13 @@
 "c": "Fenerbahçe SK",
 "f": "2026-10-17",
 "id": "zCpZDVyCPXA",
-"t": "Fenerbahçe - C. Alanyaspor U19 (PAF Ligi 8. Hafta)"
+"t": "🔵 Fenerbahçe - C. Alanyaspor U19 (PAF Ligi 8. Hafta)"
 },
 {
 "c": "Fenerbahçe SK",
 "f": "2026-10-17",
 "id": "m_kbgMX6xNM",
-"t": "Fenerbahçe 3-0 C. Alanyaspor"
+"t": "🔵 Fenerbahçe 3-0 C. Alanyaspor"
 },
 {
 "c": "Fenerbahçe SK",
@@ -4674,7 +4674,7 @@
 "c": "Fenerbahçe SK",
 "f": "2026-10-15",
 "id": "QMbe78BvaZw",
-"t": "Fenerbahçe Tarfin - Partizan | EuroLeague 6. hafta"
+"t": "🔵 Fenerbahçe Tarfin - Partizan | EuroLeague 6. hafta"
 },
 {
 "c": "Fenerbahçe SK",
@@ -4686,7 +4686,7 @@
 "c": "Fenerbahçe SK",
 "f": "2026-10-14",
 "id": "U50lWESklnY",
-"t": "Aston Villa -  Fenerbahçe | Şampiyonlar Ligi 2. Hafta"
+"t": "🔵 Aston Villa -  Fenerbahçe | Şampiyonlar Ligi 2. Hafta"
 },
 {
 "c": "Fenerbahçe SK",
@@ -5084,6 +5084,30 @@
 "Fiorentina": [
 {
 "c": "ACF Fiorentina",
+"f": "2026-10-22",
+"id": "66jS9P0gVG4",
+"t": "Intervista: Hernanes in visita al Rocco B. Commisso Viola Park"
+},
+{
+"c": "ACF Fiorentina",
+"f": "2026-10-22",
+"id": "fuTXviOmIVk",
+"t": "Highlights Como Women-Fiorentina 1-1 | Serie A Women"
+},
+{
+"c": "ACF Fiorentina",
+"f": "2026-10-22",
+"id": "UJFYFtQ4vI4",
+"t": "VIOLA DAILY LIVE - 22 OTTOBRE 2026"
+},
+{
+"c": "ACF Fiorentina",
+"f": "2026-10-22",
+"id": "fhlBxLNY-ps",
+"t": "Intervista con Angelo Di Livio - Un Secolo Viola Ep.38"
+},
+{
+"c": "ACF Fiorentina",
 "f": "2026-10-21",
 "id": "fUPDqunGAMU",
 "t": "VIOLA DAILY LIVE - 21 OTTOBRE 2026"
@@ -5297,30 +5321,6 @@
 "f": "2026-10-09",
 "id": "W7Y_uFSfSRU",
 "t": "Highlights Under 18: Fiorentina - Lazio 4 - 2 (5a Giornata)"
-},
-{
-"c": "ACF Fiorentina",
-"f": "2026-10-08",
-"id": "gY3d3Vabd8k",
-"t": "Intervista con Moreno Torricelli - Un Secolo Viola Ep.36"
-},
-{
-"c": "ACF Fiorentina",
-"f": "2026-10-08",
-"id": "42A_RWfKqrQ",
-"t": "Under 18, Capparella: \"Soddisfatto della prestazione, siamo in crescita\"."
-},
-{
-"c": "ACF Fiorentina",
-"f": "2026-10-08",
-"id": "MDo2mp7cYJ0",
-"t": "Primavera: Le parole di Andreazzoli prima della sfida contro il Parma"
-},
-{
-"c": "ACF Fiorentina",
-"f": "2026-10-08",
-"id": "PiLKJM2GNfQ",
-"t": "VIOLA DAILY LIVE - 8 OTTOBRE 2026"
 }
 ],
 "Flamengo": [
@@ -5329,6 +5329,18 @@
 "f": "2026-10-22",
 "id": "evC4-fXoqR0",
 "t": "BASTIDORES DO VÔLEI | SESC RJ FLAMENGO 3 X 0 PAULISTANO BARUERI | SUPERLIGA FEMININA (19/10/2026)"
+},
+{
+"c": "Flamengo TV",
+"f": "2026-10-22",
+"id": "Sl5QFtFP2mQ",
+"t": "NAÇÃO E MARACA LOTADO. MEXE COM NOSSOS JOGADORES! 🏟️🟥⬛️"
+},
+{
+"c": "Flamengo TV",
+"f": "2026-10-22",
+"id": "e4qkcBM2LwA",
+"t": "CHEGOU O DIA! FLAMENGO PRONTO PARA A DECISÃO CONTRA O ESTUDIANTES"
 },
 {
 "c": "Flamengo TV",
@@ -5352,7 +5364,7 @@
 "c": "Flamengo TV",
 "f": "2026-10-21",
 "id": "R8xbLfDMvPE",
-"t": "Em semana de Libertadores, a cidade se veste de vermelho e preto! Somos todos, menos alguns. 🔴⚫️"
+"t": "Em semana de Libertadores, a cidade se veste de vermelho e preto! Somos todos, menos alguns 🔴⚫️"
 },
 {
 "c": "Flamengo TV",
@@ -5551,18 +5563,6 @@
 "f": "2026-10-17",
 "id": "Bj25JuvcEso",
 "t": "FOCO TOTAL NO BAHIA! PREPARAÇÃO INTENSA PARA MAIS UMA RODADA DO BRASILEIRO"
-},
-{
-"c": "Flamengo TV",
-"f": "2026-10-16",
-"id": "FfJ7BMxJlmU",
-"t": "🔴 AO VIVO: FINAL DO CAMPEONATO CARIOCA DE BASQUETE - FLAMENGO x FLUMINENSE | 15/10/26"
-},
-{
-"c": "Flamengo TV",
-"f": "2026-10-16",
-"id": "kPtsS-7Zslk",
-"t": "🔴 AO VIVO: ESTUDIANTES x FLAMENGO | PRÉ-JOGO + NARRAÇÃO | CONMEBOL LIBERTADORES (15/09/26)"
 }
 ],
 "Fluminense": [
@@ -5571,6 +5571,12 @@
 "f": "2026-10-22",
 "id": "FvUDgFcresc",
 "t": "AO VIVO - PALMEIRAS X FLUMINENSE | CONMEBOL LIBERTADORES 2026 | SEMIFINAL - VOLTA"
+},
+{
+"c": "Fluminense Football Club",
+"f": "2026-10-22",
+"id": "ZlVv_2fC37w",
+"t": "COLETIVA MARCÃO | PALMEIRAS 0 x 1 FLUMINENSE | CONMEBOL LIBERTADORES 2026"
 },
 {
 "c": "Fluminense Football Club",
@@ -5799,12 +5805,6 @@
 "f": "2026-10-04",
 "id": "kOXodYY02PY",
 "t": "“MARTINELLI HOJE COLHE OS FRUTOS DA SUA RESILIÊNCIA” #Volante #SeleçãoBrasileira"
-},
-{
-"c": "Fluminense Football Club",
-"f": "2026-10-03",
-"id": "_IdoAhcVTho",
-"t": "FLUTV NEWS: PREPARAÇÃO DO FLU NA DATA FIFA E ENTREVISTA COM IGNÁCIO"
 }
 ],
 "Fulham": [
@@ -6294,6 +6294,18 @@
 "Girona": [
 {
 "c": "Girona FC",
+"f": "2026-10-22",
+"id": "XNhB8JQqxFk",
+"t": "⚽️A pretemporada o a la lliga"
+},
+{
+"c": "Girona FC",
+"f": "2026-10-22",
+"id": "6M0V65OEghA",
+"t": "😅 Competidors en tot!"
+},
+{
+"c": "Girona FC",
 "f": "2026-10-21",
 "id": "lLJp2ArsmaM",
 "t": "🕹️ It’s meeee, Caaanya!"
@@ -6519,18 +6531,6 @@
 "f": "2026-10-02",
 "id": "kN61R1zDJFk",
 "t": "Els nostres colors ❤️🤍"
-},
-{
-"c": "Girona FC",
-"f": "2026-10-02",
-"id": "DIIT50FRYhU",
-"t": "🚘 Repte Autopòdium amb Izan i Mauro"
-},
-{
-"c": "Girona FC",
-"f": "2026-10-01",
-"id": "IfZQLWpfz2U",
-"t": "DIA MUNDIAL DE LA GENT GRAN | GIRONA FC"
 }
 ],
 "Gremio": [
@@ -6784,6 +6784,24 @@
 },
 {
 "c": "Inter",
+"f": "2026-10-22",
+"id": "WnUMCrzW1JI",
+"t": "Լաուտարոյի շոուն 🎬🇦🇲"
+},
+{
+"c": "Inter",
+"f": "2026-10-22",
+"id": "SJ-SptDzwLo",
+"t": "Çalhanoğlu’dan saf sihir ✨🇹🇷"
+},
+{
+"c": "Inter",
+"f": "2026-10-22",
+"id": "ko0W8iDrM1k",
+"t": "PRIMA VITTORIA EUROPEA, DECIDONO VUKAJ E CARRARA! | INTER U20 2-0 SHAKHTAR | UEFA YOUTH LEAGUE"
+},
+{
+"c": "Inter",
 "f": "2026-10-21",
 "id": "bKW0tvO6NbM",
 "t": "EP. 44 | Paul - Il governatore"
@@ -6997,24 +7015,6 @@
 "f": "2026-10-18",
 "id": "n47yZNBiBsE",
 "t": "Zieliński fully focused 🎯🇵🇱"
-},
-{
-"c": "Inter",
-"f": "2026-10-18",
-"id": "2nxLN0TcfU4",
-"t": "An unforgettable goal from Balotelli✨🖤💙"
-},
-{
-"c": "Inter",
-"f": "2026-10-18",
-"id": "3IEsXMMPbdk",
-"t": "54 SECONDS. That's all Carlos needed 😮‍💨"
-},
-{
-"c": "Inter",
-"f": "2026-10-18",
-"id": "5hjo5tp3DAw",
-"t": "Catch him in the 𝒄𝒍𝒐𝒖𝒅𝒔 ☁️"
 }
 ],
 "Ipswich Town": [
@@ -7262,6 +7262,18 @@
 "Juventus": [
 {
 "c": "Juventus",
+"f": "2026-10-22",
+"id": "DIb2BjY555Y",
+"t": "CHIELLINI SAVES A CERTAIN GOAL!"
+},
+{
+"c": "Juventus",
+"f": "2026-10-22",
+"id": "UksLbtHiNxE",
+"t": "WHEN JUVENTUS FACED A YOUNG MBAPPÉ | Juventus 2-1 Monaco | UCL Mini Match | May 2017"
+},
+{
+"c": "Juventus",
 "f": "2026-10-21",
 "id": "sx9ImYjVWNk",
 "t": "MARCHISIO FROM DISTANCE! 🚀"
@@ -7487,18 +7499,6 @@
 "f": "2026-10-16",
 "id": "OhSwdH-rDkI",
 "t": "WOLTEMADE’S GOAL FROM BEHIND THE NET!"
-},
-{
-"c": "Juventus",
-"f": "2026-10-15",
-"id": "-ee6XtMyGYs",
-"t": "WHAT A BICYCLE KICK FROM GATTI!"
-},
-{
-"c": "Juventus",
-"f": "2026-10-15",
-"id": "WE8J-Z6EmKg",
-"t": "ACROBATIC DEL PIERO, CLINICAL TREZEGUET! 🔥"
 }
 ],
 "Leeds United": [
@@ -7976,6 +7976,18 @@
 },
 {
 "c": "Liverpool FC",
+"f": "2026-10-22",
+"id": "Ee056pjJMzM",
+"t": "Araujo🇺🇾🌟"
+},
+{
+"c": "Liverpool FC",
+"f": "2026-10-22",
+"id": "dtJrNZtyb30",
+"t": "Rio x Macca 😮‍💨"
+},
+{
+"c": "Liverpool FC",
 "f": "2026-10-21",
 "id": "KAot6neyRlQ",
 "t": "Matchday Live: Liverpool vs Brighton | Team news, updates & more!"
@@ -7984,7 +7996,7 @@
 "c": "Liverpool FC",
 "f": "2026-10-21",
 "id": "UXEyn4cjLoE",
-"t": "Press Conference: Liverpool vs Brighton | Andoni Iraola pre-match update"
+"t": "Press Conference: Liverpool vs Brighton | Andoni Iraola | Pre-match update"
 },
 {
 "c": "Liverpool FC",
@@ -8183,18 +8195,6 @@
 "f": "2026-10-16",
 "id": "W-CfXk5phU4",
 "t": "Wirtz 😯"
-},
-{
-"c": "Liverpool FC",
-"f": "2026-10-16",
-"id": "VlaKhoRW2xI",
-"t": "Koumas' first LFC goal, at the third attempt 😅"
-},
-{
-"c": "Liverpool FC",
-"f": "2026-10-16",
-"id": "nyFidTLDnOA",
-"t": "Player of the month 🏆🇫🇷"
 }
 ],
 "Metz": [
@@ -8272,6 +8272,12 @@
 }
 ],
 "Middlesbrough": [
+{
+"c": "Middlesbrough FC",
+"f": "2026-10-22",
+"id": "p_yD3WfCBrc",
+"t": "Press Conference | Bolton Wanderers"
+},
 {
 "c": "Middlesbrough FC",
 "f": "2026-10-21",
@@ -8505,12 +8511,6 @@
 "f": "2026-09-08",
 "id": "NV_AnpFVsLs",
 "t": "Highlights | Crystal Palace 3 Boro 0 | Carabao Cup 3rd Round"
-},
-{
-"c": "Middlesbrough FC",
-"f": "2026-09-07",
-"id": "9Aid_5Gzhdg",
-"t": "Inside Matchday | QPR"
 }
 ],
 "Millwall": [
@@ -8528,6 +8528,18 @@
 }
 ],
 "Málaga CF": [
+{
+"c": "Málaga CF",
+"f": "2026-10-22",
+"id": "t-rNNMvyMX8",
+"t": "Rueda de prensa Funes | Previa #AlavésMálaga"
+},
+{
+"c": "Málaga CF",
+"f": "2026-10-22",
+"id": "e5iJMm_eSkQ",
+"t": "Preparación en La Rosaleda antes del #AlavésMálaga"
+},
 {
 "c": "Málaga CF",
 "f": "2026-10-21",
@@ -8755,21 +8767,21 @@
 "f": "2026-09-25",
 "id": "IGhKoRdy7iY",
 "t": "Working hard 🔥"
-},
-{
-"c": "Málaga CF",
-"f": "2026-09-24",
-"id": "JFAdHMzKVS4",
-"t": "El Club de Empresas MCF da la bienvenida a la campaña 26/27"
-},
-{
-"c": "Málaga CF",
-"f": "2026-09-24",
-"id": "586QVck5p0w",
-"t": "15 años de pasión y malaguismo en Ronda"
 }
 ],
 "Oxford United": [
+{
+"c": "Oxford United Official",
+"f": "2026-10-22",
+"id": "QCj8wfSorA4",
+"t": "Fan Cam! When Kai Andrews made it 2-1 📹"
+},
+{
+"c": "Oxford United Official",
+"f": "2026-10-22",
+"id": "UQrMhQqOMAI",
+"t": "Kai Andrews on First OUFC Goal, Wigan Win & Looks Ahead to Bradford and Stockport | Player Interview"
+},
 {
 "c": "Oxford United Official",
 "f": "2026-10-20",
@@ -8997,18 +9009,6 @@
 "f": "2026-10-01",
 "id": "YZdZYt5By3U",
 "t": "Reaction test except we don’t drop the ruler 🤭📏"
-},
-{
-"c": "Oxford United Official",
-"f": "2026-10-01",
-"id": "zaQATDaBxEw",
-"t": "Our Northern Irish Boys Take on the Ultimate Quiz"
-},
-{
-"c": "Oxford United Official",
-"f": "2026-09-29",
-"id": "vh-9AAIV0Xk",
-"t": "Magic in the middle, Tyler Goodrham! 🪄"
 }
 ],
 "Palmeiras": [
@@ -9256,6 +9256,12 @@
 "Paris FC": [
 {
 "c": "Paris FC",
+"f": "2026-10-22",
+"id": "BSPOa4lP2Mw",
+"t": "Maxime Lopez réagit à son deuxième but face à Rennes ! 😂"
+},
+{
+"c": "Paris FC",
 "f": "2026-10-21",
 "id": "-TZ_drNyMnw",
 "t": "Lassine Sinayoko a eu un problème juste avant le penalty ?? #parisfc #Sinayoko"
@@ -9487,12 +9493,6 @@
 "f": "2026-09-11",
 "id": "k3iYsalGRAw",
 "t": "INTERVIEW : Sandrine Soubeyrand se confie en amont de la nouvelle saison"
-},
-{
-"c": "Paris FC",
-"f": "2026-09-11",
-"id": "UC6ivjmNnjo",
-"t": "Le point presse | Paris FC - OL | J4 🎙️"
 }
 ],
 "Qarabağ Ağdam FK": [
@@ -9512,6 +9512,24 @@
 "RB Leipzig": [
 {
 "c": "RB Leipzig",
+"f": "2026-10-22",
+"id": "4v-N3swp1to",
+"t": "Admin last night 🫠"
+},
+{
+"c": "RB Leipzig",
+"f": "2026-10-22",
+"id": "m31x8tBqdtE",
+"t": "Reunion with Diomande & Konaté 🫂"
+},
+{
+"c": "RB Leipzig",
+"f": "2026-10-22",
+"id": "T1BzaIomOa8",
+"t": "Cold. 🥶"
+},
+{
+"c": "RB Leipzig",
 "f": "2026-10-21",
 "id": "Sl-mV3Ywg24",
 "t": "Hey Viní, don’t touch my Willi 🙅😎"
@@ -9526,7 +9544,7 @@
 "c": "RB Leipzig",
 "f": "2026-10-21",
 "id": "my-6MHavpXc",
-"t": "LIVE 🔴 Pressekonferenz nach Real Madrid - RB Leipzig | UEFA Champions League"
+"t": "„Ein ganz anderer Auftritt“ | PK nach Real Madrid - RB Leipzig | UEFA Champions League"
 },
 {
 "c": "RB Leipzig",
@@ -9551,6 +9569,12 @@
 "f": "2026-10-20",
 "id": "C7DtbjxparU",
 "t": "Let’s do it again 👊"
+},
+{
+"c": "RB Leipzig",
+"f": "2026-10-20",
+"id": "rkQcNR5z4Gk",
+"t": "LIVE 🔴 Pressekonferenz vor RB Leipzig - SV Elversberg | Bundesliga"
 },
 {
 "c": "RB Leipzig",
@@ -9725,33 +9749,15 @@
 "f": "2026-09-18",
 "id": "3WI31iZSQ3w",
 "t": "„In jede Aktion die gleiche Leidenschaft legen“ | PK vor Bayer Leverkusen - RB Leipzig | Bundesliga"
-},
-{
-"c": "RB Leipzig",
-"f": "2026-09-17",
-"id": "a2dSVFkHzjU",
-"t": "Still pure football art 🎨😮‍💨"
-},
-{
-"c": "RB Leipzig",
-"f": "2026-09-15",
-"id": "TDfkO6XVGxM",
-"t": "From set piece to masterpiece 🎨✨"
-},
-{
-"c": "RB Leipzig",
-"f": "2026-09-14",
-"id": "xzYXFkxgL9c",
-"t": "Oh how we’ve missed this! 😍"
-},
-{
-"c": "RB Leipzig",
-"f": "2026-09-13",
-"id": "Nu7LMdAc7cw",
-"t": "\"Das einzig Bittere war...\" | PK nach RB Leipzig - Hamburger SV | Bundesliga"
 }
 ],
 "Real Betis": [
+{
+"c": "Real Betis Balompié",
+"f": "2026-10-22",
+"id": "Drj1dVEiGS0",
+"t": "Se ha quedado un día superelegante por delante 😎"
+},
 {
 "c": "Real Betis Balompié",
 "f": "2026-10-21",
@@ -9985,15 +9991,33 @@
 "f": "2026-10-17",
 "id": "IOtkRosAuEc",
 "t": "Reacciones de Pellegrini, Valentín y Bellerín tras el #RealBetisBarça 🗣🎙 | BETIS"
-},
-{
-"c": "Real Betis Balompié",
-"f": "2026-10-16",
-"id": "k5AOfaWHhoA",
-"t": "Aweh, Mzansi! 🇿🇦"
 }
 ],
 "Real Madrid": [
+{
+"c": "Real Madrid",
+"f": "2026-10-22",
+"id": "vR_NK6Xp2vY",
+"t": "🎶 Y NADA MÁS... HALA MADRIIID!"
+},
+{
+"c": "Real Madrid",
+"f": "2026-10-22",
+"id": "Q7DjHhL6A3w",
+"t": "🤷‍♂️ Courtois things."
+},
+{
+"c": "Real Madrid",
+"f": "2026-10-22",
+"id": "XnY_5t_0nFk",
+"t": "Take a bow, Kylian! 🎯"
+},
+{
+"c": "Real Madrid",
+"f": "2026-10-22",
+"id": "Yu2N79viI_s",
+"t": "Pay attention to these safety instructions to make the most of your Bernabéu experience. ✈️🏟️"
+},
 {
 "c": "Real Madrid",
 "f": "2026-10-21",
@@ -10209,33 +10233,15 @@
 "f": "2026-10-16",
 "id": "EoNQQxVIW-Q",
 "t": "🔛 Getting READY for SEVILLA with some BRILLIANT goals! | Real Madrid"
-},
-{
-"c": "Real Madrid",
-"f": "2026-10-15",
-"id": "qKlOMeS-520",
-"t": "Now it’s your turn. Download and play the FC Mobile 27 update. Can you beat their tally? 👑"
-},
-{
-"c": "Real Madrid",
-"f": "2026-10-15",
-"id": "akR6zl81ca8",
-"t": "ACCESS DENIED 🚫"
-},
-{
-"c": "Real Madrid",
-"f": "2026-10-15",
-"id": "Di940Xy6c5Y",
-"t": "⌚ C.Espí time!"
-},
-{
-"c": "Real Madrid",
-"f": "2026-10-15",
-"id": "XTwwWBXVcgg",
-"t": "🚀 Pure instinct!"
 }
 ],
 "SC Paderborn 07": [
+{
+"c": "SC Paderborn 07 TV (official)",
+"f": "2026-10-22",
+"id": "LisyU2ssuTI",
+"t": "Pressekonferenz vor dem Heimspiel gegen den Hamburger SV"
+},
 {
 "c": "SC Paderborn 07 TV (official)",
 "f": "2026-10-21",
@@ -10469,15 +10475,15 @@
 "f": "2026-09-30",
 "id": "CI7KjUO6aH4",
 "t": "Kleiner Nap vor dem Capitol 😴"
-},
-{
-"c": "SC Paderborn 07 TV (official)",
-"f": "2026-09-30",
-"id": "KTvROaku27Y",
-"t": "Pressekonferenz mit Sebastian Lange vor dem Testspiel gegen D.C. United"
 }
 ],
 "SV 07 Elversberg": [
+{
+"c": "SV Elversberg",
+"f": "2026-10-22",
+"id": "FAhCVcG5onw",
+"t": "TVELV | Pressekonferenz - RB Leipzig vs. SV Elversberg | 24.10.26"
+},
 {
 "c": "SV Elversberg",
 "f": "2026-10-19",
@@ -10654,6 +10660,12 @@
 }
 ],
 "Sabah FK": [
+{
+"c": "Sabah",
+"f": "2026-10-22",
+"id": "ntCZ1PvutCY",
+"t": "İsrail şimdi de gözünü uzaya dikti!"
+},
 {
 "c": "Sabah",
 "f": "2026-10-21",
@@ -10887,15 +10899,15 @@
 "f": "2026-09-18",
 "id": "IxcnmAyqKm0",
 "t": "Şehit kızına duygulandıran sürpriz"
-},
-{
-"c": "Sabah",
-"f": "2026-09-17",
-"id": "ts1bdhPxw_k",
-"t": "Atina’nın gözü Söke’de"
 }
 ],
 "Sevilla": [
+{
+"c": "Sevilla FC",
+"f": "2026-10-22",
+"id": "XW9E9fU6eNY",
+"t": "Rueda de prensa de Gabriel Suazo 📡 EN DIRECTO"
+},
 {
 "c": "Sevilla FC",
 "f": "2026-10-21",
@@ -11129,12 +11141,6 @@
 "f": "2026-10-02",
 "id": "rXLyhuJJuO4",
 "t": "⚽️ Gol de nuestro 16 con dedicatoria muy especial 💫❤️‍🩹"
-},
-{
-"c": "Sevilla FC",
-"f": "2026-10-02",
-"id": "6_KOjqoEN4c",
-"t": "Unai Emery, de vuelta en Nervión y muy bien acompañado 🤍❤️ #unaiemery #sevillafc"
 }
 ],
 "Sheffield United": [
@@ -12580,6 +12586,12 @@
 "Tottenham Hotspur": [
 {
 "c": "Tottenham Hotspur",
+"f": "2026-10-22",
+"id": "ShpZzLNbj4c",
+"t": "Sonny, Dele and Kane (2) on target against Liverpool 🔥"
+},
+{
+"c": "Tottenham Hotspur",
 "f": "2026-10-20",
 "id": "FrZI-D5Y-F4",
 "t": "'부상 복귀' 데얀 쿨루셉스키를 꼭 안아주는 선수단🥺🤍"
@@ -12811,12 +12823,6 @@
 "f": "2026-10-09",
 "id": "FZbfB-nm9j8",
 "t": "Lucas Moura rounding off a big win in style 🪄"
-},
-{
-"c": "Tottenham Hotspur",
-"f": "2026-10-09",
-"id": "VQlsJV8vuz4",
-"t": "Bale brilliance at Old Trafford ⚡️"
 }
 ],
 "Toulouse": [
@@ -13064,6 +13070,18 @@
 "Werder Bremen": [
 {
 "c": "Werder Bremen",
+"f": "2026-10-22",
+"id": "hIWbDq_iKO8",
+"t": "Pressekonferenz vor Mainz I SV Werder Bremen"
+},
+{
+"c": "Werder Bremen",
+"f": "2026-10-22",
+"id": "wj2PQmWymg0",
+"t": "WER BIN ICH? I DUELL KARL HEIN X EREN DINKCI I SV Werder Bremen"
+},
+{
+"c": "Werder Bremen",
 "f": "2026-10-19",
 "id": "AIBTHVUK-qg",
 "t": "Pressekonferenz vor Dortmund I 2. Runde im DFB-Pokal"
@@ -13127,12 +13145,6 @@
 "f": "2026-10-02",
 "id": "UU5yqwhG2JM",
 "t": "RE-LIVE: FC Twente Enschede - SV Werder Bremen | WERDER.TV"
-},
-{
-"c": "Werder Bremen",
-"f": "2026-10-01",
-"id": "hIWbDq_iKO8",
-"t": "Pressekonferenz vor dem Auswärtsspiel in Mainz I SV Werder Bremen"
 },
 {
 "c": "Werder Bremen",
@@ -13295,12 +13307,6 @@
 "f": "2026-08-30",
 "id": "XxRbZB4ZoGg",
 "t": "SC Freiburg 4:1 Werder Bremen I Pressekonferenz I SV Werder Bremen"
-},
-{
-"c": "Werder Bremen",
-"f": "2026-08-28",
-"id": "kw54iwAT8Tc",
-"t": "Pressekonferenz mit Daniel Thioune vor Freiburg I SC Freiburg vs. SV Werder Bremen"
 }
 ],
 "Willem II": [
