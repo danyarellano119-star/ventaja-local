@@ -56,6 +56,24 @@
 },
 {
 "c": "CazéTV",
+"f": "2026-10-23",
+"id": "Rvl-wSFtKNY",
+"t": "COMPACTO: GINÁSTICA ARTÍSTICA | A VOLTA DE REBECA ANDRADE E FINAL POR EQUIPES DO MUNDIAL"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-23",
+"id": "P58fsnXBtLc",
+"t": "AO VIVO: FLÁVIA SARAIVA E LORRANE OLIVEIRA NA FINAL! | MUNDIAL DE GINÁSTICA ARTÍSTICA | 4º DIA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-23",
+"id": "Lz9z9zWXXiY",
+"t": "TODOS OS GOLS DE CRISTIANO RONALDO NO EL CLÁSICO EM LALIGA!"
+},
+{
+"c": "CazéTV",
 "f": "2026-10-22",
 "id": "JXSIpy6CoZI",
 "t": "JOGO COMPLETO: ATLÉTICO-MG X TORQUE | SUL-AMERICANA | NARRAÇÃO | NOCHE DE COPA"
@@ -341,12 +359,6 @@
 "f": "2026-10-21",
 "id": "lb_CmFChbtU",
 "t": "AO VIVO: REBECA ANDRADE EM BUSCA DO OURO! | MUNDIAL DE GINÁSTICA ARTÍSTICA | 5º DIA"
-},
-{
-"c": "CazéTV",
-"f": "2026-10-21",
-"id": "Rvl-wSFtKNY",
-"t": "AO VIVO: FLÁVIA SARAIVA E LORRANE OLIVEIRA NA FINAL! | MUNDIAL DE GINÁSTICA ARTÍSTICA | 4º DIA"
 },
 {
 "c": "CazéTV",
@@ -1397,6 +1409,12 @@
 "f": "2026-10-13",
 "id": "4-aj4cwWaHY",
 "t": "ZVEREV SEGUE FIRME! MENSIK CAI, FOKINA E DE MINAUR AVANÇAM | DIA 7 | MASTERS 1000 DE XANGAI"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-13",
+"id": "rnlPbOMWkQQ",
+"t": "AO VIVO: VFB STUTTGART X BORUSSIA MÖNCHENGLADBACH | BUNDESLIGA 26/27 | 7ª RODADA"
 },
 {
 "c": "CazéTV",
@@ -5080,6 +5098,18 @@
 },
 {
 "c": "Bundesliga",
+"f": "2026-10-23",
+"id": "8XUMpArgk9M",
+"t": "The BEST Goal From Each Minute (1-90) in Bundesliga HISTORY 🎯"
+},
+{
+"c": "Bundesliga",
+"f": "2026-10-23",
+"id": "1Ua-DQPP118",
+"t": "DER KLASSIKER IS COMING! Borussia Dortmund, Bayern Munich & Harry Kane Ballon d'Or Debate! |S.2 Ep.3"
+},
+{
+"c": "Bundesliga",
 "f": "2026-10-22",
 "id": "VS0V7Dlj8LI",
 "t": "THIS Is What Happened When LEWANDOWSKI and HAALAND Faced Off 🤯 🐐Der Klassiker 2020/21"
@@ -5185,6 +5215,12 @@
 "f": "2026-10-19",
 "id": "noBUNHgidQ0",
 "t": "LIVE 🔴 SV Darmstadt 98 vs. FC St. Pauli | Matchday 9 - Bundesliga 2 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-10-19",
+"id": "QZ54p3mYmyM",
+"t": "LIVE 🔴 VfB Stuttgart vs. Borussia Mönchengladbach | Matchday 7 - Bundesliga 2026/27"
 },
 {
 "c": "Bundesliga",
@@ -6804,6 +6840,18 @@
 },
 {
 "c": "UEFA",
+"f": "2026-10-23",
+"id": "Wx9EoJUz8vw",
+"t": "Kostov with a beautiful Goal of the Day!"
+},
+{
+"c": "UEFA",
+"f": "2026-10-23",
+"id": "nim9dULeZQg",
+"t": "Amione Adli's free-kick banger is your Goal of the Day!"
+},
+{
+"c": "UEFA",
 "f": "2026-10-22",
 "id": "Z8EWtT_jBnY",
 "t": "Harry Kane takes goal-kicks too apparently 🤷‍♂️"
@@ -8045,6 +8093,42 @@
 "f": "2026-10-23",
 "id": "_RqoTvl_k78",
 "t": "🎯 OUAZANE scoort WEER: \"Hoelang MOET hij nog in GLOUKHS nek blijven HIJGEN?\" 👀 | Voetbalpraat"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-23",
+"id": "epP5CX-mYrg",
+"t": "✅ Weekend 🙌 , ✅ 12 bier 🍻, ✅ Vroege voorsprong 👏"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-23",
+"id": "2Ri1M6feeuE",
+"t": "Het zoontje van Toornstra is trots met de aanstaande mijlpaal van z'n vader, als hij speelt dan...😜"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-23",
+"id": "4q62nozm7hE",
+"t": "⏳ Jens Toornstra staat voor zijn 500ste Eredivisieduel en blikt terug op zijn carrière 🔙🏆"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-23",
+"id": "ugONu6gSINw",
+"t": "PETER BOSZ over VAN BRONCKHORST en het duel met FEYENOORD 🗣️ | Interview"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-23",
+"id": "KYOYt14d9gU",
+"t": "Peter Bosz ❤️ Giovanni van Bronckhorst"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-23",
+"id": "LyK0i6DvkDU",
+"t": "🏅 𝐉𝐄𝐍𝐒 𝐓𝐎𝐎𝐑𝐍𝐒𝐓𝐑𝐀: \"De MOOISTE HERINNERING uit mijn CARRIÈRE\" 🏆 | Interview"
 },
 {
 "c": "ESPN NL",
@@ -13367,42 +13451,6 @@
 "f": "2026-09-03",
 "id": "PuGQ9Lpd2Hc",
 "t": "Dévy Rigaux tempert verwachtingen bij Feyenoord 😬🏆"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-03",
-"id": "55kx5Wg2cSU",
-"t": "🗣️ DÉVY RIGAUX over de TRANSFERZOMER: \"Nooit hardop over het kampioenschap gesproken\" | Interview"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-03",
-"id": "Ak-gpEk_HbI",
-"t": "Gjivai Zechiël staat op het punt zijn contract bij Feyenoord te verlengen 🤩✍️"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-03",
-"id": "73AAP_fQlhQ",
-"t": "Leeroy Echteld = 𝐑𝐢𝐧𝐮𝐬 𝐌𝐢𝐜𝐡𝐞𝐥𝐬 𝐂𝐨𝐚𝐜𝐡 𝐯𝐚𝐧 𝐝𝐞 𝐌𝐚𝐚𝐧𝐝 augustus 🏆👔"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-03",
-"id": "tY2UlQeQQlQ",
-"t": "‼️👀 \"Tjaronn CHERY is DÉ MUSTHAVE-speler tot nu toe in DIT FANTASY-SEIZOEN\" | ESPN Fantasy Show"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-03",
-"id": "oZ669FsHH2Y",
-"t": "Jordi Cruijff over het gat met PSV: \"Dat is denk ik gedicht\" 👀"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-03",
-"id": "cY7YLf0DJjE",
-"t": "Met een dubbele speelronde is 𝐃𝐚𝐨𝐮𝐝𝐚 𝐖𝐞𝐢𝐝𝐦𝐚𝐧𝐧 het overwegen waard! 🇫🇷✨"
 }
 ],
 "laliga": [
@@ -13411,6 +13459,24 @@
 "f": "2026-10-23",
 "id": "iF7KpdI8Dvo",
 "t": "ADEYEMI se queda solo ante VALLES y…"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-23",
+"id": "u7OfVvjPqBY",
+"t": "¿LAMINE o MBAPPÉ? Elige tu CAPITÁN para ELCLÁSICO | LALIGA FANTASY SHOW #9"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-23",
+"id": "4tffRP_r7Go",
+"t": "Real Madrid 0 - 1 FC Barcelona 2018/19 PARTIDO COMPLETO"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-23",
+"id": "Q-XmSSvsO-Q",
+"t": "¿Con qué gol te quedas: LAMINE YAMAL o KYLIAN MBAPPÉ?"
 },
 {
 "c": "LALIGA EA SPORTS",
@@ -17736,6 +17802,18 @@
 },
 {
 "c": "Ligue 1",
+"f": "2026-10-23",
+"id": "d0KZ2vG_nEU",
+"t": "PFC - RENNES : “CHASSEURS” | SOUS TOUS LES ANGLES, LE FORMAT IMMERSIF DE LIGUE 1+"
+},
+{
+"c": "Ligue 1",
+"f": "2026-10-23",
+"id": "xy4Yj9nrEtc",
+"t": "All eyez on Karim Benzema 👀🪄 #football #ligue1 #foot #footballshorts #sports #soccer #skills #shorts"
+},
+{
+"c": "Ligue 1",
 "f": "2026-10-22",
 "id": "Dea4yFixMxo",
 "t": "The Ecuadorian Wall 🧱🇪🇨  #football #ligue1 #foot #psg #soccer #footballshorts #skills #shorts"
@@ -19676,6 +19754,18 @@
 },
 {
 "c": "Premier League",
+"f": "2026-10-23",
+"id": "8XdoSdyecD0",
+"t": "FPL Deadline Countdown | Last-Minute Advice | GW8"
+},
+{
+"c": "Premier League",
+"f": "2026-10-23",
+"id": "7mOoAVQ73og",
+"t": "Liverpool's Attack Is Dangerous 😤"
+},
+{
+"c": "Premier League",
 "f": "2026-10-22",
 "id": "K8TiBKu3a-Y",
 "t": "Jack Hinshelwood RATES His Best Premier League Goals for Brighton"
@@ -19715,12 +19805,6 @@
 "f": "2026-10-22",
 "id": "ZbrLNXVo8V4",
 "t": "Carlos Baleba Showing OFF 🤤"
-},
-{
-"c": "Premier League",
-"f": "2026-10-22",
-"id": "8XdoSdyecD0",
-"t": "FPL Deadline Countdown | Last-Minute Advice | GW8"
 },
 {
 "c": "Premier League",
