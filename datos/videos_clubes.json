@@ -1218,6 +1218,18 @@
 },
 {
 "c": "Atalanta Bergamasca Calcio",
+"f": "2026-10-22",
+"id": "q_7NBKcihUc",
+"t": "Il commento di Maurizio Sarri | Ajax-Atalanta 2-0 | UECL MD2 League Phase - EN SUBs"
+},
+{
+"c": "Atalanta Bergamasca Calcio",
+"f": "2026-10-22",
+"id": "5RfOJwKox1E",
+"t": "Le interviste a Éderson e Zappacosta | Ajax-Atalanta 2-0 | UECL MD2 League Phase - EN SUBs"
+},
+{
+"c": "Atalanta Bergamasca Calcio",
 "f": "2026-10-21",
 "id": "-ZuZtlXxSfk",
 "t": "Rondo time 🐂⚽️"
@@ -1437,18 +1449,6 @@
 "f": "2026-10-12",
 "id": "6XpU-lnB19U",
 "t": "Raoul Bellanova: \"Volevamo i tre punti\" | Atalanta-Venezia 3-1 | 6ª Serie A Enilive 2026/27 - EN SUB"
-},
-{
-"c": "Atalanta Bergamasca Calcio",
-"f": "2026-10-12",
-"id": "Edw94uhqS6s",
-"t": "12 ottobre 2026"
-},
-{
-"c": "Atalanta Bergamasca Calcio",
-"f": "2026-10-12",
-"id": "QQ88La3om8w",
-"t": "Atalanta-Venezia | Our Starting XI | 6ª Serie A Enilive 2026/27"
 }
 ],
 "Athletico Paranaense": [
@@ -3148,6 +3148,18 @@
 "Corinthians": [
 {
 "c": "Corinthians TV",
+"f": "2026-10-23",
+"id": "U6SHWrBygg8",
+"t": "JOGO COMPLETO: BRASÍLIA 104 X 92 CORINTHIANS BASQUETE | NBB CAIXA 2026/27 | 2ª RODADA"
+},
+{
+"c": "Corinthians TV",
+"f": "2026-10-23",
+"id": "-oR7Mtefi2Y",
+"t": "BASTIDORES NO AR! 🎥"
+},
+{
+"c": "Corinthians TV",
 "f": "2026-10-22",
 "id": "b9SAI0-GqGs",
 "t": "16ª GRANDE FESTA BENEFICENTE CORINTHIANA."
@@ -3163,6 +3175,18 @@
 "f": "2026-10-22",
 "id": "70rWu---Egw",
 "t": "TREINO DO TIMÃO: ELENCO ALVINEGRO COMPLETA MAIS UM TREINO NO CT DR. JOAQUIM GRAVA"
+},
+{
+"c": "Corinthians TV",
+"f": "2026-10-22",
+"id": "a81Y99m6Kl0",
+"t": "AO VIVO: CORINTHIANS X MIRASSOL | BRASILEIRÃO 2026 | 33ª RODADA | DIA DE CORINTHIANS"
+},
+{
+"c": "Corinthians TV",
+"f": "2026-10-22",
+"id": "bKERuiOZaik",
+"t": "BASTIDORES DAS BRABAS: SANTA FE 1 X 5 CORINTHIANS | 3ª RODADA | CONMEBOL LIBERTADORES FEMENINA 2026."
 },
 {
 "c": "Corinthians TV",
@@ -3305,12 +3329,6 @@
 {
 "c": "Corinthians TV",
 "f": "2026-10-19",
-"id": "U6SHWrBygg8",
-"t": "AO VIVO COM IMAGENS: BRASÍLIA X CORINTHIANS BASQUETE | NBB CAIXA 2026/27 | 2ª RODADA"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-10-19",
 "id": "Me6k0pMzNMs",
 "t": "AO VIVO COM IMAGENS: CORINTHIANS X NOVORIZONTINO | PAULISTÃO SUB-15 2026 | OITAVAS DE FINAL - VOLTA"
 },
@@ -3367,24 +3385,6 @@
 "f": "2026-10-17",
 "id": "p5aU8v0XNM8",
 "t": "A tecnologia também entra em quadra com o #CorinthiansBasquete! 🏀🏴🏳️"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-10-17",
-"id": "CbBnATD5Vio",
-"t": "A Neo Química Arena recebeu mais um Encontro de Integridade & ESG"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-10-17",
-"id": "-oGt44Ne7uM",
-"t": "TÁ NO AR OS BASTIDORES DA VITÓRIA DAS BRABAS! 🎬"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-10-17",
-"id": "KztNEFxEECo",
-"t": "O DIA DE TREINO DO CORINGÃO NESTA SEXTA-FEIRA! 💪🏽⚽"
 }
 ],
 "Coventry City": [
@@ -10657,12 +10657,6 @@
 "f": "2026-05-28",
 "id": "lF5IFhBOgLw",
 "t": "TVELV // Inside - Aufstiegsfeier am Rathaus"
-},
-{
-"c": "SV Elversberg",
-"f": "2026-05-25",
-"id": "sZah9egz7EU",
-"t": "TVELV // Inside - Liga EINS, hier kommt die ELV!"
 }
 ],
 "Sabah FK": [
@@ -13339,18 +13333,6 @@
 "f": "2026-05-28",
 "id": "NLSbqCbwGs0",
 "t": "Highlights // FC Volendam - Willem II // 1-2"
-},
-{
-"c": "Willem II",
-"f": "2026-05-25",
-"id": "-g8a3GzTnQA",
-"t": "SAMEN NAAR DE HEUVEL"
-},
-{
-"c": "Willem II",
-"f": "2026-05-25",
-"id": "KEc4J8ux52Y",
-"t": "Oefenwedstrijd // Willem II - OFI Kreta"
 }
 ],
 "ŠK Slovan Bratislava": [
