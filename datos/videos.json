@@ -64,13 +64,67 @@
 "c": "CazéTV",
 "f": "2026-10-23",
 "id": "P58fsnXBtLc",
-"t": "AO VIVO: FLÁVIA SARAIVA E LORRANE OLIVEIRA NA FINAL! | MUNDIAL DE GINÁSTICA ARTÍSTICA | 4º DIA"
+"t": "FLÁVIA SARAIVA E LORRANE OLIVEIRA NA FINAL! | MUNDIAL DE GINÁSTICA ARTÍSTICA | 4º DIA"
 },
 {
 "c": "CazéTV",
 "f": "2026-10-23",
 "id": "Lz9z9zWXXiY",
 "t": "TODOS OS GOLS DE CRISTIANO RONALDO NO EL CLÁSICO EM LALIGA!"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-23",
+"id": "rnlPbOMWkQQ",
+"t": "JOGO COMPLETO: VFB STUTTGART X BORUSSIA MÖNCHENGLADBACH | BUNDESLIGA 26/27 | 7ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-23",
+"id": "NPHfqxoq_64",
+"t": "O DIA EM QUE MESSI FEZ TRÊS GOLS CONTRA O REAL MADRID"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-23",
+"id": "q7kpQfd7qrQ",
+"t": "VOCÊ SABIA OS SEGREDOS DA JULIA SOARES??? 👀🤸‍♀️"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-23",
+"id": "gJyDhF1lfLk",
+"t": "MELHORES MOMENTOS: ALAVÉS 1 X 1 MÁLAGA | LALIGA 26/27 | 10ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-23",
+"id": "77Hd34fGq0I",
+"t": "MELHORES MOMENTOS: STUTTGART 2 X 3 BORUSSIA MÖNCHENGLADBACH | BUNDESLIGA 26/27 | 7ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-23",
+"id": "DsuvaGXHpsA",
+"t": "AO VIVO: CRUZEIRO X LIBERTAD | LIBERTADORES FEMININA 2026 | QUARTAS DE FINAL"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-23",
+"id": "qWfdUKagXQE",
+"t": "AO VIVO: PALMEIRAS X SANTA FE | LIBERTADORES FEMININA 2026 | QUARTAS DE FINAL"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-23",
+"id": "z7xACiLpDqg",
+"t": "AO VIVO: CORINTHIANS X INDEPENDIENTE DRAGONAS | LIBERTADORES FEMININA 2026 | QUARTAS DE FINAL"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-23",
+"id": "LCqhz7bO420",
+"t": "TODOS OS GOLS DE MBAPPÉ PELO REAL MADRID NA LALIGA!"
 },
 {
 "c": "CazéTV",
@@ -1413,8 +1467,8 @@
 {
 "c": "CazéTV",
 "f": "2026-10-13",
-"id": "rnlPbOMWkQQ",
-"t": "AO VIVO: VFB STUTTGART X BORUSSIA MÖNCHENGLADBACH | BUNDESLIGA 26/27 | 7ª RODADA"
+"id": "dkP4lirMo5c",
+"t": "AO VIVO: FIM DE SEMANA DE EL CLÁSICO E MAIS UMA RODADA QUENTE DO BRASILEIRÃO | QUEM FEZ, FEZ"
 },
 {
 "c": "CazéTV",
@@ -5110,6 +5164,36 @@
 },
 {
 "c": "Bundesliga",
+"f": "2026-10-23",
+"id": "gZUJc6gGKTI",
+"t": "VfL Bochum 1848 vs. VfL Wolfsburg | Matchday 9 - Bundesliga 2 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-10-23",
+"id": "noBUNHgidQ0",
+"t": "SV Darmstadt 98 vs. FC St. Pauli | Matchday 9 - Bundesliga 2 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-10-23",
+"id": "QZ54p3mYmyM",
+"t": "VfB Stuttgart vs. Borussia Mönchengladbach | Matchday 7 - Bundesliga 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-10-23",
+"id": "0DBFOjBUI_g",
+"t": "17-Year-Old Mohya Makes THE DIFFERENCE! 😍"
+},
+{
+"c": "Bundesliga",
+"f": "2026-10-23",
+"id": "DPwog2DHu0Q",
+"t": "17-Year-Old Mohya SHINES | VFB STUTTGART - BORUSSIA M'GLADBACH | Highlights | MD 7 – Bundeliga 26/27"
+},
+{
+"c": "Bundesliga",
 "f": "2026-10-22",
 "id": "VS0V7Dlj8LI",
 "t": "THIS Is What Happened When LEWANDOWSKI and HAALAND Faced Off 🤯 🐐Der Klassiker 2020/21"
@@ -5203,24 +5287,6 @@
 "f": "2026-10-19",
 "id": "mdfBywjZMrA",
 "t": "LIVE 🔴 1. FC Heidenheim 1846 vs. FC Energie Cottbus | Matchday 9 - Bundesliga 2 2026/27"
-},
-{
-"c": "Bundesliga",
-"f": "2026-10-19",
-"id": "gZUJc6gGKTI",
-"t": "LIVE 🔴 VfL Bochum 1848 vs. VfL Wolfsburg | Matchday 9 - Bundesliga 2 2026/27"
-},
-{
-"c": "Bundesliga",
-"f": "2026-10-19",
-"id": "noBUNHgidQ0",
-"t": "LIVE 🔴 SV Darmstadt 98 vs. FC St. Pauli | Matchday 9 - Bundesliga 2 2026/27"
-},
-{
-"c": "Bundesliga",
-"f": "2026-10-19",
-"id": "QZ54p3mYmyM",
-"t": "LIVE 🔴 VfB Stuttgart vs. Borussia Mönchengladbach | Matchday 7 - Bundesliga 2026/27"
 },
 {
 "c": "Bundesliga",
@@ -8129,6 +8195,90 @@
 "f": "2026-10-23",
 "id": "LyK0i6DvkDU",
 "t": "🏅 𝐉𝐄𝐍𝐒 𝐓𝐎𝐎𝐑𝐍𝐒𝐓𝐑𝐀: \"De MOOISTE HERINNERING uit mijn CARRIÈRE\" 🏆 | Interview"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-23",
+"id": "jpF9X6iBVVU",
+"t": "VERHITTE SLOTFASE in BREDA 🥊 | Samenvatting NAC Breda - Heracles Almelo"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-23",
+"id": "5f2IX64obow",
+"t": "Bjorn van Zijl legt hem SCHITTEREND in de BOVENHOEK 😍 | Samenvatting De Graafschap - RKC Waalwijk"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-23",
+"id": "a_HEFNk4yz0",
+"t": "Er staat GEEN REM op JACK COOPER-LOVE 👏 | Samenvatting Vitesse - FC Emmen"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-23",
+"id": "leRnLgqZyiA",
+"t": "🇩🇰 Søren Tengstedt WEER BELANGRIJK voor Go Ahead! 🦅👏 | Samenvatting Go Ahead Eagles - Telstar"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-23",
+"id": "FUJPMJzNNVs",
+"t": "🤸 ACROBATISCHE VOLLEY & WAANZINNIGE VRIJE TRAP! 😱 | Samenvatting TOP Oss - Jong Ajax"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-23",
+"id": "-XMCHuHALw4",
+"t": "😮‍💨 Henk Veerman DE GROTE MAN in GALAVOORSTELLING 🧡✨ | Samenvatting FC Volendam - Jong FC Utrecht"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-23",
+"id": "iBPnCt-fEUM",
+"t": "GENIETEN MET 9️⃣ GOALS EN EEN LASTMINUTE BESLISSING 🍿 | Samenvatting Jong AZ - Helmond Sport"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-23",
+"id": "gLauuCm0C_k",
+"t": "BLOEDSTOLLENDE MINI-LICHTSTADDERBY ⚔️💡 | Samenvatting FC Eindhoven - Jong PSV"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-23",
+"id": "PX1AeBr_qtY",
+"t": "Anthony van den Hurk SCOORT 3️⃣ KEER! HATTRICK! 👏 | Samenvatting Almere City - Roda JC"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-23",
+"id": "zvMZ0UQKBnI",
+"t": "ROBERT KLAASEN MET EEN HEUSE 𝙊𝙇𝙄𝙈𝙋𝙄𝘾𝙊 ✨ | Samenvatting FC Den Bosch - MVV"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-23",
+"id": "Tpgs-BlkE5o",
+"t": "Pepijn van de Merbel moest vol verbazing het veld met rood verlaten 🟥"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-23",
+"id": "x_OcYG0MtYA",
+"t": "Wát een manier voor Abdoulaye Camara om zijn eerste te maken 😮‍💨💥"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-23",
+"id": "orvcW41j8Iw",
+"t": "Leo Salazar op acrobatische wijze 😮‍💨🤸"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-23",
+"id": "UCMNtv5aQvE",
+"t": "Bjorn van Zijl 🚀"
 },
 {
 "c": "ESPN NL",
@@ -13367,90 +13517,6 @@
 "f": "2026-09-04",
 "id": "BCvBkXo3234",
 "t": "Ibrahim Cissoko met zijn eerste voor PEC 🤩🐺"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-04",
-"id": "sFuMfZ4c0eU",
-"t": "Wéér een afgekeurde goal voor Milan Zonneveld 😬"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-04",
-"id": "udqDfemXKQ0",
-"t": "Jean-Paul N'Djoli maakt al zijn zevende (!) van het seizoen 🔥"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-04",
-"id": "RS53thZ3ciY",
-"t": "200 NAC-supporters met de boot 'TITANAC' naar Waalwijk ⛴️👏"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-04",
-"id": "9lvkGuS8Lfk",
-"t": "💥🥊Van La Parra en Djuricic gingen met elkaar op de vuist door rode kaart Joey van den Berg 😅"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-04",
-"id": "3fuzzVzkPEg",
-"t": "MONSERRATE met zijn EERSTE voor AJAX ☝️⚡️ | Samenvatting Almere City - Jong Ajax"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-04",
-"id": "SWgcCEcTHd4",
-"t": "NAOUFAL BANNIS scoort zijn ZESDE van het seizoen 🔥 | Samenvatting Vitesse - TOP Oss"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-04",
-"id": "6xbVG1rgSFw",
-"t": "SCHITTERENDE GOALS in DOELPUNTENFESTIJN 🤩⚽️ | Samenvatting FC Emmen - FC Volendam"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-04",
-"id": "R0VOkbRzOx0",
-"t": "Leo Greiml krijgt TWEE GELE KAARTEN binnen 10 MINUTEN 🟥 | Samenvatting RKC Waalwijk - NAC Breda"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-04",
-"id": "xcmclJR13PY",
-"t": "Mauro Lenaerts gaat HE-LE-MAAL LOS na goals 🥳 | Samenvatting Helmond Sport - VVV-Venlo"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-04",
-"id": "AzJx0uW_E58",
-"t": "Jean-Paul N'Djoli BLIJFT MAAR SCOREN: HATTRICK 🔥🔥🔥 | Samenvatting Heracles - De Graafschap"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-04",
-"id": "M36gId-jcoY",
-"t": "ISAAC BABADI DIRECT TREFZEKER 💨🏰 | Samenvatting Sparta Rotterdam - PEC Zwolle"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-04",
-"id": "1e4Zr9JSCP0",
-"t": "Isaac Babadi dolblij na doelpunt in eerste wedstrijd sinds maart 😁🙏"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-04",
-"id": "dpYzCEWvvO0",
-"t": "De vader van Sybrand Veldhuis heeft een voorspellende gave 😅🔮"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-03",
-"id": "PuGQ9Lpd2Hc",
-"t": "Dévy Rigaux tempert verwachtingen bij Feyenoord 😬🏆"
 }
 ],
 "laliga": [
@@ -13480,6 +13546,42 @@
 },
 {
 "c": "LALIGA EA SPORTS",
+"f": "2026-10-23",
+"id": "AUQMNT0GLoo",
+"t": "🔴 DEPORTIVO ALAVÉS vs MÁLAGA CF - PREVIA DEL PARTIDO"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-23",
+"id": "5pEVhpvCAR8",
+"t": "DEPORTIVO ALAVÉS vs MÁLAGA CF | RUEDA DE PRENSA"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-23",
+"id": "FI7o3VCACDk",
+"t": "DEPORTIVO ALAVÉS 1 - 1 MÁLAGA CF | RESUMEN LALIGA EA SPORTS"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-23",
+"id": "MVE_CCqYpQQ",
+"t": "Celebrando su primer gol en #LALIGAEASPORTS. 💙🦊"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-23",
+"id": "KSfRWH8ezzw",
+"t": "⛔️⛔️⛔️"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-23",
+"id": "fj91GUQQvDQ",
+"t": "Adrián Niño x Málaga🩵"
+},
+{
+"c": "LALIGA EA SPORTS",
 "f": "2026-10-22",
 "id": "UIPMuub5KdQ",
 "t": "CR7 ✨"
@@ -13501,12 +13603,6 @@
 "f": "2026-10-22",
 "id": "mMK0UMuHsJs",
 "t": "Los 17 MINUTOS FINALES del gol decisivo de BELLINGHAM en ELCLÁSICO ⚪ | LALIGA EA SPORTS"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-10-22",
-"id": "AUQMNT0GLoo",
-"t": "🔴 DEPORTIVO ALAVÉS vs MÁLAGA CF - PREVIA DEL PARTIDO"
 },
 {
 "c": "LALIGA EA SPORTS",
@@ -13537,12 +13633,6 @@
 "f": "2026-10-22",
 "id": "dKbcG2_qOqg",
 "t": "Conocemos Elche junto a MATÍAS DITURO"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-10-22",
-"id": "5pEVhpvCAR8",
-"t": "DEPORTIVO ALAVÉS vs MÁLAGA CF | RUEDA DE PRENSA"
 },
 {
 "c": "LALIGA EA SPORTS",
@@ -19766,6 +19856,12 @@
 },
 {
 "c": "Premier League",
+"f": "2026-10-23",
+"id": "Sll9Sy8dM2Y",
+"t": "All Arteta Goals And Assists For Arsenal And Everton"
+},
+{
+"c": "Premier League",
 "f": "2026-10-22",
 "id": "K8TiBKu3a-Y",
 "t": "Jack Hinshelwood RATES His Best Premier League Goals for Brighton"
@@ -21127,6 +21223,18 @@
 "f": "2026-10-23",
 "id": "TMDiPAPfln4",
 "t": "INTER-FIORENTINA 3-0 | CLASSIC HIGHLIGHTS SERIE A 2025/26"
+},
+{
+"c": "Serie A",
+"f": "2026-10-23",
+"id": "BoiaLRMdjDA",
+"t": "Il Toro Continua a Vincere | TORINO-MONZA | HIGHLIGHTS | SERIE A ENILIVE 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-10-23",
+"id": "0Vx--kw41Gs",
+"t": "The Granata Extend Winning Run | TORINO-MONZA | HIGHLIGHTS | Serie A 2026/27"
 },
 {
 "c": "Serie A",
