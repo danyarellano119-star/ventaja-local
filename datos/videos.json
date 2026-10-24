@@ -32,6 +32,60 @@
 },
 {
 "c": "CazéTV",
+"f": "2026-10-24",
+"id": "lb_CmFChbtU",
+"t": "REBECA ANDRADE EM BUSCA DO OURO! | MUNDIAL DE GINÁSTICA ARTÍSTICA | 5º DIA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-24",
+"id": "Px-yCHRK6Hc",
+"t": "JOGO COMPLETO: BRASIL X NORUEGA | COPA DO MUNDO FEMININA SUB-17 2026 | 3ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-24",
+"id": "0Mgj3C7PHO8",
+"t": "JOGO COMPLETO: RB LEIPZIG X ELVERSBERG | BUNDESLIGA 26/27 | 7ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-24",
+"id": "rGl17MRxQh4",
+"t": "JOGO COMPLETO: RAYO VALLECANO X ELCHE | LALIGA 26/27 | 10ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-24",
+"id": "N1Wc-FufSBM",
+"t": "JOGO COMPLETO: NAPOLI X ROMA | SÉRIE A ITALIANA 26/27 | 8ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-24",
+"id": "ZIFg35jC92Q",
+"t": "MELHORES MOMENTOS: 3 BRASIL X 0 NORUEGA | COPA DO MUNDO FEMININA SUB-17 2026 | 3ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-24",
+"id": "NLz0Y6qTIxk",
+"t": "JOGO COMPLETO: RACING CLUB X ESPANYOL | LALIGA 26/27 | 10ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-24",
+"id": "fJ4S6qGTZvc",
+"t": "MELHORES MOMENTOS: RACING CLUB 2 X 1 ESPANYOL | LALIGA 26/27 | 10ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-24",
+"id": "5XVJwYbHvh0",
+"t": "MELHORES MOMENTOS: RB LEIPZIG 4 X 0 ELVERSBERG | BUNDESLIGA 26/27 | 7ª RODADA"
+},
+{
+"c": "CazéTV",
 "f": "2026-10-23",
 "id": "PSZsVLpNbvg",
 "t": "FLAMENGO X ESTUDIANTES DE LA PLATA | LIBERTADORES | NARRAÇÃO | NOCHE DE COPA"
@@ -431,12 +485,6 @@
 "f": "2026-10-21",
 "id": "vd3fBUIDDko",
 "t": "AO VIVO: FLÁVIA SARAIVA NA FINAL! | MUNDIAL DE GINÁSTICA ARTÍSTICA | 6º DIA"
-},
-{
-"c": "CazéTV",
-"f": "2026-10-21",
-"id": "lb_CmFChbtU",
-"t": "AO VIVO: REBECA ANDRADE EM BUSCA DO OURO! | MUNDIAL DE GINÁSTICA ARTÍSTICA | 5º DIA"
 },
 {
 "c": "CazéTV",
@@ -1455,20 +1503,8 @@
 {
 "c": "CazéTV",
 "f": "2026-10-14",
-"id": "Px-yCHRK6Hc",
-"t": "AO VIVO: BRASIL X NORUEGA | COPA DO MUNDO FEMININA SUB-17 2026 | 3ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-10-14",
-"id": "0Mgj3C7PHO8",
-"t": "AO VIVO: RB LEIPZIG X ELVERSBERG | BUNDESLIGA 26/27 | 7ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-10-14",
-"id": "rGl17MRxQh4",
-"t": "AO VIVO: RACING CLUB X ESPANYOL | LALIGA 26/27 | 10ª RODADA"
+"id": "iwiaWUguZg8",
+"t": "AO VIVO: VALENCIA X VILLARREAL | LALIGA 26/27 | 10ª RODADA"
 },
 {
 "c": "CazéTV",
@@ -5190,7 +5226,7 @@
 "c": "Bundesliga",
 "f": "2026-10-24",
 "id": "2UnCnC4bYGw",
-"t": "\"Der Klassiker\" is coming 🔥"
+"t": "First look at some BVB09 stars ready for 𝗙𝗢𝗢𝗧𝗕𝗔𝗟𝗟 𝗙𝗨𝗡𝗭𝗢𝗡𝗘: 𝗗𝗘𝗥 𝗞𝗟𝗔𝗦𝗦𝗜𝗞𝗘𝗥 👀😎"
 },
 {
 "c": "Bundesliga",
@@ -5209,6 +5245,54 @@
 "f": "2026-10-24",
 "id": "mdfBywjZMrA",
 "t": "1. FC Heidenheim 1846 vs. FC Energie Cottbus | Matchday 9 - Bundesliga 2 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-10-24",
+"id": "bL0ITmrsgrM",
+"t": "FC Augsburg vs. 1. FC Union Berlin | Matchday 7 - Bundesliga 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-10-24",
+"id": "SDgWBORA1RU",
+"t": "SC Paderborn 07 vs. Hamburger SV | Matchday 7 - Bundesliga 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-10-24",
+"id": "KsC8lHjCfUI",
+"t": "RB Leipzig vs. SV Elversberg | Matchday 7 - Bundesliga 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-10-24",
+"id": "xNA9z-_nQ4Q",
+"t": "1. FSV Mainz 05 vs. SV Werder Bremen | Matchday 7 - Bundesliga 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-10-24",
+"id": "e6mshYKp8bk",
+"t": "1. FC Köln vs. FC Schalke 04 | Matchday 7 - Bundesliga 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-10-24",
+"id": "WukqqLg6EjY",
+"t": "Guirassy denied by Atubolu 😳"
+},
+{
+"c": "Bundesliga",
+"f": "2026-10-24",
+"id": "vg3rNhbzwbI",
+"t": "Nyland shuts the door 🫷🇳🇴"
+},
+{
+"c": "Bundesliga",
+"f": "2026-10-24",
+"id": "SNUnwzOB4EA",
+"t": "ANOTHER Füllkrug Brace! | MAINZ 05 - WERDER BREMEN | Highlights | Matchday 7 – Bundesliga 2026/27"
 },
 {
 "c": "Bundesliga",
@@ -5339,32 +5423,8 @@
 {
 "c": "Bundesliga",
 "f": "2026-10-19",
-"id": "bL0ITmrsgrM",
-"t": "LIVE 🔴 FC Augsburg vs. 1. FC Union Berlin | Matchday 7 - Bundesliga 2026/27"
-},
-{
-"c": "Bundesliga",
-"f": "2026-10-19",
-"id": "SDgWBORA1RU",
-"t": "LIVE 🔴 SC Paderborn 07 vs. Hamburger SV | Matchday 7 - Bundesliga 2026/27"
-},
-{
-"c": "Bundesliga",
-"f": "2026-10-19",
-"id": "KsC8lHjCfUI",
-"t": "LIVE 🔴 RB Leipzig vs. SV Elversberg | Matchday 7 - Bundesliga 2026/27"
-},
-{
-"c": "Bundesliga",
-"f": "2026-10-19",
-"id": "xNA9z-_nQ4Q",
-"t": "LIVE 🔴 1. FSV Mainz 05 vs. SV Werder Bremen | Matchday 7 - Bundesliga 2026/27"
-},
-{
-"c": "Bundesliga",
-"f": "2026-10-19",
-"id": "e6mshYKp8bk",
-"t": "LIVE 🔴 1. FC Köln vs. FC Schalke 04 | Matchday 7 - Bundesliga 2026/27"
+"id": "o1Nb17xdqf8",
+"t": "LIVE 🔴 Borussia Dortmund vs. Eintracht Frankfurt | Matchday 7 - Bundesliga 2026/27"
 },
 {
 "c": "Bundesliga",
@@ -8243,6 +8303,36 @@
 "f": "2026-10-24",
 "id": "ovYbroAN2Mc",
 "t": "Precies 5️⃣ jaar geleden deed Cyril Ngonge dit...😱"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-24",
+"id": "MvS3piqxkEM",
+"t": "🫤 Yoann Cathline schuldbewust: \"Ik zag Alarcón op dat moment niet, dat is mijn fout\""
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-24",
+"id": "daitChnSYI8",
+"t": "Keihard bewijs: Ismaël Baouf kopt raak ✅⚽️"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-24",
+"id": "EX2BLrk8aD8",
+"t": "HOE dan... 😬"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-24",
+"id": "gUz8w0_OzRI",
+"t": "Lars de Blok schittert met een 𝙊𝙇𝙄𝙈𝙋𝙄𝘾𝙊 🍿"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-24",
+"id": "aJTx4MZYTzk",
+"t": "𝐁𝐎𝐄𝐌! Eanna Clancy op de pantoffel 💥🇮🇪"
 },
 {
 "c": "ESPN NL",
@@ -13583,36 +13673,6 @@
 "f": "2026-09-04",
 "id": "YZO-XJPLmf8",
 "t": "Julian Brandt treft in de topper tegen PSV zijn oud-trainer Peter Bosz 🔙🇩🇪"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-04",
-"id": "r9RY5hFrdJ4",
-"t": "Alles lukt bij Freddy Quispel 😱💥"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-04",
-"id": "9rXQWLhV9Hw",
-"t": "Isaac Babadi staat maar een paar seconden in het veld en scoort direct voor Sparta 🤯💎"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-04",
-"id": "uaeDL7nhinM",
-"t": "Kyanno Silva, wat een manier om je eerste profgoal te maken en dat dansje is ook niet verkeerd 🤯🕺"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-04",
-"id": "sZTIKPxeTsA",
-"t": "𝗞𝗼𝗲𝗸𝗼𝗲𝗸! Sybrand Veldhuis met een heerlijke treffer 😮‍💨"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-04",
-"id": "JhedHmJbZJE",
-"t": "Wie anders dan Naoufal Bannis? Hij scoort alweer zijn zesde van het seizoen 🤩🔥"
 }
 ],
 "laliga": [
@@ -13657,6 +13717,72 @@
 "f": "2026-10-24",
 "id": "DKY79rMCIJ8",
 "t": "🔴 RAYO VALLECANO vs ELCHE CF - PREVIA DEL PARTIDO"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-24",
+"id": "G603S8qu4Cs",
+"t": "RAYO VALLECANO vs ELCHE CF | RUEDA DE PRENSA"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-24",
+"id": "kvmV1iWes3U",
+"t": "🦇 ¡Pepelu da la ventaja al Valencia!"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-24",
+"id": "cKZXnfa1b3s",
+"t": "R. RACING CLUB vs RCD ESPANYOL | RUEDA DE PRENSA"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-24",
+"id": "hHV33e7J97E",
+"t": "𝗗𝗜𝗠𝗜𝗧𝗥𝗜𝗘𝗩𝗦𝗞𝗜. 🦸‍♂️"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-24",
+"id": "PhOu6SnctFg",
+"t": "🔴 VALENCIA CF vs VILLARREAL CF - PREVIA DEL PARTIDO"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-24",
+"id": "sC9KR3Flo1U",
+"t": "R. RACING CLUB 2 - 1 RCD ESPANYOL | RESUMEN LALIGA EA SPORTS"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-24",
+"id": "1BV7rE7onwE",
+"t": "𝗭𝗔𝗕𝗜𝗥𝗜. 🇲🇦"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-24",
+"id": "0aPVQId_N1s",
+"t": "𝐒𝐞𝐫𝐠𝐢𝐨 𝐂𝐚𝐧𝐚𝐥𝐞𝐬 𝐌𝐚𝐝𝐫𝐚𝐳𝐨. ✍️"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-24",
+"id": "TEqxulloqTE",
+"t": "💚 ¡Belocian empata el partido! 💚"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-24",
+"id": "GTeuPfsbRqk",
+"t": "⚽💙"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-24",
+"id": "04kuinvcnRM",
+"t": "ÁNGEL FORTUÑO. 🦸‍♂️"
 },
 {
 "c": "LALIGA EA SPORTS",
@@ -13771,12 +13897,6 @@
 "f": "2026-10-22",
 "id": "dKbcG2_qOqg",
 "t": "Conocemos Elche junto a MATÍAS DITURO"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-10-22",
-"id": "G603S8qu4Cs",
-"t": "RAYO VALLECANO vs ELCHE CF | RUEDA DE PRENSA"
 },
 {
 "c": "LALIGA EA SPORTS",
@@ -18036,6 +18156,18 @@
 },
 {
 "c": "Ligue 1",
+"f": "2026-10-24",
+"id": "EMwepwVg5ag",
+"t": "Mbappé’s brothers 🫶 #football #ligue1 #foot #psg #footballshorts #soccer #sports #skills #shorts"
+},
+{
+"c": "Ligue 1",
+"f": "2026-10-24",
+"id": "o9fiAuPvvT4",
+"t": "JUNIOR MANDZA & DJIBRIL COULIBALY : À LA DÉCOUVERTE DES NOUVEAUX TALENTS NIÇOIS 🦅"
+},
+{
+"c": "Ligue 1",
 "f": "2026-10-23",
 "id": "vCkRaUPFsow",
 "t": "What a strike from Amine Gouiri 🇩🇿✨ #football #ligue1 #foot #footballshorts #sports #soccer #shorts"
@@ -21403,6 +21535,30 @@
 "f": "2026-10-24",
 "id": "5gppzcX3pG0",
 "t": "What a BEAUTY from BELGHALI 🤩🇩🇿"
+},
+{
+"c": "Serie A",
+"f": "2026-10-24",
+"id": "eslPLA89RcY",
+"t": "I Felsinei Espugnano L’Unipol Domus | CAGLIARI-BOLOGNA | HIGHLIGHTS | SERIE A ENILIVE 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-10-24",
+"id": "nAtlBsDJPAI",
+"t": "Douvikas Fa Volare Fabregas | COMO-SASSUOLO | HIGHLIGHTS | SERIE A ENILIVE 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-10-24",
+"id": "lCqB7WkSJcU",
+"t": "Douvikas Shines For Como! | COMO-SASSUOLO | HIGHLIGHTS | Serie A 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-10-24",
+"id": "GYXLZdARTdA",
+"t": "Bologna Dominant in Sardinia | CAGLIARI-BOLOGNA | HIGHLIGHTS | Serie A 2026/27"
 },
 {
 "c": "Serie A",
