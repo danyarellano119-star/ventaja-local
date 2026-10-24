@@ -2,6 +2,24 @@
 "brasileirao": [
 {
 "c": "CazéTV",
+"f": "2026-10-24",
+"id": "hWHU2VJOUEg",
+"t": "A QUADRA GANHOU REFORÇO! LAURA PIGOSSI FAZ SUA ESTREIA | QUADRA ABERTA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-24",
+"id": "dkP4lirMo5c",
+"t": "JOGO COMPLETO: ALAVÉS X MÁLAGA | LALIGA 26/27 | 10ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-24",
+"id": "076FEQsVCNU",
+"t": "MELHORES MOMENTOS: CRUZEIRO 1 X 0 REMO | BRASILEIRÃO 2026 | 32ª RODADA"
+},
+{
+"c": "CazéTV",
 "f": "2026-10-23",
 "id": "PSZsVLpNbvg",
 "t": "FLAMENGO X ESTUDIANTES DE LA PLATA | LIBERTADORES | NARRAÇÃO | NOCHE DE COPA"
@@ -47,12 +65,6 @@
 "f": "2026-10-23",
 "id": "xlLN84TmA4A",
 "t": "ELE TÁ FELIZ DA VIDA! ANTONY SE ENCONTROU NO BETIS | EXCLUSIVA COM ISA PAGLIARI"
-},
-{
-"c": "CazéTV",
-"f": "2026-10-23",
-"id": "hWHU2VJOUEg",
-"t": "A QUADRA GANHOU REFORÇO! LAURA PIGOSSI FAZ SUA ESTREIA | QUADRA ABERTA"
 },
 {
 "c": "CazéTV",
@@ -125,6 +137,12 @@
 "f": "2026-10-23",
 "id": "LCqhz7bO420",
 "t": "TODOS OS GOLS DE MBAPPÉ PELO REAL MADRID NA LALIGA!"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-23",
+"id": "Kmm1Fal-eyI",
+"t": "FIM DE SEMANA DE EL CLÁSICO E MAIS UMA RODADA QUENTE DO BRASILEIRÃO | QUEM FEZ, FEZ"
 },
 {
 "c": "CazéTV",
@@ -305,12 +323,6 @@
 "f": "2026-10-22",
 "id": "mUex_fT-Z2s",
 "t": "JOGO COMPLETO (SOM AMBIENTE): LILLESTRØM X REAL SOCIEDAD | EUROPA LEAGUE 26/27 | 3ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-10-22",
-"id": "Kmm1Fal-eyI",
-"t": "AO VIVO: FIM DE SEMANA DE EL CLÁSICO E MAIS UMA RODADA QUENTE DO BRASILEIRÃO | QUEM FEZ, FEZ"
 },
 {
 "c": "CazéTV",
@@ -1463,12 +1475,6 @@
 "f": "2026-10-13",
 "id": "4-aj4cwWaHY",
 "t": "ZVEREV SEGUE FIRME! MENSIK CAI, FOKINA E DE MINAUR AVANÇAM | DIA 7 | MASTERS 1000 DE XANGAI"
-},
-{
-"c": "CazéTV",
-"f": "2026-10-13",
-"id": "dkP4lirMo5c",
-"t": "AO VIVO: FIM DE SEMANA DE EL CLÁSICO E MAIS UMA RODADA QUENTE DO BRASILEIRÃO | QUEM FEZ, FEZ"
 },
 {
 "c": "CazéTV",
@@ -5146,6 +5152,18 @@
 "bundesliga": [
 {
 "c": "Bundesliga",
+"f": "2026-10-24",
+"id": "v2lYXmDUJY4",
+"t": "Nusa with a crazy Assist 😮‍💨"
+},
+{
+"c": "Bundesliga",
+"f": "2026-10-24",
+"id": "2UnCnC4bYGw",
+"t": "\"Der Klassiker\" is coming 🔥"
+},
+{
+"c": "Bundesliga",
 "f": "2026-10-23",
 "id": "l6O7Xz0tSx8",
 "t": "What a rocket from Muheim! 😮‍💨😍"
@@ -6894,6 +6912,18 @@
 "champions": [
 {
 "c": "UEFA",
+"f": "2026-10-24",
+"id": "KAsfa2t5lqc",
+"t": "Three inch-perfect assists from Angulo, Perez Vinlöf and Montnor 🤤"
+},
+{
+"c": "UEFA",
+"f": "2026-10-24",
+"id": "CgameKyZiPo",
+"t": "POV: in the stands for matchday 3 🤳"
+},
+{
+"c": "UEFA",
 "f": "2026-10-23",
 "id": "Dkf17kd8D_Y",
 "t": "Started the move, ended the move"
@@ -8118,6 +8148,30 @@
 }
 ],
 "eredivisie": [
+{
+"c": "ESPN NL",
+"f": "2026-10-24",
+"id": "TwbtYN-uprM",
+"t": "Precies 1️⃣6️⃣ jaar geleden, PSV 🆚 Feyenoord: 10-0 😳🤯"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-24",
+"id": "9-7kls8YUh8",
+"t": "Aaron Bouwman zag de vergelijking met Oranje-aanvoerder Virgil van Dijk als een mooi compliment 🟠©️"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-24",
+"id": "hLgif_tuo10",
+"t": "📈 AARON BOUWMAN voelt het VERTROUWEN bij AJAX, maar blijft KRITISCH 🗣️ | Interview"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-24",
+"id": "xCOOY-PgIo4",
+"t": "Ziva HENRY wil na MOEIZAME jaren DOORBREKEN bij FC UTRECHT met rugnummer Thierry HENRY 🇫🇷 | Portret"
+},
 {
 "c": "ESPN NL",
 "f": "2026-10-23",
@@ -13493,30 +13547,6 @@
 "f": "2026-09-04",
 "id": "Wrpn1KRBeyc",
 "t": "Leo Greiml pakt in de 37e minuut al zijn tweede gele kaart... 🟥🫣"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-04",
-"id": "l2iQzBN0Lcg",
-"t": "Een mooi eerbetoon aan Ron Capella, die jarenlang steward was bij Almere City ❤️👏"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-04",
-"id": "MEH81CxlI8c",
-"t": "16' Milan Zonneveld kopt raak: afgekeurd ❌  24' Milan Zonneveld kopt raak: goedgekeurd ✅"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-04",
-"id": "TmlPxh1bl0g",
-"t": "Rio Hillen helpt RKC een handje 😬🫣"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-04",
-"id": "BCvBkXo3234",
-"t": "Ibrahim Cissoko met zijn eerste voor PEC 🤩🐺"
 }
 ],
 "laliga": [
@@ -17868,6 +17898,24 @@
 "ligue1": [
 {
 "c": "Ligue 1",
+"f": "2026-10-24",
+"id": "E0kdWnw_ruo",
+"t": "Du RC Lens à la prison ⚽️ #football #ligue1 #foot #footballshorts #sports #soccer #shorts #skills"
+},
+{
+"c": "Ligue 1",
+"f": "2026-10-24",
+"id": "qiVtjwpmSeg",
+"t": "LE MEILLEUR CLUB DU NORD ? 👀 | Ma petite tournée #2"
+},
+{
+"c": "Ligue 1",
+"f": "2026-10-24",
+"id": "FGKW73agP6o",
+"t": "Fabinho took that personally ☠️🔥 #football #ligue1 #foot #footballshorts  #psg #soccer #sports"
+},
+{
+"c": "Ligue 1",
 "f": "2026-10-23",
 "id": "vCkRaUPFsow",
 "t": "What a strike from Amine Gouiri 🇩🇿✨ #football #ligue1 #foot #footballshorts #sports #soccer #shorts"
@@ -19826,6 +19874,12 @@
 "premier": [
 {
 "c": "Premier League",
+"f": "2026-10-24",
+"id": "dgy58mPMlWI",
+"t": "Dominik Szoboszlai Is FAST 🤯"
+},
+{
+"c": "Premier League",
 "f": "2026-10-23",
 "id": "mkIjGCXn7Cc",
 "t": "MAX DOWMAN 🤯 The Youngest Goalscorer In Premier League History!"
@@ -19859,6 +19913,12 @@
 "f": "2026-10-23",
 "id": "Sll9Sy8dM2Y",
 "t": "All Arteta Goals And Assists For Arsenal And Everton"
+},
+{
+"c": "Premier League",
+"f": "2026-10-23",
+"id": "wCMd3_6bnXo",
+"t": "When Full-backs Combine To Score 🤝"
 },
 {
 "c": "Premier League",
@@ -21214,6 +21274,18 @@
 "seriea": [
 {
 "c": "Serie A",
+"f": "2026-10-24",
+"id": "BoiaLRMdjDA",
+"t": "Il Toro Continua a Vincere | TORINO-MONZA | HIGHLIGHTS | SERIE A ENILIVE 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-10-24",
+"id": "5gppzcX3pG0",
+"t": "What a BEAUTY from BELGHALI 🤩🇩🇿"
+},
+{
+"c": "Serie A",
 "f": "2026-10-23",
 "id": "nVZiqBqoXQA",
 "t": "UDINESE-MILAN 0-3 | CLASSIC HIGHLIGHTS SERIE A 2025/26"
@@ -21223,12 +21295,6 @@
 "f": "2026-10-23",
 "id": "TMDiPAPfln4",
 "t": "INTER-FIORENTINA 3-0 | CLASSIC HIGHLIGHTS SERIE A 2025/26"
-},
-{
-"c": "Serie A",
-"f": "2026-10-23",
-"id": "BoiaLRMdjDA",
-"t": "Il Toro Continua a Vincere | TORINO-MONZA | HIGHLIGHTS | SERIE A ENILIVE 2026/27"
 },
 {
 "c": "Serie A",
