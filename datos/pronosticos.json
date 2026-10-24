@@ -28778,6 +28778,25 @@
 "pv": 0.8684,
 "v": "Benfica"
 },
+"primeira|2026-12-20|santa clara|vitoria guimaraes": {
+"btts": 0.3873,
+"clave_l": "CD Santa Clara",
+"clave_liga": "primeira",
+"clave_v": "Vitória Guimarães",
+"fecha": "2026-12-20",
+"l": "Santa Clara",
+"liga": "Primeira Liga",
+"marcador": "0-0",
+"o15": 0.5974,
+"o25": 0.3127,
+"o35": 0.1359,
+"p_marcador": 0.1548,
+"pe": 0.3304,
+"pl": 0.4465,
+"publicado": "2026-10-24T00:54Z",
+"pv": 0.2231,
+"v": "Vitória de Guimarães"
+},
 "primeira|2026-12-20|sporting clube braga|academico viseu": {
 "btts": 0.1935,
 "clave_l": "Sporting Clube de Braga",
