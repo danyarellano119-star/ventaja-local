@@ -44,6 +44,12 @@
 },
 {
 "c": "CazéTV",
+"f": "2026-10-25",
+"id": "1UY9frsvGqE",
+"t": "HOJE TEM EL CLÁSICO! BORA AQUECER COM A MARATONA DOS CRAQUES DE BARÇA E REAL"
+},
+{
+"c": "CazéTV",
 "f": "2026-10-24",
 "id": "hWHU2VJOUEg",
 "t": "A QUADRA GANHOU REFORÇO! LAURA PIGOSSI FAZ SUA ESTREIA | QUADRA ABERTA"
@@ -233,12 +239,6 @@
 "f": "2026-10-24",
 "id": "JKlJyU1v7MU",
 "t": "JOGO COMPLETO: ATLÉTICO DE MADRID X A CORUÑA | LALIGA 26/27 | 10ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-10-24",
-"id": "1UY9frsvGqE",
-"t": "HOJE TEM EL CLÁSICO! BORA AQUECER COM A MARATONA DOS CRAQUES DE BARÇA E REAL"
 },
 {
 "c": "CazéTV",
@@ -1583,6 +1583,18 @@
 "f": "2026-10-15",
 "id": "oXFO--sODzI",
 "t": "MELHORES MOMENTOS: CORINTHIANS 2 X 0 COLO-COLO | LIBERTADORES FEMININA 2026 | 1ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-15",
+"id": "qtUD9j9Mfd8",
+"t": "AO VIVO: MÔNACO X LILLE | LIGUE 1 26/27 | 8ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-15",
+"id": "jZXkDVmpoU0",
+"t": "AO VIVO: MANCHESTER UNITED X BOURNEMOUTH | PREMIER LEAGUE 26/27 | 8ª RODADA"
 },
 {
 "c": "CazéTV",
@@ -5374,6 +5386,18 @@
 "bundesliga": [
 {
 "c": "Bundesliga",
+"f": "2026-10-25",
+"id": "nUJeg82wTrM",
+"t": "Olise does absolutely everything with skill 🤩"
+},
+{
+"c": "Bundesliga",
+"f": "2026-10-25",
+"id": "fsCkxW_LDeA",
+"t": "First look at some FC Bayern München stars ready for \"der Klassiker\""
+},
+{
+"c": "Bundesliga",
 "f": "2026-10-24",
 "id": "v2lYXmDUJY4",
 "t": "Nusa with a crazy Assist 😮‍💨"
@@ -5587,6 +5611,12 @@
 "f": "2026-10-19",
 "id": "Y6pSe4nsq5U",
 "t": "LIVE 🔴 Holstein Kiel vs. SG Dynamo Dresden | Matchday 9 - Bundesliga 2 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-10-19",
+"id": "PTVbx3zh17U",
+"t": "LIVE 🔴 TSG Hoffenheim vs. Bayer 04 Leverkusen | Matchday 7 - Bundesliga 2026/27"
 },
 {
 "c": "Bundesliga",
@@ -7200,6 +7230,24 @@
 },
 {
 "c": "UEFA",
+"f": "2026-10-25",
+"id": "rQIbcEoUHQc",
+"t": "BEST Europa League and Conference League Saves From Matchday 3!"
+},
+{
+"c": "UEFA",
+"f": "2026-10-25",
+"id": "pA16bY2ptxw",
+"t": "Dos Santos, Lind and Molina providing three perfect assists 🤌"
+},
+{
+"c": "UEFA",
+"f": "2026-10-25",
+"id": "QaHAsDSjSo8",
+"t": "Osimhen up and running for the season"
+},
+{
+"c": "UEFA",
 "f": "2026-10-24",
 "id": "KAsfa2t5lqc",
 "t": "Three inch-perfect assists from Angulo, Perez Vinlöf and Montnor 🤤"
@@ -8453,6 +8501,18 @@
 "f": "2026-10-25",
 "id": "u_3ApMBRTEc",
 "t": "Stilte. Voor. De. Storm. 🤫🌪️"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-25",
+"id": "zdOBzKOpF_w",
+"t": "Lutsharel Geertruida ➡️ Guus Til: ⚽️!"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-25",
+"id": "36ZrzsvtAtk",
+"t": "Weer een hoofdrol voor Ihattaren 🎬⭐️"
 },
 {
 "c": "ESPN NL",
@@ -13835,18 +13895,6 @@
 "f": "2026-09-05",
 "id": "-INM6c3J3-U",
 "t": "Youri Baas beleefde een intense slotfase van de transfermarkt 👀"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-05",
-"id": "O1nK3ZNWqP0",
-"t": "Peter BOSZ zag 'AANGESLAGEN' Ruben VAN BOMMEL in de KLEEDKAMER"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-05",
-"id": "SNb2HGr_lPk",
-"t": "MIKA GODTS neemt AFSCHEID in AMSTERDAM | Interview"
 }
 ],
 "laliga": [
@@ -13855,6 +13903,24 @@
 "f": "2026-10-25",
 "id": "Vij221G4GQo",
 "t": "Who's the New Goalito?"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-25",
+"id": "veQbigqo6VA",
+"t": "👑 ¡Iña𝐊𝐈𝐍𝐆!"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-25",
+"id": "vyBso-ePbIw",
+"t": "❤️ Una celebración especial para Guruzeta."
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-25",
+"id": "qpRTO36B1-A",
+"t": "🔴 ATHLETIC CLUB vs GETAFE CF - PREVIA DEL PARTIDO"
 },
 {
 "c": "LALIGA EA SPORTS",
@@ -14269,6 +14335,12 @@
 "f": "2026-10-20",
 "id": "X3tathLj3JU",
 "t": "La locura de SIMEONE con el GOL de BAENA"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-20",
+"id": "SRqxWmTtibo",
+"t": "🔴 FC BARCELONA v REAL MADRID: ELCLÁSICO en DIRECTO desde el Spotify CAMP NOU"
 },
 {
 "c": "LALIGA EA SPORTS",
@@ -18390,6 +18462,18 @@
 },
 {
 "c": "Ligue 1",
+"f": "2026-10-25",
+"id": "MqNlxHtlPEE",
+"t": "Let me check ✍️ #football #ligue1 #foot #footballshorts #soccer #sports #foot #ligue1mcdonalds"
+},
+{
+"c": "Ligue 1",
+"f": "2026-10-25",
+"id": "6V_Sl33Fpxo",
+"t": "Mbappé x Icardi 🤩​ #football #ligue1 #foot #psg #footballshorts #soccer #sports #skills #goals"
+},
+{
+"c": "Ligue 1",
 "f": "2026-10-24",
 "id": "E0kdWnw_ruo",
 "t": "Du RC Lens à la prison ⚽️ #football #ligue1 #foot #footballshorts #sports #soccer #shorts #skills"
@@ -20390,6 +20474,12 @@
 },
 {
 "c": "Premier League",
+"f": "2026-10-25",
+"id": "PjWQFkgYI3k",
+"t": "No Shoe, No Problem! 😂"
+},
+{
+"c": "Premier League",
 "f": "2026-10-24",
 "id": "dgy58mPMlWI",
 "t": "Dominik Szoboszlai Is FAST 🤯"
@@ -21811,6 +21901,24 @@
 "f": "2026-10-25",
 "id": "U3rUSzKemn4",
 "t": "INSANE MATCH AT MARADONA! 🤯 #NapoliRoma"
+},
+{
+"c": "Serie A",
+"f": "2026-10-25",
+"id": "M4cFytVHg4E",
+"t": "Inter Pull Off Crazy Late Comeback! | INTER-FIORENTINA | HIGHLIGHTS | Serie A 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-10-25",
+"id": "63RuLb_5V3Y",
+"t": "WHEN THE DEFENDER SCORES TWICE 🫨"
+},
+{
+"c": "Serie A",
+"f": "2026-10-25",
+"id": "ixoU1NLce_0",
+"t": "MCTOMINAY IS BACK 🏴󠁧󠁢󠁳󠁣󠁴󠁿🔥"
 },
 {
 "c": "Serie A",
