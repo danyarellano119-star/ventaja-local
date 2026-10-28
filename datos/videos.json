@@ -2,6 +2,18 @@
 "brasileirao": [
 {
 "c": "CazéTV",
+"f": "2026-10-28",
+"id": "mraN4lL8IVw",
+"t": "JOGO COMPLETO: ROMA X CAGLIARI | SÉRIE A ITALIANA 26/27 | 9ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-28",
+"id": "A2QhJeSACPg",
+"t": "BRUNINHO REAGE AOS GOLS E SKILLS DE MARCO REUS NA BUNDESLIGA"
+},
+{
+"c": "CazéTV",
 "f": "2026-10-27",
 "id": "dpkwMjudZME",
 "t": "JOGO COMPLETO: FURIA FC X DESIMPAIN | KINGS LEAGUE BRAZIL | 2ª RODADA"
@@ -47,6 +59,36 @@
 "f": "2026-10-27",
 "id": "hKj9bBJEQBQ",
 "t": "POR QUE O BARCELONA DECIDIU QUE DEMBÉLÉ ERA O SUCESSOR DO NEYMAR?"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-27",
+"id": "vn7CdBFRAGY",
+"t": "TUDO SOBRE VASCO X FLAMENGO E A BRIGA CONTRA O REBAIXAMENTO | GERAL CAZÉTV"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-27",
+"id": "mJm5UCd4wLg",
+"t": "MELHORES MOMENTOS: ROMA 4 X 2 CAGLIARI | SÉRIE A ITALIANA 26/27 | 9ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-27",
+"id": "DqO27P2nP6A",
+"t": "O DIA QUE HARRY KANE FEZ UM HAT-TRICK E FOI GOLEIRO NO MESMO JOGO!"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-27",
+"id": "STve2ANAOUY",
+"t": "DE QUEM ESTAMOS FALANDO???"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-27",
+"id": "zAxgy34E3fU",
+"t": "QUANDO ROBBEN E RIBÉRY DESTRUÍAM OS RIVAIS!"
 },
 {
 "c": "CazéTV",
@@ -1547,12 +1589,6 @@
 "f": "2026-10-17",
 "id": "rOPL6HHsTZI",
 "t": "MELHORES MOMENTOS: BOTAFOGO 1 x 0 CHAPECOENSE | BRASILEIRÃO 2026 | 31ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-10-17",
-"id": "mraN4lL8IVw",
-"t": "AO VIVO: ROMA X CAGLIARI | SÉRIE A ITALIANA 26/27 | 9ª RODADA"
 },
 {
 "c": "CazéTV",
@@ -5363,45 +5399,15 @@
 "f": "2026-09-04",
 "id": "TiEYOMFymi0",
 "t": "MELHORES MOMENTOS: REAL BETIS 1 X 0 REAL MADRID | LALIGA 26/27 | 4ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-04",
-"id": "hyxFu6mkyrY",
-"t": "MELHORES MOMENTOS: PSG 1 X 2 MÔNACO | LIGUE 1 26/27 | 3ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-04",
-"id": "Ok0wZEWP6Ko",
-"t": "MBAPPÉ PERDE PÊNALTI NO FINALZINHO E REAL MADRID PERDE PARA REAL BETIS NA LALIGA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-04",
-"id": "zgBT0g2HMVM",
-"t": "GOLAÇO ANULADO! ESPÍ EMPATA PARA O REAL MADRID COM ASSISTÊNCIA DE TRIVELA DE VINI JR MAS VAR ANULA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-04",
-"id": "qbzbR96xMDY",
-"t": "O AMIGO QUE EU LEVO PRO FUT DEPOIS DELE FALAR QUE É BRABO: 😅"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-04",
-"id": "pxv9OvkOUBY",
-"t": "GOL DO REAL BETIS NO REAL MADRID! TROY PARROTT ABRE O PLACAR DE REBOTE NA LALIGA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-04",
-"id": "sy2hOc3fVRM",
-"t": "COMO QUE ESSE GOL NÃO SAIU? QUE LOUCURA! 🤯😳"
 }
 ],
 "bundesliga": [
+{
+"c": "Bundesliga",
+"f": "2026-10-28",
+"id": "fe9w2yRYilc",
+"t": "Upamecano proves his striker abilities 🔥👀"
+},
 {
 "c": "Bundesliga",
 "f": "2026-10-27",
@@ -8690,6 +8696,18 @@
 "eredivisie": [
 {
 "c": "ESPN NL",
+"f": "2026-10-28",
+"id": "XrD09jdN_ds",
+"t": "Luis Suárez speelde ooit met John Heitinga, nu feliciteert hij zijn zoon Lennox 😍🌟"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-28",
+"id": "tYEv2fW635k",
+"t": "Luis Suárez feliciteert de Ajax-talenten na hun overwinning op Chelsea tijdens de Messi Cup 🤝❤"
+},
+{
+"c": "ESPN NL",
 "f": "2026-10-27",
 "id": "_QacF0yX6qE",
 "t": "Helmond Sport-uit altijd... 🫣😬"
@@ -8723,6 +8741,84 @@
 "f": "2026-10-27",
 "id": "CVDjNQwwp3A",
 "t": "🏆✨ 50 WEERGALOZE 𝐁𝐄𝐊𝐄𝐑𝐆𝐎𝐀𝐋𝐒 🚀😱"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-27",
+"id": "55J3B0q11fQ",
+"t": "BARENDRECHT maakt 2️⃣ GOALS en gaat naar PENALTYREEKS 👀 | Samenvatting Barendrecht - RKC Waalwijk"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-27",
+"id": "j4jIcTE9XpM",
+"t": "🚲 WEERGALOZE OMHAAL van DEVIN HAEN 👏 | Samenvatting Helmond Sport - Willem II"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-27",
+"id": "viHnndRZXo0",
+"t": "💔 RITMEESTER van de KAMP doet OUDE LIEFDE PIJN 🔙 | Samenvatting Telstar - Almere City FC"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-27",
+"id": "4H3ZeMKQ1Ug",
+"t": "BAETEN SCOORT binnen DRIE MINUTEN na invalbeurt ⚽💥 | Samenvatting Koninklijke HFC - Go Ahead Eagles"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-27",
+"id": "lWMpODiX56c",
+"t": "👀 EXCELSIOR '31 DWINGT PENALTYSERIE AF TEGEN ADO 🍿| Samenvatting Excelsior '31 - ADO Den Haag"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-27",
+"id": "ZxUz5DoHyaQ",
+"t": "8️⃣ DOELPUNTENFESTIJN op sportpark MIDDELMORS 🎉 | Samenvatting Rijnsburgse Boys - FC Den Bosch"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-27",
+"id": "6-RoQjMwD30",
+"t": "1️⃣ Mokrane BENTOUMI maakt zijn EERSTE voor RODA 🟡⚫ | Samenvatting Roda JC Kerkrade - De Graafschap"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-27",
+"id": "cfdRKwvQkio",
+"t": "8️⃣ DOELPUNTEN in waar BEKERSPEKTAKEL 🤩 | Samenvatting FC Eindhoven - FC Volendam"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-27",
+"id": "l2OtMGdPjro",
+"t": "🟥 OPMERKELIJKE RODE KAART doet denken aan ZINEDINE ZIDANE 😳 | Samenvatting Kloetinge - SC Cambuur"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-27",
+"id": "5M_Eis1YGBo",
+"t": "Barendrecht was dicht bij een nieuwe bekerstunt, maar RKC blijft ijskoud in de penaltyserie 🥶"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-27",
+"id": "_6UXem7lA1k",
+"t": "Excelsior '31-held heeft een duidelijke droomloting 👀🔜🏟️"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-27",
+"id": "ZczFVCaDDpM",
+"t": "Stunt in de maak: Timo de Graaf kopt Barendrecht weer naast RKC Waalwijk 🍿🤯"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-27",
+"id": "cba1kxN5VlY",
+"t": "Groot feest in de kleedkamer bij Excelsior '31 na bekerstunt 🍿🤩"
 },
 {
 "c": "ESPN NL",
@@ -13997,99 +14093,27 @@
 "f": "2026-09-06",
 "id": "35kA0glXt54",
 "t": "Ruben Schaken trots op scorende én debuterende zoon 🙏"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-06",
-"id": "VzDE4pgcxys",
-"t": "Fout Etienne Vaessen wordt genadeloos afgestraft  😬"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-06",
-"id": "HLTT2NoKfm4",
-"t": "💪 Schaken TROTS op SCORENDE zoon: \"EINDELIJK heeft hij zijn PODIUM\" 🙏 | Goedemorgen Eredivisie"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-06",
-"id": "OFSx0d0x5Cc",
-"t": "Hans Kraay jr. is kritisch op Anis Hadj Moussa richting de uitwedstrijd tegen N.E.C. 🗣️"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-06",
-"id": "JjGwub-XywY",
-"t": "Joey Sleegers redt een punt van Roda JC in de derby 🤯"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-06",
-"id": "znd13p4F0VM",
-"t": "Ronald KOEMAN JR. neemt TWEE KEER een PENALTY 🤯 | Samenvatting Telstar - SC Cambuur"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-06",
-"id": "bvVajFmivwE",
-"t": "3️⃣ HEERLIJKE ALKMAARSE TREFFERS 🤩 | Samenvatting sc Heerenveen - AZ"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-06",
-"id": "Cy0kof4qixk",
-"t": "𝐙𝐎 𝐃𝐀𝐍!! MOHAMED IHATTAREN 🚀🥵"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-06",
-"id": "eQSSGxjUGe8",
-"t": "Lequincio Zeefuik kopt voorzet Mohamed Ihattaren uitstekend binnen 🔗💥"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-06",
-"id": "AF9CGtwl6wU",
-"t": "We kunnen nog meer doelpunten van Ronald Koeman jr. verwachten 👀"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-06",
-"id": "z7jnNll0Bk0",
-"t": "RONALD KOEMAN JR. SCOORT ZIJN TWEEDE VANDAAG EN REDT EEN PUNT 🤯🔥"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-06",
-"id": "_tosdK0HSvo",
-"t": "🫣 Etienne VAESSEN in de FOUT & Wout WEGHORST slaat weer toe | Samenvatting FC Groningen - FC Twente"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-06",
-"id": "c68LPOoBL1s",
-"t": "WAT EEN GOAL 🤯 MEXX MEERDINK 💥"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-06",
-"id": "O5gHdvi6riM",
-"t": "Ronald Koeman Jr. scoort voor het tweede seizoen op rij! 🤯🧤"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-06",
-"id": "i17tI98X7ZA",
-"t": "Terechte rode kaart voor Nökkvi Thórisson? 🟥🧐"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-06",
-"id": "y_SabMExfNk",
-"t": "Lutsharel Geertruida maakt INDRUK: \"Zo relaxed en vaardig aan de bal\" 🌟 | Dit Was Het Weekend"
 }
 ],
 "laliga": [
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-28",
+"id": "tMQ_YqrZKQc",
+"t": "ZABIRI desató la locura en El Sardinero"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-28",
+"id": "cC8PE268iK0",
+"t": "¡10 jornadas, 10 golazos! 🔥 | LALIGA EA SPORTS 2026/27"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-28",
+"id": "5iwgnN8CgmA",
+"t": "El caño de Yan Diomande 🎩"
+},
 {
 "c": "LALIGA EA SPORTS",
 "f": "2026-10-27",
@@ -14134,6 +14158,12 @@
 },
 {
 "c": "LALIGA EA SPORTS",
+"f": "2026-10-27",
+"id": "c3kQtBulAEw",
+"t": "Mourinho en estado puro 👀"
+},
+{
+"c": "LALIGA EA SPORTS",
 "f": "2026-10-26",
 "id": "Ft-QdfwDBZY",
 "t": "Conquistar el Spotify Camp Nou ✅"
@@ -14166,7 +14196,7 @@
 "c": "LALIGA EA SPORTS",
 "f": "2026-10-26",
 "id": "A9msXwAxDGo",
-"t": "SEVILLA FC vs CA OSASUNA | RUEDA DE PRENSA"
+"t": "Luis García: \"Podríamos haber hecho algún gol más\""
 },
 {
 "c": "LALIGA EA SPORTS",
@@ -18912,6 +18942,24 @@
 "ligue1": [
 {
 "c": "Ligue 1",
+"f": "2026-10-28",
+"id": "okGXF1xbV4g",
+"t": "\"Il était une fois... Le Roi du Nord\". Le Derby du Nord, c'est vendredi à 21h05 #football #ligue1"
+},
+{
+"c": "Ligue 1",
+"f": "2026-10-28",
+"id": "aNq6dLyXalQ",
+"t": "Eric Dier apparaît par surprise pendant une partie de \"Qui est-ce ?\" 🤔 | Ma Super Ligue 1 - S2, ep6"
+},
+{
+"c": "Ligue 1",
+"f": "2026-10-28",
+"id": "-EYtmyjTBV4",
+"t": "This respect moment between João Neves and Luis Enrique 🙌❤️ #football #ligue1 #foot #psg #shorts"
+},
+{
+"c": "Ligue 1",
 "f": "2026-10-27",
 "id": "_RagNplipUk",
 "t": "Himad Abdelli de RETOUR à son PRIME 🤩 ​​| Top Skills 8e journée - Ligue1McDonald's 26/27"
@@ -21110,9 +21158,21 @@
 "premier": [
 {
 "c": "Premier League",
+"f": "2026-10-28",
+"id": "xssv5nDqVX8",
+"t": "Stamford Bridge Had NO IDEA What Was Coming... | Chelsea v Man Utd | Added Time 2023/24"
+},
+{
+"c": "Premier League",
+"f": "2026-10-28",
+"id": "4Fnhrjnvixk",
+"t": "Florian Wirtz Making Magic Happen 💫"
+},
+{
+"c": "Premier League",
 "f": "2026-10-27",
 "id": "mna7Zj_cruY",
-"t": "Try Taking the Ball Off Spurs Challenge: IMPOSSIBLE 😤"
+"t": "Spurs Playing Beautiful Football 👏"
 },
 {
 "c": "Premier League",
@@ -22600,6 +22660,42 @@
 "seriea": [
 {
 "c": "Serie A",
+"f": "2026-10-28",
+"id": "QfivZO4B3Jc",
+"t": "MALEN with his 7th of the season 👏 #SerieA #RomaCagliari"
+},
+{
+"c": "Serie A",
+"f": "2026-10-28",
+"id": "3JwA4ex0G5Q",
+"t": "ALL ROUND 8 HIGHLIGHTS ⚽ | PRIMAVERA 1 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-10-28",
+"id": "MsZK7e6Ib-c",
+"t": "\"Serie A is boring\""
+},
+{
+"c": "Serie A",
+"f": "2026-10-28",
+"id": "1Hg9SsIfRh8",
+"t": "NICO PAZ scores, assists, delivers 😮‍💨 #TorinoComo #SerieA"
+},
+{
+"c": "Serie A",
+"f": "2026-10-28",
+"id": "ybo5B4IV4Gw",
+"t": "I Giovani Trascinano La Roma | ROMA-CAGLIARI | HIGHLIGHTS | SERIE A ENILIVE 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-10-28",
+"id": "OHBY5woodwc",
+"t": "Rimonta Lariana Al Grande Torino | TORINO-COMO | HIGHLIGHTS | SERIE A ENILIVE 2026/27"
+},
+{
+"c": "Serie A",
 "f": "2026-10-27",
 "id": "1D7KD-NAqjk",
 "t": "TOP SAVES 🧤 From the Serie A Round 8 | 2026/27"
@@ -22633,6 +22729,30 @@
 "f": "2026-10-27",
 "id": "mjt54rjaVS0",
 "t": "\"NOT EVEN A WHIFF OF THE BALL!\" | The Best REFCAM Clips From Round 8 | Serie A 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-10-27",
+"id": "kqrgxYrJ6zc",
+"t": "Primo Tempo Fuori di Testa! | SASSUOLO-LAZIO | HIGHLIGHTS | SERIE A ENILIVE 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-10-27",
+"id": "Azq6pGvMY40",
+"t": "Paz Scores In Como Comeback! | TORINO-COMO | HIGHLIGHTS | Serie A 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-10-27",
+"id": "XnprfOOfMoA",
+"t": "Roma Fight Off Early Scare | ROMA-CAGLIARI | HIGHLIGHTS | Serie A 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-10-27",
+"id": "fX8lccOlD84",
+"t": "EIGHT Goals And A Red Card In Wild Clash! | SASSUOLO-LAZIO | HIGHLIGHTS | Serie A 2026/27"
 },
 {
 "c": "Serie A",
