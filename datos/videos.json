@@ -20,6 +20,18 @@
 },
 {
 "c": "CazéTV",
+"f": "2026-10-31",
+"id": "U6USbDfWFcY",
+"t": "TÊNIS DE MESA | HUGO CALDERANO NO WTT CHAMPIONS DE MONTPELLIER | QUARTAS DE FINAL"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-31",
+"id": "J-QFeka_ozM",
+"t": "VÔLEI DE PRAIA | JOGOS OLÍMPICOS DA JUVENTUDE DAKAR 2026 | 1º DIA"
+},
+{
+"c": "CazéTV",
 "f": "2026-10-30",
 "id": "qQ09CyCp2aw",
 "t": "MELHORES MOMENTOS: VASCO DA GAMA 1 x 4 FLAMENGO | BRASILEIRÃO 2026 | 33ª RODADA"
@@ -95,12 +107,6 @@
 "f": "2026-10-30",
 "id": "fQanFJiHJJU",
 "t": "MELHORES MOMENTOS: LE HAVRE 1 X 5 PSG | LIGUE 1 26/27 | 9ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-10-30",
-"id": "U6USbDfWFcY",
-"t": "AO VIVO: TÊNIS DE MESA | HUGO CALDERANO NO WTT CHAMPIONS DE MONTPELLIER | QUARTAS DE FINAL"
 },
 {
 "c": "CazéTV",
@@ -395,6 +401,12 @@
 "f": "2026-10-27",
 "id": "zAxgy34E3fU",
 "t": "QUANDO ROBBEN E RIBÉRY DESTRUÍAM OS RIVAIS!"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-27",
+"id": "On-9wkhVT9c",
+"t": "AO VIVO: JUDÔ | TIME BRASIL NO GRAND SLAM DE ABU DHABI | DIA 3"
 },
 {
 "c": "CazéTV",
@@ -1253,6 +1265,12 @@
 "f": "2026-10-21",
 "id": "qt-BZsWea4g",
 "t": "MELHORES MOMENTOS: GANA 3 X 3 BRASIL | COPA DO MUNDO FEMININA SUB-17 FIFA 2026 | 2ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-21",
+"id": "1PCeS5cJCgI",
+"t": "AO VIVO: CHELSEA X MANCHESTER UNITED | PREMIER LEAGUE 26/27 | 9ª RODADA"
 },
 {
 "c": "CazéTV",
@@ -5381,27 +5399,15 @@
 "f": "2026-09-06",
 "id": "h2dHR6Y5ass",
 "t": "MELHORES MOMENTOS: MÁLAGA 0 X 0 LEVANTE | LALIGA 26/27 | 4ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-06",
-"id": "qSG7g-yYx9w",
-"t": "JOGO COMPLETO:  MÁLAGA X LEVANTE | LA LIGA 26/27 | 4ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-06",
-"id": "GwqQdpFr28o",
-"t": "MELHORES MOMENTOS: DEPORTIVO ALAVÉS 5 x 2 OSASUNA | LALIGA 26/27 | 4ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-06",
-"id": "EV3RTWGlkyo",
-"t": "JOGO COMPLETO: ITÁLIA X ESTADOS UNIDOS | COPA DO MUNDO DE BASQUETE FEMININO 2026 | 2ª RODADA"
 }
 ],
 "bundesliga": [
+{
+"c": "Bundesliga",
+"f": "2026-10-31",
+"id": "D5Kup_T2orU",
+"t": "More xG than any other Bundesliga game since records began 😍🔥"
+},
 {
 "c": "Bundesliga",
 "f": "2026-10-30",
@@ -5521,6 +5527,12 @@
 "f": "2026-10-26",
 "id": "fX1obm-p7Yg",
 "t": "LIVE 🔴 SV Darmstadt 98 vs. 1. FC Magdeburg | Matchday 10 - Bundesliga 2 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-10-26",
+"id": "MOtn4NZBMWs",
+"t": "LIVE 🔴 VfL Wolfsburg vs. VfL Osnabrück | Matchday 10 - Bundesliga 2 2026/27"
 },
 {
 "c": "Bundesliga",
@@ -7434,6 +7446,12 @@
 "champions": [
 {
 "c": "UEFA",
+"f": "2026-10-31",
+"id": "OTjj92OIURE",
+"t": "Neymar = baller 💫"
+},
+{
+"c": "UEFA",
 "f": "2026-10-30",
 "id": "axJTf5B-RW0",
 "t": "Diomande’s finish 😮‍💨"
@@ -8855,6 +8873,18 @@
 "f": "2026-10-31",
 "id": "Devw1s0jHMw",
 "t": "CHARLES VANHOUTTE is OP ZIJN PLEK bij FEYENOORD en hoopt op het BELGISCHE ELFTAL 🔮 | Interview"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-31",
+"id": "jVCRRAc45L4",
+"t": "Charles Vanhoutte is snel op zijn plek bij Feyenoord 🇧🇪🤝🇳🇱"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-31",
+"id": "t0fxwLVjqh8",
+"t": "Noa Lang haalde na de vorige PSV - Willem II hard uit naar de eigen fans 👀"
 },
 {
 "c": "ESPN NL",
@@ -14231,21 +14261,21 @@
 "f": "2026-09-09",
 "id": "gZqSF2Ac1q0",
 "t": "Waar liggen de kansen voor FEYENOORD tegen FC BARCELONA? 🤔🏆 | Voetbalpraat"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-09",
-"id": "fCpKNIqwRkg",
-"t": "😤 Ivan Perišić was boos na zijn wissel tegen Ajax, maar begreep het daarna wel 🏃💨"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-09",
-"id": "Ci9pidDofPc",
-"t": "Peter Bosz klaar met de commotie rondom Ruben van Bommel 😤👀 \"Lachwekkend. Belachelijk.\""
 }
 ],
 "laliga": [
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-31",
+"id": "agOec6izfog",
+"t": "🔴 LEVANTE UD vs ATLÉTICO DE MADRID - PREVIA DEL PARTIDO"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-31",
+"id": "Rx5aq_W-u-Y",
+"t": "Barça vs Alavés"
+},
 {
 "c": "LALIGA EA SPORTS",
 "f": "2026-10-30",
@@ -19224,6 +19254,24 @@
 },
 {
 "c": "Ligue 1",
+"f": "2026-10-31",
+"id": "Dyf-qEb5W74",
+"t": "A perfect match. Achraf Hakimi. 📝🇲🇦  #football #ligue1 #psg #foot #soccer #footballshorts #sports"
+},
+{
+"c": "Ligue 1",
+"f": "2026-10-31",
+"id": "xIYlHFjetRs",
+"t": "La virgule la virgule 🕺🕺 #football #ligue1 #psg #foot #footballshorts #soccer #sports #shorts"
+},
+{
+"c": "Ligue 1",
+"f": "2026-10-31",
+"id": "8PND8JNFW2c",
+"t": "Zachary Athekame : « J’ai l’ambition de devenir un latéral complet » | Interview Exclusive"
+},
+{
+"c": "Ligue 1",
 "f": "2026-10-30",
 "id": "MpYWcPJYD_g",
 "t": "Ouf 😂 #ligue1mcdonalds #football #ligue1 #foot #footballshorts #soccer #sports #shorts #rclens"
@@ -21530,15 +21578,15 @@
 "premier": [
 {
 "c": "Premier League",
-"f": "2026-10-30",
-"id": "rjHarN5S9s0",
-"t": "The Passing Range On Zion Suzuki 😮‍💨🇯🇵"
+"f": "2026-10-31",
+"id": "vk0bq0NruPc",
+"t": "FPL Deadline Countdown | Last-Minute Advice | GW9 | LIVE 🔴"
 },
 {
 "c": "Premier League",
 "f": "2026-10-30",
-"id": "vk0bq0NruPc",
-"t": "FPL Deadline Countdown | Last-Minute Advice | GW9 | LIVE 🔴"
+"id": "rjHarN5S9s0",
+"t": "The Passing Range On Zion Suzuki 😮‍💨🇯🇵"
 },
 {
 "c": "Premier League",
