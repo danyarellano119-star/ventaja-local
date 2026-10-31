@@ -32,6 +32,36 @@
 },
 {
 "c": "CazéTV",
+"f": "2026-10-31",
+"id": "On-9wkhVT9c",
+"t": "JUDÔ | TIME BRASIL NO GRAND SLAM DE ABU DHABI | DIA 3"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-31",
+"id": "1PCeS5cJCgI",
+"t": "JOGO COMPLETO: CHELSEA X MANCHESTER UNITED | PREMIER LEAGUE 26/27 | 9ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-31",
+"id": "HfB92lF1gtE",
+"t": "MELHORES MOMENTOS: RAYO VALLECANO 3 X 0 CELTA | LALIGA 26/27 | 11ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-31",
+"id": "DhJ6tF1a8nw",
+"t": "JOGO COMPLETO: RAYO VALLECANO X CELTA | LALIGA 26/27 | 11ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-31",
+"id": "__uVvf4UNuU",
+"t": "MELHORES MOMENTOS: SCHALKE 04 0 X 2 RB LEIPZIG | BUNDESLIGA 26/27 | 8ª RODADA"
+},
+{
+"c": "CazéTV",
 "f": "2026-10-30",
 "id": "qQ09CyCp2aw",
 "t": "MELHORES MOMENTOS: VASCO DA GAMA 1 x 4 FLAMENGO | BRASILEIRÃO 2026 | 33ª RODADA"
@@ -161,6 +191,12 @@
 "f": "2026-10-30",
 "id": "uZO0FSSIc3E",
 "t": "MELHORES MOMENTOS: NANÁ SILVA 1 X 0 FRANCESCA JONES | WTA 125 DE CURITIBA | QUARTAS DE FINAL"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-30",
+"id": "fwHWxL2uG7I",
+"t": "AO VIVO: CERIMÔNIA DE ABERTURA | JOGOS OLÍMPICOS DA JUVENTUDE DAKAR 2026"
 },
 {
 "c": "CazéTV",
@@ -405,8 +441,8 @@
 {
 "c": "CazéTV",
 "f": "2026-10-27",
-"id": "On-9wkhVT9c",
-"t": "AO VIVO: JUDÔ | TIME BRASIL NO GRAND SLAM DE ABU DHABI | DIA 3"
+"id": "4uGkDdDQdKQ",
+"t": "AO VIVO: NANÁ SILVA E LAURA PIGOSSI NA FINAL DE DUPLAS DO WTA DE CURITIBA!"
 },
 {
 "c": "CazéTV",
@@ -1269,8 +1305,14 @@
 {
 "c": "CazéTV",
 "f": "2026-10-21",
-"id": "1PCeS5cJCgI",
-"t": "AO VIVO: CHELSEA X MANCHESTER UNITED | PREMIER LEAGUE 26/27 | 9ª RODADA"
+"id": "bzbkqAf_Awo",
+"t": "AO VIVO: REAL BETIS X MÁLAGA | LALIGA 26/27 | 11ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-21",
+"id": "9WXEgHHixrg",
+"t": "AO VIVO: BAYERN DE MUNIQUE X BORUSSIA DORTMUND | BUNDESLIGA 26/27 | 8ª RODADA"
 },
 {
 "c": "CazéTV",
@@ -5357,48 +5399,6 @@
 "f": "2026-09-06",
 "id": "Cj0MXCxMehw",
 "t": "MAIS UM GOL DO BARÇA! PEDRI TABELA E FINALIZA PARA O 4º GOL EM CIMA DO VALÊNCIA EM LALIGA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-06",
-"id": "zv02no6NqCA",
-"t": "VIROU GOLEADA! RAPHINHA FECHA NA SEGUNDA TRAVE E O BARCELONA FAZ 3 A 0 NO VALÊNCIA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-06",
-"id": "c_oYKNPcZiY",
-"t": "O Barcelona é isso, não tem muito o que inventar 🤷‍♂️🔥"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-06",
-"id": "Pw1f7gkv4tM",
-"t": "O BARCELONA AMPLIA! FERMÍN LÓPEZ MARCA UM BELO GOL E AMPLIA CONTRA O VALÊNCIA EM LALIGA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-06",
-"id": "kiqRMQPabHo",
-"t": "GOL DO BARCELONA! LAMINE YAMAL ABRE O PLACAR CONTRA O VALÊNCIA!"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-06",
-"id": "wymDa5wAnTo",
-"t": "JOGO COMPLETO (SOM AMBIENTE): ANGERS X RENNES | LIGUE 1 26/27 | 3ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-06",
-"id": "NNkMapiUUk0",
-"t": "JOGO COMPLETO: DEPORTIVO ALAVÉS X OSASUNA | LALIGA 26/27 | 4ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-06",
-"id": "h2dHR6Y5ass",
-"t": "MELHORES MOMENTOS: MÁLAGA 0 X 0 LEVANTE | LALIGA 26/27 | 4ª RODADA"
 }
 ],
 "bundesliga": [
@@ -5407,6 +5407,78 @@
 "f": "2026-10-31",
 "id": "D5Kup_T2orU",
 "t": "More xG than any other Bundesliga game since records began 😍🔥"
+},
+{
+"c": "Bundesliga",
+"f": "2026-10-31",
+"id": "bU2XSPCiY2E",
+"t": "1. FC Kaiserslautern vs. Hertha BSC | Matchday 10 - Bundesliga 2 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-10-31",
+"id": "fX1obm-p7Yg",
+"t": "SV Darmstadt 98 vs. 1. FC Magdeburg | Matchday 10 - Bundesliga 2 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-10-31",
+"id": "MOtn4NZBMWs",
+"t": "VfL Wolfsburg vs. VfL Osnabrück | Matchday 10 - Bundesliga 2 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-10-31",
+"id": "Q2ajZ7hf94Q",
+"t": "Here comes the BEST player in the world! ⭐️🏆"
+},
+{
+"c": "Bundesliga",
+"f": "2026-10-31",
+"id": "BRkv74ifPzc",
+"t": "Entering for the big event 💥"
+},
+{
+"c": "Bundesliga",
+"f": "2026-10-31",
+"id": "MQ7E1QoLtW8",
+"t": "Michael Olises pitch inspections are COLD 🥶"
+},
+{
+"c": "Bundesliga",
+"f": "2026-10-31",
+"id": "OnldK_fHo_E",
+"t": "SV Werder Bremen vs. TSG Hoffenheim | Matchday 8 - Bundesliga 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-10-31",
+"id": "kMqcir9WQVk",
+"t": "Bayer 04 Leverkusen vs. VfB Stuttgart | Matchday 8 - Bundesliga 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-10-31",
+"id": "l_hyOnjhBao",
+"t": "Borussia Mönchengladbach vs. SC Paderborn 07 | Matchday 8 - Bundesliga 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-10-31",
+"id": "v8zKYHoLxCM",
+"t": "FC Schalke 04 vs. RB Leipzig | Matchday 8 - Bundesliga 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-10-31",
+"id": "xO_ORa4M_y4",
+"t": "FC Augsburg vs. Sport-Club Freiburg | Matchday 8 - Bundesliga 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-10-31",
+"id": "nBdMdjSuXN4",
+"t": "Demirović Scores Twice! | BAYER 04 LEVERKUSEN - VFB STUTTGART | Highlights | Matchday 8 – Bundesliga"
 },
 {
 "c": "Bundesliga",
@@ -5515,24 +5587,6 @@
 "f": "2026-10-26",
 "id": "f3K9RwVT3f0",
 "t": "LIVE 🔴 Karlsruher SC vs. 1. FC Heidenheim 1846 | Matchday 10 - Bundesliga 2 2026/27"
-},
-{
-"c": "Bundesliga",
-"f": "2026-10-26",
-"id": "bU2XSPCiY2E",
-"t": "LIVE 🔴 1. FC Kaiserslautern vs. Hertha BSC | Matchday 10 - Bundesliga 2 2026/27"
-},
-{
-"c": "Bundesliga",
-"f": "2026-10-26",
-"id": "fX1obm-p7Yg",
-"t": "LIVE 🔴 SV Darmstadt 98 vs. 1. FC Magdeburg | Matchday 10 - Bundesliga 2 2026/27"
-},
-{
-"c": "Bundesliga",
-"f": "2026-10-26",
-"id": "MOtn4NZBMWs",
-"t": "LIVE 🔴 VfL Wolfsburg vs. VfL Osnabrück | Matchday 10 - Bundesliga 2 2026/27"
 },
 {
 "c": "Bundesliga",
@@ -5791,6 +5845,12 @@
 "f": "2026-10-23",
 "id": "DPwog2DHu0Q",
 "t": "17-Year-Old Mohya SHINES | VFB STUTTGART - BORUSSIA M'GLADBACH | Highlights | MD 7 – Bundeliga 26/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-10-23",
+"id": "XdpirLZpiXg",
+"t": "LIVE 🔴 Football Funzone: Der Klassiker - LIVE!"
 },
 {
 "c": "Bundesliga",
@@ -8885,6 +8945,42 @@
 "f": "2026-10-31",
 "id": "t0fxwLVjqh8",
 "t": "Noa Lang haalde na de vorige PSV - Willem II hard uit naar de eigen fans 👀"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-31",
+"id": "59cpxGlY9pY",
+"t": "GIOVANNI VAN BRONCKHORST wist wat hij van FORTUNA kon verwachten 🧱 | Interview"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-31",
+"id": "wVEL0ndVxCY",
+"t": "TJARK ERNST zag FEYENOORD haar KANSEN NIET AFMAKEN ❌ | Interview"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-31",
+"id": "R2oTMY1I1DQ",
+"t": "GIVAIRO READ sprak 'MAATJE' 'T ZAND: \"Ik zei tegen hem: BLIJF HUMBLE\" 😉 | Interview"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-31",
+"id": "MjMKaIqXQ-k",
+"t": "PSV en Philips vragen op een bijzondere manier aandacht voor de beroertezorg 🧠"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-31",
+"id": "K0cW1-1StA8",
+"t": "Aanvoerder LUCIANO VALENTE baalt van PUNTVERLIES 😒 | Interview"
+},
+{
+"c": "ESPN NL",
+"f": "2026-10-31",
+"id": "gGUIhecJTE0",
+"t": "Mattheos Tsigkas met een heerlijke stift in Limburgs onderonsje 👏"
 },
 {
 "c": "ESPN NL",
@@ -14225,42 +14321,6 @@
 "f": "2026-09-10",
 "id": "LmYN1svF6Tg",
 "t": "DANNY KOEVERMANS zag Kodai Sano uitblinken: \"Opvolger van Joey Veerman\" 🌟 | Voetbalpraat"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-10",
-"id": "fQTEvNJX6qs",
-"t": "Peter Bosz had de primeur om Mauro Jr. het prachtige nieuws te brengen 🇧🇷🆕"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-09",
-"id": "GYwsSz-wo6M",
-"t": "Ivan Perišić vond Ajax - PSV van 'Champions League-niveau' 🤩💪"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-09",
-"id": "xkdmV95YUfI",
-"t": "Irakli Yegoian maakt een top 5 van Georgische topvoetballers🔥🇬🇪"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-09",
-"id": "YH5K83ywHqE",
-"t": "FC Utrecht 'PROFITEERT' van STAKING: \"Voelt een beetje alsof het ONRECHT WINT\" 🫣 | Voetbalpraat"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-09",
-"id": "cnBm0DLy0mQ",
-"t": "Tijjani Reijnders is los in Saudi-Arabië ⚽️⚽️"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-09",
-"id": "gZqSF2Ac1q0",
-"t": "Waar liggen de kansen voor FEYENOORD tegen FC BARCELONA? 🤔🏆 | Voetbalpraat"
 }
 ],
 "laliga": [
@@ -14275,6 +14335,84 @@
 "f": "2026-10-31",
 "id": "Rx5aq_W-u-Y",
 "t": "Barça vs Alavés"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-31",
+"id": "gYHNBSbUaqc",
+"t": "🛡️💚 ¡El KAISER del Real Betis!"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-31",
+"id": "CZw3A3DLZHA",
+"t": "RAYO VALLECANO vs CELTA | RUEDA DE PRENSA"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-31",
+"id": "y6GPlcCBAD0",
+"t": "🔴 REAL BETIS vs MÁLAGA CF - PREVIA DEL PARTIDO"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-31",
+"id": "2-v5Pi2PLvY",
+"t": "RAYO VALLECANO 3 - 0 CELTA | RESUMEN LALIGA EA SPORTS"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-31",
+"id": "etM1SGMlU-U",
+"t": "⚽️⚡️⚽️ ¡DOBLETE de Jorge De Frutos!"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-31",
+"id": "BXm-DmPr4cA",
+"t": "🎉 ¡Unai López se une a la FIESTA DE LOS GOLES en el #RayoCelta! ⚽🔥"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-31",
+"id": "JMpQ_OqGxWQ",
+"t": "💙✨ Un recuerdo para toda la vida."
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-31",
+"id": "OIdxkFzwBK0",
+"t": "🤏 ¡Por muy poco!"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-31",
+"id": "MX4MqpHbnb4",
+"t": "LEVANTE UD vs ATLÉTICO DE MADRID | RUEDA DE PRENSA"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-31",
+"id": "eZMYiWI4Nh0",
+"t": "🔴 RAYO VALLECANO vs CELTA - PREVIA DEL PARTIDO"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-31",
+"id": "c3Ct099QZ-8",
+"t": "LEVANTE UD 0 - 2 ATLÉTICO DE MADRID | RESUMEN LALIGA EA SPORTS"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-31",
+"id": "Gb5uygKgym8",
+"t": "😃 ¡Todo el Atleti comparte la alegría de los Simeone! ❤️🤍"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-10-31",
+"id": "VNa0nMKHcTk",
+"t": "❤️🏌️🤍"
 },
 {
 "c": "LALIGA EA SPORTS",
@@ -19272,6 +19410,18 @@
 },
 {
 "c": "Ligue 1",
+"f": "2026-10-31",
+"id": "R0YjqtKLQWo",
+"t": "Oups 🤣 #ligue1mcdonalds #football #ligue1 #foot #footballshorts #soccer #sports"
+},
+{
+"c": "Ligue 1",
+"f": "2026-10-31",
+"id": "IAGxt38RWJ8",
+"t": "Paqueta 🕺​🪩​ #football #ligue1 #foot #footballshorts #soccer #sports #shorts #ligue1mcdonalds"
+},
+{
+"c": "Ligue 1",
 "f": "2026-10-30",
 "id": "MpYWcPJYD_g",
 "t": "Ouf 😂 #ligue1mcdonalds #football #ligue1 #foot #footballshorts #soccer #sports #shorts #rclens"
@@ -23162,6 +23312,18 @@
 }
 ],
 "seriea": [
+{
+"c": "Serie A",
+"f": "2026-10-31",
+"id": "lsA_3waUZ24",
+"t": "Skorupski Decisivo all’Ultimo | BOLOGNA-MONZA | HIGHLIGHTS | SERIE A ENILIVE 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-10-31",
+"id": "dW8v_gLkZfk",
+"t": "Skorupski Saves Crucial Penalty | BOLOGNA-MONZA | HIGHLIGHTS | Serie A 2026/27"
+},
 {
 "c": "Serie A",
 "f": "2026-10-30",
