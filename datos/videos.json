@@ -2,6 +2,24 @@
 "brasileirao": [
 {
 "c": "CazéTV",
+"f": "2026-11-02",
+"id": "cWEmbuUTIBI",
+"t": "AO VIVO: FELIPE OKANO NO TÊNIS DE MESA | JOGOS OLÍMPICOS DA JUVENTUDE DAKAR 2026"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-02",
+"id": "3DhATNRhd-Q",
+"t": "É BRONZE! ANA JÚLIA AMARAL GARANTE A PRIMEIRA MEDALHA DO BRASIL NOS JOGOS OLÍMPICOS DA JUVENTUDE"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-02",
+"id": "gBDmRXbvYzc",
+"t": "PALMEIRAS E GRÊMIO FAZEM DEVER DE CASA E LARGAM NA FRENTE NA COPA DO BRASIL | GERAL CAZÉTV"
+},
+{
+"c": "CazéTV",
 "f": "2026-11-01",
 "id": "05X5KpN45Q4",
 "t": "JOGO COMPLETO: CORINTHIANS X CRUZEIRO | LIBERTADORES FEMININA 2026 | FINAL"
@@ -155,6 +173,36 @@
 "f": "2026-11-01",
 "id": "xxi0cPGzt8Y",
 "t": "COMPACTO: RACING CLUB 0 X 3 REAL MADRID | LALIGA 26/27 | 11ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-01",
+"id": "mZbTN8IFS7Q",
+"t": "JOGO COMPLETO (SOM AMBIENTE): OLYMPIQUE MARSEILLE X TOULOUSE | LIGUE 1 26/27 | 9ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-01",
+"id": "3lZSp9WbrXY",
+"t": "JOGO COMPLETO: ATHLETIC BILBAO X REAL SOCIEDAD | LALIGA 26/27 | 11ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-01",
+"id": "2B1y2LfMTPE",
+"t": "JOGO COMPLETO: JUVENTUS X NAPOLI | SÉRIE A ITALIANA 26/27 | 10ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-01",
+"id": "T8jJl4BW43g",
+"t": "MELHORES MOMENTOS: ATHLETIC BILBAO 2 X 1 REAL SOCIEDAD | LALIGA 26/27 | 11ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-01",
+"id": "fvwhNWgIWyw",
+"t": "MELHORES MOMENTOS: JUVENTUS 2 X 0 NAPOLI | SERIE A 26/27 | 10ª RODADA"
 },
 {
 "c": "CazéTV",
@@ -1160,12 +1208,6 @@
 },
 {
 "c": "CazéTV",
-"f": "2026-10-24",
-"id": "mZbTN8IFS7Q",
-"t": "AO VIVO (SOM AMBIENTE): OLYMPIQUE MARSEILLE X TOULOUSE | LIGUE 1 26/27 | 9ª RODADA"
-},
-{
-"c": "CazéTV",
 "f": "2026-10-23",
 "id": "PSZsVLpNbvg",
 "t": "FLAMENGO X ESTUDIANTES DE LA PLATA | LIBERTADORES | NARRAÇÃO | NOCHE DE COPA"
@@ -1463,18 +1505,6 @@
 "f": "2026-10-22",
 "id": "RHYg5_-NXhA",
 "t": "FLAMENGO BUSCA MAIS UMA FINAL E COMEÇAM OS PREPARATIVOS PRO EL CLÁSICO | SEIS EM UM"
-},
-{
-"c": "CazéTV",
-"f": "2026-10-22",
-"id": "3lZSp9WbrXY",
-"t": "AO VIVO: ATHLETIC BILBAO X REAL SOCIEDAD | LALIGA 26/27 | 11ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-10-22",
-"id": "2B1y2LfMTPE",
-"t": "AO VIVO: JUVENTUS X NAPOLI | SÉRIE A ITALIANA 26/27 | 10ª RODADA"
 },
 {
 "c": "CazéTV",
@@ -5369,39 +5399,33 @@
 "f": "2026-09-09",
 "id": "njjFozBH9jE",
 "t": "ESTREIA DO PODCAST QUADRA ABERTA! COM TUDO DA RETA FINAL DO ÚLTIMO GRAND SLAM DO ANO"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-09",
-"id": "-M7hXv8rMjQ",
-"t": "CONFIRA A PRIMEIRA CONVOCAÇÃO DA SELEÇÃO BRASILEIRA NO CICLO DA COPA DE 2030!"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-09",
-"id": "H9Kjvb0gEYo",
-"t": "TO NEM AÍ!"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-09",
-"id": "OFBRQFhZtco",
-"t": "JOGO COMPLETO: ITÁLIA X AUSTRÁLIA | COPA DO MUNDO DE BASQUETE FEMININO 2026 | 2ª FASE"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-09",
-"id": "xz7fo9aq100",
-"t": "ANCELOTTI FAZ A PRIMEIRA CONVOCAÇÃO DO CICLO DA COPA DE 2030! | GERAL CAZÉTV"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-09",
-"id": "p8981cjRSM0",
-"t": "VEJA COMO FOI: PSG X MÔNACO | LIGUE 1 26/27 | 3ª RODADA"
 }
 ],
 "bundesliga": [
+{
+"c": "Bundesliga",
+"f": "2026-11-02",
+"id": "YSToP57dISM",
+"t": "Drama All Over Der Klassiker! | FC BAYERN - BORUSSIA DORTMUND | Highlights | Matchday 8 – Bundesliga"
+},
+{
+"c": "Bundesliga",
+"f": "2026-11-02",
+"id": "OAbRjY1sXdk",
+"t": "Kimmich needs to have a discussion with the ref 😅🫢"
+},
+{
+"c": "Bundesliga",
+"f": "2026-11-02",
+"id": "SebD-IJ6Oi8",
+"t": "Things Got HEATED In DER KLASSIKER 🔥 I REF CAM 🎥"
+},
+{
+"c": "Bundesliga",
+"f": "2026-11-02",
+"id": "czyPotY9bz4",
+"t": "Fabio Silva ties the game! 🔥👀"
+},
 {
 "c": "Bundesliga",
 "f": "2026-11-01",
@@ -5496,7 +5520,7 @@
 "c": "Bundesliga",
 "f": "2026-11-01",
 "id": "mNL39XEVv8A",
-"t": "Huge Step for SGE! | EINTRACHT FRANKFURT - HAMBURGER SV | Highlights | Matchday 8 – Bundesliga 26/27"
+"t": "Huge Step! | EINTRACHT FRANKFURT - HAMBURGER SV | Highlights | Matchday 8 – Bundesliga 26/27"
 },
 {
 "c": "Bundesliga",
@@ -7638,6 +7662,36 @@
 "champions": [
 {
 "c": "UEFA",
+"f": "2026-11-02",
+"id": "UFNxvXXNVws",
+"t": "Pogba overhead kick!"
+},
+{
+"c": "UEFA",
+"f": "2026-11-02",
+"id": "LpwvfyfJHjk",
+"t": "Timing your jump to perfection 🎮⏱️"
+},
+{
+"c": "UEFA",
+"f": "2026-11-02",
+"id": "NlRyP07krOQ",
+"t": "Classic Champions League Goals That Shouldn't Be Missed!"
+},
+{
+"c": "UEFA",
+"f": "2026-11-02",
+"id": "DA7Vp2-t3rA",
+"t": "Touch 1 or Touch 2? 🤔"
+},
+{
+"c": "UEFA",
+"f": "2026-11-02",
+"id": "pdErbfPt4vI",
+"t": "Iconic Ronaldo"
+},
+{
+"c": "UEFA",
 "f": "2026-11-01",
 "id": "DJ2O5zybN4M",
 "t": "EVERY Women's Champions League Goal From Matchday 3"
@@ -9068,6 +9122,60 @@
 "eredivisie": [
 {
 "c": "ESPN NL",
+"f": "2026-11-02",
+"id": "W9MZc60aWaE",
+"t": "Is het ONTSLAAN van de TRAINER wel de juiste oplossing? 🤔❌ | Voetbalpraat"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-02",
+"id": "CnbKVVdTkDM",
+"t": "De 5️⃣ GROOTSTE OVERWINNINGEN van FC TWENTE ✨🔥"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-02",
+"id": "AclcLyhu8S0",
+"t": "Sem Steijn was afgelopen weekend zelf niet klaar voor een wissel 🔄👀"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-02",
+"id": "GDTXamO5Cls",
+"t": "Voorlopig geen Jeremiah St. Juste bij Feyenoord 🤕❌"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-02",
+"id": "QmFTrDNQaWw",
+"t": "De 10 MEEST BIJZONDERE MOMENTEN van afgelopen maand 💥😱"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-02",
+"id": "fc_348dDE3I",
+"t": "🔥 Sondre Ørjasæter 🆚 Excelsior: 🅰️🅰️🅰️🅰️🅰️"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-02",
+"id": "5U9Rq8gHYc8",
+"t": "Gonzalo Montiel moet na rode kaart onder politiebegeleiding het veld af in de Superclásico 🟥🇦🇷"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-02",
+"id": "v0pyV-JS-dY",
+"t": "Messi Magic 🪄✨"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-02",
+"id": "SJO14Bx3wzw",
+"t": "De 𝐩𝐞𝐫𝐟𝐞𝐜𝐭𝐞 𝐡𝐚𝐭𝐭𝐫𝐢𝐜𝐤 van Wout Weghorst 👏"
+},
+{
+"c": "ESPN NL",
 "f": "2026-11-01",
 "id": "rSmft2tSbXU",
 "t": "LIVE: 🇧🇷 PALMEIRAS ONDER 16 - AJAX ONDER 16 🇳🇱 | HALVE FINALE MESSI CUP 🏆"
@@ -9227,6 +9335,12 @@
 "f": "2026-11-01",
 "id": "oqGxij5dUEI",
 "t": "Wout Weghorst hoopt dat zijn jeugdheld Jari Litmanen zijn prachtgoals te zien krijgt 🤩"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-01",
+"id": "jAZY_FVxpo0",
+"t": "Ajax - AZ ONDERMAATS: \"NIETS wat leek op INTERNATIONAAL VOETBAL\" 😥 | Dit Was Het Weekend"
 },
 {
 "c": "ESPN NL",
@@ -14405,69 +14519,39 @@
 "f": "2026-09-12",
 "id": "UGoX0OGAHLg",
 "t": "Zelf halen 🫣😳"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-12",
-"id": "3SihCU4K1R0",
-"t": "Werk aan de winkel voor Rick Kruys bij NAC Breda 😳"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-12",
-"id": "RCTumfrDSS4",
-"t": "Wout Weghorst trainde gisteren met zijn kinderen op een herkansing vanaf elf meter 👀"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-12",
-"id": "F2EFI5ICLvM",
-"t": "Jannick van der Laan krijgt hulp bij FC Twente 🆚 ADO Den Haag 😁💪"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-12",
-"id": "wTno_WLtf8Q",
-"t": "Een emotionele Wout Weghorst maakt zijn eerste goal in de Grolsch Veste voor FC Twente 🥹🔥"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-12",
-"id": "b3mlt4zU-Ow",
-"t": "Bryan Linssen op de bank zetten blijkt levensgevaarlijk😜"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-12",
-"id": "4ZFJOAqClWc",
-"t": "Anthony Descotte passeert Marc ter Stegen en zet Fortuna naast Ajax!"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-12",
-"id": "tFrm0jujClc",
-"t": "Sigurðarson had de matchwinner 𝗠𝗢𝗘𝗧𝗘𝗡 zijn 😱🫠"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-12",
-"id": "f5G5F2Aob8s",
-"t": "Julian Brandt 🥵💫"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-12",
-"id": "iMTo5Tr4cNg",
-"t": "\"Maar jullie hebben wel goed gevoetbald...\" 😅"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-12",
-"id": "W_yDcx1GK2M",
-"t": "𝙏𝙤𝙡𝙪 𝘼𝙧𝙤𝙠𝙤𝙙𝙖𝙧𝙚, de publiekslieveling van Ajax🤳"
 }
 ],
 "laliga": [
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-02",
+"id": "qiuPatQBvMA",
+"t": "Un día con un FUTBOLISTA PROFESIONAL: YASSIR ZABIRI"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-02",
+"id": "Z87sZSuICOI",
+"t": "¿Quién es más rápido: RÜDIGER o MILITAO?"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-02",
+"id": "VUBKuX8nl-U",
+"t": "Un GOL INCREÍBLE en cada ESTADIO en LALIGA 2026/27 hasta ahora 🏟️"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-02",
+"id": "7CYYrupgZtE",
+"t": "El reencuentro de KHEDIRA y CANALES"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-02",
+"id": "flIC0kE445s",
+"t": "Bellingham 🤗"
+},
 {
 "c": "LALIGA EA SPORTS",
 "f": "2026-11-01",
@@ -14574,7 +14658,7 @@
 "c": "LALIGA EA SPORTS",
 "f": "2026-11-01",
 "id": "ImTz0G03qmk",
-"t": "ELCHE CF vs VALENCIA CF | RUEDA DE PRENSA"
+"t": "Javier Aguirre: \"Era necesaria la victoria\""
 },
 {
 "c": "LALIGA EA SPORTS",
@@ -14635,6 +14719,36 @@
 "f": "2026-11-01",
 "id": "CtjIJ5mHKi0",
 "t": "R. RACING CLUB 0 - 3 REAL MADRID | RESUMEN LALIGA EA SPORTS"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-01",
+"id": "BrwJIRvb-MA",
+"t": "Edin Terzic: \"Estamos en el buen camino\""
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-01",
+"id": "FKF8xRURBbY",
+"t": "ATHLETIC CLUB 2 - 1 REAL SOCIEDAD | RESUMEN LALIGA EA SPORTS"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-01",
+"id": "oSSYBA535kc",
+"t": "R. RACING CLUB 0 - 3 REAL MADRID | RESUMEN LALIGA EA SPORTS"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-01",
+"id": "vezTrOsT6JU",
+"t": "ATHLETIC CLUB 2 - 1 REAL SOCIEDAD | RESUMEN LALIGA EA SPORTS"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-01",
+"id": "SkmAS0LERtc",
+"t": "𝗗𝗼𝗻 𝗨𝗻𝗮𝗶 𝗦𝗶𝗺𝗼́𝗻, otra vez.🧱"
 },
 {
 "c": "LALIGA EA SPORTS",
@@ -19788,6 +19902,48 @@
 "ligue1": [
 {
 "c": "Ligue 1",
+"f": "2026-11-02",
+"id": "owVbKvtQboQ",
+"t": "Corentin Tolisso for the team 🤝 #football #ligue1 #foot #soccer #footballshorts #sports #shorts"
+},
+{
+"c": "Ligue 1",
+"f": "2026-11-02",
+"id": "GY9eDrBZijs",
+"t": "LOSC - RC Lens : L'INCROYABLE IMMERSION DANS LE DERBY DU NORD !"
+},
+{
+"c": "Ligue 1",
+"f": "2026-11-02",
+"id": "9ztwCnCj-us",
+"t": "Lassine Sinayoko is the actual Ligue 1 top scorer⚽️✨ #football #ligue1 #foot #soccer #footballshorts"
+},
+{
+"c": "Ligue 1",
+"f": "2026-11-02",
+"id": "cm7NJLs6F-s",
+"t": "Le ZAPPING de la 9e journée de Ligue 1 🍿"
+},
+{
+"c": "Ligue 1",
+"f": "2026-11-02",
+"id": "ghNp1n52jx4",
+"t": "Team goal from Nice, finished by Amoura 🇩🇿😍 #Ligue1 #algeria #ogcnice"
+},
+{
+"c": "Ligue 1",
+"f": "2026-11-02",
+"id": "TwKkOtQuxKk",
+"t": "Résumé 9ème journée | Ligue 1 McDonald's 26/27"
+},
+{
+"c": "Ligue 1",
+"f": "2026-11-02",
+"id": "IOb2PTLG_28",
+"t": "OLYMPIQUE DE MARSEILLE - TOULOUSE FC (2-0) | Week 9 - Ligue 1 McDonald's 26/27"
+},
+{
+"c": "Ligue 1",
 "f": "2026-11-01",
 "id": "kMOMsFomFD4",
 "t": "So smooth 🫧 #ligue1mcdonalds  #football #ligue1 #psg #foot #footballshorts #soccer #sports #shorts"
@@ -19809,6 +19965,48 @@
 "f": "2026-11-01",
 "id": "RN1usHLUgZE",
 "t": "Mason Greenwood 🤩​  #football #ligue1 #foot #footballshorts #soccer #sports #shorts #ligue1mcdonalds"
+},
+{
+"c": "Ligue 1",
+"f": "2026-11-01",
+"id": "a_-PtvdEE58",
+"t": "PARIS FC - AS MONACO (3-1) | Week 9 - Ligue 1 McDonald's 26/27"
+},
+{
+"c": "Ligue 1",
+"f": "2026-11-01",
+"id": "4iD_scQSw-Q",
+"t": "86th minute. Giroud. Ice Cold. 🧊🧊 #Ligue1 #football #LOSC"
+},
+{
+"c": "Ligue 1",
+"f": "2026-11-01",
+"id": "XlJtnWIErGk",
+"t": "Harit. Huge. 🤤🇲🇦 #Ligue1 #OM #moroccan"
+},
+{
+"c": "Ligue 1",
+"f": "2026-11-01",
+"id": "7c4X1GpIDTQ",
+"t": "Grâce à Gouiri l'OM ALIGNE un 4e SUCCÈS face au TFC | 9ème journée - Ligue 1 McDonald's 26/27"
+},
+{
+"c": "Ligue 1",
+"f": "2026-11-01",
+"id": "JPClKyZqmnY",
+"t": "RC STRASBOURG ALSACE - AJ AUXERRE (5-1) | Week 9 - Ligue 1 McDonald's 26/27"
+},
+{
+"c": "Ligue 1",
+"f": "2026-11-01",
+"id": "FWw5qMBrYpk",
+"t": "Le TOP ARRÊTS de la 9ème journée | Ligue 1 McDonald's 26/27"
+},
+{
+"c": "Ligue 1",
+"f": "2026-11-01",
+"id": "lCzYvdGDFF0",
+"t": "OLYMPIQUE LYONNAIS - ANGERS SCO (2-0) | Week 9 - Ligue 1 McDonald's 26/27"
 },
 {
 "c": "Ligue 1",
@@ -22154,6 +22352,24 @@
 "premier": [
 {
 "c": "Premier League",
+"f": "2026-11-02",
+"id": "gD6xUhmmeRQ",
+"t": "Zion Suzuki Pulls Off A WONDER Save 😳🇯🇵"
+},
+{
+"c": "Premier League",
+"f": "2026-11-02",
+"id": "viavtx8xd9w",
+"t": "Konsa ➕ Gabriel ﹦ Defensive MASTERCLASS 🛡️"
+},
+{
+"c": "Premier League",
+"f": "2026-11-02",
+"id": "9vRqAPzL6ds",
+"t": "Declan Rice Can Do It All 😤"
+},
+{
+"c": "Premier League",
 "f": "2026-11-01",
 "id": "sVfrW-gbt_A",
 "t": "You MUST SEE This Zion Suzuki Save 😳"
@@ -22163,6 +22379,24 @@
 "f": "2026-11-01",
 "id": "DD410R8sT5U",
 "t": "Dominik Szoboszlai, Free-Kick Specialist 🎯"
+},
+{
+"c": "Premier League",
+"f": "2026-11-01",
+"id": "VYkqtBYDTn8",
+"t": "Dominik Szoboszlai Reacts To Florian Wirtz's Free-Kick 👀"
+},
+{
+"c": "Premier League",
+"f": "2026-11-01",
+"id": "FE-9LM2Iaek",
+"t": "EVERY Weekend Goal | Matchweek 9 | 2026/27 Premier League Highlights"
+},
+{
+"c": "Premier League",
+"f": "2026-11-01",
+"id": "30hxb6b7MO0",
+"t": "Bruno Guimaraes' PASSION 😤"
 },
 {
 "c": "Premier League",
@@ -23764,6 +23998,84 @@
 "seriea": [
 {
 "c": "Serie A",
+"f": "2026-11-02",
+"id": "XJLOcce0IAs",
+"t": "MILAN-INTER 3-1 | EXTENDED HIGHLIGHTS | SERIE A 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-11-02",
+"id": "o2t62FyCRTY",
+"t": "MAXI SINTESI MILAN-INTER 3-1 | EXTENDED HIGHLIGHTS | SERIE A ENILIVE 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-11-02",
+"id": "oa04J5DDrDE",
+"t": "Take a Bow, BOGA 👏🤯 | Every Angle | Serie A Enilive 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-11-02",
+"id": "I2RWQ4BEZ_s",
+"t": "MOREIRA, poetry in motion 🎨 #MilanInter"
+},
+{
+"c": "Serie A",
+"f": "2026-11-02",
+"id": "988VvTTO2vY",
+"t": "Your Seat for the DERBY DELLA MADONNINA 🎟️ | Milan-Inter 3-1 | Serie A Enilive"
+},
+{
+"c": "Serie A",
+"f": "2026-11-02",
+"id": "2eZaJaKW7Q0",
+"t": "How LAZIO Took TOP SPOT 🦅"
+},
+{
+"c": "Serie A",
+"f": "2026-11-02",
+"id": "Xn1b99UH8i8",
+"t": "MAXI SINTESI UDINESE-ROMA 2-5 | EXTENDED HIGHLIGHTS | SERIE A ENILIVE 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-11-02",
+"id": "IMaS78mkFaE",
+"t": "UDINESE-ROMA 2-5 | EXTENDED HIGHLIGHTS | SERIE A 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-11-02",
+"id": "Q_yL8fz6CiI",
+"t": "Alajbegović’s FIRST Serie A Enilive goal is a BANGER 🚀🤯 | Every Angle | Serie A Enilive 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-11-02",
+"id": "KkU3iCLwsIU",
+"t": "VI-CA-RIO! 🧱"
+},
+{
+"c": "Serie A",
+"f": "2026-11-02",
+"id": "mXW9CoR2wxU",
+"t": "Did MOREIRA Just Play the PERFECT Half?! 🤯 | Every Touch | Milan-Inter | Serie A Enilive 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-11-02",
+"id": "n3HF8WLJ7Jw",
+"t": "How JUVE Took Down NAPOLI 👀"
+},
+{
+"c": "Serie A",
+"f": "2026-11-02",
+"id": "QtI8YWwpZSw",
+"t": "Alajbegovic e Boga: la Juve torna a vincere | JUVENTUS-NAPOLI | HIGHLIGHTS | SERIE A ENILIVE 2026/27"
+},
+{
+"c": "Serie A",
 "f": "2026-11-01",
 "id": "-zYt_ls-Yuk",
 "t": "Mike Maignan, simply unreal! 🤯"
@@ -23851,6 +24163,12 @@
 "f": "2026-11-01",
 "id": "PO1LEZda9ns",
 "t": "Third Win in a Row for the Grifone! | LECCE-GENOA | HIGHLIGHTS | Serie A 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-11-01",
+"id": "iqciggyhLvM",
+"t": "Alajbegovic Strikes Stunning First Goal! | JUVENTUS-NAPOLI | HIGHLIGHTS | Serie A 2026/27"
 },
 {
 "c": "Serie A",
