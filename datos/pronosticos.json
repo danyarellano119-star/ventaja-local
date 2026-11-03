@@ -31823,6 +31823,25 @@
 "pv": 0.2078,
 "v": "Rio Ave"
 },
+"primeira|2027-01-10|arouca|sport lisboa benfica": {
+"btts": 0.5925,
+"clave_l": "FC Arouca",
+"clave_liga": "primeira",
+"clave_v": "Sport Lisboa e Benfica",
+"fecha": "2027-01-10",
+"l": "Arouca",
+"liga": "Primeira Liga",
+"marcador": "1-2",
+"o15": 0.872,
+"o25": 0.6783,
+"o35": 0.4622,
+"p_marcador": 0.0948,
+"pe": 0.1872,
+"pl": 0.1271,
+"publicado": "2026-11-03T02:00Z",
+"pv": 0.6857,
+"v": "Benfica"
+},
 "primeira|2027-01-10|estrela da amadora|gd estoril praia": {
 "btts": 0.6269,
 "clave_l": "CF Estrela da Amadora",
@@ -31879,6 +31898,25 @@
 "publicado": "2026-11-02T00:54Z",
 "pv": 0.3898,
 "v": "Gil Vicente"
+},
+"primeira|2027-01-10|rio ave|moreirense": {
+"btts": 0.5302,
+"clave_l": "Rio Ave FC",
+"clave_liga": "primeira",
+"clave_v": "Moreirense FC",
+"fecha": "2027-01-10",
+"l": "Rio Ave",
+"liga": "Primeira Liga",
+"marcador": "1-1",
+"o15": 0.7341,
+"o25": 0.4656,
+"o35": 0.2504,
+"p_marcador": 0.1411,
+"pe": 0.2953,
+"pl": 0.339,
+"publicado": "2026-11-03T02:00Z",
+"pv": 0.3657,
+"v": "Moreirense"
 },
 "primeira|2027-01-10|sporting clube braga|porto": {
 "btts": 0.459,
@@ -37547,6 +37585,25 @@
 "publicado": "2026-10-26T00:32Z",
 "pv": 0.2614,
 "v": "OFI Heraklion"
+},
+"superleague|2027-01-30|panathinaikos|olympiakos piraeus": {
+"btts": 0.4779,
+"clave_l": "Panathinaikos",
+"clave_liga": "superleague",
+"clave_v": "Olympiakos Piraeus",
+"fecha": "2027-01-30",
+"l": "Panathinaikos",
+"liga": "Super League",
+"marcador": "1-1",
+"o15": 0.7004,
+"o25": 0.4246,
+"o35": 0.2167,
+"p_marcador": 0.1388,
+"pe": 0.2944,
+"pl": 0.2313,
+"publicado": "2026-11-03T02:00Z",
+"pv": 0.4743,
+"v": "Olympiakos Piraeus"
 },
 "superlig|2026-10-11|alanyaspor|bb erzurumspor": {
 "btts": 0.1872,
