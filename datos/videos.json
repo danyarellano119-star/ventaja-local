@@ -62,6 +62,54 @@
 },
 {
 "c": "CazéTV",
+"f": "2026-11-04",
+"id": "RIrZqYcq48Y",
+"t": "JOGO COMPLETO: RENNES X OLYMPIAKOS | EUROPA LEAGUE  26/27 | 4ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-04",
+"id": "fWLkEXEq4rA",
+"t": "JOGO COMPLETO: JAPÃO X COREIA DO NORTE | COPA DO MUNDO FEMININA SUB-17 2026 | SEMIFINAL"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-04",
+"id": "THv-sDWRuiA",
+"t": "SKATE STREET MASCULINO | JOGOS OLÍMPICOS DA JUVENTUDE DAKAR 2026 | 5º DIA"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-04",
+"id": "FOT1VnqNsCA",
+"t": "JOGO COMPLETO: BRASIL X NIGÉRIA | COPA DO MUNDO FEMININA SUB-17 2026 | SEMIFINAL"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-04",
+"id": "RyKFZXYBUMs",
+"t": "MELHORES MOMENTOS: BRASIL 1 X 3 NIGÉRIA | COPA DO MUNDO FEMININA SUB-17 | SEMI-FINAL"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-04",
+"id": "IfoquHfGziY",
+"t": "AO VIVO: RESENHA PÓS-JOGO ATHLETICO X VASCO PELO BRASILEIRÃO | RODA DE BOBO"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-04",
+"id": "YQSr0saFWug",
+"t": "MELHORES MOMENTOS: RENNES 0 X 0 OLYMPIAKOS | EUROPA LEAGUE 26/27 | 4ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-04",
+"id": "A5JJXYBTLMQ",
+"t": "MELHORES MOMENTOS: JAPÃO 1(4) X 1(1) COREIA DO NORTE | COPA DO MUNDO FEMININA SUB17 2026 | SEMIFINAL"
+},
+{
+"c": "CazéTV",
 "f": "2026-11-03",
 "id": "ftynqYKwkg0",
 "t": "RB BRAGANTINO VENCE O SANTOS EM CONFRONTO DIRETO E VITÓRIA DEMITE JAIR VENTURA | GERAL CAZÉTV"
@@ -105,26 +153,8 @@
 {
 "c": "CazéTV",
 "f": "2026-11-03",
-"id": "RIrZqYcq48Y",
-"t": "AO VIVO: RENNES X OLYMPIAKOS | EUROPA LEAGUE  26/27 | 4ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-11-03",
 "id": "m9aGj41dC2g",
 "t": "VÔLEI DE PRAIA | JOGOS OLÍMPICOS DA JUVENTUDE DAKAR 2026"
-},
-{
-"c": "CazéTV",
-"f": "2026-11-03",
-"id": "fWLkEXEq4rA",
-"t": "AO VIVO: JAPÃO X COREIA DO NORTE | COPA DO MUNDO FEMININA SUB-17 2026 | SEMIFINAL"
-},
-{
-"c": "CazéTV",
-"f": "2026-11-03",
-"id": "THv-sDWRuiA",
-"t": "AO VIVO: FINAIS DA NATAÇÃO | JOGOS OLÍMPICOS DA JUVENTUDE DAKAR 2026"
 },
 {
 "c": "CazéTV",
@@ -3842,6 +3872,12 @@
 },
 {
 "c": "CazéTV",
+"f": "2026-09-24",
+"id": "cOjixSohLkY",
+"t": "AO VIVO: ATHLETICO X VASCO | BRASILEIRÃO 2026 | 34ª RODADA"
+},
+{
+"c": "CazéTV",
 "f": "2026-09-23",
 "id": "IjV9UGfH0Ys",
 "t": "JOGO COMPLETO: ITÁLIA X ESPANHA | COPA DO MUNDO FEMININA SUB-20 FIFA 2026 | SEMIFINAL"
@@ -5363,42 +5399,6 @@
 "f": "2026-09-11",
 "id": "WKPpmOJnE4w",
 "t": "EVENTO COMPLETO: JUDÔ: TIME BRASIL NO GRAND SLAM DE BUDAPESTE | DIA 1"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-11",
-"id": "nG0jeK6inds",
-"t": "UM PAPO COM VICKY BARROS: PROMESSA DO TÊNIS BRASILEIRO, BOA DE BOLA E FÃ DE REGGAETON"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-11",
-"id": "tNHq3BbrGwU",
-"t": "JOGO COMPLETO: RENNES X MARSEILLE | LIGUE 1 26/27 | 4ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-11",
-"id": "7-eI1CZXhWk",
-"t": "MELHORES MOMENTOS: SEVILLA 1 X 0 VALENCIA | LALIGA 26/27 | 5ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-11",
-"id": "psIMXqfV3y8",
-"t": "MELHORES MOMENTOS: RENNES 1 X 0 MARSEILLE | LIGUE 1 26/27 | 4ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-11",
-"id": "Ntk1LJFwLIo",
-"t": "LIVERPOOL NA PREMIER LEAGUE E A BRIGA CONTRA O REBAIXAMENTO NO BRASILEIRÃO | QUEM FEZ, FEZ"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-11",
-"id": "eOHqq0wlhBo",
-"t": "JOGO COMPLETO: SEVILLA X VALENCIA | LALIGA 26/27 | 5ª RODADA"
 }
 ],
 "bundesliga": [
@@ -7698,6 +7698,30 @@
 },
 {
 "c": "UEFA",
+"f": "2026-11-04",
+"id": "HHe0EXGloJY",
+"t": "Backing Como to score first again? The stats suggest Haaland will deliver in Leipzig!"
+},
+{
+"c": "UEFA",
+"f": "2026-11-04",
+"id": "ARpwlX5M_fQ",
+"t": "This Cancelo assist 😍"
+},
+{
+"c": "UEFA",
+"f": "2026-11-04",
+"id": "fcZtJ_z7BtU",
+"t": "Diomande’s finish 😍"
+},
+{
+"c": "UEFA",
+"f": "2026-11-04",
+"id": "8tFkVM6eBxg",
+"t": "Incredible Europa League Goals That Are 10/10 Finishes! | Matchday 4 Edition"
+},
+{
+"c": "UEFA",
 "f": "2026-11-03",
 "id": "3qZK9ozdsl4",
 "t": "The audacity from Raphinha"
@@ -9215,6 +9239,30 @@
 "f": "2026-11-04",
 "id": "qKtR8Iz2q64",
 "t": "PSV - Club Brugge 'fifty-fifty'-wedstrijd? \"Dit MOETEN ze WINNEN\" 🆑 | Voetbalpraat"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-04",
+"id": "miwoljJaGfY",
+"t": "De broederstrijd tussen Teun en Peer Koopmeiners is al voor de wedstrijd begonnen😜"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-04",
+"id": "E5YauHSHwX0",
+"t": "Jari Litmanen 🤝 Wout Weghorst 🙌"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-04",
+"id": "-wNydXKqVu4",
+"t": "Leeroy Echteld sprak met Ayoub Oufkir over zijn keuze voor Marokko 🇲🇦"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-04",
+"id": "FsX3YLjDQ80",
+"t": "Mooie interacties tussen Allard Lindhout en Sofyan Amrabat tijdens Ajax - AZ 🗣️🤝"
 },
 {
 "c": "ESPN NL",
@@ -14555,30 +14603,6 @@
 "f": "2026-09-13",
 "id": "2NaZ_KsMtZ4",
 "t": "De eerste Eredivisie-goal van Nacho Ferri 🤩🔥"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-13",
-"id": "rP6lJo4U-TQ",
-"t": "Artem Stepanov SCOORT WEER voor FC UTRECHT!🔥 | Samenvatting Excelsior - FC Utrecht"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-13",
-"id": "3qxFlF4rePY",
-"t": "Golden Boy, ex-Real Madrid en WK-finalist. Artem Stepanov heeft geen idee 🫣"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-13",
-"id": "2eLkGtCDN6U",
-"t": "Dani de Wit met een heerlijk wippertje!👏"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-13",
-"id": "vF-bwBTDxKQ",
-"t": "De eerste van Kodai SANO! 🇯🇵⚡️"
 }
 ],
 "laliga": [
@@ -14605,6 +14629,30 @@
 "f": "2026-11-04",
 "id": "lB5w9KQkaqQ",
 "t": "Pero DIOMANDE! 😱"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-04",
+"id": "rf03Wjh8lls",
+"t": "Por qué VALLECAS sigue siendo un FORTÍN para el RAYO"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-04",
+"id": "GLY_G-IGkO0",
+"t": "Zabiri y su fichaje por el Real Racing Club"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-04",
+"id": "-fMOZnqlio8",
+"t": "Los 3 jugadores con más apoyos ofrecidos son..."
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-04",
+"id": "KaGhtrTLBl8",
+"t": "REFCAM Real Racing vs Real Madrid"
 },
 {
 "c": "LALIGA EA SPORTS",
@@ -19957,30 +20005,6 @@
 "f": "2026-09-01",
 "id": "XsFBFCIBd2E",
 "t": "LAMINE es estratosférico"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-09-01",
-"id": "MiYsXQillDs",
-"t": "TODOS los GOLES de la JORNADA 3 de LALIGA EA SPORTS 2026/27"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-09-01",
-"id": "iROgSERsjZA",
-"t": "Cómo ha empezado JUDE BELLINGHAM LALIGA"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-09-01",
-"id": "q541OAoHQwA",
-"t": "Lamine ya está de vuelta 👀"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-09-01",
-"id": "D4u1-deycK4",
-"t": "GOLAZO de LOOKMAN"
 }
 ],
 "ligue1": [
@@ -20013,6 +20037,12 @@
 "f": "2026-11-04",
 "id": "6hwSOsiNjGY",
 "t": "More than just a goal 🥹 #ligue1mcdonalds  #football #ligue1 #foot #soccer #footballshorts #sports"
+},
+{
+"c": "Ligue 1",
+"f": "2026-11-04",
+"id": "ZOvQ0yPyr5w",
+"t": "Turning point of the match‼️#Ligue1McDonalds #football #ligue1 #foot #soccer #footballshorts #sports"
 },
 {
 "c": "Ligue 1",
@@ -22550,6 +22580,12 @@
 },
 {
 "c": "Premier League",
+"f": "2026-11-04",
+"id": "j3h11PxN3Do",
+"t": "Rating 100 IQ Football Moments 🧠😮‍💨"
+},
+{
+"c": "Premier League",
 "f": "2026-11-03",
 "id": "3CYTUI-c0uc",
 "t": "HOW Did This Not Cross The Line? 😱"
@@ -24247,6 +24283,18 @@
 "f": "2026-11-04",
 "id": "Inkq8bV_tNI",
 "t": "🔮 AMORIM'S Tactical MASTERCLASS vs Inter | Serie A Enilive 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-11-04",
+"id": "qO_3oepajYc",
+"t": "ALL ROUND 9 HIGHLIGHTS ⚽ | PRIMAVERA 1 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-11-04",
+"id": "AujjLj71dGw",
+"t": "Meet Frosinone’s FANTASTIC FOUR 🔥 | Goals & Assists | Serie A 2026/27"
 },
 {
 "c": "Serie A",
