@@ -2,6 +2,36 @@
 "brasileirao": [
 {
 "c": "CazéTV",
+"f": "2026-11-06",
+"id": "40xdh_IIlcg",
+"t": "POLÊMICA NOS BASTIDORES, SHELTON E FERRERO E A FORÇA DO TÊNIS BRASILEIRO | QUADRA ABERTA"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-06",
+"id": "g4kwhQFCqrg",
+"t": "JOGO COMPLETO: MILAN X FERENCVÁROSI | EUROPA LEAGUE 26/27 | 4ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-06",
+"id": "Or7qkYUd9zw",
+"t": "MELHORES MOMENTOS: CRUZEIRO 3 x 2 BAHIA | BRASILEIRÃO 2026 | 34ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-06",
+"id": "mB3cOcU6YNg",
+"t": "IMPOSSÍVEL NÃO CHORAR"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-06",
+"id": "XMwbVaJkNl0",
+"t": "OS MELHORES GOLS DO ATLÉTICO DE MADRID NA ERA SIMEONE"
+},
+{
+"c": "CazéTV",
 "f": "2026-11-05",
 "id": "IfoquHfGziY",
 "t": "AO VIVO: VIROU MAIS UMA! VASCO BRILHA NO SEGUNDO TEMPO E SE AFASTA DA ZONA | RODA DE BOBO"
@@ -57,12 +87,6 @@
 {
 "c": "CazéTV",
 "f": "2026-11-05",
-"id": "40xdh_IIlcg",
-"t": "POLÊMICA NOS BASTIDORES, SHELTON E FERRERO E A FORÇA DO TÊNIS BRASILEIRO | QUADRA ABERTA"
-},
-{
-"c": "CazéTV",
-"f": "2026-11-05",
 "id": "U5tdC4PEmz8",
 "t": "BRASIL NA FINAL DO SKATE STREET FEMININO | JOJ DAKAR 2026"
 },
@@ -77,6 +101,66 @@
 "f": "2026-11-05",
 "id": "vM7kXvX_3oQ",
 "t": "ELE É NOSSO, B-ARMY!"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-05",
+"id": "H3xdEZCWG68",
+"t": "JOGO COMPLETO: SPARTA PRAHA X BOURNEMOUTH | EUROPA LEAGUE 26/27 | 4ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-05",
+"id": "0Hs8BpjiDJo",
+"t": "NOVO TRIO PARA NARRAR AS OLIMPÍADAS!"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-05",
+"id": "Zosth8rp0GQ",
+"t": "PALMEIRAS ENTRA EM CAMPO PARA SEGUIR NA LUTA PELO TÍTULO DO BRASILEIRO | GERAL CAZÉTV"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-05",
+"id": "n_NjowGnpzA",
+"t": "OS MELHORES GOLS DE AGÜERO PELO ATLÉTICO DE MADRID!"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-05",
+"id": "WZ9-ekgkY5o",
+"t": "SWIM COM PASSINHO DO JAMAL"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-05",
+"id": "9Vi9NTn2CdA",
+"t": "MELHORES MOMENTOS: AZ - ALKMAAR ZAANSTREEK 1 X 2 JUVENTUS | EUROPA LEAGUE 26/27 | 4ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-05",
+"id": "soLVlDYDCLg",
+"t": "MELHORES MOMENTOS: BENFICA 3 X 1 LECH POZNAN | EUROPA LEAGUE 26/27 | 4ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-05",
+"id": "1HjIq25MBqg",
+"t": "JOGO COMPLETO: AZ - ALKMAAR ZAANSTREEK X JUVENTUS | EUROPA LEAGUE 26/27 | 4ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-05",
+"id": "qKNahPvq3Rk",
+"t": "MELHORES MOMENTOS: MÔNACO 2 x 0 NORDSJAELLAND | CONFERENCE LEAGUE 26/27 | 3ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-05",
+"id": "M4yvLMNE5L4",
+"t": "JOGO COMPLETO: MÔNACO X NORDSJAELLAND | CONFERENCE LEAGUE 26/27 | 3ª RODADA"
 },
 {
 "c": "CazéTV",
@@ -1187,18 +1271,6 @@
 "f": "2026-10-26",
 "id": "1FtOfto6N3Y",
 "t": "AO VIVO (SOM AMBIENTE): CRYSTAL PALACE X HOFFENHEIM | EUROPA LEAGUE 26/27 | 4ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-10-26",
-"id": "g4kwhQFCqrg",
-"t": "AO VIVO: MILAN X FERENCVÁROSI | EUROPA LEAGUE 26/27 | 4ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-10-26",
-"id": "H3xdEZCWG68",
-"t": "AO VIVO: SPARTA PRAHA X BOURNEMOUTH | EUROPA LEAGUE 26/27 | 4ª RODADA"
 },
 {
 "c": "CazéTV",
@@ -5327,78 +5399,6 @@
 "f": "2026-09-12",
 "id": "BtcCaQUkgkA",
 "t": "JOGO COMPLETO: BORUSSIA DORTMUND X PADERBORN | BUNDESLIGA 26/27 | 3ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-12",
-"id": "4smr-PBuyUM",
-"t": "JOGO COMPLETO: STRASBOURG X MÔNACO | LIGUE 1 26/27 | 4ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-12",
-"id": "gwnDgOsf3uA",
-"t": "AO VIVO: JUDÔ: TIME BRASIL NO GRAND SLAM DE BUDAPESTE | DIA 2"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-12",
-"id": "y8qJ7p-f3QM",
-"t": "MELHORES MOMENTOS: OSASUNA 0 X 2 ESPANYOL | LALIGA 26/27 | 5ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-12",
-"id": "XhxG1hY1dzE",
-"t": "MELHORES MOMENTOS: BORUSSIA DORTMUND 3 X 0 PADERBORN | BUNDESLIGA 26/27 | 3ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-12",
-"id": "bPrjCgwDN4U",
-"t": "JOGO COMPLETO: LAZIO X MILAN | SÉRIE A ITALIANA 26/27 | 4ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-12",
-"id": "QRjgrpMrJ3c",
-"t": "GOLAÇO DO REAL! CARRERAS TABELA COM MBAPPÉ E AMPLIA CONTRA O RAYO"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-12",
-"id": "8JTOuhaPF4A",
-"t": "GOOOOOL DO REAL MADRID! MBAPPÉ ABRE O PLACAR EM COBRANÇA DE PÊNALTI CONTRA O RAYO"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-12",
-"id": "RrJ2HBezJ_0",
-"t": "MELHORES MOMENTOS: LAZIO 2 X 2 MILAN | SÉRIE A ITALIANA 26/27 | 4ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-12",
-"id": "LU0Zwn2pb1s",
-"t": "MELHORES MOMENTOS: STRASBOURG 1 X 1 MÔNACO | LIGUE 1 26/27 | 4ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-12",
-"id": "XiPW6devQ04",
-"t": "ESPANHA X ESTADOS UNIDOS | COPA DO MUNDO DE BASQUETE FEMININO | SEMIFINAL"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-12",
-"id": "0y8X_7dOaTY",
-"t": "JOGO COMPLETO (SOM AMBIENTE): PARIS FC X LYON | LIGUE 1 26/27 | 4ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-12",
-"id": "91pX2Qg0KcE",
-"t": "JOGO COMPLETO (SOM AMBIENTE): FC LORIENT X TOULOUSE | LIGUE 1 26/27 | 4ª RODADA"
 }
 ],
 "bundesliga": [
@@ -7794,6 +7794,12 @@
 },
 {
 "c": "UEFA",
+"f": "2026-11-05",
+"id": "Hrxfp9Eig-k",
+"t": "Cristiano’s mentality 🧠"
+},
+{
+"c": "UEFA",
 "f": "2026-11-04",
 "id": "pSBMGckyf68",
 "t": "Quaresma shot power 🤯"
@@ -9320,6 +9326,24 @@
 "eredivisie": [
 {
 "c": "ESPN NL",
+"f": "2026-11-06",
+"id": "wL2uTK2NupI",
+"t": "Een keeper van Ajax, PSV of Feyenoord? Helemaal niet nodig! 🧤"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-06",
+"id": "ZK4JiQOq0Vo",
+"t": "🗣️ KRITIEK op N.E.C.: \"Alsof ze VOOR HET EERST SAMEN voetballen\" 👀 | Voetbalpraat"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-06",
+"id": "wSetlcCpGPY",
+"t": "📈 Ajax WINT EENVOUDIG: \"De ene goal NOG MOOIER dan de ander\" 👏 | Voetbalpraat"
+},
+{
+"c": "ESPN NL",
 "f": "2026-11-05",
 "id": "tK6ByPkQmYg",
 "t": "Dirk Kuijt na de historische Champions League-avond tegen oude liefde Liverpool 💪🇹🇷"
@@ -9347,6 +9371,42 @@
 "f": "2026-11-05",
 "id": "W2f0G3s6CuM",
 "t": "Al sinds 1970 volgt deze fan Ajax door heel Europa 🌍❤️"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-05",
+"id": "DQ-1JnjJv80",
+"t": "De AZ-fans bezorgden Teun Koopmeiners een brok in zijn keel 🥹"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-05",
+"id": "H4P1r3Zkg5w",
+"t": "Geen David Luiz-shirtje, wel Ajax-thuis in het verschiet voor Ruud Nijstad 😏"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-05",
+"id": "OW5W_16yppw",
+"t": "🔎 N.E.C. onder de LOEP: \"Het GEVOEL dat het LOS moet komen\" ⏳ | Voetbalpraat"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-05",
+"id": "lgB2XLavE_c",
+"t": "😬 PIJNPUNT AZ aangewezen: “AZ mist BODY’S in de ZESTIEN” 🧐 | Voetbalpraat"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-05",
+"id": "_ynGmaXmtOY",
+"t": "Youri Baas wist genoeg na een hint van Míchel Sánchez 😏👀"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-05",
+"id": "IxZt_EKI9JY",
+"t": "🗣️ YOURI BAAS over WINST op FC MIDTJYLLAND en SPELEN OP ZES 🫡 | Interview"
 },
 {
 "c": "ESPN NL",
@@ -14663,63 +14723,15 @@
 "f": "2026-09-14",
 "id": "H82MBbFozIw",
 "t": "De kopbal van Wessel Kooy is Joeri Heerkens te machtig 😟☄️"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-14",
-"id": "m2Tt-h_aces",
-"t": "Georginio Wijnaldum op aangeven van Steven Bergwijn 🇳🇱🔗"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-14",
-"id": "SfszgjA1rwE",
-"t": "HELPEN de nieuwe MAATREGELEN van de KNVB? \"Straks staken supporters expres wedstrijden\" 🎇"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-14",
-"id": "6wLzYlSr2Ek",
-"t": "Shiloh 't Zand danst graag voor de fans 🕺"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-14",
-"id": "n-k3uFVoZD0",
-"t": "NIET de avond van JOERI HEERKENS 🫣🟥 | Samenvatting Jong FC Utrecht - Jong Ajax"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-14",
-"id": "QMbxNxpmo0M",
-"t": "Carlos García is keihard voor zijn spelers 😡🗣️"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-14",
-"id": "N806VRA-bIM",
-"t": "Duidelijke taal van Ryan van de Pavert na oorwassing 😳"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-14",
-"id": "-JCLQYXuNOg",
-"t": "Arme Joeri Heerkens… zes goals tegen en vervolgens met rood naar de kant 🫣🟥"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-14",
-"id": "9KKRstvq-W8",
-"t": "AUSTYN JONES schiet weer RAAK 🔥👏 | Samenvatting Jong PSV - Jong AZ"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-13",
-"id": "PqsqerRjCwo",
-"t": "DAAN ROTS staat pal achter WEGHORST💪 \"Als hij dat had gedaan, was heel Nederland erover gevallen\""
 }
 ],
 "laliga": [
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-06",
+"id": "6N1wve8_SFk",
+"t": "DAVID SORIA y el secreto del Getafe CF: un equipo de GLADIADORES | The Backgrounds FC27"
+},
 {
 "c": "LALIGA EA SPORTS",
 "f": "2026-11-05",
@@ -14761,6 +14773,18 @@
 "f": "2026-11-05",
 "id": "4pqyUYJqucw",
 "t": "El Racing vs Real Madrid desde los ojos de la REFCAM"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-05",
+"id": "z6hJ7xCro4I",
+"t": "ATLÉTICO DE MADRID vs FC BARCELONA: 10 AÑOS de goles y emoción en LALIGA EA SPORTS"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-05",
+"id": "K3-qu_8haUU",
+"t": "Vaya caño de Raphinha"
 },
 {
 "c": "LALIGA EA SPORTS",
@@ -20101,27 +20125,15 @@
 "f": "2026-09-03",
 "id": "HFD-3IOcfH8",
 "t": "TURRIENTES😱"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-09-02",
-"id": "Td5WepstIAw",
-"t": "Todos felicitan a LAMINE YAMAL"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-09-02",
-"id": "bACLUOop8IA",
-"t": "Auba no para de dar volteretas 🤸"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-09-02",
-"id": "4iX4wfLoz6M",
-"t": "ZABIRI hace historia con un hat-trick"
 }
 ],
 "ligue1": [
+{
+"c": "Ligue 1",
+"f": "2026-11-06",
+"id": "Wb2wXLIbx3E",
+"t": "GIVE IT TO ME !!! 🙏😭 #football #ligue1 #foot #psg #footballshorts #sports #skills #shorts"
+},
 {
 "c": "Ligue 1",
 "f": "2026-11-05",
@@ -20157,6 +20169,12 @@
 "f": "2026-11-05",
 "id": "2pDF97hekV8",
 "t": "Happy birthday legend 🦉🇮🇹 #ligue1mcdonalds  #football #ligue1 #foot #psg #footballshorts #sports"
+},
+{
+"c": "Ligue 1",
+"f": "2026-11-05",
+"id": "I_xVcX4Ko8U",
+"t": "PAULO FONSECA À L'OL : LE BILAN !"
 },
 {
 "c": "Ligue 1",
