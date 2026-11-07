@@ -46,7 +46,7 @@
 "c": "CazéTV",
 "f": "2026-11-07",
 "id": "S1e7YLnnqvo",
-"t": "AO VIVO: BRASIL NA GINÁSTICA ARTÍSTICA | JOGOS OLÍMPICOS DA JUVENTUDE DAKAR 2026"
+"t": "BRASIL NA GINÁSTICA ARTÍSTICA | JOGOS OLÍMPICOS DA JUVENTUDE DAKAR 2026"
 },
 {
 "c": "CazéTV",
@@ -65,6 +65,72 @@
 "f": "2026-11-07",
 "id": "4_EAsAj5MYE",
 "t": "CAMPEÃO MAIS JOVEM DA HISTÓRIA! KIMI ANTONELLI FALA DE SENNA ANTES DE INTERLAGOS"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-07",
+"id": "D4-IJE1JMIQ",
+"t": "JOGO COMPLETO: BRASIL X COREIA DO NORTE | COPA DO MUNDO FEMININA SUB-17 2026 | DISPUTA DE 3º LUGAR"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-07",
+"id": "hSapSeuNkwo",
+"t": "JOGO COMPLETO: BORUSSIA DORTMUND X ELVERSBERG | BUNDESLIGA 26/27 | 9ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-07",
+"id": "mW8ByBGepuQ",
+"t": "JOGO COMPLETO: MÁLAGA X RACING CLUB | LALIGA 26/27 | 12ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-07",
+"id": "Yqe-YA61QrA",
+"t": "JOGO COMPLETO (SOM AMBIENTE): AUXERRE X PARIS FC | LIGUE 1 26/27 | 10ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-07",
+"id": "_3-cVhT9MhU",
+"t": "MELHORES MOMENTOS: OSASUNA 1 X 1 ATHLETIC CLUB BILBAO | LALIGA 26/27 | 12ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-07",
+"id": "NFA_3Pn_U6U",
+"t": "AO VIVO: OSASUNA X ATHLETIC CLUB BILBAO | LALIGA 26/27 | 12ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-07",
+"id": "Q2MdHdhJmlE",
+"t": "POR ISSO QUE O GRÊMIO NÃO QUER PERDER O CARLOS VINÍCIUS PRO VASCO!"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-07",
+"id": "W5cJIbp4Omw",
+"t": "MELHORES MOMENTOS: ESPANYOL 0 X 0 A CORUÑA | LALIGA 26/27 | 12ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-07",
+"id": "Tzthj2C5crc",
+"t": "JOGO COMPLETO: ESPANYOL X A CORUÑA | LALIGA 26/27 | 12ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-07",
+"id": "54b7fEzYf40",
+"t": "MELHORES MOMENTOS: BRASIL  0 X 6 COREIA DO NORTE | COPA DO MUNDO FEMININA SUB-17 2026"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-07",
+"id": "atQ4Lgi_iaU",
+"t": "MELHORES MOMENTOS: DORTMUND 2 X 1 ELVESBERG | BUNDESLIGA 26/27 | 9ª RODADA"
 },
 {
 "c": "CazéTV",
@@ -333,8 +399,8 @@
 {
 "c": "CazéTV",
 "f": "2026-11-05",
-"id": "D4-IJE1JMIQ",
-"t": "AO VIVO: BRASIL X COREIA DO NORTE | COPA DO MUNDO FEMININA SUB-17 2026 | DISPUTA DE 3º LUGAR"
+"id": "SlfbAYM2oKk",
+"t": "AO VIVO: FINAL DA COPA DO MUNDO FEMININA SUB-17 2026 | JAPÃO X NIGÉRIA"
 },
 {
 "c": "CazéTV",
@@ -521,12 +587,6 @@
 "f": "2026-11-03",
 "id": "GkbDCl-2Zik",
 "t": "BTS FAZENDO FEAT COM ANITTA?"
-},
-{
-"c": "CazéTV",
-"f": "2026-11-03",
-"id": "hSapSeuNkwo",
-"t": "AO VIVO: BORUSSIA DORTMUND X ELVERSBERG | BUNDESLIGA 26/27 | 9ª RODADA"
 },
 {
 "c": "CazéTV",
@@ -1281,8 +1341,14 @@
 {
 "c": "CazéTV",
 "f": "2026-10-28",
-"id": "mW8ByBGepuQ",
-"t": "AO VIVO: ESPANYOL X A CORUÑA | LALIGA 26/27 | 12ª RODADA"
+"id": "JbadYNseXFM",
+"t": "AO VIVO: PSG X TROYES | LIGUE 1 26/27 | 10ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-10-28",
+"id": "RGy_kZnNCWs",
+"t": "AO VIVO: VALENCIA X REAL MADRID | LALIGA 26/27 | 12ª RODADA"
 },
 {
 "c": "CazéTV",
@@ -5333,72 +5399,6 @@
 "f": "2026-09-14",
 "id": "vKCK5z84a5w",
 "t": "AO VIVO: FLAMENGO SE MANTÉM NA LIDERANÇA COM GOL NA RETA FINAL DE BRUNO HENRIQUE | GERAL CAZÉTV"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-14",
-"id": "S7I0X-A_3j8",
-"t": "MELHORES MOMENTOS: VILLARREAL 1 X 2 REAL BETIS | LALIGA 26/27 | 5ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-13",
-"id": "2OWPaTGkLRQ",
-"t": "AO VIVO: INTER VENCE O DUELO DOS DESESPERADOS, MAS SEGUE NA ZONA | RODA DE BOBO"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-13",
-"id": "XBQnGKkz3Q0",
-"t": "JOGO COMPLETO: CHAPECOENSE X INTERNACIONAL | BRASILEIRÃO 2026 | 27ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-13",
-"id": "auPYcbwqeZo",
-"t": "TÊNIS DE MESA | HUGO CALDERANO NO WTT CHAMPIONS DE MACAU | SEMIFINAL"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-13",
-"id": "BZtv8UwRfz4",
-"t": "VEJA COMO FOI: LIVERPOOL X FULHAM | PREMIER LEAGUE 26/27 | 4ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-13",
-"id": "99lLO_8-_Io",
-"t": "MELHORES MOMENTOS: BOTAFOGO 1 X 1 RED BULL BRAGANTINO | BRASILEIRÃO 2026 | 27ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-13",
-"id": "9tzeBB-VZGI",
-"t": "JOGO DO LIMITE! CAZÉ, IGOR, LUISINHO E DONAN COM UM SHOW DE ABSURDOS! | RODA DE BOBO"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-13",
-"id": "Xut5iFQoL5U",
-"t": "AO VIVO: ALEMANHA X ESPANHA | COPA DO MUNDO DE BASQUETE | DISPUTA DE 3º LUGAR"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-13",
-"id": "0El0RtuLT14",
-"t": "MELHORES MOMENTOS: LEVANTE 2 X 4 BARCELONA | LALIGA 26/27 | 5ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-13",
-"id": "hVkRlina47k",
-"t": "QUARTO GOL DO BARCELONA! ADEYEMI FAZ UM GOLAÇO PRA FECHAR A PARTIDA!"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-13",
-"id": "KgOffBDZpJI",
-"t": "MELHORES MOMENTOS: RB LEIPZIG 5 X 0 HAMBURGO | BUNDESLIGA 26/27 | 3ª RODADA"
 }
 ],
 "bundesliga": [
@@ -5437,6 +5437,60 @@
 "f": "2026-11-07",
 "id": "I4ZF3kH4aIc",
 "t": "Can you guess the correct Bayern player? 👀"
+},
+{
+"c": "Bundesliga",
+"f": "2026-11-07",
+"id": "q6bd9WsigTM",
+"t": "1. FSV Mainz 05 vs. FC Bayern München | Matchday 9 - Bundesliga 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-11-07",
+"id": "q2Fmkk2i94E",
+"t": "RB Leipzig vs. FC Augsburg | Matchday 9 - Bundesliga 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-11-07",
+"id": "IV_Fgtmmpwc",
+"t": "Borussia Dortmund vs. SV Elversberg | Matchday 9 - Bundesliga 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-11-07",
+"id": "yq9_DSmOd7s",
+"t": "1. FSV Mainz 05 vs. FC Bayern München | Matchday 9 - Bundesliga 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-11-07",
+"id": "kPvU-jY1Nx4",
+"t": "Borussia Dortmund vs. SV Elversberg | Matchday 9 - Bundesliga 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-11-07",
+"id": "_Qe0Ad--wsg",
+"t": "RB Leipzig vs. FC Augsburg | Matchday 9 - Bundesliga 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-11-07",
+"id": "Vs-0_gJv4FE",
+"t": "SC Paderborn 07 vs. Eintracht Frankfurt | Matchday 9 - Bundesliga 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-11-07",
+"id": "v5O3VC_qFWA",
+"t": "Stuttgart Stops Füllkrug! | VFB STUTTGART - WERDER BREMEN | Highlights | Matchday 9 – Bundesliga"
+},
+{
+"c": "Bundesliga",
+"f": "2026-11-07",
+"id": "7trwWayUYFY",
+"t": "Karl Scores Again! | MAINZ 05 - FC BAYERN | Highlights | Matchday 9 – Bundesliga 2026/27"
 },
 {
 "c": "Bundesliga",
@@ -5489,24 +5543,6 @@
 {
 "c": "Bundesliga",
 "f": "2026-11-05",
-"id": "q6bd9WsigTM",
-"t": "LIVE 🔴 1. FSV Mainz 05 vs. FC Bayern München | Matchday 9 - Bundesliga 2026/27"
-},
-{
-"c": "Bundesliga",
-"f": "2026-11-05",
-"id": "q2Fmkk2i94E",
-"t": "LIVE 🔴 RB Leipzig vs. FC Augsburg | Matchday 9 - Bundesliga 2026/27"
-},
-{
-"c": "Bundesliga",
-"f": "2026-11-05",
-"id": "IV_Fgtmmpwc",
-"t": "LIVE 🔴 Borussia Dortmund vs. SV Elversberg | Matchday 9 - Bundesliga 2026/27"
-},
-{
-"c": "Bundesliga",
-"f": "2026-11-05",
 "id": "3kfN007s8CA",
 "t": "LIVE 🔴 1. FC Magdeburg vs. FC St. Pauli | Matchday 11 - Bundesliga 2 2026/27"
 },
@@ -5531,26 +5567,8 @@
 {
 "c": "Bundesliga",
 "f": "2026-11-05",
-"id": "yq9_DSmOd7s",
-"t": "LIVE 🔴 1. FSV Mainz 05 vs. FC Bayern München | Matchday 9 - Bundesliga 2026/27"
-},
-{
-"c": "Bundesliga",
-"f": "2026-11-05",
-"id": "kPvU-jY1Nx4",
-"t": "LIVE 🔴 Borussia Dortmund vs. SV Elversberg | Matchday 9 - Bundesliga 2026/27"
-},
-{
-"c": "Bundesliga",
-"f": "2026-11-05",
-"id": "_Qe0Ad--wsg",
-"t": "LIVE 🔴 RB Leipzig vs. FC Augsburg | Matchday 9 - Bundesliga 2026/27"
-},
-{
-"c": "Bundesliga",
-"f": "2026-11-05",
-"id": "Vs-0_gJv4FE",
-"t": "LIVE 🔴 SC Paderborn 07 vs. Eintracht Frankfurt | Matchday 9 - Bundesliga 2026/27"
+"id": "2YELtRFiTEM",
+"t": "VfB Stuttgart vs. SV Werder Bremen | Matchday 9 - Bundesliga 2026/27"
 },
 {
 "c": "Bundesliga",
@@ -7842,6 +7860,12 @@
 },
 {
 "c": "UEFA",
+"f": "2026-11-07",
+"id": "aBW1XN7PhZw",
+"t": "Champions League PRICELESS MOMENTS From Matchday 4"
+},
+{
+"c": "UEFA",
 "f": "2026-11-06",
 "id": "NCb3wtrrZSk",
 "t": "The BEST Goals From Matchweek 4 (UCL, UEL, UECL)"
@@ -9443,6 +9467,24 @@
 "f": "2026-11-07",
 "id": "QmJwqy6U0hM",
 "t": "Tolu vertelt over zijn vriendschap met Wout Weghorst 🤝"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-07",
+"id": "M_D2UmJlaJo",
+"t": "Michael Brouwer gaat pijnlijk de mist in 😅"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-07",
+"id": "BcOx3OICiys",
+"t": "Ronald Koeman jr. reageert op opmerkelijke eigen goal Telstar 👀"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-07",
+"id": "b3l7dm-DgTk",
+"t": "Een hopeloze terugspeelbal van Sem Valk 😳"
 },
 {
 "c": "ESPN NL",
@@ -14819,24 +14861,6 @@
 "f": "2026-09-17",
 "id": "0_8N2SOT_i0",
 "t": "Kritiek op instelling N.E.C.-spelers: \"Ik zie opgeefgedrag\" 🫣 | Voetbalpraat"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-17",
-"id": "Xt0K72ILZ7k",
-"t": "👀 FANATISME, STRIJD en GRAPPEN tijdens de RELEASE PARTY van EA FC 27 🎮"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-16",
-"id": "SxtBLQSESdA",
-"t": "Abdellah OUAZANE passeert ook BUITEN het veld 🎁😢"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-16",
-"id": "vaYeY0VkGRc",
-"t": "😬 John Stegeman snapt niets van nieuwe regel: \"Welke idioot dat bedacht heeft...\""
 }
 ],
 "laliga": [
@@ -14896,6 +14920,72 @@
 },
 {
 "c": "LALIGA EA SPORTS",
+"f": "2026-11-07",
+"id": "kotvogTg-WY",
+"t": "Homenaje a Jesús de Miguel en el Heliodoro Rodríguez López"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-07",
+"id": "_9gN4zMNbIM",
+"t": "CA OSASUNA vs ATHLETIC CLUB | RUEDA DE PRENSA"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-07",
+"id": "FxHGrtsfgS4",
+"t": "Antes de que ruede el balón, jugadores y aficiones se unen en memoria de Jesús de Miguel."
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-07",
+"id": "9zOnol6q08A",
+"t": "🔴 VALENCIA CF vs REAL MADRID - PREVIA DEL PARTIDO"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-07",
+"id": "EJheGdKnY8k",
+"t": "CA OSASUNA 1 - 1 ATHLETIC CLUB | RESUMEN LALIGA EA SPORTS"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-07",
+"id": "ku6SBwdMgDE",
+"t": "Minuto 9. Todo el estadio, unido en el recuerdo de Jesús de Miguel."
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-07",
+"id": "VGy_YocKKXk",
+"t": "RCD ESPANYOL vs RC DEPORTIVO | RUEDA DE PRENSA"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-07",
+"id": "r1oXSPuQTLw",
+"t": "Todo el fútbol se une. El #OsasunaAthletic rinde homenaje a Jesús de Miguel."
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-07",
+"id": "-ylYlt2WBsc",
+"t": "Simplemente, Ante Budimir. La charla del croata en recuerdo a Jesús de Miguel."
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-07",
+"id": "YJYtPKKjwrw",
+"t": "🔴 CA OSASUNA vs ATHLETIC CLUB - PREVIA DEL PARTIDO"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-07",
+"id": "z37HZVNSYcU",
+"t": "RCD ESPANYOL 0 - 0 RC DEPORTIVO | RESUMEN LALIGA EA SPORTS"
+},
+{
+"c": "LALIGA EA SPORTS",
 "f": "2026-11-06",
 "id": "6N1wve8_SFk",
 "t": "DAVID SORIA y el secreto del Getafe CF: un equipo de GLADIADORES | The Backgrounds FC27"
@@ -14911,12 +15001,6 @@
 "f": "2026-11-06",
 "id": "TmhPkaa51-Y",
 "t": "Atlético de Madrid 0 - 3 FC Barcelona 2023/24 PARTIDO COMPLETO"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-11-06",
-"id": "kotvogTg-WY",
-"t": "Homenaje a Jesús de Miguel en el Heliodoro Rodríguez López"
 },
 {
 "c": "LALIGA EA SPORTS",
@@ -20179,66 +20263,6 @@
 "f": "2026-09-05",
 "id": "ow0MawfV57E",
 "t": "VILLARREAL CF vs RC DEPORTIVO | RUEDA DE PRENSA"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-09-05",
-"id": "huD9Tg3dkp8",
-"t": "VILLARREAL CF 2 - 3 RC DEPORTIVO | RESUMEN LALIGA EA SPORTS"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-09-05",
-"id": "NKlMZm8bB5s",
-"t": "RAYO VALLECANO 3 - 2 R. RACING CLUB | RESUMEN LALIGA EA SPORTS"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-09-05",
-"id": "IEYQcIVTAjs",
-"t": "ATHLETIC CLUB 3 - 0 ATLÉTICO DE MADRID | RESUMEN LALIGA EA SPORTS"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-09-04",
-"id": "zaD7JQVK3F0",
-"t": "Cuando MESSI Decidió un PARTIDAZO en MESTALLA 🔵🔴 | LALIGA EA SPORTS"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-09-04",
-"id": "79W5X4bzQtw",
-"t": "HEY JUDE 😉"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-09-04",
-"id": "RB9nqYXVQwg",
-"t": "Sanabria ✨"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-09-04",
-"id": "4sGrMzD4Gyc",
-"t": "Real Madrid 5 - 0 Real Betis 2015/16 PARTIDO COMPLETO"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-09-04",
-"id": "Eaq_zS21tKI",
-"t": "Gordon inventa y Raphinha ejecuta"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-09-04",
-"id": "nUxyv1STVWY",
-"t": "🔴 REAL BETIS vs REAL MADRID - PREVIA DEL PARTIDO"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-09-04",
-"id": "BEC-2cOR16Q",
-"t": "REAL BETIS vs REAL MADRID | RUEDA DE PRENSA"
 }
 ],
 "ligue1": [
@@ -20265,6 +20289,18 @@
 "f": "2026-11-07",
 "id": "4oMtG6zzxp4",
 "t": "POURQUOI LA LIGUE 1 CRAQUE POUR LES JOUEURS DANOIS ? 🇩🇰"
+},
+{
+"c": "Ligue 1",
+"f": "2026-11-07",
+"id": "oSVaEIi7Kz0",
+"t": "Le TOP SKILLS d'octobre en Ligue 1 McDonald's 🤩"
+},
+{
+"c": "Ligue 1",
+"f": "2026-11-07",
+"id": "fnyoXzpcjNQ",
+"t": "Lionel Messi at PSG 👀 #football #ligue1 #foot #footballshorts #sports #shorts #messi #skills"
 },
 {
 "c": "Ligue 1",
@@ -24685,6 +24721,48 @@
 "f": "2026-11-07",
 "id": "8EuxIaFqKuE",
 "t": "KIKE PEREZ FIRES THE WINNER 🫨🔥"
+},
+{
+"c": "Serie A",
+"f": "2026-11-07",
+"id": "8EHfZOi2gYk",
+"t": "Outside the Box ➡️ TOP CORNER 😮‍💨"
+},
+{
+"c": "Serie A",
+"f": "2026-11-07",
+"id": "NiGcZSWlVUg",
+"t": "Di Francesco Azzecca il Cambio | TORINO-LECCE | HIGHLIGHTS | SERIE A ENILIVE 2026/27 lecit"
+},
+{
+"c": "Serie A",
+"f": "2026-11-07",
+"id": "hvRu8DvfKqY",
+"t": "Pisacane Torna a Vincere | CAGLIARI-FROSINONE | HIGHLIGHTS | SERIE A ENILIVE 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-11-07",
+"id": "9DuhqHmOiAc",
+"t": "Due Rigori e un Rosso al Tardini | PARMA-BOLOGNA | HIGHLIGHTS | SERIE A ENILIVE 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-11-07",
+"id": "NCBFBqy0INQ",
+"t": "Two Penalties and a Red Card at the Tardini | PARMA-BOLOGNA | HIGHLIGHTS | Serie A 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-11-07",
+"id": "-COMOZxfY7U",
+"t": "Lecce Rescue a Point With the Subs | TORINO-LECCE | HIGHLIGHTS | Serie A 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-11-07",
+"id": "obX7gV6L7Vk",
+"t": "Adopo Fires Stunning Winner | CAGLIARI-FROSINONE | HIGHLIGHTS | Serie A 2026/27"
 },
 {
 "c": "Serie A",
