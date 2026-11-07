@@ -14516,6 +14516,25 @@
 "pv": 0.2101,
 "v": "Heerenveen"
 },
+"eredivisie|2027-01-24|go ahead eagles|cambuur leeuwarden": {
+"btts": 0.6272,
+"clave_l": "Go Ahead Eagles",
+"clave_liga": "eredivisie",
+"clave_v": "SC Cambuur-Leeuwarden",
+"fecha": "2027-01-24",
+"l": "Go Ahead Eagles",
+"liga": "Eredivisie",
+"marcador": "2-1",
+"o15": 0.8682,
+"o25": 0.6702,
+"o35": 0.4529,
+"p_marcador": 0.0966,
+"pe": 0.2104,
+"pl": 0.6167,
+"publicado": "2026-11-07T02:00Z",
+"pv": 0.1729,
+"v": "Cambuur"
+},
 "eredivisie|2027-01-24|sparta rotterdam|groningen": {
 "btts": 0.5771,
 "clave_l": "Sparta Rotterdam",
@@ -31822,6 +31841,25 @@
 "publicado": "2026-10-25T04:58Z",
 "pv": 0.2078,
 "v": "Rio Ave"
+},
+"primeira|2027-01-10|alverca|cs maritimo": {
+"btts": 0.5125,
+"clave_l": "FC Alverca",
+"clave_liga": "primeira",
+"clave_v": "CS Marítimo",
+"fecha": "2027-01-10",
+"l": "Alverca",
+"liga": "Primeira Liga",
+"marcador": "1-1",
+"o15": 0.7272,
+"o25": 0.4572,
+"o35": 0.2433,
+"p_marcador": 0.1386,
+"pe": 0.2908,
+"pl": 0.4473,
+"publicado": "2026-11-07T02:00Z",
+"pv": 0.262,
+"v": "Marítimo"
 },
 "primeira|2027-01-10|arouca|sport lisboa benfica": {
 "btts": 0.5925,
