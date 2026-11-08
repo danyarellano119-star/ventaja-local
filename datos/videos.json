@@ -2,6 +2,48 @@
 "brasileirao": [
 {
 "c": "CazéTV",
+"f": "2026-11-08",
+"id": "RGy_kZnNCWs",
+"t": "JOGO COMPLETO: VALENCIA X REAL MADRID | LALIGA 26/27 | 12ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-08",
+"id": "1D0AbfOI6WU",
+"t": "SURFE AO VIVO: BRASIL NA ÁGUA! TAINÁ HINCKEL E LAURA RAUPP NO ISA GAMES 2026"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-08",
+"id": "1oZymalSAno",
+"t": "AO VIVO: COPA DO BRASIL DEFINE O 2º FINALISTA E TEM ATLÉTICO DE MADRID X BARÇA | SEIS EM UM"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-08",
+"id": "0p5XN2v_2pM",
+"t": "EVENTO COMPLETO (SOM AMBIENTE): GINÁSTICA ARTÍSTICA | JOGOS OLÍMPICOS DA JUVENTUDE DAKAR 2026"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-08",
+"id": "YQIXA4Qoy6Y",
+"t": "INVADIMOS A SELETIVA DO SKELETON E ENTREVISTAMOS A NICOLE SILVEIRA"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-08",
+"id": "xuYpZ8EuC0w",
+"t": "ISSO É RENATO GAÚCHO! GRÊMIO EMPATA COM ATLÉTICO MG E ESTÁ NA FINAL DA COPA DO BRASIL | GERAL CAZÉTV"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-08",
+"id": "vlvjBQjyId0",
+"t": "ISA PAGLIARI TESTA O SIMULADOR DA FÓRMULA 1 USADO PELOS PILOTOS PROFISSIONAIS!"
+},
+{
+"c": "CazéTV",
 "f": "2026-11-07",
 "id": "wJNMAXRIhVk",
 "t": "SEMIFINAIS DA COPA DO BRASIL E O CLÁSSICO ATLÉTICO DE MADRID X BARCELONA | QUEM FEZ, FEZ"
@@ -131,6 +173,48 @@
 "f": "2026-11-07",
 "id": "atQ4Lgi_iaU",
 "t": "MELHORES MOMENTOS: DORTMUND 2 X 1 ELVESBERG | BUNDESLIGA 26/27 | 9ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-07",
+"id": "2vXpj8jhLU4",
+"t": "SURFE | ISA GAMES 2026 | 1º DIA"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-07",
+"id": "JbadYNseXFM",
+"t": "JOGO COMPLETO: PSG X TROYES | LIGUE 1 26/27 | 10ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-07",
+"id": "Syzhx8XumJc",
+"t": "COMPACTO: VALENCIA 0 X 3 REAL MADRID | LALIGA 26/27 | 12ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-07",
+"id": "S3MmP3XmXZo",
+"t": "OS GOLAÇOS QUE LUISITO SUÁREZ MARCAVA EM LALIGA!"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-07",
+"id": "rqug6ZwiKDM",
+"t": "MELHORES MOMENTOS: VALENCIA 0 X 3 REAL MADRID | LALIGA 26/27 | 12ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-07",
+"id": "dFBH9EVKSQY",
+"t": "MELHORES MOMENTOS: PSG 1 X 0 TROYES | LIGUE 1 26/27 | 10ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-07",
+"id": "Y2xr_d52HkY",
+"t": "AO VIVO: BRASIL NO ATLETISMO | JOGOS OLÍMPICOS DA JUVENTUDE DAKAR 2026"
 },
 {
 "c": "CazéTV",
@@ -530,6 +614,12 @@
 },
 {
 "c": "CazéTV",
+"f": "2026-11-04",
+"id": "NeLF6KywUxo",
+"t": "AO VIVO: CRYSTAL PALACE X LIVERPOOL | PREMIER LEAGUE 26/27 | 10ª RODADA"
+},
+{
+"c": "CazéTV",
 "f": "2026-11-03",
 "id": "ftynqYKwkg0",
 "t": "RB BRAGANTINO VENCE O SANTOS EM CONFRONTO DIRETO E VITÓRIA DEMITE JAIR VENTURA | GERAL CAZÉTV"
@@ -587,12 +677,6 @@
 "f": "2026-11-03",
 "id": "GkbDCl-2Zik",
 "t": "BTS FAZENDO FEAT COM ANITTA?"
-},
-{
-"c": "CazéTV",
-"f": "2026-11-03",
-"id": "2vXpj8jhLU4",
-"t": "AO VIVO: SURFE | ISA GAMES 2026 | 1º DIA"
 },
 {
 "c": "CazéTV",
@@ -1337,18 +1421,6 @@
 "f": "2026-10-28",
 "id": "U5xo3pSswp4",
 "t": "AO VIVO (SOM AMBIENTE): AGF FODBOLD X BRAGA | CONFERENCE LEAGUE 26/27 | RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-10-28",
-"id": "JbadYNseXFM",
-"t": "AO VIVO: PSG X TROYES | LIGUE 1 26/27 | 10ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-10-28",
-"id": "RGy_kZnNCWs",
-"t": "AO VIVO: VALENCIA X REAL MADRID | LALIGA 26/27 | 12ª RODADA"
 },
 {
 "c": "CazéTV",
@@ -5327,81 +5399,15 @@
 "f": "2026-09-15",
 "id": "bRlWmmVtXj4",
 "t": "GOL DO REAL MADRID! ELE SALVA DE NOVO! ESPÍ DESEMPATA NO FINAL CONTRA O ELCHE"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-15",
-"id": "iyCblA2GzoM",
-"t": "GOLAÇO DO ELCHE! FERNANDO NIÑO FINALIZA A BELA JOGADA E EMPATA O JOGO CONTRA O REAL MADRID EM LALIGA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-15",
-"id": "ZE77Im69gR4",
-"t": "GOL DO ELCHE! OSORIO DIMINUI O PLACAR CONTRA O REAL MADRID EM LALIGA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-15",
-"id": "3oZWWwI8zck",
-"t": "GOL DO REAL MADRID! MBAPPÉ AMPLIA CONTRA O ELCHE EM LALIGA!"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-15",
-"id": "NUWW1E-iAxA",
-"t": "MELHORES MOMENTOS: DEPORTIVO ALAVÉS 0 X 1 VALENCIA | LALIGA 26/27 | 6ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-15",
-"id": "hGMOb5ONfwk",
-"t": "GOL DO REAL MADRID! ARDA GULLER ABRE O PLACAR PARA O REAL MADRID CONTRA O ELCHE EM LALIGA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-15",
-"id": "kf9cXqRJ7wE",
-"t": "JOGO COMPLETO: RAYO VALLECANO X ESPANYOL | LALIGA 26/27 | 6ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-15",
-"id": "w5Komv03WcU",
-"t": "MELHORES MOMENTOS: RAYO VALLECANO 2 X 1 ESPANYOL | LALIGA 26/27 | 6ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-15",
-"id": "JATn2ytZNzI",
-"t": "WILLIAN ABRE O JOGO SOBRE A PREMIER LEAGUE E SEUS JOVENS TALENTOS COM FRED CALDEIRA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-15",
-"id": "vklCsXzS71Y",
-"t": "ESPÍ SALVA O REAL DE NOVO! ELCHE 2 X 3 REAL MADRID | LALIGA 26/27 | 6ª RODADA | COMPACTO"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-15",
-"id": "4olqh9c4eeg",
-"t": "MELHORES MOMENTOS: ELCHE 2 X 3 REAL MADRID | LALIGA 26/27 | 6ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-14",
-"id": "D_uFri7TFaI",
-"t": "JOGO COMPLETO: STADE BRESTOIS X PSG | LIGUE 1 26/27 | 4ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-14",
-"id": "vKCK5z84a5w",
-"t": "AO VIVO: FLAMENGO SE MANTÉM NA LIDERANÇA COM GOL NA RETA FINAL DE BRUNO HENRIQUE | GERAL CAZÉTV"
 }
 ],
 "bundesliga": [
+{
+"c": "Bundesliga",
+"f": "2026-11-08",
+"id": "oylpIrYPJ9s",
+"t": "A moment that made everyone stand still 😲"
+},
 {
 "c": "Bundesliga",
 "f": "2026-11-07",
@@ -5494,6 +5500,18 @@
 },
 {
 "c": "Bundesliga",
+"f": "2026-11-07",
+"id": "dCs2VOUeq68",
+"t": "Hertha BSC vs. VfL Wolfsburg | Matchday 11 - Bundesliga 2 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-11-07",
+"id": "2YELtRFiTEM",
+"t": "VfB Stuttgart vs. SV Werder Bremen | Matchday 9 - Bundesliga 2026/27"
+},
+{
+"c": "Bundesliga",
 "f": "2026-11-06",
 "id": "l4qpo2TsOcs",
 "t": "DER KLASSIKER REACTIONS With Klinsmann and Many More Legends! | Bundesliga Haus Podcast S.2 Ep.4"
@@ -5557,18 +5575,6 @@
 "f": "2026-11-05",
 "id": "ApPYcYtGvIQ",
 "t": "LIVE 🔴 1. FC Heidenheim 1846 vs. Hannover 96 | Matchday 11 - Bundesliga 2 2026/27"
-},
-{
-"c": "Bundesliga",
-"f": "2026-11-05",
-"id": "dCs2VOUeq68",
-"t": "LIVE 🔴 Hertha BSC vs. VfL Wolfsburg | Matchday 11 - Bundesliga 2 2026/27"
-},
-{
-"c": "Bundesliga",
-"f": "2026-11-05",
-"id": "2YELtRFiTEM",
-"t": "VfB Stuttgart vs. SV Werder Bremen | Matchday 9 - Bundesliga 2026/27"
 },
 {
 "c": "Bundesliga",
@@ -7848,6 +7854,18 @@
 "champions": [
 {
 "c": "UEFA",
+"f": "2026-11-08",
+"id": "VFmqaNj09b0",
+"t": "BEST Europa League & Conference League Saves From Matchday 4"
+},
+{
+"c": "UEFA",
+"f": "2026-11-08",
+"id": "fyvV5h5n_Rw",
+"t": "Jude Bellingham’s finish 😮‍💨"
+},
+{
+"c": "UEFA",
 "f": "2026-11-07",
 "id": "uOU4E8KX1Qg",
 "t": "Goals, celebrations, emotions ✨"
@@ -9462,6 +9480,42 @@
 }
 ],
 "eredivisie": [
+{
+"c": "ESPN NL",
+"f": "2026-11-08",
+"id": "xuxKjH6QYHM",
+"t": "🦁📋 XAVI HERNÁNDEZ licht ORANJE-SELECTIE voor DUITSLAND en GRIEKENLAND toe 🧡 | Persconferentie"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-08",
+"id": "dfR1IL0MbWc",
+"t": "𝟔𝟓' Sem Steijn valt in 🔄 𝟔𝟗' Sem Steijn maakt de 3-3 🎯"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-08",
+"id": "nS-Lbe5IwC0",
+"t": "Tolu neemt zijn moment voor de wedstrijd en biedt zijn excuses aan voor het oponthoud 🙏"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-08",
+"id": "3j_1HXJhkt8",
+"t": "🤨 Arnold Bruggink vol ongeloof na penalty Feyenoord"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-08",
+"id": "saBDMuinzKU",
+"t": "Een discutabel moment in Heerenveen 👀 Terechte penalty of niet? 🤔"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-08",
+"id": "AOetLReOrTE",
+"t": "VOETBALSTERREN feliciteren jarige Guus HIDDINK (80) ❤️"
+},
 {
 "c": "ESPN NL",
 "f": "2026-11-07",
@@ -14825,45 +14879,21 @@
 "f": "2026-09-18",
 "id": "gYYyHt_OZSM",
 "t": "PRACHTIGE VRIJE TRAP VAN KEVIN VAN VEEN 🤩 | Samenvatting FC Eindhoven - FC Emmen"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-18",
-"id": "l4pEybISYbc",
-"t": "Mokrane BENTOUMI raakt SNOEIHARD de LAT 💥 | Samenvatting Jong Ajax - Roda JC"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-18",
-"id": "d9R7I2UpJyU",
-"t": "TWEE EIGEN DOELPUNTEN binnen DRIE minuten 😳 | Samenvatting FC Den Bosch - Helmond Sport"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-17",
-"id": "B1FHcFZguRs",
-"t": "📉 SFEER binnen N.E.C. VERSLECHTERD? \"Heb het idee dat de BALANS uit de PLOEG is\" | Voetbalpraat"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-17",
-"id": "0ajUxT9RfHY",
-"t": "OEI: MEMPHIS MIST cruciale PENALTY in KWARTFINALE COPA LIBERTADORES 🫣"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-17",
-"id": "Djkqv7f9590",
-"t": "👏 LOF voor AZ na NEDERLAAG tegen SUNDERLAND: \"Verschil NIET eens zo GROOT\" | Voetbalpraat"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-17",
-"id": "ooDmpAEtXlM",
-"t": "AJAX harkt FANTASY-punten & it’s EAGLES-TIME! 🦅⏰ | ESPN Fantasy Voetbal Show"
 }
 ],
 "laliga": [
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-08",
+"id": "9XsI8afLmfw",
+"t": "🔴 ELCHE CF vs REAL BETIS - PREVIA DEL PARTIDO"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-08",
+"id": "vuVDWvXBEdQ",
+"t": "Fede VALVERDE es omnipresente"
+},
 {
 "c": "LALIGA EA SPORTS",
 "f": "2026-11-07",
@@ -20251,21 +20281,21 @@
 "f": "2026-09-05",
 "id": "NggZrbHhiuo",
 "t": "RAYO VALLECANO vs R. RACING CLUB | RUEDA DE PRENSA"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-09-05",
-"id": "g-X47GOLG5U",
-"t": "VILLARREAL CF 2 - 3 RC DEPORTIVO | RESUMEN LALIGA EA SPORTS"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-09-05",
-"id": "hYn0ATQo8hQ",
-"t": "AUBA. OTRA VEZ. SIEMPRE. 🌟"
 }
 ],
 "ligue1": [
+{
+"c": "Ligue 1",
+"f": "2026-11-08",
+"id": "n7QnIZxul8U",
+"t": "Clean sheets ➕ 6 saves 👏 #Ligue1McDonalds1 #football #ligue1 #foot #footballshorts #sports #shorts"
+},
+{
+"c": "Ligue 1",
+"f": "2026-11-08",
+"id": "FLYnsJsxSQ0",
+"t": "The rest is history ⭐️ #football #ligue1 #foot #psg #footballshorts #sports #ligue1mcdonalds #shorts"
+},
 {
 "c": "Ligue 1",
 "f": "2026-11-07",
@@ -22928,6 +22958,12 @@
 "premier": [
 {
 "c": "Premier League",
+"f": "2026-11-08",
+"id": "BJNE5b_xE3c",
+"t": "Who Ran Faster: Liam Delap or Oliver Glasner? 😂"
+},
+{
+"c": "Premier League",
 "f": "2026-11-07",
 "id": "GEevvSIxfPE",
 "t": "CHAOS In The Box! 😱"
@@ -22943,6 +22979,18 @@
 "f": "2026-11-07",
 "id": "Yh_0LpI4yAg",
 "t": "Did You Guess Correctly? 😏"
+},
+{
+"c": "Premier League",
+"f": "2026-11-07",
+"id": "KYsuqeGSzVk",
+"t": "Josk King Was In SHOCK! 😆"
+},
+{
+"c": "Premier League",
+"f": "2026-11-07",
+"id": "-qlzBL66Ges",
+"t": "Liam Delap WONDERGOAL + Ronaldo SIU 🤯"
 },
 {
 "c": "Premier League",
@@ -24712,6 +24760,12 @@
 "seriea": [
 {
 "c": "Serie A",
+"f": "2026-11-08",
+"id": "oRjvY0kXefs",
+"t": "Giallorossi in Controllo all’Olimpico | ROMA-SASSUOLO | HIGHLIGHTS | SERIE A ENILIVE 2026/27"
+},
+{
+"c": "Serie A",
 "f": "2026-11-07",
 "id": "o_2axSItZKM",
 "t": "Si Decide Tutto in Dieci Minuti | VENEZIA-UDINESE | HIGHLIGHTS | SERIE A ENILIVE 2026/27"
@@ -24763,6 +24817,12 @@
 "f": "2026-11-07",
 "id": "obX7gV6L7Vk",
 "t": "Adopo Fires Stunning Winner | CAGLIARI-FROSINONE | HIGHLIGHTS | Serie A 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-11-07",
+"id": "l2Ei1viCaro",
+"t": "Roma Dominant at Home | ROMA-SASSUOLO | HIGHLIGHTS | Serie A 2026/27"
 },
 {
 "c": "Serie A",
@@ -24841,6 +24901,12 @@
 "f": "2026-11-04",
 "id": "AujjLj71dGw",
 "t": "Meet Frosinone’s FANTASTIC FOUR 🔥 | Goals & Assists | Serie A 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-11-04",
+"id": "BqoWh4xrhrs",
+"t": "🔴 PRE-MATCH LIVE | GENOA-MILAN | Serie A Enilive 2026/27"
 },
 {
 "c": "Serie A",
