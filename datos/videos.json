@@ -2,6 +2,30 @@
 "brasileirao": [
 {
 "c": "CazéTV",
+"f": "2026-11-09",
+"id": "1oZymalSAno",
+"t": "COPA DO BRASIL DEFINE O 2º FINALISTA E TEM ATLÉTICO DE MADRID X BARÇA | SEIS EM UM"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-09",
+"id": "u1ctOPRxdk4",
+"t": "AO VIVO: BRASIL NO HANDEBOL DE PRAIA | JOGOS OLÍMPICOS DA JUVENTUDE DAKAR 2026"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-09",
+"id": "3_bkj6_3Jvc",
+"t": "JOGO COMPLETO: ATLÉTICO DE MADRID x BARCELONA | LALIGA 26/27 | 12ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-09",
+"id": "4WTyH31Yq6Q",
+"t": "FLACO LÓPEZ: O MELHOR JOGADOR DO FUTEBOL BRASILEIRO?"
+},
+{
+"c": "CazéTV",
 "f": "2026-11-08",
 "id": "RGy_kZnNCWs",
 "t": "JOGO COMPLETO: VALENCIA X REAL MADRID | LALIGA 26/27 | 12ª RODADA"
@@ -11,12 +35,6 @@
 "f": "2026-11-08",
 "id": "1D0AbfOI6WU",
 "t": "SURFE: BRASIL NA ÁGUA! TAINÁ HINCKEL E LAURA RAUPP NO ISA GAMES 2026"
-},
-{
-"c": "CazéTV",
-"f": "2026-11-08",
-"id": "1oZymalSAno",
-"t": "AO VIVO: COPA DO BRASIL DEFINE O 2º FINALISTA E TEM ATLÉTICO DE MADRID X BARÇA | SEIS EM UM"
 },
 {
 "c": "CazéTV",
@@ -191,6 +209,12 @@
 "f": "2026-11-08",
 "id": "nvoFX6GFOuI",
 "t": "MELHORES MOMENTOS: INTER DE MILÃO 2 X 0 COMO | SERIE A 26/27 | 11ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-08",
+"id": "KshVZTl4-R4",
+"t": "AO VIVO: SURFE | ISA GAMES 2026 | VALENDO VAGA OLÍMPICA | 3º DIA"
 },
 {
 "c": "CazéTV",
@@ -5375,33 +5399,15 @@
 "f": "2026-09-16",
 "id": "gbxlOjlG_5g",
 "t": "DISPUTA DE PÊNALTIS: BRASIL 1 (5) X (4) 1 EUA | COPA DO MUNDO FEMININA SUB-20 FIFA 2026 | OITAVAS"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-16",
-"id": "p20zdXfak58",
-"t": "MELHORES MOMENTOS: BRASIL 1 (5) X (4) 1 EUA | COPA DO MUNDO FEMININA SUB-20 FIFA 2026 | OITAVAS"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-16",
-"id": "jEjVOYt-32Y",
-"t": "AO VIVO: SORTEIO DA COPA DAVIS | QUADRA ABERTA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-16",
-"id": "7BrgId-CZZo",
-"t": "JOGO COMPLETO: ESPANHA X PORTUGAL | COPA DO MUNDO FEMININA SUB-20 FIFA 2026 | OITAVAS DE FINAL"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-16",
-"id": "7122GM_3Wu4",
-"t": "OUTRO GOLAÇO? JOÃO CANCELA FAZ MAIS UM E AMPLIA PARA O BARCELONA CONTRA O RACING EM LALIGA!"
 }
 ],
 "bundesliga": [
+{
+"c": "Bundesliga",
+"f": "2026-11-09",
+"id": "P8ZZf7WxXIg",
+"t": "Goalkeeper Atubolu assists for Burkardt‘s backheel 🤯🔥😲"
+},
 {
 "c": "Bundesliga",
 "f": "2026-11-08",
@@ -9596,9 +9602,39 @@
 "eredivisie": [
 {
 "c": "ESPN NL",
-"f": "2026-11-08",
+"f": "2026-11-09",
 "id": "xuxKjH6QYHM",
 "t": "🦁📋 XAVI HERNÁNDEZ licht ORANJE-SELECTIE voor DUITSLAND en GRIEKENLAND toe 🧡 | Persconferentie"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-09",
+"id": "FUoTDpvUE4c",
+"t": "Frenkie de Jong en Veerman op middenveld Oranje? \"Mensen zeiden dat Iniesta en ik niet samen kon\""
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-09",
+"id": "hzDjpO29NTQ",
+"t": "Xavi noemt het niet selecteren van Taylor de lastigste keuze die hij deze periode moest maken 😮‍💨"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-09",
+"id": "UjatVOD3FHo",
+"t": "🗣️ Kenneth Perez neemt het op voor de scheidsrechters: \"Ze maken er nu robots van\""
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-09",
+"id": "IcPc0FVR2mU",
+"t": "Wait for it... 👀⏳"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-09",
+"id": "hO0_j0KvhKI",
+"t": "𝐇𝐈𝐒𝐓𝐎𝐑𝐈𝐒𝐂𝐇𝐄 𝐙𝐎𝐍𝐃𝐀𝐆 met 31 GOALS op ÉÉN DAG: “Er gebeurde van alles” 🤯 | Dit Was Het Weekend"
 },
 {
 "c": "ESPN NL",
@@ -9736,7 +9772,7 @@
 "c": "ESPN NL",
 "f": "2026-11-08",
 "id": "XghPZ3yPzdY",
-"t": "Kenneth Perez SNAPT NIKS van DISCUTABLE PENALTY Feyenoord 🗣️ | Dit Was Het Weekend"
+"t": "Kenneth Perez SNAPT NIKS van DISCUTABELE PENALTY Feyenoord 🗣️ | Dit Was Het Weekend"
 },
 {
 "c": "ESPN NL",
@@ -9791,6 +9827,12 @@
 "f": "2026-11-08",
 "id": "ygYNEyH9afM",
 "t": "Ruben van Bommel ZELFKRITISCH ondanks DOELPUNT en ASSIST 🧐 | SC Cambuur - PSV"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-08",
+"id": "dg8pd2yUhDs",
+"t": "Dusan Tadic SCHITTERT met TWEE TREFFERS voor N.E.C. ✨ | Samenvatting FC Utrecht - N.E.C."
 },
 {
 "c": "ESPN NL",
@@ -14957,45 +14999,27 @@
 "f": "2026-09-19",
 "id": "9TA2r9jNoJI",
 "t": "⁉️ Had FORTUNA hier EEN PENALTY MOETEN KRIJGEN? 🔍👀 | Samenvatting Willem II - Fortuna Sittard"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-19",
-"id": "jWEkmlCsnxY",
-"t": "KEEPER de fout in, Naoufal BANNIS in VORM in AIRBORNE-wedstrijd 🌟 | Samenvatting Vitesse - Jong PSV"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-19",
-"id": "xdQ-mT01gTM",
-"t": "Danny BUIJS SNAPT NIETS van NIET gegeven PENALTY 😳"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-18",
-"id": "HPsUchwe9XY",
-"t": "🦁🔶 GJIVAI ZECHIËL voor het EERST OPGEROEPEN voor ORANJE 🪄🎩 | COMPILATIE"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-18",
-"id": "VummoTuDMsc",
-"t": "Dick Schreuder eerlijk over verdediger Kabar: \"Hij heeft het heel erg lastig, dat zien we allemaal\""
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-18",
-"id": "1r0VLKLmd9o",
-"t": "VERBAZING over N.E.C.: \"Het was SUPERNAÏEF, ik zag OPGEEFGEDRAG\" 😳 | Voetbalpraat"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-18",
-"id": "cy5JELsD8-Q",
-"t": "Mika Mármol zag zijn trainer Giovanni van Bronckhorst schitteren bij Barcelona 🤩🇪🇸"
 }
 ],
 "laliga": [
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-09",
+"id": "QgA0vVRUNMs",
+"t": "La DEFINICIÓN clásica de LAMINE YAMAL 🎯 |  ¡Los 10 MEJORES GOLES de OCTUBRE!"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-09",
+"id": "PibZ4Sg2fb4",
+"t": "La presión del Real Madrid de Mourinho"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-09",
+"id": "WGbN7Ss07s0",
+"t": "Fermín 🎸"
+},
 {
 "c": "LALIGA EA SPORTS",
 "f": "2026-11-08",
@@ -15133,6 +15157,12 @@
 "f": "2026-11-08",
 "id": "QHhZCQ_KBkI",
 "t": "VILLARREAL CF 2 - 0 GETAFE CF | RESUMEN LALIGA EA SPORTS"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-08",
+"id": "ZxY8GjYPqMk",
+"t": "ATLÉTICO DE MADRID 1 - 2 FC BARCELONA | RESUMEN LALIGA EA SPORTS"
 },
 {
 "c": "LALIGA EA SPORTS",
@@ -20371,33 +20401,45 @@
 "f": "2026-09-06",
 "id": "j794pXZ_M5M",
 "t": "🧱🧱🧱"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-09-06",
-"id": "Sn6DKAtinG8",
-"t": "MÁLAGA CF vs LEVANTE UD | RUEDA DE PRENSA"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-09-06",
-"id": "HQ3VUht4ug0",
-"t": "DEPORTIVO ALAVÉS vs CA OSASUNA | RUEDA DE PRENSA"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-09-06",
-"id": "9ehmqgtVgEA",
-"t": "Qué debut, Stassin! 🥵"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-09-06",
-"id": "iuaHc8Yz204",
-"t": "DMITROVIC. ❌"
 }
 ],
 "ligue1": [
+{
+"c": "Ligue 1",
+"f": "2026-11-09",
+"id": "xlzMfT_lHwE",
+"t": "🔥 WZE 🔥  #football #ligue1 #foot #psg #footballshorts #championsleague"
+},
+{
+"c": "Ligue 1",
+"f": "2026-11-09",
+"id": "z4R9yRZg9ps",
+"t": "More than Football. 🥹  #football #ligue1 #foot #footballshorts"
+},
+{
+"c": "Ligue 1",
+"f": "2026-11-09",
+"id": "MZ3PJZEqvMo",
+"t": "Résumé 10ème journée | Ligue 1 McDonald's 26/27"
+},
+{
+"c": "Ligue 1",
+"f": "2026-11-09",
+"id": "NGFVd9xwnp4",
+"t": "RC LENS - OLYMPIQUE DE MARSEILLE (1-2) | Week 10 - Ligue 1 McDonald's 26/27"
+},
+{
+"c": "Ligue 1",
+"f": "2026-11-09",
+"id": "lIDnR6JMn1o",
+"t": "Le TOP ARRÊTS de la 10ème journée | Ligue 1 McDonald's 26/27"
+},
+{
+"c": "Ligue 1",
+"f": "2026-11-09",
+"id": "sAvL_g2Xfk8",
+"t": "LE HAVRE AC - FC LORIENT (0-2) | Week 10 - Ligue 1 McDonald's 26/27"
+},
 {
 "c": "Ligue 1",
 "f": "2026-11-08",
@@ -20427,6 +20469,60 @@
 "f": "2026-11-08",
 "id": "odu5lUz0j0I",
 "t": "Le TOP BUTS d'octobre en Ligue 1 McDonald's 🔥"
+},
+{
+"c": "Ligue 1",
+"f": "2026-11-08",
+"id": "qg4vZ3xT8cQ",
+"t": "TOUS LES BUTS de la 10ème journée | Ligue 1 McDonald's 26/27"
+},
+{
+"c": "Ligue 1",
+"f": "2026-11-08",
+"id": "V5uFs9lE7uk",
+"t": "L’OM ENFONCE Lens et S’EMPARE de la 4e place | 10ème journée - Ligue 1 McDonald's 26/27"
+},
+{
+"c": "Ligue 1",
+"f": "2026-11-08",
+"id": "vkojcBwfYNE",
+"t": "Zabarnyi SURGIT, 7e SUCCÈS DE SUITE du PSG face à Troyes | 10ème journée - Ligue 1 McDonald's 26/27"
+},
+{
+"c": "Ligue 1",
+"f": "2026-11-08",
+"id": "aHoLrn4aVlk",
+"t": "LE MANS FC - AS MONACO (1-1) | Week 10 - Ligue 1 McDonald's 26/27"
+},
+{
+"c": "Ligue 1",
+"f": "2026-11-08",
+"id": "bUI2f92cPco",
+"t": "Touré et Makengo RELANCENT Lorient en COULANT Le Havre | 10ème journée - Ligue 1 McDonald's 26/27"
+},
+{
+"c": "Ligue 1",
+"f": "2026-11-08",
+"id": "Lys9nal_chs",
+"t": "Toulouse REBONDIT en RENVOYANT Strasbourg à ses doutes | 10ème journée - Ligue 1 McDonald's 26/27"
+},
+{
+"c": "Ligue 1",
+"f": "2026-11-08",
+"id": "mc_SsIvyUm0",
+"t": "Sinayoko FRAPPE ENCORE, le Paris FC ASSURE à Auxerre | 10ème journée - Ligue 1 McDonald's 26/27"
+},
+{
+"c": "Ligue 1",
+"f": "2026-11-08",
+"id": "fXn0j_LQKUc",
+"t": "Edjouma et Ajorque PIÈGENT l'OL : JOLI COUP de Brest | 10ème journée - Ligue 1 McDonald's 26/27"
+},
+{
+"c": "Ligue 1",
+"f": "2026-11-08",
+"id": "jnbxlghISKs",
+"t": "AJ AUXERRE - PARIS FC (0-1) | Week 10 - Ligue 1 McDonald's 26/27"
 },
 {
 "c": "Ligue 1",
@@ -23108,6 +23204,12 @@
 },
 {
 "c": "Premier League",
+"f": "2026-11-08",
+"id": "63a6T2voSw0",
+"t": "Michael Carrick's Reaction To 96th-Minute Equaliser"
+},
+{
+"c": "Premier League",
 "f": "2026-11-07",
 "id": "GEevvSIxfPE",
 "t": "CHAOS In The Box! 😱"
@@ -24904,6 +25006,24 @@
 "seriea": [
 {
 "c": "Serie A",
+"f": "2026-11-09",
+"id": "gdRtRsSLbOU",
+"t": "Due Reti a Testa al Franchi | FIORENTINA-JUVENTUS | HIGHLIGHTS | SERIE A ENILIVE 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-11-09",
+"id": "c_V7am9WHm0",
+"t": "What a game! 🤯 #FiorentinaJuve"
+},
+{
+"c": "Serie A",
+"f": "2026-11-09",
+"id": "6kEqBXRE0zw",
+"t": "💪 GOAL SERIE A | HERMOSO Fires a LEFT-FOOTED! | Goal Collection | Round 11 | Serie A 2026/27"
+},
+{
+"c": "Serie A",
 "f": "2026-11-08",
 "id": "oRjvY0kXefs",
 "t": "Giallorossi in Controllo all’Olimpico | ROMA-SASSUOLO | HIGHLIGHTS | SERIE A ENILIVE 2026/27"
@@ -24961,12 +25081,6 @@
 "f": "2026-11-08",
 "id": "JSKDBm5cIj4",
 "t": "🔴 PRE-MATCH LIVE | FIORENTINA-JUVENTUS | Serie A Enilive 2026/27"
-},
-{
-"c": "Serie A",
-"f": "2026-11-08",
-"id": "gdRtRsSLbOU",
-"t": "Due Reti a Testa al Franchi | FIORENTINA-JUVENTUS | HIGHLIGHTS | SERIE A ENILIVE 2026/27"
 },
 {
 "c": "Serie A",
