@@ -2906,6 +2906,12 @@
 "Chelsea": [
 {
 "c": "Chelsea Football Club",
+"f": "2026-11-10",
+"id": "9v4YjymHBoU",
+"t": "Sunderland 1-0 Chelsea | HIGHLIGHTS - Extended | Premier League 2026/27"
+},
+{
+"c": "Chelsea Football Club",
 "f": "2026-11-08",
 "id": "yF1qPsdPzFQ",
 "t": "Spurs U21's vs Cobham Next Gen | HIGHLIGHTS | Premier League 2 | 2026/27"
@@ -3137,15 +3143,15 @@
 "f": "2026-10-23",
 "id": "YJg2MTcl5Qc",
 "t": "Alonso Press Conference | 23/10/26 | Chelsea vs Tottenham | CFC 26/27"
-},
-{
-"c": "Chelsea Football Club",
-"f": "2026-10-18",
-"id": "Bht1xOnl6Ik",
-"t": "Everton 0-2 Chelsea | HIGHLIGHTS - Extended | Premier League 2026/27"
 }
 ],
 "Corinthians": [
+{
+"c": "Corinthians TV",
+"f": "2026-11-10",
+"id": "Urdb00v7MTA",
+"t": "JOGO COMPLETO: BASQUETE CEARENSE 68 X 75 CORINTHIANS | NBB CAIXA 2026/27 | 5ª RODADA"
+},
 {
 "c": "Corinthians TV",
 "f": "2026-11-09",
@@ -3379,12 +3385,6 @@
 "f": "2026-11-02",
 "id": "FMIExEUL_-Q",
 "t": "COLETIVA DE IMPRENSA | MATHEUS BIDU E ANDRÉ"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-11-02",
-"id": "Pg0Q-hJa6ek",
-"t": "COLETIVA DE IMPRENSA | MEMPHIS DEPAY, CLARENCE SEEDORF E YURI ALBERTO"
 }
 ],
 "Coventry City": [
@@ -6536,6 +6536,12 @@
 "Gremio": [
 {
 "c": "Grêmio FBPA",
+"f": "2026-11-10",
+"id": "H2SyhMAYT5Q",
+"t": "BASTIDORES DA CLASSIFICAÇÃO À FINAL | ATLÉTICO-MG 1x1 GRÊMIO (COPA DO BRASIL 2026)"
+},
+{
+"c": "Grêmio FBPA",
 "f": "2026-11-08",
 "id": "qMPetELOR0o",
 "t": "AO VIVO | ATLÉTICO-MG X GRÊMIO (COPA DO BRASIL 2026)"
@@ -6767,12 +6773,6 @@
 "f": "2026-10-18",
 "id": "-T1OOzRblpM",
 "t": "AO VIVO | GRÊMIO X CRUZEIRO I BRASILEIRÃO 2026"
-},
-{
-"c": "Grêmio FBPA",
-"f": "2026-10-18",
-"id": "BjKUEMJr2k4",
-"t": "AO VIVO | COLETIVA PÓS-JOGO I GREMIO X CRUZEIRO (CAMPEONATO BRASILEIRO 2026)"
 }
 ],
 "Inter": [
@@ -7988,6 +7988,18 @@
 "Liverpool": [
 {
 "c": "Liverpool FC",
+"f": "2026-11-10",
+"id": "jIsMhw4WlW0",
+"t": "Extended Highlights: Crystal Palace 1-3 Liverpool | Wirtz shines in Premier League win"
+},
+{
+"c": "Liverpool FC",
+"f": "2026-11-10",
+"id": "juIxQLe1xTQ",
+"t": "Josjis, Reds! 😎"
+},
+{
+"c": "Liverpool FC",
 "f": "2026-11-09",
 "id": "D1fNQ82rA7o",
 "t": "Matchday Live: Liverpool vs Man United | Premier League build-up from Anfield"
@@ -8213,18 +8225,6 @@
 "f": "2026-11-02",
 "id": "uYUxzUYM1Lk",
 "t": "Highlights: Liverpool U18s 7-0 Sunderland | SEVEN Goals! Finn Inglethorpe Hat-Trick!"
-},
-{
-"c": "Liverpool FC",
-"f": "2026-11-02",
-"id": "M_o7P6ffY5c",
-"t": "7️⃣ GOALS for Liverpool Under-18s!"
-},
-{
-"c": "Liverpool FC",
-"f": "2026-11-01",
-"id": "0tG-WfQ9ggE",
-"t": "Matchday Live: Liverpool vs Arsenal | Premier League build-up from Anfield"
 }
 ],
 "Metz": [
