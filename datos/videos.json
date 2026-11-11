@@ -2,6 +2,24 @@
 "brasileirao": [
 {
 "c": "CazéTV",
+"f": "2026-11-11",
+"id": "aO39ky6JmRM",
+"t": "BRASIL NO HANDEBOL DE PRAIA | JOGOS OLÍMPICOS DA JUVENTUDE DAKAR 2026"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-11",
+"id": "zzoXup4rDLU",
+"t": "(SOM AMBIENTE): TÊNIS DE MESA | GIULIA TAKAHASHI E LAURA WATANABE | WTT ISTAMBUL"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-11",
+"id": "1tCSoccse-s",
+"t": "(SOM AMBIENTE): TÊNIS DE MESA | GIULIA TAKAHASHI | WTT STAR CONTENDER DE ISTAMBUL"
+},
+{
+"c": "CazéTV",
 "f": "2026-11-10",
 "id": "QvGq9QQi4Rg",
 "t": "BRASIL X HUNGRIA NO HANDEBOL DE PRAIA | JOGOS OLÍMPICOS DA JUVENTUDE DAKAR 2026"
@@ -62,6 +80,24 @@
 },
 {
 "c": "CazéTV",
+"f": "2026-11-10",
+"id": "b8cgsYH-ZdU",
+"t": "SORTEIO DO PAULISTÃO 2027"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-10",
+"id": "GaOpEUe_8G4",
+"t": "AO VIVO (SOM AMBIENTE): TÊNIS DE MESA | LEO IIZUKA | WTT STAR CONTENDER DE ISTAMBUL"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-10",
+"id": "320EUYC0Wxw",
+"t": "AO VIVO: BRAZILIAN STORM ESTÁ NA ÁGUA! | ISA GAMES 2026 | VALENDO VAGA OLÍMPICA"
+},
+{
+"c": "CazéTV",
 "f": "2026-11-09",
 "id": "1oZymalSAno",
 "t": "COPA DO BRASIL DEFINE O 2º FINALISTA E TEM ATLÉTICO DE MADRID X BARÇA | SEIS EM UM"
@@ -101,12 +137,6 @@
 "f": "2026-11-09",
 "id": "152L0iYsYdU",
 "t": "É OURO PARA O BRASIL! PYETRO SOUZA VENCE NO ARREMESSO DE PESO NAS OLIMPÍADAS DA JUVENTUDE EM DAKAR!"
-},
-{
-"c": "CazéTV",
-"f": "2026-11-09",
-"id": "b8cgsYH-ZdU",
-"t": "AO VIVO: SORTEIO DO PAULISTÃO 2027"
 },
 {
 "c": "CazéTV",
@@ -5369,39 +5399,21 @@
 "f": "2026-09-17",
 "id": "KAP6OJY46t0",
 "t": "MELHORES MOMENTOS: FRANÇA 1 X 3 CANADÁ | COPA DO MUNDO FEMININA SUB-20 FIFA 2026 | OITAVAS DE FINAL"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-17",
-"id": "OfxVU_xLCco",
-"t": "JOGO COMPLETO (SOM AMBIENTE): LEVSKI SOFIA X FC SALZBURG | EUROPA LEAGUE 26/27 | 1ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-17",
-"id": "CwfSNkwowzw",
-"t": "JOGO COMPLETO (SOM AMBIENTE): OFI X HOFFENHEIM | EUROPA LEAGUE 26/27 | 1ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-17",
-"id": "mJRl1XVq4Fo",
-"t": "JOGO COMPLETO: REAL SOCIEDAD X BOURNEMOUTH | EUROPA LEAGUE 26/27 | 1ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-17",
-"id": "5VTY1Pp43Ks",
-"t": "JOGO COMPLETO: BEŞIKTAŞ X OLYMPIQUE MARSEILLE | EUROPA LEAGUE 26/27 | 1ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-17",
-"id": "hy1RIIN7q7Q",
-"t": "JOGO COMPLETO: JUVENTUS X NEC NIJMEGEN | EUROPA LEAGUE 26/27 | 1ª RODADA"
 }
 ],
 "bundesliga": [
+{
+"c": "Bundesliga",
+"f": "2026-11-11",
+"id": "hrjWRxvkH_E",
+"t": "When Dani Olmo Became WORLD CLASS In the Bundesliga 🚀"
+},
+{
+"c": "Bundesliga",
+"f": "2026-11-11",
+"id": "Kc9HOCaFeBM",
+"t": "Goalkeeper Grip Challenge ✊😮‍💨"
+},
 {
 "c": "Bundesliga",
 "f": "2026-11-10",
@@ -7974,6 +7986,12 @@
 "champions": [
 {
 "c": "UEFA",
+"f": "2026-11-11",
+"id": "Pj3UoORXTpQ",
+"t": "So good 👏"
+},
+{
+"c": "UEFA",
 "f": "2026-11-10",
 "id": "q43GZ9fc0Uc",
 "t": "Skills on show in the Champions League 💫"
@@ -9686,6 +9704,18 @@
 "eredivisie": [
 {
 "c": "ESPN NL",
+"f": "2026-11-11",
+"id": "KanqV3W4pSA",
+"t": "Don-Angelo Konadu vindt dat Jong Oranje met deze lichting het EK moet halen 🦁"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-11",
+"id": "TO48LJ_sMEc",
+"t": "Bart Verbruggen blijft bescheiden ondanks droomseizoen met Brighton in de Premier League 📈"
+},
+{
+"c": "ESPN NL",
 "f": "2026-11-10",
 "id": "1WPXrq6IShs",
 "t": "Sven Mijnans kan wel lachen om weggooien van wedstrijdbal door oud-teamgenoot Billy van Duijl ⚽ 😅"
@@ -9749,6 +9779,12 @@
 "f": "2026-11-10",
 "id": "ip5K_orK3io",
 "t": "De BESTE GOALS van 𝐒𝐕𝐄𝐍 𝐌𝐈𝐉𝐍𝐀𝐍𝐒 ☄️✨"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-10",
+"id": "VhkHO6rQG4E",
+"t": "REIZIGER gaat in op KEUZE VOOR MAROKKO van OUFKIR & LATER aansluiten SMIT 🦁 | Interview Jong Oranje"
 },
 {
 "c": "ESPN NL",
@@ -15065,27 +15101,39 @@
 "f": "2026-09-20",
 "id": "1E5lSn-P5YU",
 "t": "Perez vindt tendens TE POSITIEF bij Ajax: \"Brandt is nog net geen Messi\" 😳 | Dit Was Het Weekend"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-20",
-"id": "xckB_XH8BHE",
-"t": "El Ahmadi ziet gelijkenissen met KAMPIOENSPLOEG uit 2017: \"Voetballend nog iets beter dan wij\" 📈"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-19",
-"id": "O12gxaXIZLs",
-"t": "Deze rode kaart doet terugdenken aan 27 juni 2021 🇳🇱🆚🇨🇿 🫣"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-19",
-"id": "ihwBAiyP1mE",
-"t": "Sofyan Amrabat sprak in juni al met trainer Míchel Sánchez ☎️"
 }
 ],
 "laliga": [
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-11",
+"id": "rY3l9REntDk",
+"t": "REFCAM Valencia CF vs Real Madrid"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-11",
+"id": "0lgzN2UIcl4",
+"t": "Un sueño: tener la camiseta de FERMÍN"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-11",
+"id": "Dver9ChEE5o",
+"t": "ARDA GÜLER está BRILLANDO en el REAL MADRID ✨"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-11",
+"id": "DJ1__FbbxsY",
+"t": "¿Cuántas jornadas seguidas va a estar marcando gol MBAPPÉ?"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-11",
+"id": "5NbPS52DETE",
+"t": "The Highlight Hattrick of MD12 by Goalitos LALIGA!"
+},
 {
 "c": "LALIGA EA SPORTS",
 "f": "2026-11-10",
@@ -15127,6 +15175,12 @@
 "f": "2026-11-10",
 "id": "gCtp3pEhWj4",
 "t": "REFCAM Atlético de Madrid vs FC Barcelona"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-10",
+"id": "msne4d-J7pI",
+"t": "Arda Güler es una SUPERESTRELLA"
 },
 {
 "c": "LALIGA EA SPORTS",
@@ -20449,45 +20503,33 @@
 "f": "2026-09-06",
 "id": "saa7f5Pf1qo",
 "t": "🔴 MÁLAGA CF vs LEVANTE UD - PREVIA DEL PARTIDO"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-09-06",
-"id": "YTCRIRGkd4Q",
-"t": "🔴 DEPORTIVO ALAVÉS vs CA OSASUNA - PREVIA DEL PARTIDO"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-09-06",
-"id": "RSLzbZ15Q_I",
-"t": "DIENG. 🥶"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-09-06",
-"id": "jTsYmQsKYZw",
-"t": "Muy, muy muy cerca.🧐"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-09-06",
-"id": "8uwLHGS9yuc",
-"t": "🫣🤏🏼"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-09-06",
-"id": "0kQmeEb6J08",
-"t": "Dimitrievski ❌ Lamine"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-09-06",
-"id": "2a9RfX7KtAs",
-"t": "FERMÍN. 🫡🫡🫡"
 }
 ],
 "ligue1": [
+{
+"c": "Ligue 1",
+"f": "2026-11-11",
+"id": "FAwJznXxSDE",
+"t": "FERRAN TORRES : SUR LES TRACES D' « EL TIBURÓN » 🦈​"
+},
+{
+"c": "Ligue 1",
+"f": "2026-11-11",
+"id": "sM6Nb6Xvfyg",
+"t": "Lucky assist 👀 #Ligue1McDonalds #football #ligue1 #foot #footballshorts #sports #shorts #soccer"
+},
+{
+"c": "Ligue 1",
+"f": "2026-11-11",
+"id": "nuLQrdOv1Z4",
+"t": "Nathan Ngoy with a striker mentality ⚡️🇧🇪 #football #ligue1 #foot #footballshorts #soccer #sports"
+},
+{
+"c": "Ligue 1",
+"f": "2026-11-11",
+"id": "m9qxxljtNHY",
+"t": "Every angle is worth watching 🔥 #football #ligue1 #foot #footballshorts #sports #skills #shorts"
+},
 {
 "c": "Ligue 1",
 "f": "2026-11-10",
@@ -23330,6 +23372,24 @@
 "premier": [
 {
 "c": "Premier League",
+"f": "2026-11-11",
+"id": "xjI1Kv9C7JI",
+"t": "TWO NO-LOOK GOALS?! 🫨"
+},
+{
+"c": "Premier League",
+"f": "2026-11-11",
+"id": "8tlswHDgab4",
+"t": "Everyone Thought It Was A Goal... Until These Tackles!"
+},
+{
+"c": "Premier League",
+"f": "2026-11-11",
+"id": "KyJz_IwQIt8",
+"t": "Van Dijk Couldn't Resist Copying Isak! 😂"
+},
+{
+"c": "Premier League",
 "f": "2026-11-10",
 "id": "iA-kVTj98PQ",
 "t": "SIUUU! Premier League Has Caught Ronaldo Fever 🔥"
@@ -23344,7 +23404,7 @@
 "c": "Premier League",
 "f": "2026-11-10",
 "id": "JTJkO6vaPsg",
-"t": "McBurnie Names Hull's DJ, Chef & Pro Clubs Player 😅"
+"t": "Oli McBurnie Doesn't Understand Pro Clubs 😅🎮"
 },
 {
 "c": "Premier League",
@@ -25196,6 +25256,30 @@
 }
 ],
 "seriea": [
+{
+"c": "Serie A",
+"f": "2026-11-11",
+"id": "b5w8v0-n1OE",
+"t": "Best of Gustavo Varela | Rising Star: October 2026 | Serie A 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-11-11",
+"id": "vICD1u8tPgs",
+"t": "Belahyane with a crucial clearance 🛡️"
+},
+{
+"c": "Serie A",
+"f": "2026-11-11",
+"id": "bVDyVaT-ktI",
+"t": "Best of Lazio: Gennaro Gattuso | Philadelphia Coach of the Month: October 2026 | Serie A 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-11-11",
+"id": "TY-iGrA4sg8",
+"t": "A Calcio Journey | Episode 3 | Rossoneri like AC Milan"
+},
 {
 "c": "Serie A",
 "f": "2026-11-10",
