@@ -10,13 +10,31 @@
 "c": "CazéTV",
 "f": "2026-11-11",
 "id": "zzoXup4rDLU",
-"t": "(SOM AMBIENTE): TÊNIS DE MESA | GIULIA TAKAHASHI E LAURA WATANABE | WTT ISTAMBUL"
+"t": "TÊNIS DE MESA (SOM AMBIENTE): GIULIA TAKAHASHI E LAURA WATANABE | WTT CONTENDER ISTAMBUL"
 },
 {
 "c": "CazéTV",
 "f": "2026-11-11",
 "id": "1tCSoccse-s",
-"t": "(SOM AMBIENTE): TÊNIS DE MESA | GIULIA TAKAHASHI | WTT STAR CONTENDER DE ISTAMBUL"
+"t": "TÊNIS DE MESA (SOM AMBIENTE): GIULIA TAKAHASHI | WTT CONTENDER DE ISTAMBUL"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-11",
+"id": "GaOpEUe_8G4",
+"t": "TÊNIS DE MESA (SOM AMBIENTE): LEO IIZUKA | WTT CONTENDER DE ISTAMBUL"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-11",
+"id": "320EUYC0Wxw",
+"t": "BRAZILIAN STORM ESTÁ NA ÁGUA! | ISA GAMES 2026 | VALENDO VAGA OLÍMPICA"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-11",
+"id": "1b9F5xU-4HI",
+"t": "AO VIVO: MIGUEL PUPO E TAINÁ HINCKEL NA ÁGUA! | ISA GAMES 2026 | VALENDO VAGA OLÍMPICA"
 },
 {
 "c": "CazéTV",
@@ -87,14 +105,8 @@
 {
 "c": "CazéTV",
 "f": "2026-11-10",
-"id": "GaOpEUe_8G4",
-"t": "AO VIVO (SOM AMBIENTE): TÊNIS DE MESA | LEO IIZUKA | WTT STAR CONTENDER DE ISTAMBUL"
-},
-{
-"c": "CazéTV",
-"f": "2026-11-10",
-"id": "320EUYC0Wxw",
-"t": "AO VIVO: BRAZILIAN STORM ESTÁ NA ÁGUA! | ISA GAMES 2026 | VALENDO VAGA OLÍMPICA"
+"id": "OZUt4IQZ87o",
+"t": "AO VIVO: BRASIL NA ESGRIMA | JOGOS OLÍMPICOS DA JUVENTUDE DAKAR 2026"
 },
 {
 "c": "CazéTV",
@@ -5387,18 +5399,6 @@
 "f": "2026-09-17",
 "id": "-P08XdIjaGQ",
 "t": "MELHORES MOMENTOS: LDU 3(3) X (4)2 PALMEIRAS | QUARTAS (VOLTA) | CONMEBOL LIBERTADORES 2026"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-17",
-"id": "Oy_kJpAnvUM",
-"t": "MELHORES MOMENTOS: BOTAFOGO 3 X 2 GRÊMIO | BRASILEIRÃO 2026 | 21ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-17",
-"id": "KAP6OJY46t0",
-"t": "MELHORES MOMENTOS: FRANÇA 1 X 3 CANADÁ | COPA DO MUNDO FEMININA SUB-20 FIFA 2026 | OITAVAS DE FINAL"
 }
 ],
 "bundesliga": [
@@ -7992,6 +7992,18 @@
 },
 {
 "c": "UEFA",
+"f": "2026-11-11",
+"id": "qDQGYS_AiGI",
+"t": "Cutting through the press 🔗"
+},
+{
+"c": "UEFA",
+"f": "2026-11-11",
+"id": "tMMreFu2K08",
+"t": "What a finish!"
+},
+{
+"c": "UEFA",
 "f": "2026-11-10",
 "id": "q43GZ9fc0Uc",
 "t": "Skills on show in the Champions League 💫"
@@ -9713,6 +9725,24 @@
 "f": "2026-11-11",
 "id": "TO48LJ_sMEc",
 "t": "Bart Verbruggen blijft bescheiden ondanks droomseizoen met Brighton in de Premier League 📈"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-11",
+"id": "xcuxzI-ortM",
+"t": "Lily Yohannes doet ook (weer) een duit in het zakje 🔥💰"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-11",
+"id": "6tozjJOMVME",
+"t": "OL Lyonnes heeft weinig moeite met Juventus 👀"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-11",
+"id": "vx8L8KeOtdI",
+"t": "Bart Verbruggen blij met mooie complimenten van Joe Hart 🧤"
 },
 {
 "c": "ESPN NL",
@@ -15083,24 +15113,6 @@
 "f": "2026-09-20",
 "id": "WZrj_bsgGWg",
 "t": "Weer Perr Schuurs voor N.E.C. 🔴🟢⚫️"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-20",
-"id": "-ZrVQhsCIfw",
-"t": "LOF voor 'BIJZONDER' Ajax-talent OUAZANE: \"Dit gaat BUITENCATEGORIE worden\" 🇲🇦👀"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-20",
-"id": "vljmuwZUGpI",
-"t": "FC Twente maakt indruk tegen PSV: \"Weidmann was FANTASTISCH\" 👏 | Dit Was Het Weekend"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-20",
-"id": "1E5lSn-P5YU",
-"t": "Perez vindt tendens TE POSITIEF bij Ajax: \"Brandt is nog net geen Messi\" 😳 | Dit Was Het Weekend"
 }
 ],
 "laliga": [
@@ -15133,6 +15145,24 @@
 "f": "2026-11-11",
 "id": "5NbPS52DETE",
 "t": "The Highlight Hattrick of MD12 by Goalitos LALIGA!"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-11",
+"id": "SP98keppTOE",
+"t": "Desde la REFCAM el Valencia vs Real Madrid es AÚN MEJOR"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-11",
+"id": "PM8U2sCGDGc",
+"t": "Solo RAPHINHA y MBAPPÉ mejoran a ZABIRI en esto"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-11",
+"id": "LcWWVJeRO60",
+"t": "Los 3 jugadores con mejor media goleadora son..."
 },
 {
 "c": "LALIGA EA SPORTS",
@@ -20485,24 +20515,6 @@
 "f": "2026-09-06",
 "id": "O16AiRKimL0",
 "t": "🔴 VALENCIA CF vs FC BARCELONA - PREVIA DEL PARTIDO"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-09-06",
-"id": "PjUZiFVFt4w",
-"t": "VALENCIA CF vs FC BARCELONA | RUEDA DE PRENSA"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-09-06",
-"id": "-8uIcHiSr8Q",
-"t": "VALENCIA CF 0 - 5 FC BARCELONA | RESUMEN LALIGA EA SPORTS"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-09-06",
-"id": "saa7f5Pf1qo",
-"t": "🔴 MÁLAGA CF vs LEVANTE UD - PREVIA DEL PARTIDO"
 }
 ],
 "ligue1": [
@@ -20529,6 +20541,12 @@
 "f": "2026-11-11",
 "id": "m9qxxljtNHY",
 "t": "Every angle is worth watching 🔥 #football #ligue1 #foot #footballshorts #sports #skills #shorts"
+},
+{
+"c": "Ligue 1",
+"f": "2026-11-11",
+"id": "QY7qauqdLaI",
+"t": "Hugo Zidane Magnetti 🌪️ #ligue1mcdonalds  #football #ligue1 #foot #sports #footballshorts #soccer"
 },
 {
 "c": "Ligue 1",
@@ -25279,6 +25297,12 @@
 "f": "2026-11-11",
 "id": "TY-iGrA4sg8",
 "t": "A Calcio Journey | Episode 3 | Rossoneri like AC Milan"
+},
+{
+"c": "Serie A",
+"f": "2026-11-11",
+"id": "LSSMhJ1ySI0",
+"t": "Behind The Scenes Of Inter-Como | Inside The Match | Serie A 2026/27"
 },
 {
 "c": "Serie A",
