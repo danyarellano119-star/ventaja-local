@@ -2,6 +2,12 @@
 "brasileirao": [
 {
 "c": "CazéTV",
+"f": "2026-11-12",
+"id": "tQH8-yiOAn8",
+"t": "TÊNIS DE MESA  (SOM AMBIENTE) | LEONARDO IIZUKA E GUI TEODORO | WTT CONTENDER ISTAMBUL"
+},
+{
+"c": "CazéTV",
 "f": "2026-11-11",
 "id": "aO39ky6JmRM",
 "t": "BRASIL NO HANDEBOL DE PRAIA | JOGOS OLÍMPICOS DA JUVENTUDE DAKAR 2026"
@@ -106,7 +112,7 @@
 "c": "CazéTV",
 "f": "2026-11-10",
 "id": "OZUt4IQZ87o",
-"t": "AO VIVO: BRASIL NA ESGRIMA | JOGOS OLÍMPICOS DA JUVENTUDE DAKAR 2026"
+"t": "AO VIVO: HANDEBOL DE PRAIA | JOGOS OLÍMPICOS DA JUVENTUDE DAKAR 2026 | 12º DIA"
 },
 {
 "c": "CazéTV",
@@ -5393,15 +5399,21 @@
 "f": "2026-09-17",
 "id": "hD_RPgyUrBg",
 "t": "DISPUTA DE PÊNALTIS: LDU 3 (3) X (4) 2 PALMEIRAS | QUARTAS (VOLTA) | CONMEBOL LIBERTADORES 2026"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-17",
-"id": "-P08XdIjaGQ",
-"t": "MELHORES MOMENTOS: LDU 3(3) X (4)2 PALMEIRAS | QUARTAS (VOLTA) | CONMEBOL LIBERTADORES 2026"
 }
 ],
 "bundesliga": [
+{
+"c": "Bundesliga",
+"f": "2026-11-12",
+"id": "wNYa8xkkMlQ",
+"t": "Hide and Seek with Olise 🫣🤣"
+},
+{
+"c": "Bundesliga",
+"f": "2026-11-12",
+"id": "WR_uGccpiug",
+"t": "Some tekkers on the touch! ✨🔥"
+},
 {
 "c": "Bundesliga",
 "f": "2026-11-11",
@@ -9716,6 +9728,30 @@
 "eredivisie": [
 {
 "c": "ESPN NL",
+"f": "2026-11-12",
+"id": "u4cc1ZPyAZ0",
+"t": "Givairo Read heeft begrip voor de keuze van Ayoub Oufkir 🇲🇦🗣️"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-12",
+"id": "gbMp4UC88yE",
+"t": "Volgens Read moet Jong Oranje zich, ook zonder Van Bommel en Zechiël, gewoon plaatsen voor het EK 🦁"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-12",
+"id": "Rw9tSIW9Q74",
+"t": "GIVAIRO READ over DENEMARKEN en het ONTBREKEN van VAN BOMMEL, ZECHIËL EN OUFKIR ❌ | Interview"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-12",
+"id": "gpZiDwRQIMs",
+"t": "Precies 2️⃣0️⃣ jaar geleden: rekenen met Aad de Mos 😂🧮"
+},
+{
+"c": "ESPN NL",
 "f": "2026-11-11",
 "id": "KanqV3W4pSA",
 "t": "Don-Angelo Konadu vindt dat Jong Oranje met deze lichting het EK moet halen 🦁"
@@ -10121,6 +10157,12 @@
 "f": "2026-11-08",
 "id": "dg8pd2yUhDs",
 "t": "Dusan Tadic SCHITTERT met TWEE TREFFERS voor N.E.C. ✨ | Samenvatting FC Utrecht - N.E.C."
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-08",
+"id": "EYxaoUvAn3I",
+"t": "🇳🇱🇬🇷 ORANJE-BONDSCOACH Xavi Hernández blikt vooruit op NEDERLAND - GRIEKENLAND 🎙️ | Persconferentie"
 },
 {
 "c": "ESPN NL",
@@ -15083,39 +15125,27 @@
 "f": "2026-09-20",
 "id": "w0z8KriME9s",
 "t": "Ronald Koeman Jr. geraakt door eerbetoon aan zijn moeder ❤️"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-20",
-"id": "EAxbcxEV_Bw",
-"t": "Daouda Weidmann EXCELLEERT tegen PSV: \"Kenmerken van een ZEER GOEDE SPELER\" 👏 | Dit Was Het Weekend"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-20",
-"id": "V8ea_DEdk_8",
-"t": "Julian KANIA brengt de SPANNING TERUG! 🔙🇩🇪 | Samenvatting De Graafschap - NAC Breda"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-20",
-"id": "SPp6k-MQ33s",
-"t": "Perr Schuurs KNIKT RAAK BINNEN 2️⃣ MINUTEN! ⚡️ | Samenvatting N.E.C. - Go Ahead Eagles"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-20",
-"id": "lhb6OSihXL0",
-"t": "Ruben van Bommel maakt zich op voor het het 'hoogtepunt van zijn carrière' 🔜🟠"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-20",
-"id": "WZrj_bsgGWg",
-"t": "Weer Perr Schuurs voor N.E.C. 🔴🟢⚫️"
 }
 ],
 "laliga": [
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-12",
+"id": "f2J50fQ88JU",
+"t": "REFCAM Osasuna vs Athletic Club"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-12",
+"id": "zDIh9Aqwj2c",
+"t": "ARDA GÜLER es muy bueno"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-12",
+"id": "ktdOfW55dvo",
+"t": "¿Ves el parecido? ⚽"
+},
 {
 "c": "LALIGA EA SPORTS",
 "f": "2026-11-11",
@@ -20497,27 +20527,21 @@
 "f": "2026-09-07",
 "id": "YxLnLzwZ9O0",
 "t": "⚽️ ¡Fer Niño lo iguala para el Elche!"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-09-07",
-"id": "hjK6kpJuhk0",
-"t": "𝗧𝗛𝗢𝗠𝗔𝗦 𝗟𝗘𝗠𝗔𝗥. 💚"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-09-06",
-"id": "X5hiUJPi2oU",
-"t": "Aubameyang, non-stop 😮‍💨"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-09-06",
-"id": "O16AiRKimL0",
-"t": "🔴 VALENCIA CF vs FC BARCELONA - PREVIA DEL PARTIDO"
 }
 ],
 "ligue1": [
+{
+"c": "Ligue 1",
+"f": "2026-11-12",
+"id": "Of9LlZ_e8d0",
+"t": "Senny Mayulu gets his first France senior call-up! 🇫🇷💎 #football #ligue1 #foot #psg #footballshorts"
+},
+{
+"c": "Ligue 1",
+"f": "2026-11-12",
+"id": "GuAMfYVNNhA",
+"t": "Zaïre-Emery’s masterclass 🔥⚽️ #football #ligue1 #foot #psg #footballshorts #sports #soccer #shorts"
+},
 {
 "c": "Ligue 1",
 "f": "2026-11-11",
@@ -23390,6 +23414,24 @@
 "premier": [
 {
 "c": "Premier League",
+"f": "2026-11-12",
+"id": "xKkX8TRK7VI",
+"t": "Rapid Liverpool Counter-Attack ⚡️"
+},
+{
+"c": "Premier League",
+"f": "2026-11-12",
+"id": "mT3IlErUk30",
+"t": "Why Nobody Can Stop Martin Odegaard"
+},
+{
+"c": "Premier League",
+"f": "2026-11-12",
+"id": "aunhD_dAe7I",
+"t": "The Tactical Brilliance Behind Wirtz’s Goal! 🔴"
+},
+{
+"c": "Premier League",
 "f": "2026-11-11",
 "id": "xjI1Kv9C7JI",
 "t": "TWO NO-LOOK GOALS?! 🫨"
@@ -25274,6 +25316,12 @@
 }
 ],
 "seriea": [
+{
+"c": "Serie A",
+"f": "2026-11-12",
+"id": "9aijwKHcXk0",
+"t": "Le soluzioni dell’INTER e il ruolo di HERMOSO: le curiosità della giornata 11 📝 | TATTICAMENTE S1 E9"
+},
 {
 "c": "Serie A",
 "f": "2026-11-11",

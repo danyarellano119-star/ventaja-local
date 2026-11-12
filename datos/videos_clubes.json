@@ -2,6 +2,18 @@
 "AC Milan": [
 {
 "c": "AC Milan",
+"f": "2026-11-12",
+"id": "LkL_sAUJMF4",
+"t": "Juventus 1-1 Milan | Full Match | CISSE apre, Gatti pareggia nel finale"
+},
+{
+"c": "AC Milan",
+"f": "2026-11-12",
+"id": "PnD0xyHlrZg",
+"t": "Moreira ha i piedi a velocità 2x 🤯"
+},
+{
+"c": "AC Milan",
 "f": "2026-11-11",
 "id": "jOnHeArbL_U",
 "t": "Questione di feeling con il pallone 🤝"
@@ -227,18 +239,6 @@
 "f": "2026-11-05",
 "id": "DwiprzBF28A",
 "t": "Rossonero per sempre! ❤️🖤 Kaká | Guarda il video completo"
-},
-{
-"c": "AC Milan",
-"f": "2026-11-05",
-"id": "hqRlRPU9kVA",
-"t": "Kaká si commuove a San Siro ❤️ Guarda il video completo!"
-},
-{
-"c": "AC Milan",
-"f": "2026-11-05",
-"id": "NLwImA6F1hY",
-"t": "Siam venuti fin qua per vedere segnare Kaká 🙌 Guarda il video completo!"
 }
 ],
 "AC Monza": [
@@ -728,6 +728,12 @@
 "AS Roma": [
 {
 "c": "AS Roma",
+"f": "2026-11-12",
+"id": "38eauPuVADE",
+"t": "POV: You’re on our bus to a match in the ’80s"
+},
+{
+"c": "AS Roma",
 "f": "2026-11-11",
 "id": "PwZawwOEw5U",
 "t": "ROMA 2-1 SERVETTE | Uefa Women's Champions League 2026-27"
@@ -959,12 +965,6 @@
 "f": "2026-10-16",
 "id": "0cVFF10qiYo",
 "t": "🟨  LIVE  🟥  LA CONFERENZA STAMPA DI GIAN PIERO GASPERINI"
-},
-{
-"c": "AS Roma",
-"f": "2026-10-13",
-"id": "k96g8ksz9wY",
-"t": "🟨  LIVE  🟥  LA CONFERENZA STAMPA DI GASPERINI E MALEN"
 }
 ],
 "Arsenal": [
@@ -1696,6 +1696,12 @@
 "Bayern Munich": [
 {
 "c": "Bayern",
+"f": "2026-11-12",
+"id": "tOyJW4gQa_8",
+"t": "Tag des Handwerks bei der Bayerischen Akademie der Bäckerinnung - Bayern"
+},
+{
+"c": "Bayern",
 "f": "2026-11-11",
 "id": "d91rh-YE23Q",
 "t": "Staatsempfang Bioökonomie Bayern 2026"
@@ -1927,12 +1933,6 @@
 "f": "2026-10-13",
 "id": "O89kwZUQvb4",
 "t": "Was war los im Kabinett? - Bayern"
-},
-{
-"c": "Bayern",
-"f": "2026-10-12",
-"id": "lVy1gzaMIjY",
-"t": "65. Sitzung der „Denkfabrik Legal Tech“ am 25. September 2026 - Bayern"
 }
 ],
 "Blackburn Rovers": [
@@ -2906,6 +2906,18 @@
 "Chelsea": [
 {
 "c": "Chelsea Football Club",
+"f": "2026-11-12",
+"id": "h92-ecd6tSo",
+"t": "Four Guinness World Records 🔵🏆"
+},
+{
+"c": "Chelsea Football Club",
+"f": "2026-11-12",
+"id": "l2Cwfy2WBY4",
+"t": "Best Cundy Celebrations 🤩"
+},
+{
+"c": "Chelsea Football Club",
 "f": "2026-11-11",
 "id": "NX97R6jAuMU",
 "t": "Chelsea Remembers | Remembrance Day"
@@ -3131,21 +3143,15 @@
 "f": "2026-10-24",
 "id": "TPKlbCGbDP8",
 "t": "Chelsea 0-2 Spurs | HIGHLIGHTS | Premier League 2026/27"
-},
-{
-"c": "Chelsea Football Club",
-"f": "2026-10-24",
-"id": "l96Yu04dyJU",
-"t": "ALONSO react post-Spurs | Chelsea 0-2 Spurs | Premier League 2026/27"
-},
-{
-"c": "Chelsea Football Club",
-"f": "2026-10-23",
-"id": "DlsPXlU2lns",
-"t": "Look who’s joining us on the sleeve. 👀🔵"
 }
 ],
 "Corinthians": [
+{
+"c": "Corinthians TV",
+"f": "2026-11-12",
+"id": "z_Ib6Kf8Ebo",
+"t": "CORINTHIANS E SABOTAGE ANUNCIAM SEGUNDO DROP DA COLEÇÃO"
+},
 {
 "c": "Corinthians TV",
 "f": "2026-11-11",
@@ -3379,12 +3385,6 @@
 "f": "2026-11-05",
 "id": "X7Pdi5a1obg",
 "t": "AO VIVO COM IMAGENS: CORINTHIANS X BASKET OSASCO | NBB CAIXA 2026/27 | 7ª RODADA"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-11-04",
-"id": "vr145bQ5LWo",
-"t": "A chegada do Coringão ontem no litoral! 👊🏽⚫⚪ #SAOxSCCP #UmSóCorinthians #VaiCorinthians #shorts"
 }
 ],
 "Coventry City": [
@@ -5084,15 +5084,33 @@
 "Fiorentina": [
 {
 "c": "ACF Fiorentina",
-"f": "2026-11-11",
-"id": "TzRwpiiEEws",
-"t": "VIOLA DAILY LIVE - 10 NOVEMBRE 2026"
+"f": "2026-11-12",
+"id": "r6TB7TMw7io",
+"t": "VIOLA DAILY LIVE - 11 NOVEMBRE 2026"
+},
+{
+"c": "ACF Fiorentina",
+"f": "2026-11-12",
+"id": "m-EzMEUhGTM",
+"t": "VIOLA DAILY LIVE - 12 NOVEMBRE 2026"
+},
+{
+"c": "ACF Fiorentina",
+"f": "2026-11-12",
+"id": "L1De4TYJcMU",
+"t": "Highlights Under 15: Fiorentina - Lecce 3 - 1 (8a Giornata)"
+},
+{
+"c": "ACF Fiorentina",
+"f": "2026-11-12",
+"id": "skEs5rhhiOc",
+"t": "Intervista con Francesco Toldo - Un Secolo Viola Ep.40"
 },
 {
 "c": "ACF Fiorentina",
 "f": "2026-11-11",
-"id": "r6TB7TMw7io",
-"t": "VIOLA DAILY LIVE - 11 NOVEMBRE 2026"
+"id": "TzRwpiiEEws",
+"t": "VIOLA DAILY LIVE - 10 NOVEMBRE 2026"
 },
 {
 "c": "ACF Fiorentina",
@@ -5104,7 +5122,7 @@
 "c": "ACF Fiorentina",
 "f": "2026-11-10",
 "id": "AOLq8xDTb-M",
-"t": "🏆Scudetto 1955-56: Firenze sul tetto d’Italia."
+"t": "🏆IMMORTALI | Scudetto 1955-56: Firenze sul tetto d’Italia."
 },
 {
 "c": "ACF Fiorentina",
@@ -5303,27 +5321,15 @@
 "f": "2026-11-01",
 "id": "fMnUJ0jkpWE",
 "t": "CONFERENZA STAMPA MISTER VANOLI - 1 NOVEMBRE 2026"
-},
-{
-"c": "ACF Fiorentina",
-"f": "2026-10-31",
-"id": "9D8V6wMbXUU",
-"t": "VIOLA DAILY LIVE - 30 OTTOBRE 2026"
-},
-{
-"c": "ACF Fiorentina",
-"f": "2026-10-31",
-"id": "3zE0tbs0_4Q",
-"t": "Highlights Primavera: Cesena - Fiorentina 0 - 2"
-},
-{
-"c": "ACF Fiorentina",
-"f": "2026-10-30",
-"id": "k1sK2530gUU",
-"t": "VIOLA DAILY LIVE - 29 OTTOBRE 2026"
 }
 ],
 "Flamengo": [
+{
+"c": "Flamengo TV",
+"f": "2026-11-12",
+"id": "z4J1l5pNUFE",
+"t": "EMERSON ROYAL EM AÇÃO! TREINO DO NOSSO LATERAL 🔴⚫"
+},
 {
 "c": "Flamengo TV",
 "f": "2026-11-11",
@@ -5377,6 +5383,12 @@
 "f": "2026-11-11",
 "id": "U6sqKNlQrk0",
 "t": "🔴AO VIVO: PRÉ-JOGO DA SUPERLIGA DE VÔLEI FEMININO - SESC FLAMENGO x FLUMINENSE | 12/11/26"
+},
+{
+"c": "Flamengo TV",
+"f": "2026-11-11",
+"id": "tO7jM5QlE1o",
+"t": "FOCO NA LIDERANÇA! FLAMENGO TREINA FORTE NO NINHO 🔴⚫"
 },
 {
 "c": "Flamengo TV",
@@ -5551,18 +5563,6 @@
 "f": "2026-11-05",
 "id": "-VOv4gH4gE8",
 "t": "Mais uma noite (in)feliz pro Secador. 😂"
-},
-{
-"c": "Flamengo TV",
-"f": "2026-11-05",
-"id": "HXkQK_1w-e8",
-"t": "TRÊEEEEEEEEEES PONTOS, MENGÃAAAAAAAAAAO! ❤️🖤"
-},
-{
-"c": "Flamengo TV",
-"f": "2026-11-05",
-"id": "o5LwWM2BX8k",
-"t": "PEDRO MARCA DUAS VEZES NO MARACA! ⚽⚽"
 }
 ],
 "Fluminense": [
@@ -6778,6 +6778,18 @@
 "Inter": [
 {
 "c": "Inter",
+"f": "2026-11-12",
+"id": "IuQLGF6nsog",
+"t": "𝟏 ➡️ 𝟐 ➡️ 𝟑 ➡️ ⚽"
+},
+{
+"c": "Inter",
+"f": "2026-11-12",
+"id": "1bsxU0rwhGo",
+"t": "EP. 66 | Federico - La metacampo"
+},
+{
+"c": "Inter",
 "f": "2026-11-11",
 "id": "INuz3h3wtvA",
 "t": "FINO ALL'ULTIMO SECONDO🖤💙 | INTER 2-1 FIORENTINA | UNA RIMONTA MEMORABILE"
@@ -7003,18 +7015,6 @@
 "f": "2026-11-08",
 "id": "t4Th_tQ34v4",
 "t": "THAT'S HOW IT'S DONE ✅✅"
-},
-{
-"c": "Inter",
-"f": "2026-11-08",
-"id": "W549hUX_z7U",
-"t": "ESPOSITO E THURAM FIRMANO LA VITTORIA! ⚽ | INTER 2-0 COMO | HIGHLIGHTS"
-},
-{
-"c": "Inter",
-"f": "2026-11-08",
-"id": "gp_TPidjOtQ",
-"t": "ᴛʜᴜʀᴀᴍ x ꜱᴘᴇɴᴄᴇ x ᴇꜱᴘᴏꜱɪᴛᴏ ➡️ Assignment understood 📦✅"
 }
 ],
 "Ipswich Town": [
@@ -7262,6 +7262,12 @@
 "Juventus": [
 {
 "c": "Juventus",
+"f": "2026-11-12",
+"id": "gs43zY5qMb8",
+"t": "When the height difference decides the greeting 😂🤝"
+},
+{
+"c": "Juventus",
 "f": "2026-11-11",
 "id": "WDPbBRSHm-w",
 "t": "LIVE | WEST HAM vs JUVENTUS U21 | PREMIER LEAGUE INTERNATIONAL CUP"
@@ -7493,12 +7499,6 @@
 "f": "2026-11-07",
 "id": "S-fMkWWURMc",
 "t": "POGBA ASSIST, MANDZUKIC VOLLEY BANG! 💥🎯"
-},
-{
-"c": "Juventus",
-"f": "2026-11-07",
-"id": "Nfa0GIee1ek",
-"t": "TEAM COOKED, MIRETTI FINISHED! 👨‍🍳🔥"
 }
 ],
 "Leeds United": [
@@ -7988,6 +7988,12 @@
 "Liverpool": [
 {
 "c": "Liverpool FC",
+"f": "2026-11-12",
+"id": "B_UFbc_-68U",
+"t": "Highlights: Liverpool FC Women 4-1 Aston Villa | Höbinger, Kapocs & Olsson goals!"
+},
+{
+"c": "Liverpool FC",
 "f": "2026-11-11",
 "id": "RFk5QSserHg",
 "t": "Conor vs Milos in 2021 👀 @UPS"
@@ -7996,7 +8002,7 @@
 "c": "Liverpool FC",
 "f": "2026-11-11",
 "id": "Gvph2f_bevE",
-"t": "Live: Liverpool FC Women vs Aston Villa | Subway Players Cup"
+"t": "Liverpool FC Women vs Aston Villa | Subway Players Cup"
 },
 {
 "c": "Liverpool FC",
@@ -8219,12 +8225,6 @@
 "f": "2026-11-05",
 "id": "f2wDejARlME",
 "t": "Trey Nyoni's first Liverpool goal ❤️"
-},
-{
-"c": "Liverpool FC",
-"f": "2026-11-05",
-"id": "916AdFs4ooY",
-"t": "Highlights: Fenerbahce 3-2 Liverpool"
 }
 ],
 "Metz": [
@@ -8560,6 +8560,12 @@
 },
 {
 "c": "Málaga CF",
+"f": "2026-11-11",
+"id": "smZN9ASze1Q",
+"t": "La pasión blanquiazul late con fuerza en Vélez-Málaga"
+},
+{
+"c": "Málaga CF",
 "f": "2026-11-09",
 "id": "Gpf4nd53SMk",
 "t": "Reunión anual con los clubes del Acuerdo Marco"
@@ -8785,15 +8791,15 @@
 "f": "2026-10-16",
 "id": "zAe_DESwgzQ",
 "t": "Rueda de prensa Funes | Previa #MálagaRealSociedad"
-},
-{
-"c": "Málaga CF",
-"f": "2026-10-16",
-"id": "HoLlhvnRJTU",
-"t": "Punto y seguido a la Ciudad Deportiva"
 }
 ],
 "Oxford United": [
+{
+"c": "Oxford United Official",
+"f": "2026-11-12",
+"id": "gpKWcnDlAnM",
+"t": "Liam Gilbert Talks Recent Results, FA Cup Excitement & Fulham Clash | Manager Interview"
+},
 {
 "c": "Oxford United Official",
 "f": "2026-11-11",
@@ -9027,15 +9033,15 @@
 "f": "2026-10-22",
 "id": "UQrMhQqOMAI",
 "t": "Kai Andrews on First OUFC Goal, Wigan Win & Looks Ahead to Bradford and Stockport | Player Interview"
-},
-{
-"c": "Oxford United Official",
-"f": "2026-10-22",
-"id": "LdETF4r-szs",
-"t": "Ramsey Reflects on Wigan Win & Looks Ahead to Bradford and Stockport | Head Coach Interview"
 }
 ],
 "Palmeiras": [
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-11-12",
+"id": "sg4vNjDZ-L4",
+"t": "PROFISSIONAIS DO FEMININO REFORÇAM COMISSÃO DO MASCULINO!"
+},
 {
 "c": "TV Palmeiras Sportingbet",
 "f": "2026-11-11",
@@ -9269,12 +9275,6 @@
 "f": "2026-11-09",
 "id": "toZDjPu2E9w",
 "t": "CALMA EVANGELISTA, A FAMÍLIA PALMEIRAS TE AMA! 💚😅"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-11-09",
-"id": "AzXbtJHHIZg",
-"t": "A COMEMORAÇÃO DO VERDÃO DEPOIS DA DEFESA DO CARLOS MIGUEL! 🐷🟢"
 }
 ],
 "Paris FC": [
@@ -9536,15 +9536,15 @@
 "RB Leipzig": [
 {
 "c": "RB Leipzig",
-"f": "2026-11-11",
-"id": "tPEZpnZWnjs",
-"t": "Who would have expected this winner? 😅 #rbleipzig #tennis"
+"f": "2026-11-12",
+"id": "mlBtTBVjCkU",
+"t": "RE-LIVE | RB Leipzig - FK Mlada Boleslav | Friendly"
 },
 {
 "c": "RB Leipzig",
 "f": "2026-11-11",
-"id": "mlBtTBVjCkU",
-"t": "LIVE 🔴 RB Leipzig - FK Mlada Boleslav | Friendly"
+"id": "tPEZpnZWnjs",
+"t": "Who would have expected this winner? 😅"
 },
 {
 "c": "RB Leipzig",
@@ -9778,6 +9778,18 @@
 "Real Betis": [
 {
 "c": "Real Betis Balompié",
+"f": "2026-11-12",
+"id": "lERyW6nG6Kc",
+"t": "¡Nos ponemos en marcha! 🛫"
+},
+{
+"c": "Real Betis Balompié",
+"f": "2026-11-12",
+"id": "0Qq3n9ijZek",
+"t": "🚨 DIRECTO | CDA Navalcarnero - Real Betis Balompié ⚽💚 | VÍVELO CON NOSOTROS"
+},
+{
+"c": "Real Betis Balompié",
 "f": "2026-11-11",
 "id": "TQhTFzJujfk",
 "t": "¡Ocho años de esta victoria contra el FC Barcelona en el Camp Nou! 💪💚"
@@ -10003,18 +10015,6 @@
 "f": "2026-11-04",
 "id": "RAADoeGsIU4",
 "t": "🚨 DIRECTO | Borussia Dortmund - Real Betis Balompié ⚽💚 | VÍVELO CON NOSOTROS"
-},
-{
-"c": "Real Betis Balompié",
-"f": "2026-11-04",
-"id": "LTOydQCe6PQ",
-"t": "SOMOS BALOMPIÉ 💚"
-},
-{
-"c": "Real Betis Balompié",
-"f": "2026-11-04",
-"id": "SLH-uSilMIA",
-"t": "¡Ya estamos llegando! 😜💚"
 }
 ],
 "Real Madrid": [
@@ -10748,7 +10748,7 @@
 "c": "Sabah",
 "f": "2026-11-11",
 "id": "aTuaeHM-Hm4",
-"t": "İslam Memiş'ten Kritik Uyarı! Enkaz Altında Kalacak Yatırımcı K"
+"t": "İslam Memiş'ten Kritik Uyarı! Enkaz Altında Kalacak Yatırımcı Kim?"
 },
 {
 "c": "Sabah",
