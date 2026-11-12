@@ -8,6 +8,48 @@
 },
 {
 "c": "CazéTV",
+"f": "2026-11-12",
+"id": "1b9F5xU-4HI",
+"t": "MIGUEL PUPO E TAINÁ HINCKEL NA ÁGUA! | ISA GAMES 2026 | VALENDO VAGA OLÍMPICA"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-12",
+"id": "OZUt4IQZ87o",
+"t": "SEMIFINAL DO HANDEBOL DE PRAIA | BRASIL X HUNGRIA |  JOGOS OLÍMPICOS DA JUVENTUDE DAKAR 2026"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-12",
+"id": "whyZ5vRQx58",
+"t": "AO VIVO (SOM AMBIENTE): CERIMÔNIA DE ENCERRAMENTO | JOGOS OLÍMPICOS DA JUVENTUDE DAKAR 2026"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-12",
+"id": "2_TMPqDbSWw",
+"t": "AO VIVO: FINAIS DO HANDEBOL DE PRAIA | BRASIL NA DECISÃO | JOJ DAKAR 2026"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-12",
+"id": "WPPGM_lyQUU",
+"t": "É POR ISSO QUE O ANCELOTTI CONVOCOU O ALISSON SANTANA!"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-12",
+"id": "wxBI4DLVz2g",
+"t": "TÊNIS DE MESA: GUI TEODORO | WTT CONTENDER DE ISTAMBUL"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-12",
+"id": "S0vDaJcCDj8",
+"t": "OURO HISTÓRICO! SARA CAMPOS É CAMPEÃ NO BOXE DOS JOGOS OLÍMPICOS DA JUVENTUDE"
+},
+{
+"c": "CazéTV",
 "f": "2026-11-11",
 "id": "aO39ky6JmRM",
 "t": "BRASIL NO HANDEBOL DE PRAIA | JOGOS OLÍMPICOS DA JUVENTUDE DAKAR 2026"
@@ -35,12 +77,6 @@
 "f": "2026-11-11",
 "id": "320EUYC0Wxw",
 "t": "BRAZILIAN STORM ESTÁ NA ÁGUA! | ISA GAMES 2026 | VALENDO VAGA OLÍMPICA"
-},
-{
-"c": "CazéTV",
-"f": "2026-11-11",
-"id": "1b9F5xU-4HI",
-"t": "AO VIVO: MIGUEL PUPO E TAINÁ HINCKEL NA ÁGUA! | ISA GAMES 2026 | VALENDO VAGA OLÍMPICA"
 },
 {
 "c": "CazéTV",
@@ -107,12 +143,6 @@
 "f": "2026-11-10",
 "id": "b8cgsYH-ZdU",
 "t": "SORTEIO DO PAULISTÃO 2027"
-},
-{
-"c": "CazéTV",
-"f": "2026-11-10",
-"id": "OZUt4IQZ87o",
-"t": "AO VIVO: HANDEBOL DE PRAIA | JOGOS OLÍMPICOS DA JUVENTUDE DAKAR 2026 | 12º DIA"
 },
 {
 "c": "CazéTV",
@@ -5369,36 +5399,6 @@
 "f": "2026-09-17",
 "id": "1QMyDw_DwkQ",
 "t": "JOGO COMPLETO: ATLÉTICO DE MADRID X OSASUNA | LALIGA 26/27 | 6ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-17",
-"id": "WjmoZ_-xxus",
-"t": "MELHORES MOMENTOS: BOTAFOGO 3 X 2 GRÊMIO | BRASILEIRÃO 2026 | 21ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-17",
-"id": "f-G2OpMzy8Q",
-"t": "MELHORES MOMENTOS: CORINTHIANS 0 X 1 ESTUDIANTES | QUARTAS (VOLTA) | CONMEBOL LIBERTADORES 2026"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-17",
-"id": "BpKPLVbSaYk",
-"t": "DISPUTA DE PÊNALTIS: ATLÉTICO-MG 4 (3) X 2 (1) SANTOS | QUARTAS (VOLTA) | CONMEBOL SULAMERICANA 2026"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-17",
-"id": "CXpqVV9sGfQ",
-"t": "MELHORES MOMENTOS: ATLÉTICO-MG 4 (3) X 2 (1) SANTOS | QUARTAS (VOLTA) | CONMEBOL SULAMERICANA 2026"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-17",
-"id": "hD_RPgyUrBg",
-"t": "DISPUTA DE PÊNALTIS: LDU 3 (3) X (4) 2 PALMEIRAS | QUARTAS (VOLTA) | CONMEBOL LIBERTADORES 2026"
 }
 ],
 "bundesliga": [
@@ -5413,6 +5413,12 @@
 "f": "2026-11-12",
 "id": "WR_uGccpiug",
 "t": "Some tekkers on the touch! ✨🔥"
+},
+{
+"c": "Bundesliga",
+"f": "2026-11-12",
+"id": "mVRUDt8Ls-c",
+"t": "Derby Day Chaos"
 },
 {
 "c": "Bundesliga",
@@ -7998,6 +8004,24 @@
 "champions": [
 {
 "c": "UEFA",
+"f": "2026-11-12",
+"id": "DkQIvuDOGWU",
+"t": "BEST Champions League Saves of the Season So Far"
+},
+{
+"c": "UEFA",
+"f": "2026-11-12",
+"id": "Fjf-ZkM784w",
+"t": "That skill before the goal 🤯"
+},
+{
+"c": "UEFA",
+"f": "2026-11-12",
+"id": "sfiPk7xcP5c",
+"t": "Jude scoring after the final whistle 😅"
+},
+{
+"c": "UEFA",
 "f": "2026-11-11",
 "id": "Pj3UoORXTpQ",
 "t": "So good 👏"
@@ -9752,6 +9776,48 @@
 },
 {
 "c": "ESPN NL",
+"f": "2026-11-12",
+"id": "EYxaoUvAn3I",
+"t": "🇳🇱🇬🇷 ORANJE-BONDSCOACH Xavi Hernández blikt vooruit op NEDERLAND - GRIEKENLAND 🎙️ | Persconferentie"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-12",
+"id": "ReM2DkWQl5g",
+"t": "De sfeer bij Oranje zit er goed in 🦁😂"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-12",
+"id": "gcbyBl51Pgc",
+"t": "🤔 Hoe komt het dat spelers voor MAROKKO boven NEDERLAND kiezen? 🇲🇦⚖️🇳🇱 | Voetbalpraat"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-12",
+"id": "VhWljIeJOqI",
+"t": "🇧🇪 KEVIN DE BRUYNE ➡️ PSV? \"Dan hebben we DE BESTE speler van de EREDIVISIE\" 🔝 | Voetbalpraat"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-12",
+"id": "7X4GKN1kAT0",
+"t": "💸 20 EX-EREDIVISIESPELERS die 𝐓𝐑𝐀𝐍𝐒𝐅𝐄𝐑𝐕𝐑𝐈𝐉 zijn 😱"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-12",
+"id": "RxLPe4ZGhkI",
+"t": "Hij is gedeeld topscorer, maar tóch roept Sven Mijnans nog wat twijfels op 🤔"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-12",
+"id": "vOt-4Ye2kmY",
+"t": "Mocht Kevin De Bruyne komen, heeft Aad de Mos in ieder geval hoge verwachtingen 🔝👀"
+},
+{
+"c": "ESPN NL",
 "f": "2026-11-11",
 "id": "KanqV3W4pSA",
 "t": "Don-Angelo Konadu vindt dat Jong Oranje met deze lichting het EK moet halen 🦁"
@@ -10157,12 +10223,6 @@
 "f": "2026-11-08",
 "id": "dg8pd2yUhDs",
 "t": "Dusan Tadic SCHITTERT met TWEE TREFFERS voor N.E.C. ✨ | Samenvatting FC Utrecht - N.E.C."
-},
-{
-"c": "ESPN NL",
-"f": "2026-11-08",
-"id": "EYxaoUvAn3I",
-"t": "🇳🇱🇬🇷 ORANJE-BONDSCOACH Xavi Hernández blikt vooruit op NEDERLAND - GRIEKENLAND 🎙️ | Persconferentie"
 },
 {
 "c": "ESPN NL",
@@ -15089,42 +15149,6 @@
 "f": "2026-09-20",
 "id": "mzywR3-ePJU",
 "t": "Henk Brugge heeft veel respect voor Ronald Koeman jr. na emotionele middag ❤️"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-20",
-"id": "JxwYb0UMyQk",
-"t": "Feyenoord TRAKTEERT De Kuip WEER op een DOELPUNTENFESTIJN! 🎁🤩 | Samenvatting Feyenoord - FC Utrecht"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-20",
-"id": "CoA4SuUDHRA",
-"t": "Een dag die dit kind nooit meer zal vergeten dankzij Wout Weghorst 🥹👏"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-20",
-"id": "_eZdbfmcSOs",
-"t": "De Grolsch Veste ontploft na de winnende goal van Daouda Weidmann 👏"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-20",
-"id": "-H1NFKd8iR0",
-"t": "Daouda Weidmann 🤯"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-20",
-"id": "dwYSG6D01Eo",
-"t": "Wout Weghorst lijkt klaar voor de tweede helft ✂️"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-20",
-"id": "w0z8KriME9s",
-"t": "Ronald Koeman Jr. geraakt door eerbetoon aan zijn moeder ❤️"
 }
 ],
 "laliga": [
@@ -15145,6 +15169,24 @@
 "f": "2026-11-12",
 "id": "ktdOfW55dvo",
 "t": "¿Ves el parecido? ⚽"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-12",
+"id": "j09YKk9t0uU",
+"t": "ZABIRI: TOP 3 media goles"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-12",
+"id": "9zqcMoRTddo",
+"t": "Los MEJORES REGATES hasta ahora en LALIGA EA SPORTS 2026/27 ⚡"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-12",
+"id": "ztP8pFTRg5s",
+"t": "¡El paradón de LEO ROMÁN!"
 },
 {
 "c": "LALIGA EA SPORTS",
@@ -20509,24 +20551,6 @@
 "f": "2026-09-07",
 "id": "nVMT4EsI090",
 "t": "ELCHE CF 3 - 2 REAL SOCIEDAD | RESUMEN LALIGA EA SPORTS"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-09-07",
-"id": "CGwY-AJRZOc",
-"t": "ELCHE CF 2 - 3 REAL SOCIEDAD | RESUMEN LALIGA EA SPORTS"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-09-07",
-"id": "yW2ywJj4riI",
-"t": "DRAMA FINAL.🤯"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-09-07",
-"id": "YxLnLzwZ9O0",
-"t": "⚽️ ¡Fer Niño lo iguala para el Elche!"
 }
 ],
 "ligue1": [
@@ -20541,6 +20565,18 @@
 "f": "2026-11-12",
 "id": "GuAMfYVNNhA",
 "t": "Zaïre-Emery’s masterclass 🔥⚽️ #football #ligue1 #foot #psg #footballshorts #sports #soccer #shorts"
+},
+{
+"c": "Ligue 1",
+"f": "2026-11-12",
+"id": "qRtHrhaVJeY",
+"t": "POV : When you’re 2.06m tall playing football 😅 #football #ligue1 #foot #footballshorts #sports"
+},
+{
+"c": "Ligue 1",
+"f": "2026-11-12",
+"id": "ydue0WQOm5c",
+"t": "Une valeur sûre ? Une pépite ? Un joueur d’un autre club ? 🤩 #football #ligue1 #foot #sports #soccer"
 },
 {
 "c": "Ligue 1",
@@ -23432,6 +23468,18 @@
 },
 {
 "c": "Premier League",
+"f": "2026-11-12",
+"id": "uOEyN4eA4mY",
+"t": "How to make the most of the Arsenal backline | FPL Podcast 2026/27"
+},
+{
+"c": "Premier League",
+"f": "2026-11-12",
+"id": "mKb4iutsbis",
+"t": "Brighton Players Scoring Unbelievable Goals 😮‍💨"
+},
+{
+"c": "Premier League",
 "f": "2026-11-11",
 "id": "xjI1Kv9C7JI",
 "t": "TWO NO-LOOK GOALS?! 🫨"
@@ -25324,6 +25372,30 @@
 },
 {
 "c": "Serie A",
+"f": "2026-11-12",
+"id": "0JWH4OzYLMQ",
+"t": "ALL ROUND 10 HIGHLIGHTS ⚽ | PRIMAVERA 1 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-11-12",
+"id": "r9uF4wMrN8c",
+"t": "NICO PAZ can’t be REAL 🤯"
+},
+{
+"c": "Serie A",
+"f": "2026-11-12",
+"id": "JVvEbAbhskk",
+"t": "RAMOS’ IQ 🧠"
+},
+{
+"c": "Serie A",
+"f": "2026-11-12",
+"id": "dCUhzDI7RCs",
+"t": "Best of Giacomo Calò | EA Sports FC Player of the Month: October 2026 | Serie A 2026/27"
+},
+{
+"c": "Serie A",
 "f": "2026-11-11",
 "id": "b5w8v0-n1OE",
 "t": "Best of Gustavo Varela | Rising Star: October 2026 | Serie A 2026/27"
@@ -25374,7 +25446,7 @@
 "c": "Serie A",
 "f": "2026-11-10",
 "id": "2CIiz-4rJMA",
-"t": "Pure class on the ball 💎"
+"t": "NICO PAZ, pure class on the ball 💎"
 },
 {
 "c": "Serie A",
