@@ -2,6 +2,42 @@
 "brasileirao": [
 {
 "c": "CazéTV",
+"f": "2026-11-13",
+"id": "2_TMPqDbSWw",
+"t": "FINAIS DO HANDEBOL DE PRAIA | BRASIL NA DECISÃO | JOJ DAKAR 2026"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-13",
+"id": "YtScJ2mP4Tg",
+"t": "TÊNIS DE MESA (SOM AMBIENTE) | GUI TEODORO E GIULIA TAKAHASHI | WTT CONTENDER ISTAMBUL"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-13",
+"id": "FlrV2RHsNEg",
+"t": "TÊNIS DE MESA | BRUNA TAKAHASHI | WTT CONTENDER DE ISTAMBUL"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-13",
+"id": "jg1hpDtXY_k",
+"t": "BRASIL CONQUISTA A PRATA INÉDITA NO HANDEBOL DE PRAIA DOS JOGOS OLÍMPICOS DA JUVENTUDE!"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-13",
+"id": "CtXu2Tr61Nk",
+"t": "AO VIVO: SURFE | ISA GAMES 2026 | VALENDO VAGA OLÍMPICA | 8º DIA"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-13",
+"id": "-ZGOCx12uj8",
+"t": "VINI QUASE FEZ UM GOL ANTOLÓGICO E BRASIL VENCEU O JAPÃO POR 2 A 1 NA COPA!"
+},
+{
+"c": "CazéTV",
 "f": "2026-11-12",
 "id": "tQH8-yiOAn8",
 "t": "TÊNIS DE MESA  (SOM AMBIENTE) | LEONARDO IIZUKA E GUI TEODORO | WTT CONTENDER ISTAMBUL"
@@ -23,12 +59,6 @@
 "f": "2026-11-12",
 "id": "whyZ5vRQx58",
 "t": "AO VIVO (SOM AMBIENTE): CERIMÔNIA DE ENCERRAMENTO | JOGOS OLÍMPICOS DA JUVENTUDE DAKAR 2026"
-},
-{
-"c": "CazéTV",
-"f": "2026-11-12",
-"id": "2_TMPqDbSWw",
-"t": "AO VIVO: FINAIS DO HANDEBOL DE PRAIA | BRASIL NA DECISÃO | JOJ DAKAR 2026"
 },
 {
 "c": "CazéTV",
@@ -167,6 +197,12 @@
 "f": "2026-11-10",
 "id": "b8cgsYH-ZdU",
 "t": "SORTEIO DO PAULISTÃO 2027"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-10",
+"id": "zziLykH_d-A",
+"t": "AO VIVO: JUDÔ | BRASIL NO GRAND PRIX DE ZAGREB | 1º DIA"
 },
 {
 "c": "CazéTV",
@@ -707,12 +743,6 @@
 "f": "2026-11-06",
 "id": "xBJ5mQm7CSY",
 "t": "MELHORES MOMENTOS: TOULOSE 3 x 1 STRASBOURG | LIGUE 1 26/27 | 10ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-11-06",
-"id": "YtScJ2mP4Tg",
-"t": "TÊNIS DE MESA (SOM AMBIENTE) | GUI TEODORO E GIULIA TAKAHASHI | WTT CONTENDER ISTAMBUL"
 },
 {
 "c": "CazéTV",
@@ -5369,39 +5399,27 @@
 "f": "2026-09-18",
 "id": "B4j1Dq0Ysuc",
 "t": "MELHORES MOMENTOS: JOÃO FONSECA X DOMINIC STRICKER | BRASIL X SUÍÇA | COPA DAVIS 2026"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-18",
-"id": "UyUBPIgogp8",
-"t": "MELHORES MOMENTOS: MONACO 2 X 1 LENS | LIGUE1 26/27 | 5ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-18",
-"id": "GIK1grrazog",
-"t": "MELHORES MOMENTOS: BAYERN DE MUNIQUE 7 X 0 UNION BERLIN | BUNDESLIGA 26/27 | 4ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-18",
-"id": "rWW2zFrOd3M",
-"t": "V4   BC Redes 1   CLARO SP OPEN   Rituais pré jogo"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-18",
-"id": "EGDBUs41gVI",
-"t": "JOÃO FONSECA SE EMOCIONA COM O HINO MAIS BONITO DO MUNDO NA COPA DAVIS!"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-18",
-"id": "Ulfsb7eMw2Q",
-"t": "FILIPE LUÍS NO TOPO DA TABELA, CLÁSSICO DE MADRID E O ARSENAL VOANDO! | QUEM FEZ, FEZ"
 }
 ],
 "bundesliga": [
+{
+"c": "Bundesliga",
+"f": "2026-11-13",
+"id": "UFutv65Y-rU",
+"t": "What If RB Leipzig Had Kept ALL Of THESE Star Players? 🤔🤯"
+},
+{
+"c": "Bundesliga",
+"f": "2026-11-13",
+"id": "AkaP4fYP0ME",
+"t": "Harry Kane can hit the 𝗡𝗙𝗟 𝗿𝗲𝗰𝗼𝗿𝗱 Field Goal 🏈🤯"
+},
+{
+"c": "Bundesliga",
+"f": "2026-11-13",
+"id": "Oa0WotU9A1Y",
+"t": "Dzeko answers random questions ⁉️"
+},
 {
 "c": "Bundesliga",
 "f": "2026-11-12",
@@ -8004,6 +8022,24 @@
 "champions": [
 {
 "c": "UEFA",
+"f": "2026-11-13",
+"id": "4etlaKw4Ido",
+"t": "Imagine if they scored!"
+},
+{
+"c": "UEFA",
+"f": "2026-11-13",
+"id": "-P5ZYITth50",
+"t": "EVERY Women's Champions League Goal From Matchday 4! | Highlights"
+},
+{
+"c": "UEFA",
+"f": "2026-11-13",
+"id": "EZBvtnsQYvU",
+"t": "Como playing the beautiful game"
+},
+{
+"c": "UEFA",
 "f": "2026-11-12",
 "id": "DkQIvuDOGWU",
 "t": "BEST Champions League Saves of the Season So Far"
@@ -9761,6 +9797,24 @@
 "f": "2026-11-13",
 "id": "2rn6gNy7oBM",
 "t": "ROMARIO-fan JANICE CAYMAN nu captain bij PSV Vrouwen: \"Nam meteen een foto\" 🤩 | Portret"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-13",
+"id": "he6hWa4kBH8",
+"t": "De man in vorm op dit moment 🔥"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-13",
+"id": "CLQD2Z-PZ7c",
+"t": "Mauricio Pochettino houdt het niet droog op de persconferentie na zijn aangekondigde vertrek 👋🇺🇸"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-13",
+"id": "1uVo313glws",
+"t": "Mark Diemers en Thomas Duivenvoorden blikken terug op de busblokkade 🤔🚍"
 },
 {
 "c": "ESPN NL",
@@ -15137,24 +15191,6 @@
 "f": "2026-09-20",
 "id": "uZog26LH5dE",
 "t": "Wout Weghorst stoort zich aan Gözübüyük: \"Zo praat ik niet eens tegen mijn eigen hond\""
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-20",
-"id": "qE8wsnpKVs0",
-"t": "Guus Til had zelf ook niet verwacht bij de eerste Oranje-selectie van Xavi te zitten ❌🟠"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-20",
-"id": "d-ygCccTnhE",
-"t": "Mauro Júnior BAALT flink van NEDERLAAG in ENSCHEDE 😩 | Interview"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-20",
-"id": "4KVbUv9yYKY",
-"t": "Guus Til kreeg zoals verwacht GEEN BELLETJE uit ZEIST 📞❌  | Interview"
 }
 ],
 "laliga": [
@@ -15181,6 +15217,24 @@
 "f": "2026-11-13",
 "id": "jC2bh3t1YgM",
 "t": "Adeyemi ✨"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-13",
+"id": "Ndlt7jqwPmk",
+"t": "Atlético de Madrid 7 - 1 Granada CF 2016/17 PARTIDO COMPLETO"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-13",
+"id": "KdQMQP20v84",
+"t": "Simeone no pierde el toque"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-13",
+"id": "D-5FNo0Gr50",
+"t": "RAPHINHA: el ‘9’ del FC BARCELONA y su GRAN IMPACTO ⚽"
 },
 {
 "c": "LALIGA EA SPORTS",
@@ -20539,24 +20593,6 @@
 "f": "2026-09-07",
 "id": "uXoJ1t3_-g0",
 "t": "GETAFE CF vs CELTA | RUEDA DE PRENSA"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-09-07",
-"id": "L6sq7TcOX_A",
-"t": "🔴 ELCHE CF vs REAL SOCIEDAD - PREVIA DEL PARTIDO"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-09-07",
-"id": "AZU6mGSBtgo",
-"t": "ESTE CONTROL. 🤯"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-09-07",
-"id": "WThHBksMZZc",
-"t": "GETAFE CF 1 - 1 CELTA | RESUMEN LALIGA EA SPORTS"
 }
 ],
 "ligue1": [
@@ -20565,6 +20601,30 @@
 "f": "2026-11-13",
 "id": "6dNjSn-Zg2I",
 "t": "Diaoune x Mbappé celebration 🥶  #football #ligue1 #foot #mbappe #sports #soccer #footballshorts"
+},
+{
+"c": "Ligue 1",
+"f": "2026-11-13",
+"id": "psB7fgLhGpE",
+"t": "LIAM ROSENIOR FACE À SON PÈRE : UN ENTRETIEN EXCEPTIONNEL !"
+},
+{
+"c": "Ligue 1",
+"f": "2026-11-13",
+"id": "fJttrSV_BPI",
+"t": "Kilian Mbappé est-il indispensable à l'équipe de France ? - Le SAV de la Ligue 1"
+},
+{
+"c": "Ligue 1",
+"f": "2026-11-13",
+"id": "qJLc8pr8Hd0",
+"t": "Respect ❤️ #ligue1mcdonalds  #football #ligue1 #foot #footballshorts #sports #soccer #shorts"
+},
+{
+"c": "Ligue 1",
+"f": "2026-11-13",
+"id": "I0JQba-dUMc",
+"t": "What a save ‼️#ligue1mcdonalds  #football #ligue1 #foot #footballshorts #sports #soccer #shorts"
 },
 {
 "c": "Ligue 1",
@@ -23462,6 +23522,42 @@
 "premier": [
 {
 "c": "Premier League",
+"f": "2026-11-13",
+"id": "21l_SBFfYog",
+"t": "We Asked Managers About Their Daily Routines | On The Spot"
+},
+{
+"c": "Premier League",
+"f": "2026-11-13",
+"id": "t1krcOStgXM",
+"t": "The Secret Behind Thierno Barry's Fine Form 🔥"
+},
+{
+"c": "Premier League",
+"f": "2026-11-13",
+"id": "Urwb6_y1kcc",
+"t": "This First Touch Is NUTS 🤯"
+},
+{
+"c": "Premier League",
+"f": "2026-11-13",
+"id": "RmYiohLZ-1w",
+"t": "Gustavo Hamer RATES Coventry City's Best Premier League Goals"
+},
+{
+"c": "Premier League",
+"f": "2026-11-13",
+"id": "uXZ2Ck37gAc",
+"t": "Oliver Glasner Showing SERIOUS Pace 🏃⚡️"
+},
+{
+"c": "Premier League",
+"f": "2026-11-13",
+"id": "LQakcxisfc4",
+"t": "BEST REACTIONS From This Season's Biggest Moments"
+},
+{
+"c": "Premier League",
 "f": "2026-11-12",
 "id": "xKkX8TRK7VI",
 "t": "Rapid Liverpool Counter-Attack ⚡️"
@@ -25376,6 +25472,24 @@
 }
 ],
 "seriea": [
+{
+"c": "Serie A",
+"f": "2026-11-13",
+"id": "E5qO9BfV3a8",
+"t": "Noslin, Castro, McTominay & MORE! | The Best Goals of October | Serie A 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-11-13",
+"id": "xC9KHcPcafk",
+"t": "The KEY DETAIL of Milan’s AMORIM 🧠♟️"
+},
+{
+"c": "Serie A",
+"f": "2026-11-13",
+"id": "rqPyoNii7iw",
+"t": "Best of Santiago Castro | iliad Goal Of The Month: October 2026 | Serie A 2026/27"
+},
 {
 "c": "Serie A",
 "f": "2026-11-12",
