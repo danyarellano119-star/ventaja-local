@@ -26,6 +26,18 @@
 },
 {
 "c": "AC Milan",
+"f": "2026-11-14",
+"id": "45fidpkzpOs",
+"t": "Mario Gila: ritrovare la calma nei momenti difficili 🧠 Guarda il video completo!"
+},
+{
+"c": "AC Milan",
+"f": "2026-11-14",
+"id": "r3C2OVMRckU",
+"t": "Napoli W 3-3 Milan W | La doppietta di Kanutte non basta | Highlights | Serie A Women"
+},
+{
+"c": "AC Milan",
 "f": "2026-11-13",
 "id": "20ycBjB0Q4A",
 "t": "La chiusura di Pavlović su Barella! 🚫"
@@ -227,18 +239,6 @@
 "f": "2026-11-08",
 "id": "BvfIgN9iRnw",
 "t": "Warmup time 🔥 | #GenoaMilan"
-},
-{
-"c": "AC Milan",
-"f": "2026-11-08",
-"id": "7U6oWJ5W4NA",
-"t": "Chris Pulisic vs Genoa = ⚽"
-},
-{
-"c": "AC Milan",
-"f": "2026-11-08",
-"id": "O5VfiCY4oh4",
-"t": "ALFA rossonero ♥️🖤"
 }
 ],
 "AC Monza": [
@@ -728,6 +728,18 @@
 "AS Roma": [
 {
 "c": "AS Roma",
+"f": "2026-11-14",
+"id": "MP5EZpN9uxE",
+"t": "ROMA 6-5 PARMA | Serie A Women 2026-27"
+},
+{
+"c": "AS Roma",
+"f": "2026-11-14",
+"id": "pxcRUyPGxJE",
+"t": "INTERVISTE PIEMONTE & PIOVANI | Post Match | Roma-Parma | Serie A Women"
+},
+{
+"c": "AS Roma",
 "f": "2026-11-13",
 "id": "h4GKso9eZGI",
 "t": "Mati with the backheel nutmeg ✨"
@@ -953,18 +965,6 @@
 "f": "2026-10-18",
 "id": "qqjuXqStkHw",
 "t": "INTERVISTA GREGGI | Post Match | Roma-Milan | Serie A Women"
-},
-{
-"c": "AS Roma",
-"f": "2026-10-18",
-"id": "i9LfVFkE53Y",
-"t": "ROMA 4-2 MILAN | Serie A Women 2026-27"
-},
-{
-"c": "AS Roma",
-"f": "2026-10-17",
-"id": "Ia7zs176mBg",
-"t": "INTERVISTA PIOVANI | Pre Match | Roma-Milan | Serie A Women"
 }
 ],
 "Arsenal": [
@@ -1696,6 +1696,12 @@
 "Bayern Munich": [
 {
 "c": "Bayern",
+"f": "2026-11-14",
+"id": "kkLRk77Z1hI",
+"t": "Verabschiedung von Staatsminister Hubert Aiwanger vor dem Münchner Dom - Bayern"
+},
+{
+"c": "Bayern",
 "f": "2026-11-13",
 "id": "w_5pWUYSlnk",
 "t": "Staatspreis für bayerische Kreativorte 2026 | Preisverleihung in Nürnberg - Bayern"
@@ -1927,12 +1933,6 @@
 "f": "2026-10-13",
 "id": "O-MBTAfSIHI",
 "t": "Bayerischer \"Walk of Fame\" - Bayern"
-},
-{
-"c": "Bayern",
-"f": "2026-10-13",
-"id": "qlMwfs6qOYk",
-"t": "Video in Gebärdensprache: Pressekonferenz nach der Kabinettssitzung (13.10.2026) - Bayern"
 }
 ],
 "Blackburn Rovers": [
@@ -3154,6 +3154,90 @@
 },
 {
 "c": "Corinthians TV",
+"f": "2026-11-14",
+"id": "Ipzacx0zgS0",
+"t": "🔈 Aumente o som para mais um jogo do #CorinthiansBasquete no NBB CAIXA! 🔈"
+},
+{
+"c": "Corinthians TV",
+"f": "2026-11-14",
+"id": "Vwt5BLjHGR0",
+"t": "Um gostinho do que estamos preparando para a grande final! 👀🏆"
+},
+{
+"c": "Corinthians TV",
+"f": "2026-11-14",
+"id": "2GN9UkvGtK8",
+"t": "𝕱𝖎𝖊𝖑 𝖉𝖊 𝖔𝖗𝖎𝖌𝖊𝖒 𝖑𝖔𝖚𝖈𝖔 🖤🤍"
+},
+{
+"c": "Corinthians TV",
+"f": "2026-11-14",
+"id": "JVKBvyQ4Se8",
+"t": "PODE MEDIR: A ANSIEDADE TÁ GIGANTE! 📏💜"
+},
+{
+"c": "Corinthians TV",
+"f": "2026-11-14",
+"id": "wxbBln73Q-g",
+"t": "Será que eles mandam bem também na hora de imitar os sons do treino? 👀⚽"
+},
+{
+"c": "Corinthians TV",
+"f": "2026-11-14",
+"id": "BRk74pA2yJA",
+"t": "Passa nada! ❌️"
+},
+{
+"c": "Corinthians TV",
+"f": "2026-11-14",
+"id": "qGFq9NlGhZ4",
+"t": "Mais um dia de muito trabalho e preparação no Parque São Jorge! 🥊🖤🤍"
+},
+{
+"c": "Corinthians TV",
+"f": "2026-11-14",
+"id": "MOzxHgBLKuQ",
+"t": "Sábado de treino para #AsBrabas! ⚽️🏃🏽‍♀️"
+},
+{
+"c": "Corinthians TV",
+"f": "2026-11-14",
+"id": "vCTxugeD5ZM",
+"t": "O trabalho com os talentos! 🌟"
+},
+{
+"c": "Corinthians TV",
+"f": "2026-11-14",
+"id": "osIbZqvGXPk",
+"t": "Fala, Rick! 🗣️🎙️"
+},
+{
+"c": "Corinthians TV",
+"f": "2026-11-14",
+"id": "HSGRX6765Yw",
+"t": "Fala, Renatinho! 🗣️"
+},
+{
+"c": "Corinthians TV",
+"f": "2026-11-14",
+"id": "jZJ0Jm4zD0Q",
+"t": "Fala, professor! 🗣️"
+},
+{
+"c": "Corinthians TV",
+"f": "2026-11-14",
+"id": "BEwee5VoqCY",
+"t": "Falta poucos dias para o play in do Paulistão F!"
+},
+{
+"c": "Corinthians TV",
+"f": "2026-11-14",
+"id": "7OWTBC1PqCA",
+"t": "𝐫𝐞𝐢𝐧𝐨 𝐝𝐞 𝐟𝐨𝐫𝐜̧𝐚 + 𝐭𝐫𝐚𝐛𝐚𝐥𝐡𝐨 𝐞𝐦 𝐜𝐚𝐦𝐩𝐨. 💪🏽⚫⚪"
+},
+{
+"c": "Corinthians TV",
 "f": "2026-11-13",
 "id": "CQTEQAw8o90",
 "t": "FALTAM 3 DIAS! 🏆💜"
@@ -3301,95 +3385,17 @@
 "f": "2026-11-11",
 "id": "w6RJmMXomcM",
 "t": "TREINO DAS BRABAS: REAPRESENTAÇÃO E PRIMEIRO DIA DE JULIA PASSERO COMO TÉCNICA INTERINA."
-},
-{
-"c": "Corinthians TV",
-"f": "2026-11-10",
-"id": "Urdb00v7MTA",
-"t": "JOGO COMPLETO: BASQUETE CEARENSE 68 X 75 CORINTHIANS | NBB CAIXA 2026/27 | 5ª RODADA"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-11-10",
-"id": "-1dmGZjUkP8",
-"t": "TREINO DO TIMÃO DIRETO DO CT DR. JOAQUIM GRAVA"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-11-10",
-"id": "GC_2n7ZqSxU",
-"t": "TREINO DO TIMÃO: ELENCO TRABALHA NA MANHÃ DESTA TERÇA-FEIRA"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-11-10",
-"id": "jaPZYnJl2no",
-"t": "É NA BASE QUE SE CONSTROEM OS FUTUROS CAMPEÕES! 🥋🖤🤍"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-11-10",
-"id": "FZ_wqxFF2ec",
-"t": "Bastidores de um dia de treino no Chute. ⚽🔥️"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-11-10",
-"id": "g8skvPhkdbs",
-"t": "Duplo-duplo para Victão na vitória alvinegra! 🖤🤍"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-11-10",
-"id": "Z7pTMXsQJCk",
-"t": "A Neo Química Arena vai muito além do futebol!​"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-11-10",
-"id": "SjGMAB2dNRA",
-"t": "A EMOÇÃO DO ÚLTIMO PÊNALTI! 😮‍💨💜"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-11-10",
-"id": "1TlD86_oB1M",
-"t": "VIVER O EXTRAORDINÁRIO! 🔥"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-11-10",
-"id": "VZUJ-Sp9YcM",
-"t": "💪⚫⚪"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-11-09",
-"id": "SNDGVeh35WQ",
-"t": "TREINO DO TIMÃO: ELENCO SE REAPRESENTA NO CT DR. JOAQUIM GRAVA"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-11-07",
-"id": "nN0MZHpcRLE",
-"t": "JOGO COMPLETO: CORINTHIANS 1 X 3 SÃO PAULO | PAULISTÃO SUB-17 2026 | QUARTAS DE FINAL - IDA"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-11-07",
-"id": "_sGR4VBi1SY",
-"t": "O Teatro Corinthians recebeu a visita do medalhista olímpico André Heller"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-11-07",
-"id": "Ib35E334I18",
-"t": "DECOLANDO! 🤙🚲"
 }
 ],
 "Coventry City": [
 {
 "c": "Coventry City FC",
+"f": "2026-11-14",
+"id": "emuFpPiZED0",
+"t": "VIP access behind the scenes with our friends at the Detroit Lions. 🦁"
+},
+{
+"c": "Coventry City FC",
 "f": "2026-11-09",
 "id": "Kxa1aG901Ig",
 "t": "Coventry City FC October Goal of the Month | Sponsored by Genesis Employment"
@@ -3621,17 +3627,17 @@
 "f": "2026-10-19",
 "id": "OvwnAJP50Gc",
 "t": "POV: YOU’RE A COV PLAYER ARRIVING AT TOTTENHAM HOTSPUR STADIUM."
-},
-{
-"c": "Coventry City FC",
-"f": "2026-10-16",
-"id": "ea_Z5qtah6s",
-"t": "Coming correct. 🌅"
 }
 ],
 "Coventry City FC": [
 {
 "c": "Coventry City FC",
+"f": "2026-11-14",
+"id": "emuFpPiZED0",
+"t": "VIP access behind the scenes with our friends at the Detroit Lions. 🦁"
+},
+{
+"c": "Coventry City FC",
 "f": "2026-11-09",
 "id": "Kxa1aG901Ig",
 "t": "Coventry City FC October Goal of the Month | Sponsored by Genesis Employment"
@@ -3863,12 +3869,6 @@
 "f": "2026-10-19",
 "id": "OvwnAJP50Gc",
 "t": "POV: YOU’RE A COV PLAYER ARRIVING AT TOTTENHAM HOTSPUR STADIUM."
-},
-{
-"c": "Coventry City FC",
-"f": "2026-10-16",
-"id": "ea_Z5qtah6s",
-"t": "Coming correct. 🌅"
 }
 ],
 "Cruzeiro": [
@@ -4600,6 +4600,18 @@
 "Fenerbahçe SK": [
 {
 "c": "Fenerbahçe SK",
+"f": "2026-11-14",
+"id": "_p_-yn-I6G4",
+"t": "🔵 Fenerbahçe'mizin Kocaelispor Maçı Öncesi Antrenmanı | Yakın Takip"
+},
+{
+"c": "Fenerbahçe SK",
+"f": "2026-11-14",
+"id": "lCVjAgifD18",
+"t": "🔵 Bakırköy Kadın FSK 0-4 Fenerbahçe arsaVev | Suwen Kadın Futbol Süper Ligi 11. hafta"
+},
+{
+"c": "Fenerbahçe SK",
 "f": "2026-11-11",
 "id": "1yWE24A-aN8",
 "t": "🏀 Paris Basketball - Fenerbahçe Tarfin | EuroLeague 11. hafta"
@@ -4825,18 +4837,6 @@
 "f": "2026-10-19",
 "id": "EkJCw7r-DzM",
 "t": "🔵 Teknik Direktörümüz İsmail Kartal ve Futbolcumuz Nathan Ake'nin Basın Toplantısı"
-},
-{
-"c": "Fenerbahçe SK",
-"f": "2026-10-18",
-"id": "pQ_5S3CyasE",
-"t": "Futbol Direktörümüz Oğuz Çetin ve Doktorumuz Ahmet Kulduk'tan Marco Asensio Hakkında Açıklamalar"
-},
-{
-"c": "Fenerbahçe SK",
-"f": "2026-10-17",
-"id": "zCpZDVyCPXA",
-"t": "🔵 Fenerbahçe - C. Alanyaspor U19 (PAF Ligi 8. Hafta)"
 }
 ],
 "Feyenoord": [
@@ -5344,6 +5344,18 @@
 },
 {
 "c": "Flamengo TV",
+"f": "2026-11-14",
+"id": "sAdYwbgf8q8",
+"t": "🚨 BRUNO HENRIQUE E BROCADOR ABREM O JOGO (OU NÃO) - MEMENGO #79"
+},
+{
+"c": "Flamengo TV",
+"f": "2026-11-14",
+"id": "xJcgt4vFiuo",
+"t": "Um dia para entrar para a história. E ficar na memória. ❤️🖤"
+},
+{
+"c": "Flamengo TV",
 "f": "2026-11-13",
 "id": "PAPjzoe3Mn4",
 "t": "OTOPATAMAR! O Marco Vitor foi conferir o que a Nação tem para falar ao nosso Bruno Henrique!"
@@ -5551,18 +5563,6 @@
 "f": "2026-11-07",
 "id": "ecnHJeBhVFY",
 "t": "🔴 AO VIVO: FLAMENGO x VASCO | CAMPEONATO CARIOCA SUB-20 (07/11/26)"
-},
-{
-"c": "Flamengo TV",
-"f": "2026-11-07",
-"id": "B80FC6EsCY0",
-"t": "Chegou a camisa da Consciência Negra em homenagem ao Bruno Henrique. Garanta em flamengo.com.br/loja"
-},
-{
-"c": "Flamengo TV",
-"f": "2026-11-07",
-"id": "8CFpBDbDH-k",
-"t": "🔴 AO VIVO: PATO BASQUETE x FLAMENGO | NBB - 07/11"
 }
 ],
 "Fluminense": [
@@ -6058,6 +6058,12 @@
 },
 {
 "c": "Galatasaray",
+"f": "2026-11-14",
+"id": "kp7gLRts2c8",
+"t": "🎥 #ArkaPlan | T. Konyaspor 0-4 Galatasaray"
+},
+{
+"c": "Galatasaray",
 "f": "2026-11-13",
 "id": "2d20PjRrfck",
 "t": "🎥 Londra Belediye Başkanı Sadiq Khan RAMS Park'ta"
@@ -6283,12 +6289,6 @@
 "f": "2026-11-01",
 "id": "oc8c9mgiqe8",
 "t": "🎥 Günün Antrenmanı - 31.10.2026"
-},
-{
-"c": "Galatasaray",
-"f": "2026-10-31",
-"id": "g0vKbPFI3-Q",
-"t": "🎥 #ArkaPlan | Galatasaray 2-1 Fenerbahçe"
 }
 ],
 "Girona": [
@@ -6784,6 +6784,12 @@
 },
 {
 "c": "Inter",
+"f": "2026-11-14",
+"id": "PJMcRSGKgF8",
+"t": "THE DERBY – THE SPECTACLE"
+},
+{
+"c": "Inter",
 "f": "2026-11-13",
 "id": "vRT9ur4MC3w",
 "t": "EP. 67 | Roberto - Le strisce"
@@ -7009,12 +7015,6 @@
 "f": "2026-11-08",
 "id": "7-4ab5JsSVM",
 "t": "EP. 62 | Sandro - Il coraggio"
-},
-{
-"c": "Inter",
-"f": "2026-11-08",
-"id": "EzhRkCDujY0",
-"t": "INTER-COMO | PRE MATCH LIVE SHOW 🖤💙"
 }
 ],
 "Ipswich Town": [
@@ -7286,6 +7286,30 @@
 },
 {
 "c": "Juventus",
+"f": "2026-11-14",
+"id": "EggApNjzoC0",
+"t": "LIVE | JUVENTUS vs BOLOGNA U17 | Campionato U17"
+},
+{
+"c": "Juventus",
+"f": "2026-11-14",
+"id": "GiALR9a-aK8",
+"t": "LIVE | JUVENTUS vs FIORENTINA | U19 WOMEN | Campionato Primavera"
+},
+{
+"c": "Juventus",
+"f": "2026-11-14",
+"id": "NHf3KNCtlzk",
+"t": "LIVE | JUVENTUS vs LAZIO | Campionato U18"
+},
+{
+"c": "Juventus",
+"f": "2026-11-14",
+"id": "piyXv7CBRzA",
+"t": "DYBALA WITH PURE GENIUS! 🎩"
+},
+{
+"c": "Juventus",
 "f": "2026-11-13",
 "id": "-FWtxcX_gro",
 "t": "“I would've cried if I was emotional” 🥹"
@@ -7475,30 +7499,6 @@
 "f": "2026-11-08",
 "id": "zFWAsmu9xaM",
 "t": "SZCZĘSNY FLIES TO DENY THE TOP CORNER! 🕸️🧤"
-},
-{
-"c": "Juventus",
-"f": "2026-11-08",
-"id": "jiqbcGJIysI",
-"t": "CEPPI'S ABSOLUTE ROCKET! 🚀"
-},
-{
-"c": "Juventus",
-"f": "2026-11-08",
-"id": "bLUUgDTrCUQ",
-"t": "REDONDO & SALVAI COMPLETE THE COMEBACK! 🔥 | Juventus Women 2-1 Sassuolo | Highlights Serie A Women"
-},
-{
-"c": "Juventus",
-"f": "2026-11-08",
-"id": "9vWOn7eVRII",
-"t": "MORATA CURLS IT STRAIGHT INTO THE TOP CORNER! 🤯🎯"
-},
-{
-"c": "Juventus",
-"f": "2026-11-08",
-"id": "mjOM76Emms8",
-"t": "CHIELLINI'S CLAW! PURE CAPTAIN STRIKE! 🦁⚽️"
 }
 ],
 "Leeds United": [
@@ -8566,6 +8566,12 @@
 },
 {
 "c": "Málaga CF",
+"f": "2026-11-11",
+"id": "3juxl-n3iYs",
+"t": "Atlético Malagueño - Arenas de Armilla (Tercera Federación)"
+},
+{
+"c": "Málaga CF",
 "f": "2026-11-09",
 "id": "Gpf4nd53SMk",
 "t": "Reunión anual con los clubes del Acuerdo Marco"
@@ -8785,12 +8791,6 @@
 "f": "2026-10-18",
 "id": "dwy9breI-k4",
 "t": "RESUMEN J9 | Málaga CF 2-5 Real Sociedad | Highlights LaLiga EA Sports"
-},
-{
-"c": "Málaga CF",
-"f": "2026-10-16",
-"id": "zAe_DESwgzQ",
-"t": "Rueda de prensa Funes | Previa #MálagaRealSociedad"
 }
 ],
 "Oxford United": [
@@ -10026,6 +10026,12 @@
 },
 {
 "c": "Real Madrid",
+"f": "2026-11-14",
+"id": "UT008nPDmmQ",
+"t": "Where they came from 🆚 where they went CHALLENGE with Cucurella, Huijsen and Trent! Part 1/2"
+},
+{
+"c": "Real Madrid",
 "f": "2026-11-12",
 "id": "-f4zMHgrI0o",
 "t": "👌 Another training session completed!"
@@ -10251,12 +10257,6 @@
 "f": "2026-11-05",
 "id": "AnLqdGIA1uE",
 "t": "⚽ ALL EYES ON VALENCIA! 💪 | Real Madrid"
-},
-{
-"c": "Real Madrid",
-"f": "2026-11-05",
-"id": "uIKYz89TEkk",
-"t": "🔟 Mbappé 🔟"
 }
 ],
 "SC Paderborn 07": [
@@ -10265,6 +10265,12 @@
 "f": "2026-11-14",
 "id": "-ik9-XszThs",
 "t": "Wettbewerbe sortieren mit Tjark und Jano"
+},
+{
+"c": "SC Paderborn 07 TV (official)",
+"f": "2026-11-14",
+"id": "F-Q_js638bI",
+"t": "Wir haben Fragen🤨"
 },
 {
 "c": "SC Paderborn 07 TV (official)",
@@ -10493,12 +10499,6 @@
 "f": "2026-10-23",
 "id": "XtV7Q_7byeI",
 "t": "Lässig eingenetzt 💯"
-},
-{
-"c": "SC Paderborn 07 TV (official)",
-"f": "2026-10-23",
-"id": "GxKLlrjOQ9A",
-"t": "2:0 gegen den HSV!💪 Wie tippt Ihr morgen?👀⤵️"
 }
 ],
 "SV 07 Elversberg": [
@@ -12446,9 +12446,15 @@
 },
 {
 "c": "São Paulo FC",
-"f": "2026-11-13",
+"f": "2026-11-14",
 "id": "TZpBCUm1ai0",
 "t": "PAULISTA SUB-17 2026: SÃO PAULO X PALMEIRAS | SPFC PLAY"
+},
+{
+"c": "São Paulo FC",
+"f": "2026-11-14",
+"id": "B7Z9OmT5mk8",
+"t": "DIRETO DO CT: 14/11/2026 | SPFC PLAY"
 },
 {
 "c": "São Paulo FC",
@@ -12671,12 +12677,6 @@
 "f": "2026-10-12",
 "id": "y4No9eIoP-0",
 "t": "BASTIDORES: SÃO PAULO 2 x 1 VITÓRIA | BRASILEIRÃO 2026"
-},
-{
-"c": "São Paulo FC",
-"f": "2026-10-11",
-"id": "vOE1qxnlHV8",
-"t": "COLETIVA PÓS-JOGO: SÃO PAULO X VITÓRIA | BRASILEIRÃO 2026"
 }
 ],
 "Tottenham Hotspur": [
