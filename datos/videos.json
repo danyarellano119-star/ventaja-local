@@ -8,6 +8,42 @@
 },
 {
 "c": "CazéTV",
+"f": "2026-11-15",
+"id": "ogW-j4KBYPs",
+"t": "COPA DO MUNDO DE ESQUI ALPINO | LUCAS PINHEIRO DEFENDE O TÍTULO EM LEVI!"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-15",
+"id": "O7ReObyHY5M",
+"t": "TÊNIS DE MESA | FINAIS DO WTT CONTENDER DE ISTAMBUL"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-15",
+"id": "nnZ1VKvTtaM",
+"t": "MELHORES MOMENTOS: CHAPECOENSE 0 X 2 VASCO | BRASILEIRÃO 2026 | 21ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-15",
+"id": "1Sp5mFBRiAo",
+"t": "TODOS OS GOLS DE HARRY KANE EM COPAS DO MUNDO!"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-15",
+"id": "_6kqRihpfDE",
+"t": "90 questões são muito longas no ENEM"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-15",
+"id": "3HHJntRzj2M",
+"t": "AO VIVO: REACT DA FINAL DO WTA FINALS 2026 | ANDREEVA X SVITOLINA"
+},
+{
+"c": "CazéTV",
 "f": "2026-11-14",
 "id": "QAUTwNdWCoI",
 "t": "VERGONHA? BRASIL LEVA GOL NO FINAL E PERDE NOVAMENTE PARA O JAPÃO! | GERAL CAZÉTV"
@@ -129,12 +165,6 @@
 {
 "c": "CazéTV",
 "f": "2026-11-13",
-"id": "ogW-j4KBYPs",
-"t": "AO VIVO: COPA DO MUNDO DE ESQUI ALPINO | LUCAS PINHEIRO DEFENDE O TÍTULO EM LEVI!"
-},
-{
-"c": "CazéTV",
-"f": "2026-11-13",
 "id": "YqlJxrhPptw",
 "t": "VINÍCIUS JÚNIOR: A MELHOR COPA DO MUNDO DE UM BRASILEIRO EM MUITO TEMPO! GOLS E SKILLS"
 },
@@ -142,7 +172,7 @@
 "c": "CazéTV",
 "f": "2026-11-13",
 "id": "_ftUpKbu1GM",
-"t": "AO VIVO: É O DIA DA FINAL! A BRAZILIAN STORM NO ISA GAMES 2026 | ÚLTIMO DIA"
+"t": "É O DIA DA FINAL! A BRAZILIAN STORM NO ISA GAMES 2026 | ÚLTIMO DIA"
 },
 {
 "c": "CazéTV",
@@ -287,6 +317,12 @@
 "f": "2026-11-10",
 "id": "b8cgsYH-ZdU",
 "t": "SORTEIO DO PAULISTÃO 2027"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-10",
+"id": "60z1cnR4EZI",
+"t": "AO VIVO: JUDÔ | BEATRIZ SOUZA, A NOSSA CAMPEÃ OLÍMPICA, NO GRAND PRIX DE ZAGREB | 3º DIA"
 },
 {
 "c": "CazéTV",
@@ -827,12 +863,6 @@
 "f": "2026-11-06",
 "id": "xBJ5mQm7CSY",
 "t": "MELHORES MOMENTOS: TOULOSE 3 x 1 STRASBOURG | LIGUE 1 26/27 | 10ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-11-06",
-"id": "O7ReObyHY5M",
-"t": "AO VIVO: TÊNIS DE MESA | FINAIS DO WTT CONTENDER DE ISTAMBUL"
 },
 {
 "c": "CazéTV",
@@ -5369,39 +5399,15 @@
 "f": "2026-09-19",
 "id": "3Ys5VUkEDoY",
 "t": "MAIS UM HAT-TRICK DO RAPHINHA! SEVILLA 1 X 3 BARCELONA | LALIGA 26/27 | COMPACTO"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-19",
-"id": "-MLMi0AevrU",
-"t": "MELHORES MOMENTOS: LYON 4 x 0 RENNES | LIGUE 1 26/27 | 4ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-19",
-"id": "10fKXHIMg28",
-"t": "MELHORES MOMENTOS: JIRI LEHECKA X LEARNER TIEN | TCHÉQUIA X ESTADOS UNIDOS | COPA DAVIS 2026"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-19",
-"id": "Ar1AZevcu2s",
-"t": "MELHORES MOMENTOS: JAKUB MENSIK X BEN SHELTON | TCHÉQUIA X ESTADOS UNIDOS | COPA DAVIS 2026"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-19",
-"id": "V5Cjk2eilE4",
-"t": "MELHORES MOMENTOS: SEVILLA 1 X 3 BARCELONA | 7ª RODADA | LALIGA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-18",
-"id": "E4Ilm886VgI",
-"t": "FLAMENGO X INDEPENDIENTE DEL VALLE | LIBERTADORES | NARRAÇÃO | NOCHE DE COPA"
 }
 ],
 "bundesliga": [
+{
+"c": "Bundesliga",
+"f": "2026-11-15",
+"id": "94y_ilhN_ho",
+"t": "Tah and Bischof try the Defend The Goal Challenge ⚽️🥅"
+},
 {
 "c": "Bundesliga",
 "f": "2026-11-14",
@@ -8028,6 +8034,12 @@
 "champions": [
 {
 "c": "UEFA",
+"f": "2026-11-15",
+"id": "Teqio7Xm0qc",
+"t": "Europa League Goals of the Season So Far! 😱"
+},
+{
+"c": "UEFA",
 "f": "2026-11-14",
 "id": "DrFYWwOcCWY",
 "t": "Arda Güler’s free-kick vs Belgium!"
@@ -9815,6 +9827,30 @@
 "f": "2026-11-15",
 "id": "yysYriT_acA",
 "t": "Hans Kraay jr. lyrisch over 'een van de mooiste goals ooit in de Keuken Kampioen Divisie' 💫🔝"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-15",
+"id": "TmMSLFtd90M",
+"t": "Olivier Dumont: Randje 16 AANLEGGEN en AFRONDEN 🎯 | Samenvatting MVV Maastricht - Vitesse"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-15",
+"id": "ApHYxzA_ZHw",
+"t": "Tim Coremans (35) keepte gisteravond de wedstrijd van zijn leven 🧤💪"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-15",
+"id": "9EPrEHaiQOM",
+"t": "Geen fijne middag voor Kee Hubert 🦷🔎"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-15",
+"id": "UvcU81KgcyU",
+"t": "De staf van Oranje draait alvast warm voor de training 🔶🦁"
 },
 {
 "c": "ESPN NL",
@@ -15185,30 +15221,6 @@
 "f": "2026-09-21",
 "id": "t3upOPTS8FA",
 "t": "De 10 MEEST BIJZONDERE MOMENTEN van afgelopen maand 🤯🔥"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-21",
-"id": "iwaLCAY_lj8",
-"t": "Twee identieke goals van Anis Hadj Moussa 😳"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-21",
-"id": "r8Agx9i7hcw",
-"t": "Xavi houdt Luciano Valente in de gaten:  \"Een goede speler met potentie\" 📈"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-21",
-"id": "B5wJyFR372Q",
-"t": "Xavi legt uit waarom hij 'maar' 26 spelers heeft opgeroepen 🟠"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-21",
-"id": "l2IwbMwuNGY",
-"t": "Xavi 🤝 Van Dijk"
 }
 ],
 "laliga": [
@@ -15223,6 +15235,18 @@
 "f": "2026-11-15",
 "id": "5oDgV3IimOg",
 "t": "Hands Off, Tito!"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-15",
+"id": "lCyDeSjZXes",
+"t": "La evolución de LAMINE YAMAL"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-15",
+"id": "g70-PIwdtUs",
+"t": "Arda Güler ve los movimientos antes que nadie"
 },
 {
 "c": "LALIGA EA SPORTS",
@@ -20599,18 +20623,6 @@
 "f": "2026-09-08",
 "id": "qBxtIVVS7Sk",
 "t": "Vaya gol de falta de SERGIO CANALES 🔥🎯"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-09-08",
-"id": "2zjoPiXP1Ns",
-"t": "Así vivió el árbitro el partido entre VALENCIA y BARCELONA 📹🔊"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-09-08",
-"id": "uyOcDNHahSc",
-"t": "REFCAM POV: Valencia CF vs FC Barcelona 👀"
 }
 ],
 "ligue1": [
@@ -20631,6 +20643,12 @@
 "f": "2026-11-15",
 "id": "B_hKoQZ0gEA",
 "t": "Just sit back and enjoy 😍 #football #ligue1 #foot #psg #footballshorts #sports #soccer #shorts"
+},
+{
+"c": "Ligue 1",
+"f": "2026-11-15",
+"id": "F8iutHBtLTo",
+"t": "Congrats, Mayulu, on your first call-up! 🇫🇷👏 #football #ligue1 #foot #psg #footballshorts #sports"
 },
 {
 "c": "Ligue 1",
@@ -23594,6 +23612,12 @@
 },
 {
 "c": "Premier League",
+"f": "2026-11-15",
+"id": "RTCABlIPpBE",
+"t": "BEST MATCHES Of The Season So Far"
+},
+{
+"c": "Premier League",
 "f": "2026-11-14",
 "id": "xneUCNt5pbE",
 "t": "Gareth Bale BANGER 🏴󠁧󠁢󠁷󠁬󠁳󠁿💥"
@@ -25561,6 +25585,18 @@
 "f": "2026-11-15",
 "id": "G16eF3U9IOo",
 "t": "MAXI SINTESI UDINESE-MILAN 0-2 | EXTENDED HIGHLIGHTS | SERIE A ENILIVE 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-11-15",
+"id": "OrSzkQYsIbc",
+"t": "MAXI SINTESI TORINO-COMO 1-3 | EXTENDED HIGHLIGHTS | SERIE A ENILIVE 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-11-15",
+"id": "QkOcOcMXTSY",
+"t": "TORINO-COMO 1-3 | EXTENDED HIGHLIGHTS | SERIE A 2026/27"
 },
 {
 "c": "Serie A",
