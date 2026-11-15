@@ -2,6 +2,12 @@
 "brasileirao": [
 {
 "c": "CazéTV",
+"f": "2026-11-15",
+"id": "L91CxICXoYA",
+"t": "MELHORES MOMENTOS: MIRASSOL 0 X 0 ATLÉTICO-MG | BRASILEIRÃO 2026 | 35ª RODADA"
+},
+{
+"c": "CazéTV",
 "f": "2026-11-14",
 "id": "QAUTwNdWCoI",
 "t": "VERGONHA? BRASIL LEVA GOL NO FINAL E PERDE NOVAMENTE PARA O JAPÃO! | GERAL CAZÉTV"
@@ -44,6 +50,18 @@
 },
 {
 "c": "CazéTV",
+"f": "2026-11-14",
+"id": "CtXu2Tr61Nk",
+"t": "A BRAZILIAN STORM COM YAGO DORA E LUANA SILVA NA ÁGUA! | ISA GAMES 2026 | 8º DIA"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-14",
+"id": "fwzA1DVB3kI",
+"t": "LDU 3X2 PALMEIRAS: A NOITE EM QUITO QUE QUASE ACABOU COM TUDO"
+},
+{
+"c": "CazéTV",
 "f": "2026-11-13",
 "id": "2_TMPqDbSWw",
 "t": "FINAIS DO HANDEBOL DE PRAIA | BRASIL NA DECISÃO | JOJ DAKAR 2026"
@@ -65,12 +83,6 @@
 "f": "2026-11-13",
 "id": "jg1hpDtXY_k",
 "t": "BRASIL CONQUISTA A PRATA INÉDITA NO HANDEBOL DE PRAIA DOS JOGOS OLÍMPICOS DA JUVENTUDE!"
-},
-{
-"c": "CazéTV",
-"f": "2026-11-13",
-"id": "CtXu2Tr61Nk",
-"t": "AO VIVO: A BRAZILIAN STORM COM YAGO DORA NA ÁGUA! | ISA GAMES 2026 | 8º DIA"
 },
 {
 "c": "CazéTV",
@@ -815,6 +827,12 @@
 "f": "2026-11-06",
 "id": "xBJ5mQm7CSY",
 "t": "MELHORES MOMENTOS: TOULOSE 3 x 1 STRASBOURG | LIGUE 1 26/27 | 10ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-06",
+"id": "O7ReObyHY5M",
+"t": "AO VIVO: TÊNIS DE MESA | FINAIS DO WTT CONTENDER DE ISTAMBUL"
 },
 {
 "c": "CazéTV",
@@ -5381,24 +5399,6 @@
 "f": "2026-09-18",
 "id": "E4Ilm886VgI",
 "t": "FLAMENGO X INDEPENDIENTE DEL VALLE | LIBERTADORES | NARRAÇÃO | NOCHE DE COPA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-18",
-"id": "mCA596MP7ic",
-"t": "MELHORES MOMENTOS: FLAMENGO 1 X 1 IND. DEL VALLE | QUARTAS (VOLTA) | CONMEBOL LIBERTADORES 2026"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-18",
-"id": "qJwx5LJZUTc",
-"t": "ORLANDINHO EM FAMÍLIA! OS PAIS CONTAM A HISTÓRIA DO CRAQUE DA COPA DAVIS"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-18",
-"id": "FtQLVf1E5BU",
-"t": "MELHORES MOMENTOS: JAKUB MENSIK X LEARNER TIEN |  TCHÉQUIA X ESTADOS UNIDOS | COPA DAVIS 2026"
 }
 ],
 "bundesliga": [
@@ -9812,6 +9812,12 @@
 "eredivisie": [
 {
 "c": "ESPN NL",
+"f": "2026-11-15",
+"id": "yysYriT_acA",
+"t": "Hans Kraay jr. lyrisch over 'een van de mooiste goals ooit in de Keuken Kampioen Divisie' 💫🔝"
+},
+{
+"c": "ESPN NL",
 "f": "2026-11-14",
 "id": "ZLtxhHRqaEY",
 "t": "Jürgen Klopp verheugt zich op Duitsland - Nederland 😁🍿"
@@ -9845,6 +9851,78 @@
 "f": "2026-11-14",
 "id": "Xo4Dd7KbQbk",
 "t": "Mats Seuntjens schaamt zich voor zijn goal bij zijn rentree: \"Ik wil het er niet over hebben\" 😂"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-14",
+"id": "XfvunIE5R9A",
+"t": "HEEL VEEL SPANNING op De VIJVERBERG voor DUEL met TOP Oss! 🏟️ | Samenvatting De Graafschap - TOP Oss"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-14",
+"id": "A5HuU7jeHTA",
+"t": "😱 BESLISSING valt in 94ste (!) MINUUT | Samenvatting VVV-Venlo - FC Eindhoven"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-14",
+"id": "K4UayMzj4xw",
+"t": "🧱 TIM COREMANS BLINKT UIT ONDER DE LAT ✋ | Samenvatting FC Dordrecht - Heracles Almelo"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-14",
+"id": "BbA6nbgsbZg",
+"t": "⛓️‍💥 ALMERE ONTKETEND in DUEL met ZEVEN GOALS ⚽️ | Samenvatting Almere City - Helmond Sport"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-14",
+"id": "s8nHzVCPdnY",
+"t": "DOELPUNT VAN HET JAAR VOOR YORAM VAN DER VEEN?! 🤯  | Samenvatting RKC Waalwijk - FC Den Bosch"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-14",
+"id": "xhFBywvQu5s",
+"t": "🔥 DOELPUNTRIJK SPEKTAKELSTUK in BREDA 🎯 | Samenvatting NAC Breda - FC Emmen"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-14",
+"id": "TEQIApXHgwc",
+"t": "Anthony VAN DEN HURK 🔛🔥 met 8 GOALS in de LAATSTE VIJF DUELS 👏 | Samenvatting Roda JC - FC Volendam"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-14",
+"id": "uxwmm3Bi4lc",
+"t": "Yoram van der Veen begrijpt de term Bergkampiaans wel als het gaat over zijn prachtgoal 😍"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-14",
+"id": "gsOoG6ZHVpw",
+"t": "\"Morgen ga ik weer bij papa langs\" ❤️"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-14",
+"id": "Ai4DTSrytsA",
+"t": "Marley Dors knalt een indirecte vrije trap in de zestien keihard binnen! 🚀"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-14",
+"id": "dNtohiA-DSg",
+"t": "Een prachtige steekpass van Justin Mathieu en Mauresmo Hinoke schiet TOP Oss naar de zege! 😮‍💨"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-14",
+"id": "lo1l3Aixsbs",
+"t": "Caption? Kijk de video maar gewoon 🤤"
 },
 {
 "c": "ESPN NL",
@@ -15131,87 +15209,21 @@
 "f": "2026-09-21",
 "id": "l2IwbMwuNGY",
 "t": "Xavi 🤝 Van Dijk"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-21",
-"id": "GkJrAwMAR3U",
-"t": "Xavi noemt het niet-selecteren van Memphis Depay zijn moeilijkste beslissing ❌"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-21",
-"id": "HcuXW5HAuv0",
-"t": "Ivan Perišić 🆚 Robin Pröpper 😳"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-21",
-"id": "tB50RATyZ_s",
-"t": "Zeg dat je Mourinho bent zonder te zeggen dat je Mourinho bent 🫣"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-21",
-"id": "bEjx30i8viU",
-"t": "Lovende woorden voor Abdellah Ouazane 🇲🇦✨"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-21",
-"id": "gaMKwQ65W_8",
-"t": "Doelpunt nummer 7️⃣5️⃣ uit een vrije trap voor Messi zal niet de boeken ingaan als de mooiste 🫣"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-21",
-"id": "RyRddShHMhE",
-"t": "🔎 De EERSTE SELECTIE van XAVI ONDER DE LOEP: \"Het had vernieuwender gekund\" 🆕"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-21",
-"id": "K9Moe9BHA-U",
-"t": "Nog geen SENSATIE bij de PERSCONFERENTIES van XAVI: \"Hij houdt zich erg op de vlakte\" 👀"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-21",
-"id": "mK53oCuuuMc",
-"t": "Robin Pröpper en Ruben van Bommel kregen het aan de stok na onderling duel ⚔️"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-21",
-"id": "mWd4KXub5oM",
-"t": "Het Oranje-tijdperk Xavi is nu echt begonnen!🧡"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-21",
-"id": "66ZoXkVLys8",
-"t": "\"Misschien is iedereen wel TE POSITIEF over AJAX\"🧐 | Voetbalpraat"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-20",
-"id": "JxxzJ30cYS0",
-"t": "Gaoussou Diarra maakt zijn eerste officiële doelpunt voor Feyenoord 🇲🇱🎯"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-20",
-"id": "l4ealhtFFFk",
-"t": "Geen beste stemming in het uitvak van FC Utrecht 😩"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-20",
-"id": "4KDb0FNQ2Qg",
-"t": "Anis Hadj Moussa gaat maar eens op avontuur vanaf de middenlijn 😮‍💨"
 }
 ],
 "laliga": [
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-15",
+"id": "0oVYQ5Ukan0",
+"t": "GOLES inolvidables de LARGA DISTANCIA 🚀 | LALIGA EA SPORTS"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-15",
+"id": "5oDgV3IimOg",
+"t": "Hands Off, Tito!"
+},
 {
 "c": "LALIGA EA SPORTS",
 "f": "2026-11-14",
@@ -15235,6 +15247,12 @@
 "f": "2026-11-14",
 "id": "5Phb_KOZZRw",
 "t": "Lamine Yamal y los recursos infinitos"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-14",
+"id": "Sl5khzVzGzo",
+"t": "Nadie vive el fútbol y los goles de sus compañeros como Rüdiger"
 },
 {
 "c": "LALIGA EA SPORTS",
@@ -20593,27 +20611,27 @@
 "f": "2026-09-08",
 "id": "uyOcDNHahSc",
 "t": "REFCAM POV: Valencia CF vs FC Barcelona 👀"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-09-07",
-"id": "F48wSLw1RKY",
-"t": "Lamine Yamal ⚽️🌟"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-09-07",
-"id": "DxuliYjFiCM",
-"t": "El ZURDAZO de KANG-IN LEE | ¡Los 10 MEJORES GOLES de AGOSTO! ⚽🔝"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-09-07",
-"id": "681iKwkawTg",
-"t": "ADEYEMI 😎"
 }
 ],
 "ligue1": [
+{
+"c": "Ligue 1",
+"f": "2026-11-15",
+"id": "JvzDuXh4sZY",
+"t": "Move man… 🙏 #football #ligue1 #foot #psg #footballshorts #neymar #footballshorts #sports #soccer"
+},
+{
+"c": "Ligue 1",
+"f": "2026-11-15",
+"id": "Iwraq62LYsg",
+"t": "UNE INTERVIEW TIR À L'ARC AVEC CAMERON ARCHER ! 🏹"
+},
+{
+"c": "Ligue 1",
+"f": "2026-11-15",
+"id": "B_hKoQZ0gEA",
+"t": "Just sit back and enjoy 😍 #football #ligue1 #foot #psg #footballshorts #sports #soccer #shorts"
+},
 {
 "c": "Ligue 1",
 "f": "2026-11-14",
@@ -23570,6 +23588,12 @@
 "premier": [
 {
 "c": "Premier League",
+"f": "2026-11-15",
+"id": "3NdO5caRQrc",
+"t": "Ronaldo x Rooney Was SPECIAL ✨"
+},
+{
+"c": "Premier League",
 "f": "2026-11-14",
 "id": "xneUCNt5pbE",
 "t": "Gareth Bale BANGER 🏴󠁧󠁢󠁷󠁬󠁳󠁿💥"
@@ -25526,6 +25550,18 @@
 }
 ],
 "seriea": [
+{
+"c": "Serie A",
+"f": "2026-11-15",
+"id": "jk_mTQTJaUU",
+"t": "UDINESE-MILAN 0-2 | EXTENDED HIGHLIGHTS | SERIE A 2026/27"
+},
+{
+"c": "Serie A",
+"f": "2026-11-15",
+"id": "G16eF3U9IOo",
+"t": "MAXI SINTESI UDINESE-MILAN 0-2 | EXTENDED HIGHLIGHTS | SERIE A ENILIVE 2026/27"
+},
 {
 "c": "Serie A",
 "f": "2026-11-14",
