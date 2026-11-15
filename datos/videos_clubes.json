@@ -1460,6 +1460,12 @@
 },
 {
 "c": "Athletico Paranaense",
+"f": "2026-11-15",
+"id": "27eb7Ol9IcI",
+"t": "FESTIVAL \"HISTÓRIAS\" REÚNE GRANDES NOMES DA MÚSICA SERTANEJA NA ARENA DA BAIXADA"
+},
+{
+"c": "Athletico Paranaense",
 "f": "2026-11-13",
 "id": "rM7QBWk_lv4",
 "t": "PREPARAÇÃO PARA ENFRENTAR O FLAMENGO | POR DENTRO DO CAP - 13/11"
@@ -1685,12 +1691,6 @@
 "f": "2026-10-31",
 "id": "CeEupaXcal8",
 "t": "ATHLETICO 2 X 1 GRÊMIO | MELHORES MOMENTOS | COPA SUL SUB-17"
-},
-{
-"c": "Athletico Paranaense",
-"f": "2026-10-31",
-"id": "3axU_Hbywrc",
-"t": "ATHLETICO PARANAENSE X GRÊMIO | COPA SUL SUB-17 - 2026 | AO VIVO E COM IMAGENS"
 }
 ],
 "Bayern Munich": [
@@ -3166,6 +3166,12 @@
 },
 {
 "c": "Corinthians TV",
+"f": "2026-11-15",
+"id": "Pl2IfrkbCvU",
+"t": "DEIVES É ETERNIZADO NA CALÇADA DA FAMA DO CORINTHIANS"
+},
+{
+"c": "Corinthians TV",
 "f": "2026-11-14",
 "id": "RNrW9E3ntV0",
 "t": "JOGO COMPLETO: CORINTHIANS 2 X 2 SÃO JOSÉ | PAULISTA DE FUTSAL SUB-20 2026 | SEMIFINAL - VOLTA"
@@ -3379,12 +3385,6 @@
 "f": "2026-11-11",
 "id": "h1fRD7GYMs8",
 "t": "AO VIVO COM IMAGENS: SÃO JOSÉ X CORINTHIANS | NBB CAIXA 2026/27 | 10ª RODADA"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-11-11",
-"id": "cHq8G2MKhFc",
-"t": "AO VIVO COM IMAGENS: PATO BASQUETE X CORINTHIANS | NBB CAIXA 2026/27 | 9ª RODADA"
 }
 ],
 "Coventry City": [
@@ -4370,6 +4370,12 @@
 },
 {
 "c": "FC Barcelona",
+"f": "2026-11-15",
+"id": "oRFtCQ_Zg6g",
+"t": "LIGA F | DEPORTIVO 1 vs 1 FC BARCELONA 🔵🔴"
+},
+{
+"c": "FC Barcelona",
 "f": "2026-11-14",
 "id": "2i7yE_p00GQ",
 "t": "Gordon has the ability to control any ball 🪄 #fcbarcelona #football #gordon #shorts"
@@ -4589,12 +4595,6 @@
 "f": "2026-11-05",
 "id": "CGtVuKVjD6A",
 "t": "Testing the new players in the CUPRA BOARD 🎲 | FC BARCELONA🔵🔴"
-},
-{
-"c": "FC Barcelona",
-"f": "2026-11-05",
-"id": "opllxF0fHtg",
-"t": "Word from our captain 🗣️ #fcbarcelona #football #raphinha #shorts"
 }
 ],
 "Fenerbahçe SK": [
@@ -4602,7 +4602,7 @@
 "c": "Fenerbahçe SK",
 "f": "2026-11-15",
 "id": "Ba6F8X-FgaM",
-"t": "🏀 CANLI | Fenerbahçe Tarfin - Anadolu Efes | Türkiye Sigorta Basketbol Süper Ligi 8. hafta"
+"t": "🏀 Fenerbahçe Tarfin 77-75 Anadolu Efes | Türkiye Sigorta Basketbol Süper Ligi 8. hafta"
 },
 {
 "c": "Fenerbahçe SK",
@@ -5344,6 +5344,24 @@
 },
 {
 "c": "Flamengo TV",
+"f": "2026-11-15",
+"id": "OagbC-zamBs",
+"t": "FLAMENGO SEGUE PREPARAÇÃO PARA RETORNO DO BRASILEIRÃO"
+},
+{
+"c": "Flamengo TV",
+"f": "2026-11-15",
+"id": "N1Hm2XiXYNo",
+"t": "Seja na terra, seja no mar, há 131 anos a nossa sina é vencer. Uma vez Flamengo. Sempre Flamengo!"
+},
+{
+"c": "Flamengo TV",
+"f": "2026-11-15",
+"id": "FxCWalR6OW4",
+"t": "O TRADICIONAL PARABÉNS AO MAIS QUERIDO DIRETAMENTE DA BOCA MALDITA, NA GÁVEA! ❤️🖤"
+},
+{
+"c": "Flamengo TV",
 "f": "2026-11-14",
 "id": "v_IMVAZ5bnw",
 "t": "🔴 AO VIVO: VASCO x FLAMENGO | CAMPEONATO CARIOCA SUB-20 (14/11/26)"
@@ -5545,24 +5563,6 @@
 "f": "2026-11-10",
 "id": "x_qkM7p2kAQ",
 "t": "Oficialmente estamos nela... a temida Data FIFA! 😒😅"
-},
-{
-"c": "Flamengo TV",
-"f": "2026-11-09",
-"id": "7AOdkRZcM5k",
-"t": "🔴 AO VIVO: TREINO DO FLAMENGO DIRETO DO NINHO | 09/11/26"
-},
-{
-"c": "Flamengo TV",
-"f": "2026-11-09",
-"id": "rRgKyPdouQk",
-"t": "VARELA CONTA COMO FOI SUA SAÍDA DA RÚSSIA E SUA CHEGADA AO MENGÃO! ❤️🖤"
-},
-{
-"c": "Flamengo TV",
-"f": "2026-11-09",
-"id": "7lMWRIYNCo0",
-"t": "É isso que conforta o coração de cada rubro-negro! ❤️🖤"
 }
 ],
 "Fluminense": [
@@ -6784,6 +6784,18 @@
 },
 {
 "c": "Inter",
+"f": "2026-11-15",
+"id": "bbMfG8rCv6o",
+"t": "SCONFITTA PER LE NOSTRE NERAZZURRE | INTER 2-3 JUVENTUS | HIGHLIGHTS INTER WOMEN 📹🖤💙"
+},
+{
+"c": "Inter",
+"f": "2026-11-15",
+"id": "jzXylJm4EDA",
+"t": "DIEGO – THE RIVAL"
+},
+{
+"c": "Inter",
 "f": "2026-11-14",
 "id": "3sTLfKFQoEM",
 "t": "EP 68 | SAN SIRO – LA MISCHIA"
@@ -7003,18 +7015,6 @@
 "f": "2026-11-08",
 "id": "WN_GXMT7vmU",
 "t": "Watch closely. There's always something to learn 👀📚"
-},
-{
-"c": "Inter",
-"f": "2026-11-08",
-"id": "M464ddwnPOo",
-"t": "IT'S MATCHDAY ⚡"
-},
-{
-"c": "Inter",
-"f": "2026-11-08",
-"id": "Pa8VzgISStc",
-"t": "Batigol 🥹"
 }
 ],
 "Ipswich Town": [
@@ -8796,6 +8796,12 @@
 "Oxford United": [
 {
 "c": "Oxford United Official",
+"f": "2026-11-15",
+"id": "t6Ytfkms800",
+"t": "Liam Gilbert & Emma Thompson React to 4-0 FA Cup Win in Wales | Post-Match Interviews"
+},
+{
+"c": "Oxford United Official",
 "f": "2026-11-13",
 "id": "VqyX-RNfyJg",
 "t": "Gatlin O'Donkor puts us 1-0 against Reading 🫡"
@@ -9027,12 +9033,6 @@
 "f": "2026-10-24",
 "id": "HO9D-BCBAUE",
 "t": "Aaron Ramsey & Brodie Spencer Speak After We Draw 0-0 to Bradford City | Post-match Interview"
-},
-{
-"c": "Oxford United Official",
-"f": "2026-10-23",
-"id": "IVShboxrgJk",
-"t": "Aidomo Emakhu Speaks to the Press Ahead of Our Fixture Against Bradford City | Press Conference"
 }
 ],
 "Palmeiras": [
@@ -9053,6 +9053,12 @@
 "f": "2026-11-15",
 "id": "JLaIJ-1t0gE",
 "t": "AGORA É BRASILEIRÃO!"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-11-15",
+"id": "gh4TlsnHHSE",
+"t": "🫲🏻 A MARRA DO MEU GOLEIRO 🫱🏻"
 },
 {
 "c": "TV Palmeiras Sportingbet",
@@ -9269,12 +9275,6 @@
 "f": "2026-11-10",
 "id": "gIHKkWCcmIo",
 "t": "ABSOLUTE CINEMA! RESUMO DA CLASSIFICAÇÃO PARA A FINAL 💚🐷"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-11-10",
-"id": "pjUbkAEBrjc",
-"t": "MENTE POSITIVA 🧠💚"
 }
 ],
 "Paris FC": [
@@ -10026,6 +10026,12 @@
 },
 {
 "c": "Real Madrid",
+"f": "2026-11-15",
+"id": "rdq3JdhfTjc",
+"t": "😅 Bet you didn't think it was that hard to guess..."
+},
+{
+"c": "Real Madrid",
 "f": "2026-11-14",
 "id": "fwIM6muNQlc",
 "t": "👍🤣 A thumb fight with Mbappé? NOT on our bingo card!"
@@ -10251,12 +10257,6 @@
 "f": "2026-11-05",
 "id": "jUJNWbuHTEc",
 "t": "We’ve got some Thursday golazos 👀"
-},
-{
-"c": "Real Madrid",
-"f": "2026-11-05",
-"id": "LXRf1Fpv1yk",
-"t": "The one and only, Thibaut Courtois 😍"
 }
 ],
 "SC Paderborn 07": [
@@ -11000,6 +11000,12 @@
 },
 {
 "c": "Sevilla FC",
+"f": "2026-11-15",
+"id": "9kCkBWoTGZo",
+"t": "Sevilla FC Femenino - Atlético de Madrid (1-2) | Liga F Moeve | Resumen"
+},
+{
+"c": "Sevilla FC",
 "f": "2026-11-13",
 "id": "fV5Mo8sioco",
 "t": "Uffff LA P*** MADRE 😤😤😤 #sevillafc #shorts #training"
@@ -11219,12 +11225,6 @@
 "f": "2026-10-29",
 "id": "QpwmivY0OW0",
 "t": "El emotivo minuto de silencio en memoria a las víctimas del trágico accidente de Urda. DEP 🖤"
-},
-{
-"c": "Sevilla FC",
-"f": "2026-10-29",
-"id": "SvxTUQlJdnY",
-"t": "Debut copero ❤️🤩 #CopaDelRey"
 }
 ],
 "Sheffield United": [
