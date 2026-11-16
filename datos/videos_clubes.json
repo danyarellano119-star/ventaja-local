@@ -2,6 +2,18 @@
 "AC Milan": [
 {
 "c": "AC Milan",
+"f": "2026-11-16",
+"id": "u2pfL1f6f-8",
+"t": "OUR SEASON SO FAR | 19 ore di MILAN🍿⚽️"
+},
+{
+"c": "AC Milan",
+"f": "2026-11-16",
+"id": "7N4zuc8Ums0",
+"t": "Sul set, ma con le vibes ✨ ASMR ✨ #football #acmilan"
+},
+{
+"c": "AC Milan",
 "f": "2026-11-15",
 "id": "rjajt9B6Wws",
 "t": "Maignan modalità pallavolo: ON 🏐✅"
@@ -227,18 +239,6 @@
 "f": "2026-11-08",
 "id": "DTlqVU0zqFA",
 "t": "Giroud in porta contro il Genoa nel 2023 🤯🧤"
-},
-{
-"c": "AC Milan",
-"f": "2026-11-08",
-"id": "IcAoetLlcJc",
-"t": "Le nostre Top 5 parate contro il Genoa… e non tutti sono portieri! 👀🧤"
-},
-{
-"c": "AC Milan",
-"f": "2026-11-08",
-"id": "SLJOiE4liBU",
-"t": "1, 2, 3 MOREIRA ♥️🖤"
 }
 ],
 "AC Monza": [
@@ -970,6 +970,12 @@
 "Arsenal": [
 {
 "c": "Arsenal",
+"f": "2026-11-16",
+"id": "HjV2GKgBqUI",
+"t": "THAT BRUNO GUIMARAES SCREAMER!"
+},
+{
+"c": "Arsenal",
 "f": "2026-11-15",
 "id": "NPehs0EtShw",
 "t": "THIS TACKLE FROM EZRI KONSA 😮‍💨"
@@ -1201,12 +1207,6 @@
 "f": "2026-11-04",
 "id": "xc3Hk4E9zeA",
 "t": "GYM GAINS, RONDOS AND MORE | INSIDE TRAINING | Gunners get set for Slavia Prague | Champions League"
-},
-{
-"c": "Arsenal",
-"f": "2026-11-04",
-"id": "X86ZNt-8z1M",
-"t": "DELICIOUS DECLAN RICE ASSIST!"
 }
 ],
 "Atalanta BC": [
@@ -1696,6 +1696,12 @@
 "Bayern Munich": [
 {
 "c": "Bayern",
+"f": "2026-11-16",
+"id": "TN_vNxl7VQY",
+"t": "Trauerstaatsakt für Staatsminister Hubert Aiwanger - Bayern"
+},
+{
+"c": "Bayern",
 "f": "2026-11-14",
 "id": "kkLRk77Z1hI",
 "t": "Verabschiedung von Staatsminister Hubert Aiwanger vor dem Münchner Dom - Bayern"
@@ -1927,12 +1933,6 @@
 "f": "2026-10-14",
 "id": "laxX75Ii2jw",
 "t": "Oktoberfest in Brüssel - Bayern"
-},
-{
-"c": "Bayern",
-"f": "2026-10-13",
-"id": "O-MBTAfSIHI",
-"t": "Bayerischer \"Walk of Fame\" - Bayern"
 }
 ],
 "Blackburn Rovers": [
@@ -3148,6 +3148,12 @@
 "Corinthians": [
 {
 "c": "Corinthians TV",
+"f": "2026-11-16",
+"id": "t6BrNqQnHB8",
+"t": "ÍDOLO ETERNIZADO NA CALÇADA DA FAMA DO CORINTHIANS! 👏🏽"
+},
+{
+"c": "Corinthians TV",
 "f": "2026-11-15",
 "id": "Wb53lqCIyj8",
 "t": "JOGO COMPLETO: CORINTHIANS 3 X 1 LIGA SÃO CAETANO | PAULISTA DE FUTSAL 2026 | SEMIFINAL - IDA"
@@ -3379,12 +3385,6 @@
 "f": "2026-11-11",
 "id": "apc5Z5hCoE0",
 "t": "BASTIDORES BRABINHAS | CORINTHIANS X PALMEIRAS | PAULISTÃO F SUB-20 | SEMIFINAL"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-11-11",
-"id": "h1fRD7GYMs8",
-"t": "AO VIVO COM IMAGENS: SÃO JOSÉ X CORINTHIANS | NBB CAIXA 2026/27 | 10ª RODADA"
 }
 ],
 "Coventry City": [
@@ -4842,6 +4842,12 @@
 "Feyenoord": [
 {
 "c": "Feyenoord",
+"f": "2026-11-16",
+"id": "gytSVbwO6O8",
+"t": "Highlights | Feyenoord V1 - sc Heerenveen | Eurojackpot Vrouwen Eredivisie 2026-2027"
+},
+{
+"c": "Feyenoord",
 "f": "2026-11-11",
 "id": "MIjkdKHd0vI",
 "t": "Highlights Feyenoord - FC Utrecht | Friendly 2026-2027"
@@ -4886,7 +4892,7 @@
 "c": "Feyenoord",
 "f": "2026-11-02",
 "id": "cnzFmQzQLu4",
-"t": "Highlights Feyenoord V1 - ADO Den Haag | Eurojackpot Vrouwen Eredivisie 2026-2027"
+"t": "Highlights | ADO Den Haag - Feyenoord V1 | Eurojackpot Vrouwen Eredivisie 2026-2027"
 },
 {
 "c": "Feyenoord",
@@ -5073,15 +5079,21 @@
 "f": "2026-09-20",
 "id": "Mo-DOfnb4II",
 "t": "Highlights FC Utrecht - Feyenoord V1 | Eurojackpot Vrouwen Eredivisie 2026-2027"
-},
-{
-"c": "Feyenoord",
-"f": "2026-09-20",
-"id": "80UFaLJIJlw",
-"t": "LV10 from 11 metres. 🎯"
 }
 ],
 "Fiorentina": [
+{
+"c": "ACF Fiorentina",
+"f": "2026-11-16",
+"id": "9kUOwptQ1sA",
+"t": "La proporzione divina: una nuova espressione dell'eleganza Viola"
+},
+{
+"c": "ACF Fiorentina",
+"f": "2026-11-16",
+"id": "pu81VIadMwg",
+"t": "Highlights ACF Fiorentina-Lazio 2-1 | Serie A Women"
+},
 {
 "c": "ACF Fiorentina",
 "f": "2026-11-14",
@@ -5309,18 +5321,6 @@
 "f": "2026-11-03",
 "id": "uCyz22vBJu8",
 "t": "Highlights ACF Fiorentina-Juventus 1-2 | Serie A Women"
-},
-{
-"c": "ACF Fiorentina",
-"f": "2026-11-03",
-"id": "944EYMMUNEQ",
-"t": "Pellegrino, Njie, Mastantuono, Valdepenas: viola night in Reggio Emilia #fiorentina #highlights"
-},
-{
-"c": "ACF Fiorentina",
-"f": "2026-11-02",
-"id": "U6kCHlPuBZw",
-"t": "Highlights: Sassuolo - Fiorentina  2 - 4"
 }
 ],
 "Flamengo": [
@@ -6294,6 +6294,12 @@
 "Girona": [
 {
 "c": "Girona FC",
+"f": "2026-11-16",
+"id": "K4WUfFdbQ5k",
+"t": "Dilluns 😂"
+},
+{
+"c": "Girona FC",
 "f": "2026-11-15",
 "id": "X_E-K7LF5Ek",
 "t": "RODA DE PREMSA de QUIQUE ÁLVAREZ després del REAL OVIEDO VS GIRONA | GIRONA FC"
@@ -6525,12 +6531,6 @@
 "f": "2026-10-25",
 "id": "wRzsI54hkj8",
 "t": "⚽️ 5 gols = 5 premis 🎁"
-},
-{
-"c": "Girona FC",
-"f": "2026-10-24",
-"id": "Or0kItLK7xY",
-"t": "🎙️🎶 “Raquel Sans” és un temazo"
 }
 ],
 "Gremio": [
@@ -6778,6 +6778,12 @@
 "Inter": [
 {
 "c": "Inter",
+"f": "2026-11-16",
+"id": "xu4Bms4EdXY",
+"t": "EP 70 | MARCELO – L’EPIC"
+},
+{
+"c": "Inter",
 "f": "2026-11-15",
 "id": "dhj4GO81Ns8",
 "t": "EP 69 | EDER – LA PRONTEZZA"
@@ -6834,7 +6840,7 @@
 "c": "Inter",
 "f": "2026-11-13",
 "id": "5cUM32IjYyA",
-"t": "ANTONIO – THE BRAINS"
+"t": "Antonio– The Brains"
 },
 {
 "c": "Inter",
@@ -7009,12 +7015,6 @@
 "f": "2026-11-08",
 "id": "0Bei4ZPneRM",
 "t": "GOL DA APPLAUSI CONTRO IL COMO 👏⚽ | TOP 5 GOL VS COMO | PRESENTED BY PIRELLI"
-},
-{
-"c": "Inter",
-"f": "2026-11-08",
-"id": "WN_GXMT7vmU",
-"t": "Watch closely. There's always something to learn 👀📚"
 }
 ],
 "Ipswich Town": [
@@ -7262,15 +7262,27 @@
 "Juventus": [
 {
 "c": "Juventus",
-"f": "2026-11-15",
+"f": "2026-11-16",
 "id": "E_adg76QVYk",
 "t": "LIVE | JUVENTUS vs BOLOGNA U17 | English Commentary"
 },
 {
 "c": "Juventus",
-"f": "2026-11-15",
+"f": "2026-11-16",
 "id": "XLD6KTwUOnY",
 "t": "LIVE | JUVENTUS vs FIORENTINA | U19 WOMEN | English Commentary"
+},
+{
+"c": "Juventus",
+"f": "2026-11-16",
+"id": "DD_FyDq6BuY",
+"t": "POGBA FROM DISTANCE. WHAT A GOAL! 🤯"
+},
+{
+"c": "Juventus",
+"f": "2026-11-16",
+"id": "xUFe8VukGTY",
+"t": "HIGUAÍN WITH THE ACROBATIC FINISH! 🤯"
 },
 {
 "c": "Juventus",
@@ -7487,18 +7499,6 @@
 "f": "2026-11-09",
 "id": "-wVFHkNeX6s",
 "t": "WOLTEMADE’S FIRST SERIE A GOAL! 🔥"
-},
-{
-"c": "Juventus",
-"f": "2026-11-09",
-"id": "q1tYAcIQF04",
-"t": "ONE OF DEL PIERO’S MOST ICONIC GOALS! 🤯"
-},
-{
-"c": "Juventus",
-"f": "2026-11-09",
-"id": "3PRL1N12dIU",
-"t": "A LEFT-FOOTED BEAUTY FROM DEL PIERO! ✨"
 }
 ],
 "Leeds United": [
@@ -9778,6 +9778,12 @@
 "Real Betis": [
 {
 "c": "Real Betis Balompié",
+"f": "2026-11-16",
+"id": "9PsCvGiq1-M",
+"t": "POR LA SOMBRA 😮‍💨 #realbetis #shorts"
+},
+{
+"c": "Real Betis Balompié",
 "f": "2026-11-15",
 "id": "I5pomFer93g",
 "t": "El juego del Karaoke con NATAN, CUCHO, DEOSSA y ANTONY 🎤 | VLOG | Real BETIS Balompié"
@@ -10009,12 +10015,6 @@
 "f": "2026-11-05",
 "id": "ZC9rIj_cI5I",
 "t": "Reacciones de Pellegrini, Ceballos, Aitor Ruibal y Ángel Ortiz tras el #BVBRealBetis 🗣🎙 | BETIS"
-},
-{
-"c": "Real Betis Balompié",
-"f": "2026-11-05",
-"id": "DXieuOwBJKc",
-"t": "Resumen del partido Borussia Dortmund - Real Betis | HIGHLIGHTS | Real BETIS Balompié"
 }
 ],
 "Real Madrid": [
@@ -10746,6 +10746,12 @@
 "Sabah FK": [
 {
 "c": "Sabah",
+"f": "2026-11-16",
+"id": "Cz0F1ZErKcY",
+"t": "Şehide son selam"
+},
+{
+"c": "Sabah",
 "f": "2026-11-13",
 "id": "UrttKBXEX-I",
 "t": "Esnaf son anda f*ciayı önledi"
@@ -10977,12 +10983,6 @@
 "f": "2026-10-11",
 "id": "xZtSijrRtQY",
 "t": "Zulüm üzerine kurulu İsrail, içeriden çürüyor!"
-},
-{
-"c": "Sabah",
-"f": "2026-10-11",
-"id": "RhycOyJ5Ju0",
-"t": "Fransız gençler Gazze için şarkı söyledi"
 }
 ],
 "Sevilla": [
