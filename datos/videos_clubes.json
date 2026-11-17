@@ -1454,6 +1454,18 @@
 "Athletico Paranaense": [
 {
 "c": "Athletico Paranaense",
+"f": "2026-11-17",
+"id": "rWuNh8Y9AYc",
+"t": "ATHLETICO  PARANAENSE X PARANÁ CLUBE - COPA PARANÁ 2026 | AO VIVO E COM IMAGENS"
+},
+{
+"c": "Athletico Paranaense",
+"f": "2026-11-17",
+"id": "75d4W5Q1DXk",
+"t": "ATHLETICO 1 X 0 PARANÁ | MELHORES MOMENTOS | COPA PARANÁ 2026"
+},
+{
+"c": "Athletico Paranaense",
 "f": "2026-11-16",
 "id": "4rNfWwtS_w0",
 "t": "SEGUNDA-FEIRA DE TREINAMENTO NO CAT CAJU | POR DENTRO DO CAP - 16/11"
@@ -1493,12 +1505,6 @@
 "f": "2026-11-12",
 "id": "IQwbHwd1Xno",
 "t": "JADSON RENOVA COM O RUBRO-NEGRO | FURACÃO NEWS - 12/11"
-},
-{
-"c": "Athletico Paranaense",
-"f": "2026-11-12",
-"id": "rWuNh8Y9AYc",
-"t": "NO OLHO DO FURACÃO + ATHLETICO  PARANAENSE X PARANÁ CLUBE - COPA PARANÁ 2026 | AO VIVO E COM IMAGENS"
 },
 {
 "c": "Athletico Paranaense",
@@ -1685,12 +1691,6 @@
 "f": "2026-11-02",
 "id": "AfRBT93kbB8",
 "t": "ATHLETICO PRONTO PARA A SEMIFINAL DA COPA PARANÁ | FURACÃO NEWS - 02/11"
-},
-{
-"c": "Athletico Paranaense",
-"f": "2026-11-01",
-"id": "kT72fqyMPQc",
-"t": "TREINAMENTO DE POSSE DE BOLA | POR DENTRO DO CAP - 01/11"
 }
 ],
 "Bayern Munich": [
@@ -3156,7 +3156,7 @@
 "c": "Corinthians TV",
 "f": "2026-11-16",
 "id": "fBwTnJOh2qo",
-"t": "TREINO DAS BRABAS: PREPARAÇÃO FINALIZADA PARA O PLAY IN DO PAULISTÃO F!"
+"t": "TREINO DAS BRABAS: PREPARAÇÃO FINALIZADA PARA O PLAY IN DO PAULISTÃO F"
 },
 {
 "c": "Corinthians TV",
@@ -5084,6 +5084,12 @@
 "Fiorentina": [
 {
 "c": "ACF Fiorentina",
+"f": "2026-11-17",
+"id": "sYYkepGMZms",
+"t": "VIOLA DAILY LIVE - 16 NOVEMBRE 2026"
+},
+{
+"c": "ACF Fiorentina",
 "f": "2026-11-16",
 "id": "9kUOwptQ1sA",
 "t": "La proporzione divina: una nuova espressione dell'eleganza Viola"
@@ -5093,12 +5099,6 @@
 "f": "2026-11-16",
 "id": "pu81VIadMwg",
 "t": "Highlights ACF Fiorentina-Lazio 2-1 | Serie A Women"
-},
-{
-"c": "ACF Fiorentina",
-"f": "2026-11-16",
-"id": "sYYkepGMZms",
-"t": "VIOLA DAILY LIVE - 16 NOVEMBRE 2026"
 },
 {
 "c": "ACF Fiorentina",
@@ -5368,6 +5368,12 @@
 },
 {
 "c": "Flamengo TV",
+"f": "2026-11-16",
+"id": "5MVwFWnuMls",
+"t": "O momento que ficou marcado na memória do Arrasca e BH, e de toda Nação! A revelação dos bustos!"
+},
+{
+"c": "Flamengo TV",
 "f": "2026-11-15",
 "id": "PQ4DmF1VdQI",
 "t": "FLAMENGO FAZ TREINO INTENSO DE FINALIZAÇÕES NO NINHO DO URUBU"
@@ -5557,20 +5563,26 @@
 "f": "2026-11-11",
 "id": "tO7jM5QlE1o",
 "t": "FOCO NA LIDERANÇA! FLAMENGO TREINA FORTE NO NINHO 🔴⚫"
-},
-{
-"c": "Flamengo TV",
-"f": "2026-11-10",
-"id": "zQ2dbP6Olm0",
-"t": "TALENTO COLOMBIANO! CARRASCAL DÁ SHOW NO TREINO 🇨🇴"
 }
 ],
 "Fluminense": [
 {
 "c": "Fluminense Football Club",
+"f": "2026-11-17",
+"id": "CEzfzixqpoQ",
+"t": "FLUMINENSE INICIA PREPARAÇÃO PARA CONFRONTO CONTRA O SÃO PAULO PELA 35ª RODADA DO BRASILEIRÃO"
+},
+{
+"c": "Fluminense Football Club",
 "f": "2026-11-16",
 "id": "zXnoOhPk0HQ",
 "t": "RENATO AUGUSTO FAZ VISITA NO CT TRICOLOR! 🇭🇺"
+},
+{
+"c": "Fluminense Football Club",
+"f": "2026-11-16",
+"id": "FTON7am3ng4",
+"t": "ABRINDO O JOGO - SAMUEL XAVIER"
 },
 {
 "c": "Fluminense Football Club",
@@ -5793,18 +5805,6 @@
 "f": "2026-10-21",
 "id": "eKn30D7Ck7s",
 "t": "RENÊ ENALTECE CONFIANÇA DO ELENCO! #Libertadores #Semifinal"
-},
-{
-"c": "Fluminense Football Club",
-"f": "2026-10-20",
-"id": "kX-xVKdt5oE",
-"t": "ABRINDO O JOGO -  MARCÃO"
-},
-{
-"c": "Fluminense Football Club",
-"f": "2026-10-20",
-"id": "VDIq72rd4r4",
-"t": "FLUTV NEWS DIRETO DO CT: ELENCO EMBARCA PARA DECISÃO DA LIBERTADORES"
 }
 ],
 "Fulham": [
@@ -6536,6 +6536,12 @@
 "Gremio": [
 {
 "c": "Grêmio FBPA",
+"f": "2026-11-17",
+"id": "Dy75Q4ieCoQ",
+"t": "COLETIVA I TROCA DE CHAVES I PRES. ODORICO ROMAN E PRES. PHIL JARDIM"
+},
+{
+"c": "Grêmio FBPA",
 "f": "2026-11-16",
 "id": "eZE2ooO0Ix0",
 "t": "AO VIVO | COLETIVA DO TÉC. RENATO PORTALUPPI"
@@ -6767,12 +6773,6 @@
 "f": "2026-10-23",
 "id": "9OORKHSjm2k",
 "t": "AO VIVO | COLETIVA PÓS-JOGO I CORITIBA X GRÊMIO (CAMPEONATO BRASILEIRO 2026)"
-},
-{
-"c": "Grêmio FBPA",
-"f": "2026-10-23",
-"id": "RMbLbkSvJiI",
-"t": "OPERAÇÃO CURITIBA | RENATO, MARLON E CARLOS VINÍCIUS FALAM NA ARENA"
 }
 ],
 "Inter": [
@@ -6799,6 +6799,12 @@
 "f": "2026-11-16",
 "id": "Nvm_4YdKE1A",
 "t": "Lighting up San Siro last month: Marcus Thuram 😁"
+},
+{
+"c": "Inter",
+"f": "2026-11-16",
+"id": "yEh_XS9TdPk",
+"t": "JÜRGEN – THE BREAD"
 },
 {
 "c": "Inter",
@@ -7009,12 +7015,6 @@
 "f": "2026-11-09",
 "id": "wfJY78cKJZc",
 "t": "Respect 🫂"
-},
-{
-"c": "Inter",
-"f": "2026-11-09",
-"id": "BPdMmA1xx-I",
-"t": "Cold 🥶"
 }
 ],
 "Ipswich Town": [
