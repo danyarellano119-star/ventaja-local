@@ -1454,6 +1454,12 @@
 "Athletico Paranaense": [
 {
 "c": "Athletico Paranaense",
+"f": "2026-11-18",
+"id": "ZjCD0KyFkAs",
+"t": "PRÉ-JOGO | FLAMENGO X ATHLETICO | BRASILEIRÃO 2026"
+},
+{
+"c": "Athletico Paranaense",
 "f": "2026-11-17",
 "id": "rWuNh8Y9AYc",
 "t": "ATHLETICO  PARANAENSE X PARANÁ CLUBE - COPA PARANÁ 2026 | AO VIVO E COM IMAGENS"
@@ -1685,12 +1691,6 @@
 "f": "2026-11-03",
 "id": "ira3m9QyDMo",
 "t": "PRÉ-JOGO | ATHLETICO X VASCO | BRASILEIRÃO 2026"
-},
-{
-"c": "Athletico Paranaense",
-"f": "2026-11-02",
-"id": "vBAomcAtXjQ",
-"t": "PREPARAÇÃO PARA ENFRENTAR O VASCO | POR DENTRO DO CAP - 02/11"
 }
 ],
 "Bayern Munich": [
@@ -5084,15 +5084,15 @@
 "Fiorentina": [
 {
 "c": "ACF Fiorentina",
-"f": "2026-11-17",
-"id": "sYYkepGMZms",
-"t": "VIOLA DAILY LIVE - 16 NOVEMBRE 2026"
+"f": "2026-11-18",
+"id": "JHoWDxa-C88",
+"t": "VIOLA DAILY LIVE - 17 NOVEMBRE 2026"
 },
 {
 "c": "ACF Fiorentina",
 "f": "2026-11-17",
-"id": "JHoWDxa-C88",
-"t": "VIOLA DAILY LIVE - 17 NOVEMBRE 2026"
+"id": "sYYkepGMZms",
+"t": "VIOLA DAILY LIVE - 16 NOVEMBRE 2026"
 },
 {
 "c": "ACF Fiorentina",
@@ -5326,6 +5326,12 @@
 "Flamengo": [
 {
 "c": "Flamengo TV",
+"f": "2026-11-18",
+"id": "lpC7OnZGfaI",
+"t": "ÚLTIMOS AJUSTES! FLAMENGO TREINA PARA ENFRENTAR O ATHLETICO-PR"
+},
+{
+"c": "Flamengo TV",
 "f": "2026-11-17",
 "id": "LxPaXqboHD8",
 "t": "Um vídeo fofo para abrir o dia e diminuir a ansiedade de ver o Mengo em campo amanhã! 😅"
@@ -5557,15 +5563,15 @@
 "f": "2026-11-12",
 "id": "XTKRi0KXq34",
 "t": "\"MEU MAIOR PASSE NÃO FOI CHEGAR NO FLAMENGO, MAS RENOVAR.\" VARELA É FLAMENGO DEMAIS ❤️🖤"
-},
-{
-"c": "Flamengo TV",
-"f": "2026-11-12",
-"id": "b7rnmlQ-7U8",
-"t": "POR QUE O FLAMENGO SE TORNOU RUBRO-NEGRO? A HISTÓRIA DAS NOSSAS CORES! | CORRE O TEMPO NO OLHAR #11"
 }
 ],
 "Fluminense": [
+{
+"c": "Fluminense Football Club",
+"f": "2026-11-18",
+"id": "NZ5oDx3Unb8",
+"t": "SAMUEL XAVIER FALA SOBRE SEU AMOR PELO FLUMINENSE #FluTV"
+},
 {
 "c": "Fluminense Football Club",
 "f": "2026-11-17",
@@ -5799,12 +5805,6 @@
 "f": "2026-10-24",
 "id": "sRlAVNcdbB0",
 "t": "FLUTV NEWS: REAPRESENTAÇÃO PARA O CAMPEONATO BRASILEIRO"
-},
-{
-"c": "Fluminense Football Club",
-"f": "2026-10-22",
-"id": "FvUDgFcresc",
-"t": "AO VIVO - PALMEIRAS X FLUMINENSE | CONMEBOL LIBERTADORES 2026 | SEMIFINAL - VOLTA"
 }
 ],
 "Fulham": [
@@ -8287,12 +8287,6 @@
 "f": "2026-06-23",
 "id": "DmBn8KBS9V0",
 "t": "Planchuelas para #reparaciones  o refuerzos #tips"
-},
-{
-"c": "Metz",
-"f": "2026-06-20",
-"id": "dZ39o1Df1CE",
-"t": "¿Grifa o grinfa?"
 }
 ],
 "Middlesbrough": [
@@ -9038,6 +9032,36 @@
 "Palmeiras": [
 {
 "c": "TV Palmeiras Sportingbet",
+"f": "2026-11-18",
+"id": "BXG6htyKK3g",
+"t": "PALMEIRAS EM BH PARA MAIS UMA FINAL!"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-11-18",
+"id": "rRkrX_VKs6c",
+"t": "VITOR ROQUE REVELA SEUS PRIMEIROS TREINADORES 📋🐯"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-11-18",
+"id": "5GkyqS0KQk4",
+"t": "TIGRINHO TEM AULA DE VOO ✈️ 🐯"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-11-18",
+"id": "vK6ShY1y-JQ",
+"t": "PREPARADO PARA A OPORTUNIDADE 😅"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-11-18",
+"id": "h2Zqd2kgYNc",
+"t": "AEROPORCO: PALMEIRAS EM BH PARA MAIS UMA FINAL!"
+},
+{
+"c": "TV Palmeiras Sportingbet",
 "f": "2026-11-17",
 "id": "Ccx585WVFtQ",
 "t": "ANTES DA VIAGEM PARA BH, VERDÃO INTENSIFICA A PREPARAÇÃO! 💪⚽"
@@ -9245,36 +9269,6 @@
 "f": "2026-11-13",
 "id": "VAXWsXTcNMo",
 "t": "RECADO SURPRESA PRO EVANGELISTA 😂💚"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-11-12",
-"id": "sg4vNjDZ-L4",
-"t": "PROFISSIONAIS DO FEMININO REFORÇAM COMISSÃO DO MASCULINO!"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-11-12",
-"id": "BPl2OWfW5oc",
-"t": "MURILO: \"OS SEIS JOGOS DA NOSSA VIDA\""
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-11-12",
-"id": "hSk3FK7vNlY",
-"t": "MURILO: \"O MELHOR ANO DE NOSSAS VIDAS\""
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-11-12",
-"id": "WBu6W9VyRi4",
-"t": "MURILO: \"UMA MARCA QUE REPRESENTA MUITO\""
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-11-12",
-"id": "soiQyhZvkDY",
-"t": "NO AR! CONFIRA O TREINO DE HOJE DO VERDÃO 💚"
 }
 ],
 "Paris FC": [
@@ -12682,6 +12676,12 @@
 "Tottenham Hotspur": [
 {
 "c": "Tottenham Hotspur",
+"f": "2026-11-17",
+"id": "Z6G4XJQZJJI",
+"t": "루카스 베리발 응원 받고 수능 대박 나세요!🍀🤍"
+},
+{
+"c": "Tottenham Hotspur",
 "f": "2026-11-15",
 "id": "LdVGtZ04Yw0",
 "t": "Van de Ven x Van Hecke 🧱 Full focus on our Dutch duo’s start to the season 🇳🇱"
@@ -12913,12 +12913,6 @@
 "f": "2026-10-31",
 "id": "R5HDdKcyjn0",
 "t": "Heading out for the warm-ups 🔥"
-},
-{
-"c": "Tottenham Hotspur",
-"f": "2026-10-31",
-"id": "XC0StOHW6fg",
-"t": "In the zone."
 }
 ],
 "Toulouse": [

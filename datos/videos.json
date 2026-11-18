@@ -2,6 +2,18 @@
 "brasileirao": [
 {
 "c": "CazéTV",
+"f": "2026-11-18",
+"id": "m9GZ-bkD5aI",
+"t": "JOGO COMPLETO: SANTOS X SÃO PAULO | PAULISTÃO F 2026 | PLAY-IN"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-18",
+"id": "2Qfr7vqrL98",
+"t": "MELHORES MOMENTOS: SANTOS 1 X 3 SÃO PAULO | PAULISTÃO F 2026 | PLAY-IN"
+},
+{
+"c": "CazéTV",
 "f": "2026-11-17",
 "id": "H1hgiNtjoZI",
 "t": "RODADA COMPLETA: DESIMPAIN X NYVELADOS FC | KINGS CUP BRAZIL | 5ª RODADA"
@@ -44,6 +56,12 @@
 },
 {
 "c": "CazéTV",
+"f": "2026-11-17",
+"id": "B3YJtNnohvw",
+"t": "QUANDO JAIR CUNHA SE APRESENTOU AO MUNDO!"
+},
+{
+"c": "CazéTV",
 "f": "2026-11-16",
 "id": "8D1MzIxFU3k",
 "t": "O FUTEBOL BRASILEIRO ESTÁ PRESO EM UMA SIMULAÇÃO?"
@@ -65,12 +83,6 @@
 "f": "2026-11-16",
 "id": "E4U_d0rU-LE",
 "t": "ANDRÉ: A JOIA CORINTIANA QUE ENCANTOU ANCELOTTI"
-},
-{
-"c": "CazéTV",
-"f": "2026-11-16",
-"id": "m9GZ-bkD5aI",
-"t": "AO VIVO: SANTOS X SÃO PAULO | PAULISTÃO F 2026 | PLAY-IN"
 },
 {
 "c": "CazéTV",
@@ -5387,18 +5399,6 @@
 "f": "2026-09-19",
 "id": "el0x5eGO_yc",
 "t": "MELHORES MOMENTOS: MAMELODI SUNDOWNS 2 X 1 AL AHLI | COPA INTERCONTINENTAL DA FIFA 2026 | 2ª FASE"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-19",
-"id": "xRYICiMXK9w",
-"t": "5 curiosidades, uma missão: contar tudo antes do saque!"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-19",
-"id": "CcQm-sSwS58",
-"t": "MELHORES MOMENTOS: COREIA DO SUL 1 X 3 ITÁLIA | COPA DO MUNDO FEMININA SUB-20 FIFA 2026 | QUARTAS"
 }
 ],
 "bundesliga": [
@@ -15256,6 +15256,12 @@
 "laliga": [
 {
 "c": "LALIGA EA SPORTS",
+"f": "2026-11-18",
+"id": "ce0-o67fRWo",
+"t": "Keeper on the Loose!"
+},
+{
+"c": "LALIGA EA SPORTS",
 "f": "2026-11-17",
 "id": "lzWxQsWw81o",
 "t": "El swing de Grimaldo 🏌️‍♂️"
@@ -20647,12 +20653,6 @@
 "f": "2026-09-10",
 "id": "t6ni_AX2FBk",
 "t": "Aubameyang ✨"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-09-10",
-"id": "z0asVNs_5O4",
-"t": "Los dos minutos que condenaron a los de SIMEONE ⏰"
 }
 ],
 "ligue1": [
