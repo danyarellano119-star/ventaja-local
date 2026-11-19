@@ -62,6 +62,30 @@
 },
 {
 "c": "CazéTV",
+"f": "2026-11-19",
+"id": "9B48Zrg5s18",
+"t": "JOGO COMPLETO: CORITIBA X SANTOS | BRASILEIRÃO 2026 | 35ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-19",
+"id": "hdOXx_h48E0",
+"t": "A SENSAÇÃO DE QUEM VAI ZERAR GTA VI PELO YOUTUBE"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-19",
+"id": "uvIUotoeJAk",
+"t": "MELHORES MOMENTOS: CORINTHIANS 4 x 0 BOTAFOGO | BRASILEIRÃO 2026 | 35ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-19",
+"id": "gOe1sI9JhN0",
+"t": "MELHORES MOMENTOS: CRUZEIRO 2 x 1 PALMEIRAS | BRASILEIRÃO 2026 | 35ª RODADA"
+},
+{
+"c": "CazéTV",
 "f": "2026-11-18",
 "id": "m9GZ-bkD5aI",
 "t": "JOGO COMPLETO: SANTOS X SÃO PAULO | PAULISTÃO F 2026 | PLAY-IN"
@@ -1991,12 +2015,6 @@
 "f": "2026-10-30",
 "id": "uZO0FSSIc3E",
 "t": "MELHORES MOMENTOS: NANÁ SILVA 1 X 0 FRANCESCA JONES | WTA 125 DE CURITIBA | QUARTAS DE FINAL"
-},
-{
-"c": "CazéTV",
-"f": "2026-10-30",
-"id": "9B48Zrg5s18",
-"t": "AO VIVO: CORITIBA X SANTOS | BRASILEIRÃO 2026 | 35ª RODADA"
 },
 {
 "c": "CazéTV",
@@ -5381,27 +5399,21 @@
 "f": "2026-09-20",
 "id": "uhbrx26FNSE",
 "t": "MELHORES MOMENTOS: VILLARREAL 3 X 1 LEVANTE | LALIGA 26/27 | 7ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-20",
-"id": "mS1-mlx6Ec0",
-"t": "MELHORES MOMENTOS: JUVENTUS 2 X 0 ATALANTA | SERIE A ITALIANA 26/27"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-20",
-"id": "gxHLbHeqEM4",
-"t": "ATLÉTI COLOCOU O REAL NA RODA! ATLÉTICO DE MADRID 2 X 1 REAL MADRID | LALIGA 26/27 | COMPACTO"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-20",
-"id": "YySQvVwdFH8",
-"t": "MELHORES MOMENTOS: CORINTHIANS 1 X 3 FLUMINENSE | BRASILEIRÃO 2026 | RODADA 28"
 }
 ],
 "bundesliga": [
+{
+"c": "Bundesliga",
+"f": "2026-11-19",
+"id": "7RzG7NE8fA4",
+"t": "Goals don‘t always = celebrations… 😅"
+},
+{
+"c": "Bundesliga",
+"f": "2026-11-19",
+"id": "G63_7y2jt4M",
+"t": "LIVE 🔴 Borussia Mönchengladbach vs. Borussia Dortmund | Matchday 10 - Bundesliga 2026/27"
+},
 {
 "c": "Bundesliga",
 "f": "2026-11-18",
@@ -5431,6 +5443,60 @@
 "f": "2026-11-16",
 "id": "VaUvdwH9nv8",
 "t": "Keeping it out, one way or another! 👏🔥"
+},
+{
+"c": "Bundesliga",
+"f": "2026-11-16",
+"id": "OYn_F4hR_js",
+"t": "LIVE 🔴 FC Energie Cottbus vs. Hertha BSC | Matchday 12 - Bundesliga 2 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-11-16",
+"id": "swu1V2-Ot6o",
+"t": "LIVE 🔴 Karlsruher SC vs. VfL Osnabrück | Matchday 12 - Bundesliga 2 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-11-16",
+"id": "nIBcXOstadc",
+"t": "LIVE 🔴 1. FC Kaiserslautern vs. SG Dynamo Dresden | Matchday 12 - Bundesliga 2 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-11-16",
+"id": "8bkMrgTBxSM",
+"t": "LIVE 🔴 FC St. Pauli vs. VfL Bochum 1848 | Matchday 12 - Bundesliga 2 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-11-16",
+"id": "Zq0etOjgwi4",
+"t": "LIVE 🔴 1. FC Nürnberg vs. Eintracht Braunschweig | Matchday 12 - Bundesliga 2 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-11-16",
+"id": "9yWXOKrwVvI",
+"t": "LIVE 🔴 Hannover 96 vs. SpVgg Greuther Fürth | Matchday 12 - Bundesliga 2 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-11-16",
+"id": "be5LxU9v5vc",
+"t": "LIVE 🔴 VfL Wolfsburg vs. Holstein Kiel | Matchday 12 - Bundesliga 2 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-11-16",
+"id": "n1xmgbmkU80",
+"t": "LIVE 🔴 DSC Arminia Bielefeld vs. 1. FC Magdeburg | Matchday 12 - Bundesliga 2 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-11-16",
+"id": "TcuyAyW3PJs",
+"t": "LIVE 🔴 SV Darmstadt 98 vs. 1. FC Heidenheim 1846 | Matchday 12 - Bundesliga 2 2026/27"
 },
 {
 "c": "Bundesliga",
@@ -9894,6 +9960,12 @@
 }
 ],
 "eredivisie": [
+{
+"c": "ESPN NL",
+"f": "2026-11-19",
+"id": "_CIvfoZcnLQ",
+"t": "🎯🔙 De TERUGKEER van de TARGETMAN: \"Het SPEL BEGINT pas als hij de bal krijgt\""
+},
 {
 "c": "ESPN NL",
 "f": "2026-11-18",
@@ -15287,12 +15359,6 @@
 "f": "2026-09-24",
 "id": "bpv0hcclQOo",
 "t": "RUBEN VAN BOMMEL koeltjes over PRACHTIGE ASSIST op Cody Gakpo 🎨😮‍💨 | Interview"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-24",
-"id": "Kbc6AQPHX0U",
-"t": "MEXX MEERDINK GLUNDERT na ‘hele bijzondere avond’ bij Oranje-debuut 🦁 | Interview"
 }
 ],
 "laliga": [
@@ -15301,6 +15367,24 @@
 "f": "2026-11-19",
 "id": "KAq_SF-QqEw",
 "t": "Lamine ✨⚽"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-19",
+"id": "2eNZhBh0j0o",
+"t": "¿QUIÉN ES? Con Álex REMIRO"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-19",
+"id": "5JQltC3OGAg",
+"t": "Los ÚLTIMOS 18 MINUTOS de un apasionante ELGRANDERBI"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-19",
+"id": "9I6Qa6y9_Eo",
+"t": "Asío celebró el FC Barcelona en el Riyadh Air Metropolitano"
 },
 {
 "c": "LALIGA EA SPORTS",
@@ -15343,6 +15427,12 @@
 "f": "2026-11-18",
 "id": "3tkMYSnY280",
 "t": "TODOS LOS GOLES vistos desde la REFCAM"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-18",
+"id": "E_bDYnKD63w",
+"t": "VINICIUS JR.: ¿ha llegado su MOMENTO? | LALIGA FANTASY SHOW #11"
 },
 {
 "c": "LALIGA EA SPORTS",
@@ -20671,33 +20761,21 @@
 "f": "2026-09-11",
 "id": "yIY59S6XkJ8",
 "t": "La reacción de MBAPPÉ al calor de Sevilla"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-09-11",
-"id": "27RZekQAGFs",
-"t": "🔴 SEVILLA FC vs VALENCIA CF - PREVIA DEL PARTIDO"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-09-11",
-"id": "x8BBFRJwdfA",
-"t": "El sorteo inicial entre los capitanes de Sevilla y Valencia a través de la #RefCam  👀"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-09-11",
-"id": "1bCp8uyaOuk",
-"t": "🤝 ¡Así ha sido el saludo entre jugadores de Sevilla y Valencia a través de la #RefCam!"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-09-11",
-"id": "iBgeZcXv-Wg",
-"t": "SEVILLA FC vs VALENCIA CF | RUEDA DE PRENSA"
 }
 ],
 "ligue1": [
+{
+"c": "Ligue 1",
+"f": "2026-11-19",
+"id": "HA9JLAe_IzA",
+"t": "Dimitri Payet ou Didier Drogba ? 🌟 #football #ligue1 #foot #footballshorts #sports #soccer #shorts"
+},
+{
+"c": "Ligue 1",
+"f": "2026-11-19",
+"id": "YOdiDKsRGo8",
+"t": "Ferran 🤝 Dro  Smooth 😮💨 #ligue1mcdonalds  #football #ligue1 #foot #psg #footballshorts #soccer #edit"
+},
 {
 "c": "Ligue 1",
 "f": "2026-11-18",
@@ -23756,6 +23834,12 @@
 "premier": [
 {
 "c": "Premier League",
+"f": "2026-11-19",
+"id": "IxQGDLdiE10",
+"t": "Berbatov Puts You In A Spin 🌀"
+},
+{
+"c": "Premier League",
 "f": "2026-11-18",
 "id": "69ls1Q31Teo",
 "t": "The Very Best Goals From 2026/27... So Far"
@@ -25772,6 +25856,12 @@
 }
 ],
 "seriea": [
+{
+"c": "Serie A",
+"f": "2026-11-19",
+"id": "XhOUBlJbpNQ",
+"t": "PARMA-ROMA 2-3 | CLASSIC HIGHLIGHTS SERIE A 2025/26"
+},
 {
 "c": "Serie A",
 "f": "2026-11-18",
