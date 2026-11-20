@@ -32,6 +32,30 @@
 },
 {
 "c": "CazéTV",
+"f": "2026-11-20",
+"id": "iPYyDa1nvbU",
+"t": "COMO JOGA O ESTUDIANTES? | ANÁLISE VERDÃO"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-20",
+"id": "qc5wHm7MRNM",
+"t": "MLK, OLHA ESSE GOL QUE O BAYERN DE MUNIQUE TOMOU!"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-20",
+"id": "xGafPl1Eb0k",
+"t": "PARECIA SER SÓ MAIS UM ATAQUE DO BAYERN DE MUNIQUE, ATÉ QUE..."
+},
+{
+"c": "CazéTV",
+"f": "2026-11-20",
+"id": "ccCIER2fSew",
+"t": "FLAMENGO PODE SER CAMPEÃO NO FINAL DE SEMANA E SUPER BAYERN EM CAMPO | GERAL CAZÉTV"
+},
+{
+"c": "CazéTV",
 "f": "2026-11-19",
 "id": "wuAAe1fQEug",
 "t": "DESAFIO DO DUVIDO! LUIS, BELT, IGOR E CHICO DUELAM PARA ESCAPAR DA HUMILHAÇÃO | RODA DE BOBO"
@@ -590,6 +614,12 @@
 },
 {
 "c": "CazéTV",
+"f": "2026-11-12",
+"id": "SpFEIHHF520",
+"t": "AO VIVO (SOM AMBIENTE): ESTAC TROYES X LE HAVRE | LIGUE 1 26/27 | 11ª RODADA"
+},
+{
+"c": "CazéTV",
 "f": "2026-11-11",
 "id": "aO39ky6JmRM",
 "t": "BRASIL NO HANDEBOL DE PRAIA | JOGOS OLÍMPICOS DA JUVENTUDE DAKAR 2026"
@@ -683,6 +713,12 @@
 "f": "2026-11-10",
 "id": "b8cgsYH-ZdU",
 "t": "SORTEIO DO PAULISTÃO 2027"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-10",
+"id": "r6Hc7PpnPlU",
+"t": "AO VIVO: BAYERN DE MUNIQUE X FC KÖLN | BUNDESLIGA 26/27 | 10ª RODADA"
 },
 {
 "c": "CazéTV",
@@ -5363,42 +5399,6 @@
 "f": "2026-09-21",
 "id": "PEnzqjNeZpY",
 "t": "REVELAMOS OS BASTIDORES DA COPA DAVIS, ONDE JOÃO FONSECA VENCEU DOMINC STRICKER!"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-20",
-"id": "HZJrOjwVD4E",
-"t": "BOTAFOGO PERDE PARA O MIRASSOL NA ESTREIA DE TITE E ZIYECH | RODA DE BOBO"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-20",
-"id": "5tuFjljf3OA",
-"t": "JOGO COMPLETO: MIRASSOL X BOTAFOGO | BRASILEIRÃO 2026 | 28ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-20",
-"id": "1inrHmQ6eqM",
-"t": "MELHORES MOMENTOS: VASCO 5 X 0 CORITIBA | BRASILEIRÃO 2026 | RODADA 28"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-20",
-"id": "p1YG6fxcbgo",
-"t": "MELHORES MOMENTOS: MATHEUS PUCINELLI X REMY BERTOLA | BRASIL X SUÍÇA | COPA DAVIS 2026"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-20",
-"id": "4mPuaMRZKqA",
-"t": "DESAFIO DO PROIBIDO! CAZÉ E LUÍS X DONAN E IGOR RODRIGUES NUM JOGO CHEIO DE REVIRAVOLTAS E POLÊMICAS"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-20",
-"id": "bYKfH0AzBO8",
-"t": "JOGO COMPLETO (SOM AMBIENTE): TÊNIS DE MESA | FINAIS DO WTT STAR CONTENDER DE ASTANA"
 }
 ],
 "bundesliga": [
@@ -5407,6 +5407,24 @@
 "f": "2026-11-20",
 "id": "Gy4-rkM0NsI",
 "t": "🤩 Picture-perfect penalty stop! 💯🧤"
+},
+{
+"c": "Bundesliga",
+"f": "2026-11-20",
+"id": "n1xmgbmkU80",
+"t": "DSC Arminia Bielefeld vs. 1. FC Magdeburg | Matchday 12 - Bundesliga 2 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-11-20",
+"id": "TcuyAyW3PJs",
+"t": "SV Darmstadt 98 vs. 1. FC Heidenheim 1846 | Matchday 12 - Bundesliga 2 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-11-20",
+"id": "x40ubtBQMtM",
+"t": "THANKFUL FOR THE BELLINGHAM BROS! Nordderby Preview & Thanksgiving | Bundesliga Haus S.2 Ep.5"
 },
 {
 "c": "Bundesliga",
@@ -5495,14 +5513,8 @@
 {
 "c": "Bundesliga",
 "f": "2026-11-16",
-"id": "n1xmgbmkU80",
-"t": "LIVE 🔴 DSC Arminia Bielefeld vs. 1. FC Magdeburg | Matchday 12 - Bundesliga 2 2026/27"
-},
-{
-"c": "Bundesliga",
-"f": "2026-11-16",
-"id": "TcuyAyW3PJs",
-"t": "LIVE 🔴 SV Darmstadt 98 vs. 1. FC Heidenheim 1846 | Matchday 12 - Bundesliga 2 2026/27"
+"id": "rjP_pEkmRos",
+"t": "LIVE 🔴 FC Bayern München vs. 1. FC Köln | Matchday 10 - Bundesliga 2026/27"
 },
 {
 "c": "Bundesliga",
@@ -8142,6 +8154,24 @@
 },
 {
 "c": "UEFA",
+"f": "2026-11-20",
+"id": "XY0f1NB8IQc",
+"t": "Bale’s trivela cross"
+},
+{
+"c": "UEFA",
+"f": "2026-11-20",
+"id": "Z5jPiXu4jvg",
+"t": "EVERY Women's Champions League Goal From Matchday 5 | Highlights"
+},
+{
+"c": "UEFA",
+"f": "2026-11-20",
+"id": "pcoVq0v4IxM",
+"t": "Arda Güler at Fenerbahçe"
+},
+{
+"c": "UEFA",
 "f": "2026-11-19",
 "id": "e1KnuMsCGZ0",
 "t": "Benzema starting and ending the move 😮‍💨"
@@ -10025,6 +10055,90 @@
 "f": "2026-11-20",
 "id": "vgH7zP8TXRA",
 "t": "Precies 1️⃣5️⃣ jaar geleden: De allerbeste volley ooit in de Eredivisie? 🚀😱"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-20",
+"id": "mTGHTo23cck",
+"t": "Oh, oh, Sam Karssies… 👀🧤"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-20",
+"id": "RDoy_fZwqDQ",
+"t": "Wat is mooier: de VOORBEREIDING of toch de AFRONDING? 🤔✨"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-20",
+"id": "ZpwgHDhs4tc",
+"t": "Tristan van Gilst met een hoogstandje 💫👏"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-20",
+"id": "YT8EoZbeh1w",
+"t": "De supporters van FC Emmen worden extra verwend met een heerlijk plakje worst 😋"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-20",
+"id": "CTgVU1kwA9I",
+"t": "Tarik Essakkati 🤯✨"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-20",
+"id": "h6zzgDABgk4",
+"t": "Julian Sijbrands haalt ook maar eens uit 🤤"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-20",
+"id": "ZFmAAZy6VKY",
+"t": "Jasper Hartog doet het gewoon van afstand 😱💥"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-20",
+"id": "EVavjbUcsNs",
+"t": "Een bijzondere bezoeker bij Heracles - Jong PSV 🐈👀"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-20",
+"id": "GkAAIXXCaaw",
+"t": "Hoor, wie klopt daar in De Vliert? 🚪👀"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-20",
+"id": "GbmiBjn951A",
+"t": "BRAHIM DARRI belt met zijn 'BROERTJE' MOHAMED IHATTAREN 📱 | De Voetbalkantine"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-20",
+"id": "7E61vGE_o4U",
+"t": "Mohamed Ihattaren belt met zijn 'broer' Brahim Darri 😂📱"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-20",
+"id": "UU2-ztPwrws",
+"t": "Giovanni van Bronckhorst hoopt tegen Excelsior op een goede start van het volgende blok 👀 🔜"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-20",
+"id": "HlFadFdywrg",
+"t": "Giovanni van Bronckhorst hoopt Jeremiah St. Juste voor de winterstop nog te kunnen gebruiken 👀"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-20",
+"id": "PTJneLfiz6c",
+"t": "Giovanni van Bronckhorst is op zijn hoede voor GTA VI 👀🎮"
 },
 {
 "c": "ESPN NL",
@@ -15299,90 +15413,6 @@
 "f": "2026-09-26",
 "id": "md4BlG4w1Tk",
 "t": "PRACHTIGE GOAL CLANCY TIJDENS DOELPUNTENFESTIJN🔥 | Samenvatting FC Volendam - VVV-Venlo"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-26",
-"id": "-dOZyn89wIU",
-"t": "🇧🇪 OLIVIER DUMONT VINDT OPNIEUW HET NET ⚽️ | Samenvatting MVV - Helmond Sport"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-26",
-"id": "U80RYO7voEA",
-"t": "17-jarige (!) CHIEL SUNDER opent SCORE voor EMMEN 🤩 | samenvatting FC Emmen - TOP Oss"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-26",
-"id": "VT0gea8BV7k",
-"t": "HECTISCHE SLOTFASE met 3️⃣ GOALS, INVALLERS TREFZEKER  🤯 | Samenvatting NAC Breda - FC Eindhoven"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-26",
-"id": "2qCpu4NKyow",
-"t": "JEAN-PAUL N'DJOLI IS NIET TE STOPPEN 🔥 | Samenvatting Heracles Almelo - Vitesse"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-25",
-"id": "PUPuT3YH57w",
-"t": "🦁🔶 Het BESTE van 𝐎𝐑𝐀𝐍𝐉𝐄-𝐃𝐄𝐁𝐔𝐓𝐀𝐍𝐓 RUBEN VAN BOMMEL 2026/27 ✨"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-25",
-"id": "uy2z1wUd3-Y",
-"t": "Hans Kraay jr. is niet te spreken over scheidsrechter Alejandro Hernández Hernández 😂🫣"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-25",
-"id": "rGv2SeUwrms",
-"t": "🆕 De ONTGROENING van XAVI HERNÁNDEZ: \"We weten nog niet wat de hand van de bondscoach is.\" 🤷"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-25",
-"id": "RUyN1rccA74",
-"t": "🤯 Een PRACHTIG DEBUUT voor RUBEN VAN BOMMEL: \"Ik vind hem een topspeler in wording.\" ⭐️"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-25",
-"id": "1NAbozpB4m8",
-"t": "🔎 Het debuut van MEXX MEERDINK onder de LOEP: \"Hij moest in de wedstrijd groeien\" 📈 |Voetbalpraat"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-25",
-"id": "AaTerdEyK0A",
-"t": "#Ad | Sorry, Q 😂👏"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-25",
-"id": "qY1e2FbsL4U",
-"t": "😂 GENIETEN: Andy VAN DER MEIJDE, Eljero ELIA en QUCEE spelen EA FC 27-challenges 🎮⚽️"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-25",
-"id": "mGCEC120G0E",
-"t": "Precies 5️⃣ jaar geleden: Een krankzinnige editie van Feyenoord - N.E.C. 🤯"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-25",
-"id": "xnv1QAoL5w0",
-"t": "VROEGE KEEPERSBLUNDER en SPECTACULAIRE SLOTFASE 🥵🍿 | Samenvatting FC Dordrecht - Almere City"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-25",
-"id": "K9iaoaH9jDk",
-"t": "Ayoub Ouarghi maakt in blessuretijd de winnende op schitterende wijze 😱"
 }
 ],
 "laliga": [
@@ -15397,6 +15427,36 @@
 "f": "2026-11-20",
 "id": "z536dbDmh7M",
 "t": "Los sombreros de FERMÍN desde la REFCAM"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-20",
+"id": "-OP9VsBOtjY",
+"t": "FORTUÑO. 🦸"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-20",
+"id": "SHRF2xCAVdo",
+"t": "𝗡𝗜𝗖𝗢 𝗪𝗜𝗟𝗟𝗜𝗔𝗠𝗦. 🔥"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-20",
+"id": "PbPKvU8VKRI",
+"t": "🔴 ATHLETIC CLUB vs RCD ESPANYOL - PREVIA DEL PARTIDO"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-20",
+"id": "idxAm_toTx0",
+"t": "Real Betis 2 - 2 Sevilla FC 2017/18 PARTIDO COMPLETO"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-20",
+"id": "Fvw-okynt68",
+"t": "Adivina el once con PEDRI"
 },
 {
 "c": "LALIGA EA SPORTS",
@@ -20755,36 +20815,6 @@
 "f": "2026-09-12",
 "id": "f7Tv5u_pXD0",
 "t": "REAL MADRID 4 - 1 RAYO VALLECANO | RESUMEN LALIGA EA SPORTS"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-09-12",
-"id": "fOW9qoC2s4I",
-"t": "Este pase de Güler… 💫"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-09-12",
-"id": "WwL9yDQRRe8",
-"t": "⛔️ AUDERO dice que NO! ⛔️"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-09-12",
-"id": "ALjmpe0TFHI",
-"t": "🫲BELLINGHAM🫱"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-09-12",
-"id": "IzHF531PU0Q",
-"t": "🚀 ¡Su primer gol de la temporada!"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-09-11",
-"id": "uXM_IHfMiKY",
-"t": "Cuando RODRYGO salvó al REAL MADRID  ⚪🔥 | LALIGA EA SPORTS"
 }
 ],
 "ligue1": [
@@ -20805,6 +20835,24 @@
 "f": "2026-11-20",
 "id": "LDbiEsweg90",
 "t": "9 goals  5 assists  Lassine Sinayoko 🔥🇲🇱 #ligue1mcdonalds  #football #ligue1 #foot #footballshorts"
+},
+{
+"c": "Ligue 1",
+"f": "2026-11-20",
+"id": "kt1nYJm8WOI",
+"t": "CARLOS VICENS : L'INCROYABLE PARCOURS DU NOUVEAU COACH DE L'OL"
+},
+{
+"c": "Ligue 1",
+"f": "2026-11-20",
+"id": "XV2FnD8N2zg",
+"t": "La folle histoire du RC Strasbourg : 120 ans🎂​ @remontada_yt #football #ligue1 #foot #footballshorts"
+},
+{
+"c": "Ligue 1",
+"f": "2026-11-20",
+"id": "SBDukaC-as8",
+"t": "Julien Duranville 🌪️🇧🇪 #ligue1mcdonalds  #football #ligue1 #foot #footballshorts #sports #soccer"
 },
 {
 "c": "Ligue 1",
@@ -23903,6 +23951,18 @@
 "f": "2026-11-20",
 "id": "ghC20XAAlZs",
 "t": "FPL Deadline Countdown | Last-Minute Advice | GW11"
+},
+{
+"c": "Premier League",
+"f": "2026-11-20",
+"id": "mPPCvHDZ-OU",
+"t": "Do Players Know The Meaning Of These Words? | On The Spot"
+},
+{
+"c": "Premier League",
+"f": "2026-11-20",
+"id": "3HQXs1-DDNs",
+"t": "Applying Pressure, Reaping Rewards 🇧🇷"
 },
 {
 "c": "Premier League",
