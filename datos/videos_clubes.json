@@ -728,6 +728,12 @@
 "AS Roma": [
 {
 "c": "AS Roma",
+"f": "2026-11-19",
+"id": "pF7-PRp3iLI",
+"t": "INTERVISTE JAHNUKAINEN & PIOVANI | Post Match | Benfica-Roma | Uefa Women's Champions League"
+},
+{
+"c": "AS Roma",
 "f": "2026-11-18",
 "id": "iyHDE4Y15G8",
 "t": "🟨 🟥 EVERY HERMOSO GOAL SO FAR ⚽️"
@@ -959,12 +965,6 @@
 "f": "2026-10-19",
 "id": "p2h0njYwYRU",
 "t": "🟨  LIVE  🟥  LA CONFERENZA STAMPA DI GASPERINI E PELLEGRINI"
-},
-{
-"c": "AS Roma",
-"f": "2026-10-18",
-"id": "Xu730p7h1tg",
-"t": "ROMA 2-0 GENOA | SERIE A HIGHLIGHTS 2026-27"
 }
 ],
 "Arsenal": [
@@ -3148,6 +3148,18 @@
 "Corinthians": [
 {
 "c": "Corinthians TV",
+"f": "2026-11-20",
+"id": "cHq8G2MKhFc",
+"t": "JOGO COMPLETO: PATO BASQUETE 73 X 74 CORINTHIANS | NBB CAIXA 2026/27 | 9ª RODADA"
+},
+{
+"c": "Corinthians TV",
+"f": "2026-11-20",
+"id": "S69bjn-v1Z0",
+"t": "BASTIDORES | CORINTHIANS 4 X 0 BOTAFOGO | BRASILEIRÃO 2026 | 35ª RODADA"
+},
+{
+"c": "Corinthians TV",
 "f": "2026-11-19",
 "id": "0FiFCe7saDg",
 "t": "COLETIVA PÓS-JOGO | CORINTHIANS 4 X 0 BOTAFOGO | CLARENCE SEEDORF | BRASILEIRÃO 2026 | 35ª RODADA"
@@ -3373,18 +3385,6 @@
 "f": "2026-11-15",
 "id": "f9M42pvkm3w",
 "t": "TREINO DO TIMÃO: DOMINGO DE PREPARAÇÃO NO CT DR. JOAQUIM GRAVA"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-11-15",
-"id": "Pl2IfrkbCvU",
-"t": "DEIVES É ETERNIZADO NA CALÇADA DA FAMA DO CORINTHIANS"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-11-14",
-"id": "RNrW9E3ntV0",
-"t": "JOGO COMPLETO: CORINTHIANS 2 X 2 SÃO JOSÉ | PAULISTA DE FUTSAL SUB-20 2026 | SEMIFINAL - VOLTA"
 }
 ],
 "Coventry City": [
@@ -3898,6 +3898,12 @@
 },
 {
 "c": "TV CRUZEIRO | Cruzeiro Esporte Clube",
+"f": "2026-11-19",
+"id": "ti-OLDSJAfc",
+"t": "🦊 BASTIDORES | CRUZEIRO 2 x 1 PALMEIRAS"
+},
+{
+"c": "TV CRUZEIRO | Cruzeiro Esporte Clube",
 "f": "2026-11-18",
 "id": "OTndU56a3oA",
 "t": "AO VIVO E COM IMAGENS | Cruzeiro x Boston City | Semifinal do Mineiro Sub-17 | Jogo de volta"
@@ -4105,12 +4111,6 @@
 "f": "2026-10-20",
 "id": "SxyhgHTV3SE",
 "t": "Os #Bastidores da vitória sobre o Grêmio já estão disponíveis na TV Cruzeiro! 🦊💙"
-},
-{
-"c": "TV CRUZEIRO | Cruzeiro Esporte Clube",
-"f": "2026-10-19",
-"id": "3zxj04qoBLU",
-"t": "🦊🎙ENTREVISTA | ARTUR JORGE | GRÊMIO 2 x 4 CRUZEIRO"
 }
 ],
 "Everton": [
@@ -4388,6 +4388,12 @@
 },
 {
 "c": "FC Barcelona",
+"f": "2026-11-19",
+"id": "o429zkWQQLI",
+"t": "HIGHLIGHTS | FC BARCELONA 6 vs 0 SERVETTE WOMEN | UEFA WOMEN'S CHAMPIONS LEAGUE🔵🔴"
+},
+{
+"c": "FC Barcelona",
 "f": "2026-11-18",
 "id": "sItpL--AS24",
 "t": "A big stretch ahead. We're all in 🔥 #fcbarcelona #football #shorts"
@@ -4589,12 +4595,6 @@
 "f": "2026-11-09",
 "id": "lmTjuAMA9JU",
 "t": "INSIDE VIEW | ATLÉTICO MADRID 1 vs 2 FC BARCELONA  👀🔵🔴"
-},
-{
-"c": "FC Barcelona",
-"f": "2026-11-09",
-"id": "L-rcOmCwt_o",
-"t": "🔥 NO SLOWING DOWN DURING THE INTERNATIONAL BREAK | FC Barcelona Training Session 🔵🔴"
 }
 ],
 "Fenerbahçe SK": [
@@ -5326,6 +5326,24 @@
 "Flamengo": [
 {
 "c": "Flamengo TV",
+"f": "2026-11-20",
+"id": "fONPP3XsHVQ",
+"t": "ISSO AQUI É FLAMENGO! ❤️🖤"
+},
+{
+"c": "Flamengo TV",
+"f": "2026-11-20",
+"id": "7Fhdca6BJ88",
+"t": "CARRASCAL E JORGINHO COMANDAM A VIRADA! 🔴⚫ FLAMENGO 2 X 1 ATHLETICO-PR | VLOG NO MARACA!"
+},
+{
+"c": "Flamengo TV",
+"f": "2026-11-20",
+"id": "Zz1gfrIZ9HI",
+"t": "🔴 AO VIVO: AEROFLA | EMBARQUE PARA SÃO PAULO | 20/11/26"
+},
+{
+"c": "Flamengo TV",
 "f": "2026-11-19",
 "id": "Iy5CfvUbVfk",
 "t": "🔴 EN VIVO: FLAMENGO x ATHLETICO-PR | NARRACIÓN EN ESPAÑOL Y CON IMÁGENES | BRASILEIRÃO (18/11/26)"
@@ -5464,6 +5482,12 @@
 },
 {
 "c": "Flamengo TV",
+"f": "2026-11-19",
+"id": "m9kDgic7Y-o",
+"t": "ISSO AQUI É FLAMENGO | FLAMENGO 2 X 1 ATHLETICO-PR | BRASILEIRÃO | 18/11/2026"
+},
+{
+"c": "Flamengo TV",
 "f": "2026-11-18",
 "id": "lpC7OnZGfaI",
 "t": "ÚLTIMOS AJUSTES! FLAMENGO TREINA PARA ENFRENTAR O ATHLETICO-PR"
@@ -5539,50 +5563,26 @@
 "f": "2026-11-17",
 "id": "foRpaCarPjg",
 "t": "A letra muda, o tempo diminui e a ansiedade aumenta... ⏳😂"
-},
-{
-"c": "Flamengo TV",
-"f": "2026-11-16",
-"id": "QEKj0ZSJcl0",
-"t": "🔴 AO VIVO: TREINO DO FLAMENGO DIRETO DO NINHO | 16/11/26"
-},
-{
-"c": "Flamengo TV",
-"f": "2026-11-16",
-"id": "esU4IbohNOk",
-"t": "FLAMENGO TREINA PARA O DUELO CONTRA O ATHLETICO-PR!"
-},
-{
-"c": "Flamengo TV",
-"f": "2026-11-16",
-"id": "9HcY79SmZnY",
-"t": "EM NOME DO JOGO | A MARCA COMO NEGÓCIO COM RICARDO HINRICHSEN E EDGAR CARMO."
-},
-{
-"c": "Flamengo TV",
-"f": "2026-11-16",
-"id": "Vp3GdkHq8Kk",
-"t": "JOAQUÍN FREITAS CONTA COMO FOI A EXPERIÊNCIA DE TREINAR COM MESSI!"
 }
 ],
 "Fluminense": [
 {
 "c": "Fluminense Football Club",
-"f": "2026-11-19",
-"id": "fvMxnfdiSeU",
-"t": "FLUTV NEWS:PREPARAÇÃO PARA ENFRENTAR O SÃO PAULO, PAPO COM LUCHO ACOSTA E 50 JOGOS DE NATH RODRIGUES"
-},
-{
-"c": "Fluminense Football Club",
-"f": "2026-11-19",
+"f": "2026-11-20",
 "id": "rw5Q9INImrw",
 "t": "AO VIVO - SÃO PAULO X FLUMINENSE | CAMPEONATO BRASILEIRO 2026 | 35ª RODADA"
 },
 {
 "c": "Fluminense Football Club",
-"f": "2026-11-19",
+"f": "2026-11-20",
 "id": "iVFRvYCItoQ",
-"t": "COLETIVA MARCÃO | SÃO PAULO X FLUMINENSE | CAMPEONATO BRASILEIRO 2026 | 35ª RODADA"
+"t": "COLETIVA MARCÃO | SÃO PAULO 0 X 1 FLUMINENSE | CAMPEONATO BRASILEIRO 2026 | 35ª RODADA"
+},
+{
+"c": "Fluminense Football Club",
+"f": "2026-11-19",
+"id": "fvMxnfdiSeU",
+"t": "FLUTV NEWS:PREPARAÇÃO PARA ENFRENTAR O SÃO PAULO, PAPO COM LUCHO ACOSTA E 50 JOGOS DE NATH RODRIGUES"
 },
 {
 "c": "Fluminense Football Club",
@@ -6820,6 +6820,12 @@
 },
 {
 "c": "Inter",
+"f": "2026-11-19",
+"id": "XLkmoOy9e7E",
+"t": "Here’s a slice of the night 🍕 Inter X Air Force 1 in Milano 📲🖤💙"
+},
+{
+"c": "Inter",
 "f": "2026-11-18",
 "id": "DGocnUEzkKE",
 "t": "Yes, you got that right. Christmas is already around the corner. But don’t panic, we’ve got a plan."
@@ -7009,12 +7015,6 @@
 "f": "2026-11-11",
 "id": "pTDK5mmvPcM",
 "t": "BARTOLI ILLUDE, IL CITY RIMONTA | INTER 1-4 MANCHESTER CITY | UEFA WOMEN'S CHAMPIONS LEAGUE 🖤💙"
-},
-{
-"c": "Inter",
-"f": "2026-11-11",
-"id": "D5MzuMIhWKc",
-"t": "Just a kid from South London 🕷️"
 }
 ],
 "Ipswich Town": [
@@ -9062,6 +9062,12 @@
 },
 {
 "c": "TV Palmeiras Sportingbet",
+"f": "2026-11-19",
+"id": "f_bmvE6yRYI",
+"t": "AO VIVO COM IMAGENS | PALMEIRAS X SÃO PAULO | PAULISTA SUB-17 2026"
+},
+{
+"c": "TV Palmeiras Sportingbet",
 "f": "2026-11-18",
 "id": "BXG6htyKK3g",
 "t": "PALMEIRAS EM BH PARA MAIS UMA FINAL!"
@@ -9263,12 +9269,6 @@
 "f": "2026-11-14",
 "id": "JQOGRike_KA",
 "t": "NÃO É HORA DE TIRAR O PÉ! 😤 O DISCURSO FORTE DO ALLAN BARCELOS NO INTERVALO!"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-11-13",
-"id": "M60wIGFiKgg",
-"t": "ENDRICK MANDA MENSAGEM PARA MURILO"
 }
 ],
 "Paris FC": [
@@ -10256,6 +10256,12 @@
 "SC Paderborn 07": [
 {
 "c": "SC Paderborn 07 TV (official)",
+"f": "2026-11-20",
+"id": "Yl04doyfCzY",
+"t": "Pressekonferenz vor unserem Auswärtsspiel bei Bayer 04 Leverkusen"
+},
+{
+"c": "SC Paderborn 07 TV (official)",
 "f": "2026-11-19",
 "id": "TM29QLjFLME",
 "t": "Kein Vorbeikommen ❌🧤"
@@ -10277,12 +10283,6 @@
 "f": "2026-11-18",
 "id": "2MiN7RPR67g",
 "t": "Auf die falsche Fährte gelockt 🙈👀"
-},
-{
-"c": "SC Paderborn 07 TV (official)",
-"f": "2026-11-18",
-"id": "Yl04doyfCzY",
-"t": "Pressekonferenz vor unserem Auswärtsspiel bei Bayer 04 Leverkusen"
 },
 {
 "c": "SC Paderborn 07 TV (official)",
@@ -12434,9 +12434,15 @@
 "São Paulo": [
 {
 "c": "São Paulo FC",
-"f": "2026-11-19",
+"f": "2026-11-20",
 "id": "ydGnjoqEBMw",
 "t": "NARRAÇÃO AO VIVO: SÃO PAULO X FLUMINENSE | BRASILEIRÃO 2026 - (35ª RODADA)"
+},
+{
+"c": "São Paulo FC",
+"f": "2026-11-19",
+"id": "xF7DUGHV71A",
+"t": "COLETIVA PÓS-JOGO: SÃO PAULO X FLUMINENSE | BRASILEIRÃO 2026"
 },
 {
 "c": "São Paulo FC",
@@ -12665,12 +12671,6 @@
 "f": "2026-10-18",
 "id": "rBJn_f-RcCM",
 "t": "MADE IN COTIA - EP.40 - INSPIRAÇÕES MADE IN COTIA E O DIA DAS CRIANÇAS NO CFA"
-},
-{
-"c": "São Paulo FC",
-"f": "2026-10-16",
-"id": "ctI6zme5uCw",
-"t": "PAULISTA SUB-15 2026: SÃO PAULO X GUARANI | SPFC PLAY"
 }
 ],
 "Tottenham Hotspur": [
