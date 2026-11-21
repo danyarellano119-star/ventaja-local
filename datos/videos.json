@@ -2,6 +2,24 @@
 "brasileirao": [
 {
 "c": "CazéTV",
+"f": "2026-11-21",
+"id": "gjBFdMHhdAQ",
+"t": "ATP FINALS E O PIOR NÚMERO 1 DA HISTÓRIA DO TÊNIS! | QUADRA ABERTA"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-21",
+"id": "sUs7AYORMpw",
+"t": "QUEM ESCOLHE OS MELHORES JOGADORES? | DESAFIO TIRA-TIME"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-21",
+"id": "OwxmFWKG6OU",
+"t": "DESAFIO: MONTANDO O JOGADOR PERFEITO DA LA LIGA!"
+},
+{
+"c": "CazéTV",
 "f": "2026-11-20",
 "id": "61GPwvqD4dg",
 "t": "NA GAVETAAAAAA! 🎯🇭🇺 GOLAÇO ABSURDO DO FLUMINENSE PRA CARIMBAR A VITÓRIA CONTRA O SÃO PAULO 😮‍💨🔥"
@@ -53,6 +71,42 @@
 "f": "2026-11-20",
 "id": "ccCIER2fSew",
 "t": "FLAMENGO PODE SER CAMPEÃO NO FINAL DE SEMANA E SUPER BAYERN EM CAMPO | GERAL CAZÉTV"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-20",
+"id": "M44JCPKRO1k",
+"t": "FLAMENGO PERTO DO TÍTULO, VINI DE VOLTA E BRUNO G REENCONTRA O NEWCASTLE | QUEM FEZ, FEZ"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-20",
+"id": "SpFEIHHF520",
+"t": "JOGO COMPLETO (SOM AMBIENTE): ESTAC TROYES X LE HAVRE | LIGUE 1 26/27 | 11ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-20",
+"id": "r6Hc7PpnPlU",
+"t": "JOGO COMPLETO: BAYERN DE MUNIQUE X FC KÖLN | BUNDESLIGA 26/27 | 10ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-20",
+"id": "xAcLaq9EdBI",
+"t": "AQUELA HUMILHADA COM CLASSE..."
+},
+{
+"c": "CazéTV",
+"f": "2026-11-20",
+"id": "E5mKkVudvNY",
+"t": "VOCÊ CONSEGUE ADIVINHAR OS JOGADORES PELO EMOJI? 🤔"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-20",
+"id": "qM55OnUBNc0",
+"t": "MELHORES MOMENTOS: BAYERN DE MUNIQUE 1 X 1 FC KOLN | BUNDESLIGA 26/27 | 10ª RODADA"
 },
 {
 "c": "CazéTV",
@@ -173,18 +227,6 @@
 "f": "2026-11-19",
 "id": "JnQqYZ18IIY",
 "t": "AO VIVO: VINI JR RETORNA À LALIGA E GALO VAI EM BUSCA DO TÍTULO DA SULA | SEIS EM UM"
-},
-{
-"c": "CazéTV",
-"f": "2026-11-19",
-"id": "M44JCPKRO1k",
-"t": "AO VIVO: FLAMENGO PERTO DO TÍTULO, VINI DE VOLTA E BRUNO G REENCONTRA O NEWCASTLE | QUEM FEZ, FEZ"
-},
-{
-"c": "CazéTV",
-"f": "2026-11-19",
-"id": "gjBFdMHhdAQ",
-"t": "ATP FINALS E O PIOR NÚMERO 1 DA HISTÓRIA DO TÊNIS! | QUADRA ABERTA"
 },
 {
 "c": "CazéTV",
@@ -614,12 +656,6 @@
 },
 {
 "c": "CazéTV",
-"f": "2026-11-12",
-"id": "SpFEIHHF520",
-"t": "AO VIVO (SOM AMBIENTE): ESTAC TROYES X LE HAVRE | LIGUE 1 26/27 | 11ª RODADA"
-},
-{
-"c": "CazéTV",
 "f": "2026-11-11",
 "id": "aO39ky6JmRM",
 "t": "BRASIL NO HANDEBOL DE PRAIA | JOGOS OLÍMPICOS DA JUVENTUDE DAKAR 2026"
@@ -713,12 +749,6 @@
 "f": "2026-11-10",
 "id": "b8cgsYH-ZdU",
 "t": "SORTEIO DO PAULISTÃO 2027"
-},
-{
-"c": "CazéTV",
-"f": "2026-11-10",
-"id": "r6Hc7PpnPlU",
-"t": "AO VIVO: BAYERN DE MUNIQUE X FC KÖLN | BUNDESLIGA 26/27 | 10ª RODADA"
 },
 {
 "c": "CazéTV",
@@ -5369,36 +5399,6 @@
 "f": "2026-09-22",
 "id": "scP5sJ_87Y0",
 "t": "REVEJA A VITÓRIA DO BRASIL CONTRA OS ESTADOS UNIDOS NA COPA DO MUNDO FEMININA SUB-20 FIFA 2026"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-22",
-"id": "M7HKbmjhyP4",
-"t": "CONVOCAÇÃO DA SELEÇÃO BRASILEIRA FEMININA PARA AMISTOSOS CONTRA A ARGENTINA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-22",
-"id": "fhkYsSUJf0o",
-"t": "JOGO COMPLETO: RAYO VALLECANO X ESPANYOL | LALIGA 26/27 | 6ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-21",
-"id": "WKLPcazDBMI",
-"t": "JOGO COMPLETO: JUVENTUS X ATALANTA | SÉRIE A ITALIANA 26/27 | 5ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-21",
-"id": "WZj6eqZUhEc",
-"t": "NA BEIRA DA QUADRA: VEJA DE PERTO O BACKHAND DE UMA MÃO DE STAN WAWRINKA"
-},
-{
-"c": "CazéTV",
-"f": "2026-09-21",
-"id": "PEnzqjNeZpY",
-"t": "REVELAMOS OS BASTIDORES DA COPA DAVIS, ONDE JOÃO FONSECA VENCEU DOMINC STRICKER!"
 }
 ],
 "bundesliga": [
@@ -5425,6 +5425,18 @@
 "f": "2026-11-20",
 "id": "x40ubtBQMtM",
 "t": "THANKFUL FOR THE BELLINGHAM BROS! Nordderby Preview & Thanksgiving | Bundesliga Haus S.2 Ep.5"
+},
+{
+"c": "Bundesliga",
+"f": "2026-11-20",
+"id": "rjP_pEkmRos",
+"t": "FC Bayern München vs. 1. FC Köln | Matchday 10 - Bundesliga 2026/27"
+},
+{
+"c": "Bundesliga",
+"f": "2026-11-20",
+"id": "uBw8eTgql9I",
+"t": "Huge Urbig Save Scrapes Bayern A Point! | FC BAYERN - 1. FC KÖLN | Highlights | MD 10 – Bundesliga"
 },
 {
 "c": "Bundesliga",
@@ -5509,12 +5521,6 @@
 "f": "2026-11-16",
 "id": "be5LxU9v5vc",
 "t": "LIVE 🔴 VfL Wolfsburg vs. Holstein Kiel | Matchday 12 - Bundesliga 2 2026/27"
-},
-{
-"c": "Bundesliga",
-"f": "2026-11-16",
-"id": "rjP_pEkmRos",
-"t": "LIVE 🔴 FC Bayern München vs. 1. FC Köln | Matchday 10 - Bundesliga 2026/27"
 },
 {
 "c": "Bundesliga",
@@ -10139,6 +10145,66 @@
 "f": "2026-11-20",
 "id": "PTJneLfiz6c",
 "t": "Giovanni van Bronckhorst is op zijn hoede voor GTA VI 👀🎮"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-20",
+"id": "ILwLXWE-FBc",
+"t": "SAM KARSSIES helpt JONG FC UTRECHT 🫣 | Samenvatting Jong FC Utrecht - FC Emmen"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-20",
+"id": "fy2kuUHVoZ4",
+"t": "JASPER HARTOG met een WEERGALOZE eerste helft ⭐️ | Samenvatting Vitesse - Jong AZ"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-20",
+"id": "Msh0daYrgeU",
+"t": "AMSTERDAMSE JONKIES bezorgen VOLENDAM een LOODZWARE AVOND 😥 | Samenvatting FC Volendam - Jong Ajax"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-20",
+"id": "0rPm89D47YQ",
+"t": "MOUSSA SOUMANO scoort er 2️⃣⚽️ | Samenvatting Almere City - NAC Breda"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-20",
+"id": "KyJs8_BrNJM",
+"t": "De SUPERBOEREN zijn EINDELIJK weer op STOOM 🧑‍🌾🚜 | Samenvatting De Graafschap - MVV Maastricht"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-20",
+"id": "z62uJekvXw8",
+"t": "De KATTENMEPPERS slaan KEIHARD toe met 5️⃣ TREFFERS 🔥 | Samenvatting Helmond Sport - FC Dordrecht"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-20",
+"id": "yVxQI2MY0Bc",
+"t": "JAIRO BEERENS met een PRACHTIGE HAKBAL 😲💫 | Samenvatting Heracles - Jong PSV"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-20",
+"id": "5GMWS4sR6Bw",
+"t": "Boris van Schuppen NEEMT de BOSSCHENAREN bij de HAND 💪 | Samenvatting FC Den Bosch - VVV Venlo"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-20",
+"id": "vdolZHDQKFQ",
+"t": "MAXIM MARIANI weer BELANGRIJK voor TOP OSS  | Samenvatting TOP Oss - Roda JC"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-20",
+"id": "ayYNA8R6_aA",
+"t": "De wereldreis van Sheddy Barglan leverde 0️⃣ speelminuten op"
 },
 {
 "c": "ESPN NL",
@@ -15353,66 +15419,6 @@
 "f": "2026-09-26",
 "id": "EzKRhrN-cZM",
 "t": "#Ad | Qucee verkent 𝐓𝐡𝐞 𝐆𝐫𝐨𝐮𝐧𝐝𝐬 in FC 27 🏃‍♂️😂"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-26",
-"id": "fk-ld8Dcb8w",
-"t": "Daar is de vervanger van Brian Brobbey... Joshua Zirkzee 🔙🦁"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-26",
-"id": "VHtRt6VKRTo",
-"t": "#Ad | ↕️ 'Hoger of lager' met Andy en Qucee 🧠"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-26",
-"id": "LINAOPzUhuo",
-"t": "Wát een actie van Sophie van Vugt😍"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-26",
-"id": "g2ORK7uFaCk",
-"t": "🇷🇸🇳🇱 ORANJE-BONDSCOACH Xavi Hernández blikt vooruit op SERVIË - NEDERLAND 🎙️ | Persconferentie"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-26",
-"id": "dPj7oW7Ga_A",
-"t": "Zo zie je ze niet vaak👏🔥"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-26",
-"id": "Egt1aPcoiQ4",
-"t": "Xavi nam niet veel penalty's in zijn carrière🅿️  \"Ik had Ronaldinho, Messi...\""
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-26",
-"id": "B0fwHi2lDko",
-"t": "Xavi moet nog steeds wennen aan de Nederlandse directheid🇳🇱"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-26",
-"id": "nfTxIfR_pkA",
-"t": "ÉANNA CLANCY! 🤯"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-26",
-"id": "wDMYnSd2qWw",
-"t": "HEERLIJKE KOPBAL VAN CAIN SEEDORF!🔥 | Samenvatting Roda JC - RKC Waalwijk"
-},
-{
-"c": "ESPN NL",
-"f": "2026-09-26",
-"id": "md4BlG4w1Tk",
-"t": "PRACHTIGE GOAL CLANCY TIJDENS DOELPUNTENFESTIJN🔥 | Samenvatting FC Volendam - VVV-Venlo"
 }
 ],
 "laliga": [
@@ -15457,6 +15463,24 @@
 "f": "2026-11-20",
 "id": "Fvw-okynt68",
 "t": "Adivina el once con PEDRI"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-20",
+"id": "CYVg6uIou4o",
+"t": "ATHLETIC CLUB vs RCD ESPANYOL | RUEDA DE PRENSA"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-20",
+"id": "4S2WJBRBMnM",
+"t": "ATHLETIC CLUB 0 - 1 RCD ESPANYOL | RESUMEN LALIGA EA SPORTS"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-20",
+"id": "8cQv9maJT8U",
+"t": "𝗥𝗢𝗕𝗘𝗥𝗧𝗢. 💙"
 },
 {
 "c": "LALIGA EA SPORTS",
@@ -15541,12 +15565,6 @@
 "f": "2026-11-18",
 "id": "3tkMYSnY280",
 "t": "TODOS LOS GOLES vistos desde la REFCAM"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-11-18",
-"id": "CYVg6uIou4o",
-"t": "ATHLETIC CLUB vs RCD ESPANYOL | RUEDA DE PRENSA"
 },
 {
 "c": "LALIGA EA SPORTS",
@@ -20802,18 +20820,6 @@
 "c": "LALIGA EA SPORTS",
 "f": "2026-09-12",
 "id": "ZBxvhF8OV0s",
-"t": "REAL MADRID 4 - 1 RAYO VALLECANO | RESUMEN LALIGA EA SPORTS"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-09-12",
-"id": "h-i2bmvJMOk",
-"t": "REAL MADRID vs RAYO VALLECANO | RUEDA DE PRENSA"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-09-12",
-"id": "f7Tv5u_pXD0",
 "t": "REAL MADRID 4 - 1 RAYO VALLECANO | RESUMEN LALIGA EA SPORTS"
 }
 ],
