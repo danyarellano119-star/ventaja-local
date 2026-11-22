@@ -970,6 +970,12 @@
 "Arsenal": [
 {
 "c": "Arsenal",
+"f": "2026-11-22",
+"id": "4V6_QrbVkhI",
+"t": "DECLAN RICE CALM UNDER PRESSURE!"
+},
+{
+"c": "Arsenal",
 "f": "2026-11-21",
 "id": "OuFtAlQ2Hl0",
 "t": "DEFENDER’S GOT SKILLS! 🔥"
@@ -1201,12 +1207,6 @@
 "f": "2026-11-09",
 "id": "rGkDCB_cgm4",
 "t": "ONE HUGE TACKLE. ONE CLEAN SHEET!"
-},
-{
-"c": "Arsenal",
-"f": "2026-11-09",
-"id": "PpHNPwtTHqU",
-"t": "1-0 TO THE ARSENAL | 10 DEFENSIVE MASTERCLASSES"
 }
 ],
 "Atalanta BC": [
@@ -1460,6 +1460,18 @@
 },
 {
 "c": "Athletico Paranaense",
+"f": "2026-11-22",
+"id": "eGgUFDIQaHg",
+"t": "FURACÃO CAMPEÃO | PARANÁ 2 (10) X (11) 1 ATHLETICO | MELHORES MOMENTOS | COPA PARANÁ 2026"
+},
+{
+"c": "Athletico Paranaense",
+"f": "2026-11-22",
+"id": "BB7rLcs_KRw",
+"t": "COLETIVA PÓS-JOGO | JORGE RAFFO E DANIEL LLÁCER | PARANÁ 2 (10 X 11) 1 ATHLETICO | COPA PARANÁ 2026"
+},
+{
+"c": "Athletico Paranaense",
 "f": "2026-11-21",
 "id": "ppz0dvmnZ_8",
 "t": "ATHLETICO 4 X 0 CHAPECOENSE | MELHORES MOMENTOS | COPA SUL SUB-17"
@@ -1679,18 +1691,6 @@
 "f": "2026-11-09",
 "id": "ZbHCX_i8jPI",
 "t": "REAPRESENTAÇÃO DE OLHO NA RETA FINAL DO BRASILEIRÃO | POR DENTRO DO CAP - 09/11"
-},
-{
-"c": "Athletico Paranaense",
-"f": "2026-11-09",
-"id": "f6dFSN5It6o",
-"t": "FURACÃO NEWS EM 1 MINUTO - 09/11"
-},
-{
-"c": "Athletico Paranaense",
-"f": "2026-11-09",
-"id": "OtcsLZ8ESCQ",
-"t": "PIÁS NA FINAL DA COPA PARANÁ E A PROGRAMAÇÃO ATHLETICANA | FURACÃO NEWS 09/11"
 }
 ],
 "Bayern Munich": [
@@ -2908,7 +2908,7 @@
 "c": "Chelsea Football Club",
 "f": "2026-11-22",
 "id": "7FO9vPbudn4",
-"t": "Sunderland 1-0 Chelsea | HIGHLIGHTS - Extended | Premier League 2026/27"
+"t": "Chelsea 1-4 Leeds Utd | HIGHLIGHTS - Extended | Premier League 2026/27"
 },
 {
 "c": "Chelsea Football Club",
@@ -3874,6 +3874,18 @@
 "Cruzeiro": [
 {
 "c": "TV CRUZEIRO | Cruzeiro Esporte Clube",
+"f": "2026-11-22",
+"id": "623MrwiStZE",
+"t": "🦊⚽ MELHORES MOMENTOS | CHAPECOENSE 1 x 2 CRUZEIRO"
+},
+{
+"c": "TV CRUZEIRO | Cruzeiro Esporte Clube",
+"f": "2026-11-22",
+"id": "89zLEo2Xj0c",
+"t": "🦊🎙ENTREVISTA | ARTUR JORGE | CHAPECOENSE 1 X 2 CRUZEIRO"
+},
+{
+"c": "TV CRUZEIRO | Cruzeiro Esporte Clube",
 "f": "2026-11-21",
 "id": "dhewxWshTQA",
 "t": "AO VIVO E COM IMAGENS | Cruzeiro x Atlético-MG | Final do Mineiro Sub-17 | Jogo de ida"
@@ -4099,18 +4111,6 @@
 "f": "2026-10-21",
 "id": "kgA8I8keTxk",
 "t": "⚽ DIA NA TOCA | Cruzeiro segue em preparação para o confronto com o Remo!"
-},
-{
-"c": "TV CRUZEIRO | Cruzeiro Esporte Clube",
-"f": "2026-10-21",
-"id": "1XK9kWd3kkI",
-"t": "Hoje foi dia de perguntas aleatórias para os nossos atletas! 🤣"
-},
-{
-"c": "TV CRUZEIRO | Cruzeiro Esporte Clube",
-"f": "2026-10-20",
-"id": "Fhibwxsbf0w",
-"t": "🦊 BASTIDORES | GRÊMIO 2 x 4 CRUZEIRO"
 }
 ],
 "Everton": [
@@ -5332,6 +5332,30 @@
 },
 {
 "c": "Flamengo TV",
+"f": "2026-11-22",
+"id": "vE39P64Nrns",
+"t": "É… tem gente passando mal por aí! Já avisamos: morde as costas! 😅"
+},
+{
+"c": "Flamengo TV",
+"f": "2026-11-22",
+"id": "Dk_OA_1F1pM",
+"t": "FESTA COM O PRESIDENTE BAP! MENGÃO CAMPEÃO! 🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆"
+},
+{
+"c": "Flamengo TV",
+"f": "2026-11-22",
+"id": "-n6i-H2lGzs",
+"t": "É O BONDE DO MENGÃO SEM FREIO! 🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆"
+},
+{
+"c": "Flamengo TV",
+"f": "2026-11-22",
+"id": "Iltb8OqU4A4",
+"t": "🔴 AO VIVO: CHEGADA DO DECACAMPEÃO AO RIO DE JANEIRO | 21/11/26"
+},
+{
+"c": "Flamengo TV",
 "f": "2026-11-21",
 "id": "xPNqRWirQwI",
 "t": "FLAMENGO ENCERRA A PREPARAÇÃO PARA A PARTIDA CONTRA O PALMEIRAS!"
@@ -5539,30 +5563,6 @@
 "f": "2026-11-19",
 "id": "4Ac1BbwStkk",
 "t": "🔴 AO VIVO: TREINO DO FLAMENGO DIRETO DO NINHO | 22/11/26"
-},
-{
-"c": "Flamengo TV",
-"f": "2026-11-19",
-"id": "IZBktD2TmFw",
-"t": "RETA FINAL! FLAMENGO SEGUE A PREPARAÇÃO NO NINHO"
-},
-{
-"c": "Flamengo TV",
-"f": "2026-11-19",
-"id": "Nj85JRfJ3jA",
-"t": "Karol Gimenes é OURO!🥇💪"
-},
-{
-"c": "Flamengo TV",
-"f": "2026-11-19",
-"id": "GIO_GrirWgA",
-"t": "EU TERIA UM DESGOSTO PROFUNDO, SE FALTASSE O FLAMENGO NO MUNDO ❤️🖤"
-},
-{
-"c": "Flamengo TV",
-"f": "2026-11-19",
-"id": "ILiHFe598Ho",
-"t": "MÁRIO FILHO: O HOMEM POR TRÁS DO FLAMENGO MAIS AMADO DO BRASIL | CORRE O TEMPO NO OLHAR #12"
 }
 ],
 "Fluminense": [
@@ -6778,6 +6778,12 @@
 "Inter": [
 {
 "c": "Inter",
+"f": "2026-11-22",
+"id": "VqkToKTNT5U",
+"t": "EP. 76 | Sulley - L'involontarietà"
+},
+{
+"c": "Inter",
 "f": "2026-11-21",
 "id": "m1Jxsyx4VH0",
 "t": "QUATTRO GOL E BERGAMO CONQUISTATA 🔥 | ATALANTA 1-4 INTER | HISTORICAL HIGHLIGHTS 🖤💙"
@@ -7009,12 +7015,6 @@
 "f": "2026-11-15",
 "id": "dhj4GO81Ns8",
 "t": "EP 69 | EDER – LA PRONTEZZA"
-},
-{
-"c": "Inter",
-"f": "2026-11-15",
-"id": "bbMfG8rCv6o",
-"t": "SCONFITTA PER LE NOSTRE NERAZZURRE | INTER 2-3 JUVENTUS | HIGHLIGHTS INTER WOMEN 📹🖤💙"
 }
 ],
 "Ipswich Town": [
@@ -10008,6 +10008,18 @@
 "Real Madrid": [
 {
 "c": "Real Madrid",
+"f": "2026-11-22",
+"id": "0DuhMtdhdPo",
+"t": "Goals | Real Madrid 2-1 Celta | LaLiga"
+},
+{
+"c": "Real Madrid",
+"f": "2026-11-22",
+"id": "W8InB9bFuNE",
+"t": "HIGHLIGHTS | Real Madrid 2-1 Celta | LaLiga"
+},
+{
+"c": "Real Madrid",
 "f": "2026-11-21",
 "id": "u4dZ8yK0_SM",
 "t": "Institutional video of the 2026 Ordinary General Assembly | Real Madrid"
@@ -10233,18 +10245,6 @@
 "f": "2026-11-10",
 "id": "w4RV7pGVBHY",
 "t": "🧤⚽️🧤 #Courtois #RealMadrid #Lunin #football"
-},
-{
-"c": "Real Madrid",
-"f": "2026-11-10",
-"id": "KK8r2dAymGU",
-"t": "🚀 ALL of VALVERDE'S LONG-RANGE GOALS! | Real Madrid"
-},
-{
-"c": "Real Madrid",
-"f": "2026-11-10",
-"id": "Sr8ALGF9f24",
-"t": "🎯 Mbappé scored a goal. In other news, water is wet."
 }
 ],
 "SC Paderborn 07": [
@@ -12670,6 +12670,12 @@
 "Tottenham Hotspur": [
 {
 "c": "Tottenham Hotspur",
+"f": "2026-11-22",
+"id": "yazwLtGs3tY",
+"t": "우리 루카 윌리엄스-바넷만 보면 밥을 안 먹어도 배불러요"
+},
+{
+"c": "Tottenham Hotspur",
 "f": "2026-11-21",
 "id": "HfAY9_2UDsE",
 "t": "Moving forward as one ✊"
@@ -12714,7 +12720,7 @@
 "c": "Tottenham Hotspur",
 "f": "2026-11-21",
 "id": "Dm0-YDy3ou8",
-"t": "08년생이 해냈다! 데뷔골에 1도움까지 | 토트넘 2-0 입스위치 | 11R 프리미어리그 하이라이트"
+"t": "08년생이 해냈다! 데뷔골에 1도움까지 | 토트넘 2-0 입스위치 타운 | 11R 프리미어리그 하이라이트"
 },
 {
 "c": "Tottenham Hotspur",
@@ -12901,12 +12907,6 @@
 "f": "2026-11-04",
 "id": "dqwtSfl_RVM",
 "t": "Securing the win at Stamford Bridge 🔥Mathys Tel's solo stunner is your October Goal of the Month! 🔥👏"
-},
-{
-"c": "Tottenham Hotspur",
-"f": "2026-11-03",
-"id": "3de9XJNem7U",
-"t": "Tottenham Hotspur Goal of the Month | October 2026"
 }
 ],
 "Toulouse": [
