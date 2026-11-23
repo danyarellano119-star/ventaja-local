@@ -2,6 +2,12 @@
 "AC Milan": [
 {
 "c": "AC Milan",
+"f": "2026-11-23",
+"id": "BzHG3sfFKk8",
+"t": "Pulisic esulta dopo il pallonetto! 🔥"
+},
+{
+"c": "AC Milan",
 "f": "2026-11-22",
 "id": "o_POhIXVycE",
 "t": "Una sorpresa speciale 🥰"
@@ -83,6 +89,36 @@
 "f": "2026-11-22",
 "id": "OhK_Huf7u-M",
 "t": "Che bello rivederti, Simon! ❤️👋"
+},
+{
+"c": "AC Milan",
+"f": "2026-11-22",
+"id": "A-jGjp-SxsE",
+"t": "È il momento di Alfa! 🎯🔥"
+},
+{
+"c": "AC Milan",
+"f": "2026-11-22",
+"id": "TWLcad1Yidg",
+"t": "Jashari firma il 3-1 🔥💪"
+},
+{
+"c": "AC Milan",
+"f": "2026-11-22",
+"id": "jfaqtQGtrwA",
+"t": "O Pistoleiro firma il raddoppio! ✌️ | Ramos"
+},
+{
+"c": "AC Milan",
+"f": "2026-11-22",
+"id": "mftiEZX0O10",
+"t": "È un autogol, ma festeggiamo lo stesso! ⚽️🎉"
+},
+{
+"c": "AC Milan",
+"f": "2026-11-22",
+"id": "WWmd2G4up14",
+"t": "MILAN SHOW A SAN SIRO! 🔥 5 GOL E SPETTACOLO | Milan-Frosinone 5-1 | Highlights Serie A 2026/27"
 },
 {
 "c": "AC Milan",
@@ -203,42 +239,6 @@
 "f": "2026-11-18",
 "id": "4JNbsfJqd5w",
 "t": "La forza di Adrien 💪"
-},
-{
-"c": "AC Milan",
-"f": "2026-11-18",
-"id": "uY3Rfs4hOQQ",
-"t": "Maignan e i suoi riflessi felini! 🐈‍⬛"
-},
-{
-"c": "AC Milan",
-"f": "2026-11-18",
-"id": "jg1f0CAzyRI",
-"t": "Koni e Omari in un classico gioco da festa 👀"
-},
-{
-"c": "AC Milan",
-"f": "2026-11-18",
-"id": "WdnXpuj1Srw",
-"t": "Genoa-Milan 1-2 | Cisse e Pulisic conquistano Marassi! 🔥 | Full Match"
-},
-{
-"c": "AC Milan",
-"f": "2026-11-17",
-"id": "BQxtXII_i4w",
-"t": "Luka Modrić vs Inter | Tutti i tocchi nel Derby | Milan-Inter 3-1"
-},
-{
-"c": "AC Milan",
-"f": "2026-11-17",
-"id": "4s7fHylKLVc",
-"t": "Moreira, a tutta velocità! ⚡"
-},
-{
-"c": "AC Milan",
-"f": "2026-11-17",
-"id": "afSu9XONyhA",
-"t": "Alla prima maglia rossonera ci pensa papà 🥹"
 }
 ],
 "AC Monza": [
@@ -970,6 +970,12 @@
 "Arsenal": [
 {
 "c": "Arsenal",
+"f": "2026-11-23",
+"id": "R_680r02Lio",
+"t": "EXTENDED HIGHLIGHTS | Hard-fought draw at St James' Park l Newcastle United vs Arsenal (2-2) | PL"
+},
+{
+"c": "Arsenal",
 "f": "2026-11-22",
 "id": "4V6_QrbVkhI",
 "t": "DECLAN RICE CALM UNDER PRESSURE!"
@@ -1201,20 +1207,38 @@
 "f": "2026-11-09",
 "id": "w_3jMB2vbE8",
 "t": "IN FOCUS | Ezri Konsa | Arsenal vs Hull City (1-0) | Premier League"
-},
-{
-"c": "Arsenal",
-"f": "2026-11-09",
-"id": "MBtZrSz59YQ",
-"t": "HAVERTZ AND RUSSO'S ANFIELD WINNERS"
 }
 ],
 "Atalanta BC": [
 {
 "c": "Atalanta Bergamasca Calcio",
+"f": "2026-11-23",
+"id": "PDb1rq-ERus",
+"t": "REMUNTADA 🔥 | Atalanta-Inter 4-4 | Highlights 12ª Serie A 2026/27"
+},
+{
+"c": "Atalanta Bergamasca Calcio",
 "f": "2026-11-22",
 "id": "72IU6_nEq2k",
 "t": "Atalanta-Inter | Our Starting XI | 12ª Serie A Enilive 2026/27"
+},
+{
+"c": "Atalanta Bergamasca Calcio",
+"f": "2026-11-22",
+"id": "KXiOTVJErOs",
+"t": "Sarri: \"Pareggio contro una squadra forte\" | Atalanta-Inter 4-4 | 12ª Serie A Enilive 26/27-ENG SUBs"
+},
+{
+"c": "Atalanta Bergamasca Calcio",
+"f": "2026-11-22",
+"id": "-B9y9JFf_No",
+"t": "Franck Kessie: \"Contento per il gol\" | Atalanta-Inter 4-4 | 12ª Serie A Enilive 2026/27 - EN SUB"
+},
+{
+"c": "Atalanta Bergamasca Calcio",
+"f": "2026-11-22",
+"id": "oya8ENXKBgM",
+"t": "Goodnight Bergamo 🖤💙 #AtalantaInter"
 },
 {
 "c": "Atalanta Bergamasca Calcio",
@@ -1425,33 +1449,21 @@
 "f": "2026-11-04",
 "id": "ciT7fxJ7_2U",
 "t": "🔴 LIVE 🔴 Atalanta-Kairat Almaty MD-1 | La conferenza stampa di Maurizio Sarri e Eljif Elmas"
-},
-{
-"c": "Atalanta Bergamasca Calcio",
-"f": "2026-11-04",
-"id": "N1SMldmetQ4",
-"t": "Il film della partita, Atalanta-Parma 0-3 | 10ª giornata Serie A 2026/27"
-},
-{
-"c": "Atalanta Bergamasca Calcio",
-"f": "2026-11-04",
-"id": "1VPORjIshXo",
-"t": "Atalanta-Kairat Almaty | L'allenamento della vigilia | UECL League Phase MD3"
-},
-{
-"c": "Atalanta Bergamasca Calcio",
-"f": "2026-11-04",
-"id": "bFB8bK573I0",
-"t": "Atalanta-Kairat Almaty | La conferenza stampa di Sarri ed Elmas | UECL MD3 League Phase"
-},
-{
-"c": "Atalanta Bergamasca Calcio",
-"f": "2026-11-03",
-"id": "o4rgzUel_jM",
-"t": "Atalanta-Parma 0-3 | Highlights 10ª Serie A 2026/27"
 }
 ],
 "Athletico Paranaense": [
+{
+"c": "Athletico Paranaense",
+"f": "2026-11-23",
+"id": "iYUZGv23WKU",
+"t": "CÂMERA FURACÃO: RIVALDO É CAIXA!"
+},
+{
+"c": "Athletico Paranaense",
+"f": "2026-11-23",
+"id": "oSDS-TCPrik",
+"t": "CÂMERA FURACÃO: LEOZINHO FAZ O TERCEIRO"
+},
 {
 "c": "Athletico Paranaense",
 "f": "2026-11-22",
@@ -1487,6 +1499,36 @@
 "f": "2026-11-22",
 "id": "FZ3OyfU87yI",
 "t": "OS GOLS DO ATHLETICO NA VITÓRIA CONTRA O REMO"
+},
+{
+"c": "Athletico Paranaense",
+"f": "2026-11-22",
+"id": "SBVWyjmwecQ",
+"t": "CÂMERA FURACÃO: VARGAS AMPLIA"
+},
+{
+"c": "Athletico Paranaense",
+"f": "2026-11-22",
+"id": "dou8_pWmEXw",
+"t": "CÂMERA FURACÃO: MENDOZA ABRE O PLACAR"
+},
+{
+"c": "Athletico Paranaense",
+"f": "2026-11-22",
+"id": "mV1omRqWuSY",
+"t": "ZONA MISTA | VARGAS, RIVALDO E LEOZINHO | ATHLETICO 4 X 2 REMO | BRASILEIRÃO 2026"
+},
+{
+"c": "Athletico Paranaense",
+"f": "2026-11-22",
+"id": "Qq2G8AUhvZg",
+"t": "ATHLETICO 4 X 2 REMO | MELHORES MOMENTOS | BRASILEIRÃO 2026"
+},
+{
+"c": "Athletico Paranaense",
+"f": "2026-11-22",
+"id": "F4c7d8Oz52k",
+"t": "ATHLETICO 4x2 REMO! CAMPEÃO DA COPA PARANÁ E BASE NAS FINAIS DA COPA SUL | NO OLHO DO FURACÃO | #22"
 },
 {
 "c": "Athletico Paranaense",
@@ -1649,48 +1691,6 @@
 "f": "2026-11-13",
 "id": "rM7QBWk_lv4",
 "t": "PREPARAÇÃO PARA ENFRENTAR O FLAMENGO | POR DENTRO DO CAP - 13/11"
-},
-{
-"c": "Athletico Paranaense",
-"f": "2026-11-13",
-"id": "YbTBmYHC56s",
-"t": "FURACÃO NEWS  EM 1 MINUTO - 13/11"
-},
-{
-"c": "Athletico Paranaense",
-"f": "2026-11-13",
-"id": "gP014r1mw38",
-"t": "AS NOTÍCIAS DOS PIÁS E DO ELENCO PROFISSIONAL | FURACÃO NEWS - 13/11"
-},
-{
-"c": "Athletico Paranaense",
-"f": "2026-11-12",
-"id": "IQwbHwd1Xno",
-"t": "JADSON RENOVA COM O RUBRO-NEGRO | FURACÃO NEWS - 12/11"
-},
-{
-"c": "Athletico Paranaense",
-"f": "2026-11-11",
-"id": "Hp1TBSjzcuM",
-"t": "FURACÃO NEWS  EM 1 MINUTO - 11/11"
-},
-{
-"c": "Athletico Paranaense",
-"f": "2026-11-11",
-"id": "02trcUywFCA",
-"t": "TREINO EM CAMPO REDUZIDO | POR DENTRO DO CAP - 11/11"
-},
-{
-"c": "Athletico Paranaense",
-"f": "2026-11-11",
-"id": "F46BzGFlqoE",
-"t": "TUDO SOBRE A FINAL DA COPA PARANÁ | FURACÃO NEWS - 11/11"
-},
-{
-"c": "Athletico Paranaense",
-"f": "2026-11-10",
-"id": "mz0tvmZ5b74",
-"t": "FURACÃO NEWS EM 1 MINUTO - 10/11"
 }
 ],
 "Bayern Munich": [
@@ -1938,6 +1938,12 @@
 "Blackburn Rovers": [
 {
 "c": "Blackburn Rovers Football Club",
+"f": "2026-11-23",
+"id": "6VwSFoxPCGs",
+"t": "ROVERS ROAR BACK ON DERBY DAY | Extended Highlights: Burnley 2-2 Rovers"
+},
+{
+"c": "Blackburn Rovers Football Club",
 "f": "2026-11-22",
 "id": "jwTmDNql1B8",
 "t": "Damien Johnson post-match interview (A) Burnley"
@@ -2169,12 +2175,6 @@
 "f": "2026-10-24",
 "id": "NlW5tim4jeM",
 "t": "ANDRI DOUBLE DOWNS RED DRAGONS | Extended Highlights: Rovers 2-0 Wrexham"
-},
-{
-"c": "Blackburn Rovers Football Club",
-"f": "2026-10-23",
-"id": "uuUeCxvUqYI",
-"t": "Ryan Alebiosu on reaching 50 Rovers starts and making the most of home comforts"
 }
 ],
 "Brentford": [
@@ -2422,6 +2422,12 @@
 "Burnley": [
 {
 "c": "Burnley Football Club",
+"f": "2026-11-23",
+"id": "Ms9NFS8axzY",
+"t": "Burnley v Blackburn Rovers | EFL Extended Highlights"
+},
+{
+"c": "Burnley Football Club",
 "f": "2026-11-22",
 "id": "FcloZL8awDY",
 "t": "Burnley v Blackburn Rovers | EFL Championship Highlights"
@@ -2653,12 +2659,6 @@
 "f": "2026-10-30",
 "id": "gRIhLexG_S8",
 "t": "Fabio Celestini on our first challenge"
-},
-{
-"c": "Burnley Football Club",
-"f": "2026-10-30",
-"id": "7BWVMDDxyRs",
-"t": "Fabio Celestini's First Interview As Burnley Head Coach"
 }
 ],
 "Cardiff City": [
@@ -3148,6 +3148,12 @@
 "Corinthians": [
 {
 "c": "Corinthians TV",
+"f": "2026-11-23",
+"id": "BNRzAuBW-MU",
+"t": "A MOCHILA MALUCA APARECEU NO CT! 🤪🚚#shorts #VaiCorinthians"
+},
+{
+"c": "Corinthians TV",
 "f": "2026-11-22",
 "id": "CPqBO35TO-Q",
 "t": "AO VIVO: CORINTHIANS X GRÊMIO | BRASILEIRÃO 2026 | 37ª RODADA | DIA DE CORINTHIANS"
@@ -3379,17 +3385,17 @@
 "f": "2026-11-17",
 "id": "K_iSqIwlr-g",
 "t": "BASTIDORES NO AR! 🏀"
-},
-{
-"c": "Corinthians TV",
-"f": "2026-11-17",
-"id": "sHcs2BZ2F4E",
-"t": "COLETIVA DE IMPRENSA | SEEDORF"
 }
 ],
 "Coventry City": [
 {
 "c": "Coventry City FC",
+"f": "2026-11-23",
+"id": "BjRRRrrTGkc",
+"t": "Coventry City 3-2 Crystal Palace | Premier League Extended Highlights"
+},
+{
+"c": "Coventry City FC",
 "f": "2026-11-22",
 "id": "L_jvaf-NurE",
 "t": "Chaos at the death. 🫨"
@@ -3621,17 +3627,17 @@
 "f": "2026-10-29",
 "id": "lzUQ9OgtiEY",
 "t": "Frank Lampard Pre-Match Press Conference | Coventry City vs Sunderland | Premier League"
-},
-{
-"c": "Coventry City FC",
-"f": "2026-10-24",
-"id": "-JnHE7hTxfk",
-"t": "Let’s get to work. 💪"
 }
 ],
 "Coventry City FC": [
 {
 "c": "Coventry City FC",
+"f": "2026-11-23",
+"id": "BjRRRrrTGkc",
+"t": "Coventry City 3-2 Crystal Palace | Premier League Extended Highlights"
+},
+{
+"c": "Coventry City FC",
 "f": "2026-11-22",
 "id": "L_jvaf-NurE",
 "t": "Chaos at the death. 🫨"
@@ -3863,15 +3869,15 @@
 "f": "2026-10-29",
 "id": "lzUQ9OgtiEY",
 "t": "Frank Lampard Pre-Match Press Conference | Coventry City vs Sunderland | Premier League"
-},
-{
-"c": "Coventry City FC",
-"f": "2026-10-24",
-"id": "-JnHE7hTxfk",
-"t": "Let’s get to work. 💪"
 }
 ],
 "Cruzeiro": [
+{
+"c": "TV CRUZEIRO | Cruzeiro Esporte Clube",
+"f": "2026-11-23",
+"id": "z8hjx5F6GZQ",
+"t": "Cabuloso venceu a Chapecoense e conquistou a sexta vitória seguida no Brasileirão!"
+},
 {
 "c": "TV CRUZEIRO | Cruzeiro Esporte Clube",
 "f": "2026-11-22",
@@ -3889,6 +3895,12 @@
 "f": "2026-11-22",
 "id": "ks2vO9-MVNQ",
 "t": "AO VIVO E COM IMAGENS | Cruzeiro x Atlético-MG | Final do Campeonato Mineiro Feminino"
+},
+{
+"c": "TV CRUZEIRO | Cruzeiro Esporte Clube",
+"f": "2026-11-22",
+"id": "Y72Lvr3szV8",
+"t": "🦊 BASTIDORES | CHAPECOENSE 1 x 2 CRUZEIRO"
 },
 {
 "c": "TV CRUZEIRO | Cruzeiro Esporte Clube",
@@ -4099,18 +4111,6 @@
 "f": "2026-10-21",
 "id": "zaOHKZyO4D4",
 "t": "🦊🎤 BOLETIM CABULOSO: Ídolo, Dirceu Lopes acompanha treino na Toca II; assista!"
-},
-{
-"c": "TV CRUZEIRO | Cruzeiro Esporte Clube",
-"f": "2026-10-21",
-"id": "n2hXuMto7-M",
-"t": "O #DiaNaToca está no ar e mostra como foi a atividade desta quarta-feira na Toca da Raposa II"
-},
-{
-"c": "TV CRUZEIRO | Cruzeiro Esporte Clube",
-"f": "2026-10-21",
-"id": "kgA8I8keTxk",
-"t": "⚽ DIA NA TOCA | Cruzeiro segue em preparação para o confronto com o Remo!"
 }
 ],
 "Everton": [
@@ -5568,6 +5568,30 @@
 "Fluminense": [
 {
 "c": "Fluminense Football Club",
+"f": "2026-11-23",
+"id": "jqap0qyJEBg",
+"t": "AO VIVO - FLUMINENSE X MIRASSOL | CAMPEONATO BRASILEIRO 2026 | 36ª RODADA"
+},
+{
+"c": "Fluminense Football Club",
+"f": "2026-11-23",
+"id": "cXuRqkgVpVo",
+"t": "XERÉM NELES! RIQUELME MARCA SEU PRIMEIRO GOL COMO PROFISSIONAL! 🔥🇭🇺"
+},
+{
+"c": "Fluminense Football Club",
+"f": "2026-11-23",
+"id": "6yHUrf7q-jg",
+"t": "MARTINELLI: “TÔ MUITO FELIZ DE REENCONTRAR A TORCIDA” 🇭🇺"
+},
+{
+"c": "Fluminense Football Club",
+"f": "2026-11-23",
+"id": "qfjld_gN4LE",
+"t": "XERÉM! RIQUELME COMEMORA SEU PRIMEIRO GOL COM A CAMISA DO FLUMINENSE! #Golaço #Mirassol"
+},
+{
+"c": "Fluminense Football Club",
 "f": "2026-11-22",
 "id": "7Q6fgNCV3JQ",
 "t": "FLUTV NEWS: JULIANO SPINETI E NONATO ANALISAM A PREPARAÇÃO DO FLUMINENSE PARA A 36ª RODADA"
@@ -5577,12 +5601,6 @@
 "f": "2026-11-22",
 "id": "2qSZ0lVSDYc",
 "t": "“COMO EU VIREI FLUMINENSE!” HUMORISTA PEDRO PEDRÍSSIMO FALA SOBRE PAIXÃO PELO TIME! 🇭🇺"
-},
-{
-"c": "Fluminense Football Club",
-"f": "2026-11-22",
-"id": "jqap0qyJEBg",
-"t": "AO VIVO - FLUMINENSE X MIRASSOL | CAMPEONATO BRASILEIRO 2026 | 36ª RODADA"
 },
 {
 "c": "Fluminense Football Club",
@@ -5787,24 +5805,6 @@
 "f": "2026-11-04",
 "id": "oA17uaBiwTY",
 "t": "“A FINAL É QUESTÃO DE HONRA. O GOL É MEU. É MEU. O GOL DO TÍTULO É MEU.”MENINO REI 🥹🐻"
-},
-{
-"c": "Fluminense Football Club",
-"f": "2026-11-03",
-"id": "4ZMqmK87-IE",
-"t": "FLU COMEÇA A SEMANA COM TREINO INTENSO NO CT CARLOS CASTILHO"
-},
-{
-"c": "Fluminense Football Club",
-"f": "2026-11-02",
-"id": "Hnk1D1N7dII",
-"t": "FLUTV NEWS: PREPARAÇÃO PARA ENFRENTAR O VITÓRIA EM SALVADOR E VISITA DA ONG EMPODERA"
-},
-{
-"c": "Fluminense Football Club",
-"f": "2026-10-30",
-"id": "hCPBMwnsPw8",
-"t": "BASTIDORES | FLUMINENSE 2 X 1 INTERNACIONAL | CAMPEONATO BRASILEIRO 2026 | 33ª RODADA"
 }
 ],
 "Fulham": [
@@ -6342,6 +6342,12 @@
 },
 {
 "c": "Girona FC",
+"f": "2026-11-22",
+"id": "EbSPpxxCw_c",
+"t": "👀 AMB L’ULL POSAT EN EL TÚNEL GIRONA FC 🆚 SD EIBAR!  | GIRONA FC"
+},
+{
+"c": "Girona FC",
 "f": "2026-11-21",
 "id": "ZSSqWabMo7o",
 "t": "L’últim ENTRENAMENT previ al GIRONA vs SD EIBAR | GIRONA FC"
@@ -6525,12 +6531,6 @@
 "f": "2026-11-04",
 "id": "I9Wyp_CYNBQ",
 "t": "La CANYA i la SISA visiten l'HOSPITAL TRUETA | GIRONA FC"
-},
-{
-"c": "Girona FC",
-"f": "2026-11-04",
-"id": "uhWKzzaCQAM",
-"t": "Ens preparem per al GIRONA VS ALMERÍA | GIRONA FC"
 }
 ],
 "Gremio": [
@@ -6778,6 +6778,24 @@
 "Inter": [
 {
 "c": "Inter",
+"f": "2026-11-23",
+"id": "JlBOZvFDwg0",
+"t": "PAREGGIO IN EXTREMIS, SFUMA LA VITTORIA ⚽ | ATALANTA 4-4 INTER | HIGHLIGHTS"
+},
+{
+"c": "Inter",
+"f": "2026-11-23",
+"id": "2WVbxsNdV2k",
+"t": "ESPOSITO: \"TRE GOL, MA IL RAMMARICO PER LA VITTORIA SFUMATA È GRANDE\" 🎙️ | INTERVIEWS 🖤💙"
+},
+{
+"c": "Inter",
+"f": "2026-11-23",
+"id": "Rr0UoVRkuOU",
+"t": "CHIVU: \"DIFFICILE DA SPIEGARE: DOBBIAMO MIGLIORARE\" 🎙️ | INTERVIEWS 🖤💙"
+},
+{
+"c": "Inter",
 "f": "2026-11-22",
 "id": "VqkToKTNT5U",
 "t": "EP. 76 | Sulley - L'involontarietà"
@@ -6835,6 +6853,12 @@
 "f": "2026-11-22",
 "id": "foS8kAIXwP8",
 "t": "UNA VITTORIA NETTA PER LE NERAZZURRE 💪 | TERNANA 0-4 INTER | HIGHLIGHTS INTER WOMEN 📹🖤💙"
+},
+{
+"c": "Inter",
+"f": "2026-11-22",
+"id": "REm065WrEL8",
+"t": "INTER DENIED VICTORY IN THE 90TH MINUTE ⚽ | ATALANTA 4-4 INTER | HIGHLIGHTS"
 },
 {
 "c": "Inter",
@@ -6991,30 +7015,6 @@
 "f": "2026-11-18",
 "id": "JuZhBGJeTEc",
 "t": "EP. 72 | Nicola – La zuccata"
-},
-{
-"c": "Inter",
-"f": "2026-11-18",
-"id": "veIKZ58LSEk",
-"t": "POV: you came to meet Stones 📲 🖤💙"
-},
-{
-"c": "Inter",
-"f": "2026-11-18",
-"id": "IRRDev1bz0w",
-"t": "WESLEY – THE TOUCH"
-},
-{
-"c": "Inter",
-"f": "2026-11-18",
-"id": "gkTCx_meRRw",
-"t": "The GTA debate starts here 👀🎮"
-},
-{
-"c": "Inter",
-"f": "2026-11-17",
-"id": "deZkK7qZYu0",
-"t": "45 MINUTI DI PURA MAGIA 🪄 | DA 2-0 A 2-2 | ROMA-INTER 2026/27"
 }
 ],
 "Ipswich Town": [
@@ -8042,6 +8042,18 @@
 },
 {
 "c": "Liverpool FC",
+"f": "2026-11-22",
+"id": "e3BhOr5YVkU",
+"t": "Munoz ➡️ Wirtz ➡️ Munoz 🎯🤝"
+},
+{
+"c": "Liverpool FC",
+"f": "2026-11-22",
+"id": "rjplJNZ7dAE",
+"t": "Barcola 🔗 Ngumoha ⚽️"
+},
+{
+"c": "Liverpool FC",
 "f": "2026-11-21",
 "id": "UxlwqphQVkw",
 "t": "Macca LOVES his gift 😅🎁"
@@ -8213,18 +8225,6 @@
 "f": "2026-11-10",
 "id": "AUkG_cApyng",
 "t": "Munoz wins goal of the month!"
-},
-{
-"c": "Liverpool FC",
-"f": "2026-11-10",
-"id": "L0tIA6VBvgc",
-"t": "The BEST Liverpool goals scored in October! | Isak, Munoz & Mac Allister"
-},
-{
-"c": "Liverpool FC",
-"f": "2026-11-09",
-"id": "0je9Yc-CMaM",
-"t": "Crucial Alisson saves!"
 }
 ],
 "Metz": [
@@ -9026,6 +9026,24 @@
 "Palmeiras": [
 {
 "c": "TV Palmeiras Sportingbet",
+"f": "2026-11-23",
+"id": "-9DgOMsCZbo",
+"t": "VICTOR GABRIEL FAZ O TERCEIRO E AMPLIA A VANTAGEM DO PALMEIRAS"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-11-23",
+"id": "dFBuOgXHMvE",
+"t": "MIGUEL BILONG VIRA O PLACAR COM FINALIZAÇÃO NO ÂNGULO"
+},
+{
+"c": "TV Palmeiras Sportingbet",
+"f": "2026-11-23",
+"id": "rcL5bLKUUl4",
+"t": "VINICUIS EMPATA O DERBY EM JOGADA INDIVIDUAL"
+},
+{
+"c": "TV Palmeiras Sportingbet",
 "f": "2026-11-21",
 "id": "N_AWq5WGLig",
 "t": "💪 TREINO INTENSO NO FERIADÃO!🔥"
@@ -9245,24 +9263,6 @@
 "f": "2026-11-16",
 "id": "4VJVFBhN6N4",
 "t": "AO VIVO | CHAPECOENSE X PALMEIRAS | PRÉ-JOGO E NARRAÇÃO"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-11-16",
-"id": "BqbW6BcOZ7s",
-"t": "FABIANO FALA SOBRE SUA EXPERIÊNCIA NO ELENCO PROFISSIONAL DO PALMEIRAS 💚"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-11-15",
-"id": "hnGkXgGRYXU",
-"t": "ELES FERIRAM O LEÃO... 😤 OLHA O DISCURSO NO VESTIÁRIO ANTES DA VIRADA HISTÓRICA!"
-},
-{
-"c": "TV Palmeiras Sportingbet",
-"f": "2026-11-15",
-"id": "gxy2pwbfTd8",
-"t": "AGORA É BRASILEIRÃO!"
 }
 ],
 "Paris FC": [
@@ -9524,6 +9524,12 @@
 "RB Leipzig": [
 {
 "c": "RB Leipzig",
+"f": "2026-11-22",
+"id": "23VO0OsKKRs",
+"t": "Five different Scorers run riot in Berlin! | Union Berlin - RB Leipzig | Bundesliga Highlights"
+},
+{
+"c": "RB Leipzig",
 "f": "2026-11-19",
 "id": "5sQ94H7z4OI",
 "t": "„Uns erwartet eine brutale Stimmung.\" | PK vor Union Berlin - RB Leipzig | Bundesliga"
@@ -9755,12 +9761,6 @@
 "f": "2026-10-30",
 "id": "ciDnsK0mmAw",
 "t": "UP CLOSE in the Youth League vs Real Madrid! 🎬 | U19 Documentary - Episode 3"
-},
-{
-"c": "RB Leipzig",
-"f": "2026-10-30",
-"id": "RpeU1QMayzU",
-"t": "Christo with 4 🅰️🅰️🅰️🅰️ssists in one half 😤"
 }
 ],
 "Real Betis": [
@@ -12428,6 +12428,12 @@
 "São Paulo": [
 {
 "c": "São Paulo FC",
+"f": "2026-11-23",
+"id": "WyowtpUaquE",
+"t": "DIRETO DO CT: 22/11/2026 | SPFC PLAY"
+},
+{
+"c": "São Paulo FC",
 "f": "2026-11-21",
 "id": "ORXwLHtdufE",
 "t": "DIRETO DO CT: 21/11/2026 | SPFC PLAY"
@@ -12659,12 +12665,6 @@
 "f": "2026-10-19",
 "id": "PMZKwwqxzSM",
 "t": "BASTIDORES: SÃO PAULO 1 x 0 VASCO | BRASILEIRÃO 2026"
-},
-{
-"c": "São Paulo FC",
-"f": "2026-10-18",
-"id": "iUhKGXrI8fA",
-"t": "NARRAÇÃO AO VIVO: SÃO PAULO X VASCO | BRASILEIRÃO 2026 - (31ª RODADA)"
 }
 ],
 "Tottenham Hotspur": [
@@ -13184,6 +13184,12 @@
 },
 {
 "c": "Werder Bremen",
+"f": "2026-11-22",
+"id": "d65QMxkBQrU",
+"t": "DIE NUMMER 1 IM NORDEN SIND WIR! I Highlights und Stimmen I SV Werder Bremen vs. Hamburger SV"
+},
+{
+"c": "Werder Bremen",
 "f": "2026-11-20",
 "id": "uQwENmCJyCo",
 "t": "Pressekonferenz vor dem Nordderby I SV Werder Bremen - Hamburger SV"
@@ -13385,12 +13391,6 @@
 "f": "2026-09-26",
 "id": "KjxMNR1kYuc",
 "t": "Werder Legenden - Real Madrid Leyendas (HL)"
-},
-{
-"c": "Werder Bremen",
-"f": "2026-09-26",
-"id": "oHTuyyP0gI8",
-"t": "100 JAHRE WESERSTADION! I AFTER-MATCH-SHOW"
 }
 ],
 "Willem II": [
