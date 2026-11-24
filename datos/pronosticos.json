@@ -38460,6 +38460,25 @@
 "pv": 0.3194,
 "v": "OFI Heraklion"
 },
+"superleague|2027-02-06|kalamata|paok saloniki": {
+"btts": 0.5384,
+"clave_l": "Kalamata",
+"clave_liga": "superleague",
+"clave_v": "PAOK Saloniki",
+"fecha": "2027-02-06",
+"l": "Kalamata",
+"liga": "Super League",
+"marcador": "0-2",
+"o15": 0.8648,
+"o25": 0.6668,
+"o35": 0.4489,
+"p_marcador": 0.1075,
+"pe": 0.1689,
+"pl": 0.0935,
+"publicado": "2026-11-24T02:20Z",
+"pv": 0.7376,
+"v": "PAOK Saloniki"
+},
 "superleague|2027-02-06|olympiakos piraeus|asteras tripolis": {
 "btts": 0.4182,
 "clave_l": "Olympiakos Piraeus",
