@@ -25179,6 +25179,25 @@
 "pv": 0.3093,
 "v": "Aberdeen FC"
 },
+"premiership|2027-01-23|falkirk|heart of midlothian": {
+"btts": 0.5923,
+"clave_l": "Falkirk FC",
+"clave_liga": "premiership",
+"clave_v": "Heart of Midlothian",
+"fecha": "2027-01-23",
+"l": "Falkirk FC",
+"liga": "Premiership",
+"marcador": "1-1",
+"o15": 0.8127,
+"o25": 0.577,
+"o35": 0.353,
+"p_marcador": 0.1185,
+"pe": 0.2531,
+"pl": 0.2348,
+"publicado": "2026-11-25T05:29Z",
+"pv": 0.5121,
+"v": "Heart of Midlothian"
+},
 "premiership|2027-01-23|hibernian|kilmarnock": {
 "btts": 0.5408,
 "clave_l": "Hibernian FC",
@@ -25235,6 +25254,25 @@
 "publicado": "2026-11-22T00:27Z",
 "pv": 0.0752,
 "v": "Saint Johnstone"
+},
+"premiership|2027-01-24|st mirren|celtic": {
+"btts": 0.4948,
+"clave_l": "St. Mirren FC",
+"clave_liga": "premiership",
+"clave_v": "Celtic FC",
+"fecha": "2027-01-24",
+"l": "St. Mirren FC",
+"liga": "Premiership",
+"marcador": "0-2",
+"o15": 0.7816,
+"o25": 0.5332,
+"o35": 0.3105,
+"p_marcador": 0.1189,
+"pe": 0.2283,
+"pl": 0.1361,
+"publicado": "2026-11-25T05:29Z",
+"pv": 0.6356,
+"v": "Celtic FC"
 },
 "premier|2026-08-23|brighton|aston villa": {
 "clave_l": "Brighton",
