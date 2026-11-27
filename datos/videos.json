@@ -2,6 +2,12 @@
 "brasileirao": [
 {
 "c": "CazéTV",
+"f": "2026-11-27",
+"id": "lwy1aTGEzxw",
+"t": "JOGO COMPLETO: OLYMPIAKOS X MILAN | EUROPA LEAGUE 26/27 | 5ª RODADA"
+},
+{
+"c": "CazéTV",
 "f": "2026-11-26",
 "id": "smPaYW6Jx40",
 "t": "TOP 5 GOLAÇOS DO PALMEIRAS NA LIBERTADORES 2026!"
@@ -41,6 +47,90 @@
 "f": "2026-11-26",
 "id": "0yEpIvTk5Ts",
 "t": "COPA DAVIS 2026 | ÁUSTRIA X ESPANHA | FINAL 8"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-26",
+"id": "h-fp2h7UOns",
+"t": "JOGO COMPLETO (SOM AMBIENTE): BORAC X ATALANTA | CONFERENCE LEAGUE 26/27 | 4ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-26",
+"id": "dASnIbujkBc",
+"t": "JOGO COMPLETO (SOM AMBIENTE): CSKA SOFIA X TRABZONSPOR | CONFERENCE LEAGUE 26/27 | 4ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-26",
+"id": "Jtqi_cW0EJM",
+"t": "JOGO COMPLETO (SOM AMBIENTE): TORREENSE X CELTIC | EUROPA LEAGUE 26/27 | 5ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-26",
+"id": "mNtB4XCk1NE",
+"t": "JOGO COMPLETO (SOM AMBIENTE): NORDSJAELLAND X PANATHINAIKOS | CONFERENCE LEAGUE 26/27 | RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-26",
+"id": "9lcWYyhlTVQ",
+"t": "JOGO COMPLETO (SOM AMBIENTE): BRAGA X KUPS | CONFERENCE LEAGUE 26/27 | 4ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-26",
+"id": "pqGgFfGUcFU",
+"t": "JOGO COMPLETO (SOM AMBIENTE): FREIBURG X TWENTE | CONFERENCE LEAGUE 26/27 | 4ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-26",
+"id": "uko5Zl0zG74",
+"t": "JOGO COMPLETO (SOM AMBIENTE): NEC NIJMEGEN X RENNES | EUROPA LEAGUE 26/27 | 5ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-26",
+"id": "o0EY4-WeIDI",
+"t": "PALMEIRAS DESEMBARCA NO URUGUAI E INICIA A PREPARAÇÃO PARA A FINAL | GERAL CAZÉTV"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-26",
+"id": "IkGMOSuXR-I",
+"t": "Curta se você quer passar de ano 👍"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-26",
+"id": "iq_gzQQ6c0s",
+"t": "AS MELHORES ASSISTÊNCIAS DO PALMEIRAS NA LIBERTADORES 2026"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-26",
+"id": "dcqplC7PARo",
+"t": "MELHORES MOMENTOS: JUVENTUS 4 x 1 OMONIA | EUROPA LEAGUE 26/27 | 4ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-26",
+"id": "GPrWufrt-MA",
+"t": "MELHORES MOMENTOS: CRYSTAL PALACE 2 X 1 REAL SOCIEDAD | EUROPA LEAGUE 26/27 | 5ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-26",
+"id": "QLMYhEXsyYY",
+"t": "JOGO COMPLETO: HEARTS X MÔNACO | CONFERENCE LEAGUE 26/27 | 4ª RODADA"
+},
+{
+"c": "CazéTV",
+"f": "2026-11-26",
+"id": "zaT0xVett8U",
+"t": "JOGO COMPLETO: CRYSTAL PALACE X REAL SOCIEDAD | EUROPA LEAGUE 26/27 | 5ª RODADA"
 },
 {
 "c": "CazéTV",
@@ -1005,50 +1095,8 @@
 {
 "c": "CazéTV",
 "f": "2026-11-18",
-"id": "h-fp2h7UOns",
-"t": "AO VIVO (SOM AMBIENTE): BORAC X ATALANTA | CONFERENCE LEAGUE 26/27 | 4ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-11-18",
-"id": "dASnIbujkBc",
-"t": "AO VIVO (SOM AMBIENTE): CSKA SOFIA X TRABZONSPOR | CONFERENCE LEAGUE 26/27 | 4ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-11-18",
 "id": "QrOM2f9cwzA",
 "t": "AO VIVO (SOM AMBIENTE): LYON X LILLESTRØM | EUROPA LEAGUE 26/27 | 5ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-11-18",
-"id": "Jtqi_cW0EJM",
-"t": "AO VIVO (SOM AMBIENTE): TORREENSE X CELTIC | EUROPA LEAGUE 26/27 | 5ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-11-18",
-"id": "mNtB4XCk1NE",
-"t": "AO VIVO (SOM AMBIENTE): NORDSJAELLAND X PANATHINAIKOS | CONFERENCE LEAGUE 26/27 | RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-11-18",
-"id": "9lcWYyhlTVQ",
-"t": "AO VIVO (SOM AMBIENTE): BRAGA X KUPS | CONFERENCE LEAGUE 26/27 | 4ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-11-18",
-"id": "pqGgFfGUcFU",
-"t": "AO VIVO (SOM AMBIENTE): FREIBURG X TWENTE | CONFERENCE LEAGUE 26/27 | 4ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-11-18",
-"id": "uko5Zl0zG74",
-"t": "AO VIVO (SOM AMBIENTE): NEC NIJMEGEN X RENNES | EUROPA LEAGUE 26/27 | 5ª RODADA"
 },
 {
 "c": "CazéTV",
@@ -5351,54 +5399,6 @@
 "f": "2026-10-10",
 "id": "Oc6U8fxmp9o",
 "t": "A EVOLUÇÃO DO TÊNIS FEMININO E ATÉ ONDE VAI DJOKOVIC? | QUADRA ABERTA"
-},
-{
-"c": "CazéTV",
-"f": "2026-10-10",
-"id": "38asoGWyiQ0",
-"t": "JOGO COMPLETO: CAZÉTV X FUTEBOL GLOBO CBN | COPA ACERJ 2026 | SEMIFINAL"
-},
-{
-"c": "CazéTV",
-"f": "2026-10-10",
-"id": "sT_wb63eDVo",
-"t": "JOGO COMPLETO: MÁLAGA X ESPANYOL | LALIGA 26/27 | 8ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-10-10",
-"id": "G_qtPluIuVM",
-"t": "MELHORES MOMENTOS: CAZÉTV FC 5 X 2 RÁDIO GLOBO/CBN | SEMIFINAL | COPA ACERJ 2026"
-},
-{
-"c": "CazéTV",
-"f": "2026-10-10",
-"id": "fe3gGc6UD0g",
-"t": "JUDÔ | BEATRIZ SOUZA E TIME BRASIL NO MUNDIAL DE BAKU 2026 | QUALIFICATÓRIAS | 7º DIA"
-},
-{
-"c": "CazéTV",
-"f": "2026-10-10",
-"id": "ykl-XVRHMag",
-"t": "TÊNIS DE MESA: HUGO CALDERANO X FELIX LEBRUM NO CHINA SMASH 2026 | QUARTAS DE FINAL"
-},
-{
-"c": "CazéTV",
-"f": "2026-10-10",
-"id": "tp8dV7ZsXlk",
-"t": "JUDÔ | TIME BRASIL NO MUNDIAL DE BAKU 2026 | FINAIS | 7º DIA"
-},
-{
-"c": "CazéTV",
-"f": "2026-10-10",
-"id": "tHSIAa4kbcc",
-"t": "JOGO COMPLETO: RAYO VALLECANO X ATHLETIC BILBAO | LALIGA 26/27 | 8ª RODADA"
-},
-{
-"c": "CazéTV",
-"f": "2026-10-10",
-"id": "JgWEeUUVies",
-"t": "COMPACTO: BARCELONA X GETAFE | LALIGA 26/27 | 8ª RODADA"
 }
 ],
 "bundesliga": [
@@ -10469,6 +10469,36 @@
 "f": "2026-11-26",
 "id": "7SFCVNYdVPk",
 "t": "Voor slechts 4,4 miljoen zit hij al in jouw team... 👀"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-26",
+"id": "INTUFRVYEeM",
+"t": "N.E.C. blijft EUROPESE ploegen VERBAZEN & LINSSEN blinkt UIT 👏 | Voetbalpraat"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-26",
+"id": "XVzNzKom1Tk",
+"t": "TELEURSTELLING rondom opnieuw disciplinair GESCHORSTE DELÉ THOMAS 😒 | Voetbalpraat"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-26",
+"id": "kU_7ZxpHHb4",
+"t": "Bryan Linssen zit er lekker in met vijf goals in vijf Europa League-wedstrijden ✨😁"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-26",
+"id": "6mCL9wI7X1c",
+"t": "Hét moment van de wedstrijd: een NIET gemaakte overtreding 👀❌ | Voetbalpraat"
+},
+{
+"c": "ESPN NL",
+"f": "2026-11-26",
+"id": "lGQ39bND3mE",
+"t": "Rayane Bounida had voor de wedstrijd contact met de geblesseerde Jorthy Mokio 📱"
 },
 {
 "c": "ESPN NL",
@@ -15791,36 +15821,6 @@
 "f": "2026-10-08",
 "id": "NbQA9kAh8TQ",
 "t": "Jacob Trenskow ging naar 'het zuiden van Nederland'... een park net buiten Hengelo 😅"
-},
-{
-"c": "ESPN NL",
-"f": "2026-10-08",
-"id": "Aub05qjv_Q8",
-"t": "ONVREDE over LANGE INTERLANDPERIODE 🌎🤨 | Voetbalpraat"
-},
-{
-"c": "ESPN NL",
-"f": "2026-10-08",
-"id": "_CouXdxEnXQ",
-"t": "Feyenoord - AZ: 🦁 Oranje-prikkel Mexx Meerdink of trekt Feyenoord goede vorm door? 📈 | Voetbalpraat"
-},
-{
-"c": "ESPN NL",
-"f": "2026-10-07",
-"id": "_ZsnQR1xvPo",
-"t": "ARGENTINIË-BONDSCOACH Lionel SCALONI over AFSCHEID LIONEL MESSI 🥹"
-},
-{
-"c": "ESPN NL",
-"f": "2026-10-07",
-"id": "2Uqjpa91iAA",
-"t": "MOEILIJKE KEUZE voor XAVI en REIZIGER: \"Moeten zich ook zonder ZECHIËL en VAN BOMMEL kwalificeren\""
-},
-{
-"c": "ESPN NL",
-"f": "2026-10-07",
-"id": "nfy11kAVIdY",
-"t": "Openhartige Victoria Pelova vertelt hoe ze omgaat met het overlijden van haar moeder ❤️"
 }
 ],
 "laliga": [
@@ -15865,6 +15865,12 @@
 "f": "2026-11-26",
 "id": "JQAppl6vtGE",
 "t": "Los 18 MINUTOS FINALES del REAL MADRID con UNO MENOS | LALIGA EA SPORTS"
+},
+{
+"c": "LALIGA EA SPORTS",
+"f": "2026-11-26",
+"id": "vlWKivS7kJw",
+"t": "¡Vaya dupla la de IKER LUQUE y YASSIR ZABIRI!"
 },
 {
 "c": "LALIGA EA SPORTS",
@@ -21217,12 +21223,6 @@
 "f": "2026-09-16",
 "id": "COUhjMB6-qw",
 "t": "❤️ Miguel Sierra ❤️"
-},
-{
-"c": "LALIGA EA SPORTS",
-"f": "2026-09-16",
-"id": "HVNiacEfvxA",
-"t": "Doble parada de Aitor Fernández. 👀"
 }
 ],
 "ligue1": [
@@ -24664,7 +24664,7 @@
 "c": "Premier League",
 "f": "2026-11-25",
 "id": "yI9E-PuCmOM",
-"t": "From Kick-Off To Goal In 15 Seconds Or Less!"
+"t": "Goals From Kick-Off That Get Quicker And Quicker"
 },
 {
 "c": "Premier League",
