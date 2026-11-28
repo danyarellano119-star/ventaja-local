@@ -14801,6 +14801,25 @@
 "pv": 0.1617,
 "v": "Zwolle"
 },
+"eredivisie|2027-02-13|sbv excelsior|ajax": {
+"btts": 0.6095,
+"clave_l": "SBV Excelsior",
+"clave_liga": "eredivisie",
+"clave_v": "AFC Ajax",
+"fecha": "2027-02-13",
+"l": "Excelsior",
+"liga": "Eredivisie",
+"marcador": "1-1",
+"o15": 0.8208,
+"o25": 0.5894,
+"o35": 0.3654,
+"p_marcador": 0.1182,
+"pe": 0.2547,
+"pl": 0.2579,
+"publicado": "2026-11-28T03:59Z",
+"pv": 0.4873,
+"v": "Ajax"
+},
 "eredivisie|2027-02-13|telstar|heerenveen": {
 "btts": 0.5689,
 "clave_l": "Telstar 1963",
@@ -32544,6 +32563,25 @@
 "publicado": "2026-11-08T06:17Z",
 "pv": 0.1115,
 "v": "Santa Clara"
+},
+"primeira|2027-01-17|alverca|porto": {
+"btts": 0.3999,
+"clave_l": "FC Alverca",
+"clave_liga": "primeira",
+"clave_v": "FC Porto",
+"fecha": "2027-01-17",
+"l": "Alverca",
+"liga": "Primeira Liga",
+"marcador": "0-2",
+"o15": 0.7322,
+"o25": 0.4681,
+"o35": 0.2524,
+"p_marcador": 0.1473,
+"pe": 0.2218,
+"pl": 0.0972,
+"publicado": "2026-11-28T03:59Z",
+"pv": 0.681,
+"v": "Oporto"
 },
 "primeira|2027-01-17|casa pia|cs maritimo": {
 "btts": 0.4923,
